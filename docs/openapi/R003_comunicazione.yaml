@@ -1,0 +1,125 @@
+openapi: 3.0.0
+info:
+  title: Servizi cooperativi per le comunicazioni ad altri enti
+  version: '1.4.0'
+servers:
+  - url: https://anscservice.anpr.interno.it/services/service/comunicazioni
+    description: Servizio di produzione      
+  - url: https://anscservicepre.anpr.interno.it/services/service/comunicazioni
+    description: Servizio di preproduzione
+  - url: http://localhost:8091
+    description: Servizio mock locale
+paths:
+  /comunicazione/{version}:
+    post:
+      description: Servizio che dato un id evento recupera gli eventuali artefatti delle comunicazioni verso altri enti generati in precedenza dal sistema.
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string
+      requestBody:
+         required: true
+         content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ComunicazioneRequest'          
+      responses:
+       200:
+          description: Successo. Elenco delle comunicazioni associate con l'evento
+          content:
+            application/json:
+             schema:
+                 $ref: '#/components/schemas/ComunicazioneResponse'
+       400:
+         description: Id dell'evento non valido
+         content:
+           application/json:
+             schema:
+                 $ref: '#/components/schemas/ComunicazioneResponse'
+       403:
+         description: Non autorizzato
+         content:
+           application/json:
+             schema:
+                 $ref: '#/components/schemas/ComunicazioneResponse'
+components:
+  schemas:
+    ModelComunicazione:
+      properties:
+        id:
+          type: string
+          description: ID della Comunicazionee
+          example: "432"
+        idAnsc:
+          type: string
+          description: Id Ansc
+        idEvento:
+          type: string
+          description: Id Evento
+        idTipoComunicazione:
+          type: string
+          description: Id tipo Comunicazione (codificato ANSC_26)
+        contenuto:
+          type: string
+          format: base64
+          description: Il file in formato base64
+          example: "RmFpIGNvbnRvIGNoZSBzaWEgdW4gZmlsZQ=="
+        nomeDocumento:
+          type: string
+          description: nome del file
+          example: "Dichiarazione di Nascita"
+        formatoDocumento:
+          type: string
+          description: formato del file
+          example: "pdf"
+        protocollo:
+          type: string
+          description: Protocollo della comunicazione
+          example: "4A2E3432"
+        nomeComuneCreazione:  
+          type: string
+          description: Nome comune di registrazione
+          example: "ARONA" 
+        descSoggettoIntestatario:  
+          type: string
+          description: Nome e cognome del soggetto intestatario
+          example: "Mario Rossi"
+        dataIns:  
+          type: string
+          description: Data di inserimento
+          example: "2022-06-21"
+        dataFineValidita:  
+          type: string
+          description: Data di fine Validità
+          example: "2022-06-21"
+        riferimentoFile:  
+          type: string
+          description: Riferimento file
+          example: "2025921"  
+        descrizione:  
+          type: string
+          description: Descrizione Comunicazione
+          example: "2025921" 
+    ComunicazioneRequest:
+      description: Richiesta del servizio specializzato per la ricerca delle comunicazioni
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:
+            idAnsc:
+              type: string
+              description: Id ansc
+              example: "43676"
+    ComunicazioneResponse:
+      description: Ritorno del servizio specializzato per la ricerca delle comunicazioni
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:         
+            comunicazioni:
+              type: array
+              items:
+                $ref: '#/components/schemas/ModelComunicazione' 

@@ -1,0 +1,251 @@
+openapi: 3.0.0
+info:
+  title: Servizio di gestione file allegati
+  version: '1.4.0'
+servers:
+  - url: https://anscservice.anpr.interno.it/services/service/doc
+    description: Servizio di produzione      
+  - url: https://anscservicepre.anpr.interno.it/services/service/doc
+    description: Servizio di preproduzione
+  - url: http://localhost:8081
+    description: Servizio mock locale
+paths:
+  /allegato/upload/{version}:
+    post:
+      description: Caricamento del file allegato
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: Versione del servizio
+          schema:
+            type: string
+      requestBody:
+         required: true
+         content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AllegatoUploadRequest'
+      responses:
+       200:
+          description: Successo
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/AllegatoUploadResponse'
+       403:
+         description: Non autorizzato
+         content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/AllegatoUploadResponse'
+       400:
+         description: Se non arriva un file valido (deve essere diverso da null)
+         content:
+           application/json:
+              schema:
+                 $ref: '#/components/schemas/AllegatoUploadResponse'
+       413:
+         description: La dimensione del file supera i limiti del sistema
+         content:
+           application/json:
+              schema:
+                 $ref: '#/components/schemas/AllegatoUploadResponse'
+
+  /allegato/{version}:
+    post:
+      description: Recupera tutti i dati del file allegato, compreso il contenuto 
+      parameters: 
+        - name: version
+          in: path
+          required: true
+          description: Versione del servizio
+          schema:
+            type: string
+      requestBody:
+         required: true
+         content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AllegatoRequest'
+      responses:
+       200:
+          description: Successo
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/AllegatoResponse'
+       403:
+         description: Non autorizzato
+         content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/AllegatoResponse'
+       404:
+         description: Non trovato
+         content:
+           application/json:
+              schema:
+                 $ref: '#/components/schemas/AllegatoResponse'
+     
+  /allegato/verifica/{version}:
+    post:
+      description: Servizio leggero per ottenere lo stato corrente dell'allegato
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: Versione del servizio
+          schema:
+            type: string
+      requestBody:
+         required: true
+         content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AllegatoVerificaRequest'
+      responses:
+       200:
+          description: Successo
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/AllegatoVerificaResponse'
+       403:
+         description: Non autorizzato
+         content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/AllegatoVerificaResponse'
+       404:
+         description: Non trovato
+         content:
+           application/json:
+              schema:
+                 $ref: '#/components/schemas/AllegatoVerificaResponse'
+
+components:
+  schemas:
+    AllegatoInput:
+      description: Modello allegato per l'upload
+      properties:
+        contenuto:
+          type: string
+          format: base64
+          description: Il file in formato base64
+          example: "QU5TQw=="      
+        nomefile:
+          type: string
+          description: Nome del file
+          example: "nome_del_file.pdf"
+          minLength: 1
+          maxLength: 200
+          pattern: '^[a-zA-ZÀ-ž0-9 "'']$'
+        tipoFile:
+          type: string
+          description: Tipo del file (codificato ANSC_10)
+          example: "1"
+        tipoAllegato:
+          type: string
+          description: Tipo dell'allegato (codificato ANSC_9)
+          example: "1"      
+    AllegatoOutput:
+      description: Modello allegato restituito dal sistema 
+      properties:
+        idAllegato:
+          type: string
+          description: Id del file assegnato dal sistema
+          example: "43676"
+        statoAllegato:
+          type: string
+          description: Stato corrente dell'allegato (codificato ANSC_8)
+          example: "1"
+        contenuto:
+          type: string
+          format: base64
+          description: Il file in formato base64
+          example: "QU5TQw=="
+        idDocumentum:
+          type: string
+          description: ID Documentum assegnato al file
+          example: "26115"
+        nomefile:
+          type: string
+          description: Nome del file
+          example: "nome_del_file.pdf"
+        tipoFile:
+          type: string
+          description: Tipo del file (codificato ANSC_10)
+          example: "1"
+        tipoAllegato:
+          type: string
+          description: Tipo dell'allegato (codificato ANSC_9)
+          example: "1"
+        hash:
+          description: "Hash del file calcolato dal sistema (nota: definire l'algoritmo, per es: SHA1)"
+          type: string
+          example: "21d305c42509"
+        codice:
+          type: string
+          description: codice
+          example: "200"
+        descrizione:
+          type: string
+          description: descrizione del codice
+          example: "SUCCESS"
+        tipologia:
+          type: string
+          description: errore del servizio
+          example: "errore"
+    AllegatoUploadRequest:
+      description: Dati dell'allegato inviato
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:         
+            allegatoInput:
+                $ref: '#/components/schemas/AllegatoInput'
+    AllegatoUploadResponse:
+      description: Dati dell'allegato restituito dal servizio
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:         
+            allegatoOutput:
+                $ref: '#/components/schemas/AllegatoOutput'         
+    AllegatoRequest:
+      description: Dati dell'allegato inviato
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:         
+            idAllegato:
+              type: string
+              description: Id del file assegnato dal sistema
+              example: "43676"
+    AllegatoResponse:
+      description: Dati dell'allegato restituito dal servizio
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:         
+            allegatoOutput:
+                $ref: '#/components/schemas/AllegatoOutput'         
+    AllegatoVerificaRequest:
+      description: Dati dell'allegato inviato
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:         
+            idAllegato:
+              type: string
+              description: Id del file assegnato dal sistema
+              example: "43676"
+    AllegatoVerificaResponse:
+      description: Dati dell'allegato restituito dal servizio
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:         
+            allegatoOutput:
+                $ref: '#/components/schemas/AllegatoOutput'                 

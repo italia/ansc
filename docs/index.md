@@ -1,0 +1,11 @@
+[Home](../../README.md)
+
+# Documentazione
+
+* [Changelog.md](Changelog.md)
+* [ReleaseNotes.md](ReleaseNotes.md)
+* Contratto di servizio [OpenAPI](openapi/index.md) e [PDF](Caratteristiche_servizi/index.md) 
+* [Esempi dei payload](CasiTest/index.md)
+* [Decodifiche](Decodifiche/index.md)
+* [Mapping_casi_uso](Mapping_casi_uso)
+* [Note](Note/index.md)

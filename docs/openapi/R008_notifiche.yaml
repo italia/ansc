@@ -1,0 +1,218 @@
+openapi: 3.0.0
+info:
+  title: Servizi cooperativi per le notifiche ai comuni
+  version: '1.4.0'  
+servers:
+  - url: https://anscservice.anpr.interno.it/services/service/notifiche
+    description: Servizio di produzione      
+  - url: https://anscservicepre.anpr.interno.it/services/service/notifiche
+    description: Servizio di preproduzione
+  - url: http://localhost:8084
+    description: Servizio mock locale
+paths:
+  /notifiche/ricerca/{version}:
+     post:
+       description: Ricerca delle notifiche di un comune
+       parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string
+       requestBody:
+         required: true
+         content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NotificheRicercaRequest'
+       responses:
+        200:
+          description: Successo
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/NotificheRicercaResponse'
+        403:
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/NotificheRicercaResponse'
+        400:
+          description: Se non arrivano valori validi
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/NotificheRicercaResponse'
+      
+  /notifiche/getNotificheByEvento/{version}:
+    post:
+      tags:
+      - Notifiche service
+      summary: restituzione notifiche per evento
+      operationId: getNotificheByEvento
+      parameters:
+      - name: version
+        in: path
+        description: Versione del servizio
+        required: true
+        schema:
+          type: string
+      requestBody:
+        description: Body della richiesta
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GetNotificheByEventoRequest'
+        required: true
+      responses:
+        "200":
+          description: Successo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetNotificheByEventoResponse'
+        "403":
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetNotificheByEventoRequest'
+components:
+  schemas:       
+    ModelSoggettoRicerca:
+      properties:
+        idAnpr:
+          type: string
+          description: Id Anpr
+          example: "1AFD4"
+        idAnscSoggetto:
+          type: string
+          description: Id Ansc    
+          example: "43434"
+        codiceFiscale: 
+          type: string
+          description: codice fiscale
+          example: 'PNUFDN87C13F103O'          
+        cognome: 
+          type: string
+          description: Cognome
+          example: 'CognomeNato'          
+        nome: 
+          type: string
+          description: Nome
+          example: 'UNO'
+        sesso: 
+          type: string
+          description: Sesso
+          example: 'f'
+        idComuneNascita: 
+          type: string
+          description: Identificativo del comune nascita (come da archivio comuni ANPR_3), da fornire in alternativa a nomeComuneNascita e siglaProvinciaNascita
+          example: '2780'            
+        nomeComuneNascita: 
+          type: string
+          description: descrizione del Comune di Nascita, da fornire se non viene valorizato l'idComuneNascita
+          example: 'ROMA'          
+        siglaProvinciaNascita: 
+          type: string
+          description: Sigla della provincia di Nascita, da fornire se non viene valorizato l'idComuneNascita
+          example: 'RM'
+        codiceStatoNascita: 
+          type: string
+          description: Codice dello stato di nascita (dall'archivio degli stati nascita ANPR_02), da fornire in caso di mancanza di dati comunali
+          example: '100'          
+        nomeStatoNascita: 
+          type: string
+          description: Nome dello Stato di Nascita, da fornire in caso di mancanza di dati comunali
+          example: 'ITALIA'
+        datanascita: 
+          type: string
+          description: Data Di Nascita
+          example: '2020-01-01'           
+    CriteriRicercaNotifiche:
+      properties:
+        dataInizio:
+          type: string
+          format: date
+          description: Estremo iniziale dell'intervallo della ricerca
+          example: '2022-03-22'
+        dataFine:
+          type: string
+          format: date
+          description: Estremo finale dell'intervallo della ricerca
+          example: '2022-03-25'
+        idAnsc:
+          type: string
+          description: Identificativo dell'evento 
+          example: '2022-23525-3523-33A'
+        idTipoEvento:
+          type: string
+          description: Identificativo del tipo di evento (decodifica ANSC_01) 
+          example: '2'   
+        idTipoContenuto:
+          type: string
+          description: Identificativo del tipo di contenuto decodifica ANSC_02) 
+          example: '3'      
+        soggettoRicerca:
+          $ref: '#/components/schemas/ModelSoggettoRicerca'
+
+    GetNotificheByEventoRequest:
+      description: Richiesta del servizio di ricerca notifiche per evento.
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:
+            idAnsc:
+              description: Identificativo dell'evento
+              type: string
+              example: 2022-23525-3523-33A
+    GetNotificheByEventoResponse:
+      description: Risposta del servizio di ricerca notifiche per evento.
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:
+            notifiche:
+              type: array
+              items:
+                $ref: '#/components/schemas/ModelNotifica'
+    ModelNotifica:
+      properties:   
+        idEvento:
+          type: string
+          description: Identificativo evento Ansc
+        idComuneFormazione:
+          type: string
+          description: Identificativo comune formazione
+        idComuneCompetente:
+          type: string
+          description: Identificativo comune competente
+        idSoggettoRif:
+          type: string
+          description: Identificativo soggetto di riferimento
+        dataInizioValidita:
+          type: string
+          description: data di inizio validita
+        dataFineValidita:
+          type: string
+          description: data di fine validita
+    NotificheRicercaRequest:
+      description: Ritorno del servizio specializzato per la configurazione dei pannelli
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:         
+            criteriRicercaNotifiche:
+                $ref: '#/components/schemas/CriteriRicercaNotifiche'
+    NotificheRicercaResponse:
+      description: Ritorno del servizio specializzato per la configurazione dei pannelli
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:         
+            notifiche:
+              type: array
+              items:
+                $ref: '#/components/schemas/ModelNotifica'

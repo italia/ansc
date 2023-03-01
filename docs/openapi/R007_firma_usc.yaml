@@ -1,0 +1,97 @@
+openapi: 3.0.0
+info:
+  title: Servizi cooperativi per firma USC
+  version: '1.4.0'  
+servers:
+  - url: https://anscservice.anpr.interno.it/services/service/firma
+    description: Servizio di produzione      
+  - url: https://anscservicepre.anpr.interno.it/services/service/firma
+    description: Servizio di preproduzione
+  - url: http://localhost:8087
+    description: Servizio mock locale
+paths:
+  '/firma_usc/{version}':
+    post:
+      description: Firma remota Ufficiale Stato Civile
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/FirmaRequest'
+      responses:
+        '200':
+          description: Successo
+          content: 
+            application/json: 
+              schema: 
+                $ref: '#/components/schemas/FirmaResponse'
+        '400':
+          description: Se non arriva un evento valido
+          content: 
+            application/json: 
+             schema: 
+                $ref: '#/components/schemas/FirmaResponse'
+        '403':
+          description: Non autorizzato
+          content: 
+            application/json: 
+             schema: 
+                $ref: '#/components/schemas/FirmaResponse'
+components:
+  schemas:
+    FirmaInput:
+      properties:
+        idEvento:
+          type: string
+          description: Id univoco dell'evento
+          example: '43676'
+        parametriFirma:
+          $ref: '#/components/schemas/ParametriFirma'
+    ParametriFirma:
+      properties:
+        idTipoFirma:
+          type: string
+          description: Identificativo tipo firma (codificato ANSC_28), da notare che i parametri di input obbligatori potrebbero cambiare nel tempo a seconda del fornitre del servizio di firma remota
+          example: "1"
+        idModalitaInput:
+          type: string
+          description: Modalita' invio input, '1' - In chiaro, '2' - base64, il valore di default se non impostato e' '1', il valore '1' non sara' accettato in produzione
+          example: "2"
+        inputFirma1:
+          type: string
+          description: Primo input per la firma (es. TestUser)
+          example: "VGVzdFVzZXI="
+        inputFirma2:
+          type: string
+          description: Secondo input per la firma (es. TestPassword)
+          example: "VGVzdFBhc3N3b3Jk"
+        inputFirma3:
+          type: string
+          description: Terzo input per la firma (es. TestOtp)
+          example: "VGVzdE90cA=="
+    FirmaRequest:
+      description: Richiesta del servizio specializzato per la configurazione della firma
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:         
+            firmaInput:
+                $ref: '#/components/schemas/FirmaInput'
+    FirmaResponse:
+      description: Risposta del servizio specializzato per la configurazione della firma
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:         
+            idEsito:
+              type: number
+              description: Esito della firma
+              example: 0

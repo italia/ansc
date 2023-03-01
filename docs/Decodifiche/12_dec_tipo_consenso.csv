@@ -1,0 +1,5 @@
+"ID","DESCRIZIONE","DATAINIZIOVALIDITA","DATAFINEVALIDITA","ORDINAMENTO"
+"1","Consenso contestuale all'evento","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","1"
+"2","Consenso reso anteriormente davanti all'USC","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","2"
+"3","Consenso reso anteriormente davanti ad altro Pubblico Ufficiale","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","3"
+"4","Sentenza del tribunale dopo rifiuto consenso materno","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","4"

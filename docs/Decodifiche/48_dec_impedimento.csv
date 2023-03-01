@@ -1,0 +1,5 @@
+"ID","DESCRIZIONE","DATAINIZIOVALIDITA","DATAFINEVALIDITA","ORDINAMENTO"
+"0","Nessun impedimento","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","0"
+"1","Impedimento della parentela","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","1"
+"2","Impedimento di affinità","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","2"
+"3","Impedimento di affiliazione","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","3"

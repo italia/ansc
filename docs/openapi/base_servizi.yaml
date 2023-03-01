@@ -1,0 +1,132 @@
+openapi: 3.0.0
+info:
+  title: Schema dati open api generali per servizi ANSC
+  version: '1.0.1 beta'
+paths:
+  "/":
+    get:
+      description: Metodo di default
+      responses:
+        "200":
+          description: ok
+components:
+  schemas:
+    TestataRichiesta:
+      properties:
+        idComune:
+          type: number
+          description: Identificativo del comune (come da archivio comuni, ANPR_03) 
+          example: 2780
+        idOperazioneComune:
+          type: string
+          description: Identificativo dell'operazione scelto dal comune
+          example: "APP2022032210000"
+        dataOraRichiesta:
+          type: string
+          format: date-time
+          description: Data e ora della richiesta
+          example: "1"
+        nomeApplicativo:
+          description: Nome del gestionale comunale
+          type: string
+          example: 'Applicativo Demografico'
+        versioneApplicativo:
+          description: Versione del gestionale comunale
+          type: string
+          example: '1.0.0'
+        fornitoreApplicativo:
+          description: Fornitore del gesionale comunale
+          type: string
+          example: "Nome Fornitore"  
+    TestataRisposta:
+      properties:
+        idComune:
+          type: number
+          description: Identificativo del comune (come da archivio comuni, ANPR_03) 
+          example: 2780
+        idOperazioneComune:
+          type: string
+          description: Identificativo dell'operazione scelto dal comune
+          example: "APP2022032210000"
+        idOperazione:
+          type: string
+          description: Identificativo dell'operazione attribuito da ANSC
+          example: "432432423423"    
+        idEsito:
+          type: number
+          description: Esito dell'operazione
+          example: 0 
+          
+    DatiPaginazione:
+      description: In ingresso il valore di numRecordTotali dovrà essere 0 e verrà calcolato dal BE.
+      properties:
+        numPagina:
+          type: number
+          description: Identificativo della pagina attuale
+          example: 2
+        numRecordPagina:
+          type: number
+          description: Numero di record massimi in una pagina
+          example: 10
+        numRecordTotali:
+          type: number
+          description: Numero totali di elementi nella base dati per il calcolo delle pagine
+          example: 570    
+        
+    AnscRequest:
+      description: Richiesta ANSC da specializzare
+      properties:
+        testataRichiesta:
+          $ref: '#/components/schemas/TestataRichiesta'   
+        datiPaginazione:
+          $ref: '#/components/schemas/DatiPaginazione'   
+    AnscResponse:
+      description: Risposta ANSC da specializzare
+      properties:
+        testataRisposta:
+          $ref: '#/components/schemas/TestataRisposta'  
+        datiPaginazione:
+          $ref: '#/components/schemas/DatiPaginazione'   
+        errors:
+          type: array
+          items:
+            $ref: 'https://public-anpr.github.io/anpr-openapi/json/service_result.yaml#/components/schemas/ServiceMessage'
+        infos:
+          type: array
+          items:
+            $ref: 'https://public-anpr.github.io/anpr-openapi/json/service_result.yaml#/components/schemas/ServiceMessage'
+        success:
+          type: array
+          items:
+            $ref: 'https://public-anpr.github.io/anpr-openapi/json/service_result.yaml#/components/schemas/ServiceMessage'
+        warnings:
+          type: array
+          items:
+            $ref: 'https://public-anpr.github.io/anpr-openapi/json/service_result.yaml#/components/schemas/ServiceMessage'
+
+    WebAppRequest:
+      description: Richiesta WebApp da specializzare
+      properties:
+        datiPaginazione:
+          $ref: '#/components/schemas/DatiPaginazione'   
+    WebAppResponse:
+      description: Risposta WebApp da specializzare
+      properties:
+        datiPaginazione:
+          $ref: '#/components/schemas/DatiPaginazione'   
+        errors:
+          type: array
+          items:
+            $ref: 'https://public-anpr.github.io/anpr-openapi/json/service_result.yaml#/components/schemas/ServiceMessage'
+        infos:
+          type: array
+          items:
+            $ref: 'https://public-anpr.github.io/anpr-openapi/json/service_result.yaml#/components/schemas/ServiceMessage'
+        success:
+          type: array
+          items:
+            $ref: 'https://public-anpr.github.io/anpr-openapi/json/service_result.yaml#/components/schemas/ServiceMessage'
+        warnings:
+          type: array
+          items:
+            $ref: 'https://public-anpr.github.io/anpr-openapi/json/service_result.yaml#/components/schemas/ServiceMessage'

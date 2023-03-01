@@ -1,0 +1,20 @@
+[Home](../../README.md)
+
+# Elenco delle specifiche OpenAPI
+
+* [Codici d'errore.xlsx](Codici d'errore.xlsx)
+* [R001_allegato.yaml](R001_allegato.yaml)
+* [R002_certificazione.yaml](R002_certificazione.yaml)
+* [R003_comunicazione.yaml](R003_comunicazione.yaml)
+* [R004_consultazione_anpr.yaml](R004_consultazione_anpr.yaml)
+* [R005_consultazione_ansc.yaml](R005_consultazione_ansc.yaml)
+* [R006_firma_dichiarante.yaml](R006_firma_dichiarante.yaml)
+* [R007_firma_usc.yaml](R007_firma_usc.yaml)
+* [R008_notifiche.yaml](R008_notifiche.yaml)
+* [R009_validazione.yaml](R009_validazione.yaml)
+* [R010_anteprima.yaml](R010_anteprima.yaml)
+* [R011_cancellazione_atto.yaml](R011_cancellazione_atto.yaml)
+* [R012_firma_dichiarante_elettronica.yaml](R012_firma_dichiarante_elettronica.yaml)
+* [R013_rettifica_validazione.yaml](R013_rettifica_validazione.yaml)
+* [base_servizi.yaml](base_servizi.yaml)
+* [model_evento.yaml](model_evento.yaml)

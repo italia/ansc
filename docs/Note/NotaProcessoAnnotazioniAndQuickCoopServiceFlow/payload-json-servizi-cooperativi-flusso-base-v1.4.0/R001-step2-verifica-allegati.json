@@ -1,0 +1,11 @@
+{
+  "testataRichiesta": {
+        "idComune": {{idComune}},
+        "idOperazioneComune": "APP2022032210000",
+        "dataOraRichiesta": "{{dataOraRichiesta}}",
+        "nomeApplicativo": "{{nomeApplicativo}}",
+        "versioneApplicativo": "{{versioneApplicativo}}",
+        "fornitoreApplicativo": "{{fornitoreApplicativo}}"
+  },
+  "idAllegato": "{{idAllegatoFlusso01}}"
+}

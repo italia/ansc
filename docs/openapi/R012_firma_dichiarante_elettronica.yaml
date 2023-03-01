@@ -1,0 +1,243 @@
+openapi: 3.0.3
+info:
+  title: Servizio di firma elettronica del dichiarante
+  version: '1.4.0'  
+servers:
+  - url: https://anscservice.anpr.interno.it/services/service/firma
+    description: Servizio di produzione      
+  - url: https://anscservicepre.anpr.interno.it/services/service/firma
+    description: Servizio di preproduzione
+  - url: http://localhost:8087
+    description: Servizio mock locale
+paths:
+  /firmadichiarante/invio-email/{version}:
+    post:
+      security: 
+        - bearerAuth: []
+      tags: 
+        - invioEmail      
+      description: Servizio per la generazione del link e l’invio della mail al Dichiarante per iniziare il processo di firma
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string      
+      requestBody:
+         required: true
+         content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FirmaDichiaranteOnlineRequest'  
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FirmaDichiaranteOnlineInvioEmailResponse'
+        400:
+         description: Dati non validi
+         content:
+           application/json:
+             schema:
+                 $ref: '#/components/schemas/FirmaDichiaranteOnlineInvioEmailResponse'
+        401:
+         description: Utente non autorizzato ad utilizzare la risorsa
+         content:
+           application/json:
+             schema:
+                 $ref: '#/components/schemas/FirmaDichiaranteOnlineInvioEmailResponse'
+ 
+  /firmadichiarante/annulla-link/{version}:
+    post:
+      tags: 
+        - annullaLink
+      description: Servizio per l’annullamento del link inviato al dichiarante 
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string        
+      requestBody:
+         required: true
+         content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FirmaDichiaranteOnlineAnnullaLinkRequest'        
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FirmaDichiaranteOnlineResponse'
+        400:
+         description: Dati non validi
+         content:
+           application/json:
+             schema:
+                 $ref: '#/components/schemas/FirmaDichiaranteOnlineResponse'
+        401:
+         description: Utente non autorizzato ad utilizzare la risorsa
+         content:
+           application/json:
+             schema:
+                 $ref: '#/components/schemas/FirmaDichiaranteOnlineResponse'
+        406:
+         description: Evento non trovato
+         content:
+           application/json:
+             schema:
+                 $ref: '#/components/schemas/FirmaDichiaranteOnlineResponse' 
+
+  /firmadichiarante/pooling-statoatto/{version}:
+    post:
+      tags: 
+        - poolingStatoAtto
+      description: Servizio esposto per il pooling di controllo sulla presa visione del dichiarante nel processo di firma.
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string        
+      requestBody:
+         required: true
+         content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FirmaDichiaranteOnlinePoolingStatoAttoRequest'       
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FirmaDichiaranteOnlinePoolingStatoAttoResponse'
+        400:
+         description: Dati non validi
+         content:
+           application/json:
+             schema:
+                 $ref: '#/components/schemas/FirmaDichiaranteOnlinePoolingStatoAttoResponse'
+        401:
+         description: Utente non autorizzato ad utilizzare la risorsa
+         content:
+           application/json:
+             schema:
+                 $ref: '#/components/schemas/FirmaDichiaranteOnlinePoolingStatoAttoResponse'
+        406:
+         description: Evento non trovato
+         content:
+           application/json:
+             schema:
+                 $ref: '#/components/schemas/FirmaDichiaranteOnlinePoolingStatoAttoResponse' 
+
+                             
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    FirmaDichiaranteOnlineRequest:
+      description: Dati Richiesta per la generazione del link e l’invio della mail al Dichiarante
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:         
+            emailDichiarante:
+              type: string
+              description: Email a cui verrà inviato il link per la visualizzazione dell’anteprima dell’atto
+              example: 'Mario.rossi@email.it'
+            idPresaVisione:
+              type: string
+              description: Identificativo id Presa Visione
+              example: '01234'               
+                            
+    FirmaDichiaranteOnlineResponse:
+      description: Risposta per il servizio di firma dichiarante
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:          
+            esito:
+              $ref: '#/components/schemas/EsitoProcessoFirmaDichiarante'
+              
+    FirmaDichiaranteOnlineInvioEmailResponse:
+      description: Risposta del servizio di invio email
+      allOf:
+        - $ref: '#/components/schemas/FirmaDichiaranteOnlineResponse'
+        - type: object  
+          properties:         
+            idPresaVisione:
+              type: string
+              description: Identificativo id Presa Visione
+              example: '01234'
+                                  
+    EsitoProcessoFirmaDichiarante:
+      properties:
+        codice:
+          type: string
+          description:  Codice esito
+          example: '200'
+        descrizione: 
+          type: string
+          description: Descrizione testuale errore
+          example: Dati non validi
+          
+    FirmaDichiaranteOnlineAnnullaLinkRequest:
+      description: Dati Richiesta per annullamento del link
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:         
+            idPresaVisione:
+              type: string
+              description:  Identificativo Firmatario
+              example: '01234'         
+               
+
+    FirmaDichiaranteOnlinePoolingStatoAttoRequest:
+      description: Dati Richiesta per pooling di controllo sulla presa visione
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:         
+            idPresaVisione:
+              type: string
+              description:  Identificativo Id Presa Visione
+              example: '01234'          
+              
+    FirmaDichiaranteOnlinePoolingStatoAttoResponse:
+      description: Risposta del processo di pooling di controllo sulla presa visione
+      allOf:
+        - $ref: '#/components/schemas/FirmaDichiaranteOnlineResponse'
+        - type: object  
+          properties:         
+            idStateEvento:
+              type: number
+              description: stato delle evento
+              example: 1   
+
+    EventoOutput:
+      properties:
+        contenuto:
+          type: string
+          description:  Il file in formato base64
+          example: 'QU5TQw=='
+        nomeFile: 
+          type: string
+          description: Nome del file
+          example: Dati nome_del_file.pdf
+        tipoFile: 
+          type: string
+          description: Tipo del file
+          example: '1'                     
+

@@ -1,0 +1,21 @@
+{
+    "testataRichiesta": {
+        "idComune": {{idComune}},
+        "idOperazioneComune": "APP2022032210000",
+        "dataOraRichiesta": "1",
+        "nomeApplicativo": "Applicativo Demografico",
+        "versioneApplicativo": "1.0.0",
+        "fornitoreApplicativo": "Nome Fornitore"
+    },
+    "criteriRicercaSoggetto": {
+        "cognome": "SENZA",
+        "nome": "IDANSC",
+        "sesso": "M",
+        "idComuneNascita": "8165",
+        "nomeComuneNascita": "ROMA",
+        "siglaProvinciaNascita": "RM",
+        "codiceStatoNascita": "100",
+        "nomeStatoNascita": "ITALIA",
+        "datanascita": "2022-11-28"
+    }
+}
