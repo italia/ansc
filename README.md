@@ -25,7 +25,7 @@ Nella cartella [docs](docs/index.md) si trova la seguente documentazione tecnica
 - Il mapping [dei metadati necessari](docs/Mapping_casi_uso) per casi d'uso in formato xlsx e csv.
 - La [storia delle versioni e patch](docs/Changelog.md) rilasciate.
 - La [note di rilascio](docs/ReleaseNotes.md), contenenti eventuali dettagli aggiuntivi necessari per un rilascio.
-- Alcuni [payload di esempio](docs/CasiDiTest) per i servizi.
+- [Il piano di test](docs/CasiTest/index.md).
 
 ## 4. Supporto
 

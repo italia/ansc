@@ -17,6 +17,11 @@ Categorizzare le modifiche secondo le seguenti voci:
 
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
+## [Versione 1.4.1 - 2023-02-02]
+### Added
+	Piani di test
+         - Aggiunto piano di test docs/CasiTest/ANSC_Piano_Test_R03.xlsx
+
 ## [Versione 1.4.0 - 2023-02-14]
 ### Added
 	model_evento.yaml
