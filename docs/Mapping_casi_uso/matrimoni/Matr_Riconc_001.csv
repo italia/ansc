@@ -1,6 +1,6 @@
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule"
 "Allegati","Atto di matrimonio","SI","","",""
-"Allegati","Decreto del Tribunale","SI","","",""
+"Allegati","Decreto del Tribunale","NO","","",""
 "Formula","121-bis","SI","","",""
 "Formula","175-bis","NO","","",""
 "Formula","175-ter","NO","","",""

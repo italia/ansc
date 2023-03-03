@@ -1,0 +1,19 @@
+{
+    "testataRichiesta": {
+        "idComune": {{idComune}},
+        "idOperazioneComune": "APP2022032210000",
+        "dataOraRichiesta": "{{dataOraRichiesta}}",
+        "nomeApplicativo": "{{nomeApplicativo}}",
+        "versioneApplicativo": "{{versioneApplicativo}}",
+        "fornitoreApplicativo": "{{fornitoreApplicativo}}"
+    },
+    "firmaDichiaranteInput": {
+        "contenuto": "XXXX"
+        "protocollo": "312",
+        "nomefile": "firma_Dichiarante.pdf",
+        "tipoFile": "2",
+        "tipoAllegato": "999",
+        "stato": "1",
+        "idEvento": "{{idEventoTestFlusso01}}"
+    }
+}

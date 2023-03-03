@@ -1,0 +1,166 @@
+openapi: 3.0.0
+info:
+  title: Servizio di configurazione per il reperibimento delle tabelle di decodifica
+  version: '1.5.0'  
+servers:
+  - url: https://anscservice.anpr.interno.it/services/service/val
+    description: Servizio di produzione      
+  - url: https://anscservicepre.anpr.interno.it/services/service/val
+    description: Servizio di preproduzione
+  - url: http://localhost:8083
+    description: Servizio mock locale
+paths:
+  /config/decodifica/elenco/{version}:
+     post:
+       description: Permette di ottenere l'elenco delle decodifiche
+       parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string
+       requestBody:
+         required: true
+         content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DecodificaElencoRequest'
+       responses:
+        200:
+          description: Successo
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/DecodificaElencoResponse'
+        403:
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/DecodificaElencoResponse'
+        400:
+          description: Se i metadati non sono in formato json corretto
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/DecodificaElencoResponse'
+        404:
+          description: Se i dati dello use case non sono presenti in base dati.
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/DecodificaElencoResponse'
+  /config/decodifica/dettaglio/{version}:
+     post:
+       description: Permette di ottenere l'elenco delle decodifiche
+       parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string
+       requestBody:
+         required: true
+         content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DecodificaDettaglioRequest'
+       responses:
+        200:
+          description: Successo
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/DecodificaDettaglioResponse'
+        403:
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/DecodificaDettaglioResponse'
+        400:
+          description: Se i metadati non sono in formato json corretto
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/DecodificaDettaglioResponse'
+        404:
+          description: Se i dati dello use case non sono presenti in base dati.
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/DecodificaDettaglioResponse'
+components:
+  schemas:
+    DecodificaElencoRequest:
+      description: Richiesta dell' elenco di tutte le decodifiche
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+    DecodificaElencoResponse:
+      description: Richiesta dell' elenco di tutte le decodifiche
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:         
+            elenco:
+              type: array
+              items:
+                $ref: '#/components/schemas/ModelSintesiDecodifica'              
+    ModelSintesiDecodifica:
+      properties:   
+        id:
+          type: string
+          description: Identificativo della tabella
+          example: "1" 
+        descrizione:
+          type: string
+          description: Nome della tabella
+          example: "dec_tipo_evento"
+        versione:
+          type: string
+          description: Versione della tabella
+          example: "1.4.0"
+    DecodificaDettaglioRequest:
+      description: Richiesta del dettaglio di una decodifica
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:         
+            idDecodifica:
+              type: string
+              description: L'identificativo della decodifica
+              example: '1'
+            formato:
+              type: string
+              description: Il formato di output richiesto ('csv') non obbligatorio il default e 'csv'
+              example: 'csv'
+            compressione:
+              type: string
+              description: se si vuole un output compresso 'true' o 'false' in chiaro, non obbligatorio, il default è 'true'
+              example: 'true'    
+    DecodificaDettaglioResponse:
+      description: Risposta del dettaglio di una decodifica
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:         
+            idDecodifica:
+              type: string
+              description: L'identificativo della decodifica restituita
+              example: '1'
+            formato:
+              type: string
+              description: Il formato di output restituito ('csv')
+              example: 'csv'
+            compressione:
+              type: string
+              description: Se l'output e' compresso 'true' o 'false' in chiaro
+              example: 'true'              
+            contenuto:
+              type: string
+              description: Il contenuto binario, base64
+              example: 'dGVzdA=='    
+                            

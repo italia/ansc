@@ -1,0 +1,19 @@
+{
+    "testataRichiesta": {
+        "idComune": {{idComune}},
+        "idOperazioneComune": "APP2022032210000",
+        "dataOraRichiesta": "{{dataOraRichiesta}}",
+        "nomeApplicativo": "{{nomeApplicativo}}",
+        "versioneApplicativo": "{{versioneApplicativo}}",
+        "fornitoreApplicativo": "{{fornitoreApplicativo}}"
+    },
+    "datiPaginazione": {
+        "numPagina": 2,
+        "numRecordPagina": 10,
+        "numRecordTotali": 570
+    },
+    "evento": {
+        "idAnsc": "{{idAnscTestFlusso01}}",
+        "id": "{{idEventoTestFlusso01}}"
+    }
+}

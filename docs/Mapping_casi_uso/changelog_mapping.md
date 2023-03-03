@@ -1,4 +1,114 @@
-#Changelog mappatura casi uso rc004  
+#Changelog mappatura casi uso 1.5.0 
+
+## Casi uso aggiunti : 32
+* cittadinanza/Citt_002.csv
+* cittadinanza/Citt_003.csv
+* cittadinanza/Citt_006.csv
+* morte/Morte_008.csv
+* morte/Morte_009.csv
+* nascita/Dic_Nasc_002.csv
+* nascita/Dic_Nasc_003.csv
+* nascita/Dic_Nasc_005.csv
+* nascita/Dic_Nasc_007.csv
+* nascita/Dic_Nasc_008.csv
+* nascita/Dic_Nasc_009.csv
+* nascita/Dic_Nasc_010.csv
+* nascita/Dic_Nasc_011.csv
+* nascita/Dic_Nasc_012.csv
+* nascita/Dic_Nasc_013.csv
+* nascita/Dic_Nasc_014.csv
+* nascita/Dic_Nasc_015.csv
+* nascita/Dic_Nasc_016.csv
+* nascita/Dic_Nasc_017.csv
+* nascita/Dic_Nasc_073.csv
+* riconoscimenti/Rico_004.csv
+* riconoscimenti/Rico_005.csv
+* riconoscimenti/Rico_006.csv
+* riconoscimenti/Rico_007.csv
+* riconoscimenti/Rico_008.csv
+* riconoscimenti/Rico_009.csv
+* trascrizioni/Trascr_004.csv
+* trascrizioni/Trascr_016.csv
+* trascrizioni/Trascr_018.csv
+* trascrizioni/Trascr_019.csv
+* unioni_civili/UnCiv_004.csv
+* unioni_civili/UnCiv_005.csv
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 6
+* cittadinanza/Citt_033.csv
+* cittadinanza/Citt_043.csv
+* matrimoni/Sep_Div_002.csv
+* morte/Morte_004.csv
+* nascita/Dic_Nasc_064.csv
+* trascrizioni/Trascr_UnCiv_002.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_033.csv : 
+* Aggiunto 'Formula 140-bis' (riga:5)
+* Presenti modifiche per 'evento.intestatari[0].cognome' (riga:17)
+
+### Modifiche per il caso uso cittadinanza/Citt_043.csv : 
+* Presenti modifiche per 'Allegati Comunicazione prefettizia di concessione cittadinanza' (riga:4)
+* Rimosso 'evento.datiEventoCittadinanza.dataRegistrazioneDecreto'
+* Rimosso 'evento.datiDiNascita.tipoAccertamento'
+
+### Modifiche per il caso uso matrimoni/Sep_Div_002.csv : 
+* Presenti modifiche per 'Allegati Atto di matrimonio' (riga:2)
+* Presenti modifiche per 'Allegati Certificato di residenza' (riga:4)
+* Rimosso 'evento.separazione.accordoSeparazione.idAnsc'
+* Rimosso 'evento.separazione.accordoSeparazione.idProvinciaRegistrazione'
+* Rimosso 'evento.separazione.accordoSeparazione.siglaProvinciaRegistrazione'
+* Rimosso 'evento.separazione.accordoSeparazione.idComuneRegistrazione'
+* Rimosso 'evento.separazione.accordoSeparazione.nomeComuneRegistrazione'
+* Rimosso 'evento.separazione.accordoSeparazione.idtipocontenuto'
+* Rimosso 'evento.separazione.accordoSeparazione.numeroatto'
+* Rimosso 'evento.separazione.accordoSeparazione.annoAtto'
+* Rimosso 'evento.separazione.accordoSeparazione.dataformazione'
+* Rimosso 'evento.separazione.accordoSeparazione.tipologia'
+* Rimosso 'evento.separazione.accordoSeparazione.parte'
+* Rimosso 'evento.separazione.accordoSeparazione.serie'
+
+### Modifiche per il caso uso morte/Morte_004.csv : 
+* Aggiunto 'evento.trascrizioneMorte.atto.enteEstero.nazioneEnte' (riga:26)
+* Aggiunto 'evento.trascrizioneMorte.atto.enteEstero.nomeNazioneEnte' (riga:27)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_064.csv : 
+* Rimosso 'evento.riconoscimentoPadre.avvenuto'
+* Rimosso 'evento.riconoscimentoPadre.atto.idAnsc'
+* Rimosso 'evento.riconoscimentoPadre.atto.idProvinciaRegistrazione'
+* Rimosso 'evento.riconoscimentoPadre.atto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.riconoscimentoPadre.atto.idComuneRegistrazione'
+* Rimosso 'evento.riconoscimentoPadre.atto.nomeComuneRegistrazione'
+* Rimosso 'evento.riconoscimentoPadre.atto.idtipocontenuto'
+* Rimosso 'evento.riconoscimentoPadre.atto.numeroatto'
+* Rimosso 'evento.riconoscimentoPadre.atto.annoAtto'
+* Rimosso 'evento.riconoscimentoPadre.atto.dataformazione'
+* Rimosso 'evento.riconoscimentoPadre.atto.tipologia'
+* Rimosso 'evento.riconoscimentoPadre.atto.parte'
+* Rimosso 'evento.riconoscimentoPadre.atto.serie'
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_002.csv : 
+* Presenti modifiche per 'evento.intestatari[0].sesso' (riga:24)
+* Presenti modifiche per 'evento.intestatari[1].sesso' (riga:46)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.attoEstero.enteEstero.dataTrascrizione' (riga:66)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.attoEstero.enteEstero.estremiDocumento' (riga:67)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.attoEstero.enteEstero.nomeEnte' (riga:68)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.attoEstero.enteEstero.nazioneEnte' (riga:69)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.attoEstero.enteEstero.nomeNazioneEnte' (riga:70)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.attoEstero.enteEstero.siglaProvinciaEnte' (riga:72)
+* Aggiunto 'evento.trascrizioneUnioneCivile.autoritaMittente.nazioneEnte' (riga:76)
+* Aggiunto 'evento.trascrizioneUnioneCivile.autoritaMittente.nomeNazioneEnte' (riga:77)
+* Aggiunto 'evento.trascrizioneUnioneCivile.autoritaMittente.idProvinciaEnte' (riga:78)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.autoritaMittente.siglaProvinciaEnte' (riga:79)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.autoritaMittente.idComuneEnte' (riga:80)
+* Aggiunto 'evento.trascrizioneUnioneCivile.autoritaMittente.nomeComuneEnte' (riga:81)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.autoritaMittente.indirizzoEnte' (riga:82)
+
+
+
+
+#Changelog mappatura casi uso 1.4.0  
 
 ## Casi uso aggiunti : 37
 * cittadinanza/Citt_017.csv

@@ -59,7 +59,7 @@
 "Atto da trascrivere","Estremi documento","SI","evento.trascrizioneMatrimonio.attoEstero.enteEstero","estremiDocumento",""
 "Atto da trascrivere","Nome ente","SI","evento.trascrizioneMatrimonio.attoEstero.enteEstero","nomeEnte",""
 "Atto da trascrivere","Stato ente","SI","evento.trascrizioneMatrimonio.attoEstero.enteEstero","nazioneEnte",""
-"Atto da trascrivere","Stato ente - Descrizione","SI","evento.trascrizioneMatrimonio.attoEstero.enteEstero","nomeNazioneEnte",""
+"Atto da trascrivere","Stato ente - Descrizione","NO","evento.trascrizioneMatrimonio.attoEstero.enteEstero","nomeNazioneEnte",""
 "Atto da trascrivere","Provincia ente","SI","evento.trascrizioneMatrimonio.attoEstero.enteEstero","idProvinciaEnte",""
 "Atto da trascrivere","Provincia ente - Descrizione","SI","evento.trascrizioneMatrimonio.attoEstero.enteEstero","siglaProvinciaEnte",""
 "Atto da trascrivere","Comune ente","SI","evento.trascrizioneMatrimonio.attoEstero.enteEstero","idComuneEnte",""

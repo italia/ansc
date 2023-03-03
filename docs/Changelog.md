@@ -17,6 +17,28 @@ Categorizzare le modifiche secondo le seguenti voci:
 
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
+## [Versione 1.5.2 - 2023-02-28]
+### Added	
+	Processo e Web Application
+		- Gestione delle Annotazioni di Rettifica		
+		- Gestione dei certificati nel caso di rettifica
+	model_evento.yaml
+		- Aggiunto modello ModelScioglimentoUnioneCivile Data ricezione comunicazione scioglimento unilaterale dell'unione civile
+		- Nel ModelScioglimentoUnioneCivile aggiunta nuova proprietà dataRicezione		
+	R013_rettifica_validazione.yaml
+	   - Aggiunto il servizio per la validazione delle annotazione di rettifica per il servizio cooperativo
+	R901_config_decodifica.yaml
+		- Aggiunto servizio di accesso alle tabelle di decodifica
+	R901_config_decodifica.yaml
+		- Aggiunto servizio di accesso alle tabelle di decodifica	
+	Guida operativa
+		- Aggiunto sguida operativa docs/Guida_operativa_ANSC.pdf			
+### Changed
+	Piani di test
+		- Aggiornato piano di test docs/CasiTest/ANSC_Piano_Test.xlsx	
+	Nota processo annotazione e servizi cooperativi ( e relativi payload )
+		-  Note/NotaProcessoAnnotazioniAndQuickCoopServiceFlow/NotaProcessoAnnotazioniAndQuickCoopServiceFlow.pdf
+
 ## [Versione 1.4.1 - 2023-02-02]
 ### Added
 	Piani di test

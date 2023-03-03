@@ -56,3 +56,4 @@
 * 75_dec_esito_ricorso [csv](75_dec_esito_ricorso.csv) o [xlsx](75_dec_esito_ricorso.xslx)
 * 76_dec_tipo_mutazione [csv](76_dec_tipo_mutazione.csv) o [xlsx](76_dec_tipo_mutazione.xslx)
 * 78_dec_accertamento_nascita [csv](78_dec_accertamento_nascita.csv) o [xlsx](78_dec_accertamento_nascita.xslx)
+* 79_dec_tipo_rettifica [csv](79_dec_tipo_rettifica.csv) o [xlsx](79_dec_tipo_rettifica.xslx)

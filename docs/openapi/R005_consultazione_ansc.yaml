@@ -149,7 +149,11 @@ components:
         idAnpr:
           type: string
           description: Id Anpr
-          example: "1AFD4"       
+          example: "1AFD4"
+        idAnscSoggetto:
+          type: string
+          description: Id Ansc soggetto
+          example: "245912"       
         codiceFiscale: 
           type: string
           description: codice fiscale

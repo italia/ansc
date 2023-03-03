@@ -1,0 +1,17 @@
+{
+    "testataRichiesta": {
+        "idComune": {{idComune}},
+        "idOperazioneComune": "APP2022032210000",
+        "dataOraRichiesta": "{{dataOraRichiesta}}",
+        "nomeApplicativo": "{{nomeApplicativo}}",
+        "versioneApplicativo": "{{versioneApplicativo}}",
+        "fornitoreApplicativo": "{{fornitoreApplicativo}}"
+    },
+    "allegatoInput": {
+        "contenuto": "XXXXX"
+        "protocollo": "31298/2022",
+        "nomefile": "allegato_flusso_01.pdf",
+        "tipoFile": "1",        
+        "tipoAllegato": "2"
+    }
+}

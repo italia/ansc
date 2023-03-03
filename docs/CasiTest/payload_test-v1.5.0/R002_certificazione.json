@@ -1,0 +1,15 @@
+{
+  "testataRichiesta": {
+        "idComune": {{idComune}},
+        "idOperazioneComune": "APP2022032210000",
+        "dataOraRichiesta": "1",
+        "nomeApplicativo": "Applicativo Demografico",
+        "versioneApplicativo": "1.0.0",
+        "fornitoreApplicativo": "Nome Fornitore"
+  },
+  "idAnsc": "{{idAnscTestFlusso01}}",
+  "idAnprRichiedente": "344666",
+  "idAnprRiferimentoAtto": "395683",
+  "idUsc": "35634",
+  "idTipoCertificato": "1"
+}

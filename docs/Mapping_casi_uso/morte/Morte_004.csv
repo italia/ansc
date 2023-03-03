@@ -23,6 +23,8 @@
 "Autorità mittente","Data formazione documento","SI","evento.trascrizioneMorte.atto.enteEstero","dataTrascrizione",""
 "Autorità mittente","Estremi documento","SI","evento.trascrizioneMorte.atto.enteEstero","estremiDocumento",""
 "Autorità mittente","Nome ente","SI","evento.trascrizioneMorte.atto.enteEstero","nomeEnte",""
+"Autorità mittente","Stato ente","SI","evento.trascrizioneMorte.atto.enteEstero","nazioneEnte",""
+"Autorità mittente","Stato ente - Descrizione","SI","evento.trascrizioneMorte.atto.enteEstero","nomeNazioneEnte",""
 "Autorità mittente","Provincia ente","SI","evento.trascrizioneMorte.atto.enteEstero","idProvinciaEnte",""
 "Autorità mittente","Provincia ente - Descrizione","SI","evento.trascrizioneMorte.atto.enteEstero","siglaProvinciaEnte",""
 "Autorità mittente","Comune ente","SI","evento.trascrizioneMorte.atto.enteEstero","idComuneEnte",""

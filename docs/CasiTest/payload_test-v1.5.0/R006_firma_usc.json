@@ -1,0 +1,20 @@
+{
+    "testataRichiesta": {
+        "idComune": {{idComune}},
+        "idOperazioneComune": "APP2022032210000",
+        "dataOraRichiesta": "{{dataOraRichiesta}}",
+        "nomeApplicativo": "{{nomeApplicativo}}",
+        "versioneApplicativo": "{{versioneApplicativo}}",
+        "fornitoreApplicativo": "{{fornitoreApplicativo}}"
+    },
+    "firmaInput": {
+        "idEvento": "{{idEventoTestFlusso01}}",
+        "parametriFirma": {
+            "idTipoFirma": "1",
+            "idModalitaInput": "2",
+            "inputFirma1": "VGVzdFVzZXI=",
+            "inputFirma2": "VGVzdFBhc3N3b3Jk",
+            "inputFirma3": "VGVzdE90cA=="
+        }
+    }
+}

@@ -2140,6 +2140,11 @@ components:
           format: date
           description: Data comunicazione scioglimento unilaterale dell'unione civile
           example: '2022-07-03'
+        dataRicezione:
+          type: string
+          format: date
+          description: Data ricezione comunicazione scioglimento unilaterale dell'unione civile
+          example: '2022-07-03'  
         raccomandataAR:
           type: boolean
           description: Comunicazione di scioglimento unilaterale inviata via raccomandata AR?
@@ -2235,7 +2240,7 @@ components:
           example: "Testo della rettifica"
         idTipoRettifica:
           type: string
-          description: Rettifica di annullamento o modifica?
+          description: Rettifica di annullamento o modifica? (decodifica ANSC_79)
           example: "1"
     ModelDatiLingua:
       description: I dati della composizione in una lingua addizionale
