@@ -17,8 +17,15 @@ Categorizzare le modifiche secondo le seguenti voci:
 
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
-## [Versione 1.5.2 - 2023-02-28]
+## [Versione 1.5.1 - 2023-03-07]
 ### Added	
+	Decodifica
+		- Aggiunta decodifica ANSC_28 - tipo firma (https://github.com/italia/ansc/issues/9)
+
+## [Versione 1.5.0 - 2023-03-03]
+### Added	
+	Decodifica
+		- Aggiunta decodifica ANSC_79 - tipo rettifica
 	Processo e Web Application
 		- Gestione delle Annotazioni di Rettifica		
 		- Gestione dei certificati nel caso di rettifica
