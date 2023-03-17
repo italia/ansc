@@ -17,6 +17,46 @@ Categorizzare le modifiche secondo le seguenti voci:
 
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
+## [Versione 1.5.2 - 17-03-2023]
+
+### Fixed
+	Decodifica
+		- Aggiornamento tabella decodifica ANSC_31 per la scelta del cognome in fase di dichiarazione di nascita 
+		- Estratti e certificati: migliorato il layout condiviso (eliminata parola semplice, eliminata parola certificato 
+		- Morte 007: corretto binding duplicato
+		- Modificata descrizione dei casi d'uso Casi d'Uso - 12214300 e 12216300
+	Servizi cooperativi
+		- Trascrizione atto nascita estera: gestione stato estero mancante
+		- Tascr_999: corretto malfunzionamento anteprima
+		- R005: Corretto il risultato della ricerca del servizio di consultazione che non restituiva i dati dell'intestatario (GitHub issue #21)
+		- R009: Corretto luogo di nascita estero per il servizio di validazione
+		- R006: Corretta la possibilità di inserire la lista dei firmatari del servizio di firma dichiarante
+		- R010: Corretto malfunzionamento anteprima per Tascr_999
+		- R012: Aggiunto in FirmaDichiaranteOnlineInvioEmailRequest l'input firmatario, idEvento ed idAnsc e rimosso l'input idPresaVisione
+	Web Application
+		- Aggiornamento formule aderendo a circolari successive (legge 219) 
+		- Accessibilità: fix varie per accessibilità (titoli pagine, migliorata breadcrumb,navigabilità da tastiera ec..) 
+		- Accordo di scioglimento matrimonio/Accordo di separazione personale tra coniugi: gestione calendario per date future e revisione dell'aobbligatorietà degli allegati
+		- Sezione avvisi: ordinamento avvisi in base alla data di inserimento dell'avviso
+		- Dichiarazioni di nascita: impostazione automatica dello stato di nascita Italia
+		- Dic_Nasc_076: aggiornamento minuta atto (inserita preposizione mancante 'da')
+		- Dic_Nasc_064: aggiornamento minuta atto (eliminato il prericonoscimento del padre e lasciato solo quello della madre)
+		- Matr_008 e in tutti i casi del matrimonio: inserite formule 62 e 62-bis nella minuta dell'atto per la scelta del regime patrimoniale
+		- Citt_043: corretta la minuta dell'atto e i dati richiesti
+		- Matr_Riconc_001: aggiornamento obbligatorietà allegati; nei certificati, resi disponibili solo gli estratti
+		- Trascrizione della convenzione di negoziazione assistita ai sensi dell'art.6: reso unico l'accordo tra i coniugi
+		- Trascrizione atto nascita estera: corretta obbligatorietà di stato comune e provincia
+		- Caso uso 51104: è stato aggiunto idRiconoscimentoSentenza al modelEvento e al mapping del caso d'uso
+		- Dic_021 e Dic_022: eliminata la frase CON CITTADINANZA ITALIANA dalla minta dell'atto
+		- Morte_006: eliminato il richiamo all'art.19 dalla minuta dell'atto
+		- Trascr_Matr_002: aggiunto art. 63 alla minuta dell'atto e abilitati gli estratti e i certificati	
+### Added
+	Aggiunto un nuovo campo al model ModelEvento:
+		- idRiconoscimentoSentenza:type: stringdescription: Identificativo ricoscimento. 
+	Aggiunto due nuovi campi al model ModelEnteDichiarante:
+		- nazioneEnte
+		- nomeNazioneEnte
+
 ## [Versione 1.5.1 - 2023-03-07]
 ### Added	
 	Decodifica

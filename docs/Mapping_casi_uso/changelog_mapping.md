@@ -1,3 +1,153 @@
+#Changelog mappatura casi uso 1.5.2  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 12
+* matrimoni/Matr_001.csv
+* matrimoni/Matr_002.csv
+* matrimoni/Matr_003.csv
+* matrimoni/Matr_004.csv
+* matrimoni/Matr_005.csv
+* matrimoni/Matr_006.csv
+* matrimoni/Matr_007.csv
+* matrimoni/Matr_008.csv
+* morte/Morte_007.csv
+* nascita/Dic_Nasc_999.csv
+* riconoscimenti/Rico_004.csv
+* trascrizioni/Trascr_005.csv
+
+### Modifiche per il caso uso matrimoni/Matr_001.csv : 
+* Aggiunto 'Formula 62-bis' (riga:15)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.legge' (riga:250)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.cognome' (riga:257)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.nome' (riga:258)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.dataNascita' (riga:260)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.nominaAssistenteLegale.estremiDocumento' (riga:280)
+
+### Modifiche per il caso uso matrimoni/Matr_002.csv : 
+* Aggiunto 'Formula 62-bis' (riga:16)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.legge' (riga:265)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.cognome' (riga:272)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.nome' (riga:273)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.dataNascita' (riga:275)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.nominaAssistenteLegale.estremiDocumento' (riga:295)
+
+### Modifiche per il caso uso matrimoni/Matr_003.csv : 
+* Aggiunto 'Formula 62-bis' (riga:16)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.idProvincia' (riga:42)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.siglaProvincia' (riga:43)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.idComune' (riga:44)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.nomeComune' (riga:45)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.legge' (riga:246)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.cognome' (riga:253)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.nome' (riga:254)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.dataNascita' (riga:256)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.nominaAssistenteLegale.estremiDocumento' (riga:276)
+
+### Modifiche per il caso uso matrimoni/Matr_004.csv : 
+* Aggiunto 'Formula 62-bis' (riga:15)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.legge' (riga:260)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.cognome' (riga:267)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.nome' (riga:268)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.dataNascita' (riga:270)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.nominaAssistenteLegale.estremiDocumento' (riga:290)
+
+### Modifiche per il caso uso matrimoni/Matr_005.csv : 
+* Aggiunto 'Formula 62-bis' (riga:16)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.legge' (riga:269)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.cognome' (riga:276)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.nome' (riga:277)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.dataNascita' (riga:279)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.nominaAssistenteLegale.estremiDocumento' (riga:299)
+
+### Modifiche per il caso uso matrimoni/Matr_006.csv : 
+* Aggiunto 'Formula 62-bis' (riga:16)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.legge' (riga:245)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.cognome' (riga:252)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.nome' (riga:253)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.dataNascita' (riga:255)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.nominaAssistenteLegale.estremiDocumento' (riga:275)
+
+### Modifiche per il caso uso matrimoni/Matr_007.csv : 
+* Aggiunto 'Formula 62-bis' (riga:15)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.idProvincia' (riga:36)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.siglaProvincia' (riga:37)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.idComune' (riga:38)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.nomeComune' (riga:39)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.legge' (riga:262)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.cognome' (riga:269)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.nome' (riga:270)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.dataNascita' (riga:272)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.nominaAssistenteLegale.estremiDocumento' (riga:292)
+
+### Modifiche per il caso uso matrimoni/Matr_008.csv : 
+* Aggiunto 'Formula 62-bis' (riga:15)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.idProvincia' (riga:36)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.siglaProvincia' (riga:37)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.idComune' (riga:38)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.nomeComune' (riga:39)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.legge' (riga:262)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.cognome' (riga:269)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.nome' (riga:270)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.dataNascita' (riga:272)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.nominaAssistenteLegale.estremiDocumento' (riga:292)
+
+### Modifiche per il caso uso morte/Morte_007.csv : 
+* Presenti modifiche per 'evento.trascrizioneMorte.dataComunicazione' (riga:34)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_999.csv : 
+* Aggiunto 'evento.dataDecorrenza' (riga:8)
+
+### Modifiche per il caso uso riconoscimenti/Rico_004.csv : 
+* Rimosso 'Formula 146'
+* Presenti modifiche per 'evento.madre.cognome' (riga:42)
+* Presenti modifiche per 'evento.padre.cognome' (riga:64)
+* Presenti modifiche per 'evento.intestatari[0].cognome' (riga:86)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.assensoAtto.idAnsc' (riga:150)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.assensoAtto.idProvinciaRegistrazione' (riga:151)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.assensoAtto.siglaProvinciaRegistrazione' (riga:152)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.assensoAtto.idComuneRegistrazione' (riga:153)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.assensoAtto.nomeComuneRegistrazione' (riga:154)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.assensoAtto.idtipocontenuto' (riga:155)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.assensoAtto.numeroatto' (riga:156)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.assensoAtto.annoAtto' (riga:157)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.assensoAtto.dataformazione' (riga:158)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.assensoAtto.tipologia' (riga:159)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.assensoAtto.parte' (riga:160)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.assensoAtto.serie' (riga:161)
+* Presenti modifiche per 'evento.consensoMadre.atto.idAnsc' (riga:162)
+* Presenti modifiche per 'evento.consensoMadre.atto.idProvinciaRegistrazione' (riga:163)
+* Presenti modifiche per 'evento.consensoMadre.atto.siglaProvinciaRegistrazione' (riga:164)
+* Presenti modifiche per 'evento.consensoMadre.atto.idComuneRegistrazione' (riga:165)
+* Presenti modifiche per 'evento.consensoMadre.atto.nomeComuneRegistrazione' (riga:166)
+* Presenti modifiche per 'evento.consensoMadre.atto.idtipocontenuto' (riga:167)
+* Presenti modifiche per 'evento.consensoMadre.atto.numeroatto' (riga:168)
+* Presenti modifiche per 'evento.consensoMadre.atto.annoAtto' (riga:169)
+* Presenti modifiche per 'evento.consensoMadre.atto.dataformazione' (riga:170)
+* Presenti modifiche per 'evento.consensoMadre.atto.tipologia' (riga:171)
+* Presenti modifiche per 'evento.consensoMadre.atto.parte' (riga:172)
+* Presenti modifiche per 'evento.consensoMadre.atto.serie' (riga:173)
+* Presenti modifiche per 'evento.consensoMadre.altroUfficiale.dataTrascrizione' (riga:174)
+* Presenti modifiche per 'evento.consensoMadre.altroUfficiale.estremiDocumento' (riga:175)
+* Presenti modifiche per 'evento.consensoMadre.altroUfficiale.nomeEnte' (riga:176)
+* Presenti modifiche per 'evento.consensoMadre.altroUfficiale.idProvinciaEnte' (riga:177)
+* Presenti modifiche per 'evento.consensoMadre.altroUfficiale.siglaProvinciaEnte' (riga:178)
+* Presenti modifiche per 'evento.consensoMadre.altroUfficiale.idComuneEnte' (riga:179)
+* Presenti modifiche per 'evento.consensoMadre.altroUfficiale.nomeComuneEnte' (riga:180)
+* Rimosso 'evento.consensoMadre.datiProdotti'
+
+### Modifiche per il caso uso trascrizioni/Trascr_005.csv : 
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.nazioneEnte' (riga:81)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.nomeNazioneEnte' (riga:82)
+* Presenti modifiche per 'evento.trascrizioneNascita.autoritaMittente.idProvinciaEnte' (riga:83)
+* Presenti modifiche per 'evento.trascrizioneNascita.autoritaMittente.siglaProvinciaEnte' (riga:84)
+* Presenti modifiche per 'evento.trascrizioneNascita.autoritaMittente.idComuneEnte' (riga:85)
+* Presenti modifiche per 'evento.trascrizioneNascita.autoritaMittente.nomeComuneEnte' (riga:86)
+
+
+
 #Changelog mappatura casi uso 1.5.0 
 
 ## Casi uso aggiunti : 32

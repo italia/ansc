@@ -146,7 +146,7 @@ components:
       scheme: bearer
       bearerFormat: JWT
   schemas:
-    FirmaDichiaranteOnlineRequest:
+    FirmaDichiaranteOnlineInvioEmailRequest:
       description: Dati Richiesta per la generazione del link e l’invio della mail al Dichiarante
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
@@ -156,10 +156,16 @@ components:
               type: string
               description: Email a cui verrà inviato il link per la visualizzazione dell’anteprima dell’atto
               example: 'Mario.rossi@email.it'
-            idPresaVisione:
+            idEvento:
               type: string
-              description: Identificativo id Presa Visione
+              description: Identificativo evento da firmare
               example: '01234'               
+            idAnsc:
+              type: string
+              description: Identificativo evento da firmare
+              example: '01234'
+            firmatario:
+              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'             
                             
     FirmaDichiaranteOnlineResponse:
       description: Risposta per il servizio di firma dichiarante

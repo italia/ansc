@@ -264,6 +264,10 @@ components:
           type: string
           description: Composizione completa dell'atto
           example: "L'anno 2020 addì 8 del mese di 1 alle ore 12 e minuti 1 nel(1) la Casa Comunale avanti a me CESENA ANSC Ufficiale dello Stato Civile del Comune di CESENA (2) Per delega avuta\ne' comparsa cognomeMadre nomeMadre nata in ROMA lì 1977-11-12 (3) residente in ROCCA CANTERANO\n"
+        idRiconoscimentoSentenza: 
+          type: string
+          description: Identificativo ricoscimento.
+          example: ''
     ModelAttoCollegato:
       properties:
         idAnsc: 
@@ -538,6 +542,14 @@ components:
           type: string
           description: Codice identificativo univoco del documento da trascrivere. 
           example: 'A1342'
+        nazioneEnte: 
+          type: string
+          description: Nazione dell'ente dichiarante.
+          example: '90'
+        nomeNazioneEnte: 
+          type: string
+          description: Nome delal Nazione dell'ente dichiarante.
+          example: 'Italia'
 
     ModelEnteEstero:
       allOf:

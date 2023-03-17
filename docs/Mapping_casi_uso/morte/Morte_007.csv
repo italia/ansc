@@ -102,7 +102,6 @@
 "Unito civilmente","flag dichiarante","NO","evento.coniuge","flagDichiarante",""
 "Unito civilmente","flag comparente","NO","evento.coniuge","flagComparente",""
 "Unito civilmente","flag firmatario","NO","evento.coniuge","flagFirmatario",""
-"Dati della trascrizione","Data richiesta trascrizione","SI","evento.trascrizioneMorte","dataComunicazione",""
 "Dati della trascrizione","Riassunto","SI","evento.trascrizioneMorte","testoLibero",""
 "Dettagli evento","Stato civile del defunto","SI","evento.intestatari[0]","idstatocivile",""
 "Dettagli evento","Stato civile del defunto - Descrizione","SI","evento.intestatari[0]","descrizionestatocivile",""
