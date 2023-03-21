@@ -24,6 +24,7 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 		- [R091] Fix tabella decodifica ANSC_31 fix restituita da servizio servizio R901
 		- [R005] La proprietà 'eventi' dello schema ConsultazioneANSCResponse diventa 'modelEventoDTO' (https://github.com/italia/ansc/issues/29)
 		- [R012] Corretto ed esplicitato il flusso di presa visione (https://github.com/italia/ansc/issues/16)
+		- [R012] Fix schema openapi (https://github.com/italia/ansc/issues/34)	
 
 ## [Versione 1.5.2 - 17-03-2023]
 
