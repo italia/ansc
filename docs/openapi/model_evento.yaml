@@ -395,7 +395,7 @@ components:
           type: string
           description: descrizione del sesso
           example: 'femmina'    
-        datanascita: 
+        dataNascita: 
           type: string
           description: Data Di Nascita
           example: '2020-01-01'          
