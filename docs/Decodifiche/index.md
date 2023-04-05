@@ -10,6 +10,7 @@
 * 10_dec_tipo_file [csv](10_dec_tipo_file.csv) o [xlsx](10_dec_tipo_file.xslx)
 * 11_dec_stato_evento [csv](11_dec_stato_evento.csv) o [xlsx](11_dec_stato_evento.xslx)
 * 12_dec_tipo_consenso [csv](12_dec_tipo_consenso.csv) o [xlsx](12_dec_tipo_consenso.xslx)
+* 28_dec_tipo_firma [csv](28_dec_tipo_firma.csv) o [xlsx](28_dec_tipo_firma.xslx)
 * 29_dec_certificabilita [csv](29_dec_certificabilita.csv) o [xlsx](29_dec_certificabilita.xslx)
 * 31_dec_tipo_cognome [csv](31_dec_tipo_cognome.csv) o [xlsx](31_dec_tipo_cognome.xslx)
 * 32_dec_comprensione_dichiarante [csv](32_dec_comprensione_dichiarante.csv) o [xlsx](32_dec_comprensione_dichiarante.xslx)
@@ -57,3 +58,5 @@
 * 76_dec_tipo_mutazione [csv](76_dec_tipo_mutazione.csv) o [xlsx](76_dec_tipo_mutazione.xslx)
 * 78_dec_accertamento_nascita [csv](78_dec_accertamento_nascita.csv) o [xlsx](78_dec_accertamento_nascita.xslx)
 * 79_dec_tipo_rettifica [csv](79_dec_tipo_rettifica.csv) o [xlsx](79_dec_tipo_rettifica.xslx)
+* 91_dec_ruolo_segretario [csv](91_dec_ruolo_segretario.csv) o [xlsx](91_dec_ruolo_segretario.xslx)
+* 92_dec_difetto_eta_unioni_civili [csv](92_dec_difetto_eta_unioni_civili.csv) o [xlsx](92_dec_difetto_eta_unioni_civili.xslx)

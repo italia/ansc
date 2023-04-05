@@ -92,6 +92,6 @@ components:
         - type: object
           properties:         
             idEsito:
-              type: number
+              type: integer
               description: Esito della firma
               example: 0

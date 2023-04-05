@@ -5,6 +5,7 @@
 "Formazione atto","Data formazione","SI","evento","dataformazione",""
 "Formazione atto","Ora formazione","SI","evento","ora",""
 "Formazione atto","Minuti formazione","SI","evento","minuto",""
+"Dati generali","Data decorrenza","SI","evento","dataDecorrenza",""
 "Dati generali","Data Evento","SI","evento.datiEventoMatrimonio","dataEvento",""
 "Dati generali","Stato","SI","evento.datiEventoMatrimonio.luogoCelebrazione","idStato",""
 "Dati generali","Stato - Descrizione","SI","evento.datiEventoMatrimonio.luogoCelebrazione","nomeStato",""

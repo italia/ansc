@@ -53,6 +53,8 @@ components:
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
         - type: object
+          required:
+            - evento
           properties:
             presaVisione:
                 type: boolean

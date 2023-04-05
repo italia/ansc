@@ -1,0 +1,15 @@
+{
+    "testataRichiesta": {
+        "idComune": {{idComune}},
+        "idOperazioneComune": "APP2022032210000",
+        "dataOraRichiesta": "{{dataOraRichiesta}}",
+        "nomeApplicativo": "{{nomeApplicativo}}",
+        "versioneApplicativo": "{{versioneApplicativo}}",
+        "fornitoreApplicativo": "{{fornitoreApplicativo}}"
+    },
+    "criteriRicercaEvento": {
+        "idAnsc": "2023-538879-3292880-999999",
+        "idTipoEvento": "1",
+        "idTipoContenuto": "2"
+    }
+}

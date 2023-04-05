@@ -39,7 +39,7 @@
 "Delega da altro comune","Data delega","SI","evento.datiEventoUnioneCivile","dataDelega",""
 "Delega da altro comune","Testo delega","SI","evento.datiEventoUnioneCivile","testoDelega",""
 "Officiante","Officiante","SI","evento.datiEventoUnioneCivile","officiante",""
-"Officiante","Cognome","NO","evento.datiEventoUnioneCivile","cognomeOfficiante",""
+"Officiante","Cognome","NO","evento.datiEventoUnioneCivile","cognomeOfficiante","121.3"
 "Officiante","Nome","SI","evento.datiEventoUnioneCivile","nomeOfficiante",""
 "Dati Generali","Documenti presentati","SI","evento","datiProdotti",""
 "Certificato di richiesta di costituzione 1","Provincia","SI","evento.datiEventoUnioneCivile.certificatoCostituzione1","idProvinciaCertificatoCostituzione",""

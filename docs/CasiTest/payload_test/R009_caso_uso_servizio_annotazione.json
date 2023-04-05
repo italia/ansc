@@ -1,0 +1,62 @@
+{
+    "testataRichiesta": {
+        "idComune": {{idComune}},
+        "idOperazioneComune": "APP2022032210000",
+        "dataOraRichiesta": "{{dataOraRichiesta}}",
+        "nomeApplicativo": "{{nomeApplicativo}}",
+        "versioneApplicativo": "{{versioneApplicativo}}",
+        "fornitoreApplicativo": "{{fornitoreApplicativo}}"
+    },
+    "datiPaginazione": {
+        "numPagina": 2,
+        "numRecordPagina": 10,
+        "numRecordTotali": 570
+    },
+    "evento": {
+        "idTipoEvento": "1",
+        "idtipocontenuto": "2",
+        "idUsecase": "14500000",
+        "descrizioneCasoUso": "Caso d'uso di servizio (comunicazioni da altre amministrazioni)",
+        "stato": "CONFERMATO",
+        "dataformazione": "2023-03-30",
+        "ora": "16",
+        "minuto": "50",
+        "annoAtto": "2023",
+        "numeroatto": "1231232",
+        "idComuneRegistrazione": "1000000",
+        "nomeComuneRegistrazione": "ANPR",
+        "idProvinciaRegistrazione": "58",
+        "siglaProvinciaRegistrazione": "RM",
+        "operatore": "CRUMRA67S47Z127B",
+        "ruoloOperatore": "2",
+        "operatoreNome": "MARIE",
+        "operatoreCognome": "CURIE",
+        "redattoNellaCasaComunale": true,
+        "enteDichiarante": {
+            "idComuneEnte": "8165",
+            "nomeComuneEnte": "ROMA",
+            "idProvinciaEnte": "58",
+            "siglaProvinciaEnte": "RM",
+            "indirizzoEnte": "",
+            "estremiDocumento": "AAAA"
+        },
+        "eventoCollegato": {
+            "id": 538879,
+            "idAnsc": "2023-538879-3292880-999999",
+            "idComuneRegistrazione": "1000000",
+            "nomeComuneRegistrazione": "BRAIES",
+            "idProvinciaRegistrazione": "21",
+            "siglaProvinciaRegistrazione": "BZ",
+            "idtipocontenuto": "1",
+            "dataformazione": "2023-02-02",
+            "numeroatto": "3292880",
+            "annoAtto": "2023",
+            "tipologia": "1",
+            "serie": "",
+            "parte": ""
+        },
+        "composizioneCompleta": "aaaaaa",
+        "datains": "2023-03-30T16:50:45.943973",
+        "dataultimoagg": "2023-03-30T16:51:54.860486"
+    }
+}s

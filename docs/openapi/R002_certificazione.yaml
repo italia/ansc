@@ -66,10 +66,10 @@ components:
               type: string
               description: Id univoco del soggetto a cui si riferisce l’atto
               example: "395683"
-            idUsc:
+            idEvento:
               type: string
-              description: Id univoco dell’ USC
-              example: "35634"
+              description: Id univoco dell’ Evento
+              example: "256343"
             idTipoCertificato:
               type: string
               description: Id univoco del tipo certificato (1 - Certificato Semplice . 2 - Estratto per riassunto . 3 Estratto integrale)

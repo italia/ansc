@@ -7,11 +7,11 @@
         "versioneApplicativo": "{{versioneApplicativo}}",
         "fornitoreApplicativo": "{{fornitoreApplicativo}}"
     },
-    "datiPaginazione": {
-        "numPagina": 2,
-        "numRecordPagina": 10,
-        "numRecordTotali": 570
-    },
+"datiPaginazione": {
+    "numPagina": 2,
+    "numRecordPagina": 10,
+    "numRecordTotali": 570
+  },
     "evento": {
         "idTipoEvento": "1",
         "idtipocontenuto": "1",
@@ -23,7 +23,7 @@
         "ora": "18",
         "minuto": "36",
         "annoAtto": "2022",
-        "numeroatto": "4323432",
+        "numeroatto": "342342",
         "tipoDichiarante": "1",
         "ausilioInterprete": "false",
         "idComuneRegistrazione": "1000000",
@@ -37,10 +37,10 @@
         "redattoNellaCasaComunale": true,
         "intestatari": [
             {
-                "cognome": "RILASCIO",
-                "nome": "IDANSC RILASCIO",
+                "cognome": "Verdi",
+                "nome": "Giulio",
                 "sesso": "M",
-                "dataNascita": "2023-03-08",
+                "dataNascita": "2023-03-07",
                 "idComuneNascita": "8165",
                 "nomeComuneNascita": "ROMA",
                 "idProvinciaNascita": "58",
@@ -53,9 +53,9 @@
         "madre": {
             "id": "45686",
             "idsoggettoanpr": "266044",
-            "codiceFiscale": "XXXXX",
-            "cognome": "XXXX",
-            "nome": "XXX",
+            "codiceFiscale": "NGLSGL20E41H501I",
+            "cognome": "Angela",
+            "nome": "Squeglia",
             "sesso": "F",
             "dataNascita": "2020-05-01",
             "idComuneNascita": "8165",
@@ -81,9 +81,9 @@
         "padre": {
             "id": "43500",
             "idsoggettoanpr": "265097",
-            "codiceFiscale": "XXXX",
-            "cognome": "xXXx",
-            "nome": "XXXXX",
+            "codiceFiscale": "BTSNDR89H28H501Y",
+            "cognome": "BATISTINI",
+            "nome": "ANDREA",
             "sesso": "M",
             "dataNascita": "1989-06-28",
             "idComuneNascita": "18345",
@@ -118,15 +118,16 @@
             "precisazioneCognome": "",
             "natoMorto": "NO",
             "natoVivoMaDeceduto": "NO",
-            "tipoAccertamento": "1"
+            "tipoAccertamento":"1"
         },
-        "composizioneCompleta": "XXXX",
-        "datains": "2022-11-29T18:36:08.560762",
-        "dataultimoagg": "2022-11-29T18:37:42.357608",
+        "composizioneCompleta": "L'anno 2022 addì 29 del mese di novembre alle ore 18 e minuti 36 nella Casa Comunale avanti a me, MARIE CURIE Ufficiale dello Stato Civile del Comune di ANPR per delega ricevuta è comparso ANDREA BATISTINI nato in ROMA (RM) il 28/06/1989 con cittadinanza AUSTRIACA residente in CESENA (FC) il quale mi ha dichiarato quanto segue: Il giorno 28 del mese di novembre dell'anno 2022 alle ore 18 e minuti 37 da Squeglia Angela nata in ROMA (RM) il 01/05/2020 con cittadinanza ITALIANA residente in CESENA (FC) moglie del dichiarante, con cittadinanza AUSTRIACA, è nato un bambino di sesso Maschile. A detto bambino che non mi viene presentato, ma della cui nascita io mi sono accertato, il dichiarante dà il nome di Alessio. Il presente atto viene letto agli intervenuti, i quali tutti, insieme con me, lo sottoscrivono.",
+        "datains": "2023-03-27T18:36:08.560762",
+        "dataultimoagg": "2023-03-27T18:37:42.357608",
         "allegati": [
             {
                 "id": {{idAllegatoFlusso01}},
-                "idTipoAllegato": 2,
+                "idTipoAllegato": 1,
+                "idStatoAllegato": 3,
                 "hashAllegato": "{{hashAllegatoFlusso01}}"
             }
         ]

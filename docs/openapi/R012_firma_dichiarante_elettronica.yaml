@@ -206,7 +206,7 @@ components:
           properties:         
             idPresaVisione:
               type: string
-              description:  Identificativo Firmatario
+              description:  Identificativo id Presa Visione
               example: '01234'         
                
 
@@ -228,7 +228,7 @@ components:
         - type: object  
           properties:         
             idStateEvento:
-              type: number
+              type: integer
               description: stato delle evento
               example: 1   
 

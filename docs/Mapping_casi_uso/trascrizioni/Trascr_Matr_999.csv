@@ -5,6 +5,7 @@
 "Formazione atto","Data formazione","SI","evento","dataformazione",""
 "Formazione atto","Ora formazione","SI","evento","ora",""
 "Formazione atto","Minuti formazione","SI","evento","minuto",""
+"Dati Generali","Data decorrenza","SI","evento","dataDecorrenza",""
 "Generalità Sposo","Cognome","NO","evento.intestatari[0]","cognome",""
 "Generalità Sposo","Nome","SI","evento.intestatari[0]","nome",""
 "Generalità Sposo","Sesso","SI","evento.intestatari[0]","sesso",""

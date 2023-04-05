@@ -99,6 +99,8 @@ components:
       description: Richiesta del servizio specializzato per la validazione dei singoli Use Case
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+          required:
+            - evento
         - type: object
           properties:         
             evento:
@@ -136,7 +138,7 @@ components:
         - type: object
           properties:         
             idEsito:
-              type: number
+              type: integer
               description: Esito del collegamento
               example: 0  
     ModelDatiCollegamento:

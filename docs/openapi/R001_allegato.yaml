@@ -128,6 +128,11 @@ components:
   schemas:
     AllegatoInput:
       description: Modello allegato per l'upload
+      required:
+        - contenuto
+        - nomefile
+        - tipoFile
+        - tipoAllegato
       properties:
         contenuto:
           type: string
@@ -202,6 +207,8 @@ components:
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
         - type: object
+          required:
+            - allegatoInput
           properties:         
             allegatoInput:
                 $ref: '#/components/schemas/AllegatoInput'
@@ -236,6 +243,8 @@ components:
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
         - type: object
+          required:
+            - idAllegato
           properties:         
             idAllegato:
               type: string

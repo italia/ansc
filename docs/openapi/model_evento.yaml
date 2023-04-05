@@ -270,6 +270,10 @@ components:
           example: ''
     ModelAttoCollegato:
       properties:
+        id: 
+          type: string
+          description: Id univoco assegnato dal sistema. (per uso interno)
+          example: '12'      
         idAnsc: 
           type: string
           description: Identificativo dell'atto collegato.
@@ -542,14 +546,6 @@ components:
           type: string
           description: Codice identificativo univoco del documento da trascrivere. 
           example: 'A1342'
-        nazioneEnte: 
-          type: string
-          description: Nazione dell'ente dichiarante.
-          example: '90'
-        nomeNazioneEnte: 
-          type: string
-          description: Nome delal Nazione dell'ente dichiarante.
-          example: 'Italia'
 
     ModelEnteEstero:
       allOf:
@@ -1424,7 +1420,6 @@ components:
               example: '2022-03-22'
             numeroProtocollo:
               type: string
-              format: date
               description: Numero protocollo provv. estero
               example: 'ACT-32-48844'
             dataPassaggioGiudicato:
@@ -1605,6 +1600,10 @@ components:
           $ref: '#/components/schemas/ModelSoggetto'         
         testimone4: # Soggetto che contiene i dati dell'eventuale quarto testimone
           $ref: '#/components/schemas/ModelSoggetto'
+        ruoloSegretario:
+          type: string
+          description: Segretario (decodifica ANSC_91)
+          example: '1'
         segretarioComunale: # Dati segretario comunale
           $ref: '#/components/schemas/ModelSoggetto'
         pubblicazioneInPiuComuni:
@@ -1802,6 +1801,10 @@ components:
           $ref: '#/components/schemas/ModelSoggetto'         
         testimone4: # Soggetto che contiene i dati dell'eventuale quarto testimone
           $ref: '#/components/schemas/ModelSoggetto'
+        ruoloSegretario:
+          type: string
+          description: Segretario (decodifica ANSC_91)
+          example: '1'
         segretarioComunale: # Dati segretario comunale
           $ref: '#/components/schemas/ModelSoggetto'
         attoNascitaConiuge1:
@@ -1822,7 +1825,7 @@ components:
           $ref: '#/components/schemas/ModelEnteDichiarante'
         difettoEta:
           type: string
-          description: Se uno dei coniugi, o entrambi, hanno un impedimento dovuto all'eta (decodifica ANSC_47)
+          description: Se uno dei coniugi, o entrambi, hanno un impedimento dovuto all'eta (decodifica ANSC_92)
           example: "1"
         impedimentoParentela:
           type: string

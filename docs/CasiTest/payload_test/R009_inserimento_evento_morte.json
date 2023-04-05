@@ -40,12 +40,8 @@
                 "nome": "IDANSC RILASCIO",
                 "sesso": "M",
                 "dataNascita": "2023-03-08",
-                "idComuneNascita": "8165",
-                "nomeComuneNascita": "ROMA",
-                "idProvinciaNascita": "58",
-                "siglaProvinciaNascita": "ROMA",
-                "idStatoNascita": "90",
-                "nomeStatoNascita": "ITALIA",
+                "nomeStatoNascita": "AUSTRALIA",
+                "idStatoNascita": "10",
                 "idProvinciaResidenza": "9",
                 "siglaProvinciaResidenza": "RM",
                 "idStatoResidenza": "90",
@@ -102,13 +98,13 @@
             "oraMorte": "18",
             "minutoMorte": "13"
         },
-        "composizioneCompleta": "XXXXX",
+        "composizioneCompleta": "L'anno 2022 addì 29 del mese di novembre alle ore 18 e minuti 13 nella Casa Comunale\navanti a me, MARIE CURIE, Ufficiale dello Stato Civile del Comune di ANPR per delega ricevuta è comparsa LETIZIA BIAGI nata in ROMA (RM) il 09/10/2004 con cittadinanza ARGENTINA residente in CESENA (FC) la quale mi ha dichiarato quanto segue: Il giorno 28 del mese di novembre dell'anno 2022 alle ore 18 e minuti 13 in ITALIA ROMA (ROMA) è morta ANGELA SQUEGLIA nata in ROMA (RM) il 09/11/2022 con cittadinanza ITALIANA residente in ROMA (RM) che era Celibe/Nubile. Il presente atto viene letto agli intervenuti, i quali tutti, insieme con me, lo sottoscrivono.",
         "datains": "2022-11-29T18:13:12.678681",
         "dataultimoagg": "2022-11-29T18:18:02.872103",
         "allegati": [
             {
                 "id": {{idAllegatoFlusso01}},
-                "idTipoAllegato": 2,
+                "idTipoAllegato": 32,
                 "hashAllegato": "{{hashAllegatoFlusso01}}"
             }
         ]

@@ -17,6 +17,84 @@ Categorizzare le modifiche secondo le seguenti voci:
 
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
+## [Versione 1.6.0 - 07-04-2023]
+
+### Fixed
+
+    Servizi cooperativi
+		- model_evento.yaml
+			-  eliminato formato data per il campo numeroprotocollo.
+			(https://github.com/italia/ansc/issues/39)
+			- Cancellazione delle proprietà sul model ModelEnteDichiarante:
+				- nazioneEnte
+				- nomeNazioneEnte
+			(https://github.com/italia/ansc/issues/41)
+
+		- R007,R009,R012, base_servizi.yaml
+				- Sostituito il type:number con type:integer
+				(https://github.com/italia/ansc/issues/43)
+
+		- R005 Consultazione evento - ricerca annotazioni
+			  (https://github.com/italia/ansc/issues/20)
+
+		- R009 Validazione caso d'uso dichiarazione con procura
+			  (https://github.com/italia/ansc/issues/32)
+
+		- R005 consultazione intestario
+			  (https://github.com/italia/ansc/issues/36)
+
+		- R006 firma dichiaranti
+			  (https://github.com/italia/ansc/issues/40)
+
+	Decodifica ANSC_3 (3_dec_use_case)
+		- Normalizzazione descrizioni casi d'uso ed eliminazione duplicati
+		  (https://github.com/italia/ansc/issues/31)
+
+	Web Application
+		- Unione civile fuori dalla casa comunale: gestione vicesegretario
+		- Matrimoni/Unioni cviile : officiante non presente nelle formule
+		- Citt_005, Citt_007, Citt_011, Citt_013: il soggetto intestatario deve essere anche firmatario
+		- Eliminato caso Matr_006: matrimonio in pericolo di vita si delega di altro comune
+		- Unione civile fuori dalla casa comunale UnCiv_002: aggiunto indirizzo
+
+### Added
+
+    Processo
+		- Gestione Annotazioni per Errore Materiale
+		- Gestione Annotazioni per Caso d'uso di servizio (comunicazione da altri comuni)
+		- Gestione Annotazioni per Caso d'uso di servizio (comunicazioni da altre amministrazioni)
+
+    Web Application
+		- Gestione Annotazioni per Errore Materiale
+		- Gestione Annotazioni per Caso d'uso di servizio (comunicazione da altri comuni)
+		- Gestione Annotazioni per Caso d'uso di servizio (comunicazioni da altre amministrazioni)
+
+    Servizi Cooperativi
+		- [R002] Aggiunta proprieta' idEvento a CertificatoRequest
+		- [R005] Aggiunta proprieta' idEvento
+		- [R009_validazione.yaml] Aggiunta obbligatorieta' campo hashAllegato
+		- model_evento.yaml
+			- Aggiunta obbligatorieta' campo numeroatto
+			- Aggiunto nuovo campo idRiconoscimentoSentenza: Identificativo ricoscimento.
+			- Nel ModelAttoCollegato aggiunto campo id
+			- Nel ModelUnioneCivile aggiunto campo obbligatorio ruoloSegretario
+			- Nel ModelMatrimonio aggiunto campo obbligatorio ruoloSegretario
+			- Rimozione delle proprieta' sul model ModelEnteDichiarante:
+				- nazioneEnte
+				- nomeNazioneEnte
+	Decodifica
+		- Aggiunta tabella decodifica ANSC_91 Ruolo Segretario
+		- Aggiunta tabella decodifica ANSC_92 Difetto di eta' dei coniugi
+		- Aggiornata tabella decodifica ANSC_49 regime patrimoniale aggiunte le opzioni "Convenzioni matrimoniali" e "Non specificata"
+
+### Changed
+
+    Servizi Cooperativi
+		- [R012_firma_dichiarante_elettronica.yaml]
+	   		 Modificata descrizione della property idPresaVisione allo schema FirmaDichiaranteOnlineAnnullaLinkRequest.
+		- Eliminato caso Matr_006: matrimonio in pericolo di vita si delega di altro comune
+		- [R001_allegato.yaml] impostati tutti i campi di AllegatoInput a required
+
 ## [Versione 1.5.3 - 21-03-2023]
 
 ### Fixed

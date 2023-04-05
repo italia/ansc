@@ -126,8 +126,12 @@ components:
           example: "2022-9423-26624-040007"
         idComunale:
           type: string
-          description: Id del Comune (codificato ANPR_03)
+          description: Numero Comunale (codificato ANPR_03)
           example: "178"
+        idEvento:
+          type: string
+          description: Id Evento.
+          example: "26624"
         idTipoEvento:
           type: string
           description: Identificativo del tipo di evento (codificato ANSC_01)
@@ -199,6 +203,8 @@ components:
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
         - type: object
+          required:
+            - criteriRicercaEvento
           properties:
             criteriRicercaEvento:
                 $ref: '#/components/schemas/CriteriRicercaEvento'            
@@ -207,6 +213,8 @@ components:
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
         - type: object
+          required:
+            - criteriRicercaSoggetto
           properties:         
             criteriRicercaSoggetto:
                 $ref: '#/components/schemas/CriteriRicercaSoggetto'

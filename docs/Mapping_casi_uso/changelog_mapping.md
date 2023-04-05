@@ -1,3 +1,181 @@
+#Changelog mappatura casi uso 1.6.0 
+
+## Casi uso aggiunti : 16
+* cittadinanza/Citt_004.csv
+* cittadinanza/Citt_044.csv
+* morte/Morte_011.csv
+* nascita/Dic_Nasc_091.csv
+* riconoscimenti/Rico_010.csv
+* riconoscimenti/Rico_017.csv
+* riconoscimenti/Rico_018.csv
+* riconoscimenti/Rico_020.csv
+* trascrizioni/Trascr_009.csv
+* trascrizioni/Trascr_015.csv
+* trascrizioni/Trascr_021.csv
+* trascrizioni/Trascr_022.csv
+* trascrizioni/Trascr_024.csv
+* unioni_civili/Sciogl_UnCiv_001.csv
+* unioni_civili/Sciogl_UnCiv_002.csv
+* unioni_civili/UnCiv_003.csv
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 24
+* cittadinanza/Citt_005.csv
+* cittadinanza/Citt_007.csv
+* cittadinanza/Citt_011.csv
+* cittadinanza/Citt_013.csv
+* cittadinanza/Citt_999.csv
+* matrimoni/Matr_002.csv
+* matrimoni/Matr_003.csv
+* matrimoni/Matr_005.csv
+* matrimoni/Matr_999_1.csv
+* matrimoni/Matr_999_2.csv
+* matrimoni/Sep_Div_999.csv
+* morte/Morte_999.csv
+* riconoscimenti/Rico_999.csv
+* trascrizioni/Trascr_005.csv
+* trascrizioni/Trascr_999.csv
+* trascrizioni/Trascr_Citt_999.csv
+* trascrizioni/Trascr_Matr_999.csv
+* trascrizioni/Trascr_Morte_999.csv
+* trascrizioni/Trascr_UnCiv_002.csv
+* trascrizioni/Trascr_UnCiv_999.csv
+* unioni_civili/Sciogl_UnCiv_999.csv
+* unioni_civili/UnCiv_002.csv
+* unioni_civili/UnCiv_005.csv
+* unioni_civili/UnCiv_999.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_005.csv : 
+* Aggiunto 'evento.intestatari[0].flagDichiarante' (riga:40)
+* Aggiunto 'evento.intestatari[0].flagComparente' (riga:41)
+* Aggiunto 'evento.intestatari[0].flagFirmatario' (riga:42)
+
+### Modifiche per il caso uso cittadinanza/Citt_007.csv : 
+* Aggiunto 'evento.intestatari[0].flagDichiarante' (riga:40)
+* Aggiunto 'evento.intestatari[0].flagComparente' (riga:41)
+* Aggiunto 'evento.intestatari[0].flagFirmatario' (riga:42)
+
+### Modifiche per il caso uso cittadinanza/Citt_011.csv : 
+* Aggiunto 'evento.intestatari[0].flagDichiarante' (riga:39)
+* Aggiunto 'evento.intestatari[0].flagComparente' (riga:40)
+* Aggiunto 'evento.intestatari[0].flagFirmatario' (riga:41)
+
+### Modifiche per il caso uso cittadinanza/Citt_013.csv : 
+* Aggiunto 'evento.intestatari[0].flagDichiarante' (riga:122)
+* Aggiunto 'evento.intestatari[0].flagComparente' (riga:123)
+* Aggiunto 'evento.intestatari[0].flagFirmatario' (riga:124)
+
+### Modifiche per il caso uso cittadinanza/Citt_999.csv : 
+* Aggiunto 'evento.dataDecorrenza' (riga:8)
+
+### Modifiche per il caso uso matrimoni/Matr_002.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.nomeStatoNascita' (riga:277)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.siglaProvinciaNascita' (riga:279)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.nomeComuneNascita' (riga:281)
+* Aggiunto 'evento.datiEventoMatrimonio.ruoloSegretario' (riga:303)
+
+### Modifiche per il caso uso matrimoni/Matr_003.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officiante' (riga:51)
+* Aggiunto 'evento.datiEventoMatrimonio.cognomeOfficiante' (riga:52)
+* Aggiunto 'evento.datiEventoMatrimonio.nomeOfficiante' (riga:53)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.nomeStatoNascita' (riga:261)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.siglaProvinciaNascita' (riga:263)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.nomeComuneNascita' (riga:265)
+* Aggiunto 'evento.datiEventoMatrimonio.ruoloSegretario' (riga:287)
+
+### Modifiche per il caso uso matrimoni/Matr_005.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.nomeStatoNascita' (riga:281)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.siglaProvinciaNascita' (riga:283)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.regimePatrimoniale.assistenteLegale.nomeComuneNascita' (riga:285)
+* Aggiunto 'evento.datiEventoMatrimonio.ruoloSegretario' (riga:307)
+
+### Modifiche per il caso uso matrimoni/Matr_999_1.csv : 
+* Aggiunto 'evento.dataDecorrenza' (riga:8)
+
+### Modifiche per il caso uso matrimoni/Matr_999_2.csv : 
+* Aggiunto 'evento.dataDecorrenza' (riga:8)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_999.csv : 
+* Aggiunto 'evento.dataDecorrenza' (riga:8)
+
+### Modifiche per il caso uso morte/Morte_999.csv : 
+* Aggiunto 'evento.dataDecorrenza' (riga:8)
+* Presenti modifiche per 'evento.datiDiMorte.dataMorte' (riga:9)
+* Presenti modifiche per 'evento.datiDiMorte.oraMorte' (riga:10)
+* Presenti modifiche per 'evento.datiDiMorte.minutoMorte' (riga:11)
+* Presenti modifiche per 'evento.datiDiMorte.idStatoMorte' (riga:12)
+* Presenti modifiche per 'evento.datiDiMorte.nomeStatoMorte' (riga:13)
+* Presenti modifiche per 'evento.datiDiMorte.idProvinciaMorte' (riga:14)
+* Presenti modifiche per 'evento.datiDiMorte.siglaProvinciaMorte' (riga:15)
+* Presenti modifiche per 'evento.datiDiMorte.idComuneMorte' (riga:16)
+* Presenti modifiche per 'evento.datiDiMorte.nomeComuneMorte' (riga:17)
+
+### Modifiche per il caso uso riconoscimenti/Rico_999.csv : 
+* Aggiunto 'evento.dataDecorrenza' (riga:8)
+
+### Modifiche per il caso uso trascrizioni/Trascr_005.csv : 
+* Aggiunto 'Formula 193.8' (riga:4)
+* Rimosso 'Formula 193'
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.dataTrascrizione' (riga:74)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.estremiDocumento' (riga:75)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.nomeEnte' (riga:76)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.nazioneEnte' (riga:77)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.nomeNazioneEnte' (riga:78)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.idProvinciaEnte' (riga:79)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.siglaProvinciaEnte' (riga:80)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.idComuneEnte' (riga:81)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.nomeComuneEnte' (riga:82)
+* Rimosso 'evento.trascrizioneNascita.autoritaMittente.nomeEnte'
+* Rimosso 'evento.trascrizioneNascita.autoritaMittente.nazioneEnte'
+* Rimosso 'evento.trascrizioneNascita.autoritaMittente.nomeNazioneEnte'
+* Rimosso 'evento.trascrizioneNascita.autoritaMittente.idProvinciaEnte'
+* Rimosso 'evento.trascrizioneNascita.autoritaMittente.siglaProvinciaEnte'
+* Rimosso 'evento.trascrizioneNascita.autoritaMittente.idComuneEnte'
+* Rimosso 'evento.trascrizioneNascita.autoritaMittente.nomeComuneEnte'
+
+### Modifiche per il caso uso trascrizioni/Trascr_999.csv : 
+* Aggiunto 'evento.dataDecorrenza' (riga:8)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Citt_999.csv : 
+* Aggiunto 'evento.dataDecorrenza' (riga:8)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_999.csv : 
+* Aggiunto 'evento.dataDecorrenza' (riga:8)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Morte_999.csv : 
+* Aggiunto 'evento.dataDecorrenza' (riga:8)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_002.csv : 
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.autoritaMittente.idProvinciaEnte' (riga:76)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.autoritaMittente.siglaProvinciaEnte' (riga:77)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.autoritaMittente.idComuneEnte' (riga:78)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.autoritaMittente.nomeComuneEnte' (riga:79)
+* Rimosso 'evento.trascrizioneUnioneCivile.autoritaMittente.nazioneEnte'
+* Rimosso 'evento.trascrizioneUnioneCivile.autoritaMittente.nomeNazioneEnte'
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_999.csv : 
+* Aggiunto 'evento.dataDecorrenza' (riga:8)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_999.csv : 
+* Aggiunto 'evento.dataDecorrenza' (riga:8)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_002.csv : 
+* Presenti modifiche per 'evento.datiEventoUnioneCivile.cognomeOfficiante' (riga:49)
+* Aggiunto 'evento.datiEventoUnioneCivile.ruoloSegretario' (riga:252)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_005.csv : 
+* Aggiunto 'evento.datiEventoUnioneCivile.officiante' (riga:48)
+* Aggiunto 'evento.datiEventoUnioneCivile.cognomeOfficiante' (riga:49)
+* Aggiunto 'evento.datiEventoUnioneCivile.nomeOfficiante' (riga:50)
+* Aggiunto 'evento.datiEventoUnioneCivile.ruoloSegretario' (riga:258)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_999.csv : 
+* Aggiunto 'evento.dataDecorrenza' (riga:8)
+
+
+
+
 #Changelog mappatura casi uso 1.5.2  
 
 ## Casi uso aggiunti : 0

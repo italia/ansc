@@ -14,7 +14,7 @@ components:
     TestataRichiesta:
       properties:
         idComune:
-          type: number
+          type: integer
           description: Identificativo del comune (come da archivio comuni, ANPR_03) 
           example: 2780
         idOperazioneComune:
@@ -41,7 +41,7 @@ components:
     TestataRisposta:
       properties:
         idComune:
-          type: number
+          type: integer
           description: Identificativo del comune (come da archivio comuni, ANPR_03) 
           example: 2780
         idOperazioneComune:
@@ -53,7 +53,7 @@ components:
           description: Identificativo dell'operazione attribuito da ANSC
           example: "432432423423"    
         idEsito:
-          type: number
+          type: integer
           description: Esito dell'operazione
           example: 0 
           
@@ -61,15 +61,15 @@ components:
       description: In ingresso il valore di numRecordTotali dovrà essere 0 e verrà calcolato dal BE.
       properties:
         numPagina:
-          type: number
+          type: integer
           description: Identificativo della pagina attuale
           example: 2
         numRecordPagina:
-          type: number
+          type: integer
           description: Numero di record massimi in una pagina
           example: 10
         numRecordTotali:
-          type: number
+          type: integer
           description: Numero totali di elementi nella base dati per il calcolo delle pagine
           example: 570    
         
