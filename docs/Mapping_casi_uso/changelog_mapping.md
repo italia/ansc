@@ -1,3 +1,32 @@
+#Changelog mappatura casi uso 1.6.1
+
+## Casi uso aggiunti : 20
+* cittadinanza/Citt_047.csv
+* cittadinanza/Citt_048.csv
+* cittadinanza/Citt_998_1.csv
+* cittadinanza/Citt_998_2.csv
+* matrimoni/Matr_017.csv
+* matrimoni/Matr_018.csv
+* matrimoni/Matr_998_1.csv
+* matrimoni/Matr_998_2.csv
+* morte/Morte_012.csv
+* morte/Morte_013.csv
+* morte/Morte_998_1.csv
+* morte/Morte_998_2.csv
+* nascita/Dic_Nasc_118.csv
+* nascita/Dic_Nasc_119.csv
+* nascita/Dic_Nasc_998_1.csv
+* nascita/Dic_Nasc_998_2.csv
+* unioni_civili/UnCiv_007.csv
+* unioni_civili/UnCiv_008.csv
+* unioni_civili/UnCiv_998_1.csv
+* unioni_civili/UnCiv_998_2.csv
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 0
+
+
 #Changelog mappatura casi uso 1.6.0 
 
 ## Casi uso aggiunti : 16

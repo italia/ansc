@@ -17,6 +17,13 @@ Categorizzare le modifiche secondo le seguenti voci:
 
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
+## [Versione 1.6.1 - 17-04-2023]
+
+### Added
+
+    Mapping casi d'uso annotazioni (l'implementazione era già disponibile nella versione 1.6.0, è stata integrata la documentazione di mapping)
+
+
 ## [Versione 1.6.0 - 07-04-2023]
 
 ### Fixed
