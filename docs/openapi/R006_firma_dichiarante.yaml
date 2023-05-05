@@ -102,7 +102,15 @@ components:
         codiceFiscale:
           type: string
           description: Codice Fiscale Firmatario
-          example: "CDV87R12A326V"             
+          example: "CDV87R12A326V"
+        sesso:
+          type: string
+          description: sesso del Firmatario
+          example: "M"   
+        dataNascita:
+          type: string
+          description: data di nascita del Firmatario
+          example: "2020-01-03"
     FirmaDichiaranteOutput:
       properties:
         idAllegato:

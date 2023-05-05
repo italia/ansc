@@ -248,7 +248,10 @@ components:
         eventoCollegato: # Eventuale evento collegato
           $ref: '#/components/schemas/ModelAttoCollegato'
         datiAnnotazione:
-          $ref: '#/components/schemas/ModelDatiAnnotazione'
+          description: Dati delle annotazioni contestuali 
+          type: array
+          items:
+             $ref: '#/components/schemas/ModelDatiAnnotazione'
         datiEventoMorte:
           $ref: '#/components/schemas/ModelDatiEventoMorte'
         datiAssenso:
@@ -560,7 +563,11 @@ components:
               type: string
               description: Descrizione della nazione estera
               example: "AUSTRIA"
-              
+            comuneEstero:
+              type: string
+              description: comune estero della nazione estera
+              example: " berlino"
+            
     ModelAllegatoRif:
       properties:
         id: 
@@ -964,166 +971,16 @@ components:
           description: Indirizzo di posta elettronica certificata
           example: 'tizio@caio-pec.com'
     ModelDatiAnnotazione:
-      description: classe che raccoglie i dati specifici delle annotazioni
+      description: classe che raccoglie i dati per le annotazioni contestuali
       properties:
-          sposo:
-            $ref: '#/components/schemas/ModelSoggetto'
-          sposa:
-            $ref: '#/components/schemas/ModelSoggetto'
-          coniuge1:
-            $ref: '#/components/schemas/ModelSoggetto'
-          coniuge2:
-            $ref: '#/components/schemas/ModelSoggetto'
-          soggetto:
-            $ref: '#/components/schemas/ModelSoggetto'
-          padre:
-            $ref: '#/components/schemas/ModelSoggetto'
-          madre:
-            $ref: '#/components/schemas/ModelSoggetto' 
-          genitore:
-            $ref: '#/components/schemas/ModelSoggetto'    
-          affiliante:
-            $ref: '#/components/schemas/ModelSoggetto'
-          impugnatore:
-            $ref: '#/components/schemas/ModelSoggetto'
-          figlio:
-            $ref: '#/components/schemas/ModelSoggetto'  
-          dichiarante:
-            $ref: '#/components/schemas/ModelSoggetto'    
-          attoAnnotazione:
-            $ref: '#/components/schemas/ModelAttoCollegato'
-          dataAnnotazionePrecedente:
+          testoAnnotazione:
             type: string
-            format: date
-            description: Data annotazione precedente
-            example: "2022-09-20" 
-          comuneAnnotazionePrecedente:
-            type: string
-            description: Comune annotazione precedente
-            example: "Roma"   
-          dataAnnotazioneSeparazione:
-            type: string
-            format: date
-            description: Data annotazione separazione
-          enteDichiaranteEsistenza: # Ente dichiarante Esistenza in Vita
-            $ref: '#/components/schemas/ModelEnteDichiarante'
-          enteDichiaranteMortePresunta: # Ente dichiarante di morte presunta
-            $ref: '#/components/schemas/ModelEnteDichiarante'
-          enteDichiaranteOmologazione: # Ente dichiarante del provvedimento di omologazione
-            $ref: '#/components/schemas/ModelEnteDichiarante'
-          enteDichiaranteAutorizzazione: # Ente dichiarante autorizzazione del giudice
-            $ref: '#/components/schemas/ModelEnteDichiarante'
-          enteDichiaranteSentenzaItaliana: # Ente Dichiarante - sentenza italiana
-            $ref: '#/components/schemas/ModelEnteDichiarante'
-          enteDichiaranteSentenzaEstera: # Ente Dichiarante - sentenza straniera
-            $ref: '#/components/schemas/ModelEnteDichiarante'  
-          dataNegoziazioneAssistita:
-            type: string
-            format: date
-            description: Data di registrazione Negoziazione Assistita
-          dichiarazioneRiconoscimento:
-            type: string
-            description: specifica se è atto pubblico o testamento 
-            example: "1"
-          tipoRiconoscimento:
-            type: string
-            description: SI/Figlio maggiorenne riconosciuto dal padre e già riconosciuto dalla madre NO/Altri casi  
-            example: "SI" 
-          sceltaCognome:
-            type: string
-            description: Tipo scelta cognome  (decodifica ANSC_39)
-            example: "1" 
-          presenzaOmologazione:
-            type: string
-            description: SI/Presente omologazione  NO/Non Presente omologazione  
-            example: "SI"   
-          mutamentoConvenzioni:
-            type: string
-            description: SI/Mutamento convenzioni stipulate prima della entrata in vigore della legge 10 aprile 1981, n. 142  NO/Non Presente Mutazione  
-            example: "SI" 
-          sentenzaSeparazione:
-            type: string
-            description: (decodifica ANSC_53)
-            example: "1"
-          tipoCancellazione:
-            type: string
-            description: (decodifica ANSC_68)
-            example: "1" 
-          statoTutela:
-            type: string
-            description: (decodifica ANSC_69)
-          dataTutela:
-            type: string
-            format: date
-            description: Data apertura/chiusura Tutela
-            example: "2022-09-20"   
-          tipoNomina:
-            type: string
-            description: (decodifica ANSC_70)
-            example: "1" 
-          tipoGiudizio:
-            type: string
-            description: (decodifica ANSC_71)
-            example: "1"
-          cognomeOriginario:
-            type: string
-            description: Cognome originariamente attribuito 
-            example: "Rossi"
-          autorizzazioneConiuge:
-            type: string
-            description: (decodifica ANSC_72)
-            example: "1"
-          dataUnioneCivile:
-            type: string
-            format: date
-            description: Data unione Civile
-            example: "2022-09-20" 
-          dataAccertamento:
-            type: string
-            format: date
-            description: Data accertamento
-            example: "2022-09-20" 
-          sessoPrecedente:
-            type: string
-            description: Sesso Precedente
-            example: "1"    
-          nomePrecedente:
-            type: string
-            description: Nome Precedente
-            example: "1"  
-          leggittimazione:
-            type: string
-            description: (decodifica ANSC_73)
-            example: "1" 
-          pseudonimo:
-            type: string
-            description: pseudonimo
-            example: "Gianni" 
-          soggettoDichiarante:
-            type: string
-            description:  (decodifica ANSC_74)
-            example: "1" 
-          modalitaNome:
-            type: string
-            description:  modalità attributi Soggetto
-            example: "1"  
-          dispositivo:
-            type: string
-            description:  campo libero
-            example: "ABCD"  
-          dataRicorso:
-            type: string
-            format: date
-            description: Data accertamento
-            example: "2022-09-20" 
-          tribunalRicorso:
-            type: string
-            description:  Tribunale Ricorso
+            description: Contiene il testo completo dell’annotazione da presentare come annotazione a margine dell’atto
             example: "ABCD"   
-          esitoRicorso:
+          tipoAnnotazione:
             type: string
-            description:  (decodifica ANSC_75)
-            example: "ABCD"     
+            description: tipo di annotazione contestuale registrata
+            example: "1"     
 
     ModelTrascrizione:
       description: classe base per le trascrizioni. Non è mai usata da sola
@@ -2267,4 +2124,5 @@ components:
         composizioneCompleta:
           type: string
           description: La composizione completa nuova nuova lingua
-          example: "L'anno 2020 add 8 del mese di 1 alle ore 12 e minuti 1 nel(1) la Casa Comunale avanti a me CESENA ANSC Ufficiale dello Stato Civile del Comune di CESENA (2) Per delega avuta\ne' comparsa cognomeMadre nomeMadre nata in ROMA l 1977-11-12 (3) residente in ROCCA CANTERANO\n"
+          example: "L'anno 2020 add 8 del mese di 1 alle ore 12 e minuti 1 nel(1) la Casa Comunale avanti a me CESENA ANSC Ufficiale dello Stato Civile del Comune di CESENA (2) Per delega avuta\ne' comparsa cognomeMadre nomeMadre nata in ROMA l 1977-11-12 (3) residente in ROCCA CANTERANO\n" 
+          

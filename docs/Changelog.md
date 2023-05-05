@@ -18,25 +18,67 @@ Categorizzare le modifiche secondo le seguenti voci:
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
 
+## [Versione 1.7.0 - 05-05-2023]
+
+### Added 
+	
+    model_evento.yaml  
+        - Aggiunti al ModelEnteEstero: il campo comuneEstero  
+        - Modificato interamente il ModelDatiAnnotazione, riscritto in questo modo:  
+```
+			ModelDatiAnnotazione:  
+      			description: classe che raccoglie i dati per le annotazioni contestuali  
+      				properties:  
+			          testoAnnotazione:  
+			            type: string  
+			            description: Contiene il testo completo dell’annotazione da presentare come annotazione a margine dell’atto  
+			            example: "ABCD"     
+			          tipoAnnotazione:  
+			            type: string  
+			            description: tipo di annotazione contestuale registrata  
+			            example: "1"   
+```
+
+    Servizi Cooperativi  
+        - R006_firma_dichiarante.yaml, Aggiunti i seguenti campi al FirmatarioDTO: sesso, dataNascita (resi obbligatori codice fiscale o dati anagrafici)  
+        - R014_evento_validita.yaml, Aggiunto servizio cooperativo per Gestione data di validità verso anagrafe ai fini della predisposizione anagrafica  
+        - R009, Corretta trascrizione matrimonio dall'estero, aggiunto ente estero (https://github.com/italia/ansc/issues/63)  
+        - Aggiunta Gestione Annotazioni Contestuali  
+        - Aggiunti ulteriori allegati per il matrimonio  
+		  
+    Web Application  
+        - Aggiunta Gestione data di validità verso anagrafe nel servizio di firma dichiarante  
+        - Rimossi madre e padre dai casi d'uso :   
+           - [11315200] Dichiarazione nei termini di filiazione fuori dal matrimonio resa all'usc da ostetrica o altro sanitario che ha assistito al parto - nato vivo ma morto prima della dichiarazione  
+           - [11315100] Dichiarazione nei termini di filiazione fuori dal matrimonio resa all'usc da ostetrica o altro sanitario che ha assistito al parto - nato morto  
+        - Trascr_005 - Corretta minuta dell'atto  
+        - Citt_005, Citt_007, Citt_011, Citt_013: aggiunti ulteriori allegati  
+        - Gestiti comuni validi alla data  
+
+    Decodifiche  
+        - Aggiunta di valori ammissibile per tipo Allegato (ANSC_9)   
+        - Aggiornata tabella di decodifica 61 (https://github.com/italia/ansc/issues/79)  
+
+
 ## [Versione 1.6.2 - 20-04-2023]
 
 ### Fixed
 
-    Servizi cooperativi
-        - R009 Validazione caso d'uso matrimonio religioso (https://github.com/italia/ansc/issues/61)
-        - R002 Estratti per copia integrale di unione civile e matrimoni: corretta intestazione
+    Servizi cooperativi  
+        - R009 Validazione caso d'uso matrimonio religioso (https://github.com/italia/ansc/issues/61)  
+        - R002 Estratti per copia integrale di unione civile e matrimoni: corretta intestazione  
 
 
-    Decodifica ANSC_26 (26_dec_tipo_comunicazione)
-        - Aggiunta tabella (https://github.com/italia/ansc/issues/66)
+    Decodifica ANSC_26 (26_dec_tipo_comunicazione)  
+        - Aggiunta tabella (https://github.com/italia/ansc/issues/66)  
 
-    Web Application
-        - Matr_002, Matr_005: aggiunto l'officiante
-        - Morte_005: corretto luogo morte nel certificato semplice
-        - Trascr_022: corretta tarascrizione resa dalla direzione sanitaria (https://github.com/italia/ansc/issues/64)
-        - UnCiv_001: corretta minuta dell'atto
-        - Matr_004, Matr_001, Matr_007, Matr_005, UnCiv_001: corretto orario di celebrazione dell'evento
-        - Casi d'uso Matrimonio rito religioso: corretta obbligatorietà dei dati e flusso di firma (https://github.com/italia/ansc/issues/61)
+    Web Application  
+        - Matr_002, Matr_005: aggiunto l'officiante  
+        - Morte_005: corretto luogo morte nel certificato semplice  
+        - Trascr_022: corretta tarascrizione resa dalla direzione sanitaria (https://github.com/italia/ansc/issues/64)  
+        - UnCiv_001: corretta minuta dell'atto  
+        - Matr_004, Matr_001, Matr_007, Matr_005, UnCiv_001: corretto orario di celebrazione dell'evento  
+        - Casi d'uso Matrimonio rito religioso: corretta obbligatorietà dei dati e flusso di firma (https://github.com/italia/ansc/issues/61)  
 
 
 ## [Versione 1.6.1 - 17-04-2023]

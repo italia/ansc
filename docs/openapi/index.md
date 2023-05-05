@@ -16,5 +16,6 @@
 * [R011_cancellazione_atto.yaml](R011_cancellazione_atto.yaml)
 * [R012_firma_dichiarante_elettronica.yaml](R012_firma_dichiarante_elettronica.yaml)
 * [R013_rettifica_validazione.yaml](R013_rettifica_validazione.yaml)
+* [R014_evento_validita.yaml](R014_evento_validita.yaml)
 * [base_servizi.yaml](base_servizi.yaml)
 * [model_evento.yaml](model_evento.yaml)

@@ -14,6 +14,8 @@
 * [R010_anteprima.pdf](R010_anteprima.pdf)
 * [R011_cancellazione_atto.pdf](R011_cancellazione_atto.pdf)
 * [R012_firma_dichiarante_elettronica.pdf](R012_firma_dichiarante_elettronica.pdf)
+* [R013_rettifica_validazione.pdf](R013_rettifica_validazione.pdf)
+* [R014_evento_validita.pdf](R014_evento_validita.pdf)
 * [R901_config_decodifica.pdf](R901_config_decodifica.pdf)
 * [Tracciato-Evento.pdf](Tracciato-Evento.pdf)
 * [Tracciato-Evento.xlsx](Tracciato-Evento.xlsx)

@@ -1,3 +1,246 @@
+#Changelog mappatura casi uso 1.7.0  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 22
+* cittadinanza/Citt_005.csv
+* cittadinanza/Citt_007.csv
+* cittadinanza/Citt_011.csv
+* cittadinanza/Citt_013.csv
+* matrimoni/Matr_001.csv
+* matrimoni/Matr_002.csv
+* matrimoni/Matr_003.csv
+* matrimoni/Matr_004.csv
+* matrimoni/Matr_005.csv
+* matrimoni/Matr_007.csv
+* matrimoni/Matr_008.csv
+* matrimoni/Matr_Riconc_001.csv
+* riconoscimenti/Rico_007.csv
+* trascrizioni/Trascr_022.csv
+* trascrizioni/Trascr_Matr_001.csv
+* trascrizioni/Trascr_Matr_002.csv
+* trascrizioni/Trascr_Matr_003.csv
+* unioni_civili/UnCiv_001.csv
+* unioni_civili/UnCiv_002.csv
+* unioni_civili/UnCiv_003.csv
+* unioni_civili/UnCiv_004.csv
+* unioni_civili/UnCiv_005.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_005.csv : 
+* Aggiunto 'Allegati Allegato aggiuntivo' (riga:7)
+
+### Modifiche per il caso uso cittadinanza/Citt_007.csv : 
+* Aggiunto 'Allegati Allegato aggiuntivo' (riga:7)
+* Aggiunto 'evento.datiEventoCittadinanza.tempoAssunzione' (riga:69)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.dataTrascrizione' (riga:70)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.estremiDocumento' (riga:71)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.nomeEnte' (riga:72)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.nazioneEnte' (riga:73)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.nomeNazioneEnte' (riga:74)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.idProvinciaEnte' (riga:75)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.siglaProvinciaEnte' (riga:76)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.idComuneEnte' (riga:77)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.nomeComuneEnte' (riga:78)
+* Rimosso 'evento.datiEventoCittadinanza.datoreEstero'
+* Rimosso 'evento.datiEventoCittadinanza.nomeDatoreLavoro'
+* Rimosso 'evento.datiEventoCittadinanza.dataAssunzione'
+
+### Modifiche per il caso uso cittadinanza/Citt_011.csv : 
+* Aggiunto 'Allegati Allegato aggiuntivo' (riga:6)
+
+### Modifiche per il caso uso cittadinanza/Citt_013.csv : 
+* Aggiunto 'Allegati Allegato aggiuntivo' (riga:7)
+
+### Modifiche per il caso uso matrimoni/Matr_001.csv : 
+* Aggiunto 'Allegati Copia interale atto di nascita degli sposi' (riga:8)
+* Aggiunto 'Allegati Autocertificazione cumulativa stato libero, residenza, cittadinanza' (riga:9)
+* Aggiunto 'Allegati Certificato di eseguita pubblicazione' (riga:10)
+* Aggiunto 'Allegati Atto di pubblicazione' (riga:11)
+* Aggiunto 'Allegati Richiesta rilascio atto di delega' (riga:12)
+* Aggiunto 'Allegati Atto di delegazione' (riga:13)
+* Aggiunto 'Allegati Copia atto di matrimonio trascritto' (riga:14)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:330)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:331)
+
+### Modifiche per il caso uso matrimoni/Matr_002.csv : 
+* Aggiunto 'Allegati Copia interale atto di nascita degli sposi' (riga:8)
+* Aggiunto 'Allegati Autocertificazione cumulativa stato libero, residenza, cittadinanza' (riga:9)
+* Aggiunto 'Allegati Certificato di eseguita pubblicazione' (riga:10)
+* Aggiunto 'Allegati Atto di pubblicazione' (riga:11)
+* Aggiunto 'Allegati Richiesta rilascio atto di delega' (riga:12)
+* Aggiunto 'Allegati Atto di delegazione' (riga:13)
+* Aggiunto 'Allegati Copia atto di matrimonio trascritto' (riga:14)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.cognomeOfficiante' (riga:59)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:365)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:366)
+
+### Modifiche per il caso uso matrimoni/Matr_003.csv : 
+* Aggiunto 'Allegati Copia interale atto di nascita degli sposi' (riga:8)
+* Aggiunto 'Allegati Autocertificazione cumulativa stato libero, residenza, cittadinanza' (riga:9)
+* Aggiunto 'Allegati Certificato di eseguita pubblicazione' (riga:10)
+* Aggiunto 'Allegati Atto di pubblicazione' (riga:11)
+* Aggiunto 'Allegati Richiesta rilascio atto di delega' (riga:12)
+* Aggiunto 'Allegati Atto di delegazione' (riga:13)
+* Aggiunto 'Allegati Copia atto di matrimonio trascritto' (riga:14)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:330)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:331)
+
+### Modifiche per il caso uso matrimoni/Matr_004.csv : 
+* Aggiunto 'Allegati Copia interale atto di nascita degli sposi' (riga:8)
+* Aggiunto 'Allegati Autocertificazione cumulativa stato libero, residenza, cittadinanza' (riga:9)
+* Aggiunto 'Allegati Certificato di eseguita pubblicazione' (riga:10)
+* Aggiunto 'Allegati Atto di pubblicazione' (riga:11)
+* Aggiunto 'Allegati Richiesta rilascio atto di delega' (riga:12)
+* Aggiunto 'Allegati Atto di delegazione' (riga:13)
+* Aggiunto 'Allegati Copia atto di matrimonio trascritto' (riga:14)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:340)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:341)
+
+### Modifiche per il caso uso matrimoni/Matr_005.csv : 
+* Aggiunto 'Allegati Copia interale atto di nascita degli sposi' (riga:8)
+* Aggiunto 'Allegati Autocertificazione cumulativa stato libero, residenza, cittadinanza' (riga:9)
+* Aggiunto 'Allegati Certificato di eseguita pubblicazione' (riga:10)
+* Aggiunto 'Allegati Atto di pubblicazione' (riga:11)
+* Aggiunto 'Allegati Richiesta rilascio atto di delega' (riga:12)
+* Aggiunto 'Allegati Atto di delegazione' (riga:13)
+* Aggiunto 'Allegati Copia atto di matrimonio trascritto' (riga:14)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:369)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:370)
+
+### Modifiche per il caso uso matrimoni/Matr_007.csv : 
+* Aggiunto 'Allegati Copia interale atto di nascita degli sposi' (riga:8)
+* Aggiunto 'Allegati Autocertificazione cumulativa stato libero, residenza, cittadinanza' (riga:9)
+* Aggiunto 'Allegati Certificato di eseguita pubblicazione' (riga:10)
+* Aggiunto 'Allegati Atto di pubblicazione' (riga:11)
+* Aggiunto 'Allegati Richiesta rilascio atto di delega' (riga:12)
+* Aggiunto 'Allegati Atto di delegazione' (riga:13)
+* Aggiunto 'Allegati Copia atto di matrimonio trascritto' (riga:14)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:226)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:227)
+
+### Modifiche per il caso uso matrimoni/Matr_008.csv : 
+* Aggiunto 'Allegati Copia interale atto di nascita degli sposi' (riga:8)
+* Aggiunto 'Allegati Autocertificazione cumulativa stato libero, residenza, cittadinanza' (riga:9)
+* Aggiunto 'Allegati Certificato di eseguita pubblicazione' (riga:10)
+* Aggiunto 'Allegati Atto di pubblicazione' (riga:11)
+* Aggiunto 'Allegati Richiesta rilascio atto di delega' (riga:12)
+* Aggiunto 'Allegati Atto di delegazione' (riga:13)
+* Aggiunto 'Allegati Copia atto di matrimonio trascritto' (riga:14)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:226)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:227)
+
+### Modifiche per il caso uso matrimoni/Matr_Riconc_001.csv : 
+* Aggiunto 'Allegati Copia interale atto di nascita degli sposi' (riga:4)
+* Aggiunto 'Allegati Autocertificazione cumulativa stato libero, residenza, cittadinanza' (riga:5)
+* Aggiunto 'Allegati Certificato di eseguita pubblicazione' (riga:6)
+* Aggiunto 'Allegati Atto di pubblicazione' (riga:7)
+* Aggiunto 'Allegati Richiesta rilascio atto di delega' (riga:8)
+* Aggiunto 'Allegati Atto di delegazione' (riga:9)
+* Aggiunto 'Allegati Copia atto di matrimonio trascritto' (riga:10)
+
+### Modifiche per il caso uso riconoscimenti/Rico_007.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.preMorto' (riga:213)
+* Aggiunto 'evento.datiEventoRiconoscimento.presenzaDiscendenti' (riga:214)
+* Aggiunto 'evento.consensoPadre.tipoConsenso' (riga:215)
+* Rimosso 'evento.riconoscimentoPadre.avvenuto'
+* Rimosso 'evento.riconoscimentoPadre.atto.idAnsc'
+* Rimosso 'evento.riconoscimentoPadre.atto.idProvinciaRegistrazione'
+* Rimosso 'evento.riconoscimentoPadre.atto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.riconoscimentoPadre.atto.idComuneRegistrazione'
+* Rimosso 'evento.riconoscimentoPadre.atto.nomeComuneRegistrazione'
+* Rimosso 'evento.riconoscimentoPadre.atto.idtipocontenuto'
+* Rimosso 'evento.riconoscimentoPadre.atto.numeroatto'
+* Rimosso 'evento.riconoscimentoPadre.atto.annoAtto'
+* Rimosso 'evento.riconoscimentoPadre.atto.dataformazione'
+* Rimosso 'evento.riconoscimentoPadre.atto.tipologia'
+* Rimosso 'evento.riconoscimentoPadre.atto.parte'
+* Rimosso 'evento.riconoscimentoPadre.atto.serie'
+
+### Modifiche per il caso uso trascrizioni/Trascr_022.csv : 
+* Presenti modifiche per 'evento.madre.nome' (riga:10)
+* Presenti modifiche per 'evento.madre.sesso' (riga:11)
+* Presenti modifiche per 'evento.madre.dataNascita' (riga:12)
+* Presenti modifiche per 'evento.madre.idStatoNascita' (riga:13)
+* Presenti modifiche per 'evento.madre.nomeStatoNascita' (riga:14)
+* Presenti modifiche per 'evento.madre.idNazionalita' (riga:19)
+* Presenti modifiche per 'evento.madre.nazionalita' (riga:20)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:21)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:22)
+* Presenti modifiche per 'evento.padre.nome' (riga:32)
+* Presenti modifiche per 'evento.padre.sesso' (riga:33)
+* Presenti modifiche per 'evento.padre.dataNascita' (riga:34)
+* Presenti modifiche per 'evento.padre.idStatoNascita' (riga:35)
+* Presenti modifiche per 'evento.padre.nomeStatoNascita' (riga:36)
+* Presenti modifiche per 'evento.padre.idNazionalita' (riga:41)
+* Presenti modifiche per 'evento.padre.nazionalita' (riga:42)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:43)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:44)
+* Rimosso 'evento.trascrizioneNascita.autoritaMittente.nomeEnte'
+* Rimosso 'evento.trascrizioneNascita.autoritaMittente.idProvinciaEnte'
+* Rimosso 'evento.trascrizioneNascita.autoritaMittente.siglaProvinciaEnte'
+* Rimosso 'evento.trascrizioneNascita.autoritaMittente.idComuneEnte'
+* Rimosso 'evento.trascrizioneNascita.autoritaMittente.nomeComuneEnte'
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_001.csv : 
+* Aggiunto 'Allegati Copia interale atto di nascita degli sposi' (riga:4)
+* Aggiunto 'Allegati Autocertificazione cumulativa stato libero, residenza, cittadinanza' (riga:5)
+* Aggiunto 'Allegati Certificato di eseguita pubblicazione' (riga:6)
+* Aggiunto 'Allegati Atto di pubblicazione' (riga:7)
+* Aggiunto 'Allegati Richiesta rilascio atto di delega' (riga:8)
+* Aggiunto 'Allegati Atto di delegazione' (riga:9)
+* Aggiunto 'Allegati Copia atto di matrimonio trascritto' (riga:10)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.comuneEstero' (riga:96)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_002.csv : 
+* Aggiunto 'Allegati Copia interale atto di nascita degli sposi' (riga:3)
+* Aggiunto 'Allegati Autocertificazione cumulativa stato libero, residenza, cittadinanza' (riga:4)
+* Aggiunto 'Allegati Certificato di eseguita pubblicazione' (riga:5)
+* Aggiunto 'Allegati Atto di pubblicazione' (riga:6)
+* Aggiunto 'Allegati Richiesta rilascio atto di delega' (riga:7)
+* Aggiunto 'Allegati Atto di delegazione' (riga:8)
+* Aggiunto 'Allegati Copia atto di matrimonio trascritto' (riga:9)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.comuneEstero' (riga:72)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_003.csv : 
+* Aggiunto 'Allegati Copia interale atto di nascita degli sposi' (riga:4)
+* Aggiunto 'Allegati Autocertificazione cumulativa stato libero, residenza, cittadinanza' (riga:5)
+* Aggiunto 'Allegati Certificato di eseguita pubblicazione' (riga:6)
+* Aggiunto 'Allegati Atto di pubblicazione' (riga:7)
+* Aggiunto 'Allegati Richiesta rilascio atto di delega' (riga:8)
+* Aggiunto 'Allegati Atto di delegazione' (riga:9)
+* Aggiunto 'Allegati Copia atto di matrimonio trascritto' (riga:10)
+* Presenti modifiche per 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.idProvinciaEnte' (riga:70)
+* Presenti modifiche per 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.siglaProvinciaEnte' (riga:71)
+* Presenti modifiche per 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.idComuneEnte' (riga:72)
+* Presenti modifiche per 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.nomeComuneEnte' (riga:73)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.comuneEstero' (riga:74)
+* Presenti modifiche per 'evento.trascrizioneMatrimonio.atto.enteEstero.siglaProvinciaEnte' (riga:78)
+* Presenti modifiche per 'evento.trascrizioneMatrimonio.atto.enteEstero.idComuneEnte' (riga:79)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_001.csv : 
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:281)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:282)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_002.csv : 
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:304)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:305)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_003.csv : 
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:291)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:292)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_004.csv : 
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:278)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:279)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_005.csv : 
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:310)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:311)
+
+
+
 #Changelog mappatura casi uso 1.6.2
 
 ## Casi uso aggiunti : 0

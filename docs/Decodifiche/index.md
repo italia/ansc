@@ -60,3 +60,4 @@
 * 79_dec_tipo_rettifica [csv](79_dec_tipo_rettifica.csv) o [xlsx](79_dec_tipo_rettifica.xslx)
 * 91_dec_ruolo_segretario [csv](91_dec_ruolo_segretario.csv) o [xlsx](91_dec_ruolo_segretario.xslx)
 * 92_dec_difetto_eta_unioni_civili [csv](92_dec_difetto_eta_unioni_civili.csv) o [xlsx](92_dec_difetto_eta_unioni_civili.xslx)
+* 93_dec_tipo_notifica [csv](93_dec_tipo_notifica.csv) o [xlsx](93_dec_tipo_notifica.xslx)

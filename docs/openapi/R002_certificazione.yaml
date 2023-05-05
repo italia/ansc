@@ -58,14 +58,12 @@ components:
               type: string
               description: Id Nazionale univoco assegnato dal sistema.    
               example: "2022-2780-26095-040007"
-            idAnprRichiedente:
-              type: string
-              description: Id univoco del soggetto richiedente
-              example: "344666"
-            idAnprRiferimentoAtto:
-              type: string
-              description: Id univoco del soggetto a cui si riferisce l’atto
-              example: "395683"
+            soggettoRichiedente:
+              $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/ModelSoggetto'
+              description: Modello  soggetto richiedente
+            soggettoRiferimentoAtto:
+              $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/ModelSoggetto'
+              description: soggetto riferimento soggetto intestatario
             idEvento:
               type: string
               description: Id univoco dell’ Evento
