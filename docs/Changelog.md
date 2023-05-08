@@ -59,6 +59,17 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
         - Aggiunta di valori ammissibile per tipo Allegato (ANSC_9)   
         - Aggiornata tabella di decodifica 61 (https://github.com/italia/ansc/issues/79)  
 
+### Changed
+      Servizi Cooperativi 
+		R002_certificazione.yaml
+			- sostituito idAnprRichiedente con richiedente
+			- sostituito idAnprRiferimentoAtto con intestatario
+			- modificato tipo Idutenterilascio da BigDecimal a String in ModelCertificato
+### Removed
+      Servizi Cooperativi 
+    R002_certificazione.yaml		
+    - cancellazione idUsc	
+
 
 ## [Versione 1.6.2 - 20-04-2023]
 
