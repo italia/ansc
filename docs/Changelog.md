@@ -18,6 +18,15 @@ Categorizzare le modifiche secondo le seguenti voci:
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
 
+## [Versione 1.7.1 - 08-05-2023]
+
+### Fixed
+
+    Servizi cooperativi  
+        - R002 Riferimento model soggetto (https://github.com/italia/ansc/issues/93) 
+        - R002 Correzione proprietà openapi richiedete e intestatario (https://github.com/italia/ansc/issues/94) 
+
+
 ## [Versione 1.7.0 - 05-05-2023]
 
 ### Added 
