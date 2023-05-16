@@ -127,7 +127,7 @@
 "Dati della trascrizione","Data richiesta trascrizione","SI","evento.trascrizioneNascita","dataComunicazione",""
 "Dati della trascrizione","Riassunto","SI","evento.trascrizioneNascita","testoLibero",""
 "Dettagli evento","Tipo richiedente","SI","evento.trascrizioneNascita","tipoRichiedente",""
-"Dettagli evento","Tipo richiedente - Descrizione","SI","evento.trascrizioneNascita","descrizioneTipoRichiedente",""
+"Dettagli evento","Tipo richiedente - Descrizione","NO","evento.trascrizioneNascita","descrizioneTipoRichiedente",""
 "Flag - Richiedente Padre - Trascrizioni nascita","flag dichiarante","NO","evento.intestatari[0]","flagDichiarante","192-bis"
 "Flag - Richiedente Padre - Trascrizioni nascita","flag comparente","NO","evento.intestatari[0]","flagComparente","192-bis"
 "Flag - Richiedente Padre - Trascrizioni nascita","flag firmatario","NO","evento.intestatari[0]","flagFirmatario","192-bis"

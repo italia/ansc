@@ -164,4 +164,4 @@
 "Dati della trascrizione","Data richiesta trascrizione","SI","evento.trascrizioneNascita","dataComunicazione",""
 "Dati della trascrizione","Riassunto","SI","evento.trascrizioneNascita","testoLibero",""
 "Dettagli evento","Tipo richiedente","SI","evento.trascrizioneNascita","tipoRichiedente",""
-"Dettagli evento","Tipo richiedente - Descrizione","SI","evento.trascrizioneNascita","descrizioneTipoRichiedente",""
+"Dettagli evento","Tipo richiedente - Descrizione","NO","evento.trascrizioneNascita","descrizioneTipoRichiedente",""

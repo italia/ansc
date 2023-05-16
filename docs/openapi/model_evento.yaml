@@ -42,6 +42,10 @@ components:
           type: string
           description: Stato attuale dell'atto. (decodifica ANSC_11)
           example: "BOZZA"
+        flagsecretato:
+          type: string
+          description: Indica se l'atto e' secretato o meno (1 secretato - 0 non secretato)
+          example: 0
         # Dati di redazione dell'evento (sempre presenti)
         dataformazione: 
           type: string
@@ -470,10 +474,6 @@ components:
           type: string
           description: L'id del tipo impedimento (decodifica ANSC_32)
           example: ''
-        genere: 
-          type: string
-          description: descrizione del genere (decodifica ANSC_05)
-          example: 'a'
         idNazionalita: 
           type: string
           description: ID della Nazionalita 

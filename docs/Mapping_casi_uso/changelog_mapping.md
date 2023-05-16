@@ -1,3 +1,137 @@
+#Changelog mappatura casi uso 1.8.0  
+
+## Casi uso aggiunti : 79
+* cittadinanza/Citt_008.csv
+* cittadinanza/Citt_009.csv
+* cittadinanza/Citt_010.csv
+* cittadinanza/Citt_012.csv
+* cittadinanza/Citt_014.csv
+* cittadinanza/Citt_018.csv
+* cittadinanza/Citt_019.csv
+* cittadinanza/Citt_020.csv
+* cittadinanza/Citt_021.csv
+* cittadinanza/Citt_022.csv
+* cittadinanza/Citt_023.csv
+* cittadinanza/Citt_024.csv
+* cittadinanza/Citt_026.csv
+* cittadinanza/Citt_027.csv
+* cittadinanza/Citt_028.csv
+* cittadinanza/Citt_029.csv
+* cittadinanza/Citt_030.csv
+* cittadinanza/Citt_038.csv
+* cittadinanza/Citt_040.csv
+* matrimoni/Sep_Div_006.csv
+* nascita/Dic_Nasc_031.csv
+* nascita/Dic_Nasc_032.csv
+* nascita/Dic_Nasc_035.csv
+* nascita/Dic_Nasc_045.csv
+* nascita/Dic_Nasc_048.csv
+* nascita/Dic_Nasc_049.csv
+* nascita/Dic_Nasc_050.csv
+* nascita/Dic_Nasc_051.csv
+* nascita/Dic_Nasc_052.csv
+* nascita/Dic_Nasc_053.csv
+* nascita/Dic_Nasc_054.csv
+* nascita/Dic_Nasc_060.csv
+* nascita/Dic_Nasc_062.csv
+* nascita/Dic_Nasc_063.csv
+* nascita/Dic_Nasc_065.csv
+* nascita/Dic_Nasc_066.csv
+* nascita/Dic_Nasc_067.csv
+* nascita/Dic_Nasc_068.csv
+* nascita/Dic_Nasc_072.csv
+* nascita/Dic_Nasc_074.csv
+* nascita/Dic_Nasc_078.csv
+* nascita/Dic_Nasc_079.csv
+* nascita/Dic_Nasc_080.csv
+* nascita/Dic_Nasc_081.csv
+* nascita/Dic_Nasc_082.csv
+* nascita/Dic_Nasc_083.csv
+* nascita/Dic_Nasc_084.csv
+* nascita/Dic_Nasc_085.csv
+* nascita/Dic_Nasc_086.csv
+* nascita/Dic_Nasc_087.csv
+* nascita/Dic_Nasc_088.csv
+* nascita/Dic_Nasc_090.csv
+* nascita/Dic_Nasc_092.csv
+* nascita/Dic_Nasc_093.csv
+* nascita/Dic_Nasc_094.csv
+* nascita/Dic_Nasc_095.csv
+* nascita/Dic_Nasc_096.csv
+* nascita/Dic_Nasc_097.csv
+* nascita/Dic_Nasc_098.csv
+* nascita/Dic_Nasc_099.csv
+* nascita/Dic_Nasc_101.csv
+* nascita/Dic_Nasc_103.csv
+* nascita/Dic_Nasc_104.csv
+* nascita/Dic_Nasc_105.csv
+* nascita/Dic_Nasc_106.csv
+* nascita/Dic_Nasc_107.csv
+* nascita/Dic_Nasc_108.csv
+* nascita/Dic_Nasc_110.csv
+* nascita/Dic_Nasc_111.csv
+* nascita/Dic_Nasc_112.csv
+* nascita/Dic_Nasc_115.csv
+* nascita/Dic_Nasc_117.csv
+* riconoscimenti/Rico_011.csv
+* riconoscimenti/Rico_012.csv
+* riconoscimenti/Rico_019.csv
+* trascrizioni/Trascr_013.csv
+* trascrizioni/Trascr_020.csv
+* trascrizioni/Trascr_023.csv
+* trascrizioni/Trascr_026.csv
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 4
+* morte/Morte_011.csv
+* trascrizioni/Trascr_Matr_001.csv
+* trascrizioni/Trascr_Matr_002.csv
+* trascrizioni/Trascr_Matr_003.csv
+
+### Modifiche per il caso uso morte/Morte_011.csv : 
+* Aggiunto 'evento.trascrizioneMorte.attoEstero.enteEstero.nomeEnte' (riga:36)
+* Aggiunto 'evento.trascrizioneMorte.attoEstero.enteEstero.nazioneEnte' (riga:37)
+* Aggiunto 'evento.trascrizioneMorte.attoEstero.enteEstero.nomeNazioneEnte' (riga:38)
+* Aggiunto 'evento.trascrizioneMorte.attoEstero.enteEstero.dataTrascrizione' (riga:39)
+* Aggiunto 'evento.trascrizioneMorte.attoEstero.enteEstero.descrizione' (riga:40)
+* Aggiunto 'evento.trascrizioneMorte.attoEstero.enteEstero.estremiDocumento' (riga:41)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_001.csv : 
+* Aggiunto 'Allegati Copia integrale atto di nascita degli sposi' (riga:4)
+* Rimosso 'Allegati Copia interale atto di nascita degli sposi'
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.dataTrascrizione'
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.estremiDocumento'
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.nomeEnte'
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.nazioneEnte'
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.nomeNazioneEnte'
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.idProvinciaEnte'
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.siglaProvinciaEnte'
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.idComuneEnte'
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.nomeComuneEnte'
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.comuneEstero'
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_002.csv : 
+* Aggiunto 'Allegati Copia integrale atto di nascita degli sposi' (riga:3)
+* Rimosso 'Allegati Copia interale atto di nascita degli sposi'
+* Aggiunto 'evento.trascrizioneMatrimonio.atto.enteEstero.nomeComuneEnte' (riga:68)
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.dataTrascrizione'
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.estremiDocumento'
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.nomeEnte'
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.nazioneEnte'
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.nomeNazioneEnte'
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.idProvinciaEnte'
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.siglaProvinciaEnte'
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.idComuneEnte'
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.nomeComuneEnte'
+* Rimosso 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.comuneEstero'
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_003.csv : 
+* Aggiunto 'Allegati Copia integrale atto di nascita degli sposi' (riga:4)
+* Rimosso 'Allegati Copia interale atto di nascita degli sposi'
+* Aggiunto 'evento.trascrizioneMatrimonio.atto.enteEstero.nomeComuneEnte' (riga:80)
+
+
 #Changelog mappatura casi uso 1.7.0  
 
 ## Casi uso aggiunti : 0

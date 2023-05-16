@@ -18,6 +18,43 @@ Categorizzare le modifiche secondo le seguenti voci:
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
 
+## [Versione 1.8.0 - 16-05-2023]
+
+### Added 
+    Mapping casi d'uso   
+        - Aggiunti 79 casi d'uso (verificare changelog casi d'uso)  
+    Processo  
+        - Gestione Dati Secretati  
+    model_evento.yaml  
+        - Aggiunto flagsecretato per indicare se si tratta se l'atto è secretato o meno  
+    Web Application  
+        - Gestione Dati Secretati  
+        - Aggiunta funzionalità "Firma in seguito" che consente di recuperare la firma successivamente   
+    Servizi Cooperativi  
+        - Gestione Dati Secretati  
+
+### Changed  
+    Web Application   
+        - Modificato quick link "Rilascia certificato" : Vengono richieste le generalità dell'intestatario al fine dell'emissione dei certificati di interesse  
+
+### Removed  
+    model_evento.yaml  
+        - Rimosso genere dalla sottosezione del ModelSoggetto (https://github.com/italia/ansc/issues/89)   
+
+### Fixed  
+    Servizi cooperativi   
+        - R002 Corretto errore invocazione (https://github.com/italia/ansc/issues/95)  
+        - R005 Corretta consultazione annotazioni afferenti ad un evento  
+        - R005 Corretto servizio consultazione intestatario (https://github.com/italia/ansc/issues/36)  
+        - R006 Corretto servizio firma dichiarante (https://github.com/italia/ansc/issues/97)  
+        - R009 Corretti controlli su comune nascita e residenza per i soggetti collegati (https://github.com/italia/ansc/issues/80)  
+        - R010 Corretto servizio anteprima Matr_001 (https://github.com/italia/ansc/issues/52)  
+        - R010 Corretta anteprima contenuto vuoto (https://github.com/italia/ansc/issues/100)   
+        - R012 Corretto controllo tipo contenuto (https://github.com/italia/ansc/issues/92)  
+    Web Application  
+        - Corretta consultazione atti di matrimonio  
+
+
 ## [Versione 1.7.1 - 08-05-2023]
 
 ### Fixed
