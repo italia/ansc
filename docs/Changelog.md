@@ -1,4 +1,4 @@
-﻿# Changelog 
+# Changelog 
 
 Changelog per i file che definiscono modelli e interfacce con i sistemi di terze parti. 
 
@@ -17,7 +17,15 @@ Categorizzare le modifiche secondo le seguenti voci:
 
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
+## [Versione 1.8.1 - 19-05-2023]
 
+### Fixed  
+    Servizi cooperativi   
+        - R009 Corretti controlli sui soggetti collegati nei matrimoni (https://github.com/italia/ansc/issues/116)  
+        - R010 Corretto servizio di anteprima: errore compilazione template (https://github.com/italia/ansc/issues/103)  
+        - R009 Corretto servizio per caratteri non ammessi (https://github.com/italia/ansc/issues/115) 
+        - R009 Corretti controlli su morte defunto coiugato/unito civilmente (https://github.com/italia/ansc/issues/44)  
+       
 ## [Versione 1.8.0 - 16-05-2023]
 
 ### Added 
