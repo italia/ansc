@@ -7,9 +7,33 @@
         "versioneApplicativo": "1.0.0",
         "fornitoreApplicativo": "Nome Fornitore"
   },
-  "idAnsc": "{{idAnscTestFlusso01}}",
-  "idAnprRichiedente": "344666",
-  "idAnprRiferimentoAtto": "395683",
-  "idUsc": "35634",
-  "idTipoCertificato": "1"
+    "idAnsc": "{{idAnscTestFlusso01}}",
+    "idEvento": "569992",
+    "intestatario": {
+        "id": "434703"
+    },
+    "richiedente": {
+        "codiceFiscale": "XXXXX",
+        "cognome": "XXX",
+        "nome": "ANDREA",
+        "sesso": "M",
+        "dataNascita": "1989-06-28",
+        "idComuneNascita": "18345",
+        "nomeComuneNascita": "ROMA",
+        "idProvinciaNascita": "58",
+        "siglaProvinciaNascita": "RM",
+        "idStatoNascita": "90",
+        "nomeStatoNascita": "ITALIA",
+        "idComuneResidenza": "2780",
+        "nomeComuneResidenza": "CESENA",
+        "idProvinciaResidenza": "40",
+        "siglaProvinciaResidenza": "FC",
+        "idStatoResidenza": "90",
+        "nomeStatoResidenza": "ITALIA",
+        "indirizzoResidenza": "",
+        "idNazionalita": "90",
+        "nazionalita": "ITALIANA"
+      
+    },
+    "idTipoCertificato": "3"
 }
