@@ -93,6 +93,42 @@ paths:
             application/json:
               schema:
                  $ref: '#/components/schemas/CollegamentoEventoResponse'
+  
+  /prenota/evento/{version}:
+    post:
+      description: Servizio di prenotazione id nazionali per il parto gemellare e plurigemellare
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string
+      requestBody:
+         required: true
+         content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PrenotaEventoRequest'
+      responses:
+        200:
+          description: Successo
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/PrenotaEventoResponse'
+        403:
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/PrenotaEventoResponse'
+        404:
+          description: Se i dati dello use case non sono presenti in base dati.
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/PrenotaEventoResponse'
 components:
   schemas:
     ValidazioneEventoRequest:
@@ -140,7 +176,45 @@ components:
             idEsito:
               type: integer
               description: Esito del collegamento
-              example: 0  
+              example: 0
+    PrenotaEventoRequest:
+      description: Richiesta di prenotazione id nazionali per il parto gemellare e plurigemellare
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:
+            numeroGemelliNatiVivi: 
+             type: string
+             description: Numero di gemelli nati vivi
+             example: 2
+             required: true
+            listaNumeriComunali:
+             type: array
+             items:
+              type: string
+              description: Lista numero comunale univoco assegnato per ogni gemello
+              required: true
+            idUsecase: 
+             type: string
+             description: Id del caso d'uso cui si riferisce l'evento.
+             example: 1170
+             required: true          
+    PrenotaEventoResponse:
+      description: Risposta per il servizio di generazione degli idANSC associati al parto gemellare e plurigemellare
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:
+           listaIdEvento:
+            type: array
+            items:
+             type: string
+             description: Lista identificativo univoco interno dell'evento
+           listaIdAnsc:
+            type: array
+            items:
+             type: string
+             description: Lista identificativo univoco Nazionale dell'evento per tutti i comuni 
     ModelDatiCollegamento:
       properties:   
         idEvento:

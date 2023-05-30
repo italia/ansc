@@ -1,6 +1,6 @@
 [Home](../../../README.md)
 
-# Payload di test 1.6.0
+# Payload di test 1.9.0
 
 * [R001_allegato_upload.json](R001_allegato_upload.json)
 * [R001_verifica_allegato.json](R001_verifica_allegato.json)
@@ -14,10 +14,11 @@
 * [R009_caso_uso_servizio_annotazione.json](R009_caso_uso_servizio_annotazione.json)
 * [R009_inserimento_evento_morte.json](R009_inserimento_evento_morte.json)
 * [R009_inserimento_evento_nascita.json](R009_inserimento_evento_nascita.json)
+* [R009_prenotazione_numeri_parti_gemellari.json](R009_prenotazione_numeri_parti_gemellari.json)
 * [R010_anteprima_evento.json](R010_anteprima_evento.json)
 * [R012_firma_dichiarante_elettronica_annulla-link.json](R012_firma_dichiarante_elettronica_annulla-link.json)
 * [R012_firma_dichiarante_elettronica_invio_email.json](R012_firma_dichiarante_elettronica_invio_email.json)
 * [R012_firma_dichiarante_elettronica_pooling-stato-evento.json](R012_firma_dichiarante_elettronica_pooling-stato-evento.json)
 * [R013_inserimento_annotazione_errore_materiale.json](R013_inserimento_annotazione_errore_materiale.json)
 * [R013_inserimento_annotazione_rettifica.json](R013_inserimento_annotazione_rettifica.json)
-
+* [R014_inserimento_data_validita_pred_anag.json](R014_inserimento_data_validita_pred_anag.json)

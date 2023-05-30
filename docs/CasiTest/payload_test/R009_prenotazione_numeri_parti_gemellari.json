@@ -1,0 +1,21 @@
+{
+    "testataRichiesta": {
+        "idComune": {{idComune}},
+        "idOperazioneComune": "APP2022032210000",
+        "dataOraRichiesta": "{{dataOraRichiesta}}",
+        "nomeApplicativo": "{{nomeApplicativo}}",
+        "versioneApplicativo": "{{versioneApplicativo}}",
+        "fornitoreApplicativo": "{{fornitoreApplicativo}}"
+    },
+    "datiPaginazione": {
+        "numPagina": 2,
+        "numRecordPagina": 10,
+        "numRecordTotali": 570
+    },
+    "numeroGemelliNatiVivi": "2",
+    "idUsecase": "11111000",
+    "listaNumeriComunali": [
+        "48493275897282827",
+        "48493275897282828"
+    ]
+}

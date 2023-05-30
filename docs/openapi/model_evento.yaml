@@ -1298,6 +1298,10 @@ components:
               example: "Austriaca"
             decretoIntimazione:
               $ref: '#/components/schemas/ModelEnteDichiarante'
+            genitoreConCittadinanza:
+              type: string
+              description: Genitore che ha avuto cittadinanza
+              example: "Madre"
     ModelTrascrizioneMorte:
       allOf:
         - $ref: '#/components/schemas/ModelTrascrizione'

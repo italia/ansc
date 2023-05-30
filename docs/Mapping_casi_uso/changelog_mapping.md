@@ -1,3 +1,138 @@
+#Changelog mappatura casi uso 1.9.0  
+
+## Casi uso aggiunti : 43
+* cittadinanza/Citt_025.csv
+* cittadinanza/Citt_031.csv
+* cittadinanza/Citt_032.csv
+* cittadinanza/Citt_034.csv
+* cittadinanza/Citt_035.csv
+* cittadinanza/Citt_037.csv
+* cittadinanza/Citt_039.csv
+* cittadinanza/Citt_041.csv
+* cittadinanza/Citt_045.csv
+* cittadinanza/Citt_046.csv
+* matrimoni/Matr_009.csv
+* matrimoni/Matr_010.csv
+* matrimoni/Matr_011.csv
+* matrimoni/Matr_012.csv
+* matrimoni/Matr_013.csv
+* matrimoni/Matr_015.csv
+* matrimoni/Matr_016.csv
+* matrimoni/Sep_Div_004.csv
+* matrimoni/Sep_Div_007.csv
+* morte/Morte_010.csv
+* nascita/Dic_Nasc_055.csv
+* nascita/Dic_Nasc_056.csv
+* nascita/Dic_Nasc_058.csv
+* nascita/Dic_Nasc_059.csv
+* nascita/Dic_Nasc_075.csv
+* nascita/Dic_Nasc_109.csv
+* nascita/Dic_Nasc_113.csv
+* nascita/Dic_Nasc_116.csv
+* trascrizioni/Trascr_001.csv
+* trascrizioni/Trascr_002.csv
+* trascrizioni/Trascr_003.csv
+* trascrizioni/Trascr_007.csv
+* trascrizioni/Trascr_008.csv
+* trascrizioni/Trascr_010.csv
+* trascrizioni/Trascr_011.csv
+* trascrizioni/Trascr_012.csv
+* trascrizioni/Trascr_014.csv
+* trascrizioni/Trascr_017.csv
+* trascrizioni/Trascr_025.csv
+* trascrizioni/Trascr_Matr_004.csv
+* trascrizioni/Trascr_Matr_005.csv
+* trascrizioni/Trascr_UnCiv_003.csv
+* trascrizioni/Trascr_UnCiv_004.csv
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 4
+* cittadinanza/Citt_004.csv
+* morte/Morte_004.csv
+* trascrizioni/Trascr_Matr_001.csv
+* trascrizioni/Trascr_Matr_002.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_004.csv : 
+* Presenti modifiche per 'evento.madre.nome' (riga:35)
+* Presenti modifiche per 'evento.madre.sesso' (riga:36)
+* Presenti modifiche per 'evento.madre.dataNascita' (riga:37)
+* Presenti modifiche per 'evento.madre.idStatoNascita' (riga:38)
+* Presenti modifiche per 'evento.madre.nomeStatoNascita' (riga:39)
+* Presenti modifiche per 'evento.madre.idNazionalita' (riga:44)
+* Presenti modifiche per 'evento.madre.nazionalita' (riga:45)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:46)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:47)
+* Presenti modifiche per 'evento.madre.indirizzoResidenza' (riga:52)
+* Presenti modifiche per 'evento.madre.flagDichiarante' (riga:53)
+* Presenti modifiche per 'evento.madre.flagComparente' (riga:54)
+* Presenti modifiche per 'evento.madre.flagFirmatario' (riga:55)
+* Presenti modifiche per 'evento.padre.nome' (riga:58)
+* Presenti modifiche per 'evento.padre.sesso' (riga:59)
+* Presenti modifiche per 'evento.padre.dataNascita' (riga:60)
+* Presenti modifiche per 'evento.padre.idStatoNascita' (riga:61)
+* Presenti modifiche per 'evento.padre.nomeStatoNascita' (riga:62)
+* Presenti modifiche per 'evento.padre.idNazionalita' (riga:67)
+* Presenti modifiche per 'evento.padre.nazionalita' (riga:68)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:69)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:70)
+* Presenti modifiche per 'evento.padre.indirizzoResidenza' (riga:75)
+* Presenti modifiche per 'evento.padre.flagDichiarante' (riga:76)
+* Presenti modifiche per 'evento.padre.flagComparente' (riga:77)
+* Presenti modifiche per 'evento.padre.flagFirmatario' (riga:78)
+* Aggiunto 'evento.datiEventoCittadinanza.ulterioreCittadinanza' (riga:87)
+
+### Modifiche per il caso uso morte/Morte_004.csv : 
+* Aggiunto 'Formula 197' (riga:4)
+* Presenti modifiche per 'evento.trascrizioneMorte.atto.enteEstero.idProvinciaEnte' (riga:9)
+* Presenti modifiche per 'evento.trascrizioneMorte.atto.enteEstero.siglaProvinciaEnte' (riga:10)
+* Presenti modifiche per 'evento.trascrizioneMorte.atto.enteEstero.idComuneEnte' (riga:11)
+* Presenti modifiche per 'evento.trascrizioneMorte.atto.enteEstero.nomeComuneEnte' (riga:12)
+* Presenti modifiche per 'evento.trascrizioneMorte.atto.enteEstero.nazioneEnte' (riga:13)
+* Presenti modifiche per 'evento.trascrizioneMorte.atto.enteEstero.nomeNazioneEnte' (riga:14)
+* Rimosso 'evento.trascrizioneMorte.atto.enteEstero.dataTrascrizione'
+* Rimosso 'evento.trascrizioneMorte.autoritaMittente.ruoloEnteDichiarante'
+* Rimosso 'evento.trascrizioneMorte.autoritaMittente.nomeEnte'
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_001.csv : 
+* Presenti modifiche per 'evento.intestatari[0].cognome' (riga:20)
+* Presenti modifiche per 'evento.intestatari[0].siglaProvinciaNascita' (riga:27)
+* Presenti modifiche per 'evento.intestatari[0].nomeComuneNascita' (riga:29)
+* Presenti modifiche per 'evento.intestatari[0].siglaProvinciaResidenza' (riga:35)
+* Presenti modifiche per 'evento.intestatari[0].nomeComuneResidenza' (riga:37)
+* Presenti modifiche per 'evento.intestatari[0].indirizzoResidenza' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.codiceFiscale' (riga:64)
+* Presenti modifiche per 'evento.dichiarante.sesso' (riga:67)
+* Presenti modifiche per 'evento.dichiarante.dataNascita' (riga:68)
+* Presenti modifiche per 'evento.dichiarante.siglaProvinciaNascita' (riga:72)
+* Presenti modifiche per 'evento.dichiarante.nomeComuneNascita' (riga:74)
+* Presenti modifiche per 'evento.dichiarante.siglaProvinciaResidenza' (riga:80)
+* Presenti modifiche per 'evento.dichiarante.nomeComuneResidenza' (riga:82)
+* Presenti modifiche per 'evento.dichiarante.indirizzoResidenza' (riga:83)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.dataTrascrizione' (riga:87)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.estremiDocumento' (riga:88)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.nomeEnte' (riga:89)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.nazioneEnte' (riga:90)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.nomeNazioneEnte' (riga:91)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.idProvinciaEnte' (riga:92)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.siglaProvinciaEnte' (riga:93)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.idComuneEnte' (riga:94)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.nomeComuneEnte' (riga:95)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.comuneEstero' (riga:96)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_002.csv : 
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.dataTrascrizione' (riga:63)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.estremiDocumento' (riga:64)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.nomeEnte' (riga:65)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.nazioneEnte' (riga:66)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.nomeNazioneEnte' (riga:67)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.idProvinciaEnte' (riga:68)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.siglaProvinciaEnte' (riga:69)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.idComuneEnte' (riga:70)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.nomeComuneEnte' (riga:71)
+* Aggiunto 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.comuneEstero' (riga:72)
+
+
 #Changelog mappatura casi uso 1.8.0  
 
 ## Casi uso aggiunti : 79

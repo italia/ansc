@@ -61,10 +61,6 @@ components:
           format: base64
           description: Il file in formato base64
           example: "QU5TQw=="
-        protocollo:
-          type: string
-          description: Protocollo dell'allegato assegnato dal comune
-          example: "31298/2022"
         nomefile:
           type: string
           description: Nome del file

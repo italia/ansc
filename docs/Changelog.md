@@ -17,6 +17,56 @@ Categorizzare le modifiche secondo le seguenti voci:
 
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
+
+## [Versione 1.9.0 - 31-05-2023]
+
+### Added 
+	Processo
+		- Gestione Parto Gemellare e Plurigemellare
+		- Recupero atto firmato dal dichiarante entro un tempo prestabilito (2 ore)
+		
+	model_evento.yaml
+		- Aggiunto idContenitore per legare tra di loro gli atti dei gemelli
+	
+	Web Application
+		- Gestione Parto Gemellare e Plurigemellare
+		
+	Servizi Cooperativi
+        - Gestione Parto Gemellare e Plurigemellare
+        
+        - R001_allegato.yaml
+            - Aggiunto descrizione per upload allegato (/allegato/upload/{version})
+
+### Changed
+      Servizi Cooperativi 
+		R009_validazione.yaml
+			- Aggiunto nuovo servizio per la prenotazione degli id nazionali per il parto gemellare e plurigemellare (/prenota/evento/{version})	
+		R007_firma_USC
+			- Recupero atto firmato dal dichiarante entro un tempo prestabilito (2 ore)		
+
+### Removed
+      Servizi Cooperativi
+        R006_firma_dichiarante.yaml
+            - Rimosso protocollo per upload firma dichiarante (/firmadichiarante/upload/{version})
+            
+### Fixed
+
+	Decodifiche
+		- Aggiornate descrizioni Use Case e verificati UC mancanti (https://github.com/italia/ansc/issues/114) (https://github.com/italia/ansc/issues/85)
+		- 66_dec_tipo_trasmissione: aggiunto ACCERTAMENTO (https://github.com/italia/ansc/issues/23)
+
+	Servizi cooperativi
+		- R005 corretta consultazione per Soggetto (https://github.com/italia/ansc/issues/123)
+		- R010: corretto servizio Firma Presa Visione (https://github.com/italia/ansc/issues/120) (https://github.com/italia/ansc/issues/131) (https://github.com/italia/ansc/issues/117)
+		- R001: corretto servizio upload allegato (https://github.com/italia/ansc/issues/86) (https://github.com/italia/ansc/issues/88)
+		- R010: corretto servizio anteprima dati obbligatori (https://github.com/italia/ansc/issues/81)
+		- R009: Morte_004 sostituito ente estero con ente italiano (https://github.com/italia/ansc/issues/103)
+		- R008: corretto servizio di rivcerca notifiche (https://github.com/italia/ansc/issues/119)
+		- R010: corretta anteprima caso uso libero 11999999 (https://github.com/italia/ansc/issues/135)(https://github.com/italia/ansc/issues/136)
+		- R002: corretto servizio di certificazione, eliminato controllo bloccante su documento riconoscimento richiedente 
+		(https://github.com/italia/ansc/issues/122)
+
+
 ## [Versione 1.8.1 - 19-05-2023]
 
 ### Fixed  
@@ -25,6 +75,7 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
         - R010 Corretto servizio di anteprima: errore compilazione template (https://github.com/italia/ansc/issues/113)  
         - R009 Corretto servizio per caratteri non ammessi (https://github.com/italia/ansc/issues/115)
         - R009 Corretti controlli su morte defunto coiugato/unito civilmente (https://github.com/italia/ansc/issues/44)  
+
 
 
 ## [Versione 1.8.0 - 16-05-2023]

@@ -153,7 +153,11 @@ components:
         tipoAllegato:
           type: string
           description: Tipo dell'allegato (codificato ANSC_9)
-          example: "1"      
+          example: "1"
+        descrizione:
+          description: Descrizione assegnata al file
+          type: string
+          example: Attestazione di nascita
     AllegatoOutput:
       description: Modello allegato restituito dal sistema 
       properties:
