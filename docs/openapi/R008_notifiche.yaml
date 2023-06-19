@@ -129,6 +129,7 @@ components:
           example: 'ITALIA'
         datanascita: 
           type: string
+          format: date
           description: Data Di Nascita
           example: '2020-01-01'           
     CriteriRicercaNotifiche:
@@ -194,9 +195,11 @@ components:
           description: Identificativo soggetto di riferimento
         dataInizioValidita:
           type: string
+          format: date
           description: data di inizio validita
         dataFineValidita:
           type: string
+          format: date
           description: data di fine validita
     NotificheRicercaRequest:
       description: Ritorno del servizio specializzato per la configurazione dei pannelli

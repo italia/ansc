@@ -89,10 +89,12 @@ components:
           example: "Mario Rossi"
         dataIns:  
           type: string
+          format: date
           description: Data di inserimento
           example: "2022-06-21"
         dataFineValidita:  
           type: string
+          format: date
           description: Data di fine Validità
           example: "2022-06-21"
         riferimentoFile:  

@@ -98,7 +98,7 @@ paths:
     post:
       tags: 
         - poolingStatoAtto
-      description: Servizio esposto per il pooling di controllo sulla presa visione del dichiarante nel processo di firma.
+      description: Servizio esposto per il pooling di controllo sulla presa visione del dichiarante nel processo di firma. Passando l’idEvento, il servizio risponde con lo stato dell’evento. Passando l’idPresaVisione, il servizio risponde con lo stato della presa visione. Nel caso un cui il servizio sia chiamato con la coppia idEvento/idPresaVisione, risponse con lo stato della presa visione
       parameters:
         - name: version
           in: path
@@ -219,7 +219,11 @@ components:
             idPresaVisione:
               type: string
               description:  Identificativo Id Presa Visione
-              example: '01234'          
+              example: '01234'
+            idEvento:
+              type: string
+              description:  Identificativo Id dell'evento'
+              example: '1234'          
               
     FirmaDichiaranteOnlinePoolingStatoAttoResponse:
       description: Risposta del processo di pooling di controllo sulla presa visione
@@ -227,7 +231,7 @@ components:
         - $ref: '#/components/schemas/FirmaDichiaranteOnlineResponse'
         - type: object  
           properties:         
-            idStateEvento:
+            idState:
               type: integer
               description: stato delle evento
               example: 1   

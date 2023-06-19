@@ -80,7 +80,7 @@
 "Padre","flag comparente","SI","evento.padre","flagComparente",""
 "Padre","flag firmatario","SI","evento.padre","flagFirmatario",""
 "Padre","Indirizzo PEC","NO","evento.padre.recapito","pec",""
-"Autorità mittente","Data formazione documento","NO","evento.trascrizioneCittadinanza.autoritaMittente","dataTrascrizione",""
+"Autorità mittente","Data formazione documento","SI","evento.trascrizioneCittadinanza.autoritaMittente","dataTrascrizione",""
 "Autorità mittente","Estremi documento","SI","evento.trascrizioneCittadinanza.autoritaMittente","estremiDocumento",""
 "Autorità mittente","Nome ente","SI","evento.trascrizioneCittadinanza.autoritaMittente","nomeEnte",""
 "Autorità mittente","Provincia ente","SI","evento.trascrizioneCittadinanza.autoritaMittente","idProvinciaEnte",""

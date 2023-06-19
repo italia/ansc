@@ -408,6 +408,7 @@ components:
           example: 'femmina'    
         dataNascita: 
           type: string
+          format: date
           description: Data Di Nascita
           example: '2020-01-01'          
         idComuneNascita: 
@@ -539,6 +540,7 @@ components:
           example: 'Via aa'          
         dataTrascrizione: 
           type: string
+          format: date
           description: Data in cui e' avvenuta la trascrizione.
           example: '2020-01-08'
         descrizione:
@@ -660,6 +662,7 @@ components:
           example: "Carta d'identità"
         dataScadenza: 
           type: string
+          format: date
           description: Data di scadenza del documento.
           example: '2020-01-08'
         rilasciatoDa: 
@@ -668,6 +671,7 @@ components:
           example: 'Comune di Cesena'
         dataRilascio: 
           type: string
+          format: date
           description: Data di rilascio del dcoumento di riconoscimento.
           example: '2017-01-08'
     ModelDatiRinvenuto:
@@ -1048,7 +1052,7 @@ components:
               $ref: '#/components/schemas/ModelEnteDichiarante'
             dataProvvidementoCambioCognome:
               type: string
-              format: data
+              format: date
               description: Data del provvedimento di cambio cognome
               example: "2022-02-12"
             tipoMutazioneCognome:
@@ -1298,10 +1302,7 @@ components:
               example: "Austriaca"
             decretoIntimazione:
               $ref: '#/components/schemas/ModelEnteDichiarante'
-            genitoreConCittadinanza:
-              type: string
-              description: Genitore che ha avuto cittadinanza
-              example: "Madre"
+           
     ModelTrascrizioneMorte:
       allOf:
         - $ref: '#/components/schemas/ModelTrascrizione'
@@ -1791,12 +1792,12 @@ components:
           example: "CESENA"
         dataInizio:
           type: string
-          format: data
+          format: date
           description: Data inizio pubblicszione
           example: '2022-01-30'
         dataFine:
           type: string
-          format: data
+          format: date
           description: Data fine pubblicazione
           example: '2022-04-30'
           

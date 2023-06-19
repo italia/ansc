@@ -43,7 +43,7 @@
 "Dichiarazione rinuncia presso il consolato","Provincia ente - Descrizione","SI","evento.enteDichiarante","siglaProvinciaEnte",""
 "Dichiarazione rinuncia presso il consolato","Comune ente","SI","evento.enteDichiarante","idComuneEnte",""
 "Dichiarazione rinuncia presso il consolato","Comune ente - Descrizione","SI","evento.enteDichiarante","nomeComuneEnte",""
-"Autorità mittente","Data formazione documento","NO","evento.trascrizioneCittadinanza.autoritaMittente","dataTrascrizione",""
+"Autorità mittente","Data formazione documento","SI","evento.trascrizioneCittadinanza.autoritaMittente","dataTrascrizione",""
 "Autorità mittente","Estremi documento","SI","evento.trascrizioneCittadinanza.autoritaMittente","estremiDocumento",""
 "Autorità mittente","Nome ente","SI","evento.trascrizioneCittadinanza.autoritaMittente","nomeEnte",""
 "Autorità mittente","Provincia ente","SI","evento.trascrizioneCittadinanza.autoritaMittente","idProvinciaEnte",""

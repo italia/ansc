@@ -17,6 +17,7 @@
 "Dati generali","Tipo richiesta","SI","evento.trascrizioneMatrimonio","tipoDichiarazione",""
 "Dati generali","Data richiesta","SI","evento.trascrizioneMatrimonio","dataComunicazione",""
 "Dati generali","Riassunto trascrizione","SI","evento.trascrizioneMatrimonio","testoLibero",""
+"Dati generali","Data matrimonio","SI","evento.datiEventoMatrimonio","dataEvento",""
 "Generalità Sposo","Cognome","NO","evento.intestatari[0]","cognome","192.1"
 "Generalità Sposo","Nome","SI","evento.intestatari[0]","nome",""
 "Generalità Sposo","Sesso","SI","evento.intestatari[0]","sesso",""

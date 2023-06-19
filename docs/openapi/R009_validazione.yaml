@@ -223,6 +223,7 @@ components:
           example: '79553' 
         dataFormazioneEvento:
           type: string
+          format: date
           description: Data di formazione evento primario
           example: "2014-12-17"
         idAnnotazione:

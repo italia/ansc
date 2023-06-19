@@ -67,6 +67,7 @@ components:
               description: Id Nazionale univoco assegnato dal sistema
             dataValidita:
               type: string
+              format: date
               description: Data validità evento
               example: "2023-01-01"  
                

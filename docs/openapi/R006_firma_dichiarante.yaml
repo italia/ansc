@@ -105,6 +105,7 @@ components:
           example: "M"   
         dataNascita:
           type: string
+          format: date
           description: data di nascita del Firmatario
           example: "2020-01-03"
     FirmaDichiaranteOutput:

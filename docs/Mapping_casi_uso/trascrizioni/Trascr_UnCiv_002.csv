@@ -15,6 +15,7 @@
 "Formazione atto","Data formazione","SI","evento","dataformazione",""
 "Formazione atto","Ora formazione","SI","evento","ora",""
 "Formazione atto","Minuti formazione","SI","evento","minuto",""
+"Dati trascrizione","Data Unione civile","SI","evento.datiEventoUnioneCivile","dataEvento",""
 "Dati trascrizione","Tipo richiesta","SI","evento.trascrizioneUnioneCivile","tipoDichiarazione",""
 "Dati trascrizione","Data richiesta","SI","evento.trascrizioneUnioneCivile","dataComunicazione",""
 "Dati trascrizione","Tipo atto da trascrivere","SI","evento.trascrizioneUnioneCivile","tipoTrascrizione",""

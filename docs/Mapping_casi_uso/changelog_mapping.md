@@ -1,3 +1,392 @@
+#Changelog mappatura casi uso 1.9.1  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 31
+* cittadinanza/Citt_045.csv
+* cittadinanza/Citt_046.csv
+* matrimoni/Matr_003.csv
+* matrimoni/Matr_009.csv
+* matrimoni/Matr_010.csv
+* matrimoni/Matr_011.csv
+* matrimoni/Matr_012.csv
+* matrimoni/Matr_013.csv
+* matrimoni/Matr_015.csv
+* matrimoni/Matr_016.csv
+* matrimoni/Matr_Riconc_001.csv
+* matrimoni/Sep_Div_004.csv
+* morte/Morte_004.csv
+* trascrizioni/Trascr_004.csv
+* trascrizioni/Trascr_010.csv
+* trascrizioni/Trascr_011.csv
+* trascrizioni/Trascr_013.csv
+* trascrizioni/Trascr_014.csv
+* trascrizioni/Trascr_015.csv
+* trascrizioni/Trascr_016.csv
+* trascrizioni/Trascr_018.csv
+* trascrizioni/Trascr_019.csv
+* trascrizioni/Trascr_020.csv
+* trascrizioni/Trascr_021.csv
+* trascrizioni/Trascr_Matr_001.csv
+* trascrizioni/Trascr_Matr_002.csv
+* trascrizioni/Trascr_Matr_003.csv
+* trascrizioni/Trascr_Matr_005.csv
+* trascrizioni/Trascr_UnCiv_001.csv
+* trascrizioni/Trascr_UnCiv_002.csv
+* unioni_civili/Sciogl_UnCiv_004.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_045.csv : 
+* Aggiunto 'Formula 192' (riga:3)
+* Rimosso 'Formula 192.6'
+* Presenti modifiche per 'evento.datiDichiarante.comprensione' (riga:12)
+* Presenti modifiche per 'evento.datiDichiarante.motivoImpedimentoScrittura' (riga:13)
+* Presenti modifiche per 'evento.ausilioInterprete' (riga:14)
+* Presenti modifiche per 'evento.intestatari[0].cognome' (riga:20)
+* Presenti modifiche per 'evento.intestatari[0].codiceFiscale' (riga:22)
+* Presenti modifiche per 'evento.intestatari[0].siglaProvinciaNascita' (riga:28)
+* Presenti modifiche per 'evento.intestatari[0].nomeComuneNascita' (riga:30)
+* Presenti modifiche per 'evento.intestatari[0].siglaProvinciaResidenza' (riga:36)
+* Presenti modifiche per 'evento.intestatari[0].nomeComuneResidenza' (riga:38)
+* Presenti modifiche per 'evento.intestatari[0].indirizzoResidenza' (riga:39)
+* Aggiunto 'evento.datiEventoCittadinanza.motivoPerditaCittadinanza' (riga:55)
+
+### Modifiche per il caso uso cittadinanza/Citt_046.csv : 
+* Aggiunto 'evento.datiEventoCittadinanza.motivoPerditaCittadinanza' (riga:41)
+
+### Modifiche per il caso uso matrimoni/Matr_003.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.officiante' (riga:58)
+* Rimosso 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.dataTrascrizione'
+* Rimosso 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.estremiDocumento'
+* Rimosso 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.nomeEnte'
+* Rimosso 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.idProvinciaEnte'
+* Rimosso 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.siglaProvinciaEnte'
+* Rimosso 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.idComuneEnte'
+* Rimosso 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.nomeComuneEnte'
+
+### Modifiche per il caso uso matrimoni/Matr_009.csv : 
+* Presenti modifiche per 'Formula 54' (riga:16)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.officiante' (riga:47)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.dataTrascrizione' (riga:207)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.estremiDocumento' (riga:208)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.nomeEnte' (riga:209)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.idProvinciaEnte' (riga:210)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.siglaProvinciaEnte' (riga:211)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.idComuneEnte' (riga:212)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.nomeComuneEnte' (riga:213)
+* Aggiunto 'evento.datiEventoMatrimonio.consensoRiconoscimento.datiProdotti' (riga:245)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nome' (riga:325)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].sesso' (riga:326)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].dataNascita' (riga:327)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idStatoNascita' (riga:328)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nomeStatoNascita' (riga:329)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idNazionalita' (riga:334)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nazionalita' (riga:335)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idStatoResidenza' (riga:336)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nomeStatoResidenza' (riga:337)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagDichiarante' (riga:343)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagComparente' (riga:344)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagFirmatario' (riga:345)
+* Rimosso 'evento.datiEventoMatrimonio.datiRiconoscimento[0].giaRiconosciutoDaPadre'
+* Rimosso 'evento.datiEventoMatrimonio.datiRiconoscimento[0].giaRiconosciutoDaMadre'
+
+### Modifiche per il caso uso matrimoni/Matr_010.csv : 
+* Presenti modifiche per 'Formula 54' (riga:17)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.officiante' (riga:57)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.dataTrascrizione' (riga:217)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.estremiDocumento' (riga:218)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.nomeEnte' (riga:219)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.idProvinciaEnte' (riga:220)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.siglaProvinciaEnte' (riga:221)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.idComuneEnte' (riga:222)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.nomeComuneEnte' (riga:223)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nome' (riga:354)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].sesso' (riga:355)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].dataNascita' (riga:356)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idStatoNascita' (riga:357)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nomeStatoNascita' (riga:358)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idNazionalita' (riga:363)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nazionalita' (riga:364)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idStatoResidenza' (riga:365)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nomeStatoResidenza' (riga:366)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagDichiarante' (riga:372)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagComparente' (riga:373)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagFirmatario' (riga:374)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.soggettoImpedimento' (riga:462)
+* Rimosso 'evento.datiEventoMatrimonio.datiRiconoscimento[0].giaRiconosciutoDaPadre'
+* Rimosso 'evento.datiEventoMatrimonio.datiRiconoscimento[0].giaRiconosciutoDaMadre'
+
+### Modifiche per il caso uso matrimoni/Matr_011.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.officiante' (riga:56)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nome' (riga:359)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].sesso' (riga:360)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].dataNascita' (riga:361)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idStatoNascita' (riga:362)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nomeStatoNascita' (riga:363)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idNazionalita' (riga:368)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nazionalita' (riga:369)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idStatoResidenza' (riga:370)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nomeStatoResidenza' (riga:371)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagDichiarante' (riga:377)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagComparente' (riga:378)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagFirmatario' (riga:379)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.soggettoImpedimento' (riga:443)
+* Rimosso 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.dataTrascrizione'
+* Rimosso 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.estremiDocumento'
+* Rimosso 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.nomeEnte'
+* Rimosso 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.idProvinciaEnte'
+* Rimosso 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.siglaProvinciaEnte'
+* Rimosso 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.idComuneEnte'
+* Rimosso 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.nomeComuneEnte'
+* Rimosso 'evento.datiEventoMatrimonio.datiRiconoscimento[0].giaRiconosciutoDaPadre'
+* Rimosso 'evento.datiEventoMatrimonio.datiRiconoscimento[0].giaRiconosciutoDaMadre'
+
+### Modifiche per il caso uso matrimoni/Matr_012.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.officiante' (riga:47)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.dataTrascrizione' (riga:234)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.estremiDocumento' (riga:235)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.nomeEnte' (riga:236)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.idProvinciaEnte' (riga:237)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.siglaProvinciaEnte' (riga:238)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.idComuneEnte' (riga:239)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.nomeComuneEnte' (riga:240)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nome' (riga:352)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].sesso' (riga:353)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].dataNascita' (riga:354)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idStatoNascita' (riga:355)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nomeStatoNascita' (riga:356)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idNazionalita' (riga:361)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nazionalita' (riga:362)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idStatoResidenza' (riga:363)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nomeStatoResidenza' (riga:364)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagDichiarante' (riga:370)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagComparente' (riga:371)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagFirmatario' (riga:372)
+* Rimosso 'evento.datiEventoMatrimonio.datiRiconoscimento[0].giaRiconosciutoDaPadre'
+* Rimosso 'evento.datiEventoMatrimonio.datiRiconoscimento[0].giaRiconosciutoDaMadre'
+
+### Modifiche per il caso uso matrimoni/Matr_013.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.officiante' (riga:56)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.dataTrascrizione' (riga:243)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.estremiDocumento' (riga:244)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.nomeEnte' (riga:245)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.idProvinciaEnte' (riga:246)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.siglaProvinciaEnte' (riga:247)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.idComuneEnte' (riga:248)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.nomeComuneEnte' (riga:249)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nome' (riga:380)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].sesso' (riga:381)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].dataNascita' (riga:382)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idStatoNascita' (riga:383)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nomeStatoNascita' (riga:384)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idNazionalita' (riga:389)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nazionalita' (riga:390)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idStatoResidenza' (riga:391)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nomeStatoResidenza' (riga:392)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagDichiarante' (riga:398)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagComparente' (riga:399)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagFirmatario' (riga:400)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.soggettoImpedimento' (riga:466)
+* Rimosso 'evento.datiEventoMatrimonio.datiRiconoscimento[0].giaRiconosciutoDaPadre'
+* Rimosso 'evento.datiEventoMatrimonio.datiRiconoscimento[0].giaRiconosciutoDaMadre'
+
+### Modifiche per il caso uso matrimoni/Matr_015.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.officiante' (riga:57)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.dataTrascrizione' (riga:129)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.estremiDocumento' (riga:130)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.nomeEnte' (riga:131)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.idProvinciaEnte' (riga:132)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.siglaProvinciaEnte' (riga:133)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.idComuneEnte' (riga:134)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.nomeComuneEnte' (riga:135)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nome' (riga:247)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].sesso' (riga:248)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].dataNascita' (riga:249)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idStatoNascita' (riga:250)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nomeStatoNascita' (riga:251)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idNazionalita' (riga:256)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nazionalita' (riga:257)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idStatoResidenza' (riga:258)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nomeStatoResidenza' (riga:259)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagDichiarante' (riga:265)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagComparente' (riga:266)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagFirmatario' (riga:267)
+* Rimosso 'evento.datiEventoMatrimonio.datiRiconoscimento[0].giaRiconosciutoDaPadre'
+* Rimosso 'evento.datiEventoMatrimonio.datiRiconoscimento[0].giaRiconosciutoDaMadre'
+
+### Modifiche per il caso uso matrimoni/Matr_016.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.officiante' (riga:57)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.dataTrascrizione' (riga:129)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.estremiDocumento' (riga:130)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.nomeEnte' (riga:131)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.idProvinciaEnte' (riga:132)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.siglaProvinciaEnte' (riga:133)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.idComuneEnte' (riga:134)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.sentenzaOmissionePubblicazione.nomeComuneEnte' (riga:135)
+* Aggiunto 'evento.datiEventoMatrimonio.consensoRiconoscimento.datiProdotti' (riga:167)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nome' (riga:247)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].sesso' (riga:248)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].dataNascita' (riga:249)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idStatoNascita' (riga:250)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nomeStatoNascita' (riga:251)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idNazionalita' (riga:256)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nazionalita' (riga:257)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].idStatoResidenza' (riga:258)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].nomeStatoResidenza' (riga:259)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagDichiarante' (riga:265)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagComparente' (riga:266)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.figli[0].flagFirmatario' (riga:267)
+* Rimosso 'evento.datiEventoMatrimonio.datiRiconoscimento[0].giaRiconosciutoDaPadre'
+* Rimosso 'evento.datiEventoMatrimonio.datiRiconoscimento[0].giaRiconosciutoDaMadre'
+
+### Modifiche per il caso uso matrimoni/Matr_Riconc_001.csv : 
+* Aggiunto 'Formula 175-bis' (riga:12)
+* Aggiunto 'Formula 175-ter' (riga:13)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_004.csv : 
+* Presenti modifiche per 'Allegati Certificato di residenza' (riga:4)
+* Presenti modifiche per 'evento.separazione.attoMatrimonio.parte' (riga:21)
+* Presenti modifiche per 'evento.separazione.attoMatrimonio.serie' (riga:22)
+* Rimosso 'evento.separazione.modificaAccordo'
+
+### Modifiche per il caso uso morte/Morte_004.csv : 
+* Presenti modifiche per 'evento.trascrizioneMorte.dataComunicazione' (riga:8)
+* Rimosso 'evento.trascrizioneMorte.testoLibero'
+
+### Modifiche per il caso uso trascrizioni/Trascr_004.csv : 
+* Aggiunto 'evento.trascrizioneNascita.tipoDichiarazione' (riga:16)
+* Presenti modifiche per 'evento.trascrizioneNascita.dataComunicazione' (riga:17)
+* Presenti modifiche per 'evento.trascrizioneNascita.testoLibero' (riga:18)
+* Presenti modifiche per 'evento.trascrizioneNascita.istituto.nomeEnte' (riga:19)
+
+### Modifiche per il caso uso trascrizioni/Trascr_010.csv : 
+* Presenti modifiche per 'evento.trascrizioneNascita.tipoDichiarazione' (riga:139)
+* Presenti modifiche per 'evento.trascrizioneNascita.dataComunicazione' (riga:140)
+* Presenti modifiche per 'evento.trascrizioneNascita.testoLibero' (riga:141)
+
+### Modifiche per il caso uso trascrizioni/Trascr_011.csv : 
+* Aggiunto 'Formula 193' (riga:5)
+* Rimosso 'Formula 193.2'
+* Aggiunto 'evento.trascrizioneNascita.tipoDichiarazione' (riga:105)
+* Presenti modifiche per 'evento.trascrizioneNascita.dataComunicazione' (riga:106)
+* Presenti modifiche per 'evento.trascrizioneNascita.testoLibero' (riga:107)
+
+### Modifiche per il caso uso trascrizioni/Trascr_013.csv : 
+* Rimosso 'evento.trascrizioneNascita.nuovoNome'
+
+### Modifiche per il caso uso trascrizioni/Trascr_014.csv : 
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.dataTrascrizione' (riga:73)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.estremiDocumento' (riga:74)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.nomeEnte' (riga:75)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.nazioneEnte' (riga:76)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.nomeNazioneEnte' (riga:77)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.idProvinciaEnte' (riga:78)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.siglaProvinciaEnte' (riga:79)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.idComuneEnte' (riga:80)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.nomeComuneEnte' (riga:81)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.nomeEnte' (riga:82)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.idProvinciaEnte' (riga:83)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.siglaProvinciaEnte' (riga:84)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.idComuneEnte' (riga:85)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.nomeComuneEnte' (riga:86)
+* Presenti modifiche per 'evento.trascrizioneNascita.nuovoCognome' (riga:87)
+* Presenti modifiche per 'evento.trascrizioneNascita.dataComunicazione' (riga:88)
+* Presenti modifiche per 'evento.trascrizioneNascita.testoLibero' (riga:89)
+* Rimosso 'evento.enteDichiarante.dataTrascrizione'
+* Rimosso 'evento.enteDichiarante.estremiDocumento'
+* Rimosso 'evento.enteDichiarante.nomeEnte'
+* Rimosso 'evento.enteDichiarante.idProvinciaEnte'
+* Rimosso 'evento.enteDichiarante.siglaProvinciaEnte'
+* Rimosso 'evento.enteDichiarante.idComuneEnte'
+* Rimosso 'evento.enteDichiarante.nomeComuneEnte'
+* Rimosso 'evento.trascrizioneNascita.nuovoNome'
+
+### Modifiche per il caso uso trascrizioni/Trascr_015.csv : 
+* Aggiunto 'Formula 193.1' (riga:4)
+* Rimosso 'Formula 193.13'
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.dataTrascrizione' (riga:74)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.estremiDocumento' (riga:75)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.nomeEnte' (riga:76)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.nazioneEnte' (riga:77)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.nomeNazioneEnte' (riga:78)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.idProvinciaEnte' (riga:79)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.siglaProvinciaEnte' (riga:80)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.idComuneEnte' (riga:81)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.nomeComuneEnte' (riga:82)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.nomeEnte' (riga:95)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.idProvinciaEnte' (riga:96)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.siglaProvinciaEnte' (riga:97)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.idComuneEnte' (riga:98)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.nomeComuneEnte' (riga:99)
+* Rimosso 'evento.enteDichiarante.dataTrascrizione'
+* Rimosso 'evento.enteDichiarante.estremiDocumento'
+* Rimosso 'evento.enteDichiarante.nomeEnte'
+* Rimosso 'evento.enteDichiarante.idProvinciaEnte'
+* Rimosso 'evento.enteDichiarante.siglaProvinciaEnte'
+* Rimosso 'evento.enteDichiarante.idComuneEnte'
+* Rimosso 'evento.enteDichiarante.nomeComuneEnte'
+* Rimosso 'evento.trascrizioneNascita.nuovoNome'
+* Rimosso 'evento.trascrizioneNascita.nuovoCognome'
+
+### Modifiche per il caso uso trascrizioni/Trascr_016.csv : 
+* Rimosso 'evento.trascrizioneNascita.nuovoNome'
+
+### Modifiche per il caso uso trascrizioni/Trascr_018.csv : 
+* Rimosso 'evento.trascrizioneNascita.nuovoNome'
+
+### Modifiche per il caso uso trascrizioni/Trascr_019.csv : 
+* Rimosso 'evento.trascrizioneNascita.nuovoNome'
+
+### Modifiche per il caso uso trascrizioni/Trascr_020.csv : 
+* Presenti modifiche per 'evento.trascrizioneNascita.tipoDichiarazione' (riga:88)
+* Presenti modifiche per 'evento.trascrizioneNascita.dataComunicazione' (riga:89)
+* Presenti modifiche per 'evento.trascrizioneNascita.testoLibero' (riga:90)
+* Presenti modifiche per 'evento.trascrizioneNascita.nuovoCognome' (riga:91)
+* Rimosso 'evento.trascrizioneNascita.nuovoNome'
+
+### Modifiche per il caso uso trascrizioni/Trascr_021.csv : 
+* Rimosso 'evento.trascrizioneNascita.nuovoNome'
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_001.csv : 
+* Rimosso 'evento.datiEventoMatrimonio.dataEvento'
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_002.csv : 
+* Presenti modifiche per 'evento.trascrizioneMatrimonio.atto.enteEstero.siglaProvinciaEnte' (riga:76)
+* Rimosso 'evento.datiEventoMatrimonio.dataEvento'
+* Rimosso 'evento.trascrizioneMatrimonio.atto.enteEstero.idProvinciaEnte'
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_003.csv : 
+* Presenti modifiche per 'evento.trascrizioneMatrimonio.atto.enteEstero.siglaProvinciaEnte' (riga:78)
+* Rimosso 'evento.trascrizioneMatrimonio.atto.enteEstero.idProvinciaEnte'
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_005.csv : 
+* Presenti modifiche per 'evento.trascrizioneMatrimonio.atto.enteEstero.siglaProvinciaEnte' (riga:93)
+* Rimosso 'evento.datiEventoMatrimonio.dataEvento'
+* Rimosso 'evento.trascrizioneMatrimonio.atto.enteEstero.idProvinciaEnte'
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_001.csv : 
+* Rimosso 'evento.datiEventoUnioneCivile.dataEvento'
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_002.csv : 
+* Rimosso 'evento.datiEventoUnioneCivile.dataEvento'
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_004.csv : 
+* Rimosso 'Allegati Atto di manifestazione di volontà di sciogliere l’unione civile'
+* Rimosso 'evento.scioglimentoUnioneCivile.attoUnioneCivile.idAnsc'
+* Rimosso 'evento.scioglimentoUnioneCivile.attoUnioneCivile.idProvinciaRegistrazione'
+* Rimosso 'evento.scioglimentoUnioneCivile.attoUnioneCivile.siglaProvinciaRegistrazione'
+* Rimosso 'evento.scioglimentoUnioneCivile.attoUnioneCivile.idComuneRegistrazione'
+* Rimosso 'evento.scioglimentoUnioneCivile.attoUnioneCivile.nomeComuneRegistrazione'
+* Rimosso 'evento.scioglimentoUnioneCivile.attoUnioneCivile.idtipocontenuto'
+* Rimosso 'evento.scioglimentoUnioneCivile.attoUnioneCivile.numeroatto'
+* Rimosso 'evento.scioglimentoUnioneCivile.attoUnioneCivile.annoAtto'
+* Rimosso 'evento.scioglimentoUnioneCivile.attoUnioneCivile.dataformazione'
+* Rimosso 'evento.scioglimentoUnioneCivile.attoUnioneCivile.tipologia'
+* Rimosso 'evento.scioglimentoUnioneCivile.attoUnioneCivile.parte'
+* Rimosso 'evento.scioglimentoUnioneCivile.attoUnioneCivile.serie'
+
+
 #Changelog mappatura casi uso 1.9.0  
 
 ## Casi uso aggiunti : 43

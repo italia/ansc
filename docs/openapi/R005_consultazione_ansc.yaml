@@ -142,10 +142,12 @@ components:
           example: '3'              
         dataDa:
          type: string
+         format: date
          description: Data minima di ricerca dell'evento
          example: "2014-11-14"
         dataA:
          type: string
+         format: date
          description: Data massima di ricerca dell'evento
          example: "2014-12-17"
     CriteriRicercaSoggetto:
@@ -196,6 +198,7 @@ components:
           example: 'ITALIA'
         datanascita: 
           type: string
+          format: date
           description: Data Di Nascita
           example: '2020-01-01'   
     ConsultazioneANSCEventoRequest:

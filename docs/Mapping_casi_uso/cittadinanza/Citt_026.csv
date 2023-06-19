@@ -47,7 +47,7 @@
 "Decreto intimazione","Provincia ente - Descrizione","SI","evento.trascrizioneCittadinanza.decretoIntimazione","siglaProvinciaEnte",""
 "Decreto intimazione","Comune ente","SI","evento.trascrizioneCittadinanza.decretoIntimazione","idComuneEnte",""
 "Decreto intimazione","Comune ente - Descrizione","SI","evento.trascrizioneCittadinanza.decretoIntimazione","nomeComuneEnte",""
-"Autorità mittente","Data formazione documento","NO","evento.trascrizioneCittadinanza.autoritaMittente","dataTrascrizione",""
+"Autorità mittente","Data formazione documento","SI","evento.trascrizioneCittadinanza.autoritaMittente","dataTrascrizione",""
 "Autorità mittente","Estremi documento","SI","evento.trascrizioneCittadinanza.autoritaMittente","estremiDocumento",""
 "Autorità mittente","Nome ente","SI","evento.trascrizioneCittadinanza.autoritaMittente","nomeEnte",""
 "Autorità mittente","Provincia ente","SI","evento.trascrizioneCittadinanza.autoritaMittente","idProvinciaEnte",""

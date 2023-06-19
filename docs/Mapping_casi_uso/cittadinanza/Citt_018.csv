@@ -44,7 +44,7 @@
 "DPR Revoca","Provincia ente - Descrizione","NO","evento.trascrizioneCittadinanza.atto.enteEstero","siglaProvinciaEnte",""
 "DPR Revoca","Comune ente","NO","evento.trascrizioneCittadinanza.atto.enteEstero","idComuneEnte",""
 "DPR Revoca","Comune ente - Descrizione","NO","evento.trascrizioneCittadinanza.atto.enteEstero","nomeComuneEnte",""
-"Autorità mittente","Data formazione documento","NO","evento.trascrizioneCittadinanza.autoritaMittente","dataTrascrizione",""
+"Autorità mittente","Data formazione documento","SI","evento.trascrizioneCittadinanza.autoritaMittente","dataTrascrizione",""
 "Autorità mittente","Estremi documento","SI","evento.trascrizioneCittadinanza.autoritaMittente","estremiDocumento",""
 "Autorità mittente","Nome ente","SI","evento.trascrizioneCittadinanza.autoritaMittente","nomeEnte",""
 "Autorità mittente","Provincia ente","SI","evento.trascrizioneCittadinanza.autoritaMittente","idProvinciaEnte",""

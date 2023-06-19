@@ -22,3 +22,7 @@
 * [R013_inserimento_annotazione_errore_materiale.json](R013_inserimento_annotazione_errore_materiale.json)
 * [R013_inserimento_annotazione_rettifica.json](R013_inserimento_annotazione_rettifica.json)
 * [R014_inserimento_data_validita_pred_anag.json](R014_inserimento_data_validita_pred_anag.json)
+* [R009_inserimento_evento_citt_51102.json](R009_inserimento_evento_citt_51102.json)
+* [R009_inserimento_evento_matrimonio_311111.json](R009_inserimento_evento_matrimonio_311111.json)
+* [R009_inserimento_evento_matrimonio_321311.json](R009_inserimento_evento_matrimonio_321311.json)
+* [R009_inserimento_evento_unione_civile_411111.json](R009_inserimento_evento_unione_civile_411111.json)

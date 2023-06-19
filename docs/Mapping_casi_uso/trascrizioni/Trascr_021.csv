@@ -90,6 +90,7 @@
 "Autorità mittente","Provincia ente - Descrizione","SI","evento.trascrizioneNascita.autoritaMittente","siglaProvinciaEnte",""
 "Autorità mittente","Comune ente","SI","evento.trascrizioneNascita.autoritaMittente","idComuneEnte",""
 "Autorità mittente","Comune ente - Descrizione","SI","evento.trascrizioneNascita.autoritaMittente","nomeComuneEnte",""
+"Dati della trascrizione","Nuovo nome","NO","evento.trascrizioneNascita","nuovoNome",""
 "Dati della trascrizione","Nuovo cognome","SI","evento.trascrizioneNascita","nuovoCognome",""
 "Dati della trascrizione","Data richiesta trascrizione","SI","evento.trascrizioneNascita","dataComunicazione",""
 "Dati della trascrizione","Riassunto","SI","evento.trascrizioneNascita","testoLibero",""

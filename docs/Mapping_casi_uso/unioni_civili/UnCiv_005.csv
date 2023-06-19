@@ -306,6 +306,6 @@
 "Dettagli evento","Parentela (ovvero: affinità; ovvero: affiliazione)","SI","evento.datiEventoUnioneCivile","impedimentoParentela",""
 "Dettagli evento","Scelta del regime patrimoniale","SI","evento.datiEventoUnioneCivile.regimePatrimoniale","tipo",""
 "Dettagli evento","Con atto notarile","SI","evento.datiEventoUnioneCivile.regimePatrimoniale","attoNotarile",""
-"Dettagli evento","Scelta Soggetto Impedimento","SI","evento.datiEventoUnioneCivile","soggettoImpedimentoCivile",""
+"Dettagli evento","Scelta Soggetto Impedimento","NO","evento.datiEventoUnioneCivile","soggettoImpedimentoCivile",""
 "Annotazione Contestuale","Tipo Annotazione Contestuale","NO","evento.datiAnnotazione","tipoAnnotazione",""
 "Annotazione Contestuale","Testo Annotazione Contestuale","NO","evento.datiAnnotazione","testoAnnotazione",""

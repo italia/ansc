@@ -18,6 +18,40 @@ Categorizzare le modifiche secondo le seguenti voci:
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
 
+## [Versione 1.9.1 - 19-06-2023]
+
+### Added 
+	Servizi cooperativi
+		- model_evento.yaml,R001,R003,R005,R006,R008,R009,R014:  Controllo di uniformita e adeguamento formato campi data (https://github.com/italia/ansc/issues/142)
+	
+	Web Application
+		- A005,A006,A008,A010,A013,A016: Controllo di uniformita e adeguamento formato campi data (https://github.com/italia/ansc/issues/142)
+		
+### Changed
+	Servizi Cooperativi 
+		- R013: Definite obbligatorie le properties: evento, eventoModificato
+		- R001: corretta difformita' di comportamento tra web app e servizio di upload allegato
+		- R009: corretto Internal Server Error (500) in risposta all'invocazione del servizio (https://github.com/italia/ansc/issues/168)
+		- R008: corretto servizio di ricerca notifiche NullPointerException (https://github.com/italia/ansc/issues/158)
+		- R012: corretto errore consultazione stato firma atto evento (https://github.com/italia/ansc/issues/143)
+		- R003: corretta intestatzione delle comunicazioni generate da sistema come richiesto da ANUSCA
+		- R002: corretti estratti integrali di matrimonio (modificata etichetta officiante) come richiesto da ANUSCA
+		- R009: corretto use case MATR_001 per omissioni pubblicazioni (https://github.com/italia/ansc/issues/106)
+		- R010: corretta anteprima per usecase 12323100 per datiEventoRiconoscimento.preMorto (https://github.com/italia/ansc/issues/171)
+		- R006: corretta firma dichiarante per caso d'uso di servizio 11999999 (https://github.com/italia/ansc/issues/108)
+		- R005: corretta consultazione soggetto (https://github.com/italia/ansc/issues/36)
+		- R002: corretto errore nella gestione del valore per l'attributo tipoFile (https://github.com/italia/ansc/issues/152)
+		- R010: corretta anteprima SAX Error (https://github.com/italia/ansc/issues/117) (https://github.com/italia/ansc/issues/131)
+	
+	Web Application
+		- Corretta regressione sulla funzionalit� 'Modifica e completa' di un atto confermato da servizio cooperativo (https://github.com/italia/ansc/issues/166)
+		
+		
+	Decodifiche
+		- 9_dec_tipo_allegato : 998 modificata descrizione (https://github.com/italia/ansc/issues/167)
+		- 10_dec_tipo_file: aggiunto formato file di tipo 7PM e Jpeg ed eliminato Doc
+
+
 ## [Versione 1.9.0 - 31-05-2023]
 
 ### Added 
@@ -127,6 +161,9 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 ## [Versione 1.7.0 - 05-05-2023]
 
 ### Added 
+	
+	 Decodifiche
+		- aggiunta decodifca ANSC_93 Tipo notifica predisposizione anagrafica
 	
     model_evento.yaml  
         - Aggiunti al ModelEnteEstero: il campo comuneEstero  

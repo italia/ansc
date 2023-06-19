@@ -31,7 +31,7 @@
 "Intestatario","flag dichiarante","SI","evento.intestatari[0]","flagDichiarante",""
 "Intestatario","flag comparente","SI","evento.intestatari[0]","flagComparente",""
 "Intestatario","flag firmatario","SI","evento.intestatari[0]","flagFirmatario",""
-"Autorità mittente","Data formazione documento","NO","evento.trascrizioneCittadinanza.autoritaMittente","dataTrascrizione",""
+"Autorità mittente","Data formazione documento","SI","evento.trascrizioneCittadinanza.autoritaMittente","dataTrascrizione",""
 "Autorità mittente","Estremi documento","SI","evento.trascrizioneCittadinanza.autoritaMittente","estremiDocumento",""
 "Autorità mittente","Nome ente","SI","evento.trascrizioneCittadinanza.autoritaMittente","nomeEnte",""
 "Autorità mittente","Provincia ente","SI","evento.trascrizioneCittadinanza.autoritaMittente","idProvinciaEnte",""

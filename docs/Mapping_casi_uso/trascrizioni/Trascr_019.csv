@@ -84,6 +84,7 @@
 "Autorità mittente","Comune ente - Descrizione","NO","evento.trascrizioneNascita.autoritaMittente","nomeComuneEnte",""
 "Autorità mittente","Data formazione documento","SI","evento.trascrizioneNascita.autoritaMittente","dataTrascrizione",""
 "Autorità mittente","Estremi documento","SI","evento.trascrizioneNascita.autoritaMittente","estremiDocumento",""
+"Dati della trascrizione","Nuovo nome","NO","evento.trascrizioneNascita","nuovoNome",""
 "Dati della trascrizione","Nuovo cognome","SI","evento.trascrizioneNascita","nuovoCognome",""
 "Dati della trascrizione","Data richiesta trascrizione","SI","evento.trascrizioneNascita","dataComunicazione",""
 "Dati della trascrizione","Riassunto","SI","evento.trascrizioneNascita","testoLibero",""

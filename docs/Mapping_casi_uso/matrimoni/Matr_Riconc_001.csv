@@ -9,8 +9,6 @@
 "Allegati","Atto di delegazione","NO","","",""
 "Allegati","Copia atto di matrimonio trascritto","NO","","",""
 "Formula","121-bis","SI","","",""
-"Formula","175-bis","NO","","",""
-"Formula","175-ter","NO","","",""
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule"
 "Formazione atto","Numero comunale","SI","evento","numeroatto",""
 "Formazione atto","Data formazione","SI","evento","dataformazione",""

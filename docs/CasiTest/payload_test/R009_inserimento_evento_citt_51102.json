@@ -1,0 +1,116 @@
+{
+    "testataRichiesta": {
+        "idComune": {{idComune}},
+        "idOperazioneComune": "APP2022032210000",
+        "dataOraRichiesta": "{{dataOraRichiesta}}",
+        "nomeApplicativo": "{{nomeApplicativo}}",
+        "versioneApplicativo": "{{versioneApplicativo}}",
+        "fornitoreApplicativo": "{{fornitoreApplicativo}}"
+    },
+        "evento": {
+            "idTipoEvento": "5",
+            "idtipocontenuto": "1",
+            "idUsecase": "51102",
+            "descrizioneCasoUso": "Straniero o dall'apolide, del quale il padre o la madre o uno degli\nascendenti in linea retta di secondo grado sono stati cittadini per\nnascita, il quale, al raggiungimento della maggiore età, risiede\nlegalmente da almeno due anni nel territorio della Repubblica",
+            "stato": "CONFERMATO",
+            "dataformazione": "2023-04-27",
+            "ora": "12",
+            "minuto": "49",
+            "annoAtto": "2023",
+            "numeroatto": "56290",
+            "ausilioInterprete": "false",
+            "idComuneRegistrazione": "1000000",
+            "nomeComuneRegistrazione": "ANPR",
+            "idProvinciaRegistrazione": "58",
+            "siglaProvinciaRegistrazione": "RM",
+            "operatore": "CRUMRA67S47Z127B",
+            "ruoloOperatore": "2",
+            "operatoreNome": "MARIE",
+            "operatoreCognome": "CURIE",
+            "redattoNellaCasaComunale": true,
+            "datiProdotti": "3",
+            "allegati": [
+                {
+                    "id": 424760,
+                    "idTipoAllegato": 65,
+                    "hashAllegato": "0ujTPfxHwMHw2W60HSVaSvFQYZICrdonwJxCkFR63Jc=",
+                    "descrizione": "Ricevuta pagamento contributo di 250,00"
+                },
+                {
+                    "id": 424761,
+                    "idTipoAllegato": 64,
+                    "hashAllegato": "0ujTPfxHwMHw2W60HSVaSvFQYZICrdonwJxCkFR63Jc=",
+                    "descrizione": "Attestazione di acquisizione di cittadinanza"
+                }
+            ],
+            "intestatari": [
+                {
+                    "id": "43368",
+                    "idsoggettoanpr": "",
+                    "codiceFiscale": "XXXX",
+                    "cognome": "XXXX",
+                    "nome": "ANDREA",
+                    "sesso": "M",
+                    "dataNascita": "1989-06-28",
+                    "idProvinciaNascita": "58",
+                    "siglaProvinciaNascita": "RM",
+                    "idComuneNascita": "2780",
+                    "nomeComuneNascita": "CESENA",
+                    "idStatoNascita": "90",
+                    "nomeStatoNascita": "ITALIA",
+                    "idComuneResidenza": "2780",
+                    "nomeComuneResidenza": "CESENA",
+                    "idProvinciaResidenza": "40",
+                    "siglaProvinciaResidenza": "FC",
+                    "idStatoResidenza": "90",
+                    "nomeStatoResidenza": "ITALIA",
+                    "indirizzoResidenza": "",
+                    "idNazionalita": "90",
+                    "nazionalita": "ITALIANA",
+                    "documentoRiconoscimento": {}
+                }
+            ],
+            "datiDichiarante": {
+                "comprensione": "0",
+                "motivoImpedimentoScrittura": ""
+            },
+            "datiEventoCittadinanza": {
+                "intestatarioApolide": false,
+                "parenteDiretto": {
+                    "id": "",
+                    "idsoggettoanpr": "266562",
+                    "codiceFiscale": "XXXXX",
+                    "cognome": "XXXX",
+                    "nome": "REBECCA",
+                    "sesso": "F",
+                    "dataNascita": "1996-11-17",
+                    "idProvinciaNascita": "58",
+                    "siglaProvinciaNascita": "RM",
+                    "idComuneNascita": "2780",
+                    "nomeComuneNascita": "CESENA",
+                    "idStatoNascita": "90",
+                    "nomeStatoNascita": "ITALIA",
+                    "idComuneResidenza": "2780",
+                    "nomeComuneResidenza": "CESENA",
+                    "idProvinciaResidenza": "40",
+                    "siglaProvinciaResidenza": "FC",
+                    "idStatoResidenza": "90",
+                    "nomeStatoResidenza": "ITALIA",
+                    "indirizzoResidenza": "",
+                    "idNazionalita": "90",
+                    "nazionalita": "ITALIANA",
+                    "flagDichiarante": false,
+                    "flagComparente": false,
+                    "flagFirmatario": false,
+                    "documentoRiconoscimento": {},
+                    "gradoDiParentela": "2"
+                },
+                "indirizzoPostaAutorità": "postaautorita@gmail.com",
+                "infoResidenzaBiennale": "roma",
+                "riassuntoDichiarazione": "ciao"
+            },
+            "composizioneCompleta": "Oggi 27/04/2023 avanti a me MARIE CURIE, Ufficiale dello stato civile del Comune di ANPR (RM), nella funzione di sostituto del sindaco è comparso ANDREA BATISTINI, nato in ITALIA il 28/06/1989, residente in CESENA (FC) il quale mi ha esposto di avere cittadinanza ITALIANA, e che la Madre XXX, nata in ITALIA il 17/11/1996, con cittadinanza ITALIANA, residente in CESENA (FC) è stata cittadina italiana per nascita, di aver risieduto legalmente da almeno due anni senza interruzioni in Italia fino al raggiungimento della maggiore età.\nOra dichiara, avendo compiuto il diciottesimo, ma non ancora il diciannovesimo anno di età, di voler acquistare la cittadinanza italiana. A tal fine ho visionato i seguenti documenti: Ricevuta pagamento contributo di 250,00, Attestazione di acquisizione di cittadinanza.\nPoiché quanto mi è stato esposto risulta dai documenti suindicati, ho ricevuto tale dichiarazione. Il presente atto viene letto agli intervenuti, i quali tutti, insieme con me, lo sottoscrivono.",
+            "datains": "2023-04-27T12:49:15.526339",
+            "dataultimoagg": "2023-04-27T12:52:56.159797"
+        }
+    }

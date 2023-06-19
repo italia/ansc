@@ -30,3 +30,5 @@
 "Dati decesso","Comune","NO","evento.datiDiMorte","idComuneMorte",""
 "Dati decesso","Comune - Descrizione","NO","evento.datiDiMorte","nomeComuneMorte",""
 "Dati decesso","Indirizzo","NO","evento.datiDiMorte","indirizzoMorte",""
+"Dati della trascrizione","Data richiesta trascrizione","SI","evento.trascrizioneMorte","dataComunicazione",""
+"Dati della trascrizione","Riassunto","SI","evento.trascrizioneMorte","testoLibero",""

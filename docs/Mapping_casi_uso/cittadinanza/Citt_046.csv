@@ -38,7 +38,6 @@
 "Intestatario","flag dichiarante","SI","evento.intestatari[0]","flagDichiarante",""
 "Intestatario","flag comparente","SI","evento.intestatari[0]","flagComparente",""
 "Intestatario","flag firmatario","SI","evento.intestatari[0]","flagFirmatario",""
-"Dati Perdita Cittadinanza","Motivazione Perdita Cittadinanza","SI","evento.datiEventoCittadinanza","motivoPerditaCittadinanza",""
 "Autorità mittente","Data formazione documento","NO","evento.trascrizioneCittadinanza.attoEstero.enteEstero","dataTrascrizione",""
 "Autorità mittente","Estremi documento","SI","evento.trascrizioneCittadinanza.attoEstero.enteEstero","estremiDocumento",""
 "Autorità mittente","Nome ente","SI","evento.trascrizioneCittadinanza.attoEstero.enteEstero","nomeEnte",""

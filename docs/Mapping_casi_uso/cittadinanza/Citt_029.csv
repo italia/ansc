@@ -47,7 +47,7 @@
 "Atto collegato","Tipo registro","SI","evento.eventoCollegato","tipologia",""
 "Atto collegato","Parte","NO","evento.eventoCollegato","parte",""
 "Atto collegato","Serie","NO","evento.eventoCollegato","serie",""
-"Autorità mittente","Data formazione documento","NO","evento.trascrizioneCittadinanza.autoritaMittente","dataTrascrizione","193.9"
+"Autorità mittente","Data formazione documento","SI","evento.trascrizioneCittadinanza.autoritaMittente","dataTrascrizione",""
 "Autorità mittente","Estremi documento","SI","evento.trascrizioneCittadinanza.autoritaMittente","estremiDocumento",""
 "Autorità mittente","Nome ente","SI","evento.trascrizioneCittadinanza.autoritaMittente","nomeEnte",""
 "Autorità mittente","Provincia ente","SI","evento.trascrizioneCittadinanza.autoritaMittente","idProvinciaEnte",""

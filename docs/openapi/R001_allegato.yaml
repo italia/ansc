@@ -155,7 +155,7 @@ components:
           description: Tipo dell'allegato (codificato ANSC_9)
           example: "1"
         descrizione:
-          description: Descrizione assegnata al file
+          description: Descrizione assegnata ad Allegato per caso d'uso libero
           type: string
           example: Attestazione di nascita
     AllegatoOutput:
