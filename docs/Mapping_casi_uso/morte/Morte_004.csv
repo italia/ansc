@@ -3,6 +3,7 @@
 "Formula","191","SI","","",""
 "Formula","197","NO","","",""
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule"
+"Autorità mittente","Data formazione documento","SI","evento.trascrizioneMorte.atto.enteEstero","dataTrascrizione",""
 "Autorità mittente","Estremi documento","SI","evento.trascrizioneMorte.atto.enteEstero","estremiDocumento",""
 "Autorità mittente","Nome ente","SI","evento.trascrizioneMorte.atto.enteEstero","nomeEnte",""
 "Autorità mittente","Data richiesta","SI","evento.trascrizioneMorte","dataComunicazione",""

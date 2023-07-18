@@ -1,0 +1,5 @@
+"ID","DESCRIZIONE","DATAINIZIOVALIDITA","DATAFINEVALIDITA","ORDINAMENTO"
+"1","Indisponibilita' del sistema gestionale","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","1"
+"2","Atto formato fuori da casa comunale","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","2"
+"3","Caso d'uso non previsto nel sistema centrale","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","3"
+"101","ALTRO","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","4"

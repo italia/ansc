@@ -20,6 +20,7 @@
 "Atto di Matrimonio","Tipo registro","SI","evento.separazione.attoMatrimonio","tipologia",""
 "Atto di Matrimonio","Parte","NO","evento.separazione.attoMatrimonio","parte","121-quater"
 "Atto di Matrimonio","Serie","NO","evento.separazione.attoMatrimonio","serie","121-quater"
+"Dettaglio accordo","Tipo accordo","SI","evento.separazione","tipoAccordo",""
 "Dettaglio accordo","Parte in causa in giudizio pendente","SI","evento.separazione","parteInGiudizioPendente",""
 "Dettaglio accordo","Autorità giudiziale","NO","evento.separazione","autoritaGiudiziaria","121-quater"
 "Dettaglio accordo","Data conferma accordo","SI","evento.separazione","dataConfermaAccordo",""

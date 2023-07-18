@@ -187,18 +187,19 @@ components:
              type: string
              description: Numero di gemelli nati vivi
              example: 2
-             required: true
             listaNumeriComunali:
              type: array
              items:
               type: string
               description: Lista numero comunale univoco assegnato per ogni gemello
-              required: true
             idUsecase: 
              type: string
              description: Id del caso d'uso cui si riferisce l'evento.
              example: 1170
-             required: true          
+          required:
+            - numeroGemelliNatiVivi
+            - listaNumeriComunali
+            - idUsecase
     PrenotaEventoResponse:
       description: Risposta per il servizio di generazione degli idANSC associati al parto gemellare e plurigemellare
       allOf:

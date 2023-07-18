@@ -61,3 +61,5 @@
 * 91_dec_ruolo_segretario [csv](91_dec_ruolo_segretario.csv) o [xlsx](91_dec_ruolo_segretario.xslx)
 * 92_dec_difetto_eta_unioni_civili [csv](92_dec_difetto_eta_unioni_civili.csv) o [xlsx](92_dec_difetto_eta_unioni_civili.xslx)
 * 93_dec_tipo_notifica [csv](93_dec_tipo_notifica.csv) o [xlsx](93_dec_tipo_notifica.xslx)
+* 95_dec_tipo_impedimento [csv](95_dec_tipo_impedimento.csv) o [xlsx](95_dec_tipo_impedimento.xslx)
+* 96_dec_motivo_recupero [csv](96_dec_motivo_recupero.csv) o [xlsx](96_dec_motivo_recupero.xslx)

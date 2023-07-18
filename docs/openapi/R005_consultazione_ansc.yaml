@@ -150,6 +150,10 @@ components:
          format: date
          description: Data massima di ricerca dell'evento
          example: "2014-12-17"
+        eventoSorgente:
+         type: string
+         description: flag per cercare l'evento che ha generato l'annotazione automatica
+         example: "true"
     CriteriRicercaSoggetto:
       properties:
         idAnpr:

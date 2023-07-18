@@ -18,6 +18,125 @@ Categorizzare le modifiche secondo le seguenti voci:
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
 
+## [Versione 1.10.0 - 18-07-2023]
+
+### Added     
+    Processo  
+        - Emissione certificati semplici con menzione di paternità/maternità
+        - Dati secretati: adozioni - Aggiunta la possibilità di modificare il nome     
+    Web Application  
+        - Emissione certificati semplici con menzione di paternità/maternità
+        - Dati secretati: adozioni - Aggiunta la possibilità di modificare il nome   
+    Servizi Cooperativi  
+        - Gestione path param 'version' servizi rest. Dove il parametro 'version' sarà 
+        la major versione di ansc, che in questo momento vale 1, per esempio https://anscservicepre.anpr.interno.it/services/service/doc/allegato/upload/1 
+        [Avviso rilascio 1.9.0](https://github.com/italia/ansc/issues/151)
+        - Emissione certificati semplici con menzione di paternità/maternità
+        - Dati secretati: adozioni - Aggiunta la possibilità di modificare il nome  
+	model_evento.yaml 
+		- Aggiunto al  ModelUnioneCivile: Impedimento Generico
+			 impedimentoGenerico:
+			  type: string
+			  description: Tipo di impedimento (decodifica ANSC_94)
+			  example: "0"
+			  
+			 soggettoImpedimentoGenerico: # Eventuale ente e motivo di impedimento 
+			  $ref: '#/components/schemas/ModelImpedimento'
+		- Aggiunti campi oraDecorrenza, minutoDecorrenza, motivoRecupero, descrizioneMotivoRecupero.
+	    - Aggiunto idVersion per indicare la versione utilizzata per la creazione dell'evento
+		- Aggiunti  campi nuovi al ModelEnteEstero:
+			properies:
+				idAnagraficaConsolato:
+             	 type: string
+             	nomeAnagraficaConsolato:
+             	 type: string
+		- Aggiunto un campo nuovo al ModelTrascrizioneCittadinanza: 
+			properties:
+				genitoreConCittadinanza  per ricevere il valore della select con i genitori che ha la cittadinanza.
+        - Aggiunto il ModelAssistenzaMinori: dati degli assistenti dei minori
+		ModelAssistenzaMinori:
+		  properties:
+			 tipoAssistente :
+			  type: string
+			  description: Tipo assistenza minori (decodifica ANSC_51) 
+			  example: "0"         
+			 assistente :
+			  description: lista soggetti (al più due soggetti in caso in cui gli assistenti sono entrambi i genitori)(0=Padre. 1=Madre)
+			  type: array
+			  items:
+				$ref: '#/components/schemas/ModelSoggetto'
+			 procura: # Provvedimento di nomina del tutore/procuratore speciale
+			  $ref: '#/components/schemas/ModelEnteDichiarante'    
+	
+	Decodifica
+		- Aggiunta tabella decodifica ANSC_93 Tipo notifica predisposizione anagrafica
+		- Aggiunta tabella decodifica ANSC_95 Tipo Impedimento Generico Unione Civile
+		- Aggiunta tabella decodifica ANSC_96 Motivo Recupero
+
+		
+### Changed
+      
+	  Servizi Cooperativi 
+      - R012_firma_dichiarante_elettronica.yaml, 
+        Aggiunto il campo idEvento al servizio /firmadichiarante/pooling-statoatto/{version}
+        Servizio esposto per il pooling di controllo sulla presa visione del 
+        dichiarante nel processo di firma. 
+        Passando l’idEvento, il servizio risponde con lo stato dell’evento. 
+        Passando l’idPresaVisione, il servizio risponde con lo stato della presa visione. 
+        Nel caso un cui il servizio sia chiamato con la coppia idEvento/idPresaVisione, 
+        risponse con lo stato della presa visione (https://github.com/italia/ansc/issues/134) (https://github.com/italia/ansc/issues/137)
+	  
+	  - model_evento.yaml  
+        - Modifica al  ModelRegimePatrimoniale: il campo assistenzaMinori 
+	    assistenzaMinori:
+           description: lista contenente i dati degli assistenti dei minori (0=Sposo,1=Sposa)
+           type: array
+           items:
+             $ref: '#/components/schemas/ModelAssistenzaMinori'
+	  
+	  Decodifica
+		- Modifica Valori tabella decodifica ANSC_51 Assistenza Minori
+### Removed 
+	
+    model_evento.yaml  
+        - Eliminazione campi al  ModelRegimePatrimoniale:
+			presenzaMinori:
+			assistenteLegale:
+			nominaAssistenteLegale:
+		
+		- Eliminazione campi al  ModelUnioneCivile:
+			difettoEta:
+			 impedimentoParentela:
+
+### Fixed
+    Servizi Cooperativi 
+        - R009 Validazione - Nascita: msg. "La sezione null non dovrebbe essere valorizzata per il caso uso" (https://github.com/italia/ansc/issues/214)
+        - R009 Validazione - Indirizzo richiedente su Trascr_006 (https://github.com/italia/ansc/issues/213)
+        - R003 Comunicazione - Assenza comunicazioni per eventi morte
+        - Dati secretati: adozioni aggiunta la modifica nome
+        - R009 Validazione - Matrimoni: sposi minorenni (https://github.com/italia/ansc/issues/164)
+        - R009 Validazione - Caso d'uso 52143 Atti di Cittadinanza (https://github.com/italia/ansc/issues/118)
+        - R009 Validazione - Validazione usecase 2104 - Morte_004 - 500 Internal Server Error (https://github.com/italia/ansc/issues/191)
+        - R009 Validazione - Validazione UseCase Matr_999_2 (https://github.com/italia/ansc/issues/189)
+        - R009 Validazione - NullPointer su Annotazione Rettifica (https://github.com/italia/ansc/issues/173)
+        - R009 Validazione - ORA-02291: restrizione di integrità violata (https://github.com/italia/ansc/issues/175)
+        - R009 Validazione - Caso 1323 - Trascrizione della sentenza straniera di dichiarazione giudiziale di paternità o maternità su richiesta dell’autorità diplomatica o consolare (https://github.com/italia/ansc/issues/70)
+        - R009 Validazione - Caso d'uso 432000 - Trascrizione Unione Civile dall'estero - Richiesta di trascrizione da parte del Consolato/Ambasciata (https://github.com/italia/ansc/issues/62)
+        - R009 Validazione - Trascr unione civile da consolato: gestione consolati errata (https://github.com/italia/ansc/issues/62)
+        - R012 Firma Dichiarante - Richiesta stato firma per Presa Visione (https://github.com/italia/ansc/issues/137)
+        - R010 Anteprima - Nascita caso uso servizio - Errore "Dati in ingresso non corretti" (https://github.com/italia/ansc/issues/169)
+        - OpenAPI - format date in ModelAttoCollegato -> dataAtto (https://github.com/italia/ansc/issues/205)
+        - OpenAPI - Errore Generazione Client con Swagger (https://github.com/italia/ansc/issues/192)
+    
+    Web Application
+        - [311111] Matrimonio con rito civile nella casa comunale: errata interpretazione della formula 62
+        - Conferma o mancata conferma di accordo di separazione o divorzio
+        - Casi d'uso configurazione: manca il sesso dei soggetti collegati
+
+    Mapping
+        - Errore nel file docs/Mapping_casi_uso/3_dec_use_case.csv (https://github.com/italia/ansc/issues/206)
+
+
 ## [Versione 1.9.1 - 19-06-2023]
 
 ### Added 

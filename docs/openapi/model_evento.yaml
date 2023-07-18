@@ -46,6 +46,10 @@ components:
           type: string
           description: Indica se l'atto e' secretato o meno (1 secretato - 0 non secretato)
           example: 0
+        idVersion:
+          type: string
+          description: Id della versione utilizzato per la creazione dell'evento
+          example: 1          
         # Dati di redazione dell'evento (sempre presenti)
         dataformazione: 
           type: string
@@ -115,6 +119,22 @@ components:
           format: date
           description: Data decorrenza atto
           example: '2022-03-22'
+        oraDecorrenza:
+          type: string
+          description: Ora decorrenza atto
+          example: '12'
+        minutoDecorrenza:
+          type: string
+          description: Minuto decorrenza atto
+          example: '30'
+        motivoRecupero:
+          type: string
+          description: Motivo del recupero atto (decodifica ANSC_96)
+          example: '1'
+        descrizioneMotivoRecupero:
+          type: string
+          description: Motivo del recupero atto
+          example: 'interruzione'
         numeroatto: 
           type: string
           description: Numero dell'atto assegnato dal comune.
@@ -252,10 +272,7 @@ components:
         eventoCollegato: # Eventuale evento collegato
           $ref: '#/components/schemas/ModelAttoCollegato'
         datiAnnotazione:
-          description: Dati delle annotazioni contestuali 
-          type: array
-          items:
-             $ref: '#/components/schemas/ModelDatiAnnotazione'
+          $ref: '#/components/schemas/ModelDatiAnnotazione'
         datiEventoMorte:
           $ref: '#/components/schemas/ModelDatiEventoMorte'
         datiAssenso:
@@ -346,6 +363,7 @@ components:
           example: '11'          
         dataAtto: 
           type: string
+          format: date
           description: Data dell'atto
           example: '2020-02-28'
         tipologia: 
@@ -406,7 +424,7 @@ components:
           type: string
           description: descrizione del sesso
           example: 'femmina'    
-        dataNascita: 
+        datanascita: 
           type: string
           format: date
           description: Data Di Nascita
@@ -569,6 +587,14 @@ components:
               type: string
               description: comune estero della nazione estera
               example: " berlino"
+            idAnagraficaConsolato:
+              type: string
+              description: id sede estera del consolato
+              example: "190"
+            nomeAnagraficaConsolato:
+              type: string
+              description: Descrizione sede estera del consolato
+              example: "Berlino"
             
     ModelAllegatoRif:
       properties:
@@ -975,16 +1001,166 @@ components:
           description: Indirizzo di posta elettronica certificata
           example: 'tizio@caio-pec.com'
     ModelDatiAnnotazione:
-      description: classe che raccoglie i dati per le annotazioni contestuali
+      description: classe che raccoglie i dati specifici delle annotazioni
       properties:
-          testoAnnotazione:
+          sposo:
+            $ref: '#/components/schemas/ModelSoggetto'
+          sposa:
+            $ref: '#/components/schemas/ModelSoggetto'
+          coniuge1:
+            $ref: '#/components/schemas/ModelSoggetto'
+          coniuge2:
+            $ref: '#/components/schemas/ModelSoggetto'
+          soggetto:
+            $ref: '#/components/schemas/ModelSoggetto'
+          padre:
+            $ref: '#/components/schemas/ModelSoggetto'
+          madre:
+            $ref: '#/components/schemas/ModelSoggetto' 
+          genitore:
+            $ref: '#/components/schemas/ModelSoggetto'    
+          affiliante:
+            $ref: '#/components/schemas/ModelSoggetto'
+          impugnatore:
+            $ref: '#/components/schemas/ModelSoggetto'
+          figlio:
+            $ref: '#/components/schemas/ModelSoggetto'  
+          dichiarante:
+            $ref: '#/components/schemas/ModelSoggetto'    
+          attoAnnotazione:
+            $ref: '#/components/schemas/ModelAttoCollegato'
+          dataAnnotazionePrecedente:
             type: string
-            description: Contiene il testo completo dell’annotazione da presentare come annotazione a margine dell’atto
+            format: date
+            description: Data annotazione precedente
+            example: "2022-09-20" 
+          comuneAnnotazionePrecedente:
+            type: string
+            description: Comune annotazione precedente
+            example: "Roma"   
+          dataAnnotazioneSeparazione:
+            type: string
+            format: date
+            description: Data annotazione separazione
+          enteDichiaranteEsistenza: # Ente dichiarante Esistenza in Vita
+            $ref: '#/components/schemas/ModelEnteDichiarante'
+          enteDichiaranteMortePresunta: # Ente dichiarante di morte presunta
+            $ref: '#/components/schemas/ModelEnteDichiarante'
+          enteDichiaranteOmologazione: # Ente dichiarante del provvedimento di omologazione
+            $ref: '#/components/schemas/ModelEnteDichiarante'
+          enteDichiaranteAutorizzazione: # Ente dichiarante autorizzazione del giudice
+            $ref: '#/components/schemas/ModelEnteDichiarante'
+          enteDichiaranteSentenzaItaliana: # Ente Dichiarante - sentenza italiana
+            $ref: '#/components/schemas/ModelEnteDichiarante'
+          enteDichiaranteSentenzaEstera: # Ente Dichiarante - sentenza straniera
+            $ref: '#/components/schemas/ModelEnteDichiarante'  
+          dataNegoziazioneAssistita:
+            type: string
+            format: date
+            description: Data di registrazione Negoziazione Assistita
+          dichiarazioneRiconoscimento:
+            type: string
+            description: specifica se è atto pubblico o testamento 
+            example: "1"
+          tipoRiconoscimento:
+            type: string
+            description: SI/Figlio maggiorenne riconosciuto dal padre e già riconosciuto dalla madre NO/Altri casi  
+            example: "SI" 
+          sceltaCognome:
+            type: string
+            description: Tipo scelta cognome  (decodifica ANSC_39)
+            example: "1" 
+          presenzaOmologazione:
+            type: string
+            description: SI/Presente omologazione  NO/Non Presente omologazione  
+            example: "SI"   
+          mutamentoConvenzioni:
+            type: string
+            description: SI/Mutamento convenzioni stipulate prima della entrata in vigore della legge 10 aprile 1981, n. 142  NO/Non Presente Mutazione  
+            example: "SI" 
+          sentenzaSeparazione:
+            type: string
+            description: (decodifica ANSC_53)
+            example: "1"
+          tipoCancellazione:
+            type: string
+            description: (decodifica ANSC_68)
+            example: "1" 
+          statoTutela:
+            type: string
+            description: (decodifica ANSC_69)
+          dataTutela:
+            type: string
+            format: date
+            description: Data apertura/chiusura Tutela
+            example: "2022-09-20"   
+          tipoNomina:
+            type: string
+            description: (decodifica ANSC_70)
+            example: "1" 
+          tipoGiudizio:
+            type: string
+            description: (decodifica ANSC_71)
+            example: "1"
+          cognomeOriginario:
+            type: string
+            description: Cognome originariamente attribuito 
+            example: "Rossi"
+          autorizzazioneConiuge:
+            type: string
+            description: (decodifica ANSC_72)
+            example: "1"
+          dataUnioneCivile:
+            type: string
+            format: date
+            description: Data unione Civile
+            example: "2022-09-20" 
+          dataAccertamento:
+            type: string
+            format: date
+            description: Data accertamento
+            example: "2022-09-20" 
+          sessoPrecedente:
+            type: string
+            description: Sesso Precedente
+            example: "1"    
+          nomePrecedente:
+            type: string
+            description: Nome Precedente
+            example: "1"  
+          leggittimazione:
+            type: string
+            description: (decodifica ANSC_73)
+            example: "1" 
+          pseudonimo:
+            type: string
+            description: pseudonimo
+            example: "Gianni" 
+          soggettoDichiarante:
+            type: string
+            description:  (decodifica ANSC_74)
+            example: "1" 
+          modalitaNome:
+            type: string
+            description:  modalità attributi Soggetto
+            example: "1"  
+          dispositivo:
+            type: string
+            description:  campo libero
+            example: "ABCD"  
+          dataRicorso:
+            type: string
+            format: date
+            description: Data accertamento
+            example: "2022-09-20" 
+          tribunalRicorso:
+            type: string
+            description:  Tribunale Ricorso
             example: "ABCD"   
-          tipoAnnotazione:
+          esitoRicorso:
             type: string
-            description: tipo di annotazione contestuale registrata
-            example: "1"     
+            description:  (decodifica ANSC_75)
+            example: "ABCD"     
 
     ModelTrascrizione:
       description: classe base per le trascrizioni. Non è mai usata da sola
@@ -1302,7 +1478,11 @@ components:
               example: "Austriaca"
             decretoIntimazione:
               $ref: '#/components/schemas/ModelEnteDichiarante'
-           
+            genitoreConCittadinanza:
+              type: string
+              description: Genitore che ha la cittadinanza italiana 
+              example: "90"
+              
     ModelTrascrizioneMorte:
       allOf:
         - $ref: '#/components/schemas/ModelTrascrizione'
@@ -1685,14 +1865,6 @@ components:
           example: true
         provvedimentoEstinzioneOpposizione:
           $ref: '#/components/schemas/ModelEnteDichiarante'
-        difettoEta:
-          type: string
-          description: Se uno dei coniugi, o entrambi, hanno un impedimento dovuto all'eta (decodifica ANSC_92)
-          example: "1"
-        impedimentoParentela:
-          type: string
-          description: Tipo di impedimento (decodifica ANSC_48)
-          example: "0"
         autorizzazioneDifettoEta: # Provvedimento di autorizzazione nonostante il difetto di età
           $ref: '#/components/schemas/ModelEnteDichiarante'
         autorizzazioneParentela: # Provedimento di autorizzazione nonostante l'impedimento di parentela
@@ -1747,6 +1919,12 @@ components:
         impedimentoSposo: # Eventuale motivo di impedimento con certificato
           $ref: '#/components/schemas/ModelImpedimento'
         impedimentoSposa: # Eventuale motivo di impedimento con certificato
+          $ref: '#/components/schemas/ModelImpedimento'
+        impedimentoGenerico:
+          type: string
+          description: Tipo di impedimento (decodifica ANSC_95)
+          example: "0"
+        soggettoImpedimentoGenerico: # Eventuale motivo di impedimento 
           $ref: '#/components/schemas/ModelImpedimento'
     ModelCertificatoUnioneCivile:
       properties:
@@ -1832,18 +2010,11 @@ components:
           type: string
           description: Numero della legga cui gli sposi si avvalgono per definire il regime patrimoniale
           example: "64/2001"
-        presenzaMinori:
-          type: string
-          description: Presenza minori in caso di separazione dei beni (decodifica ANSC_50) 
-          example: "0"
         assistenzaMinori:
-          type: string
-          description: Tipo assistenza minori (decodifica ANSC_51) 
-          example: "0"      
-        assistenteLegale: # Generalità del tutore o del procuratore speciale
-          $ref: '#/components/schemas/ModelSoggetto'
-        nominaAssistenteLegale: # Provvedimento di nomina del tutore/procuratore speciale
-          $ref: '#/components/schemas/ModelEnteDichiarante'
+           description: lista contenente i dati degli assistenti dei minori (0=Sposo,1=Sposa)
+           type: array
+           items:
+             $ref: '#/components/schemas/ModelAssistenzaMinori'
     ModelRiconciliazione:
       properties:
         attoMatrimonio: # Atto di matrimonio
@@ -1855,7 +2026,19 @@ components:
           format: date
           description: Data di riconciliazione
           example: '2022-07-02'
-          
+    ModelAssistenzaMinori:
+      properties:
+         tipoAssistente :
+          type: string
+          description: Tipo assistenza minori (decodifica ANSC_51) 
+          example: "0"         
+         assistente :
+          description: lista soggetti (al più due soggetti in caso in cui gli assistenti sono entrambi i genitori)(0=Padre. 1=Madre)
+          type: array
+          items:
+            $ref: '#/components/schemas/ModelSoggetto'
+         procura: # Provvedimento di nomina del tutore/procuratore speciale
+          $ref: '#/components/schemas/ModelEnteDichiarante'          
     ModelSeparazione:
       properties:
         tipoAccordo:
