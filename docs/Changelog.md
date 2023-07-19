@@ -24,6 +24,7 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
     Servizi Cooperativi 
         - OpenAPI - refuso dataNascita ModelSoggetto (https://github.com/italia/ansc/issues/250)
         - OpenAPI - refuso ModelDatiAnnotazione (https://github.com/italia/ansc/issues/249)
+        - [R006] fix stato upload firma dichiarante (https://github.com/italia/ansc/issues/253)
     Changelog 1.10.0
 		 - Refuso id tabella, quello corretto è ANSC_95 (https://github.com/italia/ansc/issues/251)
 
