@@ -18,6 +18,16 @@ Categorizzare le modifiche secondo le seguenti voci:
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
 
+## [Versione 1.10.1 - 19-07-2023]
+
+### Fixed
+    Servizi Cooperativi 
+        - OpenAPI - refuso dataNascita ModelSoggetto (https://github.com/italia/ansc/issues/250)
+        - OpenAPI - refuso ModelDatiAnnotazione (https://github.com/italia/ansc/issues/249)
+    Changelog 1.10.0
+		 - Refuso id tabella, quello corretto è ANSC_95 (https://github.com/italia/ansc/issues/251)
+
+
 ## [Versione 1.10.0 - 18-07-2023]
 
 ### Added     
@@ -37,7 +47,7 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 		- Aggiunto al  ModelUnioneCivile: Impedimento Generico
 			 impedimentoGenerico:
 			  type: string
-			  description: Tipo di impedimento (decodifica ANSC_94)
+			  description: Tipo di impedimento (decodifica ANSC_95)
 			  example: "0"
 			  
 			 soggettoImpedimentoGenerico: # Eventuale ente e motivo di impedimento 
