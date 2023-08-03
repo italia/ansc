@@ -275,7 +275,7 @@ components:
           description: Dati delle annotazioni contestuali 
           type: array
           items:
-          $ref: '#/components/schemas/ModelDatiAnnotazione'
+              $ref: '#/components/schemas/ModelDatiAnnotazione'
         datiEventoMorte:
           $ref: '#/components/schemas/ModelDatiEventoMorte'
         datiAssenso:
@@ -592,12 +592,12 @@ components:
               example: " berlino"
             idAnagraficaConsolato:
               type: string
-              description: id sede estera del consolato
+              description: id sede estera del consolato (decodifica ANSC_97)
               example: "190"
             nomeAnagraficaConsolato:
               type: string
               description: Descrizione sede estera del consolato
-              example: "Berlino"
+              example: "VILNIUS"
             
     ModelAllegatoRif:
       properties:
@@ -1333,8 +1333,8 @@ components:
               $ref: '#/components/schemas/ModelEnteDichiarante'
             genitoreConCittadinanza:
               type: string
-              description: Genitore che ha la cittadinanza italiana 
-              example: "90"
+              description: Genitore che ha la cittadinanza italiana (decodifica ANSC_73)
+              example: "1 = Madre , 2= Padre , 3 = Entrambe"
               
     ModelTrascrizioneMorte:
       allOf:

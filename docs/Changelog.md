@@ -18,6 +18,18 @@ Categorizzare le modifiche secondo le seguenti voci:
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
 
+## [Versione 1.10.2 - 03-08-2023]
+
+### Fixed
+    Servizi Cooperativi 
+        - OpenAPI - aggiunta decodifica per genitoreConCittadinanza(https://github.com/italia/ansc/issues/259)
+        - OpenAPI - corretto refuso ModelDatiAnnotazione (https://github.com/italia/ansc/issues/276)
+        - OpenAPI - aggiunta decodifica consolati per idAnagraficaConsolato (https://github.com/italia/ansc/issues/256)
+        
+	Decodifica
+		- Aggiunta tabella decodifica ANSC_97 per gestione consolati Tipo notifica predisposizione anagrafica (https://github.com/italia/ansc/issues/256)
+
+
 ## [Versione 1.10.1 - 19-07-2023]
 
 ### Fixed
