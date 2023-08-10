@@ -2,3 +2,5 @@
 
 1. [Nota processo annotazioni](NotaProcessoAnnotazioniAndQuickCoopServiceFlow/index.md)
 2. [Specifiche Tecniche Servizi Cooperativi JWT/JWS](SpecificheTecnicheServiziCooperativiJWT/index.md)
+3. [Nota retrocompatibilità servizi](NotaRetrocompatibilitaServizi/index.md)
+

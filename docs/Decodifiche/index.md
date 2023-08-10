@@ -63,3 +63,5 @@
 * 93_dec_tipo_notifica [csv](93_dec_tipo_notifica.csv) o [xlsx](93_dec_tipo_notifica.xslx)
 * 95_dec_tipo_impedimento [csv](95_dec_tipo_impedimento.csv) o [xlsx](95_dec_tipo_impedimento.xslx)
 * 96_dec_motivo_recupero [csv](96_dec_motivo_recupero.csv) o [xlsx](96_dec_motivo_recupero.xslx)
+* 97_dec_consolato [csv](97_dec_consolato.csv) o [xlsx](97_dec_consolato.xslx)
+* 100_dec_version [csv](100_dec_version.csv) o [xlsx](100_dec_version.xslx)

@@ -48,7 +48,7 @@ components:
           example: 0
         idVersion:
           type: string
-          description: Id della versione utilizzato per la creazione dell'evento
+          description: Id della versione utilizzato per la creazione dell'evento (decodifica ANSC_100)
           example: 1          
         # Dati di redazione dell'evento (sempre presenti)
         dataformazione: 
@@ -190,7 +190,7 @@ components:
           items:
             $ref: '#/components/schemas/ModelAllegatoRif'   
         intestatari: 
-          description: Intestatari dell'atto (uno o più in base al registro)
+          description: Intestatari dell'atto (uno o più in base al registro), in caso di intestatari di un matrimonio nel primo elemento va inserito lo sposo (elemento con indice 0) e nel secondo elemento (elemento con indice 1) va inserita la sposa
           type: array
           items:
             $ref: '#/components/schemas/ModelSoggetto' 
@@ -371,8 +371,8 @@ components:
           example: '2020-02-28'
         tipologia: 
           type: string
-          description: Tipologia dell'atto collegato
-          example: 'Nascita'
+          description: Tipologia dell'atto collegato (decodifica ANSC_01)
+          example: '1'
         parte:
           type: string
           description: Parte dell'atto
@@ -696,7 +696,7 @@ components:
           example: '2020-01-08'
         rilasciatoDa: 
           type: string
-          description: Informazione sull'ente che ha rilasciato il documento di riconoscimento.
+          description: Informazione sull'ente che ha rilasciato il documento di riconoscimento (decodifica ANSC_20).
           example: 'Comune di Cesena'
         dataRilascio: 
           type: string
@@ -746,6 +746,7 @@ components:
       properties:
         ruolo: 
           type: string
+          deprecated: true
           description: Ruolo del dichiarante (decodifica ANSC_4)
           example: '2'
         tipoProcura: 
@@ -1333,8 +1334,8 @@ components:
               $ref: '#/components/schemas/ModelEnteDichiarante'
             genitoreConCittadinanza:
               type: string
-              description: Genitore che ha la cittadinanza italiana (decodifica ANSC_73)
-              example: "1 = Madre , 2= Padre , 3 = Entrambe"
+              description: Genitore che ha la cittadinanza italiana (decodifica ANSC_97)
+              example: "1 = madre, 2 = padre, 3 = entrambi"
               
     ModelTrascrizioneMorte:
       allOf:
@@ -1865,6 +1866,7 @@ components:
           example: "64/2001"
         assistenzaMinori:
            description: lista contenente i dati degli assistenti dei minori (0=Sposo,1=Sposa)
+           deprecated: true
            type: array
            items:
              $ref: '#/components/schemas/ModelAssistenzaMinori'
@@ -1880,6 +1882,7 @@ components:
           description: Data di riconciliazione
           example: '2022-07-02'
     ModelAssistenzaMinori:
+    #DEPRECATO da rimuovere il modello#
       properties:
          tipoAssistente :
           type: string

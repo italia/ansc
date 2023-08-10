@@ -141,6 +141,10 @@ components:
           properties:         
             evento:
                  $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'
+            forcingCode:
+              type: string
+              description: codice di forzatura per eventi anomali
+              example: 'XXXXX_1234'
     ValidazioneEventoResponse:
       description: Ritorno del servizio specializzato per la validazione dei singoli Use Case
       allOf:
@@ -159,6 +163,10 @@ components:
               type: string
               description: Identificativo del tipo di evento (decodifica ANSC_01) 
               example: '2'
+            forcingCode:
+              type: string
+              description: codice di forzatura per eventi anomali
+              example: 'XXXXX_1234'
     CollegamentoEventoRequest:
       description: Richiesta del servizio specializzato per il collegamento atto e annotazione
       allOf:

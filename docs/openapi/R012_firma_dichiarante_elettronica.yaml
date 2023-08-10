@@ -98,7 +98,7 @@ paths:
     post:
       tags: 
         - poolingStatoAtto
-      description: Servizio esposto per il pooling di controllo sulla presa visione del dichiarante nel processo di firma. Passando l’idEvento, il servizio risponde con lo stato dell’evento. Passando l’idPresaVisione, il servizio risponde con lo stato della presa visione. Nel caso un cui il servizio sia chiamato con la coppia idEvento/idPresaVisione, risponse con lo stato della presa visione
+      description: Servizio esposto per il pooling di controllo sulla presa visione del dichiarante nel processo di firma. Passando l’idEvento, il servizio risponde con lo stato dell’evento. Passando l’idPresaVisione, il servizio risponde con lo stato della presa visione. Nel caso un cui il servizio sia chiamato con la coppia idEvento/idPresaVisione, risponse con lo stato della presa visione (0:Da visionare, 1:Visionato, 2:Annullato)
       parameters:
         - name: version
           in: path

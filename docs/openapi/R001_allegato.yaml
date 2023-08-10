@@ -145,7 +145,7 @@ components:
           example: "nome_del_file.pdf"
           minLength: 1
           maxLength: 200
-          pattern: '^[a-zA-ZÀ-ž0-9 "'']$'
+          pattern: '^[- _a-zA-Z0-9_]*$'
         tipoFile:
           type: string
           description: Tipo del file (codificato ANSC_10)

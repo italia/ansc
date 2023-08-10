@@ -18,6 +18,73 @@ Categorizzare le modifiche secondo le seguenti voci:
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
 
+## [Versione 1.11.0 - 10-08-2023]
+
+### Fixed
+
+	model_evento.yaml
+		- Modificata descrizione (corretta decodifica ANSC_42) e example per attributo genitoreConCittadinanza in ModelTrascrizioneCittadinanza
+		- Modificata descrizione per attributo intestatari in ModelEvento per indicare che in caso di matrimonio l'elemento 0 e' lo sposo e l'elemento 1 e' la sposa
+		- OpenAPI - Aggiornata decodifica ANPR_26 mancante sull'attributo idAnagraficaConsolato (https://github.com/italia/ansc/issues/256)	
+		- Aggiunta decodifica ANSC_20 mancante sulla description sull'attributo rilasciatoDa
+		- Aggiunta decodifica ANSC_01 mancante sulla description sull'attributo tipologia presente sul ModelAttoCollegato
+		- Reso deprecato elemento AssistenzaMinori in ModelRegimePatrimoniale
+		- Reso deprecato elemento ruolo in ModelDatiDichiarante
+		
+	Servizi Cooperativi 
+		- R009_validazione: eliminata obbligatorietà indirizzo e numero Civico per luogo celebrazione su UseCase 321311 (https://github.com/italia/ansc/issues/245)(https://github.com/italia/ansc/issues/184)
+		- R009_validazione: gestione data decorrenza, reso obbligatorio specificare ora decorrenza, minuto decorrenza e motivo recupero solo se data decorrenza è diversa da data formazione
+		- R005: correttoa la consultazione annotazioni (https://github.com/italia/ansc/issues/159)
+		- R002: corretto certificazione soggetto intestatario (https://github.com/italia/ansc/issues/163)
+		- R009_validazione
+			-corretto UC Matr_004 (https://github.com/italia/ansc/issues/233)
+			-corretto UC 11111000 (https://github.com/italia/ansc/issues/228)
+			-corretto Rico_013 e Rico_016 (https://github.com/italia/ansc/issues/207)
+			-corretto UC Citt_002 (https://github.com/italia/ansc/issues/265)
+			-corretto UC manifestazione volontà scioglimento (https://github.com/italia/ansc/issues/226)
+			-corretto Citt_021 e Citt_022 (https://github.com/italia/ansc/issues/261)
+			-corretto Citt_023 e Citt_025 (https://github.com/italia/ansc/issues/262)
+			-corretto UC matrimoni 312111 (https://github.com/italia/ansc/issues/225)
+			-corretto UC unioni civili -corretto Citt_021 e Citt_022 (https://github.com/italia/ansc/issues/216)
+			-corretto Citt_011 (https://github.com/italia/ansc/issues/229) (https://github.com/italia/ansc/issues/244)
+			-corretto Citt_004 (https://github.com/italia/ansc/issues/260)
+		
+
+### Added 
+	
+	 Gestione retocompatibilità
+		- Note Gestione Retrocompatibilità (Note/NotaRetrocompatibilitaServizi/index.md)
+		- R009_validazione.yaml: gestione idVersione per applicare la validazione relativa alla versione del sistema specificata (Rif. nota di rilascio XXXX)
+		
+	 Controlli
+	 	- aggiunto controllo sull'intestatario per evitare di inserire soggetti con anagrafica identica (a meno che non si tratti di un omocodia gestita tramite forcingCode)
+	 	- aggiunti controlli di atipicità sugli atti (a meno che non si tratti di una esplicità volontà di registrare atti anomali, gestita tramite forcingCode)
+	
+    Decodifica
+		- Aggiunta tabella decodifica ANSC_95 Tipo Impedimento Generico Unione Civile
+		- 9_dec_tipo_allegato : aggiunti allegati con id 91 e 92
+
+    Servizi Cooperativi
+        - R009_validazione.yaml
+            - Gestione parametro forcingCode (sia response che request) per forzare validazione evento
+        - R002_certificazione.yaml
+			- Aggiunto campo enteRichiedente per richiesta certificazione (/certificato/{version})
+			- Aggiunto campo validoEstero per richiesta certificazione valida per estero (/certificato/{version})
+		- R012_firma_dichiarante_elettronica.yaml
+			- Aggiunte indicazioni sul valore degli stati per il campo idState (stato della presa visione)
+
+	Web Application
+		- sezione firma USC: aggiunto OTP 					
+            
+	Mapping Casi d'uso
+		- Aggiunta condizione obbligatorietà per il mapping caso d'uso, sia per le sezioni che per gli allegati (https://github.com/italia/ansc/issues/75)
+            
+            
+### Removed
+	Decodifica
+		-78 Accertamento Nascita: Rimosso valore con id 4
+
+
 ## [Versione 1.10.2 - 03-08-2023]
 
 ### Fixed

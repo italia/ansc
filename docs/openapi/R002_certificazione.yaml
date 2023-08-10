@@ -65,6 +65,9 @@ components:
             richiedente:
               $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
               description: Modello  soggetto richiedente
+            enteRichiedente:
+              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEnteEstero'
+              description: Ente terzo richiedente
             intestatario:
               $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
               description: soggetto intestatario
@@ -80,6 +83,11 @@ components:
               type: boolean
               description: Indica se il certificato nascita deve contenere o meno anche i dati di padre e madre
               example: true
+            validoEstero:
+              type: boolean
+              description: Indica opzione di validità per l'estero alla richiesta dei certificati semplici e per riassunto
+              example: true
+
     CertificatoResponse:
       description: Ritorno del servizio specializzato per il certificato
       allOf:
