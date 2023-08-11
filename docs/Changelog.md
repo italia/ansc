@@ -18,6 +18,19 @@ Categorizzare le modifiche secondo le seguenti voci:
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
 
+## [Versione 1.11.1 - 11-08-2023]
+
+### Fixed
+
+    Decodifica
+		- Tabella ANSC_95 rinominata da 95_dec_tipo_impedimento a 95_dec_soggetto_impedimento_civile (https://github.com/italia/ansc/issues/289)	
+
+### Changed 
+	
+	 Piano di test
+		- Rimossi Matr_015 e Matr_016 dal piano di test (https://github.com/italia/ansc/issues/290)	
+
+
 ## [Versione 1.11.0 - 10-08-2023]
 
 ### Fixed
