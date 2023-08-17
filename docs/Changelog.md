@@ -18,6 +18,14 @@ Categorizzare le modifiche secondo le seguenti voci:
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
 
+## [Versione 1.11.2 - 17-08-2023]
+
+### Fixed
+
+	Servizi Cooperativi 
+		- R901_config_decodifica: La tabella ANSC_97 non veniva restituita correttamente (https://github.com/italia/ansc/issues/294)
+
+
 ## [Versione 1.11.1 - 11-08-2023]
 
 ### Fixed
