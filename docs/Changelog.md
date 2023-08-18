@@ -18,6 +18,14 @@ Categorizzare le modifiche secondo le seguenti voci:
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
 
+## [Versione 1.11.3 - 18-08-2023]
+
+### Fixed
+
+	Servizi Cooperativi 
+		- R009_validazione: Disabilitato controllo dataNascita dichiarazioni tardive (https://github.com/italia/ansc/issues/298)
+
+
 ## [Versione 1.11.2 - 17-08-2023]
 
 ### Fixed
