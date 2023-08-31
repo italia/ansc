@@ -18,6 +18,19 @@ Categorizzare le modifiche secondo le seguenti voci:
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
 
+## [Versione 1.11.4 - 30-08-2023]
+
+### Fixed
+	
+	Changelog versione 1.11.0
+		Specificiato cosa indicare nel nuovo campo OTP della web app [In ambiente di preproduzione è possibile usare un valore qualsiasi, es '20220730', in produzione sarà necessario inserire l'otp restituito generato dalla propria firma remota : app mobile o token fisico.]
+
+### Added
+
+	Mapping Casi d'uso
+		-Aggiunto mapping casi d'uso Dic_Nasc_019, Dic_Nasc_057, Sep_Div_008 (https://github.com/italia/ansc/issues/297)
+
+
 ## [Versione 1.11.3 - 18-08-2023]
 
 ### Fixed
@@ -103,8 +116,8 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 			- Aggiunte indicazioni sul valore degli stati per il campo idState (stato della presa visione)
 
 	Web Application
-		- sezione firma USC: aggiunto OTP 					
-            
+		- sezione firma USC: aggiunto OTP [In ambiente di preproduzione è possibile usare un valore qualsiasi, es '20220730', in produzione sarà necessario inserire l'otp restituito generato dalla propria firma remota : app mobile o token fisico.]
+		
 	Mapping Casi d'uso
 		- Aggiunta condizione obbligatorietà per il mapping caso d'uso, sia per le sezioni che per gli allegati (https://github.com/italia/ansc/issues/75)
             
