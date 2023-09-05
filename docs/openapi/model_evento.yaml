@@ -293,7 +293,7 @@ components:
           example: "L'anno 2020 addì 8 del mese di 1 alle ore 12 e minuti 1 nel(1) la Casa Comunale avanti a me CESENA ANSC Ufficiale dello Stato Civile del Comune di CESENA (2) Per delega avuta\ne' comparsa cognomeMadre nomeMadre nata in ROMA lì 1977-11-12 (3) residente in ROCCA CANTERANO\n"
         idRiconoscimentoSentenza: 
           type: string
-          description: Identificativo ricoscimento.
+          description: Identificativo ricoscimento. (decodifica ANSC_98)
           example: ''
     ModelAttoCollegato:
       properties:
@@ -1334,7 +1334,7 @@ components:
               $ref: '#/components/schemas/ModelEnteDichiarante'
             genitoreConCittadinanza:
               type: string
-              description: Genitore che ha la cittadinanza italiana (decodifica ANSC_97)
+              description: Genitore che ha la cittadinanza italiana (decodifica ANSC_88)
               example: "1 = madre, 2 = padre, 3 = entrambi"
               
     ModelTrascrizioneMorte:

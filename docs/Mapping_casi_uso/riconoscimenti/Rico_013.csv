@@ -1,6 +1,6 @@
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
 "Allegati","Copia integrale dell'atto di nascita del figlio che viene riconosciuto","SI","","","",""
-"Allegati","Atto di riconoscimento","NO","","","","{evento.datiAssenso.tipoAssenso,=,1 },{evento.datiAssenso.tipoAssenso,=,3}"
+"Allegati","Copia dell'atto di assenso del figlio","NO","","","","{evento.datiAssenso.tipoAssenso,=,1 },{evento.datiAssenso.tipoAssenso,=,3}"
 "Formula","111-bis","SI","","","",""
 "Formula","194","NO","","","",""
 "Formula","195","NO","","","",""

@@ -126,7 +126,7 @@ components:
           example: "2022-9423-26624-040007"
         idComunale:
           type: string
-          description: Numero Comunale (codificato ANPR_03)
+          description: Numero Comunale dell'Atto (codificato ANPR_03)
           example: "178"
         idEvento:
           type: string

@@ -18,6 +18,63 @@ Categorizzare le modifiche secondo le seguenti voci:
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
 
+## [Unreleased]
+
+### Added
+	Flusso di conferma (verrà incluso nel prossimo rilascio)
+		- Servizio di conferma proposte di annotazioni / presa visione comune di residenza
+
+
+## [Versione 1.12.0 - 05-09-2023]
+
+### Added
+	Decodifica
+		- Aggiunta tabella decodifica ANSC_98 Tipo riconoscimento Sentenza
+		(https://github.com/italia/ansc/issues/311) (https://github.com/italia/ansc/issues/307)
+		- Aggiunta tabella decodifica ANSC_88 Tipo Genitore Cittadinanza
+		
+		
+### Fixed
+
+	Servizi Cooperativi 
+		- R009_validazione: Riabilitato controllo dataNascita dichiarazioni tardive
+		- R009 Validazione - Negoziazione Assistita (345000): Corretti allegati obbligatori (https://github.com/italia/ansc/issues/227)
+		- R009 validazione caso d'uso di servizio (trascrizioni nascita)e cittadinanza: corretta obbligatoriet� evento.motivoRecupero obbligatorio
+		(https://github.com/italia/ansc/issues/248) (https://github.com/italia/ansc/issues/258)
+		- Citt_004: corretto errore bloccante su caso 52143 atti di cittadinanza
+		(https://github.com/italia/ansc/issues/266)
+		-  Trascrizione Unione Civile dall'estero: corretto titolo formule (https://github.com/italia/ansc/issues/293)
+		- Citt_011: corretto usecase 51103 (https://github.com/italia/ansc/issues/308)
+		- R010 Anteprima: corretto errore "Dati in ingresso non corretti" (https://github.com/italia/ansc/issues/285)
+		- Corretti allegati obbligatori per caso d'uso Citt_09 (https://github.com/italia/ansc/issues/217)
+		- Servizio R005 - Descrizione errata per l'idComunale
+		(https://github.com/italia/ansc/issues/274)
+		- Mapping caso d'uso 12214300 (Rico_003) 
+		(https://github.com/italia/ansc/issues/283)
+		- Mapping caso d'uso 12221122 (Rico_004)
+		(https://github.com/italia/ansc/issues/284)
+		- RICO_013: corretta descrizione allegato obbligatorio
+		(https://github.com/italia/ansc/issues/305)
+		- Dic_Nasc_080: configurazione obbligatoriet� allegati in usecase 
+		(https://github.com/italia/ansc/issues/193)
+		-R010 (Anteprima) e R002 (Certificazione): download pdf con i dettagli dell'atto 
+		(https://github.com/italia/ansc/issues/223) (https://github.com/italia/ansc/issues/275)
+		- Casi d'uso di servizio di tipo trascrizione : aggiunti come opzionali gli estremi dell'atto originale
+		
+		
+	model_evento.yaml
+		- Corretta decodifica genitoreConCittadinanza in ModelTrascrizioneCittadinanza (ANSC_88)
+		
+		
+	Decodifica
+	- Corretti Usecase 51101 e 52112 di Cittadinanza con descrizioni duplicate
+		(https://github.com/italia/ansc/issues/302)
+	
+### Changed 
+	R005_consultazione_ansc.yaml
+		- cambiata la descrizione del campo IdComunale da "Numero Comunale" a "Numero Comunale dell'Atto"
+
+
 ## [Versione 1.11.4 - 30-08-2023]
 
 ### Fixed

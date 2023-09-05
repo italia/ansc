@@ -1,6 +1,6 @@
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
-"Allegati","Attestazione di nascita","SI","","","",""
-"Allegati","Constatazione di avvenuto parto","NO","","","",""
+"Allegati","Attestazione di nascita","NO","","","","{evento.datiDiNascita.tipoAccertamento,=,1}"
+"Allegati","Constatazione di avvenuto parto","NO","","","","{evento.datiDiNascita.tipoAccertamento,=,2}"
 "Allegati","Dichiarazione di nascita sostitutiva resa da dichiarante","NO","","","","{evento.datiDiNascita.tipoAccertamento,=,3}"
 "Allegati","Certificato medico attestante che il bambino è nato vivo e poi deceduto","SI","","","",""
 "Formula","4","SI","","","",""

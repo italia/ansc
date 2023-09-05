@@ -1,6 +1,6 @@
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
 "Allegati","Atto di matrimonio","SI","","","",""
-"Allegati","Atto di matrimonio straniero, tradotto e legalizzato","SI","","","",""
+"Allegati","Atto di matrimonio straniero, tradotto e legalizzato","NO","","","",""
 "Allegati","Decreto del Tribunale","NO","","","",""
 "Allegati","Certificazione come da articolo 5 del Decreto Legge n. 132/2014 convertito con Legge 10.11.2014 n.162","SI","","","",""
 "Allegati","Certificazione acquisita dall'avvocato dello sposo","SI","","","",""

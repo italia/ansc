@@ -63,4 +63,4 @@
 "Dettagli evento","Condizioni dichiarante","SI","evento.datiDichiarante","comprensione","","obbligatoria"
 "Dettagli evento","Motivo impedimento scrittura","NO","evento.datiDichiarante","motivoImpedimentoScrittura","195","obbligatoria"
 "Dettagli evento","Presenza interprete","SI","evento","ausilioInterprete","","obbligatoria"
-"Dettagli evento","Indirizzo posta autorità","SI","evento.datiEventoCittadinanza","indirizzoPostaAutorità","","obbligatoria"
+"Dettagli evento","Indirizzo posta autorità","NO","evento.datiEventoCittadinanza","indirizzoPostaAutorità","","obbligatoria"
