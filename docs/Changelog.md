@@ -25,6 +25,14 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 		- Servizio di conferma proposte di annotazioni / presa visione comune di residenza
 
 
+## [Versione 1.12.1 - 11-09-2023]
+
+### Fixed
+
+	Servizi Cooperativi 
+		- R005 Ricerca: fix data di nascita (https://github.com/italia/ansc/issues/330)
+
+
 ## [Versione 1.12.0 - 05-09-2023]
 
 ### Added
