@@ -1,0 +1,11 @@
+{
+    "testataRichiesta": {
+        "idComune": 1000000,
+        "idOperazioneComune": "APP2022032210000",
+        "dataOraRichiesta": "1",
+        "nomeApplicativo": "Applicativo Demografico",
+        "versioneApplicativo": "1.0.0",
+        "fornitoreApplicativo": "Nome Fornitore"
+    },
+    "idNotifica": "411377"
+}

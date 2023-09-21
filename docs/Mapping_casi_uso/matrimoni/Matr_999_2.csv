@@ -1,6 +1,6 @@
-"Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
+"Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Si puo' ignorare la sezione per"
 "Formula","999.3.2","SI","","","",""
-"Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
+"Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Si puo' ignorare la sezione per"
 "Formazione atto","Numero comunale","SI","evento","numeroatto","","obbligatoria"
 "Formazione atto","Data formazione","SI","evento","dataformazione","","obbligatoria"
 "Formazione atto","Ora formazione","SI","evento","ora","","obbligatoria"

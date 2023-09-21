@@ -10,8 +10,49 @@ servers:
   - url: http://localhost:8084
     description: Servizio mock locale
 paths:
+  
+  /notifiche/conferma/{version}:
+    post:
+      tags: 
+        - Conferma notifiche
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ConfermaNotificaRequest'
+      description: Servizio di conferma notifiche di annotazione/trascrizione.
+      responses:
+        200:
+          description: Successo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConfermaNotificaResponse'
+        400:
+          description: Dati in input non validi
+          content: 
+            application/json: 
+             schema: 
+                $ref: '#/components/schemas/ConfermaNotificaResponse'
+        403:
+          description: Non autorizzato
+          content: 
+            application/json: 
+             schema: 
+                $ref: '#/components/schemas/ConfermaNotificaResponse'
+       
   /notifiche/ricerca/{version}:
      post:
+       tags: 
+        - Consultazione notifiche
        description: Ricerca delle notifiche di un comune
        parameters:
         - name: version
@@ -49,7 +90,7 @@ paths:
   /notifiche/getNotificheByEvento/{version}:
     post:
       tags:
-      - Notifiche service
+      - Consultazione notifiche by Evento
       summary: restituzione notifiche per evento
       operationId: getNotificheByEvento
       parameters:
@@ -78,7 +119,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/GetNotificheByEventoRequest'
+                $ref: '#/components/schemas/GetNotificheByEventoResponse'
 components:
   schemas:       
     ModelSoggettoRicerca:
@@ -89,7 +130,7 @@ components:
           example: "1AFD4"
         idAnscSoggetto:
           type: string
-          description: Id Ansc    
+          description: Id Ansc
           example: "43434"
         codiceFiscale: 
           type: string
@@ -154,8 +195,16 @@ components:
           example: '2'   
         idTipoContenuto:
           type: string
-          description: Identificativo del tipo di contenuto decodifica ANSC_02) 
-          example: '3'      
+          description: Identificativo del tipo di contenuto (decodifica ANSC_02) 
+          example: '3'
+        idStatoFlussoNotifiche:
+          description: Stato della Notifica 1=DA APPROVARE 2=APPROVATA (decodifica ANSC_102)
+          type: string
+          example: '1'
+        idGenereNotifiche:
+          description: Genere di Notifica 1=Annotazione 2=Trascrizione (decodifica ANSC_101)
+          type: string
+          example: '1'                
         soggettoRicerca:
           $ref: '#/components/schemas/ModelSoggettoRicerca'
 
@@ -180,8 +229,11 @@ components:
               items:
                 $ref: '#/components/schemas/ModelNotifica'
     ModelNotifica:
-      properties:   
-        idEvento:
+      properties:
+        id:
+          type: string
+          description: Identificativo univoco della notifica   
+        idAnsc:
           type: string
           description: Identificativo evento Ansc
         idComuneFormazione:
@@ -201,6 +253,14 @@ components:
           type: string
           format: date
           description: data di fine validita
+        idStatoFlussoNotifiche:
+          description: Stato flusso della Notifica 1=DA APPROVARE 2=APPROVATA (decodifica ANSC_102)
+          type: string
+          example: '1'
+        idGenereNotifiche:
+          description: Genere di Notifica 1=Annotazione 2=Trascrizione (decodifica ANSC_101)
+          type: string
+          example: '1'
     NotificheRicercaRequest:
       description: Ritorno del servizio specializzato per la configurazione dei pannelli
       allOf:
@@ -219,3 +279,20 @@ components:
               type: array
               items:
                 $ref: '#/components/schemas/ModelNotifica'
+                
+    ConfermaNotificaRequest:
+      description: Dati Richiesti per la confermare la notifica indicata 
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:         
+            idNotifica:
+              type: integer
+              description: Identificativo della NOTIFICA da confermare
+              example: 24252
+           
+    ConfermaNotificaResponse:
+      description: Risposta del processo di conferma Notifica
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+              

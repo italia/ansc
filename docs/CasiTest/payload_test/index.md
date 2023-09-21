@@ -10,6 +10,8 @@
 * [R005_consultazione_per_soggetto.json](R005_consultazione_per_soggetto.json)
 * [R006_firma_analogica_dichiarante.json](R006_firma_analogica_dichiarante.json)
 * [R006_firma_usc.json](R006_firma_usc.json)
+* [R008_Notifiche_conferma.json](R008_Notifiche_conferma.json)
+* [R008_Notifiche_ricerca.json](R008_Notifiche_ricerca.json)
 * [R009_cancellazione.json](R009_cancellazione.json)
 * [R009_caso_uso_servizio_annotazione.json](R009_caso_uso_servizio_annotazione.json)
 * [R009_inserimento_evento_morte.json](R009_inserimento_evento_morte.json)

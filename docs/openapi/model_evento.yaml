@@ -202,7 +202,11 @@ components:
         enteDichiarante: # Ente dichiarante 
           $ref: '#/components/schemas/ModelEnteEstero'
         ufficialeStatoCivile: #Ufficiale di Stato Civile responsabile dell'atto
-          $ref: '#/components/schemas/ModelSoggetto'
+          allOf:
+            - $ref: '#/components/schemas/ModelSoggetto'
+            - deprecated: true
+          deprecated: true
+          description: -- DEPRECATO -- usare i campi relativi all operatore
         madre: # Soggetto che contiene i dati della madre
           $ref: '#/components/schemas/ModelSoggetto'
         padre: # Soggetto che contiene i dati del padre
@@ -697,7 +701,7 @@ components:
         rilasciatoDa: 
           type: string
           description: Informazione sull'ente che ha rilasciato il documento di riconoscimento (decodifica ANSC_20).
-          example: 'Comune di Cesena'
+          example: '1'
         dataRilascio: 
           type: string
           format: date
@@ -767,7 +771,7 @@ components:
         comprensione:
           type: string
           description: comprensione dichiarante (decodifica ANSC_32)
-          example: "sordomuto che sa leggere e scrivere"
+          example: '1'
         motivoImpedimentoScrittura:
           type: string
           description: Necessario se "sordumuto che sa leggere ma non può scrivere"
@@ -1267,7 +1271,7 @@ components:
           type: string
           format: date
           description: Data assunzione Datore di Lavoro
-          example: '2022-06-24'  
+          example: '2022-06-24'
         datoreEstero:
           type: boolean
           description: Il datore di lavoro è estero
@@ -1278,7 +1282,7 @@ components:
           example: "Comune di Roma"  
         tipoEventoCittadinanza: 
             type: string
-            description: Tipo Evento Cittadinanza 
+            description: Tipo Evento Cittadinanza  (decodifica ANSC_84)
             example: '1'
 
     ModelTrascrizioneCittadinanza:
@@ -1335,7 +1339,7 @@ components:
             genitoreConCittadinanza:
               type: string
               description: Genitore che ha la cittadinanza italiana (decodifica ANSC_88)
-              example: "1 = madre, 2 = padre, 3 = entrambi"
+              example: "1"
               
     ModelTrascrizioneMorte:
       allOf:
@@ -1459,7 +1463,7 @@ components:
         officiante:
           type: string
           description: Officiante (decodifica ANSC_46)
-          example: '01'
+          example: '1'
         cognomeOfficiante:
           type: string
           description: Cognome officiante quando questo non sia l'USC
@@ -2031,6 +2035,10 @@ components:
           type: string
           description: Testo della trascrizione dell'accordo 
           example: 'Testo libero'
+        tipoProvvedimento:
+          type: string
+          description: Tipo provvedimento (decodifica ANSC_99)
+          example: "1"
     ModelScioglimentoUnioneCivile:
       properties:
         attoUnioneCivile:

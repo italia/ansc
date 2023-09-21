@@ -17,12 +17,84 @@ Categorizzare le modifiche secondo le seguenti voci:
 
 I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano relative all'ultima modifica.
 
-
 ## [Unreleased]
 
+
+## [Versione 1.13.0 - 22-09-2023]
+
+### Added 
+	Processo
+		- Gestione dell'approvazione delle notifiche per le proposte di annotazioni /presa visione dell'ato da parte del comune di residenza
+
 ### Added
-	Flusso di conferma (verrà incluso nel prossimo rilascio)
-		- Servizio di conferma proposte di annotazioni / presa visione comune di residenza
+	Decodifica
+		- Aggiunta tabella decodifica ANSC_20 Ente che ha rilasciato il documento di riconoscimento
+		- Aggiunta tabella decodifica ANSC_84 Stato Cittadinanza
+		- Aggiunta tabella decodifica ANSC_101 Genere Notifiche
+		- Aggiunta tabella decodifica ANSC_102 Stato Flusso Notifiche
+	
+	R008_notifiche.yaml
+		- Aggiunto campo id nel ModelNotifica come segue:  
+			id:
+         	type: string
+          	description: Identificativo univoco della notifica
+    
+	Web Application
+    	- Aggiunta consultazione delle annotazioni 'da confermare'
+	
+### Fixed
+
+	model_evento.yaml
+		- Corretta decodifica genitoreConCittadinanza in ModelTrascrizioneCittadinanza (ANSC_88)
+		- Esplicitata decodifica tipoEventoCittadinanza in ModelDatiEventoCittadinanza (ANSC_84)
+		- Reso deprecato elemento ufficialeStatoCivile (https://github.com/italia/ansc/issues/348)
+		
+	Servizi cooperativi
+		- R009: corretta validazione caso 1343 (https://github.com/italia/ansc/issues/341)
+		- R009: corretto caso 345000 - Trascrizione della convenzione di negoziazione assistita (https://github.com/italia/ansc/issues/326)
+		- R009: corretta validazione casi d'uso di trascrizioni da estero (https://github.com/italia/ansc/issues/325)
+		- Citt_002: corretta configurazione errata (https://github.com/italia/ansc/issues/314)
+		- R009: corretta validazione caso d'uso 1365 (https://github.com/italia/ansc/issues/336)
+		- R012 - Servizio di pooling: corretta decodifica degli stati della presa visione, mancante (https://github.com/italia/ansc/issues/272)
+		- R009: Citt_011 corretto pattern errato su documentoRiconoscimento (https://github.com/italia/ansc/issues/229) (https://github.com/italia/ansc/issues/244) (https://github.com/italia/ansc/issues/315) (https://github.com/italia/ansc/issues/343)
+		- R002: scaricamento atto dopo la firma USC senza lista sul PDF (https://github.com/italia/ansc/issues/178)
+		- R009: corretta validazione atto di cittadinanza per "evento.motivoRecupero" (https://github.com/italia/ansc/issues/258) (https://github.com/italia/ansc/issues/331)
+		- R006: corretto errore "Non sono stati recuperati firmatari per i dati inseriti" (https://github.com/italia/ansc/issues/321)
+		- R009: corretto caso 2.2.1.2 Richiesta trascrizione atto di morte all'estero richiesto da privati con istanza scritta (https://github.com/italia/ansc/issues/319)
+		- R005: corretta ricerca intestatario attraverso idAnpr (https://github.com/italia/ansc/issues/328)
+		- R001: corretta verifica stato allegato (https://github.com/italia/ansc/issues/345)
+		
+	Web Application
+		Matrimonio religioso: corretta minuta dell'atto
+		Sciogl_UnCiv_002 (4.4.2.0.0.0): corretta minuta dell'atto
+		Consultazione atto: aggiunto identificativo nazionale 
+		Casi d'uso con presenza comparente: aggiunta firma anche per il comparente l� dove presente
+		Eliminata la dichiarazione sostitutiva in caso di presentazione della dichiarazione da parte di ostetrica/sanitario
+		UC Trascr_024 : corretta minuta dell'atto
+		
+	Decodifica
+		- Corretta tabella dec_tipo_allegato(https://github.com/italia/ansc/issues/346)
+		
+	Documentazione
+		- corretta descrizione della colonna 'Condizioni obbligatoriet�' (https://github.com/italia/ansc/issues/349)
+	
+### Changed 
+	R008_notifiche.yaml
+		- Aggiunto servizio di conferma notifiche di proposte di annotazione/presa visione evento (/notifiche/conferma/{version})
+	 	- Aggiunti i seguenti campi nella response del servizio /notifiche/getNotificheByEvento/{version}:
+	 		idStatoFlussoNotifiche:
+          description: Stato flusso della Notifica 1=DA APPROVARE 2=APPROVATA (decodifica ANSC_102)
+        	idGenereNotifiche:
+          description: Genere di Notifica 1=Annotazione 2=Trascrizione (decodifica ANSC_101)
+		- Aggiunti i seguenti campi nella response e nella request del servizio /notifiche/ricerca/{version}:
+			idStatoFlussoNotifiche:
+          description: Stato della Notifica 1=DA APPROVARE 2=APPROVATA (decodifica ANSC_102)
+          type: string
+          example: '1'
+         idGenereNotifiche:
+          description: Genere di Notifica 1=Annotazione 2=Trascrizione (decodifica ANSC_101)
+          type: string
+          example: '1'
 
 
 ## [Versione 1.12.1 - 11-09-2023]
