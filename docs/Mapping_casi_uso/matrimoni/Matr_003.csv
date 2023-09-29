@@ -1,4 +1,4 @@
-"Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Si puo' ignorare la sezione per"
+"Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
 "Allegati","Decreto del tribunale per autorizzazione omesse pubblicazioni","NO","","","","{evento.datiEventoMatrimonio.omissionePubblicazione,=,true}"
 "Allegati","Rigetto del Tribunale all'opposizione","NO","","","","{evento.datiEventoMatrimonio.rigettoOpposizione,=,true}"
 "Allegati","Ordinanza che dichiara estinto il giudizio di opposizione","NO","","","","{evento.datiEventoMatrimonio.estintaOpposizione,=,true}"

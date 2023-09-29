@@ -1,4 +1,4 @@
-"Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Si puo' ignorare la sezione per"
+"Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
 "Allegati","Copia integrale dell'atto di nascita del dichiarante","NO","","","",""
 "Allegati","Atto di riconoscimento materno","NO","","","","{evento.trascrizioneNascita.tipoRiconoscimento,in,(1,3)}"
 "Allegati","Atto di riconoscimento paterno","NO","","","","{evento.trascrizioneNascita.tipoRiconoscimento,in,(2,3)}"

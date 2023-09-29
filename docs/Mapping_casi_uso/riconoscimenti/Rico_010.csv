@@ -1,4 +1,4 @@
-"Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Si puo' ignorare la sezione per"
+"Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
 "Allegati","Copia integrale dell'atto di nascita del figlio che viene riconosciuto","NO","","","","{evento.datiEventoRiconoscimento.attoNascita.idComuneRegistrazione,!=,evento.idComuneRegistrazione}"
 "Allegati","Atto notarile consenso","NO","","","",""
 "Allegati","Copia dell'atto di consenso dell'altro genitore","NO","","","",""

@@ -20,6 +20,13 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 ## [Unreleased]
 
 
+## [Versione 1.13.1 - 29-09-2023]
+
+### Fixed 
+	Mapping casi d'uso
+		- In tutti i mapping, corretta la colonna di obbligatorietà (ora l'intestazione è differente per gli allegati e le sezioni) 	(https://github.com/italia/ansc/issues/367)
+
+
 ## [Versione 1.13.0 - 22-09-2023]
 
 ### Added 

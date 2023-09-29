@@ -1,4 +1,4 @@
-"Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Si puo' ignorare la sezione per"
+"Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
 "Allegati","Attestazione di nascita","NO","","","","{evento.trascrizioneNascita.tipoLuogoNascita,=,2}"
 "Allegati","Attestazione di avvenuto parto","NO","","","","{evento.trascrizioneNascita.tipoLuogoNascita,=,3}"
 "Allegati","Processo Verbale","NO","","","","{evento.trascrizioneNascita.tipoLuogoNascita,=,1}"
