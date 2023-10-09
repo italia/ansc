@@ -92,6 +92,47 @@ paths:
             application/json:
               schema:
                  $ref: '#/components/schemas/DecodificaDettaglioResponse'
+  /config/decodifica/data_adesione/{version}:
+     post:
+       description: Permette di verificare la data adesione di un comune
+       parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string
+       requestBody:
+         required: true
+         content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DataAdesioneRequest'
+       responses:
+        200:
+          description: Successo, Il comune esiste ed ha aderito
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/DataAdesioneResponse'
+        403:
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/DataAdesioneResponse'
+        400:
+          description: Se i metadati non sono in formato json corretto
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/DataAdesioneResponse'
+        404:
+          description: Se il comune non esiste o ancora non ha aderito.
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/DataAdesioneResponse'
 components:
   schemas:
     DecodificaElencoRequest:
@@ -163,4 +204,30 @@ components:
               type: string
               description: Il contenuto binario, base64
               example: 'dGVzdA=='    
-                            
+    DataAdesioneRequest:
+      description: Richiesta di verifica della data adesione di un comune
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:         
+            idComune:
+              type: number
+              format: int64
+              description: Identificativo del comune di cui si vuole verificare la adesione, es 1 = ABANO TERME
+              example: 1
+    DataAdesioneResponse:
+      description: Richiesta di verifica della data adesione di un comune
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:         
+            idComune:
+              type: number
+              format: int64
+              description: Identificativo del comune di cui si vuole verificare la adesione, es 1 = ABANO TERME
+              example: 1
+            dataAdesione:
+              type: string
+              format: date
+              description: Data di adesione, se il comune ha già aderito
+              example: '2023-10-31'

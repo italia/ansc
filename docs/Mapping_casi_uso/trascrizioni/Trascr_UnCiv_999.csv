@@ -17,7 +17,7 @@
 "Dati generali","Provincia - Descrizione","NO","evento.datiEventoUnioneCivile.luogoCelebrazione","siglaProvincia","","obbligatoria"
 "Dati generali","Comune","NO","evento.datiEventoUnioneCivile.luogoCelebrazione","idComune","","obbligatoria"
 "Dati generali","Comune - Descrizione","NO","evento.datiEventoUnioneCivile.luogoCelebrazione","nomeComune","","obbligatoria"
-"Dati generali","Comune estero","NO","evento.trascrizioneMatrimonio.attoEstero.enteEstero","comuneEstero","","obbligatoria"
+"Dati generali","Comune estero","NO","evento.trascrizioneUnioneCivile.attoEstero.enteEstero","comuneEstero","","obbligatoria"
 "Unito civilmente 1","Cognome","NO","evento.intestatari[0]","cognome","","obbligatoria"
 "Unito civilmente 1","Nome","SI","evento.intestatari[0]","nome","","obbligatoria"
 "Unito civilmente 1","Sesso","NO","evento.intestatari[0]","sesso","","obbligatoria"

@@ -20,6 +20,115 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 ## [Unreleased]
 
 
+## [Versione 1.14.0 - 09-10-2023]
+
+### Added
+
+    Web Application
+       -	Revisione copy dei messaggi relativi alla formazione atti anomali
+       -	Aggiunto il controllo relativo all'eta' dichiarante in base alla tipologia dell'atto e del caso d'uso
+	Versione
+		- Aggiunta nuova versione 100003 (1.14.X)
+	Mapping casi d'uso
+		- La colonna delle condizioni per cui si può ignorare un campo, ora non ha più le parentesi graffe (ad esempio '{evento.campo,=,2}' 'diventa evento.campo,=,2')
+		
+		
+    model_evento.yaml
+		- Aggiunto campi nel ModelMatrimonio come segue:
+        tipoAssistenteSposo :
+          type: string
+          description: Tipo assistenza minori (decodifica ANSC_51) 
+          example: "0" 
+        tipoAssistenteSposa :
+          type: string
+          description: Tipo assistenza minori (decodifica ANSC_51) 
+          example: "0"   
+        padreSposo: # Generalita'  padre Sposo
+          $ref: '#/components/schemas/ModelSoggetto'
+        padreSposa: # Generalita'  padre Sposa
+          $ref: '#/components/schemas/ModelSoggetto'  
+        madreSposo: # Generalita' madre Sposo
+          $ref: '#/components/schemas/ModelSoggetto'
+        madreSposa: # Generalita' madre Sposa
+          $ref: '#/components/schemas/ModelSoggetto'   
+        assistenteLegaleSposo: # Generalita' assistenteLegale Sposo
+          $ref: '#/components/schemas/ModelSoggetto'
+        assistenteLegaleSposa: # Generalita' assistenteLegale Sposa
+          $ref: '#/components/schemas/ModelSoggetto'             
+        nominaAssistenteLegaleSposo: # Provvedimento di nomina del tutore/procuratore speciale
+          $ref: '#/components/schemas/ModelEnteDichiarante'  
+        nominaAssistenteLegaleSposa: # Provvedimento di nomina del tutore/procuratore speciale
+          $ref: '#/components/schemas/ModelEnteDichiarante'   
+	model_evento.yaml
+		- Aggiunto campo tipoProvvedimento nel ModelNegoziazioneAssistita come segue:
+			 tipoProvvedimento:
+          type: string
+          description: Tipo provvedimento (decodifica ANSC_99)
+          example: "1"
+		  
+	Decodifica
+		- Aggiunta decodifica ANSC_99 Riguardante al Tipo Provvedimento
+		
+	Servizi cooperativi
+		-Aggiunta validazione stringente dei payload trasmessi rispetto alle specifiche dichiarate negli yaml
+		- R901_config_decodifica: aggiunto servizio di consultazione comuni aderenti ad ANSC /config/decodifica/data_adesione/{version}; 
+		- possibile ottenere l'elenco completo dei comuni con l'id decodifica 110
+		- Aggiunto il controllo relativo all'eta' dichiarante in base alla tipologia dell'atto e del caso d'uso
+		- R008: aggiunto il servizio /notifiche/ricerca-notifiche-anpr/{version} per la consultazione delle notifiche anagrafiche generate da ANSC per un evento di stato civile
+	
+	Servizi cooperativi ANPR
+	 	- aggiunta idNotifica alla testata richiesta delle notifiche relative alle predisposizioni anagrafiche provenienti da ANSC
+	 	
+		
+### Changed 
+		Cambio del formato date a date-time nei seguenti campi nel ModelNotifica:
+		   - dataInizioValidita:
+			  type: string
+			  format: date-time
+			  description: data di inizio validita
+		   - dataFineValidita:
+			  type: string
+			  format: date-time
+			  description: data di fine validita
+
+### Fixed 
+	Servizi cooperativi
+		- R013: corretto errore 'Dati in ingresso non corretti' (https://github.com/italia/ansc/issues/396)
+		- [R009] Caso 12226203: corretto Riconoscimento infraquattordicenne
+		(https://github.com/italia/ansc/issues/342)
+		- [R009] IDUseCase 339999 Trasc_Matr_999: aggiunto comuneEstero obbligatorio (https://github.com/italia/ansc/issues/368)
+		- Certificati ed estratti di morte: aggiunti data di nascita e luogo di nascita se presente (https://github.com/italia/ansc/issues/355)
+		- Firma Dic / Firma Usc: matrimoni (idUseCase 331000) corretti Messaggi
+		(https://github.com/italia/ansc/issues/350)
+		- R009: aggiunto dettaglio nell'eventuale errore restituito
+		(https://github.com/italia/ansc/issues/351)
+		- R009 ID UseCase 2213 (Morte_007): corretta errata segnalazione
+		(https://github.com/italia/ansc/issues/363)
+		- R008: corretto formato delle date dell'oggetto ModelNotifica
+		(https://github.com/italia/ansc/issues/361)
+		- R009: caso d'Uso 345000 corretta Trascrizione Negoziazione Assistita
+		(https://github.com/italia/ansc/issues/150)
+		- [R009] corretta gestione Assistenza Minori nei matrimoni
+		(https://github.com/italia/ansc/issues/268) (https://github.com/italia/ansc/issues/257)
+		(https://github.com/italia/ansc/issues/271)
+		(https://github.com/italia/ansc/issues/286)
+		- R013: corretta restituzione IdAnsc
+		(https://github.com/italia/ansc/issues/347)
+		- R009: Citt_025 corretta revoca dell'adozione per il fatto dell'adottante, rinuncia espressa cittadinanza entro un anno dalla revoca adozione - aggiunto il controllo di validità non bloccante sulla data sentenza (che dovrà essere entro 1 anno dalla data di sistema).
+		- [R009]: UC matrimonio corretta configurazione rigettoOpposizione' e 'estintaOpposizione
+		(https://github.com/italia/ansc/issues/356)
+		- [R009] IDUseCase 342000-Sep_Div_002: corretta la verifica su tipoAccordo
+		(https://github.com/italia/ansc/issues/375)
+		- [R009] UseCase 11117000/11114200: corretti problemi con l'allegato della Procura della madre (https://github.com/italia/ansc/issues/376)
+	
+	 Mapping Casi d'uso
+	 	- Matrimoni: corretta "Condizioni obbligatorietà" su difetto di età e impedimento parentela (https://github.com/italia/ansc/issues/327)
+	 	
+	Web App
+		- Matrimonio: Rito religioso corretta minuta atto
+		- Consultazione atto: aggiunta la visualizzazione dell'id ansc del soggetto intestatario
+
+
 ## [Versione 1.13.1 - 29-09-2023]
 
 ### Fixed 
@@ -75,7 +184,7 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 		Matrimonio religioso: corretta minuta dell'atto
 		Sciogl_UnCiv_002 (4.4.2.0.0.0): corretta minuta dell'atto
 		Consultazione atto: aggiunto identificativo nazionale 
-		Casi d'uso con presenza comparente: aggiunta firma anche per il comparente l� dove presente
+		Casi d'uso con presenza comparente: aggiunta firma anche per il comparente laddove presente
 		Eliminata la dichiarazione sostitutiva in caso di presentazione della dichiarazione da parte di ostetrica/sanitario
 		UC Trascr_024 : corretta minuta dell'atto
 		
@@ -83,7 +192,7 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 		- Corretta tabella dec_tipo_allegato(https://github.com/italia/ansc/issues/346)
 		
 	Documentazione
-		- corretta descrizione della colonna 'Condizioni obbligatoriet�' (https://github.com/italia/ansc/issues/349)
+		- corretta descrizione della colonna 'Condizioni obbligatorietà' (https://github.com/italia/ansc/issues/349)
 	
 ### Changed 
 	R008_notifiche.yaml

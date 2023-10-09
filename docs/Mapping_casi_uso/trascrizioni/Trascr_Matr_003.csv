@@ -1,6 +1,6 @@
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
-"Allegati","Istanza verbale","NO","","","","{evento.trascrizioneMatrimonio.tipoDichiarazione,=,4}"
-"Allegati","Atto scritto","NO","","","","{evento.trascrizioneMatrimonio.tipoDichiarazione,=,3}"
+"Allegati","Istanza verbale","NO","","","","evento.trascrizioneMatrimonio.tipoDichiarazione,=,4"
+"Allegati","Atto scritto","NO","","","","evento.trascrizioneMatrimonio.tipoDichiarazione,=,3"
 "Allegati","Copia integrale atto di nascita degli sposi","NO","","","",""
 "Allegati","Autocertificazione cumulativa stato libero, residenza, cittadinanza","NO","","","",""
 "Allegati","Certificato di eseguita pubblicazione","NO","","","",""

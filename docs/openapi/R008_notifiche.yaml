@@ -120,6 +120,41 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/GetNotificheByEventoResponse'
+
+  /notifiche/ricerca-notifiche-anpr/{version}:
+    post:
+      tags:
+        - Consultazione notifiche ANPR by Evento
+      summary: restituzione notifiche ANPR per id evento o id nazionale unico assegnato dal sistema
+      operationId: ricerca-notifiche-anpr
+      parameters:
+        - name: version
+          in: path
+          description: Versione del servizio
+          required: true
+          schema:
+            type: string
+      requestBody:
+        description: Body della richiesta
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RicercaNotificheAnprRequest'
+        required: true
+      responses:
+        "200":
+          description: Successo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RicercaNotificheAnprResponse'
+        "403":
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RicercaNotificheAnprResponse'
+
 components:
   schemas:       
     ModelSoggettoRicerca:
@@ -247,11 +282,11 @@ components:
           description: Identificativo soggetto di riferimento
         dataInizioValidita:
           type: string
-          format: date
+          format: date-time
           description: data di inizio validita
         dataFineValidita:
           type: string
-          format: date
+          format: date-time
           description: data di fine validita
         idStatoFlussoNotifiche:
           description: Stato flusso della Notifica 1=DA APPROVARE 2=APPROVATA (decodifica ANSC_102)
@@ -295,4 +330,35 @@ components:
       description: Risposta del processo di conferma Notifica
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+
+    NotificaAnpr:
+      properties:
+        id:
+          type: string
+          description: Identificativo univoco della notifica ANPR
+
+    RicercaNotificheAnprRequest:
+      description: Richiesta del servizio di ricerca notifiche ANPR per evento.
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:
+            idEvento:
+              description: Identificativo dell'evento
+              type: string
+              example: 23525
+            idAnsc:
+              description: Identificativo nazionale unico assegnato dal sistema
+              type: string
+              example: 2022-23525-3523-33A
+    RicercaNotificheAnprResponse:
+      description: Risposta del servizio di ricerca notifiche ANPR per evento.
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:
+            notifiche:
+              type: array
+              items:
+                $ref: '#/components/schemas/NotificaAnpr'
               

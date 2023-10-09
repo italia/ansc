@@ -458,7 +458,7 @@ components:
           example: '100' 
         nomeStatoNascita: 
           type: string
-          description: Nome dello Stato di Nascita
+          description: Nome dello Stato di Nascita ( Arbitrario se ID='200' altrimenti DENOMINAZIONE della tabella ANPR 02)
           example: 'ITALIA'          
         idComuneResidenza: 
           type: string
@@ -1640,6 +1640,30 @@ components:
           $ref: '#/components/schemas/ModelImpedimento'
         impedimentoSposa: # Eventuale motivo di impedimento con certificato
           $ref: '#/components/schemas/ModelImpedimento'
+        tipoAssistenteSposo :
+          type: string
+          description: Tipo assistenza minori (decodifica ANSC_51) 
+          example: "0" 
+        tipoAssistenteSposa :
+          type: string
+          description: Tipo assistenza minori (decodifica ANSC_51) 
+          example: "0"   
+        padreSposo: # Generalità padre Sposo
+          $ref: '#/components/schemas/ModelSoggetto'
+        padreSposa: # Generalità padre Sposa
+          $ref: '#/components/schemas/ModelSoggetto'  
+        madreSposo: # Generalità madre Sposo
+          $ref: '#/components/schemas/ModelSoggetto'
+        madreSposa: # Generalità madre Sposa
+          $ref: '#/components/schemas/ModelSoggetto'   
+        assistenteLegaleSposo: # Generalità assistenteLegale Sposo
+          $ref: '#/components/schemas/ModelSoggetto'
+        assistenteLegaleSposa: # Generalità assistenteLegale Sposa
+          $ref: '#/components/schemas/ModelSoggetto'             
+        nominaAssistenteLegaleSposo: # Provvedimento di nomina del tutore/procuratore speciale
+          $ref: '#/components/schemas/ModelEnteDichiarante'  
+        nominaAssistenteLegaleSposa: # Provvedimento di nomina del tutore/procuratore speciale
+          $ref: '#/components/schemas/ModelEnteDichiarante' 
     ModelUnioneCivile:
       properties:
         luogoCelebrazione:
