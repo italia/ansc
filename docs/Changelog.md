@@ -19,6 +19,20 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 
 ## [Unreleased]
 
+## [Versione 1.14.1 - 11-10-2023]
+
+### Added
+
+	Mapping casi d'uso	
+		- Rico_Matr_999 (https://github.com/italia/ansc/issues/374)
+
+### Fixed 
+
+	Servizi cooperativi
+		- R001: corretta anomalia upload allegati (https://github.com/italia/ansc/issues/398)
+
+
+
 
 ## [Versione 1.14.0 - 09-10-2023]
 

@@ -1,3 +1,13 @@
+#Changelog mappatura casi uso 1.14.1  
+
+## Casi uso aggiunti : 1
+* matrimoni/Rico_Matr_999.csv
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 0
+
+
 #Changelog mappatura casi uso 1.14.0  
 
 ## Casi uso aggiunti : 0

@@ -216,6 +216,7 @@
 "347000","Trascrizione provvedimenti esteri in materia matrimoniale.","Sep_Div_007","II","C"
 "349999","Caso d'uso di servizio (separazioni e divorzi)","Sep_Div_999","III",""
 "350000","Dichiarazione di riconciliazione","Matr_Riconc_001","II","C"
+"359999","Caso d'uso di servizio (riconciliazioni)","Rico_Matr_999","III",""
 "366999","Caso d'uso di servizio (comunicazione da altri comuni)","Matr_998_1","III",""
 "367999","Caso d'uso di servizio (comunicazioni da altre amministrazioni)","Matr_998_2","III",""
 "368699","Annotazione per rettifica","Matr_017","III",""
