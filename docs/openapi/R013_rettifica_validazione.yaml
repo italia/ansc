@@ -64,7 +64,6 @@ components:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
           required:
             - evento
-            - eventoModificato
         - type: object
           properties:
             evento:

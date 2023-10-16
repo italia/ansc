@@ -270,4 +270,5 @@
 "Dettagli evento","Con atto notarile","SI","evento.datiEventoUnioneCivile.regimePatrimoniale","attoNotarile","","obbligatoria"
 "Dettagli evento","Scelta Soggetto Impedimento","SI","evento.datiEventoUnioneCivile","soggettoImpedimentoCivile","","obbligatoria"
 "Annotazione Contestuale","Tipo Annotazione Contestuale","NO","evento.datiAnnotazione","tipoAnnotazione","","evento.datiEventoUnioneCivile.regimePatrimoniale.tipo,=,1"
+"Annotazione Contestuale","Dichiara come non certificabile","NO","evento.datiAnnotazione","flagAnnotazioneNonCertificabile","","evento.datiEventoUnioneCivile.regimePatrimoniale.tipo,=,1"
 "Annotazione Contestuale","Testo Annotazione Contestuale","NO","evento.datiAnnotazione","testoAnnotazione","","evento.datiEventoUnioneCivile.regimePatrimoniale.tipo,=,1"

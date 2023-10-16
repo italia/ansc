@@ -1,7 +1,7 @@
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
 "Allegati","Nota di trasmissione da parte dell’autorità consolare o diplomatica","SI","","","",""
 "Allegati","Atto estero di nascita originale o copia autentica","SI","","","",""
-"Formula","193","SI","","","",""
+"Formula","193.3","SI","","","",""
 "Formula","194","NO","","","",""
 "Formula","195","NO","","","",""
 "Formula","196","NO","","","",""

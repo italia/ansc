@@ -241,4 +241,5 @@
 "Dettagli evento","Scelta del regime patrimoniale","SI","evento.datiEventoUnioneCivile.regimePatrimoniale","tipo","","obbligatoria"
 "Dettagli evento","Con atto notarile","SI","evento.datiEventoUnioneCivile.regimePatrimoniale","attoNotarile","","obbligatoria"
 "Annotazione Contestuale","Tipo Annotazione Contestuale","NO","evento.datiAnnotazione","tipoAnnotazione","","evento.datiEventoUnioneCivile.regimePatrimoniale.tipo,=,1"
+"Annotazione Contestuale","Dichiara come non certificabile","NO","evento.datiAnnotazione","flagAnnotazioneNonCertificabile","","evento.datiEventoUnioneCivile.regimePatrimoniale.tipo,=,1"
 "Annotazione Contestuale","Testo Annotazione Contestuale","NO","evento.datiAnnotazione","testoAnnotazione","","evento.datiEventoUnioneCivile.regimePatrimoniale.tipo,=,1"

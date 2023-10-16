@@ -1,3 +1,542 @@
+#Changelog mappatura casi uso 1.15.0  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 37
+* cittadinanza/Citt_998_1.csv
+* cittadinanza/Citt_998_2.csv
+* matrimoni/Matr_001.csv
+* matrimoni/Matr_002.csv
+* matrimoni/Matr_003.csv
+* matrimoni/Matr_004.csv
+* matrimoni/Matr_005.csv
+* matrimoni/Matr_007.csv
+* matrimoni/Matr_008.csv
+* matrimoni/Matr_009.csv
+* matrimoni/Matr_010.csv
+* matrimoni/Matr_011.csv
+* matrimoni/Matr_012.csv
+* matrimoni/Matr_013.csv
+* matrimoni/Matr_998_1.csv
+* matrimoni/Matr_998_2.csv
+* matrimoni/Sep_Div_005.csv
+* morte/Morte_998_1.csv
+* morte/Morte_998_2.csv
+* nascita/Dic_Nasc_077.csv
+* nascita/Dic_Nasc_078.csv
+* nascita/Dic_Nasc_081.csv
+* nascita/Dic_Nasc_082.csv
+* nascita/Dic_Nasc_085.csv
+* nascita/Dic_Nasc_998_1.csv
+* nascita/Dic_Nasc_998_2.csv
+* riconoscimenti/Rico_005.csv
+* trascrizioni/Trascr_Matr_004.csv
+* trascrizioni/Trascr_UnCiv_003.csv
+* trascrizioni/Trascr_UnCiv_004.csv
+* unioni_civili/UnCiv_001.csv
+* unioni_civili/UnCiv_002.csv
+* unioni_civili/UnCiv_003.csv
+* unioni_civili/UnCiv_004.csv
+* unioni_civili/UnCiv_005.csv
+* unioni_civili/UnCiv_998_1.csv
+* unioni_civili/UnCiv_998_2.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_998_1.csv : 
+* Aggiunto 'evento.flagAnnotazioneNonCertificabile' (riga:18)
+
+### Modifiche per il caso uso cittadinanza/Citt_998_2.csv : 
+* Aggiunto 'evento.flagAnnotazioneNonCertificabile' (riga:24)
+
+### Modifiche per il caso uso matrimoni/Matr_001.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.cognome' (riga:43)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nome' (riga:44)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.sesso' (riga:45)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.dataNascita' (riga:46)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoNascita' (riga:47)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoNascita' (riga:48)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaNascita' (riga:49)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaNascita' (riga:50)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneNascita' (riga:51)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneNascita' (riga:52)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idNazionalita' (riga:53)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nazionalita' (riga:54)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoResidenza' (riga:55)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoResidenza' (riga:56)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaResidenza' (riga:57)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaResidenza' (riga:58)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneResidenza' (riga:59)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneResidenza' (riga:60)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.indirizzoResidenza' (riga:61)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagDichiarante' (riga:62)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagComparente' (riga:63)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:64)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:511)
+* Rimosso 'evento.datiEventoMatrimonio.cognomeOfficiante'
+* Rimosso 'evento.datiEventoMatrimonio.nomeOfficiante'
+
+### Modifiche per il caso uso matrimoni/Matr_002.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.cognome' (riga:58)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nome' (riga:59)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.sesso' (riga:60)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.dataNascita' (riga:61)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoNascita' (riga:62)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoNascita' (riga:63)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaNascita' (riga:64)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaNascita' (riga:65)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneNascita' (riga:66)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneNascita' (riga:67)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idNazionalita' (riga:68)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nazionalita' (riga:69)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoResidenza' (riga:70)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoResidenza' (riga:71)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaResidenza' (riga:72)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaResidenza' (riga:73)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneResidenza' (riga:74)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneResidenza' (riga:75)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.indirizzoResidenza' (riga:76)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagDichiarante' (riga:77)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagComparente' (riga:78)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:79)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:546)
+* Rimosso 'evento.datiEventoMatrimonio.cognomeOfficiante'
+* Rimosso 'evento.datiEventoMatrimonio.nomeOfficiante'
+
+### Modifiche per il caso uso matrimoni/Matr_003.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.cognome' (riga:54)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nome' (riga:55)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.sesso' (riga:56)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.dataNascita' (riga:57)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoNascita' (riga:58)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoNascita' (riga:59)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaNascita' (riga:60)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaNascita' (riga:61)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneNascita' (riga:62)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneNascita' (riga:63)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idNazionalita' (riga:64)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nazionalita' (riga:65)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoResidenza' (riga:66)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoResidenza' (riga:67)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaResidenza' (riga:68)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaResidenza' (riga:69)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneResidenza' (riga:70)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneResidenza' (riga:71)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.indirizzoResidenza' (riga:72)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagDichiarante' (riga:73)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagComparente' (riga:74)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:75)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:491)
+* Rimosso 'evento.datiEventoMatrimonio.cognomeOfficiante'
+* Rimosso 'evento.datiEventoMatrimonio.nomeOfficiante'
+
+### Modifiche per il caso uso matrimoni/Matr_004.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.cognome' (riga:49)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nome' (riga:50)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.sesso' (riga:51)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.dataNascita' (riga:52)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoNascita' (riga:53)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoNascita' (riga:54)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaNascita' (riga:55)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaNascita' (riga:56)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneNascita' (riga:57)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneNascita' (riga:58)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idNazionalita' (riga:59)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nazionalita' (riga:60)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoResidenza' (riga:61)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoResidenza' (riga:62)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaResidenza' (riga:63)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaResidenza' (riga:64)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneResidenza' (riga:65)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneResidenza' (riga:66)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.indirizzoResidenza' (riga:67)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagDichiarante' (riga:68)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagComparente' (riga:69)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:70)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:523)
+* Rimosso 'evento.datiEventoMatrimonio.cognomeOfficiante'
+* Rimosso 'evento.datiEventoMatrimonio.nomeOfficiante'
+
+### Modifiche per il caso uso matrimoni/Matr_005.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.cognome' (riga:58)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nome' (riga:59)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.sesso' (riga:60)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.dataNascita' (riga:61)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoNascita' (riga:62)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoNascita' (riga:63)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaNascita' (riga:64)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaNascita' (riga:65)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneNascita' (riga:66)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneNascita' (riga:67)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idNazionalita' (riga:68)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nazionalita' (riga:69)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoResidenza' (riga:70)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoResidenza' (riga:71)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaResidenza' (riga:72)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaResidenza' (riga:73)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneResidenza' (riga:74)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneResidenza' (riga:75)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.indirizzoResidenza' (riga:76)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagDichiarante' (riga:77)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagComparente' (riga:78)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:79)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:552)
+* Rimosso 'evento.datiEventoMatrimonio.cognomeOfficiante'
+* Rimosso 'evento.datiEventoMatrimonio.nomeOfficiante'
+
+### Modifiche per il caso uso matrimoni/Matr_007.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.cognome' (riga:48)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nome' (riga:49)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.sesso' (riga:50)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.dataNascita' (riga:51)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoNascita' (riga:52)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoNascita' (riga:53)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaNascita' (riga:54)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaNascita' (riga:55)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneNascita' (riga:56)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneNascita' (riga:57)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idNazionalita' (riga:58)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nazionalita' (riga:59)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoResidenza' (riga:60)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoResidenza' (riga:61)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaResidenza' (riga:62)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaResidenza' (riga:63)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneResidenza' (riga:64)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneResidenza' (riga:65)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.indirizzoResidenza' (riga:66)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagDichiarante' (riga:67)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagComparente' (riga:68)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:69)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:400)
+* Rimosso 'evento.datiEventoMatrimonio.cognomeOfficiante'
+* Rimosso 'evento.datiEventoMatrimonio.nomeOfficiante'
+
+### Modifiche per il caso uso matrimoni/Matr_008.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.cognome' (riga:48)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nome' (riga:49)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.sesso' (riga:50)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.dataNascita' (riga:51)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoNascita' (riga:52)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoNascita' (riga:53)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaNascita' (riga:54)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaNascita' (riga:55)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneNascita' (riga:56)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneNascita' (riga:57)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idNazionalita' (riga:58)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nazionalita' (riga:59)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoResidenza' (riga:60)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoResidenza' (riga:61)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaResidenza' (riga:62)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaResidenza' (riga:63)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneResidenza' (riga:64)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneResidenza' (riga:65)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.indirizzoResidenza' (riga:66)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagDichiarante' (riga:67)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagComparente' (riga:68)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:69)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:400)
+* Rimosso 'evento.datiEventoMatrimonio.cognomeOfficiante'
+* Rimosso 'evento.datiEventoMatrimonio.nomeOfficiante'
+
+### Modifiche per il caso uso matrimoni/Matr_009.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.cognome' (riga:47)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nome' (riga:48)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.sesso' (riga:49)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.dataNascita' (riga:50)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoNascita' (riga:51)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoNascita' (riga:52)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaNascita' (riga:53)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaNascita' (riga:54)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneNascita' (riga:55)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneNascita' (riga:56)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idNazionalita' (riga:57)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nazionalita' (riga:58)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoResidenza' (riga:59)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoResidenza' (riga:60)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaResidenza' (riga:61)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaResidenza' (riga:62)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneResidenza' (riga:63)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneResidenza' (riga:64)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.indirizzoResidenza' (riga:65)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagDichiarante' (riga:66)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagComparente' (riga:67)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:68)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:640)
+* Rimosso 'evento.datiEventoMatrimonio.cognomeOfficiante'
+* Rimosso 'evento.datiEventoMatrimonio.nomeOfficiante'
+
+### Modifiche per il caso uso matrimoni/Matr_010.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.cognome' (riga:57)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nome' (riga:58)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.sesso' (riga:59)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.dataNascita' (riga:60)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoNascita' (riga:61)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoNascita' (riga:62)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaNascita' (riga:63)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaNascita' (riga:64)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneNascita' (riga:65)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneNascita' (riga:66)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idNazionalita' (riga:67)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nazionalita' (riga:68)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoResidenza' (riga:69)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoResidenza' (riga:70)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaResidenza' (riga:71)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaResidenza' (riga:72)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneResidenza' (riga:73)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneResidenza' (riga:74)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.indirizzoResidenza' (riga:75)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagDichiarante' (riga:76)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagComparente' (riga:77)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:78)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:670)
+* Rimosso 'evento.datiEventoMatrimonio.cognomeOfficiante'
+* Rimosso 'evento.datiEventoMatrimonio.nomeOfficiante'
+
+### Modifiche per il caso uso matrimoni/Matr_011.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.cognome' (riga:52)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nome' (riga:53)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.sesso' (riga:54)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.dataNascita' (riga:55)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoNascita' (riga:56)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoNascita' (riga:57)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaNascita' (riga:58)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaNascita' (riga:59)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneNascita' (riga:60)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneNascita' (riga:61)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idNazionalita' (riga:62)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nazionalita' (riga:63)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoResidenza' (riga:64)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaResidenza' (riga:66)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaResidenza' (riga:67)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneResidenza' (riga:68)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneResidenza' (riga:69)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.indirizzoResidenza' (riga:70)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagDichiarante' (riga:71)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagComparente' (riga:72)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:73)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:614)
+* Rimosso 'evento.datiEventoMatrimonio.cognomeOfficiante'
+* Rimosso 'evento.datiEventoMatrimonio.nomeOfficiante'
+
+### Modifiche per il caso uso matrimoni/Matr_012.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.cognome' (riga:47)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nome' (riga:48)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.sesso' (riga:49)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.dataNascita' (riga:50)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoNascita' (riga:51)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoNascita' (riga:52)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaNascita' (riga:53)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaNascita' (riga:54)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneNascita' (riga:55)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneNascita' (riga:56)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idNazionalita' (riga:57)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nazionalita' (riga:58)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoResidenza' (riga:59)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoResidenza' (riga:60)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaResidenza' (riga:61)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaResidenza' (riga:62)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneResidenza' (riga:63)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneResidenza' (riga:64)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.indirizzoResidenza' (riga:65)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagDichiarante' (riga:66)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagComparente' (riga:67)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:68)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:646)
+* Rimosso 'evento.datiEventoMatrimonio.cognomeOfficiante'
+* Rimosso 'evento.datiEventoMatrimonio.nomeOfficiante'
+
+### Modifiche per il caso uso matrimoni/Matr_013.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.cognome' (riga:55)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nome' (riga:56)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.sesso' (riga:57)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.dataNascita' (riga:58)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoNascita' (riga:59)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoNascita' (riga:60)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaNascita' (riga:61)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaNascita' (riga:62)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneNascita' (riga:63)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneNascita' (riga:64)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idNazionalita' (riga:65)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nazionalita' (riga:66)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idStatoResidenza' (riga:67)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeStatoResidenza' (riga:68)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idProvinciaResidenza' (riga:69)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.siglaProvinciaResidenza' (riga:70)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idComuneResidenza' (riga:71)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.nomeComuneResidenza' (riga:72)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.indirizzoResidenza' (riga:73)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagDichiarante' (riga:74)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagComparente' (riga:75)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:76)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:674)
+* Rimosso 'evento.datiEventoMatrimonio.cognomeOfficiante'
+* Rimosso 'evento.datiEventoMatrimonio.nomeOfficiante'
+
+### Modifiche per il caso uso matrimoni/Matr_998_1.csv : 
+* Aggiunto 'evento.flagAnnotazioneNonCertificabile' (riga:18)
+
+### Modifiche per il caso uso matrimoni/Matr_998_2.csv : 
+* Aggiunto 'evento.flagAnnotazioneNonCertificabile' (riga:24)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_005.csv : 
+* Presenti modifiche per 'evento.negoziazioneAssistita.provvedimentoAutoritaGiudiziaria.idProvinciaEnte' (riga:84)
+* Presenti modifiche per 'evento.negoziazioneAssistita.provvedimentoAutoritaGiudiziaria.idComuneEnte' (riga:85)
+* Presenti modifiche per 'evento.negoziazioneAssistita.dataDepositoProvvedimento' (riga:86)
+* Presenti modifiche per 'evento.negoziazioneAssistita.dataComunicazioneProvvedimento' (riga:87)
+* Rimosso 'evento.negoziazioneAssistita.accordo.estremiDocumento'
+* Rimosso 'evento.negoziazioneAssistita.accordo.nomeEnte'
+* Rimosso 'evento.negoziazioneAssistita.accordo.idProvinciaEnte'
+* Rimosso 'evento.negoziazioneAssistita.accordo.siglaProvinciaEnte'
+* Rimosso 'evento.negoziazioneAssistita.accordo.idComuneEnte'
+* Rimosso 'evento.negoziazioneAssistita.accordo.nomeComuneEnte'
+* Rimosso 'evento.negoziazioneAssistita.provvedimentoAutoritaGiudiziaria.estremiDocumento'
+* Rimosso 'evento.negoziazioneAssistita.provvedimentoAutoritaGiudiziaria.nomeEnte'
+* Rimosso 'evento.negoziazioneAssistita.provvedimentoAutoritaGiudiziaria.siglaProvinciaEnte'
+* Rimosso 'evento.negoziazioneAssistita.provvedimentoAutoritaGiudiziaria.nomeComuneEnte'
+
+### Modifiche per il caso uso morte/Morte_998_1.csv : 
+* Aggiunto 'evento.flagAnnotazioneNonCertificabile' (riga:18)
+
+### Modifiche per il caso uso morte/Morte_998_2.csv : 
+* Aggiunto 'evento.flagAnnotazioneNonCertificabile' (riga:24)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_077.csv : 
+* Rimosso 'Formula 2'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_078.csv : 
+* Rimosso 'Formula 2'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_081.csv : 
+* Rimosso 'Formula 2'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_082.csv : 
+* Rimosso 'Formula 2'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_085.csv : 
+* Rimosso 'Formula 2'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_1.csv : 
+* Aggiunto 'evento.flagAnnotazioneNonCertificabile' (riga:18)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_2.csv : 
+* Aggiunto 'evento.flagAnnotazioneNonCertificabile' (riga:24)
+
+### Modifiche per il caso uso riconoscimenti/Rico_005.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoAtto.idAnsc' (riga:123)
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoAtto.idProvinciaRegistrazione' (riga:124)
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoAtto.siglaProvinciaRegistrazione' (riga:125)
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoAtto.idComuneRegistrazione' (riga:126)
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoAtto.nomeComuneRegistrazione' (riga:127)
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoAtto.idtipocontenuto' (riga:128)
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoAtto.numeroatto' (riga:129)
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoAtto.annoAtto' (riga:130)
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoAtto.dataformazione' (riga:131)
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoAtto.tipologia' (riga:132)
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoAtto.parte' (riga:133)
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoAtto.serie' (riga:134)
+* Rimosso 'evento.datiEventoMatrimonio.datiRiconoscimento[0].assensoFiglio'
+* Rimosso 'evento.datiEventoMatrimonio.datiRiconoscimento[0].assensoReso'
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_004.csv : 
+* Rimosso 'evento.dichiarante.codiceFiscale'
+* Rimosso 'evento.dichiarante.cognome'
+* Rimosso 'evento.dichiarante.nome'
+* Rimosso 'evento.dichiarante.sesso'
+* Rimosso 'evento.dichiarante.dataNascita'
+* Rimosso 'evento.dichiarante.idStatoNascita'
+* Rimosso 'evento.dichiarante.nomeStatoNascita'
+* Rimosso 'evento.dichiarante.idProvinciaNascita'
+* Rimosso 'evento.dichiarante.siglaProvinciaNascita'
+* Rimosso 'evento.dichiarante.idComuneNascita'
+* Rimosso 'evento.dichiarante.nomeComuneNascita'
+* Rimosso 'evento.dichiarante.idNazionalita'
+* Rimosso 'evento.dichiarante.nazionalita'
+* Rimosso 'evento.dichiarante.idStatoResidenza'
+* Rimosso 'evento.dichiarante.nomeStatoResidenza'
+* Rimosso 'evento.dichiarante.idProvinciaResidenza'
+* Rimosso 'evento.dichiarante.siglaProvinciaResidenza'
+* Rimosso 'evento.dichiarante.idComuneResidenza'
+* Rimosso 'evento.dichiarante.nomeComuneResidenza'
+* Rimosso 'evento.dichiarante.indirizzoResidenza'
+* Rimosso 'evento.dichiarante.flagDichiarante'
+* Rimosso 'evento.dichiarante.flagComparente'
+* Rimosso 'evento.dichiarante.flagFirmatario'
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_003.csv : 
+* Aggiunto 'evento.dichiarante.codiceFiscale' (riga:76)
+* Aggiunto 'evento.dichiarante.cognome' (riga:77)
+* Aggiunto 'evento.dichiarante.nome' (riga:78)
+* Aggiunto 'evento.dichiarante.sesso' (riga:79)
+* Aggiunto 'evento.dichiarante.dataNascita' (riga:80)
+* Aggiunto 'evento.dichiarante.idStatoNascita' (riga:81)
+* Aggiunto 'evento.dichiarante.nomeStatoNascita' (riga:82)
+* Aggiunto 'evento.dichiarante.idProvinciaNascita' (riga:83)
+* Aggiunto 'evento.dichiarante.siglaProvinciaNascita' (riga:84)
+* Aggiunto 'evento.dichiarante.idComuneNascita' (riga:85)
+* Aggiunto 'evento.dichiarante.nomeComuneNascita' (riga:86)
+* Aggiunto 'evento.dichiarante.idNazionalita' (riga:87)
+* Aggiunto 'evento.dichiarante.nazionalita' (riga:88)
+* Aggiunto 'evento.dichiarante.idStatoResidenza' (riga:89)
+* Aggiunto 'evento.dichiarante.nomeStatoResidenza' (riga:90)
+* Aggiunto 'evento.dichiarante.idProvinciaResidenza' (riga:91)
+* Aggiunto 'evento.dichiarante.siglaProvinciaResidenza' (riga:92)
+* Aggiunto 'evento.dichiarante.idComuneResidenza' (riga:93)
+* Aggiunto 'evento.dichiarante.nomeComuneResidenza' (riga:94)
+* Aggiunto 'evento.dichiarante.indirizzoResidenza' (riga:95)
+* Aggiunto 'evento.dichiarante.flagDichiarante' (riga:96)
+* Aggiunto 'evento.dichiarante.flagComparente' (riga:97)
+* Aggiunto 'evento.dichiarante.flagFirmatario' (riga:98)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_004.csv : 
+* Rimosso 'evento.dichiarante.codiceFiscale'
+* Rimosso 'evento.dichiarante.cognome'
+* Rimosso 'evento.dichiarante.nome'
+* Rimosso 'evento.dichiarante.sesso'
+* Rimosso 'evento.dichiarante.dataNascita'
+* Rimosso 'evento.dichiarante.idStatoNascita'
+* Rimosso 'evento.dichiarante.nomeStatoNascita'
+* Rimosso 'evento.dichiarante.idProvinciaNascita'
+* Rimosso 'evento.dichiarante.siglaProvinciaNascita'
+* Rimosso 'evento.dichiarante.idComuneNascita'
+* Rimosso 'evento.dichiarante.nomeComuneNascita'
+* Rimosso 'evento.dichiarante.idNazionalita'
+* Rimosso 'evento.dichiarante.nazionalita'
+* Rimosso 'evento.dichiarante.idStatoResidenza'
+* Rimosso 'evento.dichiarante.nomeStatoResidenza'
+* Rimosso 'evento.dichiarante.idProvinciaResidenza'
+* Rimosso 'evento.dichiarante.siglaProvinciaResidenza'
+* Rimosso 'evento.dichiarante.idComuneResidenza'
+* Rimosso 'evento.dichiarante.nomeComuneResidenza'
+* Rimosso 'evento.dichiarante.indirizzoResidenza'
+* Rimosso 'evento.dichiarante.flagDichiarante'
+* Rimosso 'evento.dichiarante.flagComparente'
+* Rimosso 'evento.dichiarante.flagFirmatario'
+
+### Modifiche per il caso uso unioni_civili/UnCiv_001.csv : 
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:244)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_002.csv : 
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:267)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_003.csv : 
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:244)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_004.csv : 
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:241)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_005.csv : 
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:273)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_1.csv : 
+* Aggiunto 'evento.flagAnnotazioneNonCertificabile' (riga:18)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_2.csv : 
+* Aggiunto 'evento.flagAnnotazioneNonCertificabile' (riga:24)
+
+
+
+
 #Changelog mappatura casi uso 1.14.1  
 
 ## Casi uso aggiunti : 1

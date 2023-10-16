@@ -21,3 +21,4 @@
 "Evento da annotare","Data atto","SI","evento.eventoCollegato","dataformazione","","obbligatoria"
 "Evento da annotare","Tipo registro","SI","evento.eventoCollegato","tipologia","","obbligatoria"
 "Composizione libera","Composizione libera","SI","evento","composizioneCompleta","","obbligatoria"
+"Composizione libera","Dichiara come non certificabile","NO","evento","flagAnnotazioneNonCertificabile","","obbligatoria"

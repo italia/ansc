@@ -146,11 +146,12 @@ components:
           example: '1'        
         ausilioInterprete: 
           type: string
-          description: Indica se e' stato necessario l'ausilio di un interprete.
-          example: 'no'
+          description: Indica se e' stato necessario l'ausilio di un interprete (comportamento Boolean 'true'/'false').
+          example: 'false'
         conTestimoni: 
           type: string
-          description: Indica se la dichiarazione e' stata resa con testimoni.
+          deprecated: true
+          description: -- DEPRECATO -- Indica se la dichiarazione e' stata resa con testimoni.
           example: 'no'
         noteRitardo: 
           type: string
@@ -195,8 +196,9 @@ components:
           items:
             $ref: '#/components/schemas/ModelSoggetto' 
         variazioni: 
-          description: lista delle variazioni effettuate sull'atto.
+          description: -- DEPRECATO -- lista delle variazioni effettuate sull'atto.
           type: array
+          deprecated: true
           items:
             $ref: '#/components/schemas/ModelVariazioni' 
         enteDichiarante: # Ente dichiarante 
@@ -295,6 +297,10 @@ components:
           type: string
           description: Composizione completa dell'atto
           example: "L'anno 2020 addì 8 del mese di 1 alle ore 12 e minuti 1 nel(1) la Casa Comunale avanti a me CESENA ANSC Ufficiale dello Stato Civile del Comune di CESENA (2) Per delega avuta\ne' comparsa cognomeMadre nomeMadre nata in ROMA lì 1977-11-12 (3) residente in ROCCA CANTERANO\n"
+        flagAnnotazioneNonCertificabile:
+          type: boolean
+          description: Indica se l'annotazione è certificabile o meno (true=NON CERTIFICABILE, false=CERTIFICABILE)
+          example: true
         idRiconoscimentoSentenza: 
           type: string
           description: Identificativo ricoscimento. (decodifica ANSC_98)
@@ -691,8 +697,8 @@ components:
           example: 'AB32652AO'
         tipologiaDocumento: 
           type: string
-          description: Tipologia di documento utilizzato per il riconoscimento.
-          example: "Carta d'identità"
+          description: Tipologia di documento utilizzato per il riconoscimento (decodifica ANSC_25).
+          example: "1"
         dataScadenza: 
           type: string
           format: date
@@ -1019,7 +1025,10 @@ components:
             type: string
             description: tipo di annotazione contestuale registrata
             example: "1"  
-
+          flagAnnotazioneNonCertificabile:
+            type: boolean
+            description: Indica se l'annotazione è certificabile o meno (true=NON CERTIFICABILE, false=CERTIFICABILE)
+            example: true
     ModelTrascrizione:
       description: classe base per le trascrizioni. Non è mai usata da sola
       properties:
@@ -1080,7 +1089,7 @@ components:
               example: "2"
             provvedimentoCambioCognome:
               type: string
-              description: Ente che ha ordinato il cambio cognome (1 = Ministero dell'Interno, 2 = Prefettura)
+              description: Ente che ha ordinato il cambio cognome (decodifica ANSC_85)
               example: "1"
             prefettura:
               $ref: '#/components/schemas/ModelEnteDichiarante'
@@ -1204,8 +1213,8 @@ components:
           example: "1"
         idProvinciaResidenza:
           type: string
-          description: Provincia del comune in cui si intende prendere la residenza
-          example: "Forlì"
+          description: Identificativo della provincia del comune in cui si intende prendere la residenza
+          example: "123"
         provinciaResidenza:
           type: string
           description: Sigla Provincia del comune in cui si intende prendere la residenza
@@ -1467,11 +1476,15 @@ components:
         cognomeOfficiante:
           type: string
           description: Cognome officiante quando questo non sia l'USC
+          deprecated: true
           example: 'Rossi'
         nomeOfficiante:
           type: string
           description: Nome officiante quando questo non sia l'USC
+          deprecated: true
           example: 'Mario'
+        officianteEvento: # Chi ha officiato il matrimonio 
+              $ref: '#/components/schemas/ModelSoggetto'  
         comprensioneSposo:
           type: string
           description: Abilità di comprensione dello sposo (decodifica ANSC_32)
@@ -1794,9 +1807,9 @@ components:
           type: string
           description: Testo della richiesta di delega
           example: "Delega celebrazione unione civile"
-        soggettoImpedimentoCivile: # Eventuale motivo di impedimento con certificato
+        soggettoImpedimentoCivile: # Eventuale coniuge con impetimento civile
           type: string
-          description: soggetto con impedimento
+          description: soggetto con impedimento (decodifica ANSC_95) (1 = Coniuge 1, 2 = Coniuge 2, 3 = Entrambi Coniugi)
           example: "1"
         impedimentoSposo: # Eventuale motivo di impedimento con certificato
           $ref: '#/components/schemas/ModelImpedimento'
@@ -1820,8 +1833,8 @@ components:
           example: "MI"
         comuneCertificatoCostituzione:
           type: string
-          description: Comune del certificato di richiesta di costituzione di Unione Civile
-          example: "Forlì"
+          description: Identificativo del comune del certificato di richiesta di costituzione di Unione Civile
+          example: "1"
         nomeComuneCertificatoCostituzione:
           type: string
           description: Comune del certificato di richiesta di costituzione di Unione Civile

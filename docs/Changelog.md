@@ -19,6 +19,66 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 
 ## [Unreleased]
 
+
+## [1.15.0 - 16-10-2023]
+
+### Deprecated
+	model_evento.yaml
+		- Reso deprecato elemento cognomeOfficiante in ModelMatrimonio 
+		- Reso deprecato elemento nomeOfficiante in ModelMatrimonio
+		- Reso deprecato elemento conTestimoni in ModelEvento
+		- Reso deprecato elemento variazioni in ModelEvento
+		
+### Added 
+    Decodifica
+    	- Aggiunta tabella decodifica ANSC_85 DEC_PROVVEDIMENTO_CAMBIO_COGNOME
+    
+	model_evento.yaml
+		- Aggiunto campi nel ModelMatrimonio come segue:
+        officianteEvento: # Chi ha officiato il matrimonio 
+              $ref: '#/components/schemas/ModelSoggetto'
+		- Aggiunto campo flagAnnotazioneNonCertificabile che indica se l'annotazione è certificabile o meno
+		
+### Changed 
+	ModelEvento
+        - aggiornata descrizione ed example per elemento ausilioInterprete in 
+        - aggiornata descrizione con specifica nuova decodifica (decodifica ANSC_85) per campo provvedimentoCambioCognome
+        - aggiornata descrizione campo e corretto l'example per idProvinciaResidenza
+        - aggiornata descrizione campo e corretto l'example per comuneCertificatoCostituzione
+        - aggiornata descrizione campo soggettoImpedimentoCivile specificando la decodifica (decodifica ANSC_95)
+        
+		- ModelDocumentoRiconoscimento :
+					tipologiaDocumento: (aggiunto la decodifica ANSC_25 nella description come documentazione, anche l'example abbiamo messo un esempio corretto dei 					valori da utilizzare)
+		   - dataInizioValidita:
+			   type: string
+               description: Tipologia di documento utilizzato per il riconoscimento (decodifica ANSC_25).
+               example: "1"        
+
+	Servizi cooperativi
+		- R013_rettifica_validazione.yaml: campo eventoModificato in ValidazioneRettificaEventoRequest per rettifiche di annullamento non obbligatorio
+
+	Documentazione
+		- [NotaProcessoAnnotazioniAndQuickCoopServiceFlow 1.2.0](Note/NotaProcessoAnnotazioniAndQuickCoopServiceFlow/NotaProcessoAnnotazioniAndQuickCoopServiceFlow.pdf)
+
+### Fixed 
+
+	Servizi cooperativi
+		- R009: Gestione certificabilità per annotazioni contestuali e per caso d'uso libero annotazioni
+		- R010: corretto errore dati in ingresso non corretti (https://github.com/italia/ansc/issues/403)
+		- R009 IDUseCase 51103 Citt_011: corretta errata validazione campo tipologiaDocumento (https://github.com/italia/ansc/issues/382)
+		- R011: aggiunto controllo per evitare cancellazione atto in stato FIRMATO USC (https://github.com/italia/ansc/issues/408)
+		- R009 IDUseCase 439999 Trascr_UnCiv_999: corretto refuso nel tracciato (https://github.com/italia/ansc/issues/388)
+		- Gestione stati pregressi non validi alla data e/o non più esistenti: da utilizzare il codice 200 in idComuneNascita e trasmettere il nome del comune pregresso
+		- R009 caso d'uso 11124100: corretta dichiarazione tardiva di filiazione nel matrimonio resa dal procuratore del padre all'USC di filiazione di bimbo nato morto (https://github.com/italia/ansc/issues/391)
+		- R009: corretta obbligatorietà di comune e provincia in UC 1.3.1.1 Trascrizione di atto di nascita avvenuta all’estero su richiesta dell’autorità diplomatica o consolare
+		- R013: correttaannotazione di rettifica di tipo annullamento (https://github.com/italia/ansc/issues/384)
+		- R010/R006: Firma officiante modalità cartacea su atti di matrimonio (https://github.com/italia/ansc/issues/380)
+		- R009: UC Matrimonio, gestione officiante come soggetto firmatario
+		- R009: IDUseCase 433000 e 434000 corretti tracciati (https://github.com/italia/ansc/issues/387)
+		- R005: corretta consultazione evento annotazione (https://github.com/italia/ansc/issues/371) (https://github.com/italia/ansc/issues/400)
+		- R009: corretta validazione caso uso 345000 per Trascrizione della convenzione di negoziazione assistita (https://github.com/italia/ansc/issues/404)
+
+
 ## [Versione 1.14.1 - 11-10-2023]
 
 ### Added
