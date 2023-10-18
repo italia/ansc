@@ -20,6 +20,18 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 ## [Unreleased]
 
 
+## [1.15.1 - 18-10-2023]
+
+### Fixed 
+
+	Servizi cooperativi
+		- R009: Fix verifica residenza intestatario, errore 500 (https://github.com/italia/ansc/issues/419)
+		- R901: Allineato vallore id 51 tabella 9_dec_tipo_allegato (https://github.com/italia/ansc/issues/420)
+		
+ 	Web Application
+		- Chiarimento: scaricamento atto dopo la firma USC : Emissione certificati (https://github.com/italia/ansc/issues/418)
+
+
 ## [1.15.0 - 16-10-2023]
 
 ### Deprecated
@@ -68,7 +80,7 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 		- R009 IDUseCase 51103 Citt_011: corretta errata validazione campo tipologiaDocumento (https://github.com/italia/ansc/issues/382)
 		- R011: aggiunto controllo per evitare cancellazione atto in stato FIRMATO USC (https://github.com/italia/ansc/issues/408)
 		- R009 IDUseCase 439999 Trascr_UnCiv_999: corretto refuso nel tracciato (https://github.com/italia/ansc/issues/388)
-		- Gestione stati pregressi non validi alla data e/o non più esistenti: da utilizzare il codice 200 in idComuneNascita e trasmettere il nome del comune pregresso
+		- Gestione stati pregressi non validi alla data e/o non più esistenti: da utilizzare il codice 200 in idStatoNascita e trasmettere il nome dello stato pregresso
 		- R009 caso d'uso 11124100: corretta dichiarazione tardiva di filiazione nel matrimonio resa dal procuratore del padre all'USC di filiazione di bimbo nato morto (https://github.com/italia/ansc/issues/391)
 		- R009: corretta obbligatorietà di comune e provincia in UC 1.3.1.1 Trascrizione di atto di nascita avvenuta all’estero su richiesta dell’autorità diplomatica o consolare
 		- R013: correttaannotazione di rettifica di tipo annullamento (https://github.com/italia/ansc/issues/384)
