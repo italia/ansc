@@ -20,6 +20,23 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 ## [Unreleased]
 
 
+## [1.15.2 - 23-10-2023]
+
+### Fixed 
+
+	Servizi cooperativi
+		- R009 matrimoni: aggiornamento obbligatorietà dei dati anagrafici del soggetto officiante nei matrimoni; sono stati resi opzionali tutti i campi dell'anagrafica tranne nome e cognome (https://github.com/italia/ansc/issues/422)
+		- R006 firma dichiarante con lista firmatari: il servizio richiede necessariamente i dati anagrafici  con cui il soggetto è stato registrato (es. se il coniuge è stato registrato con nome, cognome, sesso e data di nascita, questi campi devono essere trasmessi anche nel servizio R006; se l'officiante è stato registrato solo con nome e cognome, il servizio R006 dovrà essere invocato tramsettendo solo nome e cognome)
+		- R009: matrimoni, corretta la validazione relativa agli intestatari (https://github.com/italia/ansc/issues/423)
+		- R009: 51105 corretto acquisto automatico di cittadina straniera che si sposa con cittadino italiano fino al 27 aprile 1983 (https://github.com/italia/ansc/issues/407)
+		- R009: Sep_Div_005 corretto Accordo di negoziazione assistita (https://github.com/italia/ansc/issues/377)
+
+
+### Added 		
+	Decodifica
+	 - Aggiornata tabella 96_dec_motivo_recupero
+
+
 ## [1.15.1 - 18-10-2023]
 
 ### Fixed 

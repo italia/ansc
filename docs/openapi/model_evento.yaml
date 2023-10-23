@@ -1991,6 +1991,11 @@ components:
           type: string
           description: Testo libero per modifica accordo (formula 121-septies)
           example: "Modifica"
+        dataEventoMatrimonio:
+          type: string
+          format: date
+          description: Data alla quale viene effettuata il matrimonio
+          example: '2002-07-02'
     ModelNegoziazioneAssistita:
       properties:
         tipoAccordo:

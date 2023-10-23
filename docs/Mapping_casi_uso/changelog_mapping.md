@@ -1,3 +1,40 @@
+#Changelog mappatura casi uso 1.15.2  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 4
+* matrimoni/Sep_Div_002.csv
+* matrimoni/Sep_Div_005.csv
+* riconoscimenti/Rico_011.csv
+* riconoscimenti/Rico_012.csv
+
+### Modifiche per il caso uso matrimoni/Sep_Div_002.csv : 
+* Aggiunto 'evento.separazione.accordoSeparazione.idAnsc' (riga:76)
+* Aggiunto 'evento.separazione.accordoSeparazione.idProvinciaRegistrazione' (riga:77)
+* Aggiunto 'evento.separazione.accordoSeparazione.siglaProvinciaRegistrazione' (riga:78)
+* Aggiunto 'evento.separazione.accordoSeparazione.idComuneRegistrazione' (riga:79)
+* Aggiunto 'evento.separazione.accordoSeparazione.nomeComuneRegistrazione' (riga:80)
+* Aggiunto 'evento.separazione.accordoSeparazione.idtipocontenuto' (riga:81)
+* Aggiunto 'evento.separazione.accordoSeparazione.numeroatto' (riga:82)
+* Aggiunto 'evento.separazione.accordoSeparazione.annoAtto' (riga:83)
+* Aggiunto 'evento.separazione.accordoSeparazione.dataformazione' (riga:84)
+* Aggiunto 'evento.separazione.accordoSeparazione.tipologia' (riga:85)
+* Aggiunto 'evento.separazione.accordoSeparazione.parte' (riga:86)
+* Aggiunto 'evento.separazione.accordoSeparazione.serie' (riga:87)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_005.csv : 
+* Aggiunto 'evento.negoziazioneAssistita.provvedimentoAutoritaGiudiziaria.siglaProvinciaEnte' (riga:85)
+* Aggiunto 'evento.negoziazioneAssistita.provvedimentoAutoritaGiudiziaria.nomeComuneEnte' (riga:87)
+
+### Modifiche per il caso uso riconoscimenti/Rico_011.csv : 
+* Rimosso 'evento.datiEventoRiconoscimento.tipoSceltaCognome'
+
+### Modifiche per il caso uso riconoscimenti/Rico_012.csv : 
+* Rimosso 'evento.datiEventoRiconoscimento.tipoSceltaCognome'
+
+
 #Changelog mappatura casi uso 1.15.0  
 
 ## Casi uso aggiunti : 0
