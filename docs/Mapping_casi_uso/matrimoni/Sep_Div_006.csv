@@ -50,7 +50,7 @@
 "Atto di Matrimonio","Tipo evento","SI","evento.separazione.attoMatrimonio","idtipocontenuto","","obbligatoria"
 "Atto di Matrimonio","Numero Comunale","SI","evento.separazione.attoMatrimonio","numeroatto","","obbligatoria"
 "Atto di Matrimonio","Anno atto","SI","evento.separazione.attoMatrimonio","annoAtto","","obbligatoria"
-"Atto di Matrimonio","Data atto","SI","evento.separazione.attoMatrimonio","dataformazione","","obbligatoria"
+"Atto di Matrimonio","Data atto","NO","evento.separazione.attoMatrimonio","dataformazione","","obbligatoria"
 "Atto di Matrimonio","Tipo registro","SI","evento.separazione.attoMatrimonio","tipologia","","obbligatoria"
 "Atto di Matrimonio","Parte","NO","evento.separazione.attoMatrimonio","parte","","obbligatoria"
 "Atto di Matrimonio","Serie","NO","evento.separazione.attoMatrimonio","serie","","obbligatoria"

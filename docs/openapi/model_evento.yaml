@@ -1698,13 +1698,17 @@ components:
           type: string
           description: Officiante (decodifica ANSC_46)
           example: '01'
+        officianteEvento: # Chi ha officiato unione civile
+              $ref: '#/components/schemas/ModelSoggetto'   
         cognomeOfficiante:
           type: string
           description: Cognome officiante quando questo non sia l'USC
+          deprecated: true
           example: 'Rossi'
         nomeOfficiante:
           type: string
           description: Nome officiante quando questo non sia l'USC
+          deprecated: true
           example: 'Mario'
         certificatoCostituzione1:
           $ref: '#/components/schemas/ModelCertificatoUnioneCivile'

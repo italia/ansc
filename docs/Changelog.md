@@ -20,6 +20,46 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 ## [Unreleased]
 
 
+## [1.16.0 - 26-10-2023]
+
+### Deprecated
+	model_evento.yaml
+		- Reso deprecato elemento cognomeOfficiante in ModelUnioneCivile 
+		- Reso deprecato elemento nomeOfficiante in ModelUnioneCivile
+
+### Added
+    Versione
+		- Aggiunta nuova versione 100004
+
+	model_evento.yaml
+		- Aggiunto campo nel ModelUnioneCivile come segue:
+            officianteEvento: # Chi ha officiato unione civile
+                  $ref: '#/components/schemas/ModelSoggetto'  
+        - Aggiunto campo nel ModelSeparazione come segue:
+            dataEventoMatrimonio:
+            type: string
+            format: date
+            description: Data alla quale viene effettuata il matrimonio
+            example: '2002-07-02'
+            
+### Fixed 
+
+	Servizi cooperativi
+		- R009 Sep_Div_001/Sep_Div_002 Accordo di separazione/scioglimento: aggiunta data evento matrimonio, richiesta nella formula
+		- R002: certificati di morte, inseriti i dati dei coniugi nel caso il deceduto risulti coniugato, vedovo o divorziato
+		- R009: corretto controllo su soggetto intestatario (https://github.com/italia/ansc/issues/429)
+		
+		
+	Web Application
+		- Sep_Div_001/Sep_Div_002 Accordo di separazione/scioglimento: corretta la minuta, gestita la frase relativa agli allegati in caso di allegati non presenti.Gestita assenza degli avvocati nella formula di chiusura.
+		- Sep_div_001/Sep_div_002/Sep_div_003/Sep_div_004/Sep_div_008: corretta mancanza dei coniugi come firmatari
+		
+
+	Mapping casi d'uso	
+		- Sep_div_005: modificata obbligatorietà degli allegati; Allegato id 48 "Atto di Matrimonio" reso facoltativo, Allegato id 19 "Decreto del tribunale" reso obbligatorio,Allegato id 51 " Certificazione come da articolo 5 del Decreto Legge n. 132/2014 convertito con Legge 10.11.2014 n.162" reso facoltativo,Allegato id 36 " Nulla osta" reso obbligatorio
+		
+
+
 ## [1.15.2 - 23-10-2023]
 
 ### Fixed 

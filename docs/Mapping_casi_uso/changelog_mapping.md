@@ -1,3 +1,167 @@
+#Changelog mappatura casi uso 1.16.0  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 8
+* matrimoni/Sep_Div_001.csv
+* matrimoni/Sep_Div_002.csv
+* matrimoni/Sep_Div_004.csv
+* unioni_civili/UnCiv_001.csv
+* unioni_civili/UnCiv_002.csv
+* unioni_civili/UnCiv_003.csv
+* unioni_civili/UnCiv_004.csv
+* unioni_civili/UnCiv_005.csv
+
+### Modifiche per il caso uso matrimoni/Sep_Div_001.csv : 
+* Aggiunto 'evento.separazione.dataEventoMatrimonio' (riga:11)
+* Presenti modifiche per 'evento.separazione.attoMatrimonio.dataformazione' (riga:20)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_002.csv : 
+* Aggiunto 'evento.separazione.dataEventoMatrimonio' (riga:11)
+* Presenti modifiche per 'evento.separazione.attoMatrimonio.dataformazione' (riga:20)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_004.csv : 
+* Aggiunto 'evento.separazione.dataEventoMatrimonio' (riga:11)
+* Presenti modifiche per 'evento.separazione.attoMatrimonio.dataformazione' (riga:20)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_001.csv : 
+* Presenti modifiche per 'evento.datiEventoUnioneCivile.officiante' (riga:38)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.cognome' (riga:39)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nome' (riga:40)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.sesso' (riga:41)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.dataNascita' (riga:42)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idStatoNascita' (riga:43)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeStatoNascita' (riga:44)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idProvinciaNascita' (riga:45)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.siglaProvinciaNascita' (riga:46)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idComuneNascita' (riga:47)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeComuneNascita' (riga:48)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idNazionalita' (riga:49)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nazionalita' (riga:50)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idStatoResidenza' (riga:51)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeStatoResidenza' (riga:52)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idProvinciaResidenza' (riga:53)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.siglaProvinciaResidenza' (riga:54)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idComuneResidenza' (riga:55)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeComuneResidenza' (riga:56)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.indirizzoResidenza' (riga:57)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.flagDichiarante' (riga:58)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.flagComparente' (riga:59)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.flagFirmatario' (riga:60)
+* Rimosso 'evento.datiEventoUnioneCivile.cognomeOfficiante'
+* Rimosso 'evento.datiEventoUnioneCivile.nomeOfficiante'
+
+### Modifiche per il caso uso unioni_civili/UnCiv_002.csv : 
+* Presenti modifiche per 'evento.datiEventoUnioneCivile.officiante' (riga:48)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.cognome' (riga:49)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nome' (riga:50)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.sesso' (riga:51)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.dataNascita' (riga:52)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idStatoNascita' (riga:53)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeStatoNascita' (riga:54)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idProvinciaNascita' (riga:55)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.siglaProvinciaNascita' (riga:56)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idComuneNascita' (riga:57)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeComuneNascita' (riga:58)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idNazionalita' (riga:59)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nazionalita' (riga:60)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idStatoResidenza' (riga:61)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeStatoResidenza' (riga:62)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idProvinciaResidenza' (riga:63)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.siglaProvinciaResidenza' (riga:64)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idComuneResidenza' (riga:65)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeComuneResidenza' (riga:66)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.indirizzoResidenza' (riga:67)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.flagDichiarante' (riga:68)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.flagComparente' (riga:69)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.flagFirmatario' (riga:70)
+* Rimosso 'evento.datiEventoUnioneCivile.cognomeOfficiante'
+* Rimosso 'evento.datiEventoUnioneCivile.nomeOfficiante'
+
+### Modifiche per il caso uso unioni_civili/UnCiv_003.csv : 
+* Presenti modifiche per 'evento.datiEventoUnioneCivile.officiante' (riga:47)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.cognome' (riga:48)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nome' (riga:49)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.sesso' (riga:50)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.dataNascita' (riga:51)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idStatoNascita' (riga:52)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeStatoNascita' (riga:53)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idProvinciaNascita' (riga:54)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.siglaProvinciaNascita' (riga:55)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idComuneNascita' (riga:56)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeComuneNascita' (riga:57)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idNazionalita' (riga:58)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nazionalita' (riga:59)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idStatoResidenza' (riga:60)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeStatoResidenza' (riga:61)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idProvinciaResidenza' (riga:62)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.siglaProvinciaResidenza' (riga:63)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idComuneResidenza' (riga:64)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeComuneResidenza' (riga:65)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.indirizzoResidenza' (riga:66)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.flagDichiarante' (riga:67)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.flagComparente' (riga:68)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.flagFirmatario' (riga:69)
+* Rimosso 'evento.datiEventoUnioneCivile.cognomeOfficiante'
+* Rimosso 'evento.datiEventoUnioneCivile.nomeOfficiante'
+
+### Modifiche per il caso uso unioni_civili/UnCiv_004.csv : 
+* Presenti modifiche per 'evento.datiEventoUnioneCivile.officiante' (riga:41)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.cognome' (riga:42)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nome' (riga:43)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.sesso' (riga:44)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.dataNascita' (riga:45)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idStatoNascita' (riga:46)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeStatoNascita' (riga:47)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idProvinciaNascita' (riga:48)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.siglaProvinciaNascita' (riga:49)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idComuneNascita' (riga:50)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeComuneNascita' (riga:51)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idNazionalita' (riga:52)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nazionalita' (riga:53)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idStatoResidenza' (riga:54)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeStatoResidenza' (riga:55)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idProvinciaResidenza' (riga:56)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.siglaProvinciaResidenza' (riga:57)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idComuneResidenza' (riga:58)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeComuneResidenza' (riga:59)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.indirizzoResidenza' (riga:60)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.flagDichiarante' (riga:61)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.flagComparente' (riga:62)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.flagFirmatario' (riga:63)
+* Rimosso 'evento.datiEventoUnioneCivile.cognomeOfficiante'
+* Rimosso 'evento.datiEventoUnioneCivile.nomeOfficiante'
+
+### Modifiche per il caso uso unioni_civili/UnCiv_005.csv : 
+* Presenti modifiche per 'evento.datiEventoUnioneCivile.officiante' (riga:48)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.cognome' (riga:49)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nome' (riga:50)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.sesso' (riga:51)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.dataNascita' (riga:52)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idStatoNascita' (riga:53)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeStatoNascita' (riga:54)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idProvinciaNascita' (riga:55)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.siglaProvinciaNascita' (riga:56)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idComuneNascita' (riga:57)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeComuneNascita' (riga:58)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idNazionalita' (riga:59)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nazionalita' (riga:60)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idStatoResidenza' (riga:61)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeStatoResidenza' (riga:62)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idProvinciaResidenza' (riga:63)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.siglaProvinciaResidenza' (riga:64)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idComuneResidenza' (riga:65)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.nomeComuneResidenza' (riga:66)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.indirizzoResidenza' (riga:67)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.flagDichiarante' (riga:68)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.flagComparente' (riga:69)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.flagFirmatario' (riga:70)
+* Rimosso 'evento.datiEventoUnioneCivile.cognomeOfficiante'
+* Rimosso 'evento.datiEventoUnioneCivile.nomeOfficiante'
+
+
 #Changelog mappatura casi uso 1.15.2  
 
 ## Casi uso aggiunti : 0
