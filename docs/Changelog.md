@@ -19,6 +19,19 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 
 ## [Unreleased]
 
+## [1.17.0 - 30-10-2023]
+
+### Added
+
+	Certificati (sia web app che servizio R002)
+		- Sigillo del ministero
+		- Link per verifica qrcode
+		- Generazione dei certificati in formato PDF/A
+
+### Changed
+
+    Servizi cooperativi
+		- R002: Il nome del file restituito ora è uguale alla proprietà della risposta 'idCertificato' con aggiunta estensione pdf
 
 ## [1.16.0 - 26-10-2023]
 
