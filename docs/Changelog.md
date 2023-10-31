@@ -19,6 +19,21 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 
 ## [Unreleased]
 
+## [1.17.1 - 31-10-2023]
+
+### Fixed
+
+	Servizi cooperativi
+		- Gestione durata OTP per servizi cooperativi (https://github.com/italia/ansc/issues/442)
+       - R901 servizio decodifiche
+       - Anteprima in caso di decodifiche non presenti       
+       
+    Web application
+       - Gestione verifica certificati qrcode corretto  
+       
+	Decodifica
+       - Aggiornamento date fine validità versioni (https://github.com/italia/ansc/issues/437)
+
 ## [1.17.0 - 30-10-2023]
 
 ### Added
