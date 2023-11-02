@@ -19,12 +19,20 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 
 ## [Unreleased]
 
+## [1.17.2 - 02-11-2023]
+
+### Fixed
+
+	Servizi cooperativi
+       - R002 servizio certificazione, in caso di data nascita richiedente assente si verificava un errore 500.
+       
+
 ## [1.17.1 - 31-10-2023]
 
 ### Fixed
 
 	Servizi cooperativi
-		- Gestione durata OTP per servizi cooperativi (https://github.com/italia/ansc/issues/442)
+		- Gestione durata OTP per servizi cooperativi (https://github.com/italia/ansc/issues/442) (Inoltre il messaggio 404002 - 'Nessun dato associato all’utente' viene sostituito da 404003 -  'Codice OCP non trovato per l'utente')
        - R901 servizio decodifiche
        - Anteprima in caso di decodifiche non presenti       
        
