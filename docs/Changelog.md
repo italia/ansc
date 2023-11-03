@@ -19,6 +19,45 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 
 ## [Unreleased]
 
+
+## [1.18.0 - 03-11-2023]
+
+### Added
+
+    Versione
+		- Aggiunta nuova versione 100005
+	model_evento.yaml
+        - Aggiunto campo nel ModelNegoziazioneAssistita come segue:
+            ricezioneAtto:
+              type: string
+              description: Chi ha inviato l'accordo di negoziazione' (decodifica ANSC_103)
+        - Aggiunto campo nel ModelSeparazione come segue:
+            tipoProvvedimentoSeparazione:
+              type: string
+              description: Provvedimento di separazione (decodifica ANSC_104)
+              example: '1'
+            
+    Decodifica
+      - Aggiunta tabella decodifica ANSC_103 DEC_RICEZIONE_ATTO Ricezione Atto
+      - Aggiunta tabella decodifica ANSC_104 DEC_PROVVEDIMENTO_SEPARAZIONI Provvedimento di separazione
+
+### Fixed
+
+    Servizi cooperativi
+        - R001 / R006 Allineato controllo tipo allegato per upload allegati e firma dichiaranete a quanto avviene sulla web app (tipologia accettate e congruenza con tipo dichiarato)
+        - R001 / R006 TRASCR_MATR_002: rimosso campo tipoDichiarazione.    
+        - R009 TRASCR_MATR_002: rimosso campo tipoDichiarazione.
+        - R005 Consultazione ANSC Intestatario: corretto errore per dati mancanti (https://github.com/italia/ansc/issues/324) 
+        - R009 Caso d'Uso Sep_Div_005: gestione unico provvedimento inviato da avvocato (https://github.com/italia/ansc/issues/414) 
+        - R009 Caso d'uso Sep_Div_005: corretta formula per una imprecisione presente sul formulario (https://github.com/italia/ansc/issues/436)
+        - R009 Sep_Div_002: corretta gestione autorità giudiziale (https://github.com/italia/ansc/issues/430)
+        - R012 Firma elettronica dichiarante: corretta presa visione  (https://github.com/italia/ansc/issues/405)
+        - R002 Estratti integrali unioni civili: corrette etichette con Unito/a civilmente 1 e Unito/a civilmente 2 
+        
+     Web Application
+     	 - Dichiarazioni di nascita: corretta formula nella minuta per bambino presentato/non presentato
+     	 
+
 ## [1.17.2 - 02-11-2023]
 
 ### Fixed

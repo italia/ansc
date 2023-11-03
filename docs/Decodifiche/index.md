@@ -71,3 +71,5 @@
 * 100_dec_version [csv](100_dec_version.csv) o [xlsx](100_dec_version.xslx)
 * 101_dec_genere_notifiche [csv](101_dec_genere_notifiche.csv) o [xlsx](101_dec_genere_notifiche.xslx)
 * 102_dec_stato_flusso_notifiche [csv](102_dec_stato_flusso_notifiche.csv) o [xlsx](102_dec_stato_flusso_notifiche.xslx)
+* 104_dec_provedimento_separazioni [csv](103_dec_ricezione_atto.csv) o [xlsx](103_dec_ricezione_atto.xlsx)
+* 104_dec_provedimento_separazioni [csv](104_dec_provedimento_separazioni.csv) o [xlsx](104_dec_provedimento_separazioni.xlsx)

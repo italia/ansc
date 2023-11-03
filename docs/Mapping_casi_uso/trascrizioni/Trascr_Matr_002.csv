@@ -13,7 +13,6 @@
 "Formazione atto","Data formazione","SI","evento","dataformazione","","obbligatoria"
 "Formazione atto","Ora formazione","SI","evento","ora","","obbligatoria"
 "Formazione atto","Minuti formazione","SI","evento","minuto","","obbligatoria"
-"Dati generali","Tipo richiesta","SI","evento.trascrizioneMatrimonio","tipoDichiarazione","","obbligatoria"
 "Dati generali","Data richiesta","SI","evento.trascrizioneMatrimonio","dataComunicazione","","obbligatoria"
 "Dati generali","Riassunto trascrizione","SI","evento.trascrizioneMatrimonio","testoLibero","","obbligatoria"
 "Dati generali","Data matrimonio","SI","evento.datiEventoMatrimonio","dataEvento","","obbligatoria"

@@ -2000,6 +2000,10 @@ components:
           format: date
           description: Data alla quale viene effettuata il matrimonio
           example: '2002-07-02'
+        tipoProvvedimentoSeparazione:
+          type: string
+          description: Provvedimento di separazione (decodifica ANSC_104)
+          example: '1'
     ModelNegoziazioneAssistita:
       properties:
         tipoAccordo:
@@ -2054,7 +2058,10 @@ components:
         protocolloAttoConiuge2:
           type: string
           description: Protocollo dell'atto relativo al coniuge 2
-          example: 'prot.2992/22'          
+          example: 'prot.2992/22'
+        ricezioneAtto:
+          type: string
+          description: Chi ha inviato l'accordo di negoziazione' (decodifica ANSC_103)          
         provvedimentoAutoritaGiudiziaria: # Provvedimento di separazione o divorzio
           $ref: '#/components/schemas/ModelEnteDichiarante'
         dataDepositoProvvedimento:

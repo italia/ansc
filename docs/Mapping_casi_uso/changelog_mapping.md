@@ -1,3 +1,48 @@
+#Changelog mappatura casi uso 1.18.0  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 3
+* matrimoni/Sep_Div_002.csv
+* matrimoni/Sep_Div_005.csv
+* trascrizioni/Trascr_Matr_002.csv
+
+### Modifiche per il caso uso matrimoni/Sep_Div_002.csv : 
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.idAnsc' (riga:77)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.idProvinciaRegistrazione' (riga:78)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.siglaProvinciaRegistrazione' (riga:79)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.idComuneRegistrazione' (riga:80)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.nomeComuneRegistrazione' (riga:81)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.idtipocontenuto' (riga:82)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.numeroatto' (riga:83)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.annoAtto' (riga:84)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.dataformazione' (riga:85)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.tipologia' (riga:86)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.parte' (riga:87)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.serie' (riga:88)
+* Aggiunto 'evento.separazione.provvedimentoSeparazione.dataTrascrizione' (riga:89)
+* Aggiunto 'evento.separazione.provvedimentoSeparazione.estremiDocumento' (riga:90)
+* Aggiunto 'evento.separazione.provvedimentoSeparazione.nomeEnte' (riga:91)
+* Aggiunto 'evento.separazione.provvedimentoSeparazione.idProvinciaEnte' (riga:92)
+* Aggiunto 'evento.separazione.provvedimentoSeparazione.siglaProvinciaEnte' (riga:93)
+* Aggiunto 'evento.separazione.provvedimentoSeparazione.idComuneEnte' (riga:94)
+* Aggiunto 'evento.separazione.provvedimentoSeparazione.nomeComuneEnte' (riga:95)
+* Aggiunto 'evento.separazione.provvedimentoSeparazione.indirizzoEnte' (riga:96)
+* Aggiunto 'evento.separazione.tipoProvvedimentoSeparazione' (riga:98)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_005.csv : 
+* Presenti modifiche per 'evento.negoziazioneAssistita.dataRicezioneAttoConiuge1' (riga:76)
+* Presenti modifiche per 'evento.negoziazioneAssistita.protocolloAttoConiuge1' (riga:77)
+* Presenti modifiche per 'evento.negoziazioneAssistita.dataRicezioneAttoConiuge2' (riga:81)
+* Presenti modifiche per 'evento.negoziazioneAssistita.protocolloAttoConiuge2' (riga:82)
+* Aggiunto 'evento.negoziazioneAssistita.ricezioneAtto' (riga:92)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_002.csv : 
+* Rimosso 'evento.trascrizioneMatrimonio.tipoDichiarazione'
+
+
 #Changelog mappatura casi uso 1.16.0  
 
 ## Casi uso aggiunti : 0
