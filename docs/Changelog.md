@@ -20,6 +20,14 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 ## [Unreleased]
 
 
+## [1.18.1 - 05-11-2023]
+
+### Fixed
+
+    Anteprima / Certificazione
+		- Anomalia generazione anteprime / certificati per gli eventi di Matrimonio, sia web application che servizi (https://github.com/italia/ansc/issues/454)
+
+
 ## [1.18.0 - 03-11-2023]
 
 ### Added
