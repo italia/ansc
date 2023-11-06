@@ -20,6 +20,27 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 ## [Unreleased]
 
 
+## [1.18.2 - 06-11-2023]
+
+### Changed
+
+    Web Application
+		- Gestione data di validità nel pannello di firma USC: al fine di evitare la dimenticanza della data di validità anagrafica, questa è stata resa obbligatoria a meno che non viene esplicitamente dichiarato che l'evento non necessita di 'Nessuna comunicazione anagrafica'
+		
+	Servizi cooperativi
+		- [R007] servizio di firma: aggiunto messaggio di warning in caso data validità null 
+
+
+### Fixed
+
+	Trasversale
+		- Corretta l'annotazione automatica generata da trascrizione di cittadinanza
+		
+	Web Application
+		- Matrimonio rito religioso: corretta minuta nel caso in cui non vengano popolati tutti i dati degli atti di nascita dei coniugi
+		- Trascrizione di un matrimonio estero su richiesta dell'interessato: corretta la minuta in merito al richiedente
+
+
 ## [1.18.1 - 05-11-2023]
 
 ### Fixed
