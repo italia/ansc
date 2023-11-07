@@ -20,6 +20,14 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 ## [Unreleased]
 
 
+## [1.18.3 - 07-11-2023]
+
+### Fixed
+
+     Casi d'uso
+		- Corretta annotazione inserita con  caso d'uso di servizio
+
+
 ## [1.18.2 - 06-11-2023]
 
 ### Changed
