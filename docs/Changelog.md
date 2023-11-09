@@ -20,6 +20,19 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 ## [Unreleased]
 
 
+## [1.18.4 - 09-11-2023]
+
+### Fixed
+
+     Web app
+		- L'ultimo numero comunale suggerito ora è quello dell'ultimo numero già usato per una registrazione.
+		- Nella composizione dell'atto, in caso di nessun ruolo particolare dell' Ufficiale di stato civile, la dicitura predefinita diventa 'per delega ricevuta'.
+		- Trascrizione matrimonio dall'estero richiesta da consolato: minuta non corretta (use case 332000).
+		- Annotazione di rettifica evento: resi editabili campi generalità soggetto
+		- Corretto controllo anagrafico in caso di inserimento soggetto già presente in ANSC
+		- Corretta ricerca soggetto intestatario senza nazionalità: reso editabile nazionalità e residenza
+
+
 ## [1.18.3 - 07-11-2023]
 
 ### Fixed
