@@ -19,6 +19,16 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 
 ## [Unreleased]
 
+## [1.18.5 - 13-11-2023]
+
+### Fixed
+
+     Web app
+		- corretta anomalia metadati mancanti.
+		- ricerca soggetto intestatario: resi liberi i campi nazionalità e residenza.
+	
+	 Sistema
+	   - Tuning performance
 
 ## [1.18.4 - 09-11-2023]
 
