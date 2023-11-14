@@ -1450,7 +1450,11 @@ components:
           numeroCivico: 
             type: string
             description: Numero civico
-            example: 'SNC'                      
+            example: 'SNC'      
+          comuneEstero: 
+            type: string
+            description: Comune Estero
+            example: 'Londra'               
 
     ModelMatrimonio:
       properties:
@@ -1998,12 +2002,19 @@ components:
         dataEventoMatrimonio:
           type: string
           format: date
-          description: Data alla quale viene effettuata il matrimonio
+          description: Data nella quale viene effettuato il matrimonio
           example: '2002-07-02'
         tipoProvvedimentoSeparazione:
           type: string
           description: Provvedimento di separazione (decodifica ANSC_104)
           example: '1'
+        luogoEventoMatrimonio:
+          $ref: '#/components/schemas/ModelLuogo' 
+        officianteEventoMatrimonio:
+           type: string
+           description: Officiante che ha effettuato il matrimonio
+           example: 'Gianni Rossi Parroco'
+          
     ModelNegoziazioneAssistita:
       properties:
         tipoAccordo:

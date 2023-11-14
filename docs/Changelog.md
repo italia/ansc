@@ -19,6 +19,37 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 
 ## [Unreleased]
 
+## [1.19.0 - 14-11-2023]
+
+### Added
+	
+    Versione
+       - Aggiunta nuova versione 100006
+    model_evento.yaml
+       - Aggiunti campi nel ModelSeparazione come segue:
+          luogoEventoMatrimonio:
+              $ref: '#/components/schemas/ModelLuogo' 
+            officianteEventoMatrimonio:
+               type: string
+               description: Officiante che ha effettuato il matrimonio
+               example: 'Gianni Rossi Parroco'
+       - Aggiunto campo nel ModelLuogo come segue:
+	  comuneEstero: 
+            type: string
+            description: Comune Estero
+            example: 'Londra'   
+            
+
+### Fixed
+
+     Web app
+		- caso d'uso [342000] Accordo di scioglimento (o di cessazione degli effetti civili) del matrimonio: aggiunto il luogo del matrimonio e l'officiante
+		- Ricerca soggetto collegato/intestatario per CF
+		- Corretta minuta dell'atto in merito ai comuni pregressi
+
+	Servizi cooperativi
+		- R009 caso d'uso [342000] Accordo di scioglimento (o di cessazione degli effetti civili) del matrimonio: aggiunto il luogo del matrimonio e l'officiante
+
 ## [1.18.5 - 13-11-2023]
 
 ### Fixed

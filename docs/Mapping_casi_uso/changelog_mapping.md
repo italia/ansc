@@ -1,3 +1,48 @@
+#Changelog mappatura casi uso 1.19.0  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 3
+* matrimoni/Sep_Div_001.csv
+* matrimoni/Sep_Div_002.csv
+* matrimoni/Sep_Div_004.csv
+
+### Modifiche per il caso uso matrimoni/Sep_Div_001.csv : 
+* Presenti modifiche per 'evento.separazione.dataEventoMatrimonio' (riga:11)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.idStato' (riga:12)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.nomeStato' (riga:13)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.idProvincia' (riga:14)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.siglaProvincia' (riga:15)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.idComune' (riga:16)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.nomeComune' (riga:17)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.comuneEstero' (riga:18)
+* Aggiunto 'evento.separazione.officianteEventoMatrimonio' (riga:19)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_002.csv : 
+* Presenti modifiche per 'evento.separazione.dataEventoMatrimonio' (riga:11)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.idStato' (riga:12)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.nomeStato' (riga:13)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.idProvincia' (riga:14)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.siglaProvincia' (riga:15)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.idComune' (riga:16)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.nomeComune' (riga:17)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.comuneEstero' (riga:18)
+* Aggiunto 'evento.separazione.officianteEventoMatrimonio' (riga:19)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_004.csv : 
+* Presenti modifiche per 'evento.separazione.dataEventoMatrimonio' (riga:11)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.idStato' (riga:12)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.nomeStato' (riga:13)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.idProvincia' (riga:14)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.siglaProvincia' (riga:15)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.idComune' (riga:16)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.nomeComune' (riga:17)
+* Aggiunto 'evento.separazione.luogoEventoMatrimonio.comuneEstero' (riga:18)
+* Aggiunto 'evento.separazione.officianteEventoMatrimonio' (riga:19)
+
+
 #Changelog mappatura casi uso 1.18.0  
 
 ## Casi uso aggiunti : 0
