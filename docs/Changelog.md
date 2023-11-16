@@ -19,6 +19,20 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 
 ## [Unreleased]
 
+
+## [1.19.1 - 16-11-2023]
+
+### Fixed
+
+     Web app
+		- [2.2.9.9] Caso d'uso di servizio (trascrizioni di morte): aggiunti dati di decesso
+		- Trascrizione matrimonio con caso d'uso di servizio: resi emissibili i certificati
+		
+	 Trasversale
+		- Anteprima per presa visione: eliminata data presa visione
+		- Gestione comuni non validi alla data: da utilizzare idComuneNascita = 0 e nomeComuneNascita libero per indicare un comune di nascita non valido alla data
+
+
 ## [1.19.0 - 14-11-2023]
 
 ### Added

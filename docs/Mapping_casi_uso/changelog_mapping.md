@@ -1,3 +1,29 @@
+#Changelog mappatura casi uso 1.19.1  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 1
+* trascrizioni/Trascr_Morte_999.csv
+
+### Modifiche per il caso uso trascrizioni/Trascr_Morte_999.csv : 
+* Aggiunto 'evento.datiDiMorte.dataMorte' (riga:8)
+* Aggiunto 'evento.datiDiMorte.oraMorte' (riga:9)
+* Aggiunto 'evento.datiDiMorte.minutoMorte' (riga:10)
+* Aggiunto 'evento.datiDiMorte.dataPresuntaMorteDa' (riga:11)
+* Aggiunto 'evento.datiDiMorte.dataPresuntaMorteA' (riga:12)
+* Aggiunto 'evento.datiDiMorte.testoDataPresuntaMorte' (riga:13)
+* Aggiunto 'evento.datiDiMorte.luogoMorte' (riga:14)
+* Aggiunto 'evento.datiDiMorte.idStatoMorte' (riga:15)
+* Aggiunto 'evento.datiDiMorte.nomeStatoMorte' (riga:16)
+* Aggiunto 'evento.datiDiMorte.idProvinciaMorte' (riga:17)
+* Aggiunto 'evento.datiDiMorte.siglaProvinciaMorte' (riga:18)
+* Aggiunto 'evento.datiDiMorte.idComuneMorte' (riga:19)
+* Aggiunto 'evento.datiDiMorte.nomeComuneMorte' (riga:20)
+* Aggiunto 'evento.datiDiMorte.indirizzoMorte' (riga:21)
+
+
 #Changelog mappatura casi uso 1.19.0  
 
 ## Casi uso aggiunti : 0
