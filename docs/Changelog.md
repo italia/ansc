@@ -19,6 +19,18 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 
 ## [Unreleased]
 
+## [1.19.2 - 20-11-2023]
+
+
+### Fixed
+	Web app
+		- Negoziazione assistita: corretta obbligatorietà allegati in base alla scelta del tipo provvedimento
+		- 319999 Caso d'uso di servizio (matrimoni con rito civile): aggiunta la seconda pubblicazione in caso di pubblicazioni in più comuni
+		- Trascrizione di un decesso proveniente dal Consolato: corretta la minuta dell'atto
+		
+	Trasversale 
+		- E' stato aumentato il tempo di completamento di un atto a 36 ore
+
 
 ## [1.19.1 - 16-11-2023]
 

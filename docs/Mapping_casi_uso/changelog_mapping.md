@@ -1,3 +1,221 @@
+#Changelog mappatura casi uso 1.19.2  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 6
+* matrimoni/Matr_999_2.csv
+* morte/Morte_007.csv
+* trascrizioni/Trascr_006.csv
+* trascrizioni/Trascr_008.csv
+* trascrizioni/Trascr_024.csv
+* trascrizioni/Trascr_Morte_999.csv
+
+### Modifiche per il caso uso matrimoni/Matr_999_2.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.cognome' (riga:62)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.nome' (riga:63)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.sesso' (riga:64)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.dataNascita' (riga:65)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idStatoNascita' (riga:66)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.nomeStatoNascita' (riga:67)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idProvinciaNascita' (riga:68)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.siglaProvinciaNascita' (riga:69)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idComuneNascita' (riga:70)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.nomeComuneNascita' (riga:71)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idNazionalita' (riga:72)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.nazionalita' (riga:73)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idStatoResidenza' (riga:74)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.nomeStatoResidenza' (riga:75)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idProvinciaResidenza' (riga:76)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.siglaProvinciaResidenza' (riga:77)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idComuneResidenza' (riga:78)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.nomeComuneResidenza' (riga:79)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.indirizzoResidenza' (riga:80)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.flagDichiarante' (riga:81)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.flagComparente' (riga:82)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.flagFirmatario' (riga:83)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.cognome' (riga:84)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.nome' (riga:85)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.sesso' (riga:86)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.dataNascita' (riga:87)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idStatoNascita' (riga:88)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.nomeStatoNascita' (riga:89)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idProvinciaNascita' (riga:90)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.siglaProvinciaNascita' (riga:91)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idComuneNascita' (riga:92)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.nomeComuneNascita' (riga:93)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idNazionalita' (riga:94)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.nazionalita' (riga:95)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idStatoResidenza' (riga:96)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.nomeStatoResidenza' (riga:97)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idProvinciaResidenza' (riga:98)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.siglaProvinciaResidenza' (riga:99)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idComuneResidenza' (riga:100)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.nomeComuneResidenza' (riga:101)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.indirizzoResidenza' (riga:102)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.flagDichiarante' (riga:103)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.flagComparente' (riga:104)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.flagFirmatario' (riga:105)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.cognome' (riga:106)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.nome' (riga:107)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.sesso' (riga:108)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.dataNascita' (riga:109)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idStatoNascita' (riga:110)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.nomeStatoNascita' (riga:111)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idProvinciaNascita' (riga:112)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.siglaProvinciaNascita' (riga:113)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idComuneNascita' (riga:114)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.nomeComuneNascita' (riga:115)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idNazionalita' (riga:116)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.nazionalita' (riga:117)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idStatoResidenza' (riga:118)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.nomeStatoResidenza' (riga:119)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idProvinciaResidenza' (riga:120)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.siglaProvinciaResidenza' (riga:121)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idComuneResidenza' (riga:122)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.nomeComuneResidenza' (riga:123)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.indirizzoResidenza' (riga:124)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.flagDichiarante' (riga:125)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.flagComparente' (riga:126)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.flagFirmatario' (riga:127)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.cognome' (riga:128)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.nome' (riga:129)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.sesso' (riga:130)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.dataNascita' (riga:131)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idStatoNascita' (riga:132)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.nomeStatoNascita' (riga:133)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idProvinciaNascita' (riga:134)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.siglaProvinciaNascita' (riga:135)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idComuneNascita' (riga:136)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.nomeComuneNascita' (riga:137)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idNazionalita' (riga:138)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.nazionalita' (riga:139)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idStatoResidenza' (riga:140)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.nomeStatoResidenza' (riga:141)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idProvinciaResidenza' (riga:142)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.siglaProvinciaResidenza' (riga:143)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idComuneResidenza' (riga:144)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.nomeComuneResidenza' (riga:145)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.indirizzoResidenza' (riga:146)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.flagDichiarante' (riga:147)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.flagComparente' (riga:148)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.flagFirmatario' (riga:149)
+* Aggiunto 'evento.datiEventoMatrimonio.numeroTestimoni' (riga:195)
+* Aggiunto 'evento.datiEventoMatrimonio.pubblicazioneInPiuComuni' (riga:196)
+* Aggiunto 'evento.datiEventoMatrimonio.omissionePubblicazione' (riga:197)
+
+### Modifiche per il caso uso morte/Morte_007.csv : 
+* Aggiunto 'Formula 193.3' (riga:7)
+* Rimosso 'Formula 193'
+* Aggiunto 'evento.trascrizioneMorte.dataComunicazione' (riga:47)
+
+### Modifiche per il caso uso trascrizioni/Trascr_006.csv : 
+* Presenti modifiche per 'evento.dichiarante.nome' (riga:11)
+* Presenti modifiche per 'evento.dichiarante.sesso' (riga:12)
+* Presenti modifiche per 'evento.dichiarante.dataNascita' (riga:13)
+* Presenti modifiche per 'evento.dichiarante.idStatoNascita' (riga:14)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoNascita' (riga:15)
+* Presenti modifiche per 'evento.dichiarante.idNazionalita' (riga:20)
+* Presenti modifiche per 'evento.dichiarante.nazionalita' (riga:21)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:22)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:23)
+* Presenti modifiche per 'evento.madre.cognome' (riga:54)
+* Presenti modifiche per 'evento.madre.sesso' (riga:56)
+* Presenti modifiche per 'evento.madre.idNazionalita' (riga:64)
+* Presenti modifiche per 'evento.madre.nazionalita' (riga:65)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:66)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:67)
+* Presenti modifiche per 'evento.intestatari[0].cognome' (riga:164)
+* Presenti modifiche per 'evento.intestatari[0].nome' (riga:165)
+* Presenti modifiche per 'evento.intestatari[0].sesso' (riga:166)
+* Presenti modifiche per 'evento.intestatari[0].dataNascita' (riga:167)
+* Presenti modifiche per 'evento.intestatari[0].idStatoNascita' (riga:168)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoNascita' (riga:169)
+* Presenti modifiche per 'evento.intestatari[0].idProvinciaNascita' (riga:170)
+* Presenti modifiche per 'evento.intestatari[0].siglaProvinciaNascita' (riga:171)
+* Presenti modifiche per 'evento.intestatari[0].idComuneNascita' (riga:172)
+* Presenti modifiche per 'evento.intestatari[0].nomeComuneNascita' (riga:173)
+* Presenti modifiche per 'evento.intestatari[0].idNazionalita' (riga:174)
+* Presenti modifiche per 'evento.intestatari[0].nazionalita' (riga:175)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:176)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:177)
+* Presenti modifiche per 'evento.intestatari[0].idProvinciaResidenza' (riga:178)
+* Presenti modifiche per 'evento.intestatari[0].siglaProvinciaResidenza' (riga:179)
+* Presenti modifiche per 'evento.intestatari[0].idComuneResidenza' (riga:180)
+* Presenti modifiche per 'evento.intestatari[0].nomeComuneResidenza' (riga:181)
+* Presenti modifiche per 'evento.intestatari[0].indirizzoResidenza' (riga:182)
+* Presenti modifiche per 'evento.intestatari[0].flagDichiarante' (riga:183)
+* Presenti modifiche per 'evento.intestatari[0].flagComparente' (riga:184)
+* Presenti modifiche per 'evento.intestatari[0].flagFirmatario' (riga:185)
+* Rimosso 'evento.datiDiNascita.sceltaCognome'
+* Rimosso 'evento.datiDiNascita.precisazioneCognome'
+* Rimosso 'evento.datiDiNascita.oraNascita'
+* Rimosso 'evento.datiDiNascita.minutoNascita'
+* Rimosso 'evento.datiDiNascita.luogoFiliazione'
+
+### Modifiche per il caso uso trascrizioni/Trascr_008.csv : 
+* Presenti modifiche per 'evento.dichiarante.nome' (riga:11)
+* Presenti modifiche per 'evento.dichiarante.sesso' (riga:12)
+* Presenti modifiche per 'evento.dichiarante.dataNascita' (riga:13)
+* Presenti modifiche per 'evento.dichiarante.idStatoNascita' (riga:14)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoNascita' (riga:15)
+* Presenti modifiche per 'evento.dichiarante.idNazionalita' (riga:20)
+* Presenti modifiche per 'evento.dichiarante.nazionalita' (riga:21)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:22)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:23)
+* Presenti modifiche per 'evento.intestatari[0].cognome' (riga:120)
+* Presenti modifiche per 'evento.intestatari[0].sesso' (riga:122)
+* Presenti modifiche per 'evento.intestatari[0].idNazionalita' (riga:130)
+* Presenti modifiche per 'evento.intestatari[0].nazionalita' (riga:131)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:132)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:133)
+* Presenti modifiche per 'evento.intestatari[0].flagComparente' (riga:140)
+* Presenti modifiche per 'evento.intestatari[0].flagFirmatario' (riga:141)
+
+### Modifiche per il caso uso trascrizioni/Trascr_024.csv : 
+* Presenti modifiche per 'evento.dichiarante.nome' (riga:11)
+* Presenti modifiche per 'evento.dichiarante.sesso' (riga:12)
+* Presenti modifiche per 'evento.dichiarante.dataNascita' (riga:13)
+* Presenti modifiche per 'evento.dichiarante.idStatoNascita' (riga:14)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoNascita' (riga:15)
+* Presenti modifiche per 'evento.dichiarante.idNazionalita' (riga:20)
+* Presenti modifiche per 'evento.dichiarante.nazionalita' (riga:21)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:22)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:23)
+* Presenti modifiche per 'evento.madre.cognome' (riga:32)
+* Presenti modifiche per 'evento.madre.sesso' (riga:34)
+* Presenti modifiche per 'evento.madre.idNazionalita' (riga:42)
+* Presenti modifiche per 'evento.madre.nazionalita' (riga:43)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:44)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:45)
+* Presenti modifiche per 'evento.intestatari[0].cognome' (riga:98)
+* Presenti modifiche per 'evento.intestatari[0].sesso' (riga:100)
+* Presenti modifiche per 'evento.intestatari[0].idNazionalita' (riga:108)
+* Presenti modifiche per 'evento.intestatari[0].nazionalita' (riga:109)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:110)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:111)
+* Presenti modifiche per 'evento.intestatari[0].flagDichiarante' (riga:117)
+* Presenti modifiche per 'evento.intestatari[0].flagComparente' (riga:118)
+* Presenti modifiche per 'evento.intestatari[0].flagFirmatario' (riga:119)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Morte_999.csv : 
+* Rimosso 'evento.datiDiMorte.dataMorte'
+* Rimosso 'evento.datiDiMorte.oraMorte'
+* Rimosso 'evento.datiDiMorte.minutoMorte'
+* Rimosso 'evento.datiDiMorte.dataPresuntaMorteDa'
+* Rimosso 'evento.datiDiMorte.dataPresuntaMorteA'
+* Rimosso 'evento.datiDiMorte.testoDataPresuntaMorte'
+* Rimosso 'evento.datiDiMorte.luogoMorte'
+* Rimosso 'evento.datiDiMorte.idStatoMorte'
+* Rimosso 'evento.datiDiMorte.nomeStatoMorte'
+* Rimosso 'evento.datiDiMorte.idProvinciaMorte'
+* Rimosso 'evento.datiDiMorte.siglaProvinciaMorte'
+* Rimosso 'evento.datiDiMorte.idComuneMorte'
+* Rimosso 'evento.datiDiMorte.nomeComuneMorte'
+* Rimosso 'evento.datiDiMorte.indirizzoMorte'
+
+
 #Changelog mappatura casi uso 1.19.1  
 
 ## Casi uso aggiunti : 0
