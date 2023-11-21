@@ -19,6 +19,19 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 
 ## [Unreleased]
 
+
+## [1.19.3 - 21-11-2023]
+
+### Fixed
+
+	Trasversale 
+		- E' stato aumentato il tempo di completamento di un atto a 336 ore (14 giorni).
+		- Limite upload allegati innalzato a 10MB.
+		- Accettato formato p7m per gli allegati.
+
+
+
+
 ## [1.19.2 - 20-11-2023]
 
 
