@@ -19,6 +19,13 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 
 ## [Unreleased]
 
+## [1.19.4 - 22-11-2023]
+
+### Fixed
+
+	Presa visione
+	   - Accesso SPID presa visione preproduzione. (https://github.com/italia/ansc/issues/488)
+
 
 ## [1.19.3 - 21-11-2023]
 
@@ -28,8 +35,6 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 		- E' stato aumentato il tempo di completamento di un atto a 336 ore (14 giorni).
 		- Limite upload allegati innalzato a 10MB.
 		- Accettato formato p7m per gli allegati.
-
-
 
 
 ## [1.19.2 - 20-11-2023]
@@ -88,6 +93,10 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 
 	Servizi cooperativi
 		- R009 caso d'uso [342000] Accordo di scioglimento (o di cessazione degli effetti civili) del matrimonio: aggiunto il luogo del matrimonio e l'officiante
+		
+	Trasversale
+		- Caso Uso 1312 Trascrizione di atto di nascita avvenuta all’estero su richiesta di chi ha interesse alla trascrizione: corretta obbligatorietà anagrafica soggetti
+
 
 ## [1.18.5 - 13-11-2023]
 
