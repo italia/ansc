@@ -19,6 +19,18 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 
 ## [Unreleased]
 
+
+## [1.19.5 - 23-11-2023]
+
+### Fixed
+
+	Web Application
+	   - R009 Matrimoni estero (idUseCase 331000 e 332000): aggiunto luogo di matrimonio (https://github.com/italia/ansc/issues/490)
+	   
+	Trasversale
+		- Caso d'uso di servizio trascrizione [1.3.9.9] [2.2.9.9] [3.3.9.9.9.9] [5.2.9.9.9] [4.3.9.9.9.9]: resi opzionali i dati anagrafici di residenza e nazionalità per l'intestatario
+
+
 ## [1.19.4 - 22-11-2023]
 
 ### Fixed
