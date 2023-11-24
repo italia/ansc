@@ -20,6 +20,14 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 ## [Unreleased]
 
 
+## [1.19.6 - 24-11-2023]
+
+### Fixed
+
+	Trasversale
+		- Corretta la generazione dei certificati: aggiunta la gestione dei caratteri speciali per il campo evento.trascrizioneMatrimonio.testoLibero
+
+
 ## [1.19.5 - 23-11-2023]
 
 ### Fixed
