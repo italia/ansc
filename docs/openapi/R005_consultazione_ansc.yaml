@@ -154,6 +154,14 @@ components:
          type: string
          description: flag per cercare l'evento che ha generato l'annotazione automatica
          example: "true"
+        flagRettifica:
+         type: string
+         description: flag per cercare l'ultima rettifica
+         example: "true"
+        idComuneRegistrazione:
+          type: string
+          description: identificativo del comune di registrazione
+          example: "178"
     CriteriRicercaSoggetto:
       properties:
         idAnpr:

@@ -155,6 +155,44 @@ paths:
               schema:
                 $ref: '#/components/schemas/RicercaNotificheAnprResponse'
 
+                
+  /notifiche/rifiuta/{version}:
+    post:
+      tags: 
+        - Rifiuta notifiche
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RifiutaNotificaCoopRequest'
+      description: Servizio di rifiuto delle notifiche di annotazione/trascrizione.
+      responses:
+        200:
+          description: Successo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RifiutaNotificaCoopResponse'
+        400:
+          description: Dati in input non validi
+          content: 
+            application/json: 
+             schema: 
+                $ref: '#/components/schemas/RifiutaNotificaCoopResponse'
+        403:
+          description: Non autorizzato
+          content: 
+            application/json: 
+             schema: 
+                $ref: '#/components/schemas/RifiutaNotificaCoopResponse'
 components:
   schemas:       
     ModelSoggettoRicerca:
@@ -233,7 +271,7 @@ components:
           description: Identificativo del tipo di contenuto (decodifica ANSC_02) 
           example: '3'
         idStatoFlussoNotifiche:
-          description: Stato della Notifica 1=DA APPROVARE 2=APPROVATA (decodifica ANSC_102)
+          description: Stato della Notifica (decodifica ANSC_102)
           type: string
           example: '1'
         idGenereNotifiche:
@@ -289,13 +327,17 @@ components:
           format: date-time
           description: data di fine validita
         idStatoFlussoNotifiche:
-          description: Stato flusso della Notifica 1=DA APPROVARE 2=APPROVATA (decodifica ANSC_102)
+          description: Stato flusso della Notifica (decodifica ANSC_102)
           type: string
           example: '1'
         idGenereNotifiche:
           description: Genere di Notifica 1=Annotazione 2=Trascrizione (decodifica ANSC_101)
           type: string
           example: '1'
+        descrizione:
+          description: Descrizione della notifica
+          type: string
+          example: 'Annotazione automatica id 2023-232227-00000-999999'
     NotificheRicercaRequest:
       description: Ritorno del servizio specializzato per la configurazione dei pannelli
       allOf:
@@ -362,3 +404,19 @@ components:
               items:
                 $ref: '#/components/schemas/NotificaAnpr'
               
+
+    RifiutaNotificaCoopRequest:
+      description: Dati Richiesti per rifiutare la notifica indicata 
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:         
+            idNotifica:
+              type: integer
+              description: Identificativo della NOTIFICA da rifiutare
+              example: 24252
+           
+    RifiutaNotificaCoopResponse:
+      description: Risposta del processo di rifiuto Notifica
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'           

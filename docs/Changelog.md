@@ -19,6 +19,56 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 
 ## [Unreleased]
 
+## [1.20.0 - 01-12-2023]
+
+### Changed 	
+	 model_evento.yaml
+	   datiAnnotazioneModificativa in ModelEvento
+	   		$ref: '#/components/schemas/ModelAnnotazioneModificativa
+		
+### Added
+
+	Servizi cooperativi
+		R005_consultazione_ansc.yaml
+			- Aggiunto campo in CriteriRicercaEvento come segue:
+	            flagRettifica: # flag per cercare l'ultima rettifica effettuata per l'evento (https://github.com/italia/ansc/issues/401)
+	                  $ref: '#/components/schemas/CriteriRicercaEvento' 
+				idComuneRegistrazione: # identificatore comune di registrazione
+                  	  $ref: '#/components/schemas/CriteriRicercaEvento'	  
+	      
+	    R008_notifiche.yaml
+	    	- Aggiunto nuovo servizio /notifiche/rifiuta/{version}
+	    	- Aggiunto campo "descrizione" nella response NotificheRicercaResponse servizio /notifiche/ricerca/{version}
+	    	    
+		R013_rettifica_validazione:
+			- Aggiunto nuovo servizio /annotazione/modificativa/validazione/evento/{version}
+
+	Trasversale
+		- Limite lunghezza numeroatto comunale a 5 (https://github.com/italia/ansc/issues/513)
+		- Nuovo caso d'uso per annotazione modificativa cambio nome-cognome: codice caso d'uso 14750000
+		- Gestione flusso di rifiuto annotazione / presa visione dell'evento da parte del comune di residenza
+		- Messaggio servizi cooperativi per informazioni in caso di assistenza, es. {"code": "110527","severity": "I","text": "Informazioni sull'operazione da fornire in caso di assistenza : data:xxxx , idOperazione:yyyy"}
+		
+	
+### Fixed
+ 
+	Trasversale
+		- Adeguata ora presente sugli atti da UTCnel timezone corrente
+		- Annotazioni automatiche matrimonio/unione civile: da differenziare per i due coniugi (https://github.com/italia/ansc/issues/406)
+		- Inserito controllo sulla lunghezza del numero comunale (ammessi massimo 5 caratteri)
+		- R006: corretta firma dichiaranti cartaceo errore corrispondenza firmatari (https://github.com/italia/ansc/issues/449)
+		- R009: corretta validazione IdUseCase 14400000 errore: "Evento su cui apporre l'annotazione non valorizzato" (https://github.com/italia/ansc/issues/440)
+		- R009 SEP_DIV_002: verificata obbligatorietà tipoAccordo (https://github.com/italia/ansc/issues/468)
+		- R009: Caso d'uso 348000 corretta mancata conferma di separazione o divorzio (Sep_Div_008)(https://github.com/italia/ansc/issues/476)
+		- R008: corrette notifiche a seguito di divorzio (https://github.com/italia/ansc/issues/434)
+		- R009: corretta validazione caso d'uso Citt_046, Stato Ente e Anagrafica Consolato non visualizzate (https://github.com/italia/ansc/issues/448)
+		- R009: caso uso servizio per matrimonio con rito civile resa pubblicazione opzionale (https://github.com/italia/ansc/issues/542)
+		- R005: aggiunto come ulteriore filtro di ricerca il comune di registrazione evento
+		e	Web Application
+		- corretta minuta dell'atto formula di chiusura: dicitura l’atto è stato letto agli “intervenuti” al plurale, o al singolare se è intervenuta solo una persona.
+		- aggiunta nuova funzione 'Altri servizi' : funzionalità acquisizione data validità a valle della registrazione dell'evento
+		- Corretto errore "presa visione" con accesso tramite SPID (https://github.com/italia/ansc/issues/488)
+
 
 ## [1.19.6 - 24-11-2023]
 

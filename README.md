@@ -22,7 +22,7 @@ Il canale ha un duplice scopo:
 Nella cartella [docs](docs/index.md) si trova la seguente documentazione tecnica :
 
 - Il contratto di servizio, in formato [OpenAPI](docs/openapi/index.md) e [PDF](docs/Caratteristiche_servizi/index.md).
-- Il mapping [dei metadati necessari](docs/Mapping_casi_uso) per casi d'uso in formato xlsx e csv.
+- Il mapping [dei metadati necessari](docs/Mapping_casi_uso) per casi d'uso in formato xlsx e csv, e relativo [elenco delle modifiche](docs/Mapping_casi_uso/changelog_mapping.md).
 - La [storia delle versioni e patch](docs/Changelog.md) rilasciate.
 - La [note di rilascio](docs/ReleaseNotes.md), contenenti eventuali dettagli aggiuntivi necessari per un rilascio.
 - [Il piano di test](docs/CasiTest/index.md).

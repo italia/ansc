@@ -16,6 +16,7 @@
 "Formazione atto","Ora formazione","SI","evento","ora","","obbligatoria"
 "Formazione atto","Minuti formazione","SI","evento","minuto","","obbligatoria"
 "Dati generali","Data decreto conferimento","SI","evento.datiEventoCittadinanza","dataDecretoConferimento","","obbligatoria"
+"Dati generali","Data registrazione alla Corte dei Conti","NO","evento.datiEventoCittadinanza","dataRegistrazioneDecreto","81","obbligatoria"
 "Dati generali","Data notifica del decreto","SI","evento.datiEventoCittadinanza","dataNotificaDelDecreto","","obbligatoria"
 "Dati generali","Estremi decreto","SI","evento.datiEventoCittadinanza","estremiDecretoConferimento","","obbligatoria"
 "Intestatario","Cognome","NO","evento.intestatari[0]","cognome","81","obbligatoria"

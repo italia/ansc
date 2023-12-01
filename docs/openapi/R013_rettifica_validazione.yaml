@@ -45,7 +45,51 @@ paths:
             application/json:
               schema:
                  $ref: '#/components/schemas/ValidazioneRettificaEventoResponse'
+           
+  /annotazione/modificativa/validazione/evento/{version}:
+    post:
+      tags:
+        - ValidazioneAnnModificativa
+      description: Servizio che valida l'evento di annotazione modificativa
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ValidazioneAnnModificativaEventoRequest'
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidazioneAnnModificativaEventoResponse'
+        400:
+          description: Dati non validi
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidazioneAnnModificativaEventoResponse'
+        403:
+          description: Accesso non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidazioneAnnModificativaEventoResponse'
+                               
 components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
   schemas:
     ValidazioneRettificaEventoResponse:
       description: Risposta per il servizio di dettaglio rettifica
@@ -69,4 +113,24 @@ components:
             evento:
               $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'
             eventoModificato:
-                $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'                   
+                $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'  
+    ValidazioneAnnModificativaEventoResponse:
+      description: DTO di risposta dei servizi di annotazione prefettizio rettifica per cambio generalita genitori
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:
+            evento:
+              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'
+            eventoModificato:
+                $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'
+                
+    ValidazioneAnnModificativaEventoRequest:
+      description: DTO di richiesta dei servizi di annotazione prefettizio rettifica per cambio generalita genitori
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:
+            evento:
+              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'
+              

@@ -138,6 +138,7 @@ components:
         numeroatto: 
           type: string
           description: Numero dell'atto assegnato dal comune.
+          maxLength: 5
           example: '9423'
          # Dati specifici dell'evento
         tipoDichiarante: 
@@ -305,6 +306,9 @@ components:
           type: string
           description: Identificativo ricoscimento. (decodifica ANSC_98)
           example: ''
+        datiAnnotazioneModificativa:
+          $ref: '#/components/schemas/ModelAnnotazioneModificativa'
+          
     ModelAttoCollegato:
       properties:
         id: 
@@ -2241,4 +2245,39 @@ components:
           type: string
           description: La composizione completa nuova nuova lingua
           example: "L'anno 2020 add 8 del mese di 1 alle ore 12 e minuti 1 nel(1) la Casa Comunale avanti a me CESENA ANSC Ufficiale dello Stato Civile del Comune di CESENA (2) Per delega avuta\ne' comparsa cognomeMadre nomeMadre nata in ROMA l 1977-11-12 (3) residente in ROCCA CANTERANO\n" 
-          
+    ModelAnnotazioneModificativa:
+      description: Model annotazione prefettizio rettifica per figlio a seguito cambio generalita genitori 
+      properties:
+        attoIntestatario:
+          $ref: '#/components/schemas/ModelAttoCollegato'
+        attoGenitore:
+          $ref: '#/components/schemas/ModelAttoCollegato'
+        tipoModifica:
+          type: number
+          description: Descrive la modifica anagrafica oggetto del decreto prefettizio (ANSC_39 interno 65)
+          example: 1 
+        genitore:
+          type: number
+          description: Il decreto si riferisce al padre o alla madre 2-padre|1-madre (ANSC_40)
+          example: 1 
+        nuovoCognomeGenitore:
+          type: string
+          description: Nuovo cognome dal genitore
+          example: 'DE'
+        nuovoNomeGenitore:
+          type: string
+          description: Nuovo nome dal genitore 
+          example: 'DE'
+        vecchioCognomeGenitore:
+          type: string
+          description: Vecchio cognome del genitore
+          example: 'DE'
+        vecchioNomeGenitore:
+          type: string
+          description: Vecchio nome del genitore
+          example: 'DE'
+        nuovoCognomeIntestatario:
+          type: string
+          description: Nuovo cognome Intestatario - se valorizzato cambia l'anagrafe del intestatario
+          example: 'DE'
+    
