@@ -19,6 +19,18 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 
 ## [Unreleased]
 
+
+## [1.20.1 - 05-12-2023]
+
+### Fixed
+ 
+	Servizi cooperativi
+		- R006: Corretta regressione controllo sesso / data nascita firmatari (https://github.com/italia/ansc/issues/524)
+		
+   Web application
+        - Nell'elenco allegati "visualizza pdf" è stato sostituito con "visualizza documento".
+
+
 ## [1.20.0 - 01-12-2023]
 
 ### Changed 	
