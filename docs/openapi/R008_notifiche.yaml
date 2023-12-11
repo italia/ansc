@@ -338,6 +338,10 @@ components:
           description: Descrizione della notifica
           type: string
           example: 'Annotazione automatica id 2023-232227-00000-999999'
+        idcanalenotifica:
+          type: string
+          description: Identifica modalità di trasmissione PEC o DIGITALE (decodifica ANSC_105)
+     
     NotificheRicercaRequest:
       description: Ritorno del servizio specializzato per la configurazione dei pannelli
       allOf:

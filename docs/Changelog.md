@@ -24,6 +24,30 @@ NOTE:
 ## [Unreleased]
 
 
+## [1.21.0 - 11-12-2023]
+
+### Added
+     Aggiunta decodifica ANSC_105 relativa ala canale di comunicazione notifiche
+
+### Changed 	
+	R008_notifiche.yaml
+		- Aggiunto campo in Response NotificheRicercaResponse come segue
+            idcanalenotifica: # identifica il canale trasmissione notifica tramite decodifica ANSC_105 (DIGITALE/PEC)
+            
+### Fixed
+ 
+	Servizi cooperativi
+		- R002 /R010 Matrimonio estero: corretto luogo di matrimonio (idUseCase 331000 e 332000) (https://github.com/italia/ansc/issues/490)(https://github.com/italia/ansc/issues/510)
+		- R005 ricerca intestatario: corretta ricerca per CF (https://github.com/italia/ansc/issues/518)
+		- R008 ricerca notifiche: aggiunto idcanalenotifica nella response per discriminare tra notifiche destinate ad atti cartacei (da inviare via PEC) e notifiche destinate ad atti digitali (https://github.com/italia/ansc/issues/472)
+		- R013 Annotazione di rettifica per annullamento: aggiunto controllo per atto già annullato
+		- Caso d'uso di servizio annotazioni da altro comune: corretta la modifica della annotazione (https://github.com/italia/ansc/issues/517)
+		- 12214300 Riconoscimento di nascituro: corretto template di presa visione (https://github.com/italia/ansc/issues/516)
+		- R005: corretta ricerca evento per idcomune registrazione (senza intervallo temporale)
+		- R002: corretti certificati atti di morte di tipo trascrizione(in assenza dello stato civile)
+		- R005: Corretta visibilità annotazione automatica preproduzione (https://github.com/italia/ansc/issues/431)
+
+
 ## [1.20.1 - 05-12-2023]
 
 ### Fixed
