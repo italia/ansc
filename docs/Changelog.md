@@ -24,6 +24,21 @@ NOTE:
 ## [Unreleased]
 
 
+## [1.21.1 - 13-12-2023]
+
+### Fixed
+
+	Servizi cooperativi
+		- R006 Link presa visione inviato da servizi cooperativi di produzione corretto
+		- Correttiva annotazioni automatiche casi d'uso adozione
+
+### Removed
+
+    Documentazione
+	    - Rimosso https://github.com/italia/ansc/blob/main/docs/Mapping_casi_uso/3_dec_use_case.csv (era usato solo fino a quando non tutti i casi d'uso erano stato rilasciati), fare riferimento adesso alla sola tabella 3 completa : https://github.com/italia/ansc/blob/main/docs/Decodifiche/3_dec_use_case.csv
+
+
+
 ## [1.21.0 - 11-12-2023]
 
 ### Added
