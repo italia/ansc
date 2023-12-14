@@ -24,6 +24,25 @@ NOTE:
 ## [Unreleased]
 
 
+## [1.21.2 - 14-12-2023]
+           
+### Fixed
+ 
+	Servizi cooperativi
+		- R009 Validazione residenza nella trascrizione nascita ai fini della generazione notifiche anagrafiche
+		- R005 Regressione ricerca evento nei casi in cui era stata generata una notifica (https://github.com/italia/ansc/issues/536)
+		
+    Trasversale
+		- "...provvedo alla trascrizione INTEGRALE del documento..." - sostituire la parola "INTEGRALE" con "PER RIASSUNTO" (https://github.com/italia/ansc/issues/545)
+		- Generazione notifica di discordanza anagrafiche in caso di azzenza codice fiscale.
+		
+    Presa visione
+       - Possibilità di firma digitale per più di un firmatario (https://github.com/italia/ansc/issues/540)
+
+    Web application
+       - Errore login temporaneo dell'applicazione web/otp (https://github.com/italia/ansc/issues/546)
+
+
 ## [1.21.1 - 13-12-2023]
 
 ### Fixed
@@ -31,6 +50,9 @@ NOTE:
 	Servizi cooperativi
 		- R006 Link presa visione inviato da servizi cooperativi di produzione corretto
 		- Correttiva annotazioni automatiche casi d'uso adozione
+
+    Notifiche angrafiche
+       - Corretta la generazione notfica di una trascrizione di atto di nascita avvenuta all'estero di soggetto residente (https://github.com/italia/ansc/issues/540)
 
 ### Removed
 
