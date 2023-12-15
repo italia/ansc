@@ -24,6 +24,14 @@ NOTE:
 ## [Unreleased]
 
 
+## [1.21.3 - 15-12-2023]
+           
+### Added
+ 
+    Documentazione
+	    - https://github.com/italia/ansc/blob/main/docs/Mapping_casi_uso/3_dec_use_case.csv (adesso contiene solo il mapping tra l'idusecase e il cod ansc del caso d'uso). (https://github.com/italia/ansc/issues/557)
+
+
 ## [1.21.2 - 14-12-2023]
            
 ### Fixed
