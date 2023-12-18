@@ -24,6 +24,14 @@ NOTE:
 ## [Unreleased]
 
 
+## [1.21.4 - 18-12-2023]
+           
+### Removed
+ 
+    Documentazione
+	    - Casi d'uso obsoleti (https://github.com/italia/ansc/issues/547)
+
+
 ## [1.21.3 - 15-12-2023]
            
 ### Added
