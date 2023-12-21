@@ -1549,6 +1549,10 @@ components:
           type: boolean
           description: Se il matrimonio ha un provvedimento di rigetto dell'oppozione
           example: true
+        delegaConsolato:
+          type: boolean
+          description: Se il matrimonio è avvenuto su delega del consolato
+          example: true  
         provvedimentoRigettoOpposizione:
           $ref: '#/components/schemas/ModelEnteDichiarante'
         estintaOpposizione:
@@ -2018,6 +2022,16 @@ components:
            type: string
            description: Officiante che ha effettuato il matrimonio
            example: 'Gianni Rossi Parroco'
+        assegnoMantenimento:
+          type: boolean
+          description: I coniugi concordano l'assegno di mantenimento o divorzile
+          example: false
+        datiAssegnoMantenimento:
+          type: string
+          description: Nel caso esista l'assegno di mantenimento o divorzile     
+        tipoSeparazioneDivorzio:
+          type: string
+          description: Discriminante tra separazione o divorzio (decodifica ANSC_106)  
           
     ModelNegoziazioneAssistita:
       properties:
@@ -2191,6 +2205,13 @@ components:
           example: '2022-11-22'
         accordoScioglimento:
           $ref: '#/components/schemas/ModelAttoCollegato'
+        assegnoMantenimento:
+          type: boolean
+          description: I coniugi concordano l'assegno di mantenimento o divorzile
+          example: false
+        datiAssegnoMantenimento:
+          type: string
+          description: Nel caso esista l'assegno di mantenimento o divorzile       
     ModelDatiEventoMorte:
       properties:
         numeroComparenti:
@@ -2246,7 +2267,7 @@ components:
           description: La composizione completa nuova nuova lingua
           example: "L'anno 2020 add 8 del mese di 1 alle ore 12 e minuti 1 nel(1) la Casa Comunale avanti a me CESENA ANSC Ufficiale dello Stato Civile del Comune di CESENA (2) Per delega avuta\ne' comparsa cognomeMadre nomeMadre nata in ROMA l 1977-11-12 (3) residente in ROCCA CANTERANO\n" 
     ModelAnnotazioneModificativa:
-      description: Model annotazione prefettizio rettifica per figlio a seguito cambio generalita genitori 
+      description: Model annotazione modificativa rettifica per figlio a seguito cambio generalita genitori 
       properties:
         attoIntestatario:
           $ref: '#/components/schemas/ModelAttoCollegato'
@@ -2254,7 +2275,7 @@ components:
           $ref: '#/components/schemas/ModelAttoCollegato'
         tipoModifica:
           type: number
-          description: Descrive la modifica anagrafica oggetto del decreto prefettizio (ANSC_39 interno 65)
+          description: Descrive la modifica anagrafica (ANSC_39 interno 65)
           example: 1 
         genitore:
           type: number
@@ -2263,21 +2284,33 @@ components:
         nuovoCognomeGenitore:
           type: string
           description: Nuovo cognome dal genitore
-          example: 'DE'
+          example: 'Rossi'
         nuovoNomeGenitore:
           type: string
           description: Nuovo nome dal genitore 
-          example: 'DE'
+          example: 'Mario'
         vecchioCognomeGenitore:
           type: string
           description: Vecchio cognome del genitore
-          example: 'DE'
+          example: 'Rossi'
         vecchioNomeGenitore:
           type: string
           description: Vecchio nome del genitore
-          example: 'DE'
+          example: 'Mario'
         nuovoCognomeIntestatario:
           type: string
           description: Nuovo cognome Intestatario - se valorizzato cambia l'anagrafe del intestatario
-          example: 'DE'
+          example: 'Rossi'
+        nuovoNomeIntestatario:
+          type: string
+          description: Nuovo nome  Intestatario - se valorizzato cambia l'anagrafe del intestatario
+          example: 'Mario'
+        vecchioNomeIntestatario:
+          type: string
+          description: vechio  nome  Intestatario - se valorizzato cambia l'anagrafe del intestatario
+          example: 'Mario'
+        vecchioCognomeIntestatario:
+          type: string
+          description: vechio  cognome  Intestatario - se valorizzato cambia l'anagrafe del intestatario
+          example: 'Rossi'
     

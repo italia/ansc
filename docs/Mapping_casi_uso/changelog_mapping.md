@@ -1,3 +1,276 @@
+#Changelog mappatura casi uso 1.22.0  
+
+## Casi uso aggiunti : 6
+* cittadinanza/Citt_998_3.csv
+* matrimoni/Matr_998_3.csv
+* morte/Morte_998_3.csv
+* nascita/Dic_Nasc_120.csv
+* nascita/Dic_Nasc_998_3.csv
+* unioni_civili/UnCiv_998_3.csv
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 11
+* cittadinanza/Citt_009.csv
+* cittadinanza/Citt_030.csv
+* cittadinanza/Citt_038.csv
+* cittadinanza/Citt_040.csv
+* cittadinanza/Citt_044.csv
+* matrimoni/Matr_999_1.csv
+* matrimoni/Sep_Div_001.csv
+* matrimoni/Sep_Div_002.csv
+* matrimoni/Sep_Div_004.csv
+* trascrizioni/Trascr_Morte_999.csv
+* unioni_civili/Sciogl_UnCiv_003.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_009.csv : 
+* Aggiunto 'evento.intestatari[0].flagDichiarante' (riga:42)
+* Aggiunto 'evento.intestatari[0].flagComparente' (riga:43)
+* Aggiunto 'evento.intestatari[0].flagFirmatario' (riga:44)
+
+### Modifiche per il caso uso cittadinanza/Citt_030.csv : 
+* Aggiunto 'Formula 194' (riga:6)
+* Aggiunto 'Formula 195' (riga:7)
+* Aggiunto 'Formula 196' (riga:8)
+* Aggiunto 'Formula 197' (riga:9)
+* Presenti modifiche per 'evento.interprete.cognome' (riga:47)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaNascita' (riga:54)
+* Presenti modifiche per 'evento.interprete.nomeComuneNascita' (riga:56)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaResidenza' (riga:62)
+* Presenti modifiche per 'evento.interprete.nomeComuneResidenza' (riga:64)
+* Presenti modifiche per 'evento.interprete.indirizzoResidenza' (riga:65)
+* Presenti modifiche per 'evento.datiDichiarante.motivoImpedimentoScrittura' (riga:70)
+
+### Modifiche per il caso uso cittadinanza/Citt_038.csv : 
+* Aggiunto 'evento.intestatari[0].flagDichiarante' (riga:38)
+* Aggiunto 'evento.intestatari[0].flagComparente' (riga:39)
+* Aggiunto 'evento.intestatari[0].flagFirmatario' (riga:40)
+
+### Modifiche per il caso uso cittadinanza/Citt_040.csv : 
+* Aggiunto 'evento.intestatari[0].flagDichiarante' (riga:37)
+* Aggiunto 'evento.intestatari[0].flagComparente' (riga:38)
+* Aggiunto 'evento.intestatari[0].flagFirmatario' (riga:39)
+
+### Modifiche per il caso uso cittadinanza/Citt_044.csv : 
+* Rimosso 'Formula 194'
+* Rimosso 'Formula 195'
+* Rimosso 'Formula 196'
+* Rimosso 'Formula 197'
+* Presenti modifiche per 'evento.interprete.cognome' (riga:67)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaNascita' (riga:74)
+* Presenti modifiche per 'evento.interprete.nomeComuneNascita' (riga:76)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaResidenza' (riga:82)
+* Presenti modifiche per 'evento.interprete.nomeComuneResidenza' (riga:84)
+* Presenti modifiche per 'evento.interprete.indirizzoResidenza' (riga:85)
+
+### Modifiche per il caso uso matrimoni/Matr_999_1.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.pubblicazione1.idProvincia' (riga:150)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.pubblicazione1.provincia' (riga:151)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.pubblicazione1.idComune' (riga:152)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.pubblicazione1.comune' (riga:153)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.pubblicazione1.dataInizio' (riga:154)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.pubblicazione1.dataFine' (riga:155)
+* Aggiunto 'evento.datiEventoMatrimonio.delegaConsolato' (riga:198)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_001.csv : 
+* Presenti modifiche per 'evento.separazione.tipoAccordo' (riga:36)
+* Presenti modifiche per 'evento.separazione.parteInGiudizioPendente' (riga:37)
+* Presenti modifiche per 'evento.separazione.autoritaGiudiziaria' (riga:38)
+* Presenti modifiche per 'evento.separazione.dataConfermaAccordo' (riga:39)
+* Aggiunto 'evento.separazione.datiAssegnoMantenimento' (riga:40)
+* Aggiunto 'evento.separazione.assegnoMantenimento' (riga:91)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_002.csv : 
+* Presenti modifiche per 'evento.separazione.parteInGiudizioPendente' (riga:35)
+* Presenti modifiche per 'evento.separazione.autoritaGiudiziaria' (riga:36)
+* Presenti modifiche per 'evento.separazione.dataConfermaAccordo' (riga:37)
+* Aggiunto 'evento.separazione.datiAssegnoMantenimento' (riga:38)
+* Aggiunto 'evento.separazione.assegnoMantenimento' (riga:111)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_004.csv : 
+* Presenti modifiche per 'Allegati Certificato di residenza' (riga:4)
+* Presenti modifiche per 'evento.separazione.attoMatrimonio.parte' (riga:30)
+* Presenti modifiche per 'evento.separazione.attoMatrimonio.serie' (riga:31)
+* Aggiunto 'evento.separazione.tipoSeparazioneDivorzio' (riga:39)
+* Presenti modifiche per 'evento.separazione.tipoAccordo' (riga:45)
+* Presenti modifiche per 'evento.separazione.parteInGiudizioPendente' (riga:46)
+* Presenti modifiche per 'evento.separazione.autoritaGiudiziaria' (riga:47)
+* Presenti modifiche per 'evento.separazione.dataConfermaAccordo' (riga:48)
+* Presenti modifiche per 'evento.separazione.modificaAccordo' (riga:50)
+* Aggiunto 'evento.separazione.datiAssegnoMantenimento' (riga:49)
+* Aggiunto 'evento.separazione.assegnoMantenimento' (riga:101)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Morte_999.csv : 
+* Presenti modifiche per 'evento.intestatari[0].flagDichiarante' (riga:46)
+* Aggiunto 'evento.coniuge.cognome' (riga:71)
+* Aggiunto 'evento.coniuge.nome' (riga:72)
+* Aggiunto 'evento.coniuge.sesso' (riga:73)
+* Aggiunto 'evento.coniuge.dataNascita' (riga:74)
+* Aggiunto 'evento.coniuge.idStatoNascita' (riga:75)
+* Aggiunto 'evento.coniuge.nomeStatoNascita' (riga:76)
+* Aggiunto 'evento.coniuge.idProvinciaNascita' (riga:77)
+* Aggiunto 'evento.coniuge.siglaProvinciaNascita' (riga:78)
+* Aggiunto 'evento.coniuge.idComuneNascita' (riga:79)
+* Aggiunto 'evento.coniuge.nomeComuneNascita' (riga:80)
+* Aggiunto 'evento.coniuge.idNazionalita' (riga:81)
+* Aggiunto 'evento.coniuge.nazionalita' (riga:82)
+* Aggiunto 'evento.coniuge.idStatoResidenza' (riga:83)
+* Aggiunto 'evento.coniuge.nomeStatoResidenza' (riga:84)
+* Aggiunto 'evento.coniuge.idProvinciaResidenza' (riga:85)
+* Aggiunto 'evento.coniuge.siglaProvinciaResidenza' (riga:86)
+* Aggiunto 'evento.coniuge.idComuneResidenza' (riga:87)
+* Aggiunto 'evento.coniuge.nomeComuneResidenza' (riga:88)
+* Aggiunto 'evento.coniuge.indirizzoResidenza' (riga:89)
+* Aggiunto 'evento.coniuge.flagDichiarante' (riga:90)
+* Aggiunto 'evento.coniuge.flagComparente' (riga:91)
+* Aggiunto 'evento.coniuge.flagFirmatario' (riga:92)
+* Aggiunto 'evento.intestatari[0].idstatocivile' (riga:94)
+* Aggiunto 'evento.intestatari[0].descrizionestatocivile' (riga:95)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_003.csv : 
+* Presenti modifiche per 'evento.scioglimentoUnioneCivile.parteInGiudizioPendente' (riga:75)
+* Presenti modifiche per 'evento.scioglimentoUnioneCivile.autoritaGiudiziaria' (riga:76)
+* Presenti modifiche per 'evento.scioglimentoUnioneCivile.dataConfermaAccordo' (riga:77)
+* Aggiunto 'evento.scioglimentoUnioneCivile.datiAssegnoMantenimento' (riga:78)
+* Aggiunto 'evento.scioglimentoUnioneCivile.assegnoMantenimento' (riga:90)
+
+#Changelog mappatura casi uso 1.22.0  
+
+## Casi uso aggiunti : 6
+* cittadinanza/Citt_998_3.csv
+* matrimoni/Matr_998_3.csv
+* morte/Morte_998_3.csv
+* nascita/Dic_Nasc_120.csv
+* nascita/Dic_Nasc_998_3.csv
+* unioni_civili/UnCiv_998_3.csv
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 11
+* cittadinanza/Citt_009.csv
+* cittadinanza/Citt_030.csv
+* cittadinanza/Citt_038.csv
+* cittadinanza/Citt_040.csv
+* cittadinanza/Citt_044.csv
+* matrimoni/Matr_999_1.csv
+* matrimoni/Sep_Div_001.csv
+* matrimoni/Sep_Div_002.csv
+* matrimoni/Sep_Div_004.csv
+* trascrizioni/Trascr_Morte_999.csv
+* unioni_civili/Sciogl_UnCiv_003.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_009.csv : 
+* Aggiunto 'evento.intestatari[0].flagDichiarante' (riga:42)
+* Aggiunto 'evento.intestatari[0].flagComparente' (riga:43)
+* Aggiunto 'evento.intestatari[0].flagFirmatario' (riga:44)
+
+### Modifiche per il caso uso cittadinanza/Citt_030.csv : 
+* Aggiunto 'Formula 194' (riga:6)
+* Aggiunto 'Formula 195' (riga:7)
+* Aggiunto 'Formula 196' (riga:8)
+* Aggiunto 'Formula 197' (riga:9)
+* Presenti modifiche per 'evento.interprete.cognome' (riga:47)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaNascita' (riga:54)
+* Presenti modifiche per 'evento.interprete.nomeComuneNascita' (riga:56)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaResidenza' (riga:62)
+* Presenti modifiche per 'evento.interprete.nomeComuneResidenza' (riga:64)
+* Presenti modifiche per 'evento.interprete.indirizzoResidenza' (riga:65)
+* Presenti modifiche per 'evento.datiDichiarante.motivoImpedimentoScrittura' (riga:70)
+
+### Modifiche per il caso uso cittadinanza/Citt_038.csv : 
+* Aggiunto 'evento.intestatari[0].flagDichiarante' (riga:38)
+* Aggiunto 'evento.intestatari[0].flagComparente' (riga:39)
+* Aggiunto 'evento.intestatari[0].flagFirmatario' (riga:40)
+
+### Modifiche per il caso uso cittadinanza/Citt_040.csv : 
+* Aggiunto 'evento.intestatari[0].flagDichiarante' (riga:37)
+* Aggiunto 'evento.intestatari[0].flagComparente' (riga:38)
+* Aggiunto 'evento.intestatari[0].flagFirmatario' (riga:39)
+
+### Modifiche per il caso uso cittadinanza/Citt_044.csv : 
+* Rimosso 'Formula 194'
+* Rimosso 'Formula 195'
+* Rimosso 'Formula 196'
+* Rimosso 'Formula 197'
+* Presenti modifiche per 'evento.interprete.cognome' (riga:67)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaNascita' (riga:74)
+* Presenti modifiche per 'evento.interprete.nomeComuneNascita' (riga:76)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaResidenza' (riga:82)
+* Presenti modifiche per 'evento.interprete.nomeComuneResidenza' (riga:84)
+* Presenti modifiche per 'evento.interprete.indirizzoResidenza' (riga:85)
+
+### Modifiche per il caso uso matrimoni/Matr_999_1.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.pubblicazione1.idProvincia' (riga:150)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.pubblicazione1.provincia' (riga:151)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.pubblicazione1.idComune' (riga:152)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.pubblicazione1.comune' (riga:153)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.pubblicazione1.dataInizio' (riga:154)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.pubblicazione1.dataFine' (riga:155)
+* Aggiunto 'evento.datiEventoMatrimonio.delegaConsolato' (riga:198)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_001.csv : 
+* Presenti modifiche per 'evento.separazione.tipoAccordo' (riga:36)
+* Presenti modifiche per 'evento.separazione.parteInGiudizioPendente' (riga:37)
+* Presenti modifiche per 'evento.separazione.autoritaGiudiziaria' (riga:38)
+* Presenti modifiche per 'evento.separazione.dataConfermaAccordo' (riga:39)
+* Aggiunto 'evento.separazione.datiAssegnoMantenimento' (riga:40)
+* Aggiunto 'evento.separazione.assegnoMantenimento' (riga:91)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_002.csv : 
+* Presenti modifiche per 'evento.separazione.parteInGiudizioPendente' (riga:35)
+* Presenti modifiche per 'evento.separazione.autoritaGiudiziaria' (riga:36)
+* Presenti modifiche per 'evento.separazione.dataConfermaAccordo' (riga:37)
+* Aggiunto 'evento.separazione.datiAssegnoMantenimento' (riga:38)
+* Aggiunto 'evento.separazione.assegnoMantenimento' (riga:111)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_004.csv : 
+* Presenti modifiche per 'Allegati Certificato di residenza' (riga:4)
+* Presenti modifiche per 'evento.separazione.attoMatrimonio.parte' (riga:30)
+* Presenti modifiche per 'evento.separazione.attoMatrimonio.serie' (riga:31)
+* Aggiunto 'evento.separazione.tipoSeparazioneDivorzio' (riga:39)
+* Presenti modifiche per 'evento.separazione.tipoAccordo' (riga:45)
+* Presenti modifiche per 'evento.separazione.parteInGiudizioPendente' (riga:46)
+* Presenti modifiche per 'evento.separazione.autoritaGiudiziaria' (riga:47)
+* Presenti modifiche per 'evento.separazione.dataConfermaAccordo' (riga:48)
+* Presenti modifiche per 'evento.separazione.modificaAccordo' (riga:50)
+* Aggiunto 'evento.separazione.datiAssegnoMantenimento' (riga:49)
+* Aggiunto 'evento.separazione.assegnoMantenimento' (riga:101)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Morte_999.csv : 
+* Presenti modifiche per 'evento.intestatari[0].flagDichiarante' (riga:46)
+* Aggiunto 'evento.coniuge.cognome' (riga:71)
+* Aggiunto 'evento.coniuge.nome' (riga:72)
+* Aggiunto 'evento.coniuge.sesso' (riga:73)
+* Aggiunto 'evento.coniuge.dataNascita' (riga:74)
+* Aggiunto 'evento.coniuge.idStatoNascita' (riga:75)
+* Aggiunto 'evento.coniuge.nomeStatoNascita' (riga:76)
+* Aggiunto 'evento.coniuge.idProvinciaNascita' (riga:77)
+* Aggiunto 'evento.coniuge.siglaProvinciaNascita' (riga:78)
+* Aggiunto 'evento.coniuge.idComuneNascita' (riga:79)
+* Aggiunto 'evento.coniuge.nomeComuneNascita' (riga:80)
+* Aggiunto 'evento.coniuge.idNazionalita' (riga:81)
+* Aggiunto 'evento.coniuge.nazionalita' (riga:82)
+* Aggiunto 'evento.coniuge.idStatoResidenza' (riga:83)
+* Aggiunto 'evento.coniuge.nomeStatoResidenza' (riga:84)
+* Aggiunto 'evento.coniuge.idProvinciaResidenza' (riga:85)
+* Aggiunto 'evento.coniuge.siglaProvinciaResidenza' (riga:86)
+* Aggiunto 'evento.coniuge.idComuneResidenza' (riga:87)
+* Aggiunto 'evento.coniuge.nomeComuneResidenza' (riga:88)
+* Aggiunto 'evento.coniuge.indirizzoResidenza' (riga:89)
+* Aggiunto 'evento.coniuge.flagDichiarante' (riga:90)
+* Aggiunto 'evento.coniuge.flagComparente' (riga:91)
+* Aggiunto 'evento.coniuge.flagFirmatario' (riga:92)
+* Aggiunto 'evento.intestatari[0].idstatocivile' (riga:94)
+* Aggiunto 'evento.intestatari[0].descrizionestatocivile' (riga:95)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_003.csv : 
+* Presenti modifiche per 'evento.scioglimentoUnioneCivile.parteInGiudizioPendente' (riga:75)
+* Presenti modifiche per 'evento.scioglimentoUnioneCivile.autoritaGiudiziaria' (riga:76)
+* Presenti modifiche per 'evento.scioglimentoUnioneCivile.dataConfermaAccordo' (riga:77)
+* Aggiunto 'evento.scioglimentoUnioneCivile.datiAssegnoMantenimento' (riga:78)
+* Aggiunto 'evento.scioglimentoUnioneCivile.assegnoMantenimento' (riga:90)
+
+
 #Changelog mappatura casi uso 1.20.0  
 
 ## Casi uso aggiunti : 0

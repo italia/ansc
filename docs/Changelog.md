@@ -23,6 +23,91 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.22.0 - 21-12-2023]
+
+### Added
+    Versione
+       - Aggiunta nuova versione 100007
+
+    Aggiunta decodifica ANSC_106 relativa alla separazione e il divorzio
+   
+    model_evento.yaml
+       - Aggiunti campi nel ModelSeparazione come segue:
+		   tipoSeparazioneDivorzio:
+			type: string
+			description: Discriminante tra separazione o divorzio (decodifica ANSC_106)
+		   assegnoMantenimento:
+            type: boolean
+            description: I coniugi concordano l'assegno di mantenimento o divorzile
+            example: false
+           datiAssegnoMantenimento:
+            type: string
+            description: Nel caso esista l'assegno di mantenimento o divorzile      
+
+	    - Aggiunti nuovi campi nel ModelMatrimonio come segue:
+		   delegaConsolato:
+			type: boolean
+			description: Se il matrimonio ha avuto pubblicazioni in più comuni
+			example: true 
+          
+        - Aggiunti nuovi campi nel ModelScioglimentoUnioneCivile come segue:
+           assegnoMantenimento:
+            type: boolean
+            description: I coniugi concordano l'assegno di mantenimento o divorzile
+            example: false
+           datiAssegnoMantenimento:
+            type: string
+            description: Nel caso esista l'assegno di mantenimento o divorzile   
+ 			
+        - Aggiunti nuovi campi nel ModelAnnotazioneModificativa come segue:
+           nuovoNomeIntestatario:
+            type: string
+           vecchioNomeIntestatario:
+            type: string
+           vecchioCognomeIntestatario:
+            type: string
+            
+            
+	Nuovi casi d'uso gestiti (fare riferimento al mapping dei casi d'uso)
+	 - Matrimonio con rito civile su delega del consolato
+	 - Caso d’uso di servizio per annotazione modificativa
+	 - Nuovo caso d'uso per annotazione modificativa cambio nome-cognome
+	 - Separazione/divorzi: gestione assegno di mantenimento (https://github.com/italia/ansc/issues/554)
+	
+
+### Changed
+    model_evento.yaml
+        - Modificate descrizioni ed example dei seguenti campi in 				ModelAnnotazioneModificativa:
+        			tipoModifica;
+           		nuovoCognomeGenitore;
+           		nuovoNomeGenitore;
+           		vecchioCognomeGenitore;
+           		vecchioNomeGenitore;
+           		nuovoCognomeIntestatario;
+           		
+	Trasversale
+		- La severity del controllo sul limite lunghezza numeroatto comunale a 5 viene abbassata a warning per il solo ambiente di preproduzione (https://github.com/italia/ansc/issues/566)           		
+           		
+### Fixed
+
+	Servizi cooperativi
+		- R009: Caso d'uso 1312 corretta richiesta verbale (https://github.com/italia/ansc/issues/530)     
+		- R009: corretta incongruenza stato evento  (https://github.com/italia/ansc/issues/531)     
+		- R010: corretta anteprima atto con annotazioni contestuali (https://github.com/italia/ansc/issues/539) 
+		- R009: corretta validazione atto di morte con caso d'uso 2299 (https://github.com/italia/ansc/issues/529)
+		- R001: corretto errore invio allegati firmati p7m - nome del File non corretto  
+		(https://github.com/italia/ansc/issues/559)
+		- R010: corretta anteprima atto matrimonio con officiante come ultimo firmatario
+		(https://github.com/italia/ansc/issues/552)
+		- R009: per i casi d'uso di cittadinanza indicati nella issue, è stata resa opzionale la data di formazione dell'evento collegato  (https://github.com/italia/ansc/issues/558)
+		- R010 Anteprima: corrette diciture riportate nell'anteprima (https://github.com/italia/ansc/issues/555)
+		
+	Web Application
+		- Corretto il profilo utente abilitato alla sola consultazione	 degli eventi
+		- Corretta trascrizione decreto di cittadinanza (https://github.com/italia/ansc/issues/553)
+		- [3.4.4.0.0.0] corretto accordo di modifica delle condizioni di separazione o divorzio (https://github.com/italia/ansc/issues/543)
+		- Matrimonio civile fuori dalla casa comunale: corretta la minuta in merito alla data di formazione resa uguale alla data evento
+
 
 ## [1.21.4 - 18-12-2023]
            
