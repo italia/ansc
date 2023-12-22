@@ -23,9 +23,18 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.22.1 - 22-12-2023]
+
+### Added
+
+    Web application
+       - Per i casi di servizio, dei registri Matrimonio, Unioni civili e Cittadinanza, se nell'accordion dell’intestatario viene utilizzata la ricerca tramite id ansc per inserire i dati di un soggetto, la ckeckbox “Firmatario” risulta erroneamente disabilitata non permettendo quindi di indicare il soggetto come firmatario dell’atto.
+
+
 ## [1.22.0 - 21-12-2023]
 
 ### Added
+
     Versione
        - Aggiunta nuova versione 100007
 
