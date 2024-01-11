@@ -23,6 +23,15 @@ NOTE:
 
 ## [Unreleased]
 
+
+## [1.22.2 - 11-01-2024]
+
+### Fixed
+
+	Servizi cooperativi
+		- R010 Anteprima: visualizzazione annotazioni contestuali multiple (https://github.com/italia/ansc/issues/607)
+
+
 ## [1.22.1 - 22-12-2023]
 
 ### Added
