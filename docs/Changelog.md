@@ -24,6 +24,14 @@ NOTE:
 ## [Unreleased]
 
 
+## [1.22.3 - 12-01-2024]
+
+### Fixed
+
+	Servizi cooperativi
+		- R009 Validazione : controllo stato residenza estero (https://github.com/italia/ansc/issues/606)(https://github.com/italia/ansc/issues/605)
+
+  
 ## [1.22.2 - 11-01-2024]
 
 ### Fixed
