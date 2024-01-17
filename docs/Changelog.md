@@ -24,6 +24,14 @@ NOTE:
 ## [Unreleased]
 
 
+## [1.22.4 - 17-01-2024]
+
+### Fixed
+
+	Servizi cooperativi
+		- R002: Verifica intestatario certificato per casi d'uso che non lo prevedono (https://github.com/italia/ansc/issues/620)
+		
+
 ## [1.22.3 - 12-01-2024]
 
 ### Fixed
