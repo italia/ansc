@@ -5,6 +5,7 @@
 "Formazione atto","Data formazione","SI","evento","dataformazione","","obbligatoria"
 "Formazione atto","Ora formazione","SI","evento","ora","","obbligatoria"
 "Formazione atto","Minuti formazione","SI","evento","minuto","","obbligatoria"
+"Dati generali","Tipologia Nascita","NO","evento.datiDiNascita","tipoNascitaSoggetto","","obbligatoria"
 "Dati generali","Data decorrenza","NO","evento","dataDecorrenza","","obbligatoria"
 "Dati generali","Ora decorrenza","NO","evento","oraDecorrenza","","obbligatoria"
 "Dati generali","Minuto decorrenza","NO","evento","minutoDecorrenza","","obbligatoria"

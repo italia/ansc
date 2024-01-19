@@ -1,3 +1,108 @@
+#Changelog mappatura casi uso 1.23.0  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 9
+* cittadinanza/Citt_044.csv
+* matrimoni/Matr_999_1.csv
+* matrimoni/Matr_999_2.csv
+* matrimoni/Sep_Div_004.csv
+* nascita/Dic_Nasc_999.csv
+* trascrizioni/Trascr_Matr_999.csv
+* trascrizioni/Trascr_Morte_999.csv
+* trascrizioni/Trascr_UnCiv_999.csv
+* unioni_civili/UnCiv_999.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_044.csv : 
+* Aggiunto 'Formula 81.1' (riga:8)
+* Rimosso 'Formula 81'
+* Presenti modifiche per 'evento.datiEventoCittadinanza.dataRegistrazioneDecreto' (riga:17)
+* Presenti modifiche per 'evento.intestatari[0].cognome' (riga:20)
+* Presenti modifiche per 'evento.intestatari[0].codiceFiscale' (riga:22)
+* Presenti modifiche per 'evento.intestatari[0].siglaProvinciaNascita' (riga:28)
+* Presenti modifiche per 'evento.intestatari[0].nomeComuneNascita' (riga:30)
+* Presenti modifiche per 'evento.intestatari[0].siglaProvinciaResidenza' (riga:36)
+* Presenti modifiche per 'evento.intestatari[0].nomeComuneResidenza' (riga:38)
+* Presenti modifiche per 'evento.intestatari[0].indirizzoResidenza' (riga:39)
+* Presenti modifiche per 'evento.datiEventoCittadinanza.delegato.cognome' (riga:44)
+* Presenti modifiche per 'evento.datiEventoCittadinanza.delegato.siglaProvinciaNascita' (riga:51)
+* Presenti modifiche per 'evento.datiEventoCittadinanza.delegato.nomeComuneNascita' (riga:53)
+* Presenti modifiche per 'evento.datiEventoCittadinanza.delegato.siglaProvinciaResidenza' (riga:59)
+* Presenti modifiche per 'evento.datiEventoCittadinanza.delegato.nomeComuneResidenza' (riga:61)
+* Presenti modifiche per 'evento.datiEventoCittadinanza.delegato.indirizzoResidenza' (riga:62)
+* Rimosso 'evento.datiEventoCittadinanza.presenzaInteressato'
+
+### Modifiche per il caso uso matrimoni/Matr_999_1.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.testimone1.flagFirmatario' (riga:83)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.testimone2.flagFirmatario' (riga:105)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.testimone3.flagFirmatario' (riga:127)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.testimone4.flagFirmatario' (riga:149)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:199)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:200)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:201)
+
+### Modifiche per il caso uso matrimoni/Matr_999_2.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.testimone1.flagFirmatario' (riga:83)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.testimone2.flagFirmatario' (riga:105)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.testimone3.flagFirmatario' (riga:127)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.testimone4.flagFirmatario' (riga:149)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:198)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:199)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:200)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_004.csv : 
+* Presenti modifiche per 'Allegati Atto di matrimonio' (riga:2)
+* Rimosso 'Allegati Atto di matrimonio straniero, tradotto e legalizzato'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_999.csv : 
+* Aggiunto 'evento.datiDiNascita.tipoNascitaSoggetto' (riga:8)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_999.csv : 
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:78)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:79)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:80)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Morte_999.csv : 
+* Aggiunto 'evento.datiEventoMorte.comparente1.cognome' (riga:49)
+* Aggiunto 'evento.datiEventoMorte.comparente1.nome' (riga:50)
+* Aggiunto 'evento.datiEventoMorte.comparente1.sesso' (riga:51)
+* Aggiunto 'evento.datiEventoMorte.comparente1.dataNascita' (riga:52)
+* Aggiunto 'evento.datiEventoMorte.comparente1.idStatoNascita' (riga:53)
+* Aggiunto 'evento.datiEventoMorte.comparente1.nomeStatoNascita' (riga:54)
+* Aggiunto 'evento.datiEventoMorte.comparente1.idProvinciaNascita' (riga:55)
+* Aggiunto 'evento.datiEventoMorte.comparente1.siglaProvinciaNascita' (riga:56)
+* Aggiunto 'evento.datiEventoMorte.comparente1.idComuneNascita' (riga:57)
+* Aggiunto 'evento.datiEventoMorte.comparente1.nomeComuneNascita' (riga:58)
+* Aggiunto 'evento.datiEventoMorte.comparente1.idNazionalita' (riga:59)
+* Aggiunto 'evento.datiEventoMorte.comparente1.nazionalita' (riga:60)
+* Aggiunto 'evento.datiEventoMorte.comparente1.idStatoResidenza' (riga:61)
+* Aggiunto 'evento.datiEventoMorte.comparente1.nomeStatoResidenza' (riga:62)
+* Aggiunto 'evento.datiEventoMorte.comparente1.idProvinciaResidenza' (riga:63)
+* Aggiunto 'evento.datiEventoMorte.comparente1.siglaProvinciaResidenza' (riga:64)
+* Aggiunto 'evento.datiEventoMorte.comparente1.idComuneResidenza' (riga:65)
+* Aggiunto 'evento.datiEventoMorte.comparente1.nomeComuneResidenza' (riga:66)
+* Aggiunto 'evento.datiEventoMorte.comparente1.indirizzoResidenza' (riga:67)
+* Aggiunto 'evento.datiEventoMorte.comparente1.flagDichiarante' (riga:68)
+* Aggiunto 'evento.datiEventoMorte.comparente1.flagComparente' (riga:69)
+* Aggiunto 'evento.datiEventoMorte.comparente1.flagFirmatario' (riga:70)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_999.csv : 
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:78)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:79)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:80)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_999.csv : 
+* Presenti modifiche per 'evento.datiEventoUnioneCivile.testimone1.flagFirmatario' (riga:83)
+* Presenti modifiche per 'evento.datiEventoUnioneCivile.testimone2.flagFirmatario' (riga:105)
+* Presenti modifiche per 'evento.datiEventoUnioneCivile.testimone3.flagFirmatario' (riga:127)
+* Presenti modifiche per 'evento.datiEventoUnioneCivile.testimone4.flagFirmatario' (riga:149)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:152)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:153)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:154)
+
+
 #Changelog mappatura casi uso 1.22.0  
 
 ## Casi uso aggiunti : 6

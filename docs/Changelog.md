@@ -24,6 +24,73 @@ NOTE:
 ## [Unreleased]
 
 
+## [1.23.0 - 19-01-2024]
+
+### Added
+    Versione
+       - Aggiunta nuova versione 100008
+
+    model_evento.yaml
+        - Aggiunti campi nel ModelEvento come segue:
+            operatoreFirmatario:
+              type: string
+              description: Codice fiscale dell'operatore che ha firmato l'atto.
+              example: 'ABCDEF99A11H501A'
+            operatoreFirmatarioNome:
+              type: string
+              description: Nome dell'operatore che ha firmato l'atto.
+              example: 'MARIO'
+            operatoreFirmatarioCognome:
+              type: string
+              description: Cognome dell'operatore che ha firmato l'atto.
+              example: 'ROSSI'
+
+        - Aggiunto campo nel ModelDatiDiNascita come segue:
+             tipoNascitaSoggetto: 
+                type: string
+                description: Identificativo del tipo di nascita del nascituro di cui si sta dichiarando la nascita (decodifica ANSC_107).
+                example: '1'  
+    
+    
+    Decodifiche
+
+    	- Aggiunta decodifica ANSC_107 relativa allo stato di nascita del nascituro
+    	
+### Fixed   	
+
+	Servizi cooperativi
+	   - R001: corretto errore nella consultazione degli allegati di un atto redatto da altro comune (https://github.com/italia/ansc/issues/549)
+	   - R009: Prenotazione Evento per parti gemellari (https://github.com/italia/ansc/issues/571) (https://github.com/italia/ansc/issues/611)
+	   - R009: corretto errore Validazione atto Caso d'uso 1311 (https://github.com/italia/ansc/issues/580)
+	   - R013: corretta rettifica evento di tipo Annotazione (https://github.com/italia/ansc/issues/519)
+	   - R010: corrette annotazioni (https://github.com/italia/ansc/issues/507)
+	   - R011: Cancellazione Atto - Eliminazione fisica / annullamento (https://github.com/italia/ansc/issues/489)
+	   
+	Trasversale
+		- UC 329999: atto di matrimonio religioso da altro comune; campi testimoni resi non obbligatori (https://github.com/italia/ansc/issues/569)
+		- Corretti certificati (art.15) (https://github.com/italia/ansc/issues/570)
+		- Certificati: migliorati i template per differenziare cognome e nome (https://github.com/italia/ansc/issues/589)
+		- CERTIFICAZIONE ATTO DI MORTE CASO D’USO 2101: differenziato lo stato civile de defunto in base al sesso celibe/nubile (https://github.com/italia/ansc/issues/597)
+		- Corretta certificazione impossibile per atto di nascita (https://github.com/italia/ansc/issues/602)
+		- Cittadinanza 52122 - richiesta firma dichiarante impropriamente (https://github.com/italia/ansc/issues/576)
+		- Corretta gestione comuni stranieri nelle certificazioni (https://github.com/italia/ansc/issues/592)
+		- Aggiunta dicitura su anteprima atto per firma digitale del dichiarante (https://github.com/italia/ansc/issues/578)
+		- Corretta gestione Identificativo atto rispetto ad anno atto (https://github.com/italia/ansc/issues/599)
+		- sep_div_004: corretta obbligatorietà allegati (https://github.com/italia/ansc/issues/612)
+		- Trascrizione atto di morte caso d'uso di servizio: aggiunto comparenti non obbligatorio (https://github.com/italia/ansc/issues/601)
+		- trascrizione di una nascita avvenuta all'estero: reso opzionale il campo estremi documento (https://github.com/italia/ansc/issues/600)
+		- Trascrizione atti dall'estero: gestita obbligatorietò allegati in base a richiesta verbale o scritta (https://github.com/italia/ansc/issues/594)
+		- Usecase 1351 Trascrizione provvedimento straniero di adozione (Trascr_018): corretta obbligatorietà metadati (https://github.com/italia/ansc/issues/520) (https://github.com/italia/ansc/issues/521)
+		
+	   
+	Web Application
+		- Corretto errore in annotazione per rettifica di un matrimonio (https://github.com/italia/ansc/issues/621)
+		- Corretta gestione Form.81 - Verbale di giuramento (https://github.com/italia/ansc/issues/574)
+		- Corretta gestione presenza interprete (https://github.com/italia/ansc/issues/591)
+		- Corrette ricerche atti (https://github.com/italia/ansc/issues/596)
+		- Usecase 51107 prestazione di giuramento (con impedimento): eliminata casistica di presenza interessato (https://github.com/italia/ansc/issues/550)
+
+
 ## [1.22.4 - 17-01-2024]
 
 ### Fixed

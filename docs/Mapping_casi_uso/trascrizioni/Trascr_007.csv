@@ -72,7 +72,7 @@
 "Atto da trascrivere","Stato ente - Descrizione","SI","evento.trascrizioneNascita.attoEstero.enteEstero","nomeNazioneEnte","","obbligatoria"
 "Atto da trascrivere","Data formazione documento","SI","evento.trascrizioneNascita.attoEstero.enteEstero","dataTrascrizione","","obbligatoria"
 "Atto da trascrivere","Descrizione documento","NO","evento.trascrizioneNascita.attoEstero.enteEstero","descrizione","","obbligatoria"
-"Atto da trascrivere","Estremi documento","SI","evento.trascrizioneNascita.attoEstero.enteEstero","estremiDocumento","","obbligatoria"
+"Atto da trascrivere","Estremi documento","NO","evento.trascrizioneNascita.attoEstero.enteEstero","estremiDocumento","","obbligatoria"
 "Autorità mittente","Nome ente","SI","evento.trascrizioneNascita.atto.enteEstero","nomeEnte","","obbligatoria"
 "Autorità mittente","Stato ente","SI","evento.trascrizioneNascita.atto.enteEstero","nazioneEnte","","obbligatoria"
 "Autorità mittente","Stato ente - Descrizione","SI","evento.trascrizioneNascita.atto.enteEstero","nomeNazioneEnte","","obbligatoria"

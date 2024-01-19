@@ -1,6 +1,5 @@
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
-"Allegati","Atto di matrimonio","NO","","","","evento.intestatari[0].nazionalita,!=,""ITALIANA"" && evento.intestatari[0].nazionalita,!=,""ITALIANA"""
-"Allegati","Atto di matrimonio straniero, tradotto e legalizzato","NO","","","","evento.intestatari[0].nazionalita,=,""ITALIANA"" && evento.intestatari[0].nazionalita,=,""ITALIANA"""
+"Allegati","Atto di matrimonio","SI","","","",""
 "Allegati","Certificato di residenza","NO","","","",""
 "Formula","121-septies","SI","","","",""
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Si puo' ignorare la sezione per"

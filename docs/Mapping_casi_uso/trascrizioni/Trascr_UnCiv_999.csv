@@ -75,3 +75,6 @@
 "Atto collegato","Parte","NO","evento.eventoCollegato","parte","","opzionale"
 "Atto collegato","Serie","NO","evento.eventoCollegato","serie","","opzionale"
 "Composizione libera","Composizione libera","SI","evento","composizioneCompleta","","obbligatoria"
+"Annotazione Contestuale","Tipo Annotazione Contestuale","NO","evento.datiAnnotazione","tipoAnnotazione","","obbligatoria"
+"Annotazione Contestuale","Dichiara come non certificabile","NO","evento.datiAnnotazione","flagAnnotazioneNonCertificabile","","obbligatoria"
+"Annotazione Contestuale","Testo Annotazione Contestuale","NO","evento.datiAnnotazione","testoAnnotazione","","obbligatoria"

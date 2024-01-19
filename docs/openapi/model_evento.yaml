@@ -308,6 +308,18 @@ components:
           example: ''
         datiAnnotazioneModificativa:
           $ref: '#/components/schemas/ModelAnnotazioneModificativa'
+        operatoreFirmatario:
+          type: string
+          description: Codice fiscale dell'operatore che ha firmato l'atto.
+          example: 'ABCDEF99A11H501A'
+        operatoreFirmatarioNome:
+          type: string
+          description: Nome dell'operatore che ha firmato l'atto.
+          example: 'MARIO'
+        operatoreFirmatarioCognome:
+          type: string
+          description: Cognome dell'operatore che ha firmato l'atto.
+          example: 'ROSSI'
           
     ModelAttoCollegato:
       properties:
@@ -717,6 +729,10 @@ components:
           format: date
           description: Data di rilascio del dcoumento di riconoscimento.
           example: '2017-01-08'
+        tipoNascitaSoggetto:
+          type: string
+          description: Identificativo del tipo di nascita del nascituro di cui si sta dichiarando la nascita (decodifica ANSC_107).
+          example: '1'          
     ModelDatiRinvenuto:
       properties:
         giornoRinvenimento: 

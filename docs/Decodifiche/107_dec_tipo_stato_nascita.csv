@@ -1,0 +1,4 @@
+"ID","DESCRIZIONE","DATAINIZIOVALIDITA","DATAFINEVALIDITA","ORDINAMENTO"
+"1","nato vivo","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","1"
+"2","nato morto","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","2"
+"3","nato vivo ma successivamente deceduto","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","3"
