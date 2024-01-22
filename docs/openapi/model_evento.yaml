@@ -704,6 +704,10 @@ components:
           type: string
           description: tipo accertamento nascita (decodifica ANSC_78) 
           example: '1'
+        tipoNascitaSoggetto:
+          type: string
+          description: Identificativo del tipo di nascita del nascituro di cui si sta dichiarando la nascita (decodifica ANSC_107).
+          example: '1'   
     ModelDocumentoRiconoscimento:
       description: Descrizione del documento di Riconoscimento
       properties:
@@ -728,11 +732,7 @@ components:
           type: string
           format: date
           description: Data di rilascio del dcoumento di riconoscimento.
-          example: '2017-01-08'
-        tipoNascitaSoggetto:
-          type: string
-          description: Identificativo del tipo di nascita del nascituro di cui si sta dichiarando la nascita (decodifica ANSC_107).
-          example: '1'          
+          example: '2017-01-08'       
     ModelDatiRinvenuto:
       properties:
         giornoRinvenimento: 

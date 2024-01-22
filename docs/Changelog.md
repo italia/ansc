@@ -24,6 +24,18 @@ NOTE:
 ## [Unreleased]
 
 
+## [1.23.1 - 22-01-2024]
+
+### Fixed
+
+    model_evento.yaml
+        - Corretto annidamento del campo tipoNascitaSoggetto, che erronamenente non faceva parte di ModelDatiDiNascita: (https://github.com/italia/ansc/issues/629)
+             tipoNascitaSoggetto: 
+                type: string
+                description: Identificativo del tipo di nascita del nascituro di cui si sta dichiarando la nascita (decodifica ANSC_107).
+                example: '1'  
+
+
 ## [1.23.0 - 19-01-2024]
 
 ### Added
