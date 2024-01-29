@@ -23,6 +23,30 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.23.2 - 29-01-2024]
+
+### Fixed   	
+
+	Servizi cooperativi
+		- Testo Notifiche non corretto https://github.com/italia/ansc/issues/567 
+		- ERRORE AMBIENTE TEST "Il campo evento.datiDiMorte.siglaProvinciaMorte nella sezione Dati Riconoscimento - Dati di morte non corrisponde al pattern ^[0-9]*$" https://github.com/italia/ansc/issues/623
+		- ATTRIBUZIONE DI DUE O PIU’ NOMI (MASSIMO 3) SEPARATI DA VIRGOLA AI NEONATI https://github.com/italia/ansc/issues/588
+		- TRASCR_018 e TRASCR_019 versione 1.23.0 https://github.com/italia/ansc/issues/630
+		- Certificati: la frase art.15 deve essere alternativa alla frase valido per estero https://github.com/italia/ansc/issues/633
+		- R006: corretto errore firma USC https://github.com/italia/ansc/issues/615
+		- Trascr_018 e Trascr_019: adeguato comportamento dei servizi a quello della web app https://github.com/italia/ansc/issues/630
+		
+	Web App
+		- Corretta minuta atto di matrimonio con Interprete: CASO D'USO 311111 https://github.com/italia/ansc/issues/618
+		- Corretta minuta atto di Matrimonio legge patrimoniale https://github.com/italia/ansc/issues/619
+		
+	Trasversale
+		- Gestione nomi con la virgola https://github.com/italia/ansc/issues/588
+		- Corretto riferimento atto nelle certificazioni https://github.com/italia/ansc/issues/617
+		- Migliorata stampa estratti https://github.com/italia/ansc/issues/598
+		- Trascrizione del decreto di concessione della cittadinanza italiana: corretto modulo per firma analogica https://github.com/italia/ansc/issues/628
+		- Divorzi / Separazione: corretta gestione presenza avvocati e firma https://github.com/italia/ansc/issues/638
+		
 
 ## [1.23.1 - 22-01-2024]
 

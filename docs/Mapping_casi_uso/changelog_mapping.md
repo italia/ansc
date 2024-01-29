@@ -1,3 +1,178 @@
+#Changelog mappatura casi uso 1.23.2  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 14
+* matrimoni/Sep_Div_003.csv
+* riconoscimenti/Rico_004.csv
+* riconoscimenti/Rico_005.csv
+* riconoscimenti/Rico_006.csv
+* riconoscimenti/Rico_007.csv
+* riconoscimenti/Rico_008.csv
+* riconoscimenti/Rico_009.csv
+* riconoscimenti/Rico_010.csv
+* riconoscimenti/Rico_011.csv
+* riconoscimenti/Rico_012.csv
+* riconoscimenti/Rico_017.csv
+* riconoscimenti/Rico_018.csv
+* riconoscimenti/Rico_019.csv
+* riconoscimenti/Rico_020.csv
+
+### Modifiche per il caso uso matrimoni/Sep_Div_003.csv : 
+* Presenti modifiche per 'evento.separazione.avvocatoConiuge1.cognome' (riga:53)
+* Presenti modifiche per 'evento.separazione.avvocatoConiuge1.nome' (riga:54)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.sesso' (riga:55)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.dataNascita' (riga:56)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.idStatoNascita' (riga:57)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.nomeStatoNascita' (riga:58)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.idProvinciaNascita' (riga:59)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.siglaProvinciaNascita' (riga:60)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.idComuneNascita' (riga:61)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.nomeComuneNascita' (riga:62)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.idNazionalita' (riga:63)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.nazionalita' (riga:64)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.idStatoResidenza' (riga:65)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.nomeStatoResidenza' (riga:66)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.idProvinciaResidenza' (riga:67)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.siglaProvinciaResidenza' (riga:68)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.idComuneResidenza' (riga:69)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.nomeComuneResidenza' (riga:70)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.indirizzoResidenza' (riga:71)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.flagDichiarante' (riga:72)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.flagComparente' (riga:73)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.flagFirmatario' (riga:74)
+* Aggiunto '.cognome' (riga:100)
+* Aggiunto '.nome' (riga:101)
+* Presenti modifiche per 'evento.separazione.avvocatoConiuge2.cognome' (riga:78)
+* Presenti modifiche per 'evento.separazione.avvocatoConiuge2.nome' (riga:79)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.sesso' (riga:80)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.dataNascita' (riga:81)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.idStatoNascita' (riga:82)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.nomeStatoNascita' (riga:83)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.idProvinciaNascita' (riga:84)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.siglaProvinciaNascita' (riga:85)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.idComuneNascita' (riga:86)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.nomeComuneNascita' (riga:87)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.idNazionalita' (riga:88)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.nazionalita' (riga:89)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.idStatoResidenza' (riga:90)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.nomeStatoResidenza' (riga:91)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.idProvinciaResidenza' (riga:92)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.siglaProvinciaResidenza' (riga:93)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.idComuneResidenza' (riga:94)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.nomeComuneResidenza' (riga:95)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.indirizzoResidenza' (riga:96)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.flagDichiarante' (riga:97)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.flagComparente' (riga:98)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.flagFirmatario' (riga:99)
+
+### Modifiche per il caso uso riconoscimenti/Rico_004.csv : 
+* Presenti modifiche per 'evento.datiDiMorte.idStatoMorte' (riga:112)
+* Aggiunto 'evento.datiDiMorte.nomeStatoMorte' (riga:113)
+* Aggiunto 'evento.datiDiMorte.idProvinciaMorte' (riga:114)
+* Presenti modifiche per 'evento.datiDiMorte.siglaProvinciaMorte' (riga:115)
+* Presenti modifiche per 'evento.datiDiMorte.idComuneMorte' (riga:116)
+* Aggiunto 'evento.datiDiMorte.nomeComuneMorte' (riga:117)
+
+### Modifiche per il caso uso riconoscimenti/Rico_005.csv : 
+* Presenti modifiche per 'evento.datiDiMorte.idStatoMorte' (riga:84)
+* Aggiunto 'evento.datiDiMorte.nomeStatoMorte' (riga:85)
+* Aggiunto 'evento.datiDiMorte.idProvinciaMorte' (riga:86)
+* Presenti modifiche per 'evento.datiDiMorte.siglaProvinciaMorte' (riga:87)
+* Presenti modifiche per 'evento.datiDiMorte.idComuneMorte' (riga:88)
+* Aggiunto 'evento.datiDiMorte.nomeComuneMorte' (riga:89)
+
+### Modifiche per il caso uso riconoscimenti/Rico_006.csv : 
+* Presenti modifiche per 'evento.datiDiMorte.idStatoMorte' (riga:114)
+* Aggiunto 'evento.datiDiMorte.nomeStatoMorte' (riga:115)
+* Aggiunto 'evento.datiDiMorte.idProvinciaMorte' (riga:116)
+* Presenti modifiche per 'evento.datiDiMorte.siglaProvinciaMorte' (riga:117)
+* Presenti modifiche per 'evento.datiDiMorte.idComuneMorte' (riga:118)
+* Aggiunto 'evento.datiDiMorte.nomeComuneMorte' (riga:119)
+
+### Modifiche per il caso uso riconoscimenti/Rico_007.csv : 
+* Presenti modifiche per 'evento.datiDiMorte.idStatoMorte' (riga:112)
+* Aggiunto 'evento.datiDiMorte.nomeStatoMorte' (riga:113)
+* Aggiunto 'evento.datiDiMorte.idProvinciaMorte' (riga:114)
+* Presenti modifiche per 'evento.datiDiMorte.siglaProvinciaMorte' (riga:115)
+* Presenti modifiche per 'evento.datiDiMorte.idComuneMorte' (riga:116)
+* Aggiunto 'evento.datiDiMorte.nomeComuneMorte' (riga:117)
+
+### Modifiche per il caso uso riconoscimenti/Rico_008.csv : 
+* Presenti modifiche per 'evento.datiDiMorte.idStatoMorte' (riga:89)
+* Aggiunto 'evento.datiDiMorte.nomeStatoMorte' (riga:90)
+* Aggiunto 'evento.datiDiMorte.idProvinciaMorte' (riga:91)
+* Presenti modifiche per 'evento.datiDiMorte.siglaProvinciaMorte' (riga:92)
+* Presenti modifiche per 'evento.datiDiMorte.idComuneMorte' (riga:93)
+* Aggiunto 'evento.datiDiMorte.nomeComuneMorte' (riga:94)
+
+### Modifiche per il caso uso riconoscimenti/Rico_009.csv : 
+* Presenti modifiche per 'evento.datiDiMorte.idStatoMorte' (riga:88)
+* Aggiunto 'evento.datiDiMorte.nomeStatoMorte' (riga:89)
+* Aggiunto 'evento.datiDiMorte.idProvinciaMorte' (riga:90)
+* Presenti modifiche per 'evento.datiDiMorte.siglaProvinciaMorte' (riga:91)
+* Presenti modifiche per 'evento.datiDiMorte.idComuneMorte' (riga:92)
+* Aggiunto 'evento.datiDiMorte.nomeComuneMorte' (riga:93)
+
+### Modifiche per il caso uso riconoscimenti/Rico_010.csv : 
+* Presenti modifiche per 'evento.datiDiMorte.idStatoMorte' (riga:112)
+* Aggiunto 'evento.datiDiMorte.nomeStatoMorte' (riga:113)
+* Aggiunto 'evento.datiDiMorte.idProvinciaMorte' (riga:114)
+* Presenti modifiche per 'evento.datiDiMorte.siglaProvinciaMorte' (riga:115)
+* Presenti modifiche per 'evento.datiDiMorte.idComuneMorte' (riga:116)
+* Aggiunto 'evento.datiDiMorte.nomeComuneMorte' (riga:117)
+
+### Modifiche per il caso uso riconoscimenti/Rico_011.csv : 
+* Presenti modifiche per 'evento.datiDiMorte.idStatoMorte' (riga:112)
+* Aggiunto 'evento.datiDiMorte.nomeStatoMorte' (riga:113)
+* Aggiunto 'evento.datiDiMorte.idProvinciaMorte' (riga:114)
+* Presenti modifiche per 'evento.datiDiMorte.siglaProvinciaMorte' (riga:115)
+* Presenti modifiche per 'evento.datiDiMorte.idComuneMorte' (riga:116)
+* Aggiunto 'evento.datiDiMorte.nomeComuneMorte' (riga:117)
+
+### Modifiche per il caso uso riconoscimenti/Rico_012.csv : 
+* Presenti modifiche per 'evento.datiDiMorte.idStatoMorte' (riga:111)
+* Aggiunto 'evento.datiDiMorte.nomeStatoMorte' (riga:112)
+* Aggiunto 'evento.datiDiMorte.idProvinciaMorte' (riga:113)
+* Presenti modifiche per 'evento.datiDiMorte.siglaProvinciaMorte' (riga:114)
+* Presenti modifiche per 'evento.datiDiMorte.idComuneMorte' (riga:115)
+* Aggiunto 'evento.datiDiMorte.nomeComuneMorte' (riga:116)
+
+### Modifiche per il caso uso riconoscimenti/Rico_017.csv : 
+* Presenti modifiche per 'evento.datiDiMorte.idStatoMorte' (riga:112)
+* Aggiunto 'evento.datiDiMorte.nomeStatoMorte' (riga:113)
+* Aggiunto 'evento.datiDiMorte.idProvinciaMorte' (riga:114)
+* Presenti modifiche per 'evento.datiDiMorte.siglaProvinciaMorte' (riga:115)
+* Presenti modifiche per 'evento.datiDiMorte.idComuneMorte' (riga:116)
+* Aggiunto 'evento.datiDiMorte.nomeComuneMorte' (riga:117)
+
+### Modifiche per il caso uso riconoscimenti/Rico_018.csv : 
+* Presenti modifiche per 'evento.datiDiMorte.idStatoMorte' (riga:117)
+* Aggiunto 'evento.datiDiMorte.nomeStatoMorte' (riga:118)
+* Aggiunto 'evento.datiDiMorte.idProvinciaMorte' (riga:119)
+* Presenti modifiche per 'evento.datiDiMorte.siglaProvinciaMorte' (riga:120)
+* Presenti modifiche per 'evento.datiDiMorte.idComuneMorte' (riga:121)
+* Aggiunto 'evento.datiDiMorte.nomeComuneMorte' (riga:122)
+
+### Modifiche per il caso uso riconoscimenti/Rico_019.csv : 
+* Presenti modifiche per 'evento.datiDiMorte.idStatoMorte' (riga:89)
+* Aggiunto 'evento.datiDiMorte.nomeStatoMorte' (riga:90)
+* Aggiunto 'evento.datiDiMorte.idProvinciaMorte' (riga:91)
+* Presenti modifiche per 'evento.datiDiMorte.siglaProvinciaMorte' (riga:92)
+* Presenti modifiche per 'evento.datiDiMorte.idComuneMorte' (riga:93)
+* Aggiunto 'evento.datiDiMorte.nomeComuneMorte' (riga:94)
+
+### Modifiche per il caso uso riconoscimenti/Rico_020.csv : 
+* Presenti modifiche per 'evento.datiDiMorte.idStatoMorte' (riga:82)
+* Aggiunto 'evento.datiDiMorte.nomeStatoMorte' (riga:83)
+* Aggiunto 'evento.datiDiMorte.idProvinciaMorte' (riga:84)
+* Presenti modifiche per 'evento.datiDiMorte.siglaProvinciaMorte' (riga:85)
+* Presenti modifiche per 'evento.datiDiMorte.idComuneMorte' (riga:86)
+* Aggiunto 'evento.datiDiMorte.nomeComuneMorte' (riga:87)
+
+
 #Changelog mappatura casi uso 1.23.0  
 
 ## Casi uso aggiunti : 0
