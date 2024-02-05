@@ -1,3 +1,104 @@
+#Changelog mappatura casi uso 1.23.3  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 12
+* cittadinanza/Citt_047.csv
+* cittadinanza/Citt_998_2.csv
+* matrimoni/Matr_017.csv
+* matrimoni/Matr_998_2.csv
+* morte/Morte_012.csv
+* morte/Morte_998_2.csv
+* nascita/Dic_Nasc_033.csv
+* nascita/Dic_Nasc_059.csv
+* nascita/Dic_Nasc_118.csv
+* nascita/Dic_Nasc_998_2.csv
+* unioni_civili/UnCiv_007.csv
+* unioni_civili/UnCiv_998_2.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_047.csv : 
+* Aggiunto 'evento.enteDichiarante.nomeEnte' (riga:9)
+
+### Modifiche per il caso uso cittadinanza/Citt_998_2.csv : 
+* Aggiunto 'evento.enteDichiarante.nomeEnte' (riga:9)
+
+### Modifiche per il caso uso matrimoni/Matr_017.csv : 
+* Aggiunto 'evento.enteDichiarante.nomeEnte' (riga:9)
+
+### Modifiche per il caso uso matrimoni/Matr_998_2.csv : 
+* Aggiunto 'evento.enteDichiarante.nomeEnte' (riga:9)
+
+### Modifiche per il caso uso morte/Morte_012.csv : 
+* Aggiunto 'evento.enteDichiarante.nomeEnte' (riga:9)
+
+### Modifiche per il caso uso morte/Morte_998_2.csv : 
+* Aggiunto 'evento.enteDichiarante.nomeEnte' (riga:9)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_033.csv : 
+* Aggiunto 'Allegati Atto notarile consenso' (riga:6)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_059.csv : 
+* Rimosso 'evento.madre.cognome'
+* Rimosso 'evento.madre.nome'
+* Rimosso 'evento.madre.sesso'
+* Rimosso 'evento.madre.dataNascita'
+* Rimosso 'evento.madre.idStatoNascita'
+* Rimosso 'evento.madre.nomeStatoNascita'
+* Rimosso 'evento.madre.idProvinciaNascita'
+* Rimosso 'evento.madre.siglaProvinciaNascita'
+* Rimosso 'evento.madre.idComuneNascita'
+* Rimosso 'evento.madre.nomeComuneNascita'
+* Rimosso 'evento.madre.idNazionalita'
+* Rimosso 'evento.madre.nazionalita'
+* Rimosso 'evento.madre.idStatoResidenza'
+* Rimosso 'evento.madre.nomeStatoResidenza'
+* Rimosso 'evento.madre.idProvinciaResidenza'
+* Rimosso 'evento.madre.siglaProvinciaResidenza'
+* Rimosso 'evento.madre.idComuneResidenza'
+* Rimosso 'evento.madre.nomeComuneResidenza'
+* Rimosso 'evento.madre.indirizzoResidenza'
+* Rimosso 'evento.madre.flagDichiarante'
+* Rimosso 'evento.madre.flagComparente'
+* Rimosso 'evento.madre.flagFirmatario'
+* Rimosso 'evento.padre.cognome'
+* Rimosso 'evento.padre.nome'
+* Rimosso 'evento.padre.sesso'
+* Rimosso 'evento.padre.dataNascita'
+* Rimosso 'evento.padre.idStatoNascita'
+* Rimosso 'evento.padre.nomeStatoNascita'
+* Rimosso 'evento.padre.idProvinciaNascita'
+* Rimosso 'evento.padre.siglaProvinciaNascita'
+* Rimosso 'evento.padre.idComuneNascita'
+* Rimosso 'evento.padre.nomeComuneNascita'
+* Rimosso 'evento.padre.idNazionalita'
+* Rimosso 'evento.padre.nazionalita'
+* Rimosso 'evento.padre.idStatoResidenza'
+* Rimosso 'evento.padre.nomeStatoResidenza'
+* Rimosso 'evento.padre.idProvinciaResidenza'
+* Rimosso 'evento.padre.siglaProvinciaResidenza'
+* Rimosso 'evento.padre.idComuneResidenza'
+* Rimosso 'evento.padre.nomeComuneResidenza'
+* Rimosso 'evento.padre.indirizzoResidenza'
+* Rimosso 'evento.padre.flagDichiarante'
+* Rimosso 'evento.padre.flagComparente'
+* Rimosso 'evento.padre.flagFirmatario'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_118.csv : 
+* Aggiunto 'evento.enteDichiarante.nomeEnte' (riga:9)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_2.csv : 
+* Aggiunto 'evento.enteDichiarante.nomeEnte' (riga:9)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_007.csv : 
+* Aggiunto 'evento.enteDichiarante.nomeEnte' (riga:15)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_2.csv : 
+* Aggiunto 'evento.enteDichiarante.nomeEnte' (riga:9)
+
+
+
 #Changelog mappatura casi uso 1.23.2  
 
 ## Casi uso aggiunti : 0

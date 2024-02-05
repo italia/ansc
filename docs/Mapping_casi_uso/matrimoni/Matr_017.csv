@@ -6,6 +6,7 @@
 "Formazione atto","Ora formazione","SI","evento","ora","","obbligatoria"
 "Formazione atto","Minuti formazione","SI","evento","minuto","","obbligatoria"
 "Ente dichiarante","Estremi documento","SI","evento.enteDichiarante","estremiDocumento","","obbligatoria"
+"Ente dichiarante","Nome ente","NO","evento.enteDichiarante","nomeEnte","190","obbligatoria"
 "Ente dichiarante","Provincia ente","SI","evento.enteDichiarante","idProvinciaEnte","","obbligatoria"
 "Ente dichiarante","Provincia ente - Descrizione","SI","evento.enteDichiarante","siglaProvinciaEnte","","obbligatoria"
 "Ente dichiarante","Comune ente","SI","evento.enteDichiarante","idComuneEnte","","obbligatoria"

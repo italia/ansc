@@ -1260,8 +1260,8 @@ components:
           $ref: '#/components/schemas/ModelSoggetto'
         riassuntoDichiarazione:
           type: string
-          description: Testo libero per annotazione 140-bis
-          example: "Testo libero"
+          description: riassumere brevemente il contenuto della dichiarazione per integrazione con l'annotazione di formula 140-bis.
+          example: "di essere attualmente di cittadinanza .. nato in .. nel comune di.. in data.. di aver risieduto in ..."
         presenzaInteressato:
           type: boolean
           description: L'interessato è presente o no?

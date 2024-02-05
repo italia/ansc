@@ -23,6 +23,28 @@ NOTE:
 
 ## [Unreleased]
 
+
+## [1.23.3 - 05-02-2024]
+
+### Fixed   
+	
+	Servizi cooperativi
+		- Servizi Cooperativi - Messaggi di errori non coerenti e da migliorare https://github.com/italia/ansc/issues/172
+		- Il campo evento.datiDiMorte.siglaProvinciaMorte nella sezione Dati Riconoscimento - Dati di morte non corrisponde al pattern ^[0-9]*$ https://github.com/italia/ansc/issues/623
+		- RICO_010 allegato obbligatorio https://github.com/italia/ansc/issues/634
+		- Annotazione relativa ad atto di dichiarazione di acquisto di cittadinanza https://github.com/italia/ansc/issues/635
+		- dic_nasc_033 allegati https://github.com/italia/ansc/issues/636
+		- Annotazione per trascrizioni matrimonio e divorzio https://github.com/italia/ansc/issues/637
+		- Divorzi/Separazione - Presenza Avvocati e Firma https://github.com/italia/ansc/issues/638
+		- Consultazione evento dopo annotazioni correttive multiple https://github.com/italia/ansc/issues/640
+		- [R005] - ricerca intestatario https://github.com/italia/ansc/issues/641
+		- Dic_Nasc_059 -  mapping: sono obbligatori i dati dei genitori https://github.com/italia/ansc/issues/644
+		- Anomalie cessazione effetti civili matrimonio (Sep_Div_005) https://github.com/italia/ansc/issues/647
+
+	Web App
+		- Trascrizione atti dall'estero https://github.com/italia/ansc/issues/593
+
+
 ## [1.23.2 - 29-01-2024]
 
 ### Fixed   	
