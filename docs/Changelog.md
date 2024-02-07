@@ -24,6 +24,14 @@ NOTE:
 ## [Unreleased]
 
 
+## [1.23.4 - 07-02-2024]
+
+### Fixed   
+	
+	Servizi cooperativi
+		- [R005] - ricerca intestatario https://github.com/italia/ansc/issues/669
+
+
 ## [1.23.3 - 05-02-2024]
 
 ### Fixed   
