@@ -24,6 +24,14 @@ NOTE:
 ## [Unreleased]
 
 
+## [1.23.5 - 08-02-2024]
+
+### Fixed   
+	
+	Servizi cooperativi
+		- [R005] - obbligatorietà criteri ricerca intestatario https://github.com/italia/ansc/issues/671
+
+
 ## [1.23.4 - 07-02-2024]
 
 ### Fixed   
