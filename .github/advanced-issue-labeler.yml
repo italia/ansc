@@ -6,7 +6,7 @@ policy:
     section:
       - id: [environment]
         label:
-          - name: "env:pre-produzione"
+          - name: "env:preproduzione"
             keys: ['pre-produzione']
           - name: "env:produzione"
             keys: ['produzione']     
