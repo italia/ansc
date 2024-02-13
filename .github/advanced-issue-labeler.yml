@@ -32,5 +32,5 @@ policy:
             keys: ['R008 - Servizi cooperativi notifiche']
           - name: "R009"
             keys: ['R009 - Servizi cooperativi validazione evento']
-          - name: "anteprima"
+          - name: "R010"
             keys: ['R010 - Servizi cooperativi anteprima']
