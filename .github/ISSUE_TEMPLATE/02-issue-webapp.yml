@@ -1,0 +1,78 @@
+name: "Issue WebApp ANSC"
+description: "Problemi che si verificano utilizzando l'applicazione web esposta su https://anscweb.anpr.interno.it/ansc"
+title: "[webapp]: "
+labels: ["bug", "webapp"]
+#assignees:
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Nel campo "Title" (qua sopra), inserisci una breve descrizione del problema. Per esempio: "Problema nel salvataggio dei dati"
+
+        **Importante!**  
+
+        Si chiede di **non inserire dati sensibili** dei cittadini, evitando qualsiasi nome, cognome, o codice fiscale. Non ci sono problemi invece nell'inserire dei codici di richiesta o identificativi di scheda.
+        Inoltre, si chiede di non inserire nessun dato relativo a configurazioni di sicurezza, quali certificati o password.
+  #label automatica utilizzando con il l'action https://github.com/marketplace/actions/advanced-issue-labeler
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Ambiente
+      description: In quale ambiente si è verificato il problema? (pre-produzione o produzione)
+      multiple: true
+      options:
+        - pre-produzione
+        - produzione 
+    validations:
+      required: true
+  - type: dropdown
+    id: provenienza
+    attributes:
+      label: Provenienza segnalazione
+      description: La segnalazione proviene da un comune o da un software house?
+      options:
+        - Software House
+        - Comune
+    validations:
+      required: true        
+  - type: input
+    id: operatore
+    attributes:
+      label: Riferimenti operatore/comune
+      description: Nome, cognome e comune di riferimento dell’operatore.
+    validations:
+      required: true
+  - type: input
+    id: data
+    attributes:
+      label: Data del test (yyyy-mm-dd)
+      description: Eventuale data in cui è stato effettuato il test che ha prodotto l'anomalia
+    validations:
+      required: false  
+  - type: input
+    id: usecase
+    attributes:
+      label: Caso d'uso
+      description: Eventuale caso d'uso.
+    validations:
+      required: false      
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrivi il problema
+      description: una descrizione accurata del comportamento o dell'errore, specificando che tipo di supporto si richiede;
+      placeholder: --inserisci una descrizione--
+    validations:
+      required: true  
+  - type: textarea
+    id: repro
+    attributes:
+      label: Come riprodurre il problema
+      description: Descrivi come riprodurre il problema in modo chiaro e dettagliato
+      placeholder: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: false  
