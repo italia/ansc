@@ -1,0 +1,36 @@
+---
+# syntax - https://github.com/redhat-plumbers-in-action/advanced-issue-labeler#policy
+
+policy:
+  - template: [01-issue-sc.yml, 02-issue-webapp.yml]
+    section:
+      - id: [environment]
+        label:
+          - name: "env:pre-produzione"
+            keys: ['pre-produzione']
+          - name: "env:produzione"
+            keys: ['produzione']     
+      - id: [service]
+        label:
+          - name: "R001"
+            keys: ['R001 - Servizi cooperativi allegati']
+          - name: "R002 certificazioni"
+            keys: ['R002 - Servizi cooperativi certificazioni']
+          - name: "R003"
+            keys: ['R003 - Servizi cooperativi comunicazioni']
+          - name: "R004"
+            keys: ['R004 - Servizi cooperativi consultazione anagrafe per gestione anagrafica evento di stato civile']
+          - name: "R005"
+            keys: ['R005 - Servizi cooperativi consultazione']
+          - name: "R006"
+            keys: ['R006 - Servizi cooperativi firma dichiarante']
+          - name: "R007"
+            keys: ['R007 - Servizi cooperativi firma ufficiale di stato civile']                         
+          - name: "R012"
+            keys: ['R012 - Servizi cooperativi firma elettronica del dichiarante']
+          - name: "R008"
+            keys: ['R008 - Servizi cooperativi notifiche']
+          - name: "R009"
+            keys: ['R009 - Servizi cooperativi validazione evento']
+          - name: "anteprima"
+            keys: ['R010 - Servizi cooperativi anteprima']

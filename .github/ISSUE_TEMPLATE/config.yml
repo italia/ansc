@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Domande o supporto sull'utilizzo dei servizi cooperativi
+    url: https://github.com/public-anpr/ansc-demo/discussions/new?category=supporto-servizi-cooperativi
+    about: Quesiti inerenti l'utilizzo dei servizi
+  - name: Domande o supporto sull'utilizzo della webapp
+    url: https://github.com/public-anpr/ansc-demo/discussions/new?category=supporto-webapp
+    about: Quesiti inerenti l'utilizzo dell'applicazione https://anscweb.anpr.interno.it/ansc
+  - name: Dove trovo la documentazione?
+    url: https://github.com/italia/ansc/blob/main/docs/index.md
+    about: Se hai dubbi su Contratto di servizio, OpenAPI, Decodifice, Mapping casi d'uso o cerchi esempi di payload

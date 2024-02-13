@@ -1,0 +1,120 @@
+name: "Issue Servizi Cooperativi ANSC"
+description: "Problemi che si verificano utilizzando i servizi cooperativi ANSC, come ad esempio R001-R014, etc"
+title: "[SC]: "
+labels: ["bug", "sc"]
+#assignees:
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Nel campo "Title" (qua sopra), inserisci una breve descrizione del problema 
+        Alcuni esempi: 
+        * Problema nella verifica dell'upload di un allegato
+        * Controlli obbligatorietà caso d'uso Rico_00x 111111x
+
+        Link utili:
+        * [Casi d'uso](https://github.com/italia/ansc/tree/main/docs/Mapping_casi_uso)
+        * Mapping [id use case/codice (Case_XXX)](https://github.com/italia/ansc/blob/main/docs/Mapping_casi_uso/3_dec_use_case.csv) 
+        * [Documentazione](https://github.com/italia/ansc/blob/main/docs/index.md)
+
+        **Importante!**  
+
+        Si chiede di **non inserire dati sensibili** dei cittadini, evitando qualsiasi nome, cognome, o codice fiscale. Non ci sono problemi invece nell'inserire dei codici di richiesta o identificativi di scheda.
+        Inoltre, si chiede di non inserire nessun dato relativo a configurazioni di sicurezza, quali certificati o password.
+  #label automatica utilizzando con il l'action https://github.com/marketplace/actions/advanced-issue-labeler
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Ambiente
+      description: In quale ambiente si è verificato il problema? (pre-produzione o produzione)
+      multiple: true
+      options:
+        - pre-produzione
+        - produzione 
+    validations:
+      required: true
+  - type: dropdown
+    id: service
+    attributes:
+      label: Servizio
+      description: Indica i servizi che sono coinvolti nella issue, se non sai a quale servizi far riferimento, consulta la documentazione [openapi](https://github.com/italia/ansc/tree/main/docs/openapi).
+      multiple: true
+      options:
+        - R001 - Servizi cooperativi allegati
+        - R002 - Servizi cooperativi certificazioni
+        - R003 - Servizi cooperativi comunicazioni
+        - R004 - Servizi cooperativi consultazione anagrafe per gestione anagrafica evento di stato civile
+        - R005 - Servizi cooperativi consultazione
+        - R006 - Servizi cooperativi firma dichiarante
+        - R007 - Servizi cooperativi firma ufficiale di stato civile
+        - R008 - Servizi cooperativi notifiche
+        - R009 - Servizi cooperativi validazione evento
+        - R010 - Servizi cooperativi anteprima
+        - R011 - Servizi cooperativi per la cancellazione logica di un atto
+        - R012 - Servizi cooperativi firma elettronica del dichiarante
+    validations:
+      required: true        
+  - type: input
+    id: idOperazione
+    attributes:
+      label: idOperazione
+      description: Inserisci il codice che trovi in "testataRisposta.idOperazione", nel caso di idOperazione assente indicare assente.
+    validations:
+      required: true
+  - type: input
+    id: idAlternativi
+    attributes:
+      label: idEvento o idAnsc
+      description: Inserisci idEvento oppure idAnsc o altro utile ad identificare univocamente la transazione.
+    validations:
+      required: false      
+  - type: dropdown
+    id: provenienza
+    attributes:
+      label: Provenienza segnalazione
+      description: La segnalazione proviene da un comune o da un software house?
+      options:
+        - Software House
+        - Comune
+    validations:
+      required: true        
+  - type: input
+    id: operatore
+    attributes:
+      label: Comune di riferimento e operatore
+      description: Denominazione del comune di riferimento e eventuale operatore.
+    validations:
+      required: true                          
+  - type: input
+    id: data
+    attributes:
+      label: Data del test (yyyy-mm-dd)
+      description: Eventuale data in cui è stato effettuato il test che ha prodotto l'anomalia
+    validations:
+      required: false 
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrivi il problema
+      description: una descrizione accurata del comportamento o dell'errore, specificando che tipo di supporto si richiede;
+      placeholder: --inserisci una descrizione--
+    validations:
+      required: true  
+  - type: textarea
+    id: repro
+    attributes:
+      label: Come riprodurre il problema
+      description: Descrivi come riprodurre il problema in modo chiaro e dettagliato
+      placeholder: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: false  
+  - type: textarea
+    id: payload
+    attributes:
+      label: Payload (json)
+      description: Eventuali dati rilevanti per riprodurre l'anomalia in formato json. Omettere dati sentibili con dei valori stub.
+      render: JSON
