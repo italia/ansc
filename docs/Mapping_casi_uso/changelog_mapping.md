@@ -1,3 +1,26 @@
+#Changelog mappatura casi uso 1.23.6  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 1
+* trascrizioni/Trascr_Matr_002.csv
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_002.csv : 
+* Aggiunto 'Allegati Atto estero di nascita originale o copia autentica' (riga:3)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.dataEvento' (riga:17)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.idStato' (riga:18)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.nomeStato' (riga:19)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.idProvincia' (riga:20)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.siglaProvincia' (riga:21)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.idComune' (riga:22)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.nomeComune' (riga:23)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.comuneEstero' (riga:24)
+* Presenti modifiche per 'evento.trascrizioneMatrimonio.dataComunicazione' (riga:25)
+* Presenti modifiche per 'evento.trascrizioneMatrimonio.testoLibero' (riga:26)
+
+
 #Changelog mappatura casi uso 1.23.3  
 
 ## Casi uso aggiunti : 0

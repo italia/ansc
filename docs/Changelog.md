@@ -23,6 +23,25 @@ NOTE:
 
 ## [Unreleased]
 
+### Changed
+
+  - Modifica template di apertura nuove issue
+
+## [1.23.6 - 13-02-2024]
+
+### Fixed   
+	
+	Servizi cooperativi
+	   - R002/R010 Data annotazioni https://github.com/italia/ansc/issues/656
+	   - caso d'uso 366999- Caso d'uso di servizio (comunicazione da altri comuni) https://github.com/italia/ansc/issues/661
+	   - R002/R010 Accordo di separazione e Accordo di divorzio https://github.com/italia/ansc/issues/657
+	   - R009 Trascrizione atto di separazione proveniente dall'estero https://github.com/italia/ansc/issues/663
+	   - R009 Trascrizione atto separazione da Stato estero su richiesta dell'interessato https://github.com/italia/ansc/issues/639
+	   - Negoziazione assistita: corrette annotazioni automatiche https://github.com/italia/ansc/issues/675
+	   - R009/R002/R010 Trascrizioni atti dall’estero caso d’uso 332000 (matrimonio), 1311 (nascita), 2213 (morte): aggiornamento allegati ed etichette dei metadati nell'estratto integrale  https://github.com/italia/ansc/issues/658
+	   - R010: Anteprima Atti (Unione Civile / Matrimonio), Sezione "Dati Evento": gestione della data https://github.com/italia/ansc/issues/672
+	   - R002: corretto errore certificazione se richiedente con Id ANPR https://github.com/italia/ansc/issues/684
+
 
 ## [1.23.5 - 08-02-2024]
 

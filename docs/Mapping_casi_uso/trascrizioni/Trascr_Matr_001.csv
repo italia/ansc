@@ -91,7 +91,7 @@
 "Richiedente","Indirizzo di residenza","NO","evento.dichiarante","indirizzoResidenza","192.1","obbligatoria"
 "Richiedente","flag dichiarante","SI","evento.dichiarante","flagDichiarante","","obbligatoria"
 "Richiedente","flag comparente","SI","evento.dichiarante","flagComparente","","obbligatoria"
-"Richiedente","flag firmatario","SI","evento.dichiarante","flagFirmatario","","obbligatoria"
+"Richiedente","Firmatario","NO","evento.dichiarante","flagFirmatario","192.1","obbligatoria"
 "Atto da trascrivere","Data formazione documento","SI","evento.trascrizioneMatrimonio.attoEstero.enteEstero","dataTrascrizione","","obbligatoria"
 "Atto da trascrivere","Estremi documento","SI","evento.trascrizioneMatrimonio.attoEstero.enteEstero","estremiDocumento","","obbligatoria"
 "Atto da trascrivere","Nome ente","SI","evento.trascrizioneMatrimonio.attoEstero.enteEstero","nomeEnte","","obbligatoria"
