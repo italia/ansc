@@ -52,6 +52,9 @@ body:
         - R010 - Servizi cooperativi anteprima
         - R011 - Servizi cooperativi per la cancellazione logica di un atto
         - R012 - Servizi cooperativi firma elettronica del dichiarante
+        - R013 - Servizi cooperativi per la validazione della rettifica
+        - R014 - Servizi cooperativi per la gestione data di validità verso anagrafe
+        - R901 - Servizio di configurazione per il reperibimento delle tabelle di decodifica    
     validations:
       required: true        
   - type: input
