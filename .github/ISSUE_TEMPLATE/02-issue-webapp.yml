@@ -1,7 +1,7 @@
 name: "Issue WebApp ANSC"
 description: "Problemi che si verificano utilizzando l'applicazione web esposta su https://anscweb.anpr.interno.it/ansc"
 title: "[webapp]: "
-labels: ["bug", "webapp"]
+labels: ["webapp"]
 #assignees:
 body:
   - type: markdown

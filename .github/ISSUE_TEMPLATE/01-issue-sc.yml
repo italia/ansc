@@ -1,7 +1,7 @@
 name: "Issue Servizi Cooperativi ANSC"
 description: "Problemi che si verificano utilizzando i servizi cooperativi ANSC, come ad esempio R001-R014, etc"
 title: "[SC]: "
-labels: ["bug", "sc"]
+labels: ["sc"]
 #assignees:
 body:
   - type: markdown
