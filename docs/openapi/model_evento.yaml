@@ -550,6 +550,10 @@ components:
           $ref: '#/components/schemas/ModelDocumentoRiconoscimento'     
         recapito:
           $ref: '#/components/schemas/ModelRecapito'
+        localitaEsteraNascita: 
+          type: string
+          description: Località estera di nascita
+          example: 'Madrid'   
     
     ModelEnteDichiarante:
       properties:
@@ -581,6 +585,14 @@ components:
           type: string
           description: Sigla della provincia dell'ente dichiarante.
           example: '123'
+        nazioneEnte:
+          type: string
+          description: Nazione dell'ente (decodifica ANPR_02)
+          example: "91"
+        nomeNazioneEnte:
+          type: string
+          description: Descrizione della nazione
+          example: "AUSTRIA"
         indirizzoEnte: 
           type: string
           description: Indirizzo dell'ente dichiarante.
@@ -887,6 +899,10 @@ components:
           type: string
           description: Minuto in cui e' avvenuto il decesso.
           example: '17'
+        comuneEstero: 
+           type: string
+           description: Comune Estero
+           example: 'Londra'         
     ModelVariazioni:
       #DEPRECATO da rimuovere il modello#
       properties:

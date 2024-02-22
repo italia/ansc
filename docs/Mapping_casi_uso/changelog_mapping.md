@@ -1,3 +1,1999 @@
+#Changelog mappatura casi uso 1.24.0  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 276
+* cittadinanza/Citt_001.csv
+* cittadinanza/Citt_002.csv
+* cittadinanza/Citt_003.csv
+* cittadinanza/Citt_004.csv
+* cittadinanza/Citt_005.csv
+* cittadinanza/Citt_006.csv
+* cittadinanza/Citt_007.csv
+* cittadinanza/Citt_008.csv
+* cittadinanza/Citt_009.csv
+* cittadinanza/Citt_010.csv
+* cittadinanza/Citt_011.csv
+* cittadinanza/Citt_012.csv
+* cittadinanza/Citt_013.csv
+* cittadinanza/Citt_014.csv
+* cittadinanza/Citt_017.csv
+* cittadinanza/Citt_018.csv
+* cittadinanza/Citt_019.csv
+* cittadinanza/Citt_020.csv
+* cittadinanza/Citt_021.csv
+* cittadinanza/Citt_022.csv
+* cittadinanza/Citt_023.csv
+* cittadinanza/Citt_024.csv
+* cittadinanza/Citt_025.csv
+* cittadinanza/Citt_026.csv
+* cittadinanza/Citt_027.csv
+* cittadinanza/Citt_028.csv
+* cittadinanza/Citt_029.csv
+* cittadinanza/Citt_030.csv
+* cittadinanza/Citt_031.csv
+* cittadinanza/Citt_032.csv
+* cittadinanza/Citt_033.csv
+* cittadinanza/Citt_034.csv
+* cittadinanza/Citt_035.csv
+* cittadinanza/Citt_036.csv
+* cittadinanza/Citt_037.csv
+* cittadinanza/Citt_038.csv
+* cittadinanza/Citt_039.csv
+* cittadinanza/Citt_040.csv
+* cittadinanza/Citt_041.csv
+* cittadinanza/Citt_043.csv
+* cittadinanza/Citt_044.csv
+* cittadinanza/Citt_045.csv
+* cittadinanza/Citt_046.csv
+* cittadinanza/Citt_998_3.csv
+* cittadinanza/Citt_999.csv
+* matrimoni/Matr_001.csv
+* matrimoni/Matr_002.csv
+* matrimoni/Matr_003.csv
+* matrimoni/Matr_004.csv
+* matrimoni/Matr_005.csv
+* matrimoni/Matr_007.csv
+* matrimoni/Matr_008.csv
+* matrimoni/Matr_009.csv
+* matrimoni/Matr_010.csv
+* matrimoni/Matr_011.csv
+* matrimoni/Matr_012.csv
+* matrimoni/Matr_013.csv
+* matrimoni/Matr_998_3.csv
+* matrimoni/Matr_999_1.csv
+* matrimoni/Matr_999_2.csv
+* matrimoni/Matr_Riconc_001.csv
+* matrimoni/Rico_Matr_999.csv
+* matrimoni/Sep_Div_001.csv
+* matrimoni/Sep_Div_002.csv
+* matrimoni/Sep_Div_003.csv
+* matrimoni/Sep_Div_004.csv
+* matrimoni/Sep_Div_005.csv
+* matrimoni/Sep_Div_006.csv
+* matrimoni/Sep_Div_007.csv
+* matrimoni/Sep_Div_008.csv
+* matrimoni/Sep_Div_999.csv
+* morte/Morte_001.csv
+* morte/Morte_002.csv
+* morte/Morte_003.csv
+* morte/Morte_005.csv
+* morte/Morte_006.csv
+* morte/Morte_007.csv
+* morte/Morte_008.csv
+* morte/Morte_009.csv
+* morte/Morte_010.csv
+* morte/Morte_011.csv
+* morte/Morte_998_3.csv
+* morte/Morte_999.csv
+* nascita/Dic_Nasc_001.csv
+* nascita/Dic_Nasc_002.csv
+* nascita/Dic_Nasc_003.csv
+* nascita/Dic_Nasc_004.csv
+* nascita/Dic_Nasc_005.csv
+* nascita/Dic_Nasc_006.csv
+* nascita/Dic_Nasc_007.csv
+* nascita/Dic_Nasc_008.csv
+* nascita/Dic_Nasc_009.csv
+* nascita/Dic_Nasc_010.csv
+* nascita/Dic_Nasc_011.csv
+* nascita/Dic_Nasc_012.csv
+* nascita/Dic_Nasc_013.csv
+* nascita/Dic_Nasc_014.csv
+* nascita/Dic_Nasc_015.csv
+* nascita/Dic_Nasc_016.csv
+* nascita/Dic_Nasc_017.csv
+* nascita/Dic_Nasc_018.csv
+* nascita/Dic_Nasc_019.csv
+* nascita/Dic_Nasc_020.csv
+* nascita/Dic_Nasc_021.csv
+* nascita/Dic_Nasc_022.csv
+* nascita/Dic_Nasc_023.csv
+* nascita/Dic_Nasc_024.csv
+* nascita/Dic_Nasc_025.csv
+* nascita/Dic_Nasc_026.csv
+* nascita/Dic_Nasc_027.csv
+* nascita/Dic_Nasc_028.csv
+* nascita/Dic_Nasc_029.csv
+* nascita/Dic_Nasc_030.csv
+* nascita/Dic_Nasc_031.csv
+* nascita/Dic_Nasc_032.csv
+* nascita/Dic_Nasc_033.csv
+* nascita/Dic_Nasc_034.csv
+* nascita/Dic_Nasc_035.csv
+* nascita/Dic_Nasc_036.csv
+* nascita/Dic_Nasc_037.csv
+* nascita/Dic_Nasc_038.csv
+* nascita/Dic_Nasc_039.csv
+* nascita/Dic_Nasc_040.csv
+* nascita/Dic_Nasc_041.csv
+* nascita/Dic_Nasc_042.csv
+* nascita/Dic_Nasc_043.csv
+* nascita/Dic_Nasc_044.csv
+* nascita/Dic_Nasc_045.csv
+* nascita/Dic_Nasc_046.csv
+* nascita/Dic_Nasc_047.csv
+* nascita/Dic_Nasc_048.csv
+* nascita/Dic_Nasc_049.csv
+* nascita/Dic_Nasc_050.csv
+* nascita/Dic_Nasc_051.csv
+* nascita/Dic_Nasc_052.csv
+* nascita/Dic_Nasc_053.csv
+* nascita/Dic_Nasc_054.csv
+* nascita/Dic_Nasc_055.csv
+* nascita/Dic_Nasc_056.csv
+* nascita/Dic_Nasc_057.csv
+* nascita/Dic_Nasc_058.csv
+* nascita/Dic_Nasc_059.csv
+* nascita/Dic_Nasc_060.csv
+* nascita/Dic_Nasc_061.csv
+* nascita/Dic_Nasc_062.csv
+* nascita/Dic_Nasc_063.csv
+* nascita/Dic_Nasc_064.csv
+* nascita/Dic_Nasc_065.csv
+* nascita/Dic_Nasc_066.csv
+* nascita/Dic_Nasc_067.csv
+* nascita/Dic_Nasc_068.csv
+* nascita/Dic_Nasc_069.csv
+* nascita/Dic_Nasc_070.csv
+* nascita/Dic_Nasc_071.csv
+* nascita/Dic_Nasc_072.csv
+* nascita/Dic_Nasc_073.csv
+* nascita/Dic_Nasc_074.csv
+* nascita/Dic_Nasc_075.csv
+* nascita/Dic_Nasc_076.csv
+* nascita/Dic_Nasc_077.csv
+* nascita/Dic_Nasc_078.csv
+* nascita/Dic_Nasc_079.csv
+* nascita/Dic_Nasc_080.csv
+* nascita/Dic_Nasc_081.csv
+* nascita/Dic_Nasc_082.csv
+* nascita/Dic_Nasc_083.csv
+* nascita/Dic_Nasc_084.csv
+* nascita/Dic_Nasc_085.csv
+* nascita/Dic_Nasc_086.csv
+* nascita/Dic_Nasc_087.csv
+* nascita/Dic_Nasc_088.csv
+* nascita/Dic_Nasc_089.csv
+* nascita/Dic_Nasc_090.csv
+* nascita/Dic_Nasc_091.csv
+* nascita/Dic_Nasc_092.csv
+* nascita/Dic_Nasc_093.csv
+* nascita/Dic_Nasc_094.csv
+* nascita/Dic_Nasc_095.csv
+* nascita/Dic_Nasc_096.csv
+* nascita/Dic_Nasc_097.csv
+* nascita/Dic_Nasc_098.csv
+* nascita/Dic_Nasc_099.csv
+* nascita/Dic_Nasc_100.csv
+* nascita/Dic_Nasc_101.csv
+* nascita/Dic_Nasc_102.csv
+* nascita/Dic_Nasc_103.csv
+* nascita/Dic_Nasc_104.csv
+* nascita/Dic_Nasc_105.csv
+* nascita/Dic_Nasc_106.csv
+* nascita/Dic_Nasc_107.csv
+* nascita/Dic_Nasc_108.csv
+* nascita/Dic_Nasc_109.csv
+* nascita/Dic_Nasc_110.csv
+* nascita/Dic_Nasc_111.csv
+* nascita/Dic_Nasc_112.csv
+* nascita/Dic_Nasc_113.csv
+* nascita/Dic_Nasc_114.csv
+* nascita/Dic_Nasc_115.csv
+* nascita/Dic_Nasc_116.csv
+* nascita/Dic_Nasc_117.csv
+* nascita/Dic_Nasc_120.csv
+* nascita/Dic_Nasc_998_3.csv
+* nascita/Dic_Nasc_999.csv
+* riconoscimenti/Rico_001.csv
+* riconoscimenti/Rico_002.csv
+* riconoscimenti/Rico_003.csv
+* riconoscimenti/Rico_004.csv
+* riconoscimenti/Rico_005.csv
+* riconoscimenti/Rico_006.csv
+* riconoscimenti/Rico_007.csv
+* riconoscimenti/Rico_008.csv
+* riconoscimenti/Rico_009.csv
+* riconoscimenti/Rico_010.csv
+* riconoscimenti/Rico_011.csv
+* riconoscimenti/Rico_012.csv
+* riconoscimenti/Rico_013.csv
+* riconoscimenti/Rico_014.csv
+* riconoscimenti/Rico_015.csv
+* riconoscimenti/Rico_016.csv
+* riconoscimenti/Rico_017.csv
+* riconoscimenti/Rico_018.csv
+* riconoscimenti/Rico_019.csv
+* riconoscimenti/Rico_020.csv
+* riconoscimenti/Rico_999.csv
+* trascrizioni/Trascr_001.csv
+* trascrizioni/Trascr_002.csv
+* trascrizioni/Trascr_003.csv
+* trascrizioni/Trascr_005.csv
+* trascrizioni/Trascr_006.csv
+* trascrizioni/Trascr_007.csv
+* trascrizioni/Trascr_008.csv
+* trascrizioni/Trascr_009.csv
+* trascrizioni/Trascr_010.csv
+* trascrizioni/Trascr_011.csv
+* trascrizioni/Trascr_012.csv
+* trascrizioni/Trascr_013.csv
+* trascrizioni/Trascr_014.csv
+* trascrizioni/Trascr_015.csv
+* trascrizioni/Trascr_016.csv
+* trascrizioni/Trascr_017.csv
+* trascrizioni/Trascr_018.csv
+* trascrizioni/Trascr_019.csv
+* trascrizioni/Trascr_020.csv
+* trascrizioni/Trascr_021.csv
+* trascrizioni/Trascr_022.csv
+* trascrizioni/Trascr_023.csv
+* trascrizioni/Trascr_024.csv
+* trascrizioni/Trascr_025.csv
+* trascrizioni/Trascr_026.csv
+* trascrizioni/Trascr_999.csv
+* trascrizioni/Trascr_Citt_999.csv
+* trascrizioni/Trascr_Matr_001.csv
+* trascrizioni/Trascr_Matr_002.csv
+* trascrizioni/Trascr_Matr_003.csv
+* trascrizioni/Trascr_Matr_004.csv
+* trascrizioni/Trascr_Matr_005.csv
+* trascrizioni/Trascr_Matr_999.csv
+* trascrizioni/Trascr_Morte_999.csv
+* trascrizioni/Trascr_UnCiv_001.csv
+* trascrizioni/Trascr_UnCiv_002.csv
+* trascrizioni/Trascr_UnCiv_003.csv
+* trascrizioni/Trascr_UnCiv_004.csv
+* trascrizioni/Trascr_UnCiv_999.csv
+* unioni_civili/Sciogl_UnCiv_001.csv
+* unioni_civili/Sciogl_UnCiv_002.csv
+* unioni_civili/Sciogl_UnCiv_003.csv
+* unioni_civili/Sciogl_UnCiv_004.csv
+* unioni_civili/Sciogl_UnCiv_005.csv
+* unioni_civili/Sciogl_UnCiv_999.csv
+* unioni_civili/UnCiv_001.csv
+* unioni_civili/UnCiv_002.csv
+* unioni_civili/UnCiv_003.csv
+* unioni_civili/UnCiv_004.csv
+* unioni_civili/UnCiv_005.csv
+* unioni_civili/UnCiv_998_3.csv
+* unioni_civili/UnCiv_999.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_001.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:24)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:47)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:71)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.comuneEstero' (riga:94)
+
+### Modifiche per il caso uso cittadinanza/Citt_002.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:23)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:46)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:70)
+
+### Modifiche per il caso uso cittadinanza/Citt_003.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:24)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:47)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:71)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.comuneEstero' (riga:94)
+
+### Modifiche per il caso uso cittadinanza/Citt_004.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:22)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:45)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:69)
+
+### Modifiche per il caso uso cittadinanza/Citt_005.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.datiEventoCittadinanza.parenteDiretto.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:81)
+
+### Modifiche per il caso uso cittadinanza/Citt_006.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:22)
+
+### Modifiche per il caso uso cittadinanza/Citt_007.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.datiEventoCittadinanza.parenteDiretto.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.comuneEstero' (riga:81)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:92)
+
+### Modifiche per il caso uso cittadinanza/Citt_008.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:22)
+
+### Modifiche per il caso uso cittadinanza/Citt_009.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.datiEventoCittadinanza.parenteDiretto.localitaEsteraNascita' (riga:59)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:83)
+
+### Modifiche per il caso uso cittadinanza/Citt_010.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:22)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.comuneEstero' (riga:44)
+
+### Modifiche per il caso uso cittadinanza/Citt_011.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:61)
+
+### Modifiche per il caso uso cittadinanza/Citt_012.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:22)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.comuneEstero' (riga:44)
+
+### Modifiche per il caso uso cittadinanza/Citt_013.csv : 
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:26)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:49)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:116)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:140)
+
+### Modifiche per il caso uso cittadinanza/Citt_014.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:22)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.comuneEstero' (riga:44)
+
+### Modifiche per il caso uso cittadinanza/Citt_017.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:21)
+
+### Modifiche per il caso uso cittadinanza/Citt_018.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:26)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.comuneEstero' (riga:48)
+
+### Modifiche per il caso uso cittadinanza/Citt_019.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:23)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:43)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:67)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.comuneEstero' (riga:90)
+
+### Modifiche per il caso uso cittadinanza/Citt_020.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:25)
+
+### Modifiche per il caso uso cittadinanza/Citt_021.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:56)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:116)
+
+### Modifiche per il caso uso cittadinanza/Citt_022.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:24)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:49)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:72)
+
+### Modifiche per il caso uso cittadinanza/Citt_023.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:22)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:47)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:71)
+
+### Modifiche per il caso uso cittadinanza/Citt_024.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:28)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:54)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.comuneEstero' (riga:101)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:124)
+
+### Modifiche per il caso uso cittadinanza/Citt_025.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:24)
+
+### Modifiche per il caso uso cittadinanza/Citt_026.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:22)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.comuneEstero' (riga:44)
+
+### Modifiche per il caso uso cittadinanza/Citt_027.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:22)
+
+### Modifiche per il caso uso cittadinanza/Citt_028.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:28)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.comuneEstero' (riga:49)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:60)
+
+### Modifiche per il caso uso cittadinanza/Citt_029.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:24)
+
+### Modifiche per il caso uso cittadinanza/Citt_030.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:26)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.comuneEstero' (riga:48)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:59)
+
+### Modifiche per il caso uso cittadinanza/Citt_031.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:24)
+
+### Modifiche per il caso uso cittadinanza/Citt_032.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:29)
+
+### Modifiche per il caso uso cittadinanza/Citt_033.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:28)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:55)
+
+### Modifiche per il caso uso cittadinanza/Citt_034.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:24)
+
+### Modifiche per il caso uso cittadinanza/Citt_035.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:24)
+
+### Modifiche per il caso uso cittadinanza/Citt_036.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:28)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:52)
+
+### Modifiche per il caso uso cittadinanza/Citt_037.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:24)
+
+### Modifiche per il caso uso cittadinanza/Citt_038.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:28)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:55)
+
+### Modifiche per il caso uso cittadinanza/Citt_039.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:24)
+
+### Modifiche per il caso uso cittadinanza/Citt_040.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:27)
+* Aggiunto 'evento.datiEventoCittadinanza.coniuge.localitaEsteraNascita' (riga:53)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:76)
+
+### Modifiche per il caso uso cittadinanza/Citt_041.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:24)
+
+### Modifiche per il caso uso cittadinanza/Citt_043.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:56)
+
+### Modifiche per il caso uso cittadinanza/Citt_044.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.datiEventoCittadinanza.delegato.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:78)
+
+### Modifiche per il caso uso cittadinanza/Citt_045.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:28)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:70)
+
+### Modifiche per il caso uso cittadinanza/Citt_046.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:29)
+
+### Modifiche per il caso uso cittadinanza/Citt_998_3.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:19)
+
+### Modifiche per il caso uso cittadinanza/Citt_999.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:24)
+
+### Modifiche per il caso uso matrimoni/Matr_001.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.localitaEsteraNascita' (riga:53)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:76)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:99)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.localitaEsteraNascita' (riga:122)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.localitaEsteraNascita' (riga:145)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.localitaEsteraNascita' (riga:168)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.localitaEsteraNascita' (riga:191)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.localitaEsteraNascita' (riga:298)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.localitaEsteraNascita' (riga:321)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.localitaEsteraNascita' (riga:344)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.localitaEsteraNascita' (riga:367)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.localitaEsteraNascita' (riga:413)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.localitaEsteraNascita' (riga:466)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:496)
+
+### Modifiche per il caso uso matrimoni/Matr_002.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.localitaEsteraNascita' (riga:68)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:91)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:114)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.localitaEsteraNascita' (riga:137)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.localitaEsteraNascita' (riga:160)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.localitaEsteraNascita' (riga:183)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.localitaEsteraNascita' (riga:206)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.localitaEsteraNascita' (riga:316)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.localitaEsteraNascita' (riga:339)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.localitaEsteraNascita' (riga:362)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.localitaEsteraNascita' (riga:393)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.localitaEsteraNascita' (riga:447)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.localitaEsteraNascita' (riga:500)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:530)
+
+### Modifiche per il caso uso matrimoni/Matr_003.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.localitaEsteraNascita' (riga:64)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:87)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:112)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.localitaEsteraNascita' (riga:137)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.localitaEsteraNascita' (riga:160)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.localitaEsteraNascita' (riga:183)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.localitaEsteraNascita' (riga:206)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.localitaEsteraNascita' (riga:282)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.localitaEsteraNascita' (riga:305)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.localitaEsteraNascita' (riga:328)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.localitaEsteraNascita' (riga:351)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.localitaEsteraNascita' (riga:397)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.localitaEsteraNascita' (riga:450)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:480)
+
+### Modifiche per il caso uso matrimoni/Matr_004.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.localitaEsteraNascita' (riga:59)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:88)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:111)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.localitaEsteraNascita' (riga:134)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.localitaEsteraNascita' (riga:157)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.localitaEsteraNascita' (riga:180)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.localitaEsteraNascita' (riga:203)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.localitaEsteraNascita' (riga:310)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.localitaEsteraNascita' (riga:333)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.localitaEsteraNascita' (riga:356)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.localitaEsteraNascita' (riga:379)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.localitaEsteraNascita' (riga:425)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.localitaEsteraNascita' (riga:478)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:508)
+
+### Modifiche per il caso uso matrimoni/Matr_005.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.localitaEsteraNascita' (riga:68)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:97)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:120)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.localitaEsteraNascita' (riga:143)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.localitaEsteraNascita' (riga:166)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.localitaEsteraNascita' (riga:189)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.localitaEsteraNascita' (riga:212)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.localitaEsteraNascita' (riga:322)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.localitaEsteraNascita' (riga:353)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.localitaEsteraNascita' (riga:384)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.localitaEsteraNascita' (riga:407)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.localitaEsteraNascita' (riga:453)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.localitaEsteraNascita' (riga:506)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:536)
+
+### Modifiche per il caso uso matrimoni/Matr_007.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:81)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:104)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.localitaEsteraNascita' (riga:211)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.localitaEsteraNascita' (riga:234)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.localitaEsteraNascita' (riga:257)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.localitaEsteraNascita' (riga:280)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.localitaEsteraNascita' (riga:326)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.localitaEsteraNascita' (riga:379)
+
+### Modifiche per il caso uso matrimoni/Matr_008.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:81)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:104)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.localitaEsteraNascita' (riga:211)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.localitaEsteraNascita' (riga:234)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.localitaEsteraNascita' (riga:257)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.localitaEsteraNascita' (riga:280)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.localitaEsteraNascita' (riga:326)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.localitaEsteraNascita' (riga:379)
+
+### Modifiche per il caso uso matrimoni/Matr_009.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:103)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.localitaEsteraNascita' (riga:126)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.localitaEsteraNascita' (riga:149)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.localitaEsteraNascita' (riga:172)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.localitaEsteraNascita' (riga:195)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.localitaEsteraNascita' (riga:328)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.localitaEsteraNascita' (riga:351)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.localitaEsteraNascita' (riga:374)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.localitaEsteraNascita' (riga:397)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.localitaEsteraNascita' (riga:443)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].localitaEsteraNascita' (riga:491)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.localitaEsteraNascita' (riga:557)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].localitaEsteraNascita' (riga:601)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:624)
+
+### Modifiche per il caso uso matrimoni/Matr_010.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.localitaEsteraNascita' (riga:67)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:90)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:113)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.localitaEsteraNascita' (riga:136)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.localitaEsteraNascita' (riga:159)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.localitaEsteraNascita' (riga:182)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.localitaEsteraNascita' (riga:205)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.localitaEsteraNascita' (riga:341)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.localitaEsteraNascita' (riga:364)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.localitaEsteraNascita' (riga:387)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.localitaEsteraNascita' (riga:418)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.localitaEsteraNascita' (riga:472)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].localitaEsteraNascita' (riga:520)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.localitaEsteraNascita' (riga:586)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].localitaEsteraNascita' (riga:630)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:653)
+
+### Modifiche per il caso uso matrimoni/Matr_011.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.localitaEsteraNascita' (riga:62)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:85)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:110)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.localitaEsteraNascita' (riga:135)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.localitaEsteraNascita' (riga:158)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.localitaEsteraNascita' (riga:181)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.localitaEsteraNascita' (riga:204)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.localitaEsteraNascita' (riga:306)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.localitaEsteraNascita' (riga:329)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.localitaEsteraNascita' (riga:352)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.localitaEsteraNascita' (riga:375)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.localitaEsteraNascita' (riga:421)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].localitaEsteraNascita' (riga:469)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.localitaEsteraNascita' (riga:535)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].localitaEsteraNascita' (riga:579)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:602)
+
+### Modifiche per il caso uso matrimoni/Matr_012.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:86)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:109)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.localitaEsteraNascita' (riga:132)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.localitaEsteraNascita' (riga:155)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.localitaEsteraNascita' (riga:178)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.localitaEsteraNascita' (riga:201)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.localitaEsteraNascita' (riga:334)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.localitaEsteraNascita' (riga:357)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.localitaEsteraNascita' (riga:380)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.localitaEsteraNascita' (riga:403)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.localitaEsteraNascita' (riga:449)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].localitaEsteraNascita' (riga:497)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.localitaEsteraNascita' (riga:563)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].localitaEsteraNascita' (riga:607)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:630)
+
+### Modifiche per il caso uso matrimoni/Matr_013.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.localitaEsteraNascita' (riga:65)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:94)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:117)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.localitaEsteraNascita' (riga:140)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.localitaEsteraNascita' (riga:163)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.localitaEsteraNascita' (riga:186)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.localitaEsteraNascita' (riga:209)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.localitaEsteraNascita' (riga:345)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.localitaEsteraNascita' (riga:368)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.localitaEsteraNascita' (riga:391)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.localitaEsteraNascita' (riga:422)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.localitaEsteraNascita' (riga:476)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].localitaEsteraNascita' (riga:524)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.localitaEsteraNascita' (riga:590)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].localitaEsteraNascita' (riga:634)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:657)
+
+### Modifiche per il caso uso matrimoni/Matr_998_3.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:19)
+
+### Modifiche per il caso uso matrimoni/Matr_999_1.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:28)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:51)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.localitaEsteraNascita' (riga:74)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.localitaEsteraNascita' (riga:97)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.localitaEsteraNascita' (riga:120)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.localitaEsteraNascita' (riga:143)
+
+### Modifiche per il caso uso matrimoni/Matr_999_2.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:28)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:51)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.localitaEsteraNascita' (riga:74)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.localitaEsteraNascita' (riga:97)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.localitaEsteraNascita' (riga:120)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.localitaEsteraNascita' (riga:143)
+
+### Modifiche per il caso uso matrimoni/Matr_Riconc_001.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:27)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:50)
+
+### Modifiche per il caso uso matrimoni/Rico_Matr_999.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:23)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:46)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_001.csv : 
+* Presenti modifiche per 'evento.separazione.luogoEventoMatrimonio.comuneEstero' (riga:18)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:51)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:74)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_002.csv : 
+* Presenti modifiche per 'evento.separazione.luogoEventoMatrimonio.comuneEstero' (riga:18)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:49)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:72)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_003.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:18)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:41)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.localitaEsteraNascita' (riga:65)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.localitaEsteraNascita' (riga:91)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_004.csv : 
+* Presenti modifiche per 'evento.separazione.luogoEventoMatrimonio.comuneEstero' (riga:17)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:60)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:83)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_005.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:39)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:62)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_006.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:23)
+* Aggiunto 'evento.trascrizioneSeparazione.atto.enteEstero.idProvinciaEnte' (riga:39)
+* Presenti modifiche per 'evento.trascrizioneSeparazione.atto.enteEstero.siglaProvinciaEnte' (riga:40)
+* Presenti modifiche per 'evento.trascrizioneSeparazione.atto.enteEstero.idComuneEnte' (riga:41)
+* Aggiunto 'evento.trascrizioneSeparazione.atto.enteEstero.nomeComuneEnte' (riga:42)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:70)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:93)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_007.csv : 
+* Presenti modifiche per 'evento.trascrizioneSeparazione.attoEstero.enteEstero.comuneEstero' (riga:26)
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:38)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:82)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:105)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_008.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:41)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.localitaEsteraNascita' (riga:65)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:139)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.localitaEsteraNascita' (riga:114)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_999.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:23)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:46)
+
+### Modifiche per il caso uso morte/Morte_001.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:39)
+* Aggiunto 'evento.datiEventoMorte.comparente1.localitaEsteraNascita' (riga:59)
+* Presenti modifiche per 'evento.datiEventoMorte.comparente1.idNazionalita' (riga:60)
+* Presenti modifiche per 'evento.datiEventoMorte.comparente1.nazionalita' (riga:61)
+* Aggiunto 'evento.datiEventoMorte.comparente2.localitaEsteraNascita' (riga:82)
+* Presenti modifiche per 'evento.datiEventoMorte.comparente2.idNazionalita' (riga:83)
+* Presenti modifiche per 'evento.datiEventoMorte.comparente2.nazionalita' (riga:84)
+* Aggiunto 'evento.coniuge.localitaEsteraNascita' (riga:128)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:151)
+
+### Modifiche per il caso uso morte/Morte_002.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:37)
+* Aggiunto 'evento.coniuge.localitaEsteraNascita' (riga:80)
+
+### Modifiche per il caso uso morte/Morte_003.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:37)
+* Aggiunto 'evento.coniuge.localitaEsteraNascita' (riga:80)
+
+### Modifiche per il caso uso morte/Morte_005.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.trascrizioneMorte.attoEstero.enteEstero.comuneEstero' (riga:48)
+* Aggiunto 'evento.coniuge.localitaEsteraNascita' (riga:85)
+
+### Modifiche per il caso uso morte/Morte_006.csv : 
+* Aggiunto 'evento.datiDiMorte.comuneEstero' (riga:24)
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:36)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:60)
+* Aggiunto 'evento.trascrizioneMorte.attoEstero.enteEstero.comuneEstero' (riga:73)
+* Aggiunto 'evento.coniuge.localitaEsteraNascita' (riga:110)
+
+### Modifiche per il caso uso morte/Morte_007.csv : 
+* Rimosso 'Allegati Atto estero di nascita originale o copia autentica'
+* Aggiunto 'evento.datiDiMorte.comuneEstero' (riga:25)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:38)
+* Aggiunto 'evento.trascrizioneMorte.attoEstero.enteEstero.comuneEstero' (riga:53)
+* Aggiunto 'evento.coniuge.localitaEsteraNascita' (riga:90)
+
+### Modifiche per il caso uso morte/Morte_008.csv : 
+* Aggiunto 'evento.datiDiMorte.comuneEstero' (riga:22)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:46)
+* Aggiunto 'evento.coniuge.localitaEsteraNascita' (riga:89)
+
+### Modifiche per il caso uso morte/Morte_009.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:23)
+* Aggiunto 'evento.trascrizioneMorte.ultimoLuogo.comuneEstero' (riga:40)
+* Aggiunto 'evento.trascrizioneMorte.attoEstero.enteEstero.comuneEstero' (riga:50)
+* Aggiunto 'evento.coniuge.localitaEsteraNascita' (riga:84)
+
+### Modifiche per il caso uso morte/Morte_010.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:21)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:45)
+* Aggiunto 'evento.trascrizioneMorte.ultimoLuogo.comuneEstero' (riga:62)
+* Aggiunto 'evento.trascrizioneMorte.attoEstero.enteEstero.comuneEstero' (riga:72)
+* Aggiunto 'evento.coniuge.localitaEsteraNascita' (riga:106)
+
+### Modifiche per il caso uso morte/Morte_011.csv : 
+* Aggiunto 'evento.datiDiMorte.comuneEstero' (riga:35)
+* Aggiunto 'evento.trascrizioneMorte.attoEstero.enteEstero.comuneEstero' (riga:40)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:61)
+* Aggiunto 'evento.trascrizioneMorte.atto.enteEstero.comuneEstero' (riga:80)
+* Aggiunto 'evento.coniuge.localitaEsteraNascita' (riga:114)
+
+### Modifiche per il caso uso morte/Morte_998_3.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:19)
+
+### Modifiche per il caso uso morte/Morte_999.csv : 
+* Aggiunto 'evento.datiDiMorte.comuneEstero' (riga:22)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.coniuge.localitaEsteraNascita' (riga:77)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_001.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:53)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:76)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:116)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_002.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:54)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:77)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:117)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_003.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_004.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:53)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:76)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:116)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_005.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:54)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:77)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:117)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_006.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:53)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:76)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:116)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_007.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_008.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_009.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_010.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:28)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:52)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:75)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:115)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_011.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:54)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:77)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:117)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_012.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_013.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:35)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:81)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_014.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_015.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_016.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_017.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:81)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_018.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:54)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:77)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:117)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_019.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:53)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:93)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_020.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:54)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:77)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:124)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_021.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:95)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_022.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:56)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:79)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:126)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_023.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:95)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_024.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:53)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:93)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_025.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:54)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:77)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:124)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_026.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:95)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_027.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:56)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:79)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:126)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_028.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:95)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_029.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:56)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:79)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:126)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_030.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:53)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:76)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:116)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_031.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_032.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_033.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:56)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:79)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:126)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_034.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:127)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_035.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:81)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:128)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_036.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:95)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_037.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:56)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:79)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:126)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_038.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:97)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_039.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:35)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:81)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:128)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_040.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:97)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_041.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:35)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:81)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:128)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_042.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:95)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_043.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:56)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:79)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:126)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_044.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:97)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_045.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:35)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:81)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:128)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_046.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:97)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_047.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:35)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:81)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:128)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_048.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_049.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_050.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:56)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:79)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_051.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:81)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:128)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_052.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:59)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:82)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:129)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_053.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:35)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:60)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:83)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:130)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_054.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:29)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:70)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_055.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:73)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_056.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:72)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_057.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:72)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_058.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:74)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_059.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:74)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_060.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:56)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:79)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_061.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:131)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_062.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:56)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:79)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_063.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:56)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:109)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_064.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:133)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_065.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:144)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_066.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:108)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_067.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:81)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_068.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:81)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:134)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_069.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:35)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:81)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_070.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:36)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:59)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:82)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:142)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_071.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:35)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:81)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_072.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:35)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:111)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_073.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:36)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:59)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:82)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:135)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_074.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:144)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_075.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:110)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_076.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:35)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:60)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:83)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:136)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_077.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_078.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:56)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:79)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_079.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_080.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:54)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:77)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:117)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_081.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:36)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:59)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:82)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_082.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:37)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:60)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:83)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:123)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_083.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:59)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:82)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_084.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:56)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:79)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_085.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_086.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_087.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:59)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:82)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_088.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_089.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:53)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:76)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:116)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_090.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_091.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:56)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:79)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:132)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_092.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:35)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:81)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:134)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_093.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_094.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_095.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_096.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_097.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_098.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:59)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:82)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_099.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:56)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:79)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_100.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_101.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_102.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_103.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_104.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_105.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:104)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_106.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:59)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:82)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:129)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_107.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:59)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:82)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:129)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_108.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:81)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_109.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:111)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_110.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_111.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:59)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:82)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_112.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:127)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_113.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:127)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_114.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:53)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:76)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:116)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_115.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_116.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:78)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:125)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_117.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:35)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:60)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:113)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_120.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:19)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_3.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:19)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_999.csv : 
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:24)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:47)
+
+### Modifiche per il caso uso riconoscimenti/Rico_001.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:54)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:77)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:147)
+
+### Modifiche per il caso uso riconoscimenti/Rico_002.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:54)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:77)
+
+### Modifiche per il caso uso riconoscimenti/Rico_003.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:35)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:81)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:111)
+
+### Modifiche per il caso uso riconoscimenti/Rico_004.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:54)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:77)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:100)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].localitaEsteraNascita' (riga:134)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:220)
+
+### Modifiche per il caso uso riconoscimenti/Rico_005.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:24)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:47)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:71)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].localitaEsteraNascita' (riga:105)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:152)
+
+### Modifiche per il caso uso riconoscimenti/Rico_006.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:56)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:79)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:102)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].localitaEsteraNascita' (riga:136)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:198)
+
+### Modifiche per il caso uso riconoscimenti/Rico_007.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:54)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:77)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:100)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].localitaEsteraNascita' (riga:134)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:207)
+
+### Modifiche per il caso uso riconoscimenti/Rico_008.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:53)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:76)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].localitaEsteraNascita' (riga:110)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:157)
+
+### Modifiche per il caso uso riconoscimenti/Rico_009.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:29)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:52)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:75)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].localitaEsteraNascita' (riga:109)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:144)
+
+### Modifiche per il caso uso riconoscimenti/Rico_010.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:54)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:77)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:100)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].localitaEsteraNascita' (riga:134)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:195)
+
+### Modifiche per il caso uso riconoscimenti/Rico_011.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:54)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:77)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:100)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].localitaEsteraNascita' (riga:134)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:181)
+
+### Modifiche per il caso uso riconoscimenti/Rico_012.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:53)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:76)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:99)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].localitaEsteraNascita' (riga:133)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:168)
+
+### Modifiche per il caso uso riconoscimenti/Rico_013.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:28)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:51)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:74)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:97)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:170)
+
+### Modifiche per il caso uso riconoscimenti/Rico_014.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:29)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:52)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:75)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:98)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:146)
+
+### Modifiche per il caso uso riconoscimenti/Rico_015.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:29)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:52)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:75)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:98)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:146)
+
+### Modifiche per il caso uso riconoscimenti/Rico_016.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:35)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:81)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:111)
+
+### Modifiche per il caso uso riconoscimenti/Rico_017.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:54)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:77)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:100)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].localitaEsteraNascita' (riga:134)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:181)
+
+### Modifiche per il caso uso riconoscimenti/Rico_018.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:36)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:59)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:82)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:105)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].localitaEsteraNascita' (riga:139)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:174)
+
+### Modifiche per il caso uso riconoscimenti/Rico_019.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:53)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:76)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].localitaEsteraNascita' (riga:110)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:184)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:207)
+
+### Modifiche per il caso uso riconoscimenti/Rico_020.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:23)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:46)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:69)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].localitaEsteraNascita' (riga:103)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:138)
+
+### Modifiche per il caso uso riconoscimenti/Rico_999.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:24)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:44)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:67)
+
+### Modifiche per il caso uso trascrizioni/Trascr_001.csv : 
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:21)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:44)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.comuneEstero' (riga:80)
+
+### Modifiche per il caso uso trascrizioni/Trascr_002.csv : 
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:57)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:80)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:131)
+
+### Modifiche per il caso uso trascrizioni/Trascr_003.csv : 
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:24)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:47)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:70)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:136)
+
+### Modifiche per il caso uso trascrizioni/Trascr_005.csv : 
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:25)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:48)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:71)
+* Aggiunto 'evento.trascrizioneNascita.attoEstero.enteEstero.comuneEstero' (riga:87)
+
+### Modifiche per il caso uso trascrizioni/Trascr_006.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:20)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:66)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:112)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:158)
+* Aggiunto 'evento.trascrizioneNascita.attoEstero.enteEstero.comuneEstero' (riga:174)
+
+### Modifiche per il caso uso trascrizioni/Trascr_007.csv : 
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:21)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:44)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:72)
+* Aggiunto 'evento.trascrizioneNascita.attoEstero.enteEstero.comuneEstero' (riga:76)
+
+### Modifiche per il caso uso trascrizioni/Trascr_008.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:20)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:43)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:66)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:89)
+* Aggiunto 'evento.trascrizioneNascita.attoEstero.enteEstero.comuneEstero' (riga:105)
+
+### Modifiche per il caso uso trascrizioni/Trascr_009.csv : 
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:20)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:43)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:66)
+* Aggiunto 'evento.trascrizioneNascita.attoEstero.enteEstero.comuneEstero' (riga:82)
+
+### Modifiche per il caso uso trascrizioni/Trascr_010.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:21)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:44)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:67)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:90)
+* Aggiunto 'evento.trascrizioneNascita.attoEstero.enteEstero.comuneEstero' (riga:118)
+
+### Modifiche per il caso uso trascrizioni/Trascr_011.csv : 
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:28)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:51)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:74)
+* Aggiunto 'evento.trascrizioneNascita.attoEstero.enteEstero.comuneEstero' (riga:102)
+
+### Modifiche per il caso uso trascrizioni/Trascr_012.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:42)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.comuneEstero' (riga:61)
+* Aggiunto 'evento.coniuge.localitaEsteraNascita' (riga:131)
+
+### Modifiche per il caso uso trascrizioni/Trascr_013.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:20)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:40)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:63)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.comuneEstero' (riga:85)
+
+### Modifiche per il caso uso trascrizioni/Trascr_014.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:20)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:40)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:63)
+
+### Modifiche per il caso uso trascrizioni/Trascr_015.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:21)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:41)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:64)
+
+### Modifiche per il caso uso trascrizioni/Trascr_016.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:20)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:40)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:63)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.comuneEstero' (riga:85)
+
+### Modifiche per il caso uso trascrizioni/Trascr_017.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:21)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:44)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:67)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.comuneEstero' (riga:89)
+
+### Modifiche per il caso uso trascrizioni/Trascr_018.csv : 
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:20)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:43)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:66)
+* Aggiunto 'evento.trascrizioneNascita.attoEstero.enteEstero.comuneEstero' (riga:82)
+
+### Modifiche per il caso uso trascrizioni/Trascr_019.csv : 
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:20)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:43)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:66)
+* Aggiunto 'evento.trascrizioneNascita.attoEstero.enteEstero.comuneEstero' (riga:82)
+
+### Modifiche per il caso uso trascrizioni/Trascr_020.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:21)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:44)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:67)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:90)
+* Aggiunto 'evento.trascrizioneNascita.attoEstero.enteEstero.comuneEstero' (riga:106)
+
+### Modifiche per il caso uso trascrizioni/Trascr_021.csv : 
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:21)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:44)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:67)
+* Aggiunto 'evento.trascrizioneNascita.attoEstero.enteEstero.comuneEstero' (riga:83)
+
+### Modifiche per il caso uso trascrizioni/Trascr_022.csv : 
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:19)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:42)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:70)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.comuneEstero' (riga:80)
+
+### Modifiche per il caso uso trascrizioni/Trascr_023.csv : 
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:53)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:76)
+
+### Modifiche per il caso uso trascrizioni/Trascr_024.csv : 
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:20)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:43)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:66)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:89)
+* Aggiunto 'evento.trascrizioneNascita.attoEstero.enteEstero.comuneEstero' (riga:105)
+
+### Modifiche per il caso uso trascrizioni/Trascr_025.csv : 
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:27)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:50)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:73)
+
+### Modifiche per il caso uso trascrizioni/Trascr_026.csv : 
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:25)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:48)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:71)
+
+### Modifiche per il caso uso trascrizioni/Trascr_999.csv : 
+* Presenti modifiche per 'evento.madre.sesso' (riga:15)
+* Presenti modifiche per 'evento.madre.dataNascita' (riga:16)
+* Presenti modifiche per 'evento.madre.idStatoNascita' (riga:17)
+* Presenti modifiche per 'evento.madre.nomeStatoNascita' (riga:18)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:23)
+* Presenti modifiche per 'evento.madre.idNazionalita' (riga:24)
+* Presenti modifiche per 'evento.madre.nazionalita' (riga:25)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:26)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:27)
+* Presenti modifiche per 'evento.padre.sesso' (riga:38)
+* Presenti modifiche per 'evento.padre.dataNascita' (riga:39)
+* Presenti modifiche per 'evento.padre.idStatoNascita' (riga:40)
+* Presenti modifiche per 'evento.padre.nomeStatoNascita' (riga:41)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:46)
+* Presenti modifiche per 'evento.padre.idNazionalita' (riga:47)
+* Presenti modifiche per 'evento.padre.nazionalita' (riga:48)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:49)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:50)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:69)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:93)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Citt_999.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:23)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:47)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_001.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.comuneEstero' (riga:24)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:38)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:61)
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:85)
+* Presenti modifiche per 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.comuneEstero' (riga:107)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_002.csv : 
+* Rimosso 'Allegati Atto estero di nascita originale o copia autentica'
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.comuneEstero' (riga:23)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:36)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:59)
+* Presenti modifiche per 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.comuneEstero' (riga:81)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_003.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.comuneEstero' (riga:24)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:38)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:61)
+* Presenti modifiche per 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.comuneEstero' (riga:83)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_004.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.comuneEstero' (riga:23)
+* Aggiunto 'evento.trascrizioneMatrimonio.officiante.localitaEsteraNascita' (riga:38)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:62)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:85)
+* Presenti modifiche per 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.comuneEstero' (riga:107)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_005.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.luogoCelebrazione.comuneEstero' (riga:16)
+* Aggiunto 'evento.trascrizioneMatrimonio.officiante.localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:55)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:78)
+* Presenti modifiche per 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.comuneEstero' (riga:100)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_999.csv : 
+* Presenti modifiche per 'evento.trascrizioneMatrimonio.attoEstero.enteEstero.comuneEstero' (riga:20)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:54)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:78)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Morte_999.csv : 
+* Aggiunto 'evento.datiDiMorte.comuneEstero' (riga:21)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:38)
+* Aggiunto 'evento.datiEventoMorte.comparente1.localitaEsteraNascita' (riga:61)
+* Aggiunto 'evento.eventoCollegato.idAnsc' (riga:74)
+* Aggiunto 'evento.eventoCollegato.idProvinciaRegistrazione' (riga:75)
+* Aggiunto 'evento.eventoCollegato.siglaProvinciaRegistrazione' (riga:76)
+* Aggiunto 'evento.eventoCollegato.idComuneRegistrazione' (riga:77)
+* Aggiunto 'evento.eventoCollegato.nomeComuneRegistrazione' (riga:78)
+* Aggiunto 'evento.eventoCollegato.idtipocontenuto' (riga:79)
+* Aggiunto 'evento.eventoCollegato.numeroatto' (riga:80)
+* Aggiunto 'evento.eventoCollegato.annoAtto' (riga:81)
+* Aggiunto 'evento.eventoCollegato.dataformazione' (riga:82)
+* Aggiunto 'evento.eventoCollegato.parte' (riga:83)
+* Aggiunto 'evento.eventoCollegato.serie' (riga:84)
+* Aggiunto 'evento.eventoCollegato.tipologia' (riga:85)
+* Aggiunto 'evento.coniuge.localitaEsteraNascita' (riga:119)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_001.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:56)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.attoEstero.enteEstero.comuneEstero' (riga:78)
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:90)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_002.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:56)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.attoEstero.enteEstero.comuneEstero' (riga:78)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_003.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:55)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.attoEstero.enteEstero.comuneEstero' (riga:77)
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:89)
+* Aggiunto 'evento.trascrizioneUnioneCivile.autoritaMittente.nazioneEnte' (riga:103)
+* Aggiunto 'evento.trascrizioneUnioneCivile.autoritaMittente.nomeNazioneEnte' (riga:104)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.autoritaMittente.idProvinciaEnte' (riga:105)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.autoritaMittente.siglaProvinciaEnte' (riga:106)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.autoritaMittente.idComuneEnte' (riga:107)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.autoritaMittente.nomeComuneEnte' (riga:108)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_004.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:55)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.attoEstero.enteEstero.comuneEstero' (riga:77)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_999.csv : 
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.attoEstero.enteEstero.comuneEstero' (riga:20)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:54)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:78)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_001.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:26)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:49)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:84)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_002.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:31)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:54)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:89)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_003.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:26)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:49)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_004.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:25)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:48)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_005.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:24)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:47)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_999.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:23)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:46)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_001.csv : 
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.localitaEsteraNascita' (riga:49)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:82)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:105)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.localitaEsteraNascita' (riga:128)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.localitaEsteraNascita' (riga:151)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.localitaEsteraNascita' (riga:174)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.localitaEsteraNascita' (riga:197)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:247)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_002.csv : 
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.localitaEsteraNascita' (riga:59)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:92)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:115)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.localitaEsteraNascita' (riga:138)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.localitaEsteraNascita' (riga:161)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.localitaEsteraNascita' (riga:184)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.localitaEsteraNascita' (riga:207)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:269)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_003.csv : 
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.localitaEsteraNascita' (riga:58)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:91)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:116)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.localitaEsteraNascita' (riga:141)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.localitaEsteraNascita' (riga:164)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.localitaEsteraNascita' (riga:187)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.localitaEsteraNascita' (riga:210)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:249)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_004.csv : 
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.localitaEsteraNascita' (riga:52)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:86)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:109)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.localitaEsteraNascita' (riga:132)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.localitaEsteraNascita' (riga:155)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.localitaEsteraNascita' (riga:178)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.localitaEsteraNascita' (riga:201)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:244)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_005.csv : 
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.localitaEsteraNascita' (riga:59)
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:98)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:121)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.localitaEsteraNascita' (riga:144)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.localitaEsteraNascita' (riga:167)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.localitaEsteraNascita' (riga:190)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.localitaEsteraNascita' (riga:213)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:275)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_3.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:19)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_999.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:28)
+* Aggiunto 'evento.intestatari[1].localitaEsteraNascita' (riga:51)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.localitaEsteraNascita' (riga:74)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.localitaEsteraNascita' (riga:97)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.localitaEsteraNascita' (riga:120)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.localitaEsteraNascita' (riga:143)
+
+
 #Changelog mappatura casi uso 1.23.6  
 
 ## Casi uso aggiunti : 0

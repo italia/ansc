@@ -26,6 +26,7 @@
 "Intestatario","Provincia Nascita - Descrizione","NO","evento.intestatari[0]","siglaProvinciaNascita","","obbligatoria"
 "Intestatario","Comune Nascita","NO","evento.intestatari[0]","idComuneNascita","","obbligatoria"
 "Intestatario","Comune Nascita - Descrizione","NO","evento.intestatari[0]","nomeComuneNascita","","obbligatoria"
+"Intestatario","Località estera","NO","evento.intestatari[0]","localitaEsteraNascita","","obbligatoria"
 "Intestatario","Nazionalità","SI","evento.intestatari[0]","idNazionalita","","obbligatoria"
 "Intestatario","Nazionalità   - Descrizione","SI","evento.intestatari[0]","nazionalita","","obbligatoria"
 "Intestatario","Stato Residenza","SI","evento.intestatari[0]","idStatoResidenza","","obbligatoria"

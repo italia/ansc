@@ -23,9 +23,47 @@ NOTE:
 
 ## [Unreleased]
 
-### Changed
+## [1.24.0 - 22-02-2024]
 
-  - Modifica template di apertura nuove issue
+### Added
+    Versione
+       - Aggiunta nuova versione 100009
+
+    model_evento.yaml
+        - Aggiunto campo nel ModelSoggetto come segue: 
+         	    localitaEsteraNascita: 
+                  type: string
+                  description: Località estera di nascita
+                  example: 'Madrid'       
+                  
+        - Aggiunti campi nel ModelEnteDichiarante come segue:       
+                nazioneEnte:
+                  type: string
+                  description: Nazione dell'ente (decodifica ANPR_02)
+                  example: "91"
+                nomeNazioneEnte:
+                  type: string
+                  description: Descrizione della nazione
+                  example: "AUSTRIA"
+        - Aggiunto campo nel ModelDatiDiMorte come segue:
+                comuneEstero: 
+                  type: string
+                  description: Comune Estero
+                  example: 'Londra'         
+### Fixed
+	Servizi cooperativi
+	   - Gestione comune estero https://github.com/italia/ansc/issues/674
+	   - 346000 Trascrizione delle sentenze di deliberazione, da parte della Corte d’Appello, delle sentenze di nullità del matrimonio pronunciate dai Tribunali Ecclesiastici (Sep_Div_006) https://github.com/italia/ansc/issues/670
+	   - USECASE 347000 Trascrizione provvedimenti esteri in materia matrimoniale. Sep_Div_007 https://github.com/italia/ansc/issues/673
+	   - [R009] Errore Validazione Annotazione per Cambio Generalità Genitore https://github.com/italia/ansc/issues/680
+	   - usecase 433000 Trascrizione di Unione Civile di sentenze di Tribunali stranieri - Richiesta di trascrizione da parte dell'interessato (Trascr_UnCiv_003) https://github.com/italia/ansc/issues/687
+	   - Dichiarazione di morte: cittadinanza del comparente https://github.com/italia/ansc/issues/690
+	   - [ws R009] Trascrizione Nascita (cdu 1399) - Dati genitori obbligatori https://github.com/italia/ansc/issues/691
+	   - [SC]: 1399 trascrizione - metadati obbligatori per madre e padre https://github.com/italia/ansc/issues/695
+	   - [SC]: R013 - Validazione Annotazione Modificativa - Errore senza alcuna descrizione https://github.com/italia/ansc/issues/699
+	   - [webapp] - [SC]: Allegati per caso d'uso 332000 https://github.com/italia/ansc/issues/704
+       - usecase trascr_matr_005 errore campo obbligatorio https://github.com/italia/ansc/issues/702
+
 
 ## [1.23.6 - 13-02-2024]
 
