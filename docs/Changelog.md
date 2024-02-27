@@ -23,6 +23,14 @@ NOTE:
 
 ## [Unreleased]
 
+
+## [1.24.1 - 27-02-2024]
+
+### Fixed
+
+- corretta trascrizione resa da direzione sanitaria
+
+
 ## [1.24.0 - 22-02-2024]
 
 ### Added
