@@ -319,8 +319,22 @@ components:
         operatoreFirmatarioCognome:
           type: string
           description: Cognome dell'operatore che ha firmato l'atto.
-          example: 'ROSSI'
-          
+          example: 'ROSSI'                   
+        noteTecniche:
+          type: array
+          items:
+            type: string
+            description: lista delle note tecniche associate all'evento
+        datiNotaTecnica:
+          $ref: '#/components/schemas/ModelNotaTecnica'
+    
+    ModelNotaTecnica:
+      properties:        
+        eventoDaModificare:
+         $ref: '#/components/schemas/ModelAttoCollegato'
+        notaTecnica:
+          type: string         
+          description: nota tecnica associate all'evento
     ModelAttoCollegato:
       properties:
         id: 
@@ -616,14 +630,6 @@ components:
         - $ref: '#/components/schemas/ModelEnteDichiarante'
         - type: object
           properties:
-            nazioneEnte:
-              type: string
-              description: Nazione estera dell'ente (decodifica ANPR_02)
-              example: "91"
-            nomeNazioneEnte:
-              type: string
-              description: Descrizione della nazione estera
-              example: "AUSTRIA"
             comuneEstero:
               type: string
               description: comune estero della nazione estera

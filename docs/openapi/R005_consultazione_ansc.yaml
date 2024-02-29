@@ -45,6 +45,42 @@ paths:
            application/json:
              schema:
                  $ref: '#/components/schemas/ConsultazioneANSCResponse'
+                 
+  /consultazione/ansc/evento/note/tecniche/{version}:
+    post:
+      description: Ricerca di tutte le note tecniche afferenti all'evento passato in input 
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string
+      requestBody:
+         required: true
+         content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConsultazioneANSCEventoNoteTecnicheRequest'
+      responses:
+       200:
+          description: Note Tecniche richieste dalla ricerca
+          content:
+            application/json:
+             schema:
+                 $ref: '#/components/schemas/ConsultazioneANSCResponse'
+       403:
+         description: Non autorizzato
+         content:
+           application/json:
+             schema:
+                 $ref: '#/components/schemas/ConsultazioneANSCResponse'
+       400:
+         description: Se non arriva una firma valida (deve essere diversa da null)
+         content:
+           application/json:
+             schema:
+                 $ref: '#/components/schemas/ConsultazioneANSCResponse'
   /consultazione/ansc/soggetto/{version}:
     post:
       description: Ricerca tramite dati soggetto
@@ -162,6 +198,12 @@ components:
           type: string
           description: identificativo del comune di registrazione
           example: "178"
+    CriteriRicercaNotaTecnica:
+      properties:
+        idAnsc:
+          type: string
+          description: Id Nazionale univoco assegnato dal sistema.
+          example: "2022-9423-26624-040007"        
     CriteriRicercaSoggetto:
       properties:
         idAnpr:
@@ -212,7 +254,7 @@ components:
           type: string
           format: date
           description: Data Di Nascita
-          example: '2020-01-01'   
+          example: '2020-01-01'
     ConsultazioneANSCEventoRequest:
       description: Richiesta del servizio di ricerca per evento
       allOf:
@@ -222,7 +264,17 @@ components:
             - criteriRicercaEvento
           properties:
             criteriRicercaEvento:
-                $ref: '#/components/schemas/CriteriRicercaEvento'            
+                $ref: '#/components/schemas/CriteriRicercaEvento'    
+    ConsultazioneANSCEventoNoteTecnicheRequest:
+      description: Richiesta del servizio di consultazione per le note tecniche afferenti all'evento passato in input 
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:
+            idEvento:
+              type: string
+              description: Id univoco interno dell'evento a cui fa riferimento la nota tecnica
+              example: "35634"           
     ConsultazioneANSCSoggettoRequest:
       description: Richiesta del servizio di ricerca per soggetto
       allOf:
@@ -254,3 +306,4 @@ components:
               type: array
               items:
                 $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
+    
