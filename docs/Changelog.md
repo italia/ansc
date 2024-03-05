@@ -23,6 +23,56 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.25.1 - 05-03-2024]
+
+### Fixed
+
+- R005 - Consultazione Intestatario soggetto estero richiede comune o provincia di nascita <https://github.com/italia/ansc/issues/744>
+
+
+## [1.25.0 - 29-02-2024]
+
+### Added
+
+- Processo
+  - Web Application: Gestione delle Note Tecniche per atti completati contenenti metadati errati a causa di bug di sistema; la nota tecnica è utilizzabile solo da web application; lato servizi cooperativi è stato implementato il solo servizio di consultazione
+
+- model_evento.yaml: i seguenti campi sono utilizzati nel servizio di consultazione nota tecnica
+  - Aggiunti campi nel ModelEvento come segue:
+  
+```
+            noteTecniche:
+	          type: array
+	          items:
+	            type: string
+	            description: lista delle note tecniche associate all'evento
+            datiNotaTecnica:
+              $ref: '#/components/schemas/ModelNotaTecnica'
+            ModelNotaTecnica:
+		      properties:        
+		        eventoDaModificare:
+		         $ref: '#/components/schemas/ModelAttoCollegato'
+		        notaTecnica:
+		          type: string         
+		          description: nota tecnica associate all'evento
+```
+
+- Aggiunto valore 2 = NOTATECNICA alla decodifica ANSC_79
+- Servizi cooperativi
+  - R005_consultazione_ansc.yaml			
+    - Aggiunto servizio: /consultazione/ansc/evento/note/tecniche/{version} (Ricerca di tutte le note tecniche afferenti all'evento passanto in input)
+
+### Fixed
+
+- Servizi cooperativi
+  - Rimossi i campi nomeNazioneEnte e nazioneEnte dal ModelEnteEstero in quanto ereditati da modelEnteDichiarante dal file model_evento.yaml (https://github.com/italia/ansc/issues/719)
+  - Annotazione modificativa generica: aggiunto controllo sull'id dell'intestario mancante (https://github.com/italia/ansc/issues/712)
+  - Caso d'uso Rico_005: anomala richiesta campo "Riconoscimento genitore" (https://github.com/italia/ansc/issues/713)
+  - [R009] per Matr_999_2: corretto controllo sul numeroTestimoni (https://github.com/italia/ansc/issues/715)
+  - [R009] - Validazione Sep_Div_006 controllo errato su siglaProvinciaEnte dell'Autorità mittente (https://github.com/italia/ansc/issues/728)
+
+- Web Application
+  - Sciogl_UnCiv_005: errata configurazione della formula usata (https://github.com/italia/ansc/issues/722)
 
 ## [1.24.1 - 27-02-2024]
 
