@@ -23,6 +23,14 @@ NOTE:
 
 ## [Unreleased]
 
+
+## [1.25.2 - 05-03-2024]
+
+### Fixed
+
+- R005 - Integrazione documentazione consultazione soggetto intestatario <https://github.com/italia/ansc/issues/744>
+
+
 ## [1.25.1 - 05-03-2024]
 
 ### Fixed

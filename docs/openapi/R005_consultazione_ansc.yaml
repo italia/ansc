@@ -118,7 +118,7 @@ paths:
                  $ref: '#/components/schemas/ConsultazioneANSCResponse'
   /consultazione/ansc/intestatario/{version}:
     post:
-      description: Ricerca intestatrio tramite dati anagrafici
+      description: Ricerca intestatario tramite dati anagrafici (restituisce sia soggetti già presenti in ANSC, che in ANPR, nel secondo caso, la property id non viene impostata)
       parameters:
         - name: version
           in: path
