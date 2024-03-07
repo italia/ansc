@@ -56,3 +56,10 @@ Si ricorda di inserire sempre:
 ## 5. Il processo di change mgmt
 
 ANSC gestisce il rilascio di nuovi versioni del sistema tramite un processo di [change management](ChangeManagement.md) che coinvolge tutti gli stakeholder progettuali. 
+
+
+## 6. Ulteriore documentazione
+
+Sul portale di ANPR è possibile trovare ulteriore [documentazione relativa al progetto ANSC](https://www.anagrafenazionale.interno.it/area-tecnica/guida-ansc/), in particolare : 
+- Nota tecnica per l’utilizzo della nuova numerazione degli atti digitali
+- Guida operativa per la gestione dell’adesione progressiva
