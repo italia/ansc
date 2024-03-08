@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.25.3 - 08-03-2024]
+
+### Fixed
+
+- Data fine validità record 0 e 1 tabella 79 <https://github.com/italia/ansc/discussions/738>
+
 
 ## [1.25.2 - 05-03-2024]
 
