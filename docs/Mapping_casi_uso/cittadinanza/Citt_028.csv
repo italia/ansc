@@ -46,7 +46,7 @@
 "Documentazione prestazione servizio militare","Provincia ente - Descrizione","NO","evento.trascrizioneNascita.atto.enteEstero","siglaProvinciaEnte","","obbligatoria"
 "Documentazione prestazione servizio militare","Comune ente","NO","evento.trascrizioneNascita.atto.enteEstero","idComuneEnte","","obbligatoria"
 "Documentazione prestazione servizio militare","Comune ente - Descrizione","NO","evento.trascrizioneNascita.atto.enteEstero","nomeComuneEnte","","obbligatoria"
-"Documentazione prestazione servizio militare","Località estera","SI","evento.trascrizioneNascita.atto.enteEstero","comuneEstero","","obbligatoria"
+"Documentazione prestazione servizio militare","Località estera","NO","evento.trascrizioneNascita.atto.enteEstero","comuneEstero","","obbligatoria"
 "Interprete","Cognome","NO","evento.interprete","cognome","195,196","evento.ausilioInterprete,=,false"
 "Interprete","Nome","SI","evento.interprete","nome","","evento.ausilioInterprete,=,false"
 "Interprete","Sesso","SI","evento.interprete","sesso","","evento.ausilioInterprete,=,false"

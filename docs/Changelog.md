@@ -21,7 +21,65 @@ NOTE:
 - Per verificare le differenze tra due versioni di questo repository, è possibile usare anche gli strumenti di comparazione messi a disposizione da git, in particolare l'interfaccia web di github, ad esempio [Questa è la comparazione tra il tag v1.19.0 e il tag v1.20.0](https://github.com/italia/ansc/compare/v1.19.0...v1.20.0) 
 - Inoltre per l'elenco delle principali modifiche apportate specificatamente al mapping dei casi d'uso, è presente un [changelog dedicato](Mapping_casi_uso/changelog_mapping.md).
 
+
 ## [Unreleased]
+
+## [1.26.0 - 11-03-2024]
+
+### Added
+
+- Processo
+  - Web Application: Gestione della firma USC dell'Attestazione di conformità di eventuali allegati presenti nell'atto
+  - Servizi cooperativi: Gestione della firma USC dell'Attestazione di conformità di eventuali allegati presenti nell'atto
+
+- model_evento.yaml
+  - Aggiunti campi dataEventoUnioneCivile,luogoEventoUnioneCivile,officianteEventoUnioneCivile in ModelScioglimentoUnioneCivile
+  - Aggiunto campo confermaAccordoSeparazione in ModelSeparazione
+  - Aggiunto campo flagAttestazione in ModelAllegatoRif
+- R007_firma_usc.yaml
+  - Aggiunto nuovo servizio: /attestazione/firma/{version} (per la firma USC dell'Attestazione di conformità)
+- R010_anteprima.yaml
+  - Aggiunto nuovo servizio: /attestazione/anteprima/{version} (per l'anteprima dell'Attestazione di conformità)
+- Versione
+  - Aggiunta versione 100010 (se l'evento viene acquisito con questa versione o successive, è obbligatorio firmare l'attestazione di conformità prima della firma dell'ufficiale di stato civile)
+- Allegato
+  - Aggiunto allegato con ID 100 "Atto di dichiarazione di nascita redatto dalla direzione sanitaria" obbligatorio in Trascr_022
+  
+### Fixed
+
+- Web Application
+  - [webapp]: dataAtto / dataFormazione / dataEvento - caso Unione Civile 
+  <https://github.com/italia/ansc/issues/697>
+  - NOTA tecnica: errore validazione evento con idVersion pregressi
+  <https://github.com/italia/ansc/issues/759>
+  - [3.4.2.0.0.0] Accordo di scioglimento (o di cessazione degli effetti civili) del matrimonio (divorzio): minuta non corretta 
+  <https://github.com/italia/ansc/issues/709>
+
+- Servizi cooperativi
+  - R009: matrimonio con rito civile e Matr_999_1: nazionalità testimoni si richiede facoltativa
+  <https://github.com/italia/ansc/issues/750>
+  - R009: Inserito controllo coerenza tipoevento e tipocontenuto, e idUsecase 
+  - [R002]: data non valorizzata nella copia integrale 
+  <https://github.com/italia/ansc/issues/725> 
+  - R009: 319999 - rendere opzionali i testimoni 
+  <https://github.com/italia/ansc/issues/739>	
+  - R009: 5.2.1.2.2 - Straniero nato in italia che vi abbia risieduto legalmente senza interruzioni fino alla maggiore età 
+  <https://github.com/italia/ansc/issues/752> 
+  - Trascrizione resa da direttore sanitario: reso obbligatorio allegato 'atto di dichiarazione di nascita'
+  <https://github.com/italia/ansc/issues/748> 
+  - R010: certificazione - Rico_006 errore in template certificazione/anteprima
+  <https://github.com/italia/ansc/issues/745> 
+  - R009: 3.4.8.0.0.0 - Mancata conferma divorzio in assenza di entrambi i coniugi
+  <https://github.com/italia/ansc/issues/755> 
+  - R009: Caso d'uso Dic_Nasc_999 - richiesta di aggiunta di un soggetto dichiarante facoltativo
+  <https://github.com/italia/ansc/issues/734> 
+
+-Trasversale
+  - Annotazione automatica non corretta per atto di nascita a seguito di trascrizione di trascrizione atto di morte all'estero richiesto da pubblica autorità
+  <https://github.com/italia/ansc/issues/740>
+  - Annotazione automatica per atto di nascita generata a partire da trascrizione di atto di matrimonio
+	<https://github.com/italia/ansc/issues/736>
+  
 
 ## [1.25.3 - 08-03-2024]
 

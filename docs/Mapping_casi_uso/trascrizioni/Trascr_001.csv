@@ -77,4 +77,4 @@
 "Atto da trascrivere","Provincia ente - Descrizione","NO","evento.trascrizioneNascita.atto.enteEstero","siglaProvinciaEnte","105-ter","obbligatoria"
 "Atto da trascrivere","Comune ente","NO","evento.trascrizioneNascita.atto.enteEstero","idComuneEnte","","obbligatoria"
 "Atto da trascrivere","Comune ente - Descrizione","NO","evento.trascrizioneNascita.atto.enteEstero","nomeComuneEnte","105-ter","obbligatoria"
-"Atto da trascrivere","Località estera","SI","evento.trascrizioneNascita.atto.enteEstero","comuneEstero","","obbligatoria"
+"Atto da trascrivere","Località estera","NO","evento.trascrizioneNascita.atto.enteEstero","comuneEstero","105-ter","obbligatoria"

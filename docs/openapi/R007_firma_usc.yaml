@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   title: Servizi cooperativi per firma USC
-  version: '1.4.0'  
+  version: '1.26.0'
 servers:
   - url: https://anscservice.anpr.interno.it/services/service/firma
     description: Servizio di produzione      
@@ -45,6 +45,41 @@ paths:
             application/json: 
              schema: 
                 $ref: '#/components/schemas/FirmaResponse'
+  '/attestazione/firma/{version}':
+    post:
+      description: Firma remota Ufficiale Stato Civile dell'Attestazione di conformità
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/FirmaAttestazioneRequest'
+      responses:
+        '200':
+          description: Successo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FirmaAttestazioneResponse'
+        '400':
+          description: Se non arriva un evento valido
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FirmaAttestazioneResponse'
+        '403':
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FirmaAttestazioneResponse'
 components:
   schemas:
     FirmaInput:
@@ -78,7 +113,7 @@ components:
           description: Terzo input per la firma (es. TestOtp)
           example: "VGVzdE90cA=="
     FirmaRequest:
-      description: Richiesta del servizio specializzato per la configurazione della firma
+      description: Richiesta del servizio per la firma dell' Ufficiale di Stato Civile
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
         - type: object
@@ -86,11 +121,33 @@ components:
             firmaInput:
                 $ref: '#/components/schemas/FirmaInput'
     FirmaResponse:
-      description: Risposta del servizio specializzato per la configurazione della firma
+      description: Risposta del servizio per la firma dell' Ufficiale di Stato Civile
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
         - type: object
           properties:         
+            idEsito:
+              type: integer
+              description: Esito della firma
+              example: 0
+    FirmaAttestazioneRequest:
+      description: Richiesta del servizio per la firma dell'attestazione di conformita'
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:
+            idTipoFlusso:
+              type: integer
+              description: id del tipo di flusso 0 (Standard). Questo parametro è predisposto per sviluppi futuri.
+              example: "0"
+            parametriFirma:
+              $ref: '#/components/schemas/FirmaInput'
+    FirmaAttestazioneResponse:
+      description: Risposta del servizio per la firma dell'attestazione di conformita'
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:
             idEsito:
               type: integer
               description: Esito della firma

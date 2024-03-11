@@ -91,7 +91,7 @@
 "Atto da trascrivere","Provincia ente - Descrizione","NO","evento.trascrizioneCittadinanza.attoEstero.enteEstero","siglaProvinciaEnte","","obbligatoria"
 "Atto da trascrivere","Comune ente","NO","evento.trascrizioneCittadinanza.attoEstero.enteEstero","idComuneEnte","","obbligatoria"
 "Atto da trascrivere","Comune ente - Descrizione","NO","evento.trascrizioneCittadinanza.attoEstero.enteEstero","nomeComuneEnte","","obbligatoria"
-"Atto da trascrivere","Località estera","SI","evento.trascrizioneCittadinanza.attoEstero.enteEstero","comuneEstero","","obbligatoria"
+"Atto da trascrivere","Località estera","NO","evento.trascrizioneCittadinanza.attoEstero.enteEstero","comuneEstero","","obbligatoria"
 "Autorità mittente","Data formazione documento","SI","evento.trascrizioneCittadinanza.autoritaMittente","dataTrascrizione","","obbligatoria"
 "Autorità mittente","Estremi documento","SI","evento.trascrizioneCittadinanza.autoritaMittente","estremiDocumento","","obbligatoria"
 "Autorità mittente","Nome ente","SI","evento.trascrizioneCittadinanza.autoritaMittente","nomeEnte","","obbligatoria"

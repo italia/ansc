@@ -1,3 +1,65 @@
+#Changelog mappatura casi uso 1.26.0  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 3
+* matrimoni/Sep_Div_002.csv
+* nascita/Dic_Nasc_999.csv
+* unioni_civili/Sciogl_UnCiv_003.csv
+
+### Modifiche per il caso uso matrimoni/Sep_Div_002.csv : 
+* Aggiunto 'evento.separazione.confermaAccordoSeparazione.idAnsc' (riga:103)
+* Aggiunto 'evento.separazione.confermaAccordoSeparazione.idProvinciaRegistrazione' (riga:104)
+* Aggiunto 'evento.separazione.confermaAccordoSeparazione.siglaProvinciaRegistrazione' (riga:105)
+* Aggiunto 'evento.separazione.confermaAccordoSeparazione.idComuneRegistrazione' (riga:106)
+* Aggiunto 'evento.separazione.confermaAccordoSeparazione.nomeComuneRegistrazione' (riga:107)
+* Aggiunto 'evento.separazione.confermaAccordoSeparazione.idtipocontenuto' (riga:108)
+* Aggiunto 'evento.separazione.confermaAccordoSeparazione.numeroatto' (riga:109)
+* Aggiunto 'evento.separazione.confermaAccordoSeparazione.annoAtto' (riga:110)
+* Aggiunto 'evento.separazione.confermaAccordoSeparazione.dataformazione' (riga:111)
+* Aggiunto 'evento.separazione.confermaAccordoSeparazione.parte' (riga:112)
+* Aggiunto 'evento.separazione.confermaAccordoSeparazione.serie' (riga:113)
+* Aggiunto 'evento.separazione.confermaAccordoSeparazione.tipologia' (riga:114)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_999.csv : 
+* Aggiunto 'evento.dichiarante.cognome' (riga:60)
+* Aggiunto 'evento.dichiarante.nome' (riga:61)
+* Aggiunto 'evento.dichiarante.sesso' (riga:62)
+* Aggiunto 'evento.dichiarante.dataNascita' (riga:63)
+* Aggiunto 'evento.dichiarante.idStatoNascita' (riga:64)
+* Aggiunto 'evento.dichiarante.nomeStatoNascita' (riga:65)
+* Aggiunto 'evento.dichiarante.idProvinciaNascita' (riga:66)
+* Aggiunto 'evento.dichiarante.siglaProvinciaNascita' (riga:67)
+* Aggiunto 'evento.dichiarante.idComuneNascita' (riga:68)
+* Aggiunto 'evento.dichiarante.nomeComuneNascita' (riga:69)
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:70)
+* Aggiunto 'evento.dichiarante.idNazionalita' (riga:71)
+* Aggiunto 'evento.dichiarante.nazionalita' (riga:72)
+* Aggiunto 'evento.dichiarante.idStatoResidenza' (riga:73)
+* Aggiunto 'evento.dichiarante.nomeStatoResidenza' (riga:74)
+* Aggiunto 'evento.dichiarante.idProvinciaResidenza' (riga:75)
+* Aggiunto 'evento.dichiarante.siglaProvinciaResidenza' (riga:76)
+* Aggiunto 'evento.dichiarante.idComuneResidenza' (riga:77)
+* Aggiunto 'evento.dichiarante.nomeComuneResidenza' (riga:78)
+* Aggiunto 'evento.dichiarante.indirizzoResidenza' (riga:79)
+* Aggiunto 'evento.dichiarante.flagDichiarante' (riga:80)
+* Aggiunto 'evento.dichiarante.flagComparente' (riga:81)
+* Aggiunto 'evento.dichiarante.flagFirmatario' (riga:82)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_003.csv : 
+* Aggiunto 'evento.scioglimentoUnioneCivile.dataEventoUnioneCivile' (riga:16)
+* Aggiunto 'evento.scioglimentoUnioneCivile.luogoEventoUnioneCivile.idStato' (riga:17)
+* Aggiunto 'evento.scioglimentoUnioneCivile.luogoEventoUnioneCivile.nomeStato' (riga:18)
+* Aggiunto 'evento.scioglimentoUnioneCivile.luogoEventoUnioneCivile.idProvincia' (riga:19)
+* Aggiunto 'evento.scioglimentoUnioneCivile.luogoEventoUnioneCivile.siglaProvincia' (riga:20)
+* Aggiunto 'evento.scioglimentoUnioneCivile.luogoEventoUnioneCivile.idComune' (riga:21)
+* Aggiunto 'evento.scioglimentoUnioneCivile.luogoEventoUnioneCivile.nomeComune' (riga:22)
+* Aggiunto 'evento.scioglimentoUnioneCivile.luogoEventoUnioneCivile.comuneEstero' (riga:23)
+* Aggiunto 'evento.scioglimentoUnioneCivile.officianteEventoUnioneCivile' (riga:24)
+
+
 #Changelog mappatura casi uso 1.24.0  
 
 ## Casi uso aggiunti : 0

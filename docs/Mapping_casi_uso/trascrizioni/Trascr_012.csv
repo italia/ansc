@@ -58,7 +58,7 @@
 "Atto da trascrivere","Provincia ente - Descrizione","NO","evento.trascrizioneNascita.atto.enteEstero","siglaProvinciaEnte","","obbligatoria"
 "Atto da trascrivere","Comune ente","NO","evento.trascrizioneNascita.atto.enteEstero","idComuneEnte","","obbligatoria"
 "Atto da trascrivere","Comune ente - Descrizione","NO","evento.trascrizioneNascita.atto.enteEstero","nomeComuneEnte","","obbligatoria"
-"Atto da trascrivere","Località estera","SI","evento.trascrizioneNascita.atto.enteEstero","comuneEstero","","obbligatoria"
+"Atto da trascrivere","Località estera","NO","evento.trascrizioneNascita.atto.enteEstero","comuneEstero","","obbligatoria"
 "Atto nascita intestatario","Id atto","NO","evento.datiEventoRiconoscimento.attoNascita","idAnsc","","obbligatoria"
 "Atto nascita intestatario","Provincia registrazione","SI","evento.datiEventoRiconoscimento.attoNascita","idProvinciaRegistrazione","","obbligatoria"
 "Atto nascita intestatario","Provincia registrazione - Descrizione","SI","evento.datiEventoRiconoscimento.attoNascita","siglaProvinciaRegistrazione","","obbligatoria"

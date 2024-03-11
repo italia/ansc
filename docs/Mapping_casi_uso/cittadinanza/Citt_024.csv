@@ -98,7 +98,7 @@
 "Sentenza Adozione","Provincia ente - Descrizione","NO","evento.trascrizioneCittadinanza.attoEstero.enteEstero","siglaProvinciaEnte","76","obbligatoria"
 "Sentenza Adozione","Comune ente","NO","evento.trascrizioneCittadinanza.attoEstero.enteEstero","idComuneEnte","","obbligatoria"
 "Sentenza Adozione","Comune ente - Descrizione","NO","evento.trascrizioneCittadinanza.attoEstero.enteEstero","nomeComuneEnte","76","obbligatoria"
-"Sentenza Adozione","Località estera","SI","evento.trascrizioneCittadinanza.attoEstero.enteEstero","comuneEstero","","obbligatoria"
+"Sentenza Adozione","Località estera","NO","evento.trascrizioneCittadinanza.attoEstero.enteEstero","comuneEstero","76","obbligatoria"
 "Sentenza Revoca Adozione","Data formazione documento","SI","evento.enteDichiarante","dataTrascrizione","","obbligatoria"
 "Sentenza Revoca Adozione","Estremi documento","SI","evento.enteDichiarante","estremiDocumento","","obbligatoria"
 "Sentenza Revoca Adozione","Nome ente","SI","evento.enteDichiarante","nomeEnte","","obbligatoria"

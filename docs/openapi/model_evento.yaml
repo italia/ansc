@@ -661,7 +661,14 @@ components:
           type: string
           description: Tipo di documento allegato.
           example: 'DICHIARAZIONE DI NASCITA'
-          
+        idStatoAllegato:
+          type: string
+          description: Id Stato Allegato.
+          example: '3'
+        flagAttestazione:
+          type: string
+          description: Flag attestazione.
+          example: 'true'
     ModelDatiDiNascita:
       description: Questi dati integrano quelli dell'intestatario e definiscono l'evento di nascita. Per non creare ridondanze la data, lo stato, la provincia e il comune dell'evento sono quelli corrispondenti indicati nel ModelSoggetto dell'intestatario
       properties:
@@ -2039,6 +2046,8 @@ components:
           example: '2002-07-02'
         accordoSeparazione: # L'accordo da confermare o da far decadere
           $ref: '#/components/schemas/ModelAttoCollegato'
+        confermaAccordoSeparazione: # Conferma dell'accordo di separazione
+          $ref: '#/components/schemas/ModelAttoCollegato'
         provvedimentoSeparazione: # Se esiste, provvedimento di separazione o divorzio
           $ref: '#/components/schemas/ModelEnteDichiarante'
         modificaAccordo:
@@ -2249,7 +2258,18 @@ components:
           example: false
         datiAssegnoMantenimento:
           type: string
-          description: Nel caso esista l'assegno di mantenimento o divorzile       
+          description: Nel caso esista l'assegno di mantenimento o divorzile
+        dataEventoUnioneCivile:
+          type: string
+          format: date
+          description: Data alla quale viene effettuata l'unione civile
+          example: '2002-07-02'
+        luogoEventoUnioneCivile:
+          $ref: '#/components/schemas/ModelLuogo'
+        officianteEventoUnioneCivile:
+          type: string
+          description: Officiante che ha celebrato l'unione civile.
+          example: 'Gianni Rossi Sindaco'
     ModelDatiEventoMorte:
       properties:
         numeroComparenti:

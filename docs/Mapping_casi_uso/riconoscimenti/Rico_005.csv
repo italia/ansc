@@ -57,7 +57,7 @@
 "Padre","flag dichiarante","SI","evento.padre","flagDichiarante","","obbligatoria"
 "Padre","flag comparente","SI","evento.padre","flagComparente","","obbligatoria"
 "Padre","flag firmatario","SI","evento.padre","flagFirmatario","","obbligatoria"
-"Padre","Riconoscimento genitore","SI","evento.datiAssenso","tipoAssenso","","obbligatoria"
+"Padre","Riconoscimento genitore","NO","evento.datiAssenso","tipoAssenso","","obbligatoria"
 "Figlio","Cognome","NO","evento.intestatari[0]","cognome","106","obbligatoria"
 "Figlio","Nome","SI","evento.intestatari[0]","nome","","obbligatoria"
 "Figlio","Sesso","SI","evento.intestatari[0]","sesso","","obbligatoria"

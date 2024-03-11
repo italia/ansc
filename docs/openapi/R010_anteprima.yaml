@@ -45,7 +45,41 @@ paths:
            application/json:
              schema:
                  $ref: '#/components/schemas/AnteprimaEventoResponse'
-  
+  /anteprima/attestazione/{version}:
+    post:
+      description: Anteprima dell'attestazione di conformità
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AnteprimaAttestazioneRequest'
+      responses:
+        200:
+          description: Pdf in formato Base64 dell'attestazione di conformità
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AnteprimaAttestazioneResponse'
+        403:
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AnteprimaAttestazioneResponse'
+        400:
+          description: Se l'evento non è compatibile con la richiesta. Ad esempio non è in stato CONFERMATO nella richiesta di presa visione senza watermark
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AnteprimaAttestazioneResponse'
 components:
   schemas:
     AnteprimaEventoRequest:
@@ -101,4 +135,44 @@ components:
         - type: object
           properties:         
             eventoOutput:
-                $ref: '#/components/schemas/EventoOutput'                 
+                $ref: '#/components/schemas/EventoOutput'
+    AnteprimaAttestazioneRequest:
+      description: Richiesta del servizio di anteprima
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          required:
+            - idEvento
+          properties:
+            idEvento:
+              type: string
+              description: Id dell'atto
+              example: 3425253
+    AnteprimaAttestazioneResponse:
+      description: Ritorno del servizio di anteprima dell'attestazione di conformità
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:
+            hasAllegatiDaAttestare:
+              type: boolean
+              description: Flag se a true eseguire l'attestazione di conformità
+              example: "true"
+            allegatoOutput:
+              $ref: '#/components/schemas/AllegatoOutput'
+    AllegatoOutput:
+      description: Modello allegato restituito dal sistema
+      properties:
+        contenuto:
+          type: string
+          format: base64
+          description: Il file in formato base64
+          example: "QU5TQw=="
+        nomefile:
+          type: string
+          description: Nome del file
+          example: "nome_del_file.pdf"
+        tipoFile:
+          type: string
+          description: Tipo del file (codificato ANSC_10)
+          example: "1"

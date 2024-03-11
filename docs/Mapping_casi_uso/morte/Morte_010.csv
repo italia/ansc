@@ -69,7 +69,7 @@
 "Sentenza estera di morte","Provincia ente - Descrizione","NO","evento.trascrizioneMorte.attoEstero.enteEstero","siglaProvinciaEnte","","obbligatoria"
 "Sentenza estera di morte","Comune ente","NO","evento.trascrizioneMorte.attoEstero.enteEstero","idComuneEnte","","obbligatoria"
 "Sentenza estera di morte","Comune ente - Descrizione","NO","evento.trascrizioneMorte.attoEstero.enteEstero","nomeComuneEnte","","obbligatoria"
-"Sentenza estera di morte","Località estera","SI","evento.trascrizioneMorte.attoEstero.enteEstero","comuneEstero","","obbligatoria"
+"Sentenza estera di morte","Località estera","NO","evento.trascrizioneMorte.attoEstero.enteEstero","comuneEstero","","obbligatoria"
 "Coniuge","Cognome","NO","evento.coniuge","cognome","","evento.intestatari[0].idstatocivile,in,(1,4,6,7,8,9)"
 "Coniuge","Nome","SI","evento.coniuge","nome","","evento.intestatari[0].idstatocivile,in,(1,4,6,7,8,9)"
 "Coniuge","Sesso","NO","evento.coniuge","sesso","","evento.intestatari[0].idstatocivile,in,(1,4,6,7,8,9)"

@@ -78,7 +78,7 @@
 "Documentazione realtiva al pubblico impiego","Provincia ente - Descrizione","NO","evento.trascrizioneCittadinanza.atto.enteEstero","siglaProvinciaEnte","","obbligatoria"
 "Documentazione realtiva al pubblico impiego","Comune ente","NO","evento.trascrizioneCittadinanza.atto.enteEstero","idComuneEnte","","obbligatoria"
 "Documentazione realtiva al pubblico impiego","Comune ente - Descrizione","NO","evento.trascrizioneCittadinanza.atto.enteEstero","nomeComuneEnte","","obbligatoria"
-"Documentazione realtiva al pubblico impiego","Località estera","SI","evento.trascrizioneCittadinanza.atto.enteEstero","comuneEstero","","obbligatoria"
+"Documentazione realtiva al pubblico impiego","Località estera","NO","evento.trascrizioneCittadinanza.atto.enteEstero","comuneEstero","","obbligatoria"
 "Interprete","Cognome","NO","evento.interprete","cognome","195,196","evento.ausilioInterprete,=,false"
 "Interprete","Nome","SI","evento.interprete","nome","","evento.ausilioInterprete,=,false"
 "Interprete","Sesso","SI","evento.interprete","sesso","","evento.ausilioInterprete,=,false"
