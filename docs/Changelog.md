@@ -24,6 +24,14 @@ NOTE:
 
 ## [Unreleased]
 
+
+## [1.26.1 - 12-03-2024]
+
+### Fixed
+
+- Generazione OTP per integrazione gestionale comunale
+
+
 ## [1.26.0 - 11-03-2024]
 
 ### Added
