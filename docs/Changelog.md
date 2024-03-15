@@ -25,6 +25,13 @@ NOTE:
 ## [Unreleased]
 
 
+## [1.26.2 - 15-03-2024]
+
+### Changed
+
+- Modificato schema openapi AllegatoOutput in AnteprimaAttestazioneOutput <https://github.com/italia/ansc/issues/769>
+
+
 ## [1.26.1 - 12-03-2024]
 
 ### Fixed
