@@ -24,6 +24,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.26.3 - 18-03-2024]
+
+### Fixed
+
+- R007_firma_usc.yaml: Schema FirmaAttestazioneRequest parametriFirma modificato in firmaInput <https://github.com/italia/ansc/issues/772>
+
 
 ## [1.26.2 - 15-03-2024]
 

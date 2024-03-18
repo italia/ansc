@@ -140,7 +140,7 @@ components:
               type: integer
               description: id del tipo di flusso 0 (Standard). Questo parametro è predisposto per sviluppi futuri.
               example: "0"
-            parametriFirma:
+            firmaInput:
               $ref: '#/components/schemas/FirmaInput'
     FirmaAttestazioneResponse:
       description: Risposta del servizio per la firma dell'attestazione di conformita'
