@@ -24,6 +24,14 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.26.4 - 19-03-2024]
+
+### Fixed
+
+- R007: Veniva permessa la firma da parte dell'Ufficiale di Stato Civile
+  anche senza la firma dei firmatari  <https://github.com/italia/ansc/issues/771>
+
+  
 ## [1.26.3 - 18-03-2024]
 
 ### Fixed
