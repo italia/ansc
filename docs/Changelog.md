@@ -24,6 +24,16 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.26.5 - 22-03-2024]
+
+### Fixed
+
+- R007: Errore nella firma remota dell'Attestazione di conformità
+  <https://github.com/italia/ansc/issues/785>
+- WebApp: Quando non tutti i dati dell'officiante erano impostati
+  la firma dichiarante elettronica poteva andare in errore.
+
+
 ## [1.26.4 - 19-03-2024]
 
 ### Fixed
