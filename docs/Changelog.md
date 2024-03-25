@@ -24,6 +24,14 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.26.6 - 25-03-2024]
+
+### Fixed
+
+- R001: errore download allegato Attestazione di conformità
+  <https://github.com/italia/ansc/issues/786>
+
+
 ## [1.26.5 - 22-03-2024]
 
 ### Fixed
