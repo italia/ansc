@@ -24,6 +24,37 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.27.0 - 27-03-2024]
+
+### Added
+
+- Versione
+  - Aggiunta versione 100011
+- Aggiunto nuovo tipo allegato alla decodifica ANSC_08 DEC_TIPO_ALLEGATO: id:101 Descrizione: "Processo verbale di dichiarazione di morte".
+- model_evento.yaml
+  - Aggiunto campo attoNascitaDeceduto in ModelDatiEventoMorte
+  - Aggiunto campo attoNascitaDeceduto in ModelTrascrizioneMorte
+  - Aggiunto campo flagCambioGeneralita in ModelTrascrizioneCittadinanza
+  - Aggiunto campo intestatarioVecchieGeneralita in ModelTrascrizioneCittadinanza
+- Aggiunto nuovo caso d'uso 3.3.6.0.0.0 (Trascr_Matr_006) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+
+### Fixed
+
+- [SC]: Controlli obbligatorietà caso d'uso 12999999 - Rico_999 <https://github.com/italia/ansc/issues/730>
+- [Morte_005 usecase 2211 morte in viaggio per mare o aereo] Aggiungere allegato obbligatorio <https://github.com/italia/ansc/issues/655>
+- Dichiarazioni tardive di nascita: controllo dei 10 gionri <https://github.com/italia/ansc/issues/774>
+- Annotazione automatica a seguito di UC 1331: carattere di tabulazione in testo annotazione automatica <https://github.com/italia/ansc/issues/751>
+- [SC]: Cancellazione Atto Servizio R011 <https://github.com/italia/ansc/issues/756>
+- Web App: Annotazione contestuale in dichiarazioni di morte <https://github.com/italia/ansc/issues/775>
+- Errore annotazione per errore materiale <https://github.com/italia/ansc/issues/761>
+- Gestione del comune di registrazione dell’atto di nascita, negli atti di vita successivi <https://github.com/italia/ansc/issues/705>
+- 51103: Straniero nato in italia che vi abbia risieduto legalmente senza interruzioni fino alla maggiore età <https://github.com/italia/ansc/issues/762>
+- Usecase 51107 giuramento di cittadinanza con impedimenti: Minuta apparentemente scorretta <https://github.com/italia/ansc/issues/754>
+- Ricerca eventi per intervallo temporale <https://github.com/italia/ansc/issues/692>
+- Web App: Matrimonio rito civile su delega altro comune - minuta non corretta <https://github.com/italia/ansc/issues/765>
+
+
+
 ## [1.26.6 - 25-03-2024]
 
 ### Fixed

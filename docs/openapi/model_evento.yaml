@@ -1398,6 +1398,12 @@ components:
               type: string
               description: Genitore che ha la cittadinanza italiana (decodifica ANSC_88)
               example: "1"
+            flagCambioGeneralita:
+              type: boolean
+              description: Indica se contestualmente all'evento verrà eseguito un cambio generalità
+              example: true
+            intestatarioVecchieGeneralita: # Vecchie generalità dell'intestatario
+              $ref: '#/components/schemas/ModelSoggetto'
               
     ModelTrascrizioneMorte:
       allOf:
@@ -1416,6 +1422,8 @@ components:
             ultimoLuogo:
               $ref: '#/components/schemas/ModelLuogo'
             annotazioneMortePresunta:
+              $ref: '#/components/schemas/ModelAttoCollegato'
+            attoNascitaDeceduto:
               $ref: '#/components/schemas/ModelAttoCollegato'
     
     ModelTrascrizioneMatrimonio:
@@ -2293,6 +2301,8 @@ components:
           format: date
           description: Data della trasmissione
           example: '2022-11-01'
+        attoNascitaDeceduto:
+          $ref: '#/components/schemas/ModelAttoCollegato'
     ModelImpedimento:
       properties:
        certificato: # Certificato

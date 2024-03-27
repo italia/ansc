@@ -87,7 +87,7 @@
 "Atto collegato","Tipo evento","SI","evento.eventoCollegato","idtipocontenuto","","opzionale"
 "Atto collegato","Numero Comunale","SI","evento.eventoCollegato","numeroatto","","opzionale"
 "Atto collegato","Anno atto","SI","evento.eventoCollegato","annoAtto","","opzionale"
-"Atto collegato","Data atto","SI","evento.eventoCollegato","dataformazione","","opzionale"
+"Atto collegato","Data atto","NO","evento.eventoCollegato","dataformazione","","opzionale"
 "Atto collegato","Parte","NO","evento.eventoCollegato","parte","","opzionale"
 "Atto collegato","Serie","NO","evento.eventoCollegato","serie","","opzionale"
 "Atto collegato","Tipo registro","NO","evento.eventoCollegato","tipologia","","opzionale"

@@ -1,3 +1,419 @@
+#Changelog mappatura casi uso 1.27.0  
+
+## Casi uso aggiunti : 1
+* trascrizioni/Trascr_Matr_006.csv
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 16
+* cittadinanza/Citt_045.csv
+* cittadinanza/Citt_046.csv
+* morte/Morte_001.csv
+* morte/Morte_002.csv
+* morte/Morte_003.csv
+* morte/Morte_004.csv
+* morte/Morte_005.csv
+* morte/Morte_006.csv
+* morte/Morte_007.csv
+* morte/Morte_008.csv
+* morte/Morte_009.csv
+* morte/Morte_010.csv
+* morte/Morte_011.csv
+* morte/Morte_999.csv
+* trascrizioni/Trascr_Matr_004.csv
+* trascrizioni/Trascr_Morte_999.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_045.csv : 
+* Presenti modifiche per 'evento.intestatari[0].cognome' (riga:64)
+* Presenti modifiche per 'evento.intestatari[0].nome' (riga:65)
+* Presenti modifiche per 'evento.intestatari[0].codiceFiscale' (riga:66)
+* Presenti modifiche per 'evento.intestatari[0].sesso' (riga:67)
+* Presenti modifiche per 'evento.intestatari[0].dataNascita' (riga:68)
+* Presenti modifiche per 'evento.intestatari[0].idStatoNascita' (riga:69)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoNascita' (riga:70)
+* Presenti modifiche per 'evento.intestatari[0].idProvinciaNascita' (riga:71)
+* Presenti modifiche per 'evento.intestatari[0].siglaProvinciaNascita' (riga:72)
+* Presenti modifiche per 'evento.intestatari[0].idComuneNascita' (riga:73)
+* Presenti modifiche per 'evento.intestatari[0].nomeComuneNascita' (riga:74)
+* Presenti modifiche per 'evento.intestatari[0].localitaEsteraNascita' (riga:75)
+* Presenti modifiche per 'evento.intestatari[0].idNazionalita' (riga:76)
+* Presenti modifiche per 'evento.intestatari[0].nazionalita' (riga:77)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:78)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:79)
+* Presenti modifiche per 'evento.intestatari[0].idProvinciaResidenza' (riga:80)
+* Presenti modifiche per 'evento.intestatari[0].siglaProvinciaResidenza' (riga:81)
+* Presenti modifiche per 'evento.intestatari[0].idComuneResidenza' (riga:82)
+* Presenti modifiche per 'evento.intestatari[0].nomeComuneResidenza' (riga:83)
+* Presenti modifiche per 'evento.intestatari[0].indirizzoResidenza' (riga:84)
+* Presenti modifiche per 'evento.intestatari[0].flagDichiarante' (riga:85)
+* Presenti modifiche per 'evento.intestatari[0].flagComparente' (riga:86)
+* Presenti modifiche per 'evento.intestatari[0].flagFirmatario' (riga:87)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.cognome' (riga:41)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.nome' (riga:42)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.sesso' (riga:43)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.dataNascita' (riga:44)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.idStatoNascita' (riga:45)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.nomeStatoNascita' (riga:46)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.idProvinciaNascita' (riga:47)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.siglaProvinciaNascita' (riga:48)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.idComuneNascita' (riga:49)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.nomeComuneNascita' (riga:50)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.localitaEsteraNascita' (riga:51)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.idNazionalita' (riga:52)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.nazionalita' (riga:53)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.idStatoResidenza' (riga:54)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.nomeStatoResidenza' (riga:55)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.idProvinciaResidenza' (riga:56)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.siglaProvinciaResidenza' (riga:57)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.idComuneResidenza' (riga:58)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.nomeComuneResidenza' (riga:59)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.indirizzoResidenza' (riga:60)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.flagDichiarante' (riga:61)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.flagComparente' (riga:62)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.flagFirmatario' (riga:63)
+* Presenti modifiche per 'evento.eventoCollegato.idAnsc' (riga:88)
+* Presenti modifiche per 'evento.eventoCollegato.idProvinciaRegistrazione' (riga:89)
+* Presenti modifiche per 'evento.eventoCollegato.siglaProvinciaRegistrazione' (riga:90)
+* Presenti modifiche per 'evento.eventoCollegato.idComuneRegistrazione' (riga:91)
+* Presenti modifiche per 'evento.eventoCollegato.nomeComuneRegistrazione' (riga:92)
+* Presenti modifiche per 'evento.eventoCollegato.idtipocontenuto' (riga:93)
+* Presenti modifiche per 'evento.eventoCollegato.numeroatto' (riga:94)
+* Presenti modifiche per 'evento.eventoCollegato.annoAtto' (riga:95)
+* Presenti modifiche per 'evento.eventoCollegato.dataformazione' (riga:96)
+* Presenti modifiche per 'evento.eventoCollegato.parte' (riga:97)
+* Presenti modifiche per 'evento.eventoCollegato.serie' (riga:98)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:99)
+* Aggiunto 'evento.trascrizioneCittadinanza.flagCambioGeneralita' (riga:133)
+
+### Modifiche per il caso uso cittadinanza/Citt_046.csv : 
+* Presenti modifiche per 'evento.intestatari[0].cognome' (riga:65)
+* Presenti modifiche per 'evento.intestatari[0].nome' (riga:66)
+* Presenti modifiche per 'evento.intestatari[0].codiceFiscale' (riga:67)
+* Presenti modifiche per 'evento.intestatari[0].sesso' (riga:68)
+* Presenti modifiche per 'evento.intestatari[0].dataNascita' (riga:69)
+* Presenti modifiche per 'evento.intestatari[0].idStatoNascita' (riga:70)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoNascita' (riga:71)
+* Presenti modifiche per 'evento.intestatari[0].idProvinciaNascita' (riga:72)
+* Presenti modifiche per 'evento.intestatari[0].siglaProvinciaNascita' (riga:73)
+* Presenti modifiche per 'evento.intestatari[0].idComuneNascita' (riga:74)
+* Presenti modifiche per 'evento.intestatari[0].nomeComuneNascita' (riga:75)
+* Presenti modifiche per 'evento.intestatari[0].localitaEsteraNascita' (riga:76)
+* Presenti modifiche per 'evento.intestatari[0].idNazionalita' (riga:77)
+* Presenti modifiche per 'evento.intestatari[0].nazionalita' (riga:78)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:79)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:80)
+* Presenti modifiche per 'evento.intestatari[0].idProvinciaResidenza' (riga:81)
+* Presenti modifiche per 'evento.intestatari[0].siglaProvinciaResidenza' (riga:82)
+* Presenti modifiche per 'evento.intestatari[0].idComuneResidenza' (riga:83)
+* Presenti modifiche per 'evento.intestatari[0].nomeComuneResidenza' (riga:84)
+* Presenti modifiche per 'evento.intestatari[0].indirizzoResidenza' (riga:85)
+* Presenti modifiche per 'evento.intestatari[0].flagDichiarante' (riga:86)
+* Presenti modifiche per 'evento.intestatari[0].flagComparente' (riga:87)
+* Presenti modifiche per 'evento.intestatari[0].flagFirmatario' (riga:88)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.cognome' (riga:42)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.nome' (riga:43)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.sesso' (riga:44)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.dataNascita' (riga:45)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.idStatoNascita' (riga:46)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.nomeStatoNascita' (riga:47)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.idProvinciaNascita' (riga:48)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.siglaProvinciaNascita' (riga:49)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.idComuneNascita' (riga:50)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.nomeComuneNascita' (riga:51)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.localitaEsteraNascita' (riga:52)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.idNazionalita' (riga:53)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.nazionalita' (riga:54)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.idStatoResidenza' (riga:55)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.nomeStatoResidenza' (riga:56)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.idProvinciaResidenza' (riga:57)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.siglaProvinciaResidenza' (riga:58)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.idComuneResidenza' (riga:59)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.nomeComuneResidenza' (riga:60)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.indirizzoResidenza' (riga:61)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.flagDichiarante' (riga:62)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.flagComparente' (riga:63)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.flagFirmatario' (riga:64)
+* Aggiunto 'evento.trascrizioneCittadinanza.flagCambioGeneralita' (riga:100)
+
+### Modifiche per il caso uso morte/Morte_001.csv : 
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idAnsc' (riga:170)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idProvinciaRegistrazione' (riga:171)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.siglaProvinciaRegistrazione' (riga:172)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idComuneRegistrazione' (riga:173)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.nomeComuneRegistrazione' (riga:174)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idtipocontenuto' (riga:175)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.numeroatto' (riga:176)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.annoAtto' (riga:177)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.dataformazione' (riga:178)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.parte' (riga:179)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.serie' (riga:180)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.tipologia' (riga:181)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:182)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:183)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:184)
+
+### Modifiche per il caso uso morte/Morte_002.csv : 
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idAnsc' (riga:95)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idProvinciaRegistrazione' (riga:96)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.siglaProvinciaRegistrazione' (riga:97)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idComuneRegistrazione' (riga:98)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.nomeComuneRegistrazione' (riga:99)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idtipocontenuto' (riga:100)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.numeroatto' (riga:101)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.annoAtto' (riga:102)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.dataformazione' (riga:103)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.parte' (riga:104)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.serie' (riga:105)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.tipologia' (riga:106)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:107)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:108)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:109)
+
+### Modifiche per il caso uso morte/Morte_003.csv : 
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idAnsc' (riga:95)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idProvinciaRegistrazione' (riga:96)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.siglaProvinciaRegistrazione' (riga:97)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idComuneRegistrazione' (riga:98)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.nomeComuneRegistrazione' (riga:99)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idtipocontenuto' (riga:100)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.numeroatto' (riga:101)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.annoAtto' (riga:102)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.dataformazione' (riga:103)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.parte' (riga:104)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.serie' (riga:105)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.tipologia' (riga:106)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:107)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:108)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:109)
+
+### Modifiche per il caso uso morte/Morte_004.csv : 
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idAnsc' (riga:36)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idProvinciaRegistrazione' (riga:37)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.siglaProvinciaRegistrazione' (riga:38)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idComuneRegistrazione' (riga:39)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.nomeComuneRegistrazione' (riga:40)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idtipocontenuto' (riga:41)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.numeroatto' (riga:42)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.annoAtto' (riga:43)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.dataformazione' (riga:44)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.parte' (riga:45)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.serie' (riga:46)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.tipologia' (riga:47)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:48)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:49)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:50)
+
+### Modifiche per il caso uso morte/Morte_005.csv : 
+* Aggiunto 'Allegati Processo verbale di dichiarazione di morte' (riga:2)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idAnsc' (riga:110)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idProvinciaRegistrazione' (riga:111)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.siglaProvinciaRegistrazione' (riga:112)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idComuneRegistrazione' (riga:113)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.nomeComuneRegistrazione' (riga:114)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idtipocontenuto' (riga:115)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.numeroatto' (riga:116)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.annoAtto' (riga:117)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.dataformazione' (riga:118)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.parte' (riga:119)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.serie' (riga:120)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.tipologia' (riga:121)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:122)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:123)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:124)
+
+### Modifiche per il caso uso morte/Morte_006.csv : 
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idAnsc' (riga:128)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idProvinciaRegistrazione' (riga:129)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.siglaProvinciaRegistrazione' (riga:130)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idComuneRegistrazione' (riga:131)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.nomeComuneRegistrazione' (riga:132)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idtipocontenuto' (riga:133)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.numeroatto' (riga:134)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.annoAtto' (riga:135)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.dataformazione' (riga:136)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.parte' (riga:137)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.serie' (riga:138)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.tipologia' (riga:139)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:140)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:141)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:142)
+
+### Modifiche per il caso uso morte/Morte_007.csv : 
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idAnsc' (riga:114)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idProvinciaRegistrazione' (riga:115)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.siglaProvinciaRegistrazione' (riga:116)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idComuneRegistrazione' (riga:117)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.nomeComuneRegistrazione' (riga:118)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idtipocontenuto' (riga:119)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.numeroatto' (riga:120)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.annoAtto' (riga:121)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.dataformazione' (riga:122)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.parte' (riga:123)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.serie' (riga:124)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.tipologia' (riga:125)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:126)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:127)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:128)
+
+### Modifiche per il caso uso morte/Morte_008.csv : 
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idAnsc' (riga:107)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idProvinciaRegistrazione' (riga:108)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.siglaProvinciaRegistrazione' (riga:109)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idComuneRegistrazione' (riga:110)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.nomeComuneRegistrazione' (riga:111)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idtipocontenuto' (riga:112)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.numeroatto' (riga:113)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.annoAtto' (riga:114)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.dataformazione' (riga:115)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.parte' (riga:116)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.serie' (riga:117)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.tipologia' (riga:118)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:119)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:120)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:121)
+
+### Modifiche per il caso uso morte/Morte_009.csv : 
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idAnsc' (riga:111)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idProvinciaRegistrazione' (riga:112)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.siglaProvinciaRegistrazione' (riga:113)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idComuneRegistrazione' (riga:114)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.nomeComuneRegistrazione' (riga:115)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idtipocontenuto' (riga:116)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.numeroatto' (riga:117)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.annoAtto' (riga:118)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.dataformazione' (riga:119)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.parte' (riga:120)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.serie' (riga:121)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.tipologia' (riga:122)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:123)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:124)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:125)
+
+### Modifiche per il caso uso morte/Morte_010.csv : 
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idAnsc' (riga:125)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idProvinciaRegistrazione' (riga:126)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.siglaProvinciaRegistrazione' (riga:127)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idComuneRegistrazione' (riga:128)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.nomeComuneRegistrazione' (riga:129)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idtipocontenuto' (riga:130)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.numeroatto' (riga:131)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.annoAtto' (riga:132)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.dataformazione' (riga:133)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.parte' (riga:134)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.serie' (riga:135)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.tipologia' (riga:136)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:137)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:138)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:139)
+
+### Modifiche per il caso uso morte/Morte_011.csv : 
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idAnsc' (riga:131)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idProvinciaRegistrazione' (riga:132)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.siglaProvinciaRegistrazione' (riga:133)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idComuneRegistrazione' (riga:134)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.nomeComuneRegistrazione' (riga:135)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idtipocontenuto' (riga:136)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.numeroatto' (riga:137)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.annoAtto' (riga:138)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.dataformazione' (riga:139)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.parte' (riga:140)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.serie' (riga:141)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.tipologia' (riga:142)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:143)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:144)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:145)
+
+### Modifiche per il caso uso morte/Morte_999.csv : 
+* Presenti modifiche per 'evento.intestatari[0].idstatocivile' (riga:91)
+* Presenti modifiche per 'evento.intestatari[0].descrizionestatocivile' (riga:92)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idAnsc' (riga:93)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idProvinciaRegistrazione' (riga:94)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.siglaProvinciaRegistrazione' (riga:95)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idComuneRegistrazione' (riga:96)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.nomeComuneRegistrazione' (riga:97)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.idtipocontenuto' (riga:98)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.numeroatto' (riga:99)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.annoAtto' (riga:100)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.dataformazione' (riga:101)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.parte' (riga:102)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.serie' (riga:103)
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.tipologia' (riga:104)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:105)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:106)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:107)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_004.csv : 
+* Aggiunto 'evento.dichiarante.codiceFiscale' (riga:73)
+* Aggiunto 'evento.dichiarante.cognome' (riga:74)
+* Aggiunto 'evento.dichiarante.nome' (riga:75)
+* Aggiunto 'evento.dichiarante.sesso' (riga:76)
+* Aggiunto 'evento.dichiarante.dataNascita' (riga:77)
+* Aggiunto 'evento.dichiarante.idStatoNascita' (riga:78)
+* Aggiunto 'evento.dichiarante.nomeStatoNascita' (riga:79)
+* Aggiunto 'evento.dichiarante.idProvinciaNascita' (riga:80)
+* Aggiunto 'evento.dichiarante.siglaProvinciaNascita' (riga:81)
+* Aggiunto 'evento.dichiarante.idComuneNascita' (riga:82)
+* Aggiunto 'evento.dichiarante.nomeComuneNascita' (riga:83)
+* Aggiunto 'evento.dichiarante.localitaEsteraNascita' (riga:84)
+* Aggiunto 'evento.dichiarante.idNazionalita' (riga:85)
+* Aggiunto 'evento.dichiarante.nazionalita' (riga:86)
+* Aggiunto 'evento.dichiarante.idStatoResidenza' (riga:87)
+* Aggiunto 'evento.dichiarante.nomeStatoResidenza' (riga:88)
+* Aggiunto 'evento.dichiarante.idProvinciaResidenza' (riga:89)
+* Aggiunto 'evento.dichiarante.siglaProvinciaResidenza' (riga:90)
+* Aggiunto 'evento.dichiarante.idComuneResidenza' (riga:91)
+* Aggiunto 'evento.dichiarante.nomeComuneResidenza' (riga:92)
+* Aggiunto 'evento.dichiarante.indirizzoResidenza' (riga:93)
+* Aggiunto 'evento.dichiarante.flagDichiarante' (riga:94)
+* Aggiunto 'evento.dichiarante.flagComparente' (riga:95)
+* Aggiunto 'evento.dichiarante.flagFirmatario' (riga:96)
+* Rimosso 'evento.trascrizioneMatrimonio.titoloOfficiante'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.cognome'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.nome'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.sesso'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.dataNascita'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.idStatoNascita'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.nomeStatoNascita'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.idProvinciaNascita'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.siglaProvinciaNascita'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.idComuneNascita'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.nomeComuneNascita'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.localitaEsteraNascita'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.idNazionalita'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.nazionalita'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.idStatoResidenza'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.nomeStatoResidenza'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.idProvinciaResidenza'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.siglaProvinciaResidenza'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.idComuneResidenza'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.nomeComuneResidenza'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.indirizzoResidenza'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.flagDichiarante'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.flagComparente'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.flagFirmatario'
+* Rimosso 'evento.trascrizioneMatrimonio.officiante.codiceFiscale'
+
+### Modifiche per il caso uso trascrizioni/Trascr_Morte_999.csv : 
+* Presenti modifiche per 'evento.eventoCollegato.dataformazione' (riga:82)
+* Presenti modifiche per 'evento.intestatari[0].idstatocivile' (riga:133)
+* Presenti modifiche per 'evento.intestatari[0].descrizionestatocivile' (riga:134)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idAnsc' (riga:135)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idProvinciaRegistrazione' (riga:136)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.siglaProvinciaRegistrazione' (riga:137)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idComuneRegistrazione' (riga:138)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.nomeComuneRegistrazione' (riga:139)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.idtipocontenuto' (riga:140)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.numeroatto' (riga:141)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.annoAtto' (riga:142)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.dataformazione' (riga:143)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.parte' (riga:144)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.serie' (riga:145)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.tipologia' (riga:146)
+* Aggiunto 'evento.datiAnnotazione.tipoAnnotazione' (riga:147)
+* Aggiunto 'evento.datiAnnotazione.flagAnnotazioneNonCertificabile' (riga:148)
+* Aggiunto 'evento.datiAnnotazione.testoAnnotazione' (riga:149)
+
+
 #Changelog mappatura casi uso 1.26.0  
 
 ## Casi uso aggiunti : 0
