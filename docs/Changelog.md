@@ -52,7 +52,9 @@ NOTE:
 - Usecase 51107 giuramento di cittadinanza con impedimenti: Minuta apparentemente scorretta <https://github.com/italia/ansc/issues/754>
 - Ricerca eventi per intervallo temporale <https://github.com/italia/ansc/issues/692>
 - Web App: Matrimonio rito civile su delega altro comune - minuta non corretta <https://github.com/italia/ansc/issues/765>
-
+- [R009] - Variazioni delle generalità del cittadino, per i casi d'uso Citt_043, Citt_044 e Citt_045 <https://github.com/italia/ansc/issues/443>
+- [SC]: data annotazione su notifica <https://github.com/italia/ansc/issues/773>
+- [SC]: hasAllegatiDaAttestare=true anche quando l'atto non ha allegati <https://github.com/italia/ansc/issues/784>
 
 
 ## [1.26.6 - 25-03-2024]
