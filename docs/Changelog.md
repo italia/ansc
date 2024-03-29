@@ -24,6 +24,14 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.27.1 - 29-03-2024]
+
+### Fixed
+
+- [webapp]: malfunzionamento gestione allegati <https://github.com/italia/ansc/issues/798>
+- [R009]: errore gestito invece quando viene inviato un tipo dato non coerente <https://github.com/italia/ansc/issues/794>
+
+
 ## [1.27.0 - 27-03-2024]
 
 ### Added
