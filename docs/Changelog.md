@@ -36,6 +36,11 @@ NOTE:
 
 ### Added
 
+- Nuove funzionalità
+  - Gestione allegati e attestazione conformità in nota tecnica (ID 100.a)
+  - Gestione decreto prefettizio con modifica nome e/o cognome (ID 84)
+  - Trascrizione atto matrimonio su richiesta dell'interessato per art. 19 (ID 99)
+    
 - Versione
   - Aggiunta versione 100011
 - Aggiunto nuovo tipo allegato alla decodifica ANSC_08 DEC_TIPO_ALLEGATO: id:101 Descrizione: "Processo verbale di dichiarazione di morte".
@@ -115,6 +120,8 @@ NOTE:
 ## [1.26.0 - 11-03-2024]
 
 ### Added
+- Nuove funzionalità
+  - Gestione attestazione conformità allegati a regime (ID 100)
 
 - Processo
   - Web Application: Gestione della firma USC dell'Attestazione di conformità di eventuali allegati presenti nell'atto
@@ -193,7 +200,9 @@ NOTE:
 ## [1.25.0 - 29-02-2024]
 
 ### Added
-
+- Nuove funzionalità
+  - Nota tecnica senza la gestione degli allegati (ID 88)
+    
 - Processo
   - Web Application: Gestione delle Note Tecniche per atti completati contenenti metadati errati a causa di bug di sistema; la nota tecnica è utilizzabile solo da web application; lato servizi cooperativi è stato implementato il solo servizio di consultazione
 
@@ -376,11 +385,14 @@ NOTE:
 ## [1.23.0 - 19-01-2024]
 
 ### Added
-    Versione
-       - Aggiunta nuova versione 100008
+- Nuove funzionalità
+  - Gestione atti inefficaci (ID 89)
+    
+- Versione
+  - Aggiunta nuova versione 100008
 
-    model_evento.yaml
-        - Aggiunti campi nel ModelEvento come segue:
+- model_evento.yaml
+  - Aggiunti campi nel ModelEvento come segue:
             operatoreFirmatario:
               type: string
               description: Codice fiscale dell'operatore che ha firmato l'atto.
@@ -393,17 +405,15 @@ NOTE:
               type: string
               description: Cognome dell'operatore che ha firmato l'atto.
               example: 'ROSSI'
-
-        - Aggiunto campo nel ModelDatiDiNascita come segue:
+  - Aggiunto campo nel ModelDatiDiNascita come segue:
              tipoNascitaSoggetto: 
                 type: string
                 description: Identificativo del tipo di nascita del nascituro di cui si sta dichiarando la nascita (decodifica ANSC_107).
                 example: '1'  
     
     
-    Decodifiche
-
-    	- Aggiunta decodifica ANSC_107 relativa allo stato di nascita del nascituro
+- Decodifiche
+  - Aggiunta decodifica ANSC_107 relativa allo stato di nascita del nascituro
     	
 ### Fixed   	
 
