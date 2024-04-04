@@ -24,6 +24,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.27.2 - 04-04-2024]
+
+### Fixed
+
+- [validazione evento]: Controllo dichiarazione tardiva di nascita oltre i 10 giorni <https://github.com/italia/ansc/issues/804>
+
 ## [1.27.1 - 29-03-2024]
 
 ### Fixed
