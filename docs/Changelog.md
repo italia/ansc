@@ -24,6 +24,13 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.27.3 - 11-04-2024]
+
+### Fixed
+
+- [certificazione]: declinato il femminile e maschile dello stato civile dell'intestario negli atti di morte <https://github.com/italia/ansc/issues/815>
+- [webapp]: reso possibile predisporre la bozza di un unione civile in anticipo (calendario data evento reso libero) <https://github.com/italia/ansc/issues/811>
+
 ## [1.27.2 - 04-04-2024]
 
 ### Fixed
