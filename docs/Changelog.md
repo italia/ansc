@@ -24,6 +24,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.27.4 - 12-04-2024]
+
+### Changed
+
+- [documentazione]: Specificato perimetro di utilizzo della nota tecnica (nella sezione relativa di Guida operativa ANSC).
+
 ## [1.27.3 - 11-04-2024]
 
 ### Fixed
