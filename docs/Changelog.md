@@ -24,6 +24,13 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.27.5 - 15-04-2024]
+
+### Changed
+
+- aggiornamento nota tecnica: reso possibile modificare la descizione del caso d'uso
+- aggiornamento nota tecnica: reso obbligatorio l'inserimento del motivo di utilizzo
+
 ## [1.27.4 - 12-04-2024]
 
 ### Changed
