@@ -24,6 +24,18 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.27.6 - 18-04-2024]
+
+### Added
+
+- aggiunto comportamento revision <https://github.com/italia/ansc/blob/main/docs/Revision.md>
+
+### Changed
+
+- [webapp] adeguato comportamento di verifica ausilioInterprete in caso venga inviato un valore non censito; per default il valore non censito viene considerato come false.
+- [R005] aggiunta revision [2000002](https://github.com/italia/ansc/blob/main/docs/Revision.md), adegua l'output del path /consultazione/ansc/intestatario a quanto dichiarato nell'openapi <https://github.com/italia/ansc/issues/827>
+- [R008] aggiunta revision [2000003](https://github.com/italia/ansc/blob/main/docs/Revision.md), adegua l'output del path /notifiche/getNotificheByEvento a quanto dichiarato nell'openapi <https://github.com/italia/ansc/issues/830>
+
 ## [1.27.5 - 15-04-2024]
 
 ### Changed
