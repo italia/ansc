@@ -1,6 +1,6 @@
-## Change management
+# Change management
 
-### Premessa
+## Premessa
 
 Il documento descrive le convenzioni di base utilizzate ogni qualvolta sia
 necessario apportare modifiche software ad ANSC.
@@ -33,7 +33,7 @@ NOTA: questo documento sostanzialmente riprende le convenzioni definite per il p
 	[Change management del progetto ANPR](https://github.com/italia/anpr/blob/master/src/change-management/change-management.md)
 	e le adatta al contesto dello stato civile
 
-### Codifica delle versioni
+## Codifica delle versioni
 
 Rappresentare l'entità dei cambiamenti attraverso una codifica delle versioni
 permette di comunicare in modo semplice la natura dei cambiamenti contenuti in
@@ -119,7 +119,7 @@ La semantica di questa codifica è la seguente:
    1.0.0-alpha < 1.0.0-alpha.1 < 1.0.0-alpha.beta < 1.0.0-beta < 1.0.0-beta.2 <
    1.0.0-beta.11 < 1.0.0-rc.1 < 1.0.0.
 
-### Classificazione delle modifiche
+## Classificazione delle modifiche
 
 La codifica delle versioni appena introdotta si basa sul saper discernere quali
 cambiamenti all'API pubblica del servizio devono considerarsi MINOR
@@ -159,7 +159,7 @@ Cambiamenti non-retrocompatibili:
 * rimuovere una proprietà (opzionale o non) dalle specifiche [OpenAPI](https://swagger.io/specification/)
 
 
-### Metodologia di aggiornamento
+## Metodologia di aggiornamento
 
 La metodologia di aggiornamento consente di adeguare i client di ANSC alle
 nuove versioni senza interruzione di servizio.
@@ -206,7 +206,7 @@ con i cliente di stato civile di riportare problemi:
   essere direttamente promosse in produzione.
 
 
-### Descrizione della versione
+## Descrizione della versione
 
 Per garantire compatibilità durante l'aggiornamento è necessario avere una
 descrizione puntuale della versione corrente di ANSC, accessibile in modo
@@ -231,7 +231,7 @@ Le specifiche [OpenAPI](https://swagger.io/specification/)
 Nota: Nel caso della web application, si assume che sia associata a una
   specifica versione delle API, e verrà indicato chiaramente nelll'interfaccia.
 
-### Storico delle versioni (ChangeLog)
+## Storico delle versioni (ChangeLog)
 
 Lo storico delle versioni permette di rendere facilmente consultabili i
 cambiamenti introdotti da una nuova versione di ANSC. Lo storico delle versioni
@@ -271,7 +271,7 @@ Esempio di ChangeLog ANSC:
 		- Obbligatorietà dei dati dell'assistente legale nel matrimonio condizionata alla presenza minori. In particolare se vale 0, ossia senza presenza minori, non viene imposta. #118293
 ```
 
-### Cambiamenti Pianificati (RoadMap)
+## Cambiamenti Pianificati (RoadMap)
 
 In modo analogo allo storico delle versioni, è possibile consultare anche un
 file di testo contenente i cambiamenti pianificati (Roadmap). Per cambiamento
@@ -301,19 +301,30 @@ dovrà includere l'url della issue segnalata.
 Esempio di Roadmap ANSC:
 
 ```
-# Versione ?.?.? (data stimata: 2024-12-31)
+## [1.28.0 - 30-04-2024]
 
-- Rimozione metodoABCD e metodoEFGH (issue:
-  https://github.com/italia/ANSC/issues/AAA)
+- Gestione certificazione per uso matrimonio (ID 76)
+- Indice annuale (ID 94)
+- Annotazione modificativa per adozioni​ (ID 102)
+- Riconciliazione matrimonio in comune diverso da quello di celebrazione​ (ID 108)
 
-# Versione 3.?.? (data stimata: 2023-12-31)
+## [1.29.0 - 31-05-2024]
 
-- Aggiunta metodoXYZ per supportare casoduso123 (issue:
-  https://github.com/italia/ANSC/issues/YYY)
-
-# Versione 3.2.? (data stimata: 2023-09-30)
-
-- Rimossa condizione di errore quando si effettua operazioneY (issue:
-  https://github.com/italia/ANSC/issues/CCC)
+- Gestione soggetti AIRE (ID 85)
+- Gestione multilinguismo (solo preproduzione, primo set casi d'uso) (ID 20)
+- Trascrizione atto unione civile su richiesta dell'interessato per art. 19 ​ (ID 103)
+- Trascrizione atto morte su richiesta dell'interessato per art. 19 (ID 104)
+- Trascrizione atto nascita su richiesta dell'interessato per art. 19 (ID 105)
 ```
 
+## Versione modello validazione evento (idVersion)
+
+Specificatamente per il [modello di validazione dell'evento](docs/openapi/model_evento.yaml) 
+viene fornito un meccanismo per aderire ad una specifica versione delle regole di validazione dello stesso.
+
+Le versioni attualmente disponibili le trovate nella [tabella 100 ANSC ](docs/Decodifiche/100_dec_versione.csv)
+
+## Revision
+
+Oltre al versionamento semantico, in alcuni casi vengono manutenuti comportamenti diversi di alcuni servizi,
+sopratutto per questioni di retrocompatibilità. Trovate i detattagli in [questo documento](docs/Revision.md).
