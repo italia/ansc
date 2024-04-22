@@ -24,6 +24,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.27.7 - 22-04-2024]
+
+### Fixed
+
+[webapp] comportamento di verifica ausilioInterprete in caso venga inviato un valore non censito; per default il valore non censito viene considerato come false.
+
 ## [1.27.6 - 18-04-2024]
 
 ### Added
