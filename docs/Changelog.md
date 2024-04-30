@@ -30,6 +30,8 @@ NOTE:
 
 - [feature] Annotazione modificativa per adozioni internazionali (ID 102)
 - [feature] Gestione certificazione per usi specifici (uso matrimonio) (ID 76)
+- [feature] Riconciliazione matrimonio in un comune diverso da quello di registrazione dell’atto (ID 108)
+- [feature] Registri annuali per comune (ID 94)
 - [versione] versione 100012
 - [decodifiche] Aggiunta decodifica ANSC_108 - Tipo dati adozione
 - [R002] Aggiunto il servizio per la validazione delle annotazione modificativa per adozioni internazionali
@@ -38,7 +40,7 @@ NOTE:
 
 ### Changed
 
-- [model evento] Nuovo modello ModelAdozioneMinoriInternazionale per ID 102
+- c Nuovo modello ModelAdozioneMinoriInternazionale per ID 102
 - [model evento] Nuovi campi  luogoEventoMatrimonio, attoAccordoSeparazione, attoConfermaAccordoSeparazione, attoNegoziazioneAssistita, officianteEventoMatrimonio, dataEventoMatrimonio in ModelRiconciliazione
 - [model evento] Nuovo campo dataProvvedimentoCambioCognome
 - [R002] Nuovo campo usoMatrimonio in CertificatoRequest del servizio /certificato/{version}
@@ -129,20 +131,19 @@ NOTE:
 
 ### Added
 
-- Nuove funzionalità
-  - Gestione allegati e attestazione conformità in nota tecnica (ID 100.a)
-  - Gestione decreto prefettizio con modifica nome e/o cognome (ID 84)
-  - Trascrizione atto matrimonio su richiesta dell'interessato per art. 19 (ID 99)
-    
-- Versione
-  - Aggiunta versione 100011
-- Aggiunto nuovo tipo allegato alla decodifica ANSC_08 DEC_TIPO_ALLEGATO: id:101 Descrizione: "Processo verbale di dichiarazione di morte".
-- model_evento.yaml
-  - Aggiunto campo attoNascitaDeceduto in ModelDatiEventoMorte
-  - Aggiunto campo attoNascitaDeceduto in ModelTrascrizioneMorte
-  - Aggiunto campo flagCambioGeneralita in ModelTrascrizioneCittadinanza
-  - Aggiunto campo intestatarioVecchieGeneralita in ModelTrascrizioneCittadinanza
-- Aggiunto nuovo caso d'uso 3.3.6.0.0.0 (Trascr_Matr_006) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [feature] Gestione allegati e attestazione conformità in nota tecnica (ID 100.a)
+- [feature] Gestione decreto prefettizio con modifica nome e/o cognome (ID 84)
+- [feature] Trascrizione atto matrimonio su richiesta dell'interessato per art. 19 (ID 99)
+- [versione] versione 100011
+- [decodifiche] nuovo tipo allegato alla decodifica ANSC_08 DEC_TIPO_ALLEGATO: id:101 Descrizione: "Processo verbale di dichiarazione di morte".
+- [casi d'uso] Aggiunto nuovo caso d'uso 3.3.6.0.0.0 (Trascr_Matr_006) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+
+### Changed
+ 
+- [model evento] Nuovo campo attoNascitaDeceduto in ModelDatiEventoMorte
+- [model evento] Nuovo campo attoNascitaDeceduto in ModelTrascrizioneMorte
+- [model evento] Nuovo campo flagCambioGeneralita in ModelTrascrizioneCittadinanza
+- [model evento] Nuovo campo intestatarioVecchieGeneralita in ModelTrascrizioneCittadinanza
 
 ### Fixed
 
