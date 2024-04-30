@@ -24,6 +24,55 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.28.0 - 30-04-2024]
+
+### Added
+
+- [feature] Annotazione modificativa per adozioni internazionali (ID 102)
+- [feature] Gestione certificazione per usi specifici (uso matrimonio) (ID 76)
+- [versione] versione 100012
+- [decodifiche] Aggiunta decodifica ANSC_108 - Tipo dati adozione
+- [R002] Aggiunto il servizio per la validazione delle annotazione modificativa per adozioni internazionali
+- [casi d'uso] Aggiunto nuovo caso d'uso 1.4.9.5.0.0.0.0 (Dic_Nasc_998_4) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [notifiche anagrafe] Aggiunte nelle notifiche da ANSC verso ANPR le informazioni relative alla cittadinanza e alla residenza sia dell’intestatario dell’atto (non per l’atto di nascita) che dei genitori in caso di atti di nascita
+
+### Changed
+
+- [model evento] Nuovo modello ModelAdozioneMinoriInternazionale per ID 102
+- [model evento] Nuovi campi  luogoEventoMatrimonio, attoAccordoSeparazione, attoConfermaAccordoSeparazione, attoNegoziazioneAssistita, officianteEventoMatrimonio, dataEventoMatrimonio in ModelRiconciliazione
+- [model evento] Nuovo campo dataProvvedimentoCambioCognome
+- [R002] Nuovo campo usoMatrimonio in CertificatoRequest del servizio /certificato/{version}
+- [R005] Rilassati controlli della request su R005 /consultazione/ansc/soggetto/{version} per permettere la ricerca degli eventi per nome, cognome e data di nascita dell'intestatario #802
+- [R001] Resa consultabile l'anteprima pdf di un'annotazione automatica non ancora approvata <https://github.com/italia/ansc/issues/840>
+
+### Deprecated
+
+- [model evento] Reso deprecato il campo dataProvvidementoCambioCognome
+
+### Fixed
+
+- [R009] Casi d'uso 12221122/RICO_004 e 12222121/RICO_007: controlli su obbligatorietà dati di riconoscimento della madre/padre <https://github.com/italia/ansc/issues/682>
+- (ID108) Riconciliazione matrimonio in un comune diverso da quello di registrazione dell’atto <https://github.com/italia/ansc/issues/717> <https://github.com/italia/ansc/issues/708>
+- Trascr_012 - Trascrizione del decreto prefettizio di cambiamento del nome e cognome <https://github.com/italia/ansc/issues/721>
+- Annotazioni: [3.6.6.9.9.9] Caso d'uso di servizio (comunicazione da altri comuni)
+- COMUNICAZIONI/ANNOTAZIONI AUTOMATICHE PER CASO D'USO 350000 RICONCILIAZIONE <https://github.com/italia/ansc/issues/766>
+- Web App - indicazione ultimo numero comunale
+- Web app - Caso d'uso Morte_004 <https://github.com/italia/ansc/issues/791>
+- Trascrizione ex articolo 19: annotazioni automatiche impropriamente generate <https://github.com/italia/ansc/issues/796>
+- Dichiarazione di matrimonio (religiosi e civili): data annotazione contestuale errata <https://github.com/italia/ansc/issues/797>
+- [SC] Validazione controllo valore certificabile <https://github.com/italia/ansc/issues/800>
+- [SC] update intestatario per evento confermato <https://github.com/italia/ansc/issues/803>
+- Certificazione: data annotazione contestuale matrimonio <https://github.com/italia/ansc/issues/807>
+- Estratti integrali - Trascrizioni estere: non visualizzare il metadato 'riassunto trascrizione' negli estratti integrali <https://github.com/italia/ansc/issues/808>
+- R002 certificazioni matrimoni esteri e nelle annotazioni (form. 132) <https://github.com/italia/ansc/issues/813>
+- Web App [5.2.1.2.3] Straniero riconosciuto durante la maggiore età da cittadino italiano <https://github.com/italia/ansc/issues/816>
+- [SC] Errore mapping property dataProvvidementoCambioCognome <https://github.com/italia/ansc/issues/818>
+- [SC] Validazione atti - insert id intestatario
+- Estratti di matrimonio, comune di nascita <https://github.com/italia/ansc/issues/820>
+- Web App - formula 16 <https://github.com/italia/ansc/issues/819>
+- Web app: Registrazione unione civile <https://github.com/italia/ansc/issues/823>
+- caso d'uso Trascr_018 <https://github.com/italia/ansc/issues/727>
+
 ## [1.27.7 - 22-04-2024]
 
 ### Fixed

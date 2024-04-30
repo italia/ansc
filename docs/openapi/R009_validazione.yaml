@@ -1,98 +1,98 @@
 openapi: 3.0.0
 info:
   title: Servizi cooperativi per la validazione dei dati dei singoli Use Case.
-  version: '1.4.0'  
+  version: '1.28.0'
 servers:
   - url: https://anscservice.anpr.interno.it/services/service/val
-    description: Servizio di produzione      
+    description: Servizio di produzione
   - url: https://anscservicepre.anpr.interno.it/services/service/val
     description: Servizio di preproduzione
   - url: http://localhost:8083
     description: Servizio mock locale
 paths:
   /validazione/evento/{version}:
-     post:
-       description: Validazione del processo UseCase
-       parameters:
+    post:
+      description: Validazione del processo UseCase
+      parameters:
         - name: version
           in: path
           required: true
           description: La versione del servizio invocato
           schema:
             type: string
-       requestBody:
-         required: true
-         content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ValidazioneEventoRequest'
-       responses:
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ValidazioneEventoRequest'
+      responses:
         200:
           description: Successo
           content:
             application/json:
               schema:
-                 $ref: '#/components/schemas/ValidazioneEventoResponse'
+                $ref: '#/components/schemas/ValidazioneEventoResponse'
         403:
           description: Non autorizzato
           content:
             application/json:
               schema:
-                 $ref: '#/components/schemas/ValidazioneEventoResponse'
+                $ref: '#/components/schemas/ValidazioneEventoResponse'
         400:
           description: Se i metadati non sono in formato json corretto
           content:
             application/json:
               schema:
-                 $ref: '#/components/schemas/ValidazioneEventoResponse'
+                $ref: '#/components/schemas/ValidazioneEventoResponse'
         404:
           description: Se i dati dello use case non sono presenti in base dati.
           content:
             application/json:
               schema:
-                 $ref: '#/components/schemas/ValidazioneEventoResponse'
+                $ref: '#/components/schemas/ValidazioneEventoResponse'
 
   /collegamento/evento/{version}:
-     post:
-       description: Collegamento evento - annotazione
-       parameters:
+    post:
+      description: Collegamento evento - annotazione
+      parameters:
         - name: version
           in: path
           required: true
           description: La versione del servizio invocato
           schema:
             type: string
-       requestBody:
-         required: true
-         content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/CollegamentoEventoRequest'
-       responses:
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CollegamentoEventoRequest'
+      responses:
         200:
           description: Successo
           content:
             application/json:
               schema:
-                 $ref: '#/components/schemas/CollegamentoEventoResponse'
+                $ref: '#/components/schemas/CollegamentoEventoResponse'
         403:
           description: Non autorizzato
           content:
             application/json:
               schema:
-                 $ref: '#/components/schemas/CollegamentoEventoResponse'
+                $ref: '#/components/schemas/CollegamentoEventoResponse'
         400:
           description: Se i metadati non sono in formato json corretto
           content:
             application/json:
               schema:
-                 $ref: '#/components/schemas/CollegamentoEventoResponse'
+                $ref: '#/components/schemas/CollegamentoEventoResponse'
         404:
           description: Se i dati evento non sono presenti in base dati.
           content:
             application/json:
               schema:
-                 $ref: '#/components/schemas/CollegamentoEventoResponse'
+                $ref: '#/components/schemas/CollegamentoEventoResponse'
   
   /prenota/evento/{version}:
     post:
@@ -105,30 +105,67 @@ paths:
           schema:
             type: string
       requestBody:
-         required: true
-         content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/PrenotaEventoRequest'
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PrenotaEventoRequest'
       responses:
         200:
           description: Successo
           content:
             application/json:
               schema:
-                 $ref: '#/components/schemas/PrenotaEventoResponse'
+                $ref: '#/components/schemas/PrenotaEventoResponse'
         403:
           description: Non autorizzato
           content:
             application/json:
               schema:
-                 $ref: '#/components/schemas/PrenotaEventoResponse'
+                $ref: '#/components/schemas/PrenotaEventoResponse'
         404:
           description: Se i dati dello use case non sono presenti in base dati.
           content:
             application/json:
               schema:
-                 $ref: '#/components/schemas/PrenotaEventoResponse'
+                $ref: '#/components/schemas/PrenotaEventoResponse'
+  /adozione-internazionale/validazione/evento/{version}:
+    post:
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string
+      tags:
+        - adozioneInternazionaleValidazione
+      description: Servizio che valida l'evento di annotazione adozione internazionale
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ValidazioneAdozioneInternazionaleRequest'
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidazioneAdozioneInternazionaleResponse'
+        400:
+          description: Dati non validi
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidazioneAdozioneInternazionaleResponse'
+        403:
+          description: Accesso non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidazioneAdozioneInternazionaleResponse'
 components:
   schemas:
     ValidazioneEventoRequest:
@@ -138,9 +175,9 @@ components:
           required:
             - evento
         - type: object
-          properties:         
+          properties:
             evento:
-                 $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'
+              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'
             forcingCode:
               type: string
               description: codice di forzatura per eventi anomali
@@ -150,7 +187,7 @@ components:
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
         - type: object
-          properties:         
+          properties:
             idEvento:
               type: string
               description: Identificativo evento interno
@@ -161,7 +198,7 @@ components:
               example: '2022-242352-1-3434A'
             idTipoEvento:
               type: string
-              description: Identificativo del tipo di evento (decodifica ANSC_01) 
+              description: Identificativo del tipo di evento (decodifica ANSC_01)
               example: '2'
             forcingCode:
               type: string
@@ -172,15 +209,15 @@ components:
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
         - type: object
-          properties:         
+          properties:
             collegamento:
-                 $ref: '#/components/schemas/ModelDatiCollegamento'
+              $ref: '#/components/schemas/ModelDatiCollegamento'
     CollegamentoEventoResponse:
       description: Ritorno del servizio di collegamento atto e annotazione
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
         - type: object
-          properties:         
+          properties:
             idEsito:
               type: integer
               description: Esito del collegamento
@@ -191,19 +228,19 @@ components:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
         - type: object
           properties:
-            numeroGemelliNatiVivi: 
-             type: string
-             description: Numero di gemelli nati vivi
-             example: 2
-            listaNumeriComunali:
-             type: array
-             items:
+            numeroGemelliNatiVivi:
               type: string
-              description: Lista numero comunale univoco assegnato per ogni gemello
-            idUsecase: 
-             type: string
-             description: Id del caso d'uso cui si riferisce l'evento.
-             example: 1170
+              description: Numero di gemelli nati vivi
+              example: 2
+            listaNumeriComunali:
+              type: array
+              items:
+                type: string
+                description: Lista numero comunale univoco assegnato per ogni gemello
+            idUsecase:
+              type: string
+              description: Id del caso d'uso cui si riferisce l'evento.
+              example: 1170
           required:
             - numeroGemelliNatiVivi
             - listaNumeriComunali
@@ -214,22 +251,22 @@ components:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
         - type: object
           properties:
-           listaIdEvento:
-            type: array
-            items:
-             type: string
-             description: Lista identificativo univoco interno dell'evento
-           listaIdAnsc:
-            type: array
-            items:
-             type: string
-             description: Lista identificativo univoco Nazionale dell'evento per tutti i comuni 
+            listaIdEvento:
+              type: array
+              items:
+                type: string
+                description: Lista identificativo univoco interno dell'evento
+            listaIdAnsc:
+              type: array
+              items:
+                type: string
+                description: Lista identificativo univoco Nazionale dell'evento per tutti i comuni
     ModelDatiCollegamento:
-      properties:   
+      properties:
         idEvento:
           type: string
           description: Identificativo nazionale evento primario
-          example: '79553' 
+          example: '79553'
         dataFormazioneEvento:
           type: string
           format: date
@@ -243,4 +280,22 @@ components:
           type: string
           description: Identificativo soggetto intestatario Ansc
           example: '55615'
-                            
+    ValidazioneAdozioneInternazionaleResponse:
+      description: DTO di risposta dei servizi di annotazione adozione internazionale
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:
+            evento:
+              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'
+            eventoModificato:
+              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'
+
+    ValidazioneAdozioneInternazionaleRequest:
+      description: DTO di richiesta dei servizi di annotazione adozione internazionale
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:
+            evento:
+              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'
