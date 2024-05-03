@@ -24,6 +24,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.28.1 - 03-05-2024]
+
+### Fixed
+
+- [SC]: Anteprima certificati - annotazioni troncate <https://github.com/italia/ansc/issues/853>
+
 ## [1.28.0 - 30-04-2024]
 
 ### Added
