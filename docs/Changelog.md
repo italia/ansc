@@ -24,6 +24,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.28.2 - 03-05-2024]
+
+### Fixed
+
+- [webapp]: Matrimonio su delega altro Comune: minuta non corretta <https://github.com/italia/ansc/issues/852>
+
 ## [1.28.1 - 03-05-2024]
 
 ### Fixed
