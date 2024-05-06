@@ -87,6 +87,10 @@ components:
               type: boolean
               description: Indica opzione di validità per l'estero alla richiesta dei certificati semplici e per riassunto
               example: true
+            usoMatrimonio:
+              type: boolean
+              description: Indica opzione di uso matrimonio alla richiesta dei certificati semplici e per riassunto per registro di nascita e matrimonio
+              example: true
 
     CertificatoResponse:
       description: Ritorno del servizio specializzato per il certificato

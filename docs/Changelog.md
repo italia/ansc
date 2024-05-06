@@ -24,6 +24,13 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.28.3 - 06-05-2024]
+
+### Fixed
+
+- [webapp]: Impossibile emissione certificati per eventi di decesso <https://github.com/italia/ansc/issues/855>
+- [documentazione]: Integrato changelog mapping
+
 ## [1.28.2 - 03-05-2024]
 
 ### Fixed
