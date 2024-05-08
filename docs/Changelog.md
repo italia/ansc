@@ -24,6 +24,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.28.4 - 08-05-2024]
+
+### Added
+
+- [documentazione]: [readme mapping](Mapping_casi_uso/readme_mapping.md), <https://github.com/italia/ansc/discussions/837>
+
 ## [1.28.3 - 06-05-2024]
 
 ### Fixed
