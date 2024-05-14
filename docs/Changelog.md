@@ -24,6 +24,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.28.5 - 014-05-2024]
+
+### Fixed
+
+- [R005]: La ricerca per Intestatario, non restituisce il Comune di nascita <https://github.com/italia/ansc/issues/865>
+
 ## [1.28.4 - 08-05-2024]
 
 ### Added
