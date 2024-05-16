@@ -24,7 +24,17 @@ NOTE:
 
 ## [Unreleased]
 
-## [1.28.5 - 014-05-2024]
+## [1.28.6 - 16-05-2024]
+
+### Changed
+
+- [R012] Invio email : Gestione messaggio di errore dati firmatario incongruenti <https://github.com/italia/ansc/issues/867>
+
+### Fixed
+
+- Matrimonio con Rito Civile nella casa comunale 311111: annotazione errata #866 <https://github.com/italia/ansc/issues/866>
+
+## [1.28.5 - 14-05-2024]
 
 ### Fixed
 
