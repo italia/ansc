@@ -24,6 +24,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.28.7 - 27-05-2024]
+
+### Fixed
+
+- [R002] Gestione data annotazione in estratto integrale <https://github.com/italia/ansc/issues/885>
+
 ## [1.28.6 - 16-05-2024]
 
 ### Changed
