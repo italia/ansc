@@ -17,5 +17,6 @@
 * [R012_firma_dichiarante_elettronica.yaml](R012_firma_dichiarante_elettronica.yaml)
 * [R013_rettifica_validazione.yaml](R013_rettifica_validazione.yaml)
 * [R014_evento_validita.yaml](R014_evento_validita.yaml)
+* [R015_adozione_minori_internazionale.yaml](R015_adozione_minori_internazionale.yaml)
 * [base_servizi.yaml](base_servizi.yaml)
 * [model_evento.yaml](model_evento.yaml)

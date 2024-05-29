@@ -24,6 +24,19 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.28.8 - 29-05-2024]
+
+### Changed
+
+- [docs] Aggiornata model evento con la proprietà datiAdozioneMinoriInternazionale mancante in precedenza <https://github.com/italia/ansc/issues/893>
+- [docs] Corrette alcune entri del changelog mapping (in particolare alcune etichette e campi non più controllati) <https://github.com/italia/ansc/issues/893>
+- [docs] Integrata documentazione R015 : adozioni internazionali <https://github.com/italia/ansc/issues/893>
+
+### Fixed
+
+- [SC]: evento.datiAdozioneMinoriInternazionale mancante <https://github.com/italia/ansc/issues/893>
+- [webapp]: Mancato recupero di un atto in n stato firmato per conformità stato 11 con firma dichiarante digitale. <https://github.com/italia/ansc/issues/894>
+
 ## [1.28.7 - 27-05-2024]
 
 ### Fixed

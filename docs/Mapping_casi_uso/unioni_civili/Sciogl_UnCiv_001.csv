@@ -93,7 +93,7 @@
 "Interprete","Indirizzo di residenza","NO","evento.interprete","indirizzoResidenza","195,196","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"
 "Interprete","flag dichiarante","SI","evento.interprete","flagDichiarante","","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"
 "Interprete","flag comparente","SI","evento.interprete","flagComparente","","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"
-"Interprete","Firmatario","SI","evento.interprete","flagFirmatario","","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"
+"Interprete","flag firmatario","SI","evento.interprete","flagFirmatario","","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"
 "Dettagli evento","Comprensione coniuge1","SI","evento.scioglimentoUnioneCivile","comprensioneConiuge1","","obbligatoria"
 "Dettagli evento","Comprensione coniuge2","SI","evento.scioglimentoUnioneCivile","comprensioneConiuge2","","obbligatoria"
 "Dettagli evento","Motivo impedimento scrittura coniuge 1","NO","evento.scioglimentoUnioneCivile","motivoImpedimentoScritturaConiuge1","","obbligatoria"

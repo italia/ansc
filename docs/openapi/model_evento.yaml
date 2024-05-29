@@ -327,6 +327,8 @@ components:
             description: lista delle note tecniche associate all'evento
         datiNotaTecnica:
           $ref: '#/components/schemas/ModelNotaTecnica'
+        datiAdozioneMinoriInternazionale:
+          $ref: '#/components/schemas/ModelAdozioneMinoriInternazionale'
 
     ModelNotaTecnica:
       properties:
