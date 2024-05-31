@@ -81,6 +81,48 @@ paths:
            application/json:
              schema:
                  $ref: '#/components/schemas/ConsultazioneANSCResponse'
+
+  /consultazione/ansc/evento/rifiuti/{version}:
+    post:
+      tags:
+        - Consultazione service
+      summary: 'Ricerca di tutti i provvedimenti di rifiuto afferenti all''evento
+          passato in input '
+      operationId: getRifiutiByEvento
+      parameters:
+        - name: version
+          in: path
+          description: Versione del servizio
+          required: true
+          schema:
+            type: string
+      requestBody:
+        description: Filtri per la ricerca dei provvedimenti di rifiuto
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ConsultazioneANSCEventoRifiutoRequest'
+        required: true
+      responses:
+        "200":
+          description: Provvedimenti di rifiuto richiesti dalla ricerca
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConsultazioneANSCResponse'
+        "400":
+          description: Se non arrivano dati validi (devono essere diversi da null)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConsultazioneANSCResponse'
+        "403":
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConsultazioneANSCResponse'
+
   /consultazione/ansc/soggetto/{version}:
     post:
       description: Ricerca tramite dati soggetto
@@ -306,4 +348,14 @@ components:
               type: array
               items:
                 $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
-    
+    ConsultazioneANSCEventoRifiutoRequest:
+      description: Richiesta del servizio di consultazione per i provvedimenti di rifiuto afferenti
+        all'evento passato in input
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:
+            idEvento:
+              type: string
+              description: Id univoco interno dell'evento a cui fa riferimento il provvedimento di rifiuto
+              example: "35634"

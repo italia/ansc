@@ -51,6 +51,12 @@ paths:
             application/json:
               schema:
                  $ref: '#/components/schemas/ValidazioneEventoResponse'
+        416:
+          description: Quando lo use case non è abiltato
+          content:
+            application/json:
+              schema:
+                 $ref: '#/components/schemas/ValidazioneEventoResponse'
 
   /collegamento/evento/{version}:
      post:

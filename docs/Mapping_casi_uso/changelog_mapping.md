@@ -1,3 +1,3664 @@
+#Changelog mappatura casi uso 1.29.0  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 276
+* cittadinanza/Citt_001.csv
+* cittadinanza/Citt_002.csv
+* cittadinanza/Citt_003.csv
+* cittadinanza/Citt_004.csv
+* cittadinanza/Citt_005.csv
+* cittadinanza/Citt_006.csv
+* cittadinanza/Citt_007.csv
+* cittadinanza/Citt_008.csv
+* cittadinanza/Citt_009.csv
+* cittadinanza/Citt_010.csv
+* cittadinanza/Citt_011.csv
+* cittadinanza/Citt_012.csv
+* cittadinanza/Citt_013.csv
+* cittadinanza/Citt_014.csv
+* cittadinanza/Citt_017.csv
+* cittadinanza/Citt_018.csv
+* cittadinanza/Citt_019.csv
+* cittadinanza/Citt_020.csv
+* cittadinanza/Citt_021.csv
+* cittadinanza/Citt_022.csv
+* cittadinanza/Citt_023.csv
+* cittadinanza/Citt_024.csv
+* cittadinanza/Citt_025.csv
+* cittadinanza/Citt_026.csv
+* cittadinanza/Citt_027.csv
+* cittadinanza/Citt_028.csv
+* cittadinanza/Citt_029.csv
+* cittadinanza/Citt_030.csv
+* cittadinanza/Citt_031.csv
+* cittadinanza/Citt_032.csv
+* cittadinanza/Citt_033.csv
+* cittadinanza/Citt_034.csv
+* cittadinanza/Citt_035.csv
+* cittadinanza/Citt_036.csv
+* cittadinanza/Citt_037.csv
+* cittadinanza/Citt_038.csv
+* cittadinanza/Citt_039.csv
+* cittadinanza/Citt_040.csv
+* cittadinanza/Citt_041.csv
+* cittadinanza/Citt_043.csv
+* cittadinanza/Citt_044.csv
+* cittadinanza/Citt_045.csv
+* cittadinanza/Citt_046.csv
+* cittadinanza/Citt_998_3.csv
+* cittadinanza/Citt_999.csv
+* matrimoni/Matr_001.csv
+* matrimoni/Matr_002.csv
+* matrimoni/Matr_003.csv
+* matrimoni/Matr_004.csv
+* matrimoni/Matr_005.csv
+* matrimoni/Matr_007.csv
+* matrimoni/Matr_008.csv
+* matrimoni/Matr_009.csv
+* matrimoni/Matr_010.csv
+* matrimoni/Matr_011.csv
+* matrimoni/Matr_012.csv
+* matrimoni/Matr_013.csv
+* matrimoni/Matr_998_3.csv
+* matrimoni/Matr_999_1.csv
+* matrimoni/Matr_999_2.csv
+* matrimoni/Matr_Riconc_001.csv
+* matrimoni/Sep_Div_001.csv
+* matrimoni/Sep_Div_002.csv
+* matrimoni/Sep_Div_003.csv
+* matrimoni/Sep_Div_004.csv
+* matrimoni/Sep_Div_005.csv
+* matrimoni/Sep_Div_006.csv
+* matrimoni/Sep_Div_007.csv
+* matrimoni/Sep_Div_008.csv
+* matrimoni/Sep_Div_999.csv
+* morte/Morte_001.csv
+* morte/Morte_002.csv
+* morte/Morte_003.csv
+* morte/Morte_005.csv
+* morte/Morte_006.csv
+* morte/Morte_007.csv
+* morte/Morte_008.csv
+* morte/Morte_009.csv
+* morte/Morte_010.csv
+* morte/Morte_011.csv
+* morte/Morte_998_3.csv
+* morte/Morte_999.csv
+* nascita/Dic_Nasc_001.csv
+* nascita/Dic_Nasc_002.csv
+* nascita/Dic_Nasc_003.csv
+* nascita/Dic_Nasc_004.csv
+* nascita/Dic_Nasc_005.csv
+* nascita/Dic_Nasc_006.csv
+* nascita/Dic_Nasc_007.csv
+* nascita/Dic_Nasc_008.csv
+* nascita/Dic_Nasc_009.csv
+* nascita/Dic_Nasc_010.csv
+* nascita/Dic_Nasc_011.csv
+* nascita/Dic_Nasc_012.csv
+* nascita/Dic_Nasc_013.csv
+* nascita/Dic_Nasc_014.csv
+* nascita/Dic_Nasc_015.csv
+* nascita/Dic_Nasc_016.csv
+* nascita/Dic_Nasc_017.csv
+* nascita/Dic_Nasc_018.csv
+* nascita/Dic_Nasc_019.csv
+* nascita/Dic_Nasc_020.csv
+* nascita/Dic_Nasc_021.csv
+* nascita/Dic_Nasc_022.csv
+* nascita/Dic_Nasc_023.csv
+* nascita/Dic_Nasc_024.csv
+* nascita/Dic_Nasc_025.csv
+* nascita/Dic_Nasc_026.csv
+* nascita/Dic_Nasc_027.csv
+* nascita/Dic_Nasc_028.csv
+* nascita/Dic_Nasc_029.csv
+* nascita/Dic_Nasc_030.csv
+* nascita/Dic_Nasc_031.csv
+* nascita/Dic_Nasc_032.csv
+* nascita/Dic_Nasc_033.csv
+* nascita/Dic_Nasc_034.csv
+* nascita/Dic_Nasc_035.csv
+* nascita/Dic_Nasc_036.csv
+* nascita/Dic_Nasc_037.csv
+* nascita/Dic_Nasc_038.csv
+* nascita/Dic_Nasc_039.csv
+* nascita/Dic_Nasc_040.csv
+* nascita/Dic_Nasc_041.csv
+* nascita/Dic_Nasc_042.csv
+* nascita/Dic_Nasc_043.csv
+* nascita/Dic_Nasc_044.csv
+* nascita/Dic_Nasc_045.csv
+* nascita/Dic_Nasc_046.csv
+* nascita/Dic_Nasc_047.csv
+* nascita/Dic_Nasc_048.csv
+* nascita/Dic_Nasc_049.csv
+* nascita/Dic_Nasc_050.csv
+* nascita/Dic_Nasc_051.csv
+* nascita/Dic_Nasc_052.csv
+* nascita/Dic_Nasc_053.csv
+* nascita/Dic_Nasc_054.csv
+* nascita/Dic_Nasc_055.csv
+* nascita/Dic_Nasc_056.csv
+* nascita/Dic_Nasc_057.csv
+* nascita/Dic_Nasc_058.csv
+* nascita/Dic_Nasc_059.csv
+* nascita/Dic_Nasc_060.csv
+* nascita/Dic_Nasc_061.csv
+* nascita/Dic_Nasc_062.csv
+* nascita/Dic_Nasc_063.csv
+* nascita/Dic_Nasc_064.csv
+* nascita/Dic_Nasc_065.csv
+* nascita/Dic_Nasc_066.csv
+* nascita/Dic_Nasc_067.csv
+* nascita/Dic_Nasc_068.csv
+* nascita/Dic_Nasc_069.csv
+* nascita/Dic_Nasc_070.csv
+* nascita/Dic_Nasc_071.csv
+* nascita/Dic_Nasc_072.csv
+* nascita/Dic_Nasc_073.csv
+* nascita/Dic_Nasc_074.csv
+* nascita/Dic_Nasc_075.csv
+* nascita/Dic_Nasc_076.csv
+* nascita/Dic_Nasc_077.csv
+* nascita/Dic_Nasc_078.csv
+* nascita/Dic_Nasc_079.csv
+* nascita/Dic_Nasc_080.csv
+* nascita/Dic_Nasc_081.csv
+* nascita/Dic_Nasc_082.csv
+* nascita/Dic_Nasc_083.csv
+* nascita/Dic_Nasc_084.csv
+* nascita/Dic_Nasc_085.csv
+* nascita/Dic_Nasc_086.csv
+* nascita/Dic_Nasc_087.csv
+* nascita/Dic_Nasc_088.csv
+* nascita/Dic_Nasc_089.csv
+* nascita/Dic_Nasc_090.csv
+* nascita/Dic_Nasc_091.csv
+* nascita/Dic_Nasc_092.csv
+* nascita/Dic_Nasc_093.csv
+* nascita/Dic_Nasc_094.csv
+* nascita/Dic_Nasc_095.csv
+* nascita/Dic_Nasc_096.csv
+* nascita/Dic_Nasc_097.csv
+* nascita/Dic_Nasc_098.csv
+* nascita/Dic_Nasc_099.csv
+* nascita/Dic_Nasc_100.csv
+* nascita/Dic_Nasc_101.csv
+* nascita/Dic_Nasc_102.csv
+* nascita/Dic_Nasc_103.csv
+* nascita/Dic_Nasc_104.csv
+* nascita/Dic_Nasc_105.csv
+* nascita/Dic_Nasc_106.csv
+* nascita/Dic_Nasc_107.csv
+* nascita/Dic_Nasc_108.csv
+* nascita/Dic_Nasc_109.csv
+* nascita/Dic_Nasc_110.csv
+* nascita/Dic_Nasc_111.csv
+* nascita/Dic_Nasc_112.csv
+* nascita/Dic_Nasc_113.csv
+* nascita/Dic_Nasc_114.csv
+* nascita/Dic_Nasc_115.csv
+* nascita/Dic_Nasc_116.csv
+* nascita/Dic_Nasc_117.csv
+* nascita/Dic_Nasc_120.csv
+* nascita/Dic_Nasc_998_3.csv
+* nascita/Dic_Nasc_999.csv
+* riconoscimenti/Rico_001.csv
+* riconoscimenti/Rico_002.csv
+* riconoscimenti/Rico_003.csv
+* riconoscimenti/Rico_004.csv
+* riconoscimenti/Rico_005.csv
+* riconoscimenti/Rico_006.csv
+* riconoscimenti/Rico_007.csv
+* riconoscimenti/Rico_008.csv
+* riconoscimenti/Rico_009.csv
+* riconoscimenti/Rico_010.csv
+* riconoscimenti/Rico_011.csv
+* riconoscimenti/Rico_012.csv
+* riconoscimenti/Rico_013.csv
+* riconoscimenti/Rico_014.csv
+* riconoscimenti/Rico_015.csv
+* riconoscimenti/Rico_016.csv
+* riconoscimenti/Rico_017.csv
+* riconoscimenti/Rico_018.csv
+* riconoscimenti/Rico_019.csv
+* riconoscimenti/Rico_020.csv
+* riconoscimenti/Rico_999.csv
+* trascrizioni/Trascr_001.csv
+* trascrizioni/Trascr_002.csv
+* trascrizioni/Trascr_003.csv
+* trascrizioni/Trascr_005.csv
+* trascrizioni/Trascr_006.csv
+* trascrizioni/Trascr_007.csv
+* trascrizioni/Trascr_008.csv
+* trascrizioni/Trascr_009.csv
+* trascrizioni/Trascr_010.csv
+* trascrizioni/Trascr_011.csv
+* trascrizioni/Trascr_012.csv
+* trascrizioni/Trascr_013.csv
+* trascrizioni/Trascr_014.csv
+* trascrizioni/Trascr_015.csv
+* trascrizioni/Trascr_016.csv
+* trascrizioni/Trascr_017.csv
+* trascrizioni/Trascr_018.csv
+* trascrizioni/Trascr_019.csv
+* trascrizioni/Trascr_020.csv
+* trascrizioni/Trascr_021.csv
+* trascrizioni/Trascr_022.csv
+* trascrizioni/Trascr_023.csv
+* trascrizioni/Trascr_024.csv
+* trascrizioni/Trascr_025.csv
+* trascrizioni/Trascr_026.csv
+* trascrizioni/Trascr_999.csv
+* trascrizioni/Trascr_Citt_999.csv
+* trascrizioni/Trascr_Matr_001.csv
+* trascrizioni/Trascr_Matr_002.csv
+* trascrizioni/Trascr_Matr_003.csv
+* trascrizioni/Trascr_Matr_004.csv
+* trascrizioni/Trascr_Matr_005.csv
+* trascrizioni/Trascr_Matr_006.csv
+* trascrizioni/Trascr_Matr_999.csv
+* trascrizioni/Trascr_Morte_999.csv
+* trascrizioni/Trascr_UnCiv_001.csv
+* trascrizioni/Trascr_UnCiv_002.csv
+* trascrizioni/Trascr_UnCiv_003.csv
+* trascrizioni/Trascr_UnCiv_004.csv
+* trascrizioni/Trascr_UnCiv_999.csv
+* unioni_civili/Sciogl_UnCiv_001.csv
+* unioni_civili/Sciogl_UnCiv_002.csv
+* unioni_civili/Sciogl_UnCiv_003.csv
+* unioni_civili/Sciogl_UnCiv_004.csv
+* unioni_civili/Sciogl_UnCiv_005.csv
+* unioni_civili/Sciogl_UnCiv_999.csv
+* unioni_civili/UnCiv_001.csv
+* unioni_civili/UnCiv_002.csv
+* unioni_civili/UnCiv_003.csv
+* unioni_civili/UnCiv_004.csv
+* unioni_civili/UnCiv_005.csv
+* unioni_civili/UnCiv_998_3.csv
+* unioni_civili/UnCiv_999.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_001.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:35)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:36)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:37)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:64)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:65)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:66)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:67)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:68)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:93)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:95)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:96)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:97)
+
+### Modifiche per il caso uso cittadinanza/Citt_002.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:33)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:35)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:36)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:63)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:64)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:65)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:66)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:67)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:92)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:93)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:94)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:95)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:96)
+
+### Modifiche per il caso uso cittadinanza/Citt_003.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:35)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:36)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:37)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:64)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:65)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:66)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:67)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:68)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:93)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:95)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:96)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:97)
+
+### Modifiche per il caso uso cittadinanza/Citt_004.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:32)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:33)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:35)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:62)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:63)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:64)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:65)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:66)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:91)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:92)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:93)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:94)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:95)
+
+### Modifiche per il caso uso cittadinanza/Citt_005.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:42)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:43)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:44)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:45)
+
+### Modifiche per il caso uso cittadinanza/Citt_006.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:32)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:33)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:35)
+
+### Modifiche per il caso uso cittadinanza/Citt_007.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:42)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:43)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:44)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:45)
+
+### Modifiche per il caso uso cittadinanza/Citt_008.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:32)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:33)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:35)
+
+### Modifiche per il caso uso cittadinanza/Citt_009.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:43)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:44)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:45)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:46)
+
+### Modifiche per il caso uso cittadinanza/Citt_010.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:32)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:33)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:35)
+
+### Modifiche per il caso uso cittadinanza/Citt_011.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:41)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:42)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:43)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:44)
+
+### Modifiche per il caso uso cittadinanza/Citt_012.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:32)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:33)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:35)
+
+### Modifiche per il caso uso cittadinanza/Citt_013.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:39)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:40)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:41)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:42)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:43)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:69)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:70)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:71)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:136)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:137)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:138)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:139)
+
+### Modifiche per il caso uso cittadinanza/Citt_014.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:32)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:33)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:35)
+
+### Modifiche per il caso uso cittadinanza/Citt_017.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:31)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:32)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:33)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:34)
+
+### Modifiche per il caso uso cittadinanza/Citt_018.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:36)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:37)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:38)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:39)
+
+### Modifiche per il caso uso cittadinanza/Citt_019.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:33)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:35)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:36)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:60)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:61)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:62)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:63)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:64)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:89)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:90)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:91)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:92)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:93)
+
+### Modifiche per il caso uso cittadinanza/Citt_020.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:35)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:36)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:37)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:38)
+
+### Modifiche per il caso uso cittadinanza/Citt_021.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:41)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:42)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:43)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:44)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:74)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:75)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:76)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:77)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:102)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:103)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:104)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:105)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:106)
+
+### Modifiche per il caso uso cittadinanza/Citt_022.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:35)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:36)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:37)
+
+### Modifiche per il caso uso cittadinanza/Citt_023.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:32)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:33)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:35)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:64)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:65)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:66)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:67)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:68)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:93)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:95)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:96)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:97)
+
+### Modifiche per il caso uso cittadinanza/Citt_024.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:38)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:39)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:40)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:41)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:101)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:103)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:104)
+
+### Modifiche per il caso uso cittadinanza/Citt_025.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:35)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:36)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:37)
+
+### Modifiche per il caso uso cittadinanza/Citt_026.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:32)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:33)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:35)
+
+### Modifiche per il caso uso cittadinanza/Citt_027.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:32)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:33)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:35)
+
+### Modifiche per il caso uso cittadinanza/Citt_028.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:38)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:39)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:40)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:41)
+
+### Modifiche per il caso uso cittadinanza/Citt_029.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:35)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:36)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:37)
+
+### Modifiche per il caso uso cittadinanza/Citt_030.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:36)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:37)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:38)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:39)
+
+### Modifiche per il caso uso cittadinanza/Citt_031.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:35)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:36)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:37)
+
+### Modifiche per il caso uso cittadinanza/Citt_032.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:39)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:40)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:41)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:42)
+
+### Modifiche per il caso uso cittadinanza/Citt_033.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:38)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:39)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:40)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:41)
+
+### Modifiche per il caso uso cittadinanza/Citt_034.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:35)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:36)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:37)
+
+### Modifiche per il caso uso cittadinanza/Citt_035.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:35)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:36)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:37)
+
+### Modifiche per il caso uso cittadinanza/Citt_036.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:38)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:39)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:40)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:41)
+
+### Modifiche per il caso uso cittadinanza/Citt_037.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:35)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:36)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:37)
+
+### Modifiche per il caso uso cittadinanza/Citt_038.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:38)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:39)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:40)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:41)
+
+### Modifiche per il caso uso cittadinanza/Citt_039.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:35)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:36)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:37)
+
+### Modifiche per il caso uso cittadinanza/Citt_040.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:37)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:38)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:39)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:40)
+
+### Modifiche per il caso uso cittadinanza/Citt_041.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:35)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:36)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:37)
+
+### Modifiche per il caso uso cittadinanza/Citt_043.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:43)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:44)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:45)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:46)
+
+### Modifiche per il caso uso cittadinanza/Citt_044.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:41)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:42)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:43)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:44)
+
+### Modifiche per il caso uso cittadinanza/Citt_045.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:89)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:91)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:92)
+
+### Modifiche per il caso uso cittadinanza/Citt_046.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:91)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:92)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:93)
+
+### Modifiche per il caso uso cittadinanza/Citt_998_3.csv : 
+* Aggiunto 'evento.datiDiMorte.dataMorte' (riga:13)
+
+### Modifiche per il caso uso cittadinanza/Citt_999.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:35)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:36)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:37)
+
+### Modifiche per il caso uso matrimoni/Matr_001.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:65)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:89)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:91)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:92)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso matrimoni/Matr_002.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:80)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:104)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:105)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:106)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:107)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:131)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:132)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:133)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:134)
+
+### Modifiche per il caso uso matrimoni/Matr_003.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:76)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:101)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:102)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:103)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:129)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:130)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:131)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:132)
+
+### Modifiche per il caso uso matrimoni/Matr_004.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:69)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:101)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:102)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:126)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:127)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:128)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:129)
+
+### Modifiche per il caso uso matrimoni/Matr_005.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:78)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:108)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:109)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:110)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:111)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:135)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:136)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:137)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:138)
+
+### Modifiche per il caso uso matrimoni/Matr_007.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:96)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:97)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:123)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:124)
+
+### Modifiche per il caso uso matrimoni/Matr_008.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:96)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:97)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:123)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:124)
+
+### Modifiche per il caso uso matrimoni/Matr_009.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:69)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:93)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:95)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:96)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:123)
+
+### Modifiche per il caso uso matrimoni/Matr_010.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:79)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:103)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:104)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:105)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:106)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:130)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:131)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:132)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:133)
+
+### Modifiche per il caso uso matrimoni/Matr_011.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:74)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:100)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:127)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:128)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:129)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:130)
+
+### Modifiche per il caso uso matrimoni/Matr_012.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:67)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:99)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:100)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:124)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:125)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:126)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:127)
+
+### Modifiche per il caso uso matrimoni/Matr_013.csv : 
+* Presenti modifiche per 'evento.datiEventoMatrimonio.officianteEvento.flagFirmatario' (riga:75)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:105)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:106)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:107)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:108)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:132)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:133)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:134)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:135)
+
+### Modifiche per il caso uso matrimoni/Matr_998_3.csv : 
+* Aggiunto 'evento.datiDiMorte.dataMorte' (riga:13)
+
+### Modifiche per il caso uso matrimoni/Matr_999_1.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:41)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:42)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:43)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:44)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:70)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:71)
+
+### Modifiche per il caso uso matrimoni/Matr_999_2.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:41)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:42)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:43)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:44)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:70)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:71)
+
+### Modifiche per il caso uso matrimoni/Matr_Riconc_001.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:49)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:50)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:51)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:52)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:76)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:77)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:78)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:79)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_001.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:64)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:65)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:66)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:67)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:91)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:92)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:93)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:94)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_002.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:62)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:63)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:64)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:65)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:89)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:91)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:92)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_003.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:31)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:32)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:33)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:58)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:59)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:60)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:61)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_004.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:74)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:75)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:76)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:77)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:101)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:102)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:103)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:104)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_005.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:52)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:53)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:54)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:55)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:79)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:80)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:81)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:82)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_006.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:83)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:84)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:85)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:86)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:110)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:111)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:112)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:113)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_007.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:97)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:98)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:123)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:124)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:125)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_008.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:58)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:59)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:60)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:61)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:164)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:165)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:166)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:167)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_999.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:36)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:37)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:38)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:39)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:63)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:64)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:65)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:66)
+
+### Modifiche per il caso uso morte/Morte_001.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:49)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:50)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:51)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:52)
+
+### Modifiche per il caso uso morte/Morte_002.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:47)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:48)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:49)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:50)
+
+### Modifiche per il caso uso morte/Morte_003.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:47)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:48)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:49)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:50)
+
+### Modifiche per il caso uso morte/Morte_005.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:44)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:45)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:46)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:47)
+
+### Modifiche per il caso uso morte/Morte_006.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:72)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:73)
+
+### Modifiche per il caso uso morte/Morte_007.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:48)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:49)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:50)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:51)
+
+### Modifiche per il caso uso morte/Morte_008.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:56)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:57)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:58)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:59)
+
+### Modifiche per il caso uso morte/Morte_009.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:33)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:35)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:36)
+
+### Modifiche per il caso uso morte/Morte_010.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:55)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:56)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:57)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:58)
+
+### Modifiche per il caso uso morte/Morte_011.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:73)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:74)
+
+### Modifiche per il caso uso morte/Morte_998_3.csv : 
+* Aggiunto 'evento.datiDiMorte.dataMorte' (riga:13)
+
+### Modifiche per il caso uso morte/Morte_999.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:44)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:45)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:46)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:47)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_001.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:66)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:68)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:70)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:96)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:98)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:114)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:115)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:117)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_002.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:71)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:99)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:115)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_003.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:100)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_004.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:66)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:68)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:70)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:96)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:98)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:114)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:115)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:117)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_005.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:71)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:99)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:115)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_006.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:66)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:68)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:70)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:96)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:98)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:114)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:115)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:117)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_007.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:100)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_008.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:100)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_009.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:102)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_010.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:65)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:66)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:67)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:68)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:69)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:93)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:95)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:96)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:97)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:113)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:114)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:115)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:116)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_011.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:71)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:99)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:115)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_012.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:102)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_013.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:103)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_014.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:100)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_015.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:100)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_016.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:100)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_017.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:103)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_018.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:71)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:99)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:115)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_019.csv : 
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:66)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:68)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:69)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:70)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:86)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:87)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:88)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:89)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_020.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:71)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:99)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:115)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_021.csv : 
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:88)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:89)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:91)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_022.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:73)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:101)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_023.csv : 
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:88)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:89)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:91)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_024.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:66)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:68)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:70)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:86)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:87)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:88)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:89)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_025.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:71)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:99)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:115)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_026.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:88)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:89)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:91)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_027.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:73)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:101)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_028.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:88)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:89)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:91)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_029.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:73)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:101)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_030.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:66)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:68)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:70)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:96)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:98)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:114)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:115)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:117)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_031.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:100)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_032.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:100)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_033.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:73)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:101)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_034.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:102)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_035.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:103)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_036.csv : 
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:88)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:89)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:91)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_037.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:73)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:101)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_038.csv : 
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:91)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:92)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:93)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_039.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:103)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_040.csv : 
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:91)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:92)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:93)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_041.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:103)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_042.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:88)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:89)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:91)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_043.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:73)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:101)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_044.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:91)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:92)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:93)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_045.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:103)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_046.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:91)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:92)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:93)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_047.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:103)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_048.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:100)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_049.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:102)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_050.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:73)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:101)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_051.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:103)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_052.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:75)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:76)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:101)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:103)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:104)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:123)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_053.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:74)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:75)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:76)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:77)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:101)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:102)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:103)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:104)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:105)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:123)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:124)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_054.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:58)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:59)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:60)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:61)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_055.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:61)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:62)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:63)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:64)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_056.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:60)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:61)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:62)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:63)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_057.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:60)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:61)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:62)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:63)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_058.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:62)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:63)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:64)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:65)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_059.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:62)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:63)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:64)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:65)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_060.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:73)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:101)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_061.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:100)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_062.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:73)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:101)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_063.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:73)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:89)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:91)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:92)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_064.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:102)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_065.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:100)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_066.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:88)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:89)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:91)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_067.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:103)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_068.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:103)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_069.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:103)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_070.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:75)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:76)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:101)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:103)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:104)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:123)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_071.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:103)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_072.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:91)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:92)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:93)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:94)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_073.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:75)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:76)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:101)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:103)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:104)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:123)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_074.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:100)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_075.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:91)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:92)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:93)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_076.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:74)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:75)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:76)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:77)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:101)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:102)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:103)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:104)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:105)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:123)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:124)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_077.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:102)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_078.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:73)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:101)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_079.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:102)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_080.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:71)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:99)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:115)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_081.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:75)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:76)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:101)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:103)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:104)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:123)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_082.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:74)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:75)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:76)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:77)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:101)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:102)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:103)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:104)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:105)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:123)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:124)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_083.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:75)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:76)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:101)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:103)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:104)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:123)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_084.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:73)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:101)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_085.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:102)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_086.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:102)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_087.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:75)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:76)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:101)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:103)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:104)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:123)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_088.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:102)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_089.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:66)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:68)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:70)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:96)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:98)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:114)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:115)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:117)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_090.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:100)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_091.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:73)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:101)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_092.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:103)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_093.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:100)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_094.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:102)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_095.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:102)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_096.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:100)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_097.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:102)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_098.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:75)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:76)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:101)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:103)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:104)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:123)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_099.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:73)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:101)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:120)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_100.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:100)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_101.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:100)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_102.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:100)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_103.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:102)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_104.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:102)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_105.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:91)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:92)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:93)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_106.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:75)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:76)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:101)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:103)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:104)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:123)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_107.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:75)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:76)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:101)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:103)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:104)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:123)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_108.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:103)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_109.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:91)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:92)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:93)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:94)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_110.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:102)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_111.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:75)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:76)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:101)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:103)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:104)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:123)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_112.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:102)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_113.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:102)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_114.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:66)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:68)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:70)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:96)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:98)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:114)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:115)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:117)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_115.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:74)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:102)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:119)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:121)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_116.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:100)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:116)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:117)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:118)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:119)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_117.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:74)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:75)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:76)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:77)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:93)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:95)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:96)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_120.csv : 
+* Aggiunto 'evento.datiDiMorte.dataMorte' (riga:13)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_3.csv : 
+* Aggiunto 'evento.datiDiMorte.dataMorte' (riga:13)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_999.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:37)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:38)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:39)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:40)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:64)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:65)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:66)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:67)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:106)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:107)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:108)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:109)
+
+### Modifiche per il caso uso riconoscimenti/Rico_001.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:71)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:99)
+
+### Modifiche per il caso uso riconoscimenti/Rico_002.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:71)
+
+### Modifiche per il caso uso riconoscimenti/Rico_003.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:103)
+
+### Modifiche per il caso uso riconoscimenti/Rico_004.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:70)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:99)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:123)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:124)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:125)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:126)
+
+### Modifiche per il caso uso riconoscimenti/Rico_005.csv : 
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:60)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:61)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:62)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:63)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:64)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:89)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:91)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:92)
+
+### Modifiche per il caso uso riconoscimenti/Rico_006.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:70)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:71)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:72)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:73)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:98)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:99)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:100)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:101)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:125)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:126)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:127)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:128)
+
+### Modifiche per il caso uso riconoscimenti/Rico_007.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:71)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:98)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:123)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:124)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:125)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:126)
+
+### Modifiche per il caso uso riconoscimenti/Rico_008.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:66)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:68)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:70)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:96)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:97)
+
+### Modifiche per il caso uso riconoscimenti/Rico_009.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:65)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:66)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:67)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:68)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:69)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:93)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:95)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:96)
+
+### Modifiche per il caso uso riconoscimenti/Rico_010.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:71)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:99)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:123)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:124)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:125)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:126)
+
+### Modifiche per il caso uso riconoscimenti/Rico_011.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:71)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:99)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:123)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:124)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:125)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:126)
+
+### Modifiche per il caso uso riconoscimenti/Rico_012.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:66)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:68)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:70)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:96)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:98)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:123)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:124)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:125)
+
+### Modifiche per il caso uso riconoscimenti/Rico_013.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:64)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:65)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:66)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:67)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:68)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:92)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:93)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:94)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:95)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:96)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:120)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:123)
+
+### Modifiche per il caso uso riconoscimenti/Rico_014.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:65)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:66)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:67)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:68)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:69)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:93)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:95)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:96)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:97)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:123)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:124)
+
+### Modifiche per il caso uso riconoscimenti/Rico_015.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:65)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:66)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:67)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:68)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:69)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:93)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:95)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:96)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:97)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:121)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:123)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:124)
+
+### Modifiche per il caso uso riconoscimenti/Rico_016.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:101)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:103)
+
+### Modifiche per il caso uso riconoscimenti/Rico_017.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:71)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:98)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:99)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:123)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:124)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:125)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:126)
+
+### Modifiche per il caso uso riconoscimenti/Rico_018.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:74)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:75)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:76)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:101)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:102)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:103)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:104)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:128)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:129)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:130)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:131)
+
+### Modifiche per il caso uso riconoscimenti/Rico_019.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:66)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:68)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:69)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:70)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:96)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:97)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:98)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:123)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:124)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:125)
+
+### Modifiche per il caso uso riconoscimenti/Rico_020.csv : 
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:59)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:60)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:61)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:62)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:63)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:87)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:88)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:89)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:90)
+
+### Modifiche per il caso uso riconoscimenti/Rico_999.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:35)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:36)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:37)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:61)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:62)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:63)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:64)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:88)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:89)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:90)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:91)
+
+### Modifiche per il caso uso trascrizioni/Trascr_001.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:35)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:36)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:37)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:38)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:62)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:63)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:64)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:65)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:66)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:81)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:82)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:83)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:84)
+
+### Modifiche per il caso uso trascrizioni/Trascr_002.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:47)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:48)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:49)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:50)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:51)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:75)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:76)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:77)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:78)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:79)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:103)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:104)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:105)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:106)
+
+### Modifiche per il caso uso trascrizioni/Trascr_003.csv : 
+* Aggiunto 'Formula 194' (riga:7)
+* Aggiunto 'Formula 195' (riga:8)
+* Aggiunto 'Formula 196' (riga:9)
+* Aggiunto 'Formula 197' (riga:10)
+* Aggiunto 'Formula 198' (riga:11)
+* Aggiunto 'Formula 199' (riga:12)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:43)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:44)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:45)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:46)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:47)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:101)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:102)
+* Presenti modifiche per 'evento.interprete.cognome' (riga:146)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaNascita' (riga:153)
+* Presenti modifiche per 'evento.interprete.nomeComuneNascita' (riga:155)
+* Presenti modifiche per 'evento.interprete.localitaEsteraNascita' (riga:156)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaResidenza' (riga:162)
+* Presenti modifiche per 'evento.interprete.nomeComuneResidenza' (riga:164)
+* Presenti modifiche per 'evento.interprete.indirizzoResidenza' (riga:165)
+* Presenti modifiche per 'evento.datiDichiarante.motivoImpedimentoScrittura' (riga:170)
+
+### Modifiche per il caso uso trascrizioni/Trascr_005.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:38)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:39)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:40)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:41)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:42)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:66)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:68)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:69)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:70)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:96)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:97)
+
+### Modifiche per il caso uso trascrizioni/Trascr_006.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:84)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:85)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:86)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:87)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:60)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:139)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:140)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:141)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:142)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:115)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:193)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:194)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:195)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:196)
+
+### Modifiche per il caso uso trascrizioni/Trascr_007.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:35)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:36)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:37)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:38)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:62)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:63)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:64)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:65)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:66)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:82)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:83)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:84)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:85)
+
+### Modifiche per il caso uso trascrizioni/Trascr_008.csv : 
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:56)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:57)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:58)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:59)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:83)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:84)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:85)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:86)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:110)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:111)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:112)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:113)
+
+### Modifiche per il caso uso trascrizioni/Trascr_009.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:33)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:35)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:36)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:60)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:61)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:62)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:63)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:87)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:88)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:89)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:90)
+
+### Modifiche per il caso uso trascrizioni/Trascr_010.csv : 
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:57)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:58)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:59)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:60)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:84)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:85)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:86)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:87)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:111)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:112)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:113)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:114)
+
+### Modifiche per il caso uso trascrizioni/Trascr_011.csv : 
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:41)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:42)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:43)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:44)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:97)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:98)
+
+### Modifiche per il caso uso trascrizioni/Trascr_012.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:75)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:76)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:77)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:78)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:105)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:106)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:107)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:108)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:132)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:133)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:134)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:135)
+
+### Modifiche per il caso uso trascrizioni/Trascr_013.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:30)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:31)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:32)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:33)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:57)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:58)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:59)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:60)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:61)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:85)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:86)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:87)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:88)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:89)
+
+### Modifiche per il caso uso trascrizioni/Trascr_014.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:30)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:31)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:32)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:33)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:57)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:58)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:59)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:60)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:61)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:85)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:86)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:87)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:88)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:89)
+
+### Modifiche per il caso uso trascrizioni/Trascr_015.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:31)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:32)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:33)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:34)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:58)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:59)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:60)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:61)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:62)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:86)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:87)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:88)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:89)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:90)
+
+### Modifiche per il caso uso trascrizioni/Trascr_016.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:30)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:31)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:32)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:33)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:57)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:58)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:59)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:60)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:61)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:85)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:86)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:87)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:88)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:89)
+
+### Modifiche per il caso uso trascrizioni/Trascr_017.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:31)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:32)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:33)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:34)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:61)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:62)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:63)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:64)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:65)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:89)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:90)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:91)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:92)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:93)
+
+### Modifiche per il caso uso trascrizioni/Trascr_018.csv : 
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:33)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:35)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:36)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:60)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:61)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:62)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:63)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:87)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:88)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:89)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:90)
+
+### Modifiche per il caso uso trascrizioni/Trascr_019.csv : 
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:33)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:35)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:36)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:60)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:61)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:62)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:63)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:87)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:88)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:89)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:90)
+
+### Modifiche per il caso uso trascrizioni/Trascr_020.csv : 
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:57)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:58)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:59)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:60)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:84)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:85)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:86)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:87)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:111)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:112)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:113)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:114)
+
+### Modifiche per il caso uso trascrizioni/Trascr_021.csv : 
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:34)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:35)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:36)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:37)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:61)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:62)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:63)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:64)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:88)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:89)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:91)
+
+### Modifiche per il caso uso trascrizioni/Trascr_022.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:32)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:33)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:34)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:35)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:59)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:60)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:61)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:62)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:78)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:79)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:80)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:81)
+
+### Modifiche per il caso uso trascrizioni/Trascr_023.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:43)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:44)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:45)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:46)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:47)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:73)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:74)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:75)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:101)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:102)
+
+### Modifiche per il caso uso trascrizioni/Trascr_024.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:56)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:57)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:58)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:59)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:83)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:84)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:85)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:86)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:110)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:111)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:112)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:113)
+
+### Modifiche per il caso uso trascrizioni/Trascr_025.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:40)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:41)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:42)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:43)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:44)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:70)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:72)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:97)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:98)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:99)
+
+### Modifiche per il caso uso trascrizioni/Trascr_026.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:38)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:39)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:40)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:41)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:42)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:66)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:68)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:69)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:70)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:94)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:96)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:97)
+
+### Modifiche per il caso uso trascrizioni/Trascr_999.csv : 
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:36)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:37)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:38)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:39)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:63)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:64)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:65)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:66)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:90)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:91)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:92)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:93)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Citt_999.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:36)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:37)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:38)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:39)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_001.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:51)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:52)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:53)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:54)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:78)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:79)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:80)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:81)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_002.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:49)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:50)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:51)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:52)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:76)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:77)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:78)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:79)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_003.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:51)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:52)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:53)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:54)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:78)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:79)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:80)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:81)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_004.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:50)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:51)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:52)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:53)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:77)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:78)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:79)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:80)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_005.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:70)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:71)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:97)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:98)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_006.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:51)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:52)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:53)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:54)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:78)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:79)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:80)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:81)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_999.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:44)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:45)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:46)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:47)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:73)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:74)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Morte_999.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:51)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:52)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:53)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:54)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_001.csv : 
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.dataComunicazione' (riga:20)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:46)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:47)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:48)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:49)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:74)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:75)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:76)
+* Presenti modifiche per 'evento.dichiarante.flagFirmatario' (riga:110)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_002.csv : 
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.dataComunicazione' (riga:20)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:46)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:47)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:48)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:49)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:74)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:75)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:76)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.attoEstero.enteEstero.siglaProvinciaEnte' (riga:83)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_003.csv : 
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.dataComunicazione' (riga:19)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:45)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:46)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:47)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:48)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:74)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:75)
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.attoEstero.enteEstero.siglaProvinciaEnte' (riga:82)
+* Presenti modifiche per 'evento.dichiarante.flagFirmatario' (riga:109)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_004.csv : 
+* Presenti modifiche per 'evento.trascrizioneUnioneCivile.dataComunicazione' (riga:19)
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:45)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:46)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:47)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:48)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:73)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:74)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:75)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_999.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:44)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:45)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:46)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:47)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:73)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:74)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_001.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:39)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:40)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:41)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:42)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:66)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:67)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:68)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:69)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_002.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:44)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:45)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:46)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:47)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:71)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:72)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:73)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:74)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_003.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:48)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:49)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:50)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:51)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:75)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:76)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:77)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:78)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_004.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:38)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:39)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:40)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:41)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:65)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:66)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:67)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:68)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_005.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:37)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:38)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:39)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:40)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:64)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:65)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:66)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:67)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_999.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:36)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:37)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:38)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:39)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:63)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:64)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:65)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:66)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_001.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:95)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:96)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:97)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:98)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:122)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:123)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:124)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:125)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_002.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:105)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:106)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:107)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:108)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:132)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:133)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:134)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:135)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_003.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:104)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:105)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:106)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:107)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:133)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:134)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:135)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:136)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_004.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:99)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:100)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:101)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:102)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:126)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:127)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:128)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:129)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_005.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:111)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:112)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:113)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:114)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:138)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:139)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:140)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:141)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_3.csv : 
+* Aggiunto 'evento.datiDiMorte.dataMorte' (riga:13)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_999.csv : 
+* Aggiunto 'evento.intestatari[0].idProvinciaAIRE' (riga:41)
+* Aggiunto 'evento.intestatari[0].siglaProvinciaAIRE' (riga:42)
+* Aggiunto 'evento.intestatari[0].idComuneAIRE' (riga:43)
+* Aggiunto 'evento.intestatari[0].nomeComuneAIRE' (riga:44)
+* Aggiunto 'evento.intestatari[1].idProvinciaAIRE' (riga:68)
+* Aggiunto 'evento.intestatari[1].siglaProvinciaAIRE' (riga:69)
+* Aggiunto 'evento.intestatari[1].idComuneAIRE' (riga:70)
+* Aggiunto 'evento.intestatari[1].nomeComuneAIRE' (riga:71)
+
+
 #Changelog mappatura casi uso 1.28.0
 
 ## Casi uso aggiunti : 1

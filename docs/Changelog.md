@@ -24,6 +24,102 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.29.0 - 31-05-2024]
+
+NOTA: L'attività 85 Gestione soggetti AIRE ha comportanto l'aggiunta di campi opzionali a quasi tutti i caso d'uso
+
+### Changed
+
+- Estendere la durata di tutte le versioni a partire dalla 100011 fino al 31 settembre
+
+### Added
+
+- [feature] Gestione del provvedimento di rifiuto (ID 60)
+- [feature] Gestione dei soggetti AIRE (ID 85)
+- [feature] Gestione del multilinguismo (solo in ambiente di pre produzione) (ID 20)
+- [feature] Trascrizione atto unione civile su richiesta dell'interessato per art. 19 (ID 103)
+- [feature] Trascrizione atto morte su richiesta dell'interessato per art. 19 (ID 104)
+- [feature] Trascrizione atto nascita su richiesta dell'interessato per art. 19 (ID 105)
+- [feature] Matrimoni di stranieri con omissioni pubblicazioni (ID 112)
+- [versione] Aggiunta versione 100013
+- [decodifiche] Aggiunti valori in tipo allegato decodifica ANSC_9 DEC_TIPO_ALLEGATO: 102 = Provvedimento di rifiuto, 103 = Nullaosta di cui all'art. 116 o documentazione equivalente.
+- [decodifiche] Aggiunta decodifica ANSC_111 Tipo Rifiuto DEC_TIPO_RIFIUTO (1 = Notifica, 2 = Atto).
+- [casi d'uso] Aggiunto nuovo caso d'uso 1.3.1.5 (Trascr_027) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso 2.2.1.4 (Morte_014) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso 3.1.3.1.1.1 (Matr_019) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso 4.3.6.0.0.0 (Trascr_UnCiv_005) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [feature] Inserimento provvedimento di rifiuto per notifica e/o atto (ID 60)
+- [feature] Gestione residenza comune AIRE (ID85)
+- [model evento] Nuovo campo dataProvvedimentoCambioCognome Aggiunto campo datiRifiuto relativi al provvedimento di rifiuto
+  ```
+    datiRifiuto:
+    $ref: '#/components/schemas/ModelRifiuto'
+
+    ModelRifiuto:
+      properties:
+        eventoCollegato:
+          $ref: '#/components/schemas/ModelAttoCollegato'
+        idNotifica:
+          type: number
+          description: id della notifica che si sta andando a rifiutare (tipo rifiuto 2)
+        idTipoRifiuto:
+          type: number
+          description: tipo di rifiuto (1 - notifiche, 2 - evento)
+        motivazioneRifiuto:
+          type: string
+          description: motivazione del rifiuto
+        numeroProtocolloProvvedimento:
+          type: string
+          description: numero protocollo del provvedimento di rifiuto
+  ```
+- [model evento] Aggiunti i seguenti campi nel ModelSoggetto per la gestione della comuneAIRE (ID85)
+  ```
+    idComuneAIRE:
+      type: string
+      description: ID del Comune di Iscrizione AIRE
+      example: '122'
+    nomeComuneAIRE:
+      type: string
+      description: Nome del Comune di iscrizione AIRE
+      example: 'Roma'
+    idProvinciaAIRE:
+      type: string
+      description: ID della provincia di iscrizione AIRE
+      example: '123'
+    siglaProvinciaAIRE:
+      type: string
+      description: Sigla della provincia di Iscrizione AIRE
+      example: 'RM'  
+    flagTrasmissioneResidenzaEstera: 
+      type: boolean
+      description: indica che va gestita la residenza estera
+      example: false
+  ```
+
+- R016_evento_rifiuto.yaml
+  - Aggiunto nuovo servizio: /rifiuto/validazione/evento/{version} (validazione del provvedimento di rifiuto)
+- R005_consultazione_ansc.yaml
+  - Aggiunto nuovo servizio: /consultazione/ansc/evento/rifiuti/{version} (Consultazione dei provvedimenti di rifiuto presenti)
+
+### Fixe
+- [SC]: Validazione Annotazione - Errore Interno <https://github.com/italia/ansc/issues/861>
+- [SC] Mapping casi d'uso relativi alle annotazioni - campi mancanti <https://github.com/italia/ansc/issues/741>
+- Anteprima atto per presa visione <https://github.com/italia/ansc/issues/849>
+- Consultazione atto: eliminare intervallo temporale accanto al comune di nascita <https://github.com/italia/ansc/issues/777>
+- [webapp]: caso d'uso 2224 - Trascrizione di morte: Trascrizioni di sentenze di accertamento morte gia' dichiarata presunta <https://github.com/italia/ansc/issues/859>
+- [Webapp - SC] Errata configurazione UC 1364 Scelta del cognome del figlio maggiorenne.<https://github.com/italia/ansc/issues/864>
+- Trascrizioni atti dall'estero: firma dichiarante <https://github.com/italia/ansc/issues/676>
+- Web app: Formazione atto matrimonio da web app (rito civile) <https://github.com/italia/ansc/issues/850>
+- [webapp]: 312111 - Matrimonio su delega di altro comune  <https://github.com/italia/ansc/issues/841>
+- ID112 - Matrimonio STRANIERI (3.1.1.1.1.1 Matrimonio con rito civile nella casa comunale) <https://github.com/italia/ansc/issues/828>
+- [SC]: anomalia testo notifica di tipo annotazione matrimonio <https://github.com/italia/ansc/issues/845>
+- Anteprima - Matrimonio: ordine dei firmatari in calce all'atto <https://github.com/italia/ansc/issues/809>
+-  Anteprima : Dichiarazioni nascita ordine firmatari <https://github.com/italia/ansc/issues/812>
+- Web app:  Mancato recupero di un atto in n stato firmato per conformità stato 11 con firma dichiarante digitale. <https://github.com/italia/ansc/issues/894>
+- [webapp]: nota tecnica - visualizzazione allegati firmati (p7m) <https://github.com/italia/ansc/issues/689>
+- Web app: tasto funzione 'ottieni atto' fuorviante <https://github.com/italia/ansc/issues/851>
+
+
 ## [1.28.9 - 29-05-2024]
 
 ### Changed

@@ -133,6 +133,45 @@ paths:
             application/json:
               schema:
                  $ref: '#/components/schemas/DataAdesioneResponse'
+  /config/decodifica/usecase-multilingua/{version}:
+    post:
+      tags:
+      - Validazione decodifica
+      summary: Usecase multilingua
+      operationId: usecaseMultilingua
+      parameters:
+      - name: version
+        in: path
+        description: Versione del servizio
+        required: true
+        schema:
+          type: string
+      requestBody:
+        description: Data adesione
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UsecaseMultilinguaRequest'
+        required: true
+      responses:
+        "200":
+          description: Successo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UsecaseMultilinguaResponse'
+        "403":
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UsecaseMultilinguaResponse'
+        "404":
+          description: Se il comune non ha aderito
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UsecaseMultilinguaResponse'
 components:
   schemas:
     DecodificaElencoRequest:
@@ -231,3 +270,19 @@ components:
               format: date
               description: Data di adesione, se il comune ha già aderito
               example: '2023-10-31'
+    UsecaseMultilinguaRequest:
+      description: Richiesta elenco casi d'uso multi lingua supportati
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+    UsecaseMultilinguaResponse:
+      description: Risposta elenco casi d'uso multi lingua supportati
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:         
+            elencoUsecaseMultilingua:
+              type: array
+              items:
+                format: int32
+                type: integer
+                example: 11111000

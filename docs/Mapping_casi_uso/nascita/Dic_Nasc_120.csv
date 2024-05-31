@@ -10,6 +10,7 @@
 "Intestatario","Codice Fiscale","NO","evento.intestatari[0]","codiceFiscale","","obbligatoria"
 "Intestatario","Sesso","SI","evento.intestatari[0]","sesso","","obbligatoria"
 "Intestatario","Data nascita","SI","evento.intestatari[0]","dataNascita","","obbligatoria"
+"Intestatario","Data morte","NO","evento.datiDiMorte","dataMorte","","obbligatoria"
 "Intestatario","Stato Nascita","SI","evento.intestatari[0]","idStatoNascita","","obbligatoria"
 "Intestatario","Stato Nascita - Descrizione","SI","evento.intestatari[0]","nomeStatoNascita","","obbligatoria"
 "Intestatario","Provincia Nascita","NO","evento.intestatari[0]","idProvinciaNascita","","obbligatoria"

@@ -91,7 +91,11 @@ components:
               type: boolean
               description: Indica opzione di uso matrimonio alla richiesta dei certificati semplici e per riassunto per registro di nascita e matrimonio
               example: true
-
+            codiciLingueCertificato:
+              type: array
+              items:
+               type: string
+               description: Codici lingue aggiuntive in cui il certificato verrà prodotto
     CertificatoResponse:
       description: Ritorno del servizio specializzato per il certificato
       allOf:
