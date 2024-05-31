@@ -87,4 +87,4 @@
 "Interprete","Indirizzo di residenza","NO","evento.interprete","indirizzoResidenza","","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"
 "Interprete","flag dichiarante","SI","evento.interprete","flagDichiarante","","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"
 "Interprete","flag comparente","SI","evento.interprete","flagComparente","","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"
-"Interprete","flag firmatario","SI","evento.interprete","flagFirmatario","","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"
+"Interprete","Firmatario","SI","evento.interprete","flagFirmatario","","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"

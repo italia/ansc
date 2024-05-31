@@ -611,7 +611,7 @@
 "Interprete","Indirizzo di residenza","NO","evento.interprete","indirizzoResidenza","","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"
 "Interprete","flag dichiarante","SI","evento.interprete","flagDichiarante","","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"
 "Interprete","flag comparente","SI","evento.interprete","flagComparente","","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"
-"Interprete","flag firmatario","SI","evento.interprete","flagFirmatario","","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"
+"Interprete","Firmatario","SI","evento.interprete","flagFirmatario","","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"
 "Dettagli evento","Comprensione sposo","SI","evento.datiEventoMatrimonio","comprensioneSposo","","obbligatoria"
 "Dettagli evento","Motivo impedimento scrittura sposo","NO","evento.datiEventoMatrimonio","motivoImpedimentoScritturaSposo","68,64","obbligatoria"
 "Dettagli evento","Comprensione sposa","SI","evento.datiEventoMatrimonio","comprensioneSposa","","obbligatoria"

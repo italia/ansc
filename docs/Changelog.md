@@ -24,6 +24,16 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.28.9 - 29-05-2024]
+
+### Changed
+
+- [docs] Aggiornata la documentazione, erroneamente pubblicata nella versione 1.28.8 <https://github.com/italia/ansc/issues/897>
+
+### Fixed
+
+- [SC]: URGENTE versione 1.28.8! mapping matr_riconc_001 ritornato pre modifiche 1.28.4 <https://github.com/italia/ansc/issues/897>
+
 ## [1.28.8 - 29-05-2024]
 
 ### Changed

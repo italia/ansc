@@ -45,7 +45,7 @@
 "Atto collegato","Data atto","NO","evento.eventoCollegato","dataformazione","","obbligatoria"
 "Atto collegato","Parte","NO","evento.eventoCollegato","parte","","obbligatoria"
 "Atto collegato","Serie","NO","evento.eventoCollegato","serie","","obbligatoria"
-"Atto collegato","Tipo registro","SI","evento.eventoCollegato","tipologia","","obbligatoria"
+"Atto collegato","Tipo registro","NO","evento.eventoCollegato","tipologia","","obbligatoria"
 "Autorità mittente","Data formazione documento","SI","evento.trascrizioneCittadinanza.autoritaMittente","dataTrascrizione","","obbligatoria"
 "Autorità mittente","Estremi documento","SI","evento.trascrizioneCittadinanza.autoritaMittente","estremiDocumento","","obbligatoria"
 "Autorità mittente","Nome ente","SI","evento.trascrizioneCittadinanza.autoritaMittente","nomeEnte","","obbligatoria"
