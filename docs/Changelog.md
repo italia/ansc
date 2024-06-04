@@ -27,6 +27,14 @@ NOTE:
 
 - Comunicazione: Disattivazione dei servizi cooperativi relativi ad alcuni casi d’uso di servizio <https://github.com/italia/ansc/discussions/882>
 
+## [1.29.2 - 04-06-2024]
+
+### Fixed
+
+- [SC]: Nuove casistiche vers.1.29 <https://github.com/italia/ansc/issues/905>
+- [webapp]: [SC]: R012 firma dichiarante elettronica <https://github.com/italia/ansc/issues/902> <https://github.com/italia/ansc/issues/906> <https://github.com/italia/ansc/issues/907>
+- [SC]: Annotazione automatica non approvata <https://github.com/italia/ansc/issues/903>
+
 ## [1.29.1 - 01-05-2024]
 
 ### Fixed

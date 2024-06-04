@@ -1,3 +1,21 @@
+#Changelog mappatura casi uso 1.29.2  
+
+## Casi uso aggiunti : 9
+* cittadinanza/Citt_ann_auto.csv
+* matrimoni/Matr_019.csv
+* matrimoni/Matr_ann_auto.csv
+* matrimoni/Matr_Riconc_999.csv
+* morte/Morte_014.csv
+* morte/Morte_ann_auto.csv
+* trascrizioni/Trascr_027.csv
+* trascrizioni/Trascr_UnCiv_005.csv
+* unioni_civili/UnCiv_ann_auto.csv
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 0
+
+
 #Changelog mappatura casi uso 1.29.0  
 
 ## Casi uso aggiunti : 0
