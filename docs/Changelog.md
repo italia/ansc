@@ -27,6 +27,19 @@ NOTE:
 
 - Comunicazione: Disattivazione dei servizi cooperativi relativi ad alcuni casi d’uso di servizio <https://github.com/italia/ansc/discussions/882>
 
+## [1.29.3 - 06-06-2024]
+
+### Added
+
+- [docs] [Quickstart multilingua servizi cooperativi](Note/SpecificheMultilingua/QuickstartMultilingua.md)
+
+### Fixed
+
+- [SC]: R001 Verifica Allegato <https://github.com/italia/ansc/issues/917>
+- Certificati/estratti: Mancanza comune nascita se non valido alla data
+- DISCREPANZA TRA ANTEPRIMA E CERTIFICAZIONE <https://github.com/italia/ansc/issues/898>
+- REWORK [webapp]: Matrimonio STRANIERI (3.1.1.1.1.1 Matrimonio con rito civile nella casa comunale) <https://github.com/italia/ansc/issues/828>
+
 ## [1.29.2 - 04-06-2024]
 
 ### Fixed

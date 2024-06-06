@@ -487,8 +487,6 @@
 "Dettagli evento","Motivo impedimento scrittura sposa","NO","evento.datiEventoMatrimonio","motivoImpedimentoScritturaSposa","","obbligatoria"
 "Dettagli evento","Presenza interprete","SI","evento","ausilioInterprete","","obbligatoria"
 "Dettagli evento","Numero di testimoni","SI","evento.datiEventoMatrimonio","numeroTestimoni","","obbligatoria"
-"Dettagli evento","Presente decreto che rigetta l'opposizione","SI","evento.datiEventoMatrimonio","rigettoOpposizione","","obbligatoria"
-"Dettagli evento","Presente provvedimento che estingue il giudizio di opposizione","SI","evento.datiEventoMatrimonio","estintaOpposizione","","obbligatoria"
 "Dettagli evento","Difetto di età","SI","evento.datiEventoMatrimonio","difettoEta","","obbligatoria"
 "Dettagli evento","Parentela (ovvero: affinità; ovvero: affiliazione)","SI","evento.datiEventoMatrimonio","impedimentoParentela","","obbligatoria"
 "Dettagli evento","Divieto temporaneo di nuove nozze","SI","evento.datiEventoMatrimonio","divietoTemporaneo","","obbligatoria"
