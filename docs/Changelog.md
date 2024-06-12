@@ -27,6 +27,14 @@ NOTE:
 
 - Comunicazione: Disattivazione dei servizi cooperativi relativi ad alcuni casi d’uso di servizio <https://github.com/italia/ansc/discussions/882>
 
+## [1.29.4 - 12-06-2024]
+
+### Fixed
+
+- [SC]: Anteprima per presa visione - Dati in ingresso non corretti <https://github.com/italia/ansc/issues/919>
+- [SC] Verifica servizio validazione per idVersion passati <https://github.com/italia/ansc/issues/918>
+- [3.3.2.0.0.0] Trascrizione matrimoni dall'estero - richiesta di trascrizione da parte del consolato/ambasciata <https://github.com/italia/ansc/issues/914>
+
 ## [1.29.3 - 06-06-2024]
 
 ### Added
