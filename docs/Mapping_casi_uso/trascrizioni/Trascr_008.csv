@@ -123,6 +123,3 @@
 "Dati generali","Riassunto","SI","evento.trascrizioneNascita","testoLibero","","obbligatoria"
 "Dettagli evento","Tipo richiedente","SI","evento.trascrizioneNascita","tipoRichiedente","","obbligatoria"
 "Dettagli evento","Tipo richiedente - Descrizione","NO","evento.trascrizioneNascita","descrizioneTipoRichiedente","","obbligatoria"
-"Flag - Richiedente Madre - Trascrizioni nascita","flag dichiarante","SI","evento.madre","flagDichiarante","","evento.trascrizioneNascita.tipoRichiedente,!=,2"
-"Flag - Richiedente Madre - Trascrizioni nascita","flag comparente","SI","evento.madre","flagComparente","","evento.trascrizioneNascita.tipoRichiedente,!=,2"
-"Flag - Richiedente Madre - Trascrizioni nascita","flag firmatario","SI","evento.madre","flagFirmatario","","evento.trascrizioneNascita.tipoRichiedente,!=,2"

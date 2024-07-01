@@ -382,6 +382,18 @@ components:
         id:
           type: string
           description: Identificativo univoco della notifica ANPR
+        idTipoNotifica:
+          type: string
+          description: Identificativo univoco della notifica
+        idComuneMittente:
+          type: string
+          description: Identificativo univoco del comune mittente della notifica
+        idComuneDestinatario:
+          type: string
+          description: Identificativo univoco del comune destinatario della notifica
+        dataIns:
+          type: string
+          description: Data di inoltro della notifica              
 
     RicercaNotificheAnprRequest:
       description: Richiesta del servizio di ricerca notifiche ANPR per evento.

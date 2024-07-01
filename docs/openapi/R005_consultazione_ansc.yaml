@@ -168,6 +168,20 @@ paths:
           description: La versione del servizio invocato
           schema:
             type: string
+        - name: revision
+          in: query
+          required: false
+          description: >
+            Parametro di revisione per determinare il formato della risposta. I valori possibili sono:
+            - 2000000: Usa ConsultazioneANSCSoggettoResponse
+            - 2000001: Usa ConsultazioneANSCSoggettoRevision1Response
+            - 2000002: Usa ConsultazioneANSCSoggettoResponse
+            - 2000003: Usa ConsultazioneANSCSoggettoResponse
+            - Se non fornito: Usa ConsultazioneANSCSoggettoRevision1Response
+          schema:
+            type: integer
+            enum: [ 2000000, 2000001, 2000002, 2000003 ]
+            example: 2000000
       requestBody:
          required: true
          content:
@@ -179,8 +193,10 @@ paths:
           description: Soggetto richiesto dalla ricerca
           content:
             application/json:
-             schema:
-                 $ref: '#/components/schemas/ConsultazioneANSCSoggettoResponse'
+              schema:
+                oneOf:
+                  - $ref: '#/components/schemas/ConsultazioneANSCSoggettoResponse'
+                  - $ref: '#/components/schemas/ConsultazioneANSCSoggettoRevision1Response'
        403:
          description: Non autorizzato
          content:
@@ -339,7 +355,7 @@ components:
               items:
                 $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'
     ConsultazioneANSCSoggettoResponse:
-      description: Ritorno del servizio per la consultazione intestatari ANSC
+      description: Ritorno del servizio per la consultazione intestatari ANSC, quando revision è 2000000, 2000002, o 2000003
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
         - type: object
@@ -348,6 +364,18 @@ components:
               type: array
               items:
                 $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
+
+    ConsultazioneANSCSoggettoRevision1Response:
+      description: Ritorno del servizio per la consultazione intestatari ANSC, quando revision è 2000001 o non fornito
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:
+            soggetti:
+              type: array
+              items:
+                $ref: '#/components/schemas/ModelSoggettoInt'
+
     ConsultazioneANSCEventoRifiutoRequest:
       description: Richiesta del servizio di consultazione per i provvedimenti di rifiuto afferenti
         all'evento passato in input
@@ -359,3 +387,95 @@ components:
               type: string
               description: Id univoco interno dell'evento a cui fa riferimento il provvedimento di rifiuto
               example: "35634"
+    ModelSoggettoInt:
+      properties:
+        id:
+          type: number
+          format: bigdecimal
+          description: Identificativo del soggetto
+          example: 123456
+        cognome:
+          type: string
+          description: Cognome del soggetto
+          example: 'Rossi'
+        nome:
+          type: string
+          description: Nome del soggetto
+          example: 'Mario'
+        sesso:
+          type: string
+          description: Sesso del soggetto
+          example: 'm'
+        dataNascita:
+          type: string
+          format: date
+          description: Data di nascita del soggetto
+          example: '2024-05-30T16:02:38.000+00:00'
+        datains:
+          type: string
+          format: date
+          description: Data di inserimento
+          example: '2024-05-30T16:02:38.000+00:00'
+        dataultimoagg:
+          type: string
+          format: date
+          description: Data dell'ultimo aggiornamento
+          example: '2024-05-30T16:02:38.000+00:00'
+        codiceFiscale:
+          type: string
+          description: Codice fiscale del soggetto
+          example: 'PNUFDN87C13F103O'
+        idComuneNascita:
+          type: number
+          format: bigdecimal
+          description: ID del comune di nascita
+          example: 1222
+        idStatoNascita:
+          type: string
+          description: ID dello Stato di nascita
+          example: '100'
+        idStato:
+          type: number
+          format: bigdecimal
+          description: ID dello Stato
+          example: 100
+        idComuneResidenza:
+          type: number
+          format: bigdecimal
+          description: ID del comune di residenza
+          example: 122
+        idStatoResidenza:
+          type: string
+          description: ID dello Stato di residenza
+          example: '100'
+        nazionalita:
+          type: string
+          description: Nazionalità del soggetto
+          example: 'Italiana'
+        nomeStatoNascita:
+          type: string
+          description: Nome dello Stato di nascita
+          example: 'ITALIA'
+        idProvinciaNascita:
+          type: number
+          format: bigdecimal
+          description: ID della provincia di nascita
+          example: 123
+        nomeComuneNascita:
+          type: string
+          description: Nome del comune di nascita
+          example: 'Roma'
+        idProvinciaResidenza:
+          type: number
+          format: bigdecimal
+          description: ID della provincia di residenza
+          example: 123
+        siglaProvinciaNascita:
+          type: string
+          description: Sigla della provincia di nascita
+          example: 'RM'
+        idNazionalita:
+          type: number
+          format: bigdecimal
+          description: ID della nazionalità
+          example: 1

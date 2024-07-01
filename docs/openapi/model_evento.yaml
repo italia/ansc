@@ -214,6 +214,10 @@ components:
           $ref: '#/components/schemas/ModelSoggetto'
         padre: # Soggetto che contiene i dati del padre
           $ref: '#/components/schemas/ModelSoggetto'
+        madreBiologica: # Soggetto che contiene i dati della madre biologica
+          $ref: '#/components/schemas/ModelSoggetto'
+        padreBiologico: # Soggetto che contiene i dati del padre biologico
+          $ref: '#/components/schemas/ModelSoggetto'  
         coniuge: # Coniuge dell'intestatario (registro di Morte)
           $ref: '#/components/schemas/ModelSoggetto'
         dichiarante: # Soggetto che contiene i dati del dichiarante
@@ -1309,7 +1313,7 @@ components:
         luogoFiliazione: 
           type: string
           description: Luogo in cui e' avvenuto l'evento Nascita. 
-          example: 'Ospedale'
+          example: 'Indicare la struttura o casa privata e l’indirizzo'
         indirizzoEvento:
           type: string
           description: Indirizzo in cui è avvenuto l'evento
@@ -2582,6 +2586,22 @@ components:
           format: date
           description: Data fine pubblicazione
           example: '2022-04-30'
+        idNazione:
+          type: string
+          description: Nazione dell'ente (decodifica ANPR_02)
+          example: "91"
+        nomeNazione:
+          type: string
+          description: Descrizione della nazione
+          example: "AUSTRIA"
+        idAnagraficaConsolato:
+          type: string
+          description: id sede estera del consolato (decodifica ANSC_97)
+          example: "190"
+        nomeAnagraficaConsolato:
+          type: string
+          description: Descrizione sede estera del consolato
+          example: "VILNIUS"
           
     ModelRegimePatrimoniale:
       properties:

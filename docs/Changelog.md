@@ -27,6 +27,80 @@ NOTE:
 
 - Comunicazione: Disattivazione dei servizi cooperativi relativi ad alcuni casi d’uso di servizio <https://github.com/italia/ansc/discussions/882>
 
+## [1.30.0 - 01-07-2024]
+
+## Added
+
+- [feature] Modifica per correzione di eventi di tipo annotazioni (ID 86)
+- [feature] Gestione ulteriori usi specifici certificati (ID 76.a)
+- [decodifiche] Aggiunta decodifica ANSC_113 - Tipo uso  DEC_TIPO_USO:
+  - 1 = Art. 40 comma 2 DPR 445/2000
+  - 2 = Certificati da produrre all'estero
+  - 3 = Procedimenti giudiziari contenziosi
+  - 4 = Norme sulla condizione dello straniero e immigrazi
+  - 5 = Formalità ipotecarie e catastali
+  - 6 = Servizio Elettorale
+- model_evento.yaml
+  - Aggiunti campi nel ModelEvento come segue, di tipo ModelSoggetto:
+          madreBiologica
+          padreBiologico
+  - Aggiunti campi nel ModelPubblicazione come segue, di tipo String: 
+          idNazione
+          nomeNazione
+          idAnagraficaConsolato
+          nomeAnagraficaConsolato
+    
+- R008_notifiche.yaml
+  - Aggiunti campi in NotificaAnpr come segue
+             idTipoNotifica: # Identificativo univoco della notifica
+          idComuneMittente: # Identificativo univoco del comune mittente della notifica
+          idComuneDestinatario: # Identificativo univoco del comune destinatario della notifica
+          dataIns: # Data di inoltro della notifica
+
+- R002_certificazione.yaml
+  - Aggiunto campo in CertificatoRequest come segue
+    idTipoUso: # Identificativo univoco del tipo uso (codificato ANSC_113)
+- R017_annotazione_rettifica.yaml
+  - Aggiunto il nuovo servizio: /annotazione-rettifica/validazione/evento/{version} (validazione correzione di annotazione - ID 86)
+
+## Fixed
+
+- R005_consultazione_ansc.yaml
+- Esplicitata response aggiuntiva: $ref: '#/components/schemas/ConsultazioneANSCSoggettoRevision1Response' contenente: $ref: '#/components/schemas/ModelSoggettoInt'
+- R009: Casi d'uso Trascr_014, Trascr_020, Trascr_021: obbligatorietà genitori <https://github.com/italia/ansc/issues/940>
+- R009: Unioni civili: sesso degli uniti civilmente da rendere obbligatorio
+- R009: Validazione UC 51107 Citt_044 <https://github.com/italia/ansc/issues/930>
+- R009: Matrimoni : "Riduzione dei termini di pubblicazione" in un solo comune
+- R002: Estratti per copia integrale atti di morte <https://github.com/italia/ansc/issues/924>
+- R009 Unioni Civili: 412111  e 411111 corretto Presente provvedimento che estingue il giudizio di opposizione
+- R009 UC 1344 - Trascrizione della sentenza di adozione di maggiorenne emessa dal tribunale [Trascr_016] <https://github.com/italia/ansc/issues/794>
+- R009 CASO D'USO 342000 (ACCORDO DI SCIOGLIMENTO O CESSAZIONE DEGLI EFFETTI CIVILI DEL MATRIMONIO): data conferma accordo da rendere opzionale <https://github.com/italia/ansc/issues/890>
+- Annotazione automatica a seguito di divorzio (form 138-ter) <https://github.com/italia/ansc/issues/891>
+- R009 Trascrizione matrimonio - metadati non presenti in Estratto e Anteprima <https://github.com/italia/ansc/issues/884>
+- Template certificati ed estratti per riassunto: corretto numero nazionale
+- Estratti per copia integrale: eliminata tipologia di atto
+- R009 3.3.9.9.9.9 - Estratto integrale mancano tra i metadati i dati di celebrazione matrimonio <https://github.com/italia/ansc/issues/923>
+- R009 ATTO CONFERMA SEPARAZIONE / DIVORZIO (Caso d'uso 343000) <https://github.com/italia/ansc/issues/892>
+- [Wep App] - Servizio Anterprima - freemarker.core.InvalidReferenceException <https://github.com/italia/ansc/issues/928>
+- R009 Validazione caso 14850000 - Annotazione modificativa generica <https://github.com/italia/ansc/issues/936>
+- R002 Anteprima Atto KO - caso d'uso 12212300- Riconoscimento materno di nascituro <https://github.com/italia/ansc/issues/945>
+- R009 Dichiarazione di nascita: luogo nascita obbligatorio <https://github.com/italia/ansc/issues/842>
+- Annotazione automatica atto di nascita a seguito di trascrizione del decreto di acquisto della cittadinanza italiana: form.140
+- R009 Atto di matrimonio - pubblicazioni in consolato <https://github.com/italia/ansc/issues/822>
+- R008 ricerca-notifiche-anpr: Dati notifica ANPR collegata ad evento ANSC <https://github.com/italia/ansc/issues/470>
+- Separazioni / divorzi: notifiche <https://github.com/italia/ansc/issues/677> <https://github.com/italia/ansc/issues/915> <https://github.com/italia/ansc/issues/916>
+- R009 Validazione 1312 nuovi campi obbligatori <https://github.com/italia/ansc/issues/937>
+- R005: Consultazione ANSC - aggiornare documentazione <https://github.com/italia/ansc/issues/895>
+- R009: Errore validazione annotazione per adozione internazionale di minore <https://github.com/italia/ansc/issues/920>
+- R009 Caso d'uso Trascr_020: flag richiedente madre/intestatario <https://github.com/italia/ansc/issues/948> <https://github.com/italia/ansc/issues/941>
+
+## Removed
+
+- [casi d'uso] Rimosso caso d'uso 2.2.1.4 (Morte_014) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 119)
+- R002_certificazione.yaml
+- Rimosso il seguente campo in CertificatoRequest in quanto equivale al idTipoUso=2 :
+    validoEstero: # Indica opzione di validità per l'estero alla richiesta dei certificati semplici e per riassunto
+
 ## [1.29.5 - 17-06-2024]
 
 ### Fixed

@@ -58,7 +58,7 @@
 "Soggetto","Provincia di nascita - descrizione","NO","evento.intestatari[0]","siglaProvinciaNascita","","obbligatoria"
 "Soggetto","Comune di nascita","NO","evento.intestatari[0]","idComuneNascita","","obbligatoria"
 "Soggetto","Comune di nascita - Descrizione","NO","evento.intestatari[0]","nomeComuneNascita","","obbligatoria"
-"Soggetto","Luogo nascita","NO","evento.datiDiNascita","luogoFiliazione","","obbligatoria"
+"Soggetto","Luogo nascita","SI","evento.datiDiNascita","luogoFiliazione","","obbligatoria"
 "Soggetto","Provincia AIRE","NO","evento.intestatari[0]","idProvinciaAIRE","","obbligatoria"
 "Soggetto","Provincia AIRE - Descrizione","NO","evento.intestatari[0]","siglaProvinciaAIRE","","obbligatoria"
 "Soggetto","Comune AIRE","NO","evento.intestatari[0]","idComuneAIRE","","obbligatoria"

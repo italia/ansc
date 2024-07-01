@@ -128,7 +128,7 @@
 "Conferma Accordo Separazione","Tipo evento","SI","evento.separazione.confermaAccordoSeparazione","idtipocontenuto","","evento.separazione.tipoProvvedimentoSeparazione,!=,3"
 "Conferma Accordo Separazione","Numero Comunale","SI","evento.separazione.confermaAccordoSeparazione","numeroatto","","evento.separazione.tipoProvvedimentoSeparazione,!=,3"
 "Conferma Accordo Separazione","Anno atto","SI","evento.separazione.confermaAccordoSeparazione","annoAtto","","evento.separazione.tipoProvvedimentoSeparazione,!=,3"
-"Conferma Accordo Separazione","Data atto","SI","evento.separazione.confermaAccordoSeparazione","dataformazione","","evento.separazione.tipoProvvedimentoSeparazione,!=,3"
+"Conferma Accordo Separazione","Data atto","NO","evento.separazione.confermaAccordoSeparazione","dataformazione","","evento.separazione.tipoProvvedimentoSeparazione,!=,3"
 "Conferma Accordo Separazione","Parte","NO","evento.separazione.confermaAccordoSeparazione","parte","121-septies","evento.separazione.tipoProvvedimentoSeparazione,!=,3"
 "Conferma Accordo Separazione","Serie","NO","evento.separazione.confermaAccordoSeparazione","serie","121-septies","evento.separazione.tipoProvvedimentoSeparazione,!=,3"
 "Conferma Accordo Separazione","Tipo registro","SI","evento.separazione.confermaAccordoSeparazione","tipologia","","evento.separazione.tipoProvvedimentoSeparazione,!=,3"

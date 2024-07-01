@@ -17,7 +17,7 @@
 "Dati generali","Provincia - Descrizione","NO","evento.datiEventoMatrimonio.luogoCelebrazione","siglaProvincia","","obbligatoria"
 "Dati generali","Comune","NO","evento.datiEventoMatrimonio.luogoCelebrazione","idComune","","obbligatoria"
 "Dati generali","Comune - Descrizione","NO","evento.datiEventoMatrimonio.luogoCelebrazione","nomeComune","","obbligatoria"
-"Dati generali","Località estera","NO","evento.trascrizioneMatrimonio.attoEstero.enteEstero","comuneEstero","","obbligatoria"
+"Dati generali","Località estera","NO","evento.datiEventoMatrimonio.luogoCelebrazione","comuneEstero","","obbligatoria"
 "Generalità Sposo","Cognome","SI","evento.intestatari[0]","cognome","","obbligatoria"
 "Generalità Sposo","Nome","SI","evento.intestatari[0]","nome","","obbligatoria"
 "Generalità Sposo","Sesso","SI","evento.intestatari[0]","sesso","","obbligatoria"
