@@ -27,6 +27,12 @@ NOTE:
 
 - Comunicazione: Disattivazione dei servizi cooperativi relativi ad alcuni casi d’uso di servizio <https://github.com/italia/ansc/discussions/882>
 
+## [1.30.1 - 01-07-2024]
+
+## Fixed
+
+- [5.2.1.5.4] Trascrizione del decreto per matrimonio-unione civile-naturalizzazione-da consolato  issue <https://github.com/italia/ansc/issues/949>
+
 ## [1.30.0 - 01-07-2024]
 
 ## Added
