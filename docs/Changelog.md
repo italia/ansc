@@ -337,7 +337,7 @@ NOTA: L'attività 85 Gestione soggetti AIRE ha comportanto l'aggiunta di campi o
 - [decodifiche] Aggiunta decodifica ANSC_108 - Tipo dati adozione
 - [R002] Aggiunto il servizio per la validazione delle annotazione modificativa per adozioni internazionali
 - [casi d'uso] Aggiunto nuovo caso d'uso 1.4.9.5.0.0.0.0 (Dic_Nasc_998_4) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
-- [notifiche anagrafe] Aggiunte nelle notifiche da ANSC verso ANPR le informazioni relative alla cittadinanza e alla residenza sia dell’intestatario dell’atto (non per l’atto di nascita) che dei genitori in caso di atti di nascita
+- [notifiche anagrafe] Aggiunte nelle notifiche da ANSC verso ANPR le informazioni relative alla cittadinanza e alla residenza sia dell’intestatario dell’atto (non per l’atto di nascita) che dei genitori in caso di atti di nascita (ID 126)
 
 ### Changed
 
