@@ -27,6 +27,13 @@ NOTE:
 
 - Comunicazione: Disattivazione dei servizi cooperativi relativi ad alcuni casi d’uso di servizio <https://github.com/italia/ansc/discussions/882>
 
+## [1.31.0 - 23-07-2024]
+
+## Added
+
+- [feature] Cruscotti di adesione al sistema ANSC (ID 43)
+- [Guida adesione ANSC](Guida_adesione_ANSC.pdf)
+
 ## [1.30.1 - 01-07-2024]
 
 ## Fixed

@@ -3,6 +3,8 @@
 # Documentazione
 
 * [Changelog.md](Changelog.md)
+* [Guida operativa ANSC](Guida_operativa_ANSC.pdf)
+* [Guida adesione ANSC](Guida_adesione_ANSC.pdf)
 * [ReleaseNotes.md](ReleaseNotes.md)
 * Contratto di servizio [OpenAPI](openapi/index.md) e [PDF](Caratteristiche_servizi/index.md) 
 * [Esempi dei payload](CasiTest/index.md)
