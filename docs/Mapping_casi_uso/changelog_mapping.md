@@ -1,3 +1,31 @@
+#Changelog mappatura casi uso 1.31.1
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 1
+* cittadinanza/Citt_046.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_046.csv :
+* Aggiunto 'Formula 193.3' (riga:3)
+* Rimosso 'Formula 193.12'
+* Rimosso 'Formula 194'
+* Rimosso 'Formula 195'
+* Rimosso 'Formula 196'
+* Rimosso 'Formula 197'
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.dataTrascrizione' (riga:93)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.estremiDocumento' (riga:94)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.nomeEnte' (riga:95)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.nazioneEnte' (riga:96)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.nomeNazioneEnte' (riga:97)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.idProvinciaEnte' (riga:98)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.siglaProvinciaEnte' (riga:99)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.idComuneEnte' (riga:100)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.nomeComuneEnte' (riga:101)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.comuneEstero' (riga:102)
+
+
 #Changelog mappatura casi uso 1.30.0
 
 ## Casi uso aggiunti : 0

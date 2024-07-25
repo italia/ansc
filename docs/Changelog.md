@@ -29,6 +29,12 @@ NOTE:
 
 ## [1.31.0 - 23-07-2024]
 
+## Fixed
+
+- [documentazione] [SC]: Caso Uso 52154 - Mapping incompleto e Metadati su estratto per copia integrale non coerenti <https://github.com/italia/ansc/issues/972>
+
+## [1.31.0 - 23-07-2024]
+
 ## Added
 
 - [feature] Cruscotti di adesione al sistema ANSC (ID 43)
