@@ -27,7 +27,17 @@ NOTE:
 
 - Comunicazione: Disattivazione dei servizi cooperativi relativi ad alcuni casi d’uso di servizio <https://github.com/italia/ansc/discussions/882>
 
-## [1.31.0 - 23-07-2024]
+## [1.31.2 - 26-07-2024]
+
+## Changed
+
+- Aggiornata la guida per l'adesione ad ANSC
+
+## Fixed
+
+- [versione] [SC]: idVersion 100011 scaduto, nonostante dataFineValidita = 01/10/2024 <https://github.com/italia/ansc/issues/976>
+
+## [1.31.1 - 25-07-2024]
 
 ## Fixed
 
