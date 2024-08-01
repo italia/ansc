@@ -7,6 +7,7 @@
 "Formazione atto","Minuti formazione","SI","evento","minuto","","obbligatoria"
 "Intestatario","Cognome","NO","evento.intestatari[0]","cognome","160","obbligatoria"
 "Intestatario","Nome","SI","evento.intestatari[0]","nome","","obbligatoria"
+"Intestatario","Identificativo unico nazionale","NO","evento.intestatari[0]","idANPR","","obbligatoria"
 "Intestatario","Codice Fiscale","NO","evento.intestatari[0]","codiceFiscale","","obbligatoria"
 "Intestatario","Sesso","SI","evento.intestatari[0]","sesso","","obbligatoria"
 "Intestatario","Data nascita","SI","evento.intestatari[0]","dataNascita","","obbligatoria"

@@ -268,6 +268,10 @@ components:
           type: string
           description: Id Anpr
           example: "1AFD4"
+        idAnprUnico:
+          type: string
+          description: Id Unico Anpr
+          example: "ABCD12345"
         idAnscSoggetto:
           type: string
           description: Id Ansc soggetto
@@ -394,6 +398,10 @@ components:
           format: bigdecimal
           description: Identificativo del soggetto
           example: 123456
+        idANPR:
+          type: string
+          description: Identificativo unico anpr del soggetto
+          example: ABCDE1234
         cognome:
           type: string
           description: Cognome del soggetto

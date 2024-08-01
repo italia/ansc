@@ -23,6 +23,63 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.32.0 - 01-08-2024 (preproduzione, in produzione seguirà a giorni]
+
+## Added
+
+- [feature] Gestione identificativo unico ANPR (ID 101)
+- [feature] Collegamento anagrafiche diverse per uno stesso soggetto (ID 84.a)
+- [feature] Gestione consolato nei matrimoni / unioni civili come organo delegante (modifica e adeguamento formula 120) (ID 113.a)
+- [feature] Inserimento nuovi allegati per i casi d’uso matrimonio (ID 125) issue <https://github.com/italia/ansc/issues/932>
+
+- [model_evento.yaml]
+  - Aggiunto il campo in modelSoggetto: 
+    - idANPR (id unico ANPR)
+  - Aggiunti i seguenti campi in modelMatrimonio: 
+    - idNazioneDelegante
+    - nomeNazioneDelegante
+    - idAnagraficaConsolatoDelegante 
+    - nomeAnagraficaConsolatoDelegante 
+  - Aggiunti i seguenti campi in modelUnioneCivile:
+    - idNazioneDelegante
+    - nomeNazioneDelegante
+    - idAnagraficaConsolatoDelegante
+    - nomeAnagraficaConsolatoDelegante
+
+- [versione] Aggiunta versione 100015
+- R005_servizi.yaml
+   - Aggiornato CriteriRicercaSoggetto per supporto di idUnicoNazionale
+   - Aggiornato il ModelSoggettoInt con campo: idANPR (id unico ANPR)
+- R018_servizi.yaml
+  - Definito nuovo servizio per la riconciliazione di due soggetti: /servizi/soggetto/riconciliazione/{version}
+
+## Fixed
+
+- [model_evento.yaml]
+  - Modificati description ed example del campo luogoFiliazione in ModelDatiDiNascitaML adeguandolo al quello presente in ModelDatiDiNascita.
+  - Aggiunto campo mancante in ModelMatrimonio: enteEstero
+
+- [Servizi/Web App]  
+  - R009 [SC] Atti di Nascita: Nuovi campi per AIRE e flusso Notifiche <https://github.com/italia/ansc/issues/979>
+  - Adeguamento nota tecnica per correzione regime patrimoniale in unioni civili/matrimoni
+  - R009 [SC] Model matrimonio incompleto <https://github.com/italia/ansc/issues/977>
+  - Tag LuogoFiliazione <https://github.com/italia/ansc/issues/958>
+  - R002 Certificato di nascita con paternità e maternità, corretto ordine del cognome e nome dei genitori e del soggetto
+  - [webapp] Firma dichiarante UC 442000  <https://github.com/italia/ansc/issues/946>
+  - R002 [SC/webapp] Anteprima Atto / Certificazione: modalità di visualizzazione di Località Estera e Stato di Nascita <https://github.com/italia/ansc/issues/966>
+  - [SC]: Annotazione per adozione internazionale di minore - Dati mancanti necessari per l'annotazione di adozione (tipologia/attoNascita/attoAdozione) <https://github.com/italia/ansc/issues/920>
+  - Dichiarazione nascita presentata da sanitario o procuratore speciale: resa opzionale la cittadinanza dei soggetti collegati
+  - R009 Caso d'uso per cambio cognome/nome da Tribunale <https://github.com/italia/ansc/issues/913>
+  - R009 matr_019 - Sesso testimone obbligatorio <https://github.com/italia/ansc/issues/957>
+  - R008 - corretto esito della risposta del servizio idEsito=999 ma sembra tutto ok <https://github.com/italia/ansc/issues/951>
+  - R009 Trascrizione matrimonio con rito religioso​: annotazione contestuale automatica <https://github.com/italia/ansc/issues/863>
+  - R010 Anteprima - Matrimonio Fuori dalla Casa Comunale (cdu 311211): Numero Civico del Luogo Celebrazione <https://github.com/italia/ansc/issues/963>
+  - R009: 11214100 Dichiarazione nei termini di filiazione fuori dal matrimonio resa all'USC dal procuratore del padre di bimbo nato morto <https://github.com/italia/ansc/issues/955>
+  - R009: Casi d'uso Trascrizioni Matrimoni (use case 331000, 332000, 339999) e Riconciliazioni (use case 350000) <https://github.com/italia/ansc/issues/954>
+  - R009: Caso d'uso Trascr_021/Trascr_020: dati sentenza tribunale italiano <https://github.com/italia/ansc/issues/942> <https://github.com/italia/ansc/issues/944>
+  - [R002/webapp]: Anteprima Atto / Certificazione: Matrimonio estero VS Unione Civile Estero <https://github.com/italia/ansc/issues/967>
+  - Anteprima Conformità: Controllo su Firma Dichiaranti - Messaggio di Errore <https://github.com/italia/ansc/issues/970>
+
 ### Changed
 
 - Comunicazione: Disattivazione dei servizi cooperativi relativi ad alcuni casi d’uso di servizio <https://github.com/italia/ansc/discussions/882>

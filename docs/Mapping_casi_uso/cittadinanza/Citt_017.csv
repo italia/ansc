@@ -10,6 +10,7 @@
 "Intestatario","Cognome","NO","evento.intestatari[0]","cognome","","obbligatoria"
 "Intestatario","Nome","SI","evento.intestatari[0]","nome","","obbligatoria"
 "Intestatario","Codice Fiscale","NO","evento.intestatari[0]","codiceFiscale","","obbligatoria"
+"Intestatario","Identificativo unico nazionale","NO","evento.intestatari[0]","idANPR","","obbligatoria"
 "Intestatario","Sesso","SI","evento.intestatari[0]","sesso","","obbligatoria"
 "Intestatario","Data nascita","SI","evento.intestatari[0]","dataNascita","","obbligatoria"
 "Intestatario","Stato Nascita","SI","evento.intestatari[0]","idStatoNascita","","obbligatoria"

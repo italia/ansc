@@ -489,8 +489,8 @@ components:
       properties:
         luogoFiliazione: 
           type: string
-          description: Luogo in cui e' avvenuto l'evento Nascita. (decodifica ANSC_19)
-          example: 'Ospedale'
+          description: Luogo in cui e' avvenuto l'evento Nascita.
+          example: 'Indicare la struttura o casa privata e l’indirizzo'
         indirizzoEvento: 
           type: string
           description: Descrizione impedimento
@@ -1065,6 +1065,10 @@ components:
           type: string
           description: identificativo del soggetto in ANPR (Anagrafica)
           example: '1234'
+        idANPR: 
+          type: string
+          description: identificativo unico del soggetto in ANPR (Anagrafica)
+          example: '1234ABCDE'
         codiceFiscale: 
           type: string
           description: codice fiscale
@@ -2314,6 +2318,22 @@ components:
           type: string
           description: Sigla della provincia del comune delegante
           example: "RM"
+        idNazioneDelegante:
+          type: string
+          description: id Nazione del comune delegante
+          example: "90"
+        nomeNazioneDelegante:
+          type: string
+          description: Nazione del comune delegante
+          example: "ITALIA"
+        idAnagraficaConsolatoDelegante:
+          type: string
+          description: id sede estera del consolato
+          example: "01"
+        nomeAnagraficaConsolatoDelegante:
+          type: string
+          description: Descrizione sede estera del consolato
+          example: "TIRANA"
         dataDelega:
           type: string
           format: date
@@ -2385,7 +2405,9 @@ components:
         nominaAssistenteLegaleSposo: # Provvedimento di nomina del tutore/procuratore speciale
           $ref: '#/components/schemas/ModelEnteDichiarante'  
         nominaAssistenteLegaleSposa: # Provvedimento di nomina del tutore/procuratore speciale
-          $ref: '#/components/schemas/ModelEnteDichiarante' 
+          $ref: '#/components/schemas/ModelEnteDichiarante'
+        enteEstero: # Ente estero
+          $ref: '#/components/schemas/ModelEnteEstero'
     ModelUnioneCivile:
       properties:
         luogoCelebrazione:
@@ -2511,6 +2533,22 @@ components:
           type: string
           description: Sigla Provincia del comune delegante
           example: "111"
+        idNazioneDelegante:
+          type: string
+          description: id Nazione del comune delegante
+          example: "90"
+        nomeNazioneDelegante:
+          type: string
+          description: Nazione del comune delegante
+          example: "ITALIA"
+        idAnagraficaConsolatoDelegante:
+          type: string
+          description: id sede estera del consolato
+          example: "01"
+        nomeAnagraficaConsolatoDelegante:
+          type: string
+          description: Descrizione sede estera del consolato
+          example: "TIRANA"
         dataDelega:
           type: string
           format: date
