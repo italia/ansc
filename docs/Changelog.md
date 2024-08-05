@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.32.1 - 05-08-2024]
+
+## Fixed
+
+- descrizione idVersion 100015 (da 1.31 a 1.32)
+
 ## [1.32.0 - 01-08-2024 (preproduzione, in produzione seguirà a giorni]
 
 ## Added
