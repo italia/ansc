@@ -23,13 +23,21 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.32.2 - 07-08-2024]
+
+## Fixed
+
+- [SC]: Controllo validità version
+- R009: Annotazione di rettifica per errore materiale - USC dell'operazione di firma diverso da chi ha firmato l'attestazione <https://github.com/italia/ansc/issues/982>
+- Corretta regressione estratti integrali di matrimonio: eliminata frase impropria 'Questo documento verrà digitalizzato'
+
 ## [1.32.1 - 05-08-2024]
 
 ## Fixed
 
 - descrizione idVersion 100015 (da 1.31 a 1.32)
 
-## [1.32.0 - 01-08-2024 (preproduzione, in produzione seguirà a giorni]
+## [1.32.0 - 01-08-2024 (preproduzione, in produzione dal 07-08-2024]
 
 ## Added
 
