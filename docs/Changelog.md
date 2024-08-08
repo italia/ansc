@@ -23,6 +23,14 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.32.3 - 08-08-2024]
+
+## Fixed
+
+- [WA]: Corretto errore in nota tecnica per i casi d'uso di riconoscimento ante nascita
+- [R002]: Corretta regressione estratti integrali: aggiunta la sezione frima remota USC
+- [WA]: Corretta navigazione tramite breadcrumb del menu di amministrazione
+
 ## [1.32.2 - 07-08-2024]
 
 ## Fixed
