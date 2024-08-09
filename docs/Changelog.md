@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.32.4 - 09-08-2024]
+
+## Fixed
+
+- [R005]: Servizio di ricerca soggetto: non restituisce nulla <https://github.com/italia/ansc/issues/989> <https://github.com/italia/ansc/issues/990>
+
 ## [1.32.3 - 08-08-2024]
 
 ## Fixed
