@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.32.5 - 13-08-2024]
+
+## Fixed
+
+- [R003]: A volte il servizio di elenco comunicazioni non restituiva il campo 'contenuto' della comunicazione
+
 ## [1.32.4 - 09-08-2024]
 
 ## Fixed
