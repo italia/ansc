@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.32.6 - 14-08-2024]
+
+## Fixed
+
+- [R002/R010]: Errore generazione di anteprima / certificati per caso d'uso 1352 (in presenza di alcuni dati specifici)
+
 ## [1.32.5 - 13-08-2024]
 
 ## Fixed
