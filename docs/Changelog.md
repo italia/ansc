@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.32.7 - 16-08-2024]
+
+## Fixed
+
+- [SC]: Notifiche atti in ANPR - generazione notifiche in caso di nazionalità incompleta <https://github.com/italia/ansc/issues/992>
+
 ## [1.32.6 - 14-08-2024]
 
 ## Fixed
