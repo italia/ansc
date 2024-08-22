@@ -2,7 +2,7 @@
 "Allegati","Copia integrale dell'atto di nascita del figlio che viene riconosciuto","NO","","","",""
 "Allegati","Copia dell'atto di assenso del figlio","NO","","","","evento.datiEventoRiconoscimento.assensoFiglio,=,2"
 "Allegati","Copia dell'atto di riconoscimento effettuato dell'altro genitore","SI","","","",""
-"Allegati","Provvedimento di autorizzazione del giudico per figlio incestuoso","NO","","","",""
+"Allegati","Provvedimento di autorizzazione del giudice per figlio incestuoso","NO","","","",""
 "Allegati","Autorizzazione del tribunale","NO","","","",""
 "Formula","109","SI","","","",""
 "Formula","194","NO","","","",""

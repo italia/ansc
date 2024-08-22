@@ -1,3 +1,34 @@
+#Changelog mappatura casi uso 1.32.8  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 3
+* riconoscimenti/Rico_001.csv
+* riconoscimenti/Rico_003.csv
+* riconoscimenti/Rico_016.csv
+
+### Modifiche per il caso uso riconoscimenti/Rico_001.csv : 
+* Aggiunto 'Allegati Provvedimento di autorizzazione del giudice per figlio incestuoso' (riga:5)
+* Aggiunto 'Allegati Certificato medico attestante lo stato di gravidanza' (riga:7)
+* Rimosso 'Allegati Provvedimento di autorizzazione del giudico per figlio incestuoso'
+
+### Modifiche per il caso uso riconoscimenti/Rico_003.csv : 
+* Aggiunto 'Allegati Provvedimento di autorizzazione del giudice per figlio incestuoso' (riga:3)
+* Rimosso 'Allegati Provvedimento di autorizzazione del giudico per figlio incestuoso'
+* Presenti modifiche per 'evento.riconoscimento.certificato.autorita' (riga:17)
+* Presenti modifiche per 'evento.riconoscimento.certificato.data' (riga:18)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.mesiDalConcepimento' (riga:19)
+* Presenti modifiche per 'evento.datiProdotti' (riga:20)
+
+### Modifiche per il caso uso riconoscimenti/Rico_016.csv : 
+* Presenti modifiche per 'evento.riconoscimento.certificato.autorita' (riga:17)
+* Presenti modifiche per 'evento.riconoscimento.certificato.data' (riga:18)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.mesiDalConcepimento' (riga:19)
+* Presenti modifiche per 'evento.datiProdotti' (riga:20)
+
+
 #Changelog mappatura casi uso 1.32.0  
 
 ## Casi uso aggiunti : 0

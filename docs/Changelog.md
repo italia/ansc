@@ -23,6 +23,14 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.32.8 - 22-08-2024]
+
+## Fixed
+
+- [SC]: Mapping incompleto e Metadati su estratto per copia integrale invertiti <https://github.com/italia/ansc/issues/972>
+- [SC]: Anteprima - Cittadinanza (cdu 52122) - Sezione "Atto Collegato" <https://github.com/italia/ansc/issues/975>
+- [WA]: Riconoscimento del nascituro: corretta minuta dell'atto
+
 ## [1.32.7 - 16-08-2024]
 
 ## Fixed
