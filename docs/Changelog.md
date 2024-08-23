@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.32.9 - 23-08-2024]
+
+## Fixed
+
+-[SC]: Anteprima Per Presa Visione - Errore "Dati in ingresso non corretti" <https://github.com/italia/ansc/issues/994>
+
 ## [1.32.8 - 22-08-2024]
 
 ## Fixed
