@@ -23,6 +23,26 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.32.10 - 02-09-2024]
+
+### Changed
+
+- [decodifiche] Modifica codice e rango consolato Madrid (ANSC 97) <https://github.com/italia/anpr/issues/4648>
+- [webapp]: Ordinamento indice annuale per numero nazionale evento
+
+### Fixed
+
+- [webapp]: Indice annuale con dati duplicati <https://github.com/italia/ansc/issues/1003> (vanno generati nuovamente per avere quelli corretti)
+- [webapp]: Richiesta estensione nota tecnica per consentire la modifica del dato tipologia nel ModelAttoCollegato <https://github.com/italia/ansc/issues/1004>
+- [webapp]: CERTIFICATI DA WEB APP: aggiunta la ricerca richiedente
+- [webapp]: UC 3.1.2.1.1.1 - Matrimonio con rito civile con delega di altro comune o consolato nella casa comunale: corretta minuta  <https://github.com/italia/ansc/issues/1005>
+- [webapp]: [SC] caso d'uso 5.2.1.5.4 - trascrizione decreto cittadinanza: corretta minuta e aggiounto allegato  <https://github.com/italia/ansc/issues/1001>
+- Trascrizione atto ANSC: corretto Tipo file Allegato non consentito <https://github.com/italia/ansc/issues/1009>
+- [webapp]: UC 3.1.3.1.1.1: minuta non corretta in presenza interprete <https://github.com/italia/ansc/issues/999>
+- [webapp]: matrimonio in imminente pericolo di vita, corretto interprete <https://github.com/italia/ansc/issues/996>
+- [webapp][SC]: corretto controllo età per acquisto cittadinanza di un minore art. 14 <https://github.com/italia/ansc/issues/998>
+- [SC]: R009 - errore validazione caso 14950000 Annotazione per adozione internazionale di minore <https://github.com/italia/ansc/issues/993>
+
 ## [1.32.9 - 23-08-2024]
 
 ## Fixed
