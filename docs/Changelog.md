@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.32.11 - 02-09-2024]
+
+## Fixed
+
+[WA] - [1.3.9.9] Caso d'uso di servizio (trascrizioni nascita): aggiunto intestatario
+
 ## [1.32.10 - 02-09-2024]
 
 ### Changed
