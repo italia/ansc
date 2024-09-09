@@ -23,7 +23,16 @@ NOTE:
 
 ## [Unreleased]
 
-## [1.32.11 - 02-09-2024]
+## [1.32.12 - 09-09-2024]
+
+## Fixed
+
+- [WA] - Errore applicazione nota tecnica a varie tipologie di atti <https://github.com/italia/anpr/issues/1015>
+- [SC]: Validazione caso 333000 - errore per campi obbligatori richiesti ma non conosciuti dall'USC <https://github.com/italia/anpr/issues/1012>
+- [SC]: Estratto integrale matrimonio /unione civile <https://github.com/italia/anpr/issues/1014>
+- [SC]: Estratto per copia integrale - errore "Non trovata l'associazione tra il soggetto intestatario e l'evento" <https://github.com/italia/anpr/issues/1011> 
+
+## [1.32.11 - 04-09-2024]
 
 ## Fixed
 

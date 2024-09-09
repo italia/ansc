@@ -1,3 +1,84 @@
+#Changelog mappatura casi uso 1.32.12  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 4
+* matrimoni/Sep_Div_003.csv
+* matrimoni/Sep_Div_008.csv
+* unioni_civili/UnCiv_001.csv
+* unioni_civili/UnCiv_004.csv
+
+### Modifiche per il caso uso matrimoni/Sep_Div_003.csv : 
+* Presenti modifiche per 'evento.separazione.avvocatoConiuge1.cognome' (riga:77)
+* Presenti modifiche per 'evento.separazione.avvocatoConiuge1.nome' (riga:78)
+* Presenti modifiche per 'evento.separazione.avvocatoConiuge2.cognome' (riga:102)
+* Presenti modifiche per 'evento.separazione.avvocatoConiuge2.nome' (riga:103)
+* Rimosso '.cognome'
+* Rimosso '.nome'
+
+### Modifiche per il caso uso matrimoni/Sep_Div_008.csv : 
+* Presenti modifiche per 'evento.separazione.avvocatoConiuge1.cognome' (riga:65)
+* Presenti modifiche per 'evento.separazione.avvocatoConiuge1.nome' (riga:66)
+* Presenti modifiche per 'evento.separazione.avvocatoConiuge2.cognome' (riga:118)
+* Presenti modifiche per 'evento.separazione.avvocatoConiuge2.nome' (riga:119)
+* Rimosso '.cognome'
+* Rimosso '.nome'
+
+### Modifiche per il caso uso unioni_civili/UnCiv_001.csv : 
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.idAnsc' (riga:129)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.idProvinciaRegistrazione' (riga:130)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.siglaProvinciaRegistrazione' (riga:131)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.idComuneRegistrazione' (riga:132)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.nomeComuneRegistrazione' (riga:133)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.idtipocontenuto' (riga:134)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.numeroatto' (riga:135)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.annoAtto' (riga:136)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.dataformazione' (riga:137)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.parte' (riga:138)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.serie' (riga:139)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.tipologia' (riga:140)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.idAnsc' (riga:141)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.idProvinciaRegistrazione' (riga:142)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.siglaProvinciaRegistrazione' (riga:143)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.idComuneRegistrazione' (riga:144)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.nomeComuneRegistrazione' (riga:145)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.idtipocontenuto' (riga:146)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.numeroatto' (riga:147)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.annoAtto' (riga:148)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.dataformazione' (riga:149)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.parte' (riga:150)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.serie' (riga:151)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.tipologia' (riga:152)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_004.csv : 
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.idAnsc' (riga:140)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.idProvinciaRegistrazione' (riga:141)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.siglaProvinciaRegistrazione' (riga:142)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.idComuneRegistrazione' (riga:143)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.nomeComuneRegistrazione' (riga:144)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.idtipocontenuto' (riga:145)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.numeroatto' (riga:146)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.annoAtto' (riga:147)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.dataformazione' (riga:148)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.parte' (riga:149)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.serie' (riga:150)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.tipologia' (riga:151)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.idAnsc' (riga:152)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.idProvinciaRegistrazione' (riga:153)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.siglaProvinciaRegistrazione' (riga:154)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.idComuneRegistrazione' (riga:155)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.nomeComuneRegistrazione' (riga:156)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.idtipocontenuto' (riga:157)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.numeroatto' (riga:158)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.annoAtto' (riga:159)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.dataformazione' (riga:160)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.parte' (riga:161)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.serie' (riga:162)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.tipologia' (riga:163)
+
+
 #Changelog mappatura casi uso 1.32.10
 
 ## Casi uso aggiunti : 0
