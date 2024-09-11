@@ -23,6 +23,13 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.32.13 - 11-09-2024]
+
+## Fixed
+
+- [Notifica ANPR] - Risolto errore in fase di generazione della discordanza anagrafica <https://github.com/italia/anpr/issues/1022>
+- Web App Atto riconoscimento padre dopo la nascita <https://github.com/italia/anpr/issues/1021>
+
 ## [1.32.12 - 09-09-2024]
 
 ## Fixed
