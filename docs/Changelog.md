@@ -23,21 +23,37 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.32.14 - 17-09-2024]
+
+## Changed
+
+[decodifiche] Aggiornamento testi in tedesco per le decodifiche tipo allegato
+
+## Fixed
+
+- aggiornamento testi in tedesco per la generazione formule rlative agli usecase: Dic_Nasc_001, Morte_001, Matr_001, Rico_003, Trascr_UnCiv_001, Citt_001, Citt_043, Morte_006, Dic_Nasc_100, Matr_007, UnCiv_001
+- [SC]: Dati richiesti per il Segreatario Comunale <https://github.com/italia/ansc/issues/1023>
+- [SC]: R007 errore firma evento di annotazione di rettifica <https://github.com/italia/ansc/issues/1025>
+- [SC,WA] Unknown property 'DATE_FORMAT' ModelTrascrizioneNascita
+- [WA] Nota tecnica : problema con atti consecutivi relativi a stessi soggetti non riconciliati
+- [WA] Controllo bloccante nota tecnica
+
 ## [1.32.13 - 11-09-2024]
 
 ## Fixed
 
-- [Notifica ANPR] - Risolto errore in fase di generazione della discordanza anagrafica <https://github.com/italia/anpr/issues/1022>
-- Web App Atto riconoscimento padre dopo la nascita <https://github.com/italia/anpr/issues/1021>
+- [Notifica ANPR] - Risolto errore in fase di generazione della discordanza anagrafica <https://github.com/italia/ansc/issues/1022>
+- Web App Atto riconoscimento padre dopo la nascita <https://github.com/italia/ansc/issues/1021>
+- [decodifiche] Aggiornamento della descrizione usecase 11 per risolvere un typo
 
 ## [1.32.12 - 09-09-2024]
 
 ## Fixed
 
-- [WA] - Errore applicazione nota tecnica a varie tipologie di atti <https://github.com/italia/anpr/issues/1015>
+- [WA] - Errore applicazione nota tecnica a varie tipologie di atti <https://github.com/italia/ansc/issues/1015>
 - [SC]: Validazione caso 333000 - errore per campi obbligatori richiesti ma non conosciuti dall'USC <https://github.com/italia/anpr/issues/1012>
-- [SC]: Estratto integrale matrimonio /unione civile <https://github.com/italia/anpr/issues/1014>
-- [SC]: Estratto per copia integrale - errore "Non trovata l'associazione tra il soggetto intestatario e l'evento" <https://github.com/italia/anpr/issues/1011> 
+- [SC]: Estratto integrale matrimonio /unione civile <https://github.com/italia/ansc/issues/1014>
+- [SC]: Estratto per copia integrale - errore "Non trovata l'associazione tra il soggetto intestatario e l'evento" <https://github.com/italia/ansc/issues/1011>
 
 ## [1.32.11 - 04-09-2024]
 

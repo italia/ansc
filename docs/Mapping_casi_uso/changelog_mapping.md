@@ -1,3 +1,2225 @@
+#Changelog mappatura casi uso 1.32.14
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 175
+* cittadinanza/Citt_001.csv
+* cittadinanza/Citt_002.csv
+* cittadinanza/Citt_003.csv
+* cittadinanza/Citt_004.csv
+* cittadinanza/Citt_005.csv
+* cittadinanza/Citt_006.csv
+* cittadinanza/Citt_007.csv
+* cittadinanza/Citt_008.csv
+* cittadinanza/Citt_009.csv
+* cittadinanza/Citt_010.csv
+* cittadinanza/Citt_011.csv
+* cittadinanza/Citt_012.csv
+* cittadinanza/Citt_013.csv
+* cittadinanza/Citt_014.csv
+* cittadinanza/Citt_017.csv
+* cittadinanza/Citt_018.csv
+* cittadinanza/Citt_019.csv
+* cittadinanza/Citt_020.csv
+* cittadinanza/Citt_021.csv
+* cittadinanza/Citt_022.csv
+* cittadinanza/Citt_023.csv
+* cittadinanza/Citt_024.csv
+* cittadinanza/Citt_025.csv
+* cittadinanza/Citt_026.csv
+* cittadinanza/Citt_027.csv
+* cittadinanza/Citt_028.csv
+* cittadinanza/Citt_029.csv
+* cittadinanza/Citt_030.csv
+* cittadinanza/Citt_031.csv
+* cittadinanza/Citt_032.csv
+* cittadinanza/Citt_033.csv
+* cittadinanza/Citt_034.csv
+* cittadinanza/Citt_035.csv
+* cittadinanza/Citt_036.csv
+* cittadinanza/Citt_037.csv
+* cittadinanza/Citt_038.csv
+* cittadinanza/Citt_039.csv
+* cittadinanza/Citt_040.csv
+* cittadinanza/Citt_041.csv
+* cittadinanza/Citt_043.csv
+* cittadinanza/Citt_044.csv
+* cittadinanza/Citt_045.csv
+* cittadinanza/Citt_046.csv
+* cittadinanza/Citt_999.csv
+* morte/Morte_001.csv
+* morte/Morte_002.csv
+* morte/Morte_003.csv
+* morte/Morte_005.csv
+* morte/Morte_006.csv
+* morte/Morte_007.csv
+* morte/Morte_008.csv
+* morte/Morte_009.csv
+* morte/Morte_010.csv
+* morte/Morte_011.csv
+* morte/Morte_999.csv
+* nascita/Dic_Nasc_001.csv
+* nascita/Dic_Nasc_002.csv
+* nascita/Dic_Nasc_003.csv
+* nascita/Dic_Nasc_004.csv
+* nascita/Dic_Nasc_005.csv
+* nascita/Dic_Nasc_006.csv
+* nascita/Dic_Nasc_007.csv
+* nascita/Dic_Nasc_008.csv
+* nascita/Dic_Nasc_009.csv
+* nascita/Dic_Nasc_010.csv
+* nascita/Dic_Nasc_011.csv
+* nascita/Dic_Nasc_012.csv
+* nascita/Dic_Nasc_013.csv
+* nascita/Dic_Nasc_014.csv
+* nascita/Dic_Nasc_015.csv
+* nascita/Dic_Nasc_016.csv
+* nascita/Dic_Nasc_017.csv
+* nascita/Dic_Nasc_018.csv
+* nascita/Dic_Nasc_019.csv
+* nascita/Dic_Nasc_020.csv
+* nascita/Dic_Nasc_021.csv
+* nascita/Dic_Nasc_022.csv
+* nascita/Dic_Nasc_023.csv
+* nascita/Dic_Nasc_024.csv
+* nascita/Dic_Nasc_025.csv
+* nascita/Dic_Nasc_026.csv
+* nascita/Dic_Nasc_027.csv
+* nascita/Dic_Nasc_028.csv
+* nascita/Dic_Nasc_029.csv
+* nascita/Dic_Nasc_030.csv
+* nascita/Dic_Nasc_031.csv
+* nascita/Dic_Nasc_032.csv
+* nascita/Dic_Nasc_033.csv
+* nascita/Dic_Nasc_034.csv
+* nascita/Dic_Nasc_035.csv
+* nascita/Dic_Nasc_036.csv
+* nascita/Dic_Nasc_037.csv
+* nascita/Dic_Nasc_038.csv
+* nascita/Dic_Nasc_039.csv
+* nascita/Dic_Nasc_040.csv
+* nascita/Dic_Nasc_041.csv
+* nascita/Dic_Nasc_042.csv
+* nascita/Dic_Nasc_043.csv
+* nascita/Dic_Nasc_044.csv
+* nascita/Dic_Nasc_045.csv
+* nascita/Dic_Nasc_046.csv
+* nascita/Dic_Nasc_047.csv
+* nascita/Dic_Nasc_048.csv
+* nascita/Dic_Nasc_049.csv
+* nascita/Dic_Nasc_050.csv
+* nascita/Dic_Nasc_051.csv
+* nascita/Dic_Nasc_052.csv
+* nascita/Dic_Nasc_053.csv
+* nascita/Dic_Nasc_054.csv
+* nascita/Dic_Nasc_055.csv
+* nascita/Dic_Nasc_056.csv
+* nascita/Dic_Nasc_057.csv
+* nascita/Dic_Nasc_058.csv
+* nascita/Dic_Nasc_059.csv
+* nascita/Dic_Nasc_060.csv
+* nascita/Dic_Nasc_061.csv
+* nascita/Dic_Nasc_062.csv
+* nascita/Dic_Nasc_063.csv
+* nascita/Dic_Nasc_064.csv
+* nascita/Dic_Nasc_065.csv
+* nascita/Dic_Nasc_066.csv
+* nascita/Dic_Nasc_067.csv
+* nascita/Dic_Nasc_068.csv
+* nascita/Dic_Nasc_069.csv
+* nascita/Dic_Nasc_070.csv
+* nascita/Dic_Nasc_071.csv
+* nascita/Dic_Nasc_072.csv
+* nascita/Dic_Nasc_073.csv
+* nascita/Dic_Nasc_074.csv
+* nascita/Dic_Nasc_075.csv
+* nascita/Dic_Nasc_076.csv
+* nascita/Dic_Nasc_077.csv
+* nascita/Dic_Nasc_078.csv
+* nascita/Dic_Nasc_079.csv
+* nascita/Dic_Nasc_080.csv
+* nascita/Dic_Nasc_081.csv
+* nascita/Dic_Nasc_082.csv
+* nascita/Dic_Nasc_083.csv
+* nascita/Dic_Nasc_084.csv
+* nascita/Dic_Nasc_085.csv
+* nascita/Dic_Nasc_086.csv
+* nascita/Dic_Nasc_087.csv
+* nascita/Dic_Nasc_088.csv
+* nascita/Dic_Nasc_089.csv
+* nascita/Dic_Nasc_090.csv
+* nascita/Dic_Nasc_091.csv
+* nascita/Dic_Nasc_092.csv
+* nascita/Dic_Nasc_093.csv
+* nascita/Dic_Nasc_094.csv
+* nascita/Dic_Nasc_095.csv
+* nascita/Dic_Nasc_096.csv
+* nascita/Dic_Nasc_097.csv
+* nascita/Dic_Nasc_098.csv
+* nascita/Dic_Nasc_099.csv
+* nascita/Dic_Nasc_100.csv
+* nascita/Dic_Nasc_101.csv
+* nascita/Dic_Nasc_102.csv
+* nascita/Dic_Nasc_103.csv
+* nascita/Dic_Nasc_104.csv
+* nascita/Dic_Nasc_105.csv
+* nascita/Dic_Nasc_106.csv
+* nascita/Dic_Nasc_107.csv
+* nascita/Dic_Nasc_108.csv
+* nascita/Dic_Nasc_109.csv
+* nascita/Dic_Nasc_110.csv
+* nascita/Dic_Nasc_111.csv
+* nascita/Dic_Nasc_112.csv
+* nascita/Dic_Nasc_113.csv
+* nascita/Dic_Nasc_114.csv
+* nascita/Dic_Nasc_115.csv
+* nascita/Dic_Nasc_116.csv
+* nascita/Dic_Nasc_117.csv
+* nascita/Dic_Nasc_999.csv
+* trascrizioni/Trascr_Citt_999.csv
+* trascrizioni/Trascr_Morte_999.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_001.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:28)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:29)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:30)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:57)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:58)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:59)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:88)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:89)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:90)
+
+### Modifiche per il caso uso cittadinanza/Citt_002.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:27)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:28)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:29)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:56)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:57)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:58)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:87)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:88)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:89)
+
+### Modifiche per il caso uso cittadinanza/Citt_003.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:28)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:29)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:30)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:57)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:58)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:59)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:88)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:89)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:90)
+
+### Modifiche per il caso uso cittadinanza/Citt_004.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:26)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:27)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:28)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:55)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:56)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:57)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:86)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:87)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:88)
+
+### Modifiche per il caso uso cittadinanza/Citt_005.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:36)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:37)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:38)
+* Aggiunto 'evento.datiEventoCittadinanza.parenteDiretto.flagIrreperibile' (riga:67)
+* Presenti modifiche per 'evento.datiEventoCittadinanza.parenteDiretto.idStatoResidenza' (riga:68)
+* Presenti modifiche per 'evento.datiEventoCittadinanza.parenteDiretto.nomeStatoResidenza' (riga:69)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:93)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:95)
+
+### Modifiche per il caso uso cittadinanza/Citt_006.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:26)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:27)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:28)
+
+### Modifiche per il caso uso cittadinanza/Citt_007.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:36)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:37)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:38)
+* Aggiunto 'evento.datiEventoCittadinanza.parenteDiretto.flagIrreperibile' (riga:67)
+* Presenti modifiche per 'evento.datiEventoCittadinanza.parenteDiretto.idStatoResidenza' (riga:68)
+* Presenti modifiche per 'evento.datiEventoCittadinanza.parenteDiretto.nomeStatoResidenza' (riga:69)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:104)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:105)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:106)
+
+### Modifiche per il caso uso cittadinanza/Citt_008.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:26)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:27)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:28)
+
+### Modifiche per il caso uso cittadinanza/Citt_009.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:37)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:38)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:39)
+* Aggiunto 'evento.datiEventoCittadinanza.parenteDiretto.flagIrreperibile' (riga:69)
+* Presenti modifiche per 'evento.datiEventoCittadinanza.parenteDiretto.idStatoResidenza' (riga:70)
+* Presenti modifiche per 'evento.datiEventoCittadinanza.parenteDiretto.nomeStatoResidenza' (riga:71)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:95)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:96)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:97)
+
+### Modifiche per il caso uso cittadinanza/Citt_010.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:26)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:27)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:28)
+
+### Modifiche per il caso uso cittadinanza/Citt_011.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:35)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:36)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:37)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:71)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:72)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:73)
+
+### Modifiche per il caso uso cittadinanza/Citt_012.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:26)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:27)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:28)
+
+### Modifiche per il caso uso cittadinanza/Citt_013.csv :
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:30)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:31)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:32)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:60)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:61)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:62)
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:134)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:135)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:136)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:164)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:165)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:166)
+
+### Modifiche per il caso uso cittadinanza/Citt_014.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:26)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:27)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:28)
+
+### Modifiche per il caso uso cittadinanza/Citt_017.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:25)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:26)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:27)
+
+### Modifiche per il caso uso cittadinanza/Citt_018.csv :
+* Aggiunto 'Formula 193.18' (riga:5)
+* Rimosso 'Formula 193.17'
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:30)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:31)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:32)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.dataTrascrizione' (riga:45)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.estremiDocumento' (riga:46)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.nomeEnte' (riga:47)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.nazioneEnte' (riga:48)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.nomeNazioneEnte' (riga:49)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.idProvinciaEnte' (riga:50)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.siglaProvinciaEnte' (riga:51)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.idComuneEnte' (riga:52)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.nomeComuneEnte' (riga:53)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.comuneEstero' (riga:54)
+* Rimosso 'evento.trascrizioneCittadinanza.atto.enteEstero.dataTrascrizione'
+* Rimosso 'evento.trascrizioneCittadinanza.atto.enteEstero.estremiDocumento'
+* Rimosso 'evento.trascrizioneCittadinanza.atto.enteEstero.nomeEnte'
+* Rimosso 'evento.trascrizioneCittadinanza.atto.enteEstero.nazioneEnte'
+* Rimosso 'evento.trascrizioneCittadinanza.atto.enteEstero.nomeNazioneEnte'
+* Rimosso 'evento.trascrizioneCittadinanza.atto.enteEstero.idProvinciaEnte'
+* Rimosso 'evento.trascrizioneCittadinanza.atto.enteEstero.siglaProvinciaEnte'
+* Rimosso 'evento.trascrizioneCittadinanza.atto.enteEstero.idComuneEnte'
+* Rimosso 'evento.trascrizioneCittadinanza.atto.enteEstero.nomeComuneEnte'
+* Rimosso 'evento.trascrizioneCittadinanza.atto.enteEstero.comuneEstero'
+
+### Modifiche per il caso uso cittadinanza/Citt_019.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:27)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:28)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:29)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:53)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:54)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:55)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:84)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:85)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:86)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.dataTrascrizione' (riga:101)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.estremiDocumento' (riga:102)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.nomeEnte' (riga:103)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.nazioneEnte' (riga:104)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.nomeNazioneEnte' (riga:105)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.idProvinciaEnte' (riga:106)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.siglaProvinciaEnte' (riga:107)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.idComuneEnte' (riga:108)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.nomeComuneEnte' (riga:109)
+* Aggiunto 'evento.trascrizioneCittadinanza.attoEstero.enteEstero.comuneEstero' (riga:110)
+* Rimosso 'evento.trascrizioneCittadinanza.atto.enteEstero.comuneEstero'
+
+### Modifiche per il caso uso cittadinanza/Citt_020.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:29)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:30)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:31)
+
+### Modifiche per il caso uso cittadinanza/Citt_021.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:35)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:36)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:37)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:66)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:67)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:68)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:97)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:98)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:99)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:140)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:141)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:142)
+
+### Modifiche per il caso uso cittadinanza/Citt_022.csv :
+* Aggiunto 'evento.trascrizioneCittadinanza.dataProvvedimentoSindaco' (riga:10)
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:29)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:30)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:31)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:60)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:85)
+
+### Modifiche per il caso uso cittadinanza/Citt_023.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:26)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:27)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:28)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:57)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:58)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:59)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:88)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:89)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:90)
+
+### Modifiche per il caso uso cittadinanza/Citt_024.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:32)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:33)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:34)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:64)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:66)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:95)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:96)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:97)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:148)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:149)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:150)
+
+### Modifiche per il caso uso cittadinanza/Citt_025.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:28)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:29)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:30)
+
+### Modifiche per il caso uso cittadinanza/Citt_026.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:26)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:27)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:28)
+
+### Modifiche per il caso uso cittadinanza/Citt_027.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:26)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:27)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:28)
+
+### Modifiche per il caso uso cittadinanza/Citt_028.csv :
+* Presenti modifiche per 'evento.intestatari[0].localitaEsteraNascita' (riga:30)
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:33)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:34)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:35)
+* Aggiunto 'evento.intestatari[0].flagDichiarante' (riga:45)
+* Aggiunto 'evento.intestatari[0].flagComparente' (riga:46)
+* Aggiunto 'evento.intestatari[0].flagFirmatario' (riga:47)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:73)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:74)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:75)
+
+### Modifiche per il caso uso cittadinanza/Citt_029.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:28)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:29)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:30)
+
+### Modifiche per il caso uso cittadinanza/Citt_030.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:31)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:32)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:33)
+* Aggiunto 'evento.intestatari[0].flagDichiarante' (riga:43)
+* Aggiunto 'evento.intestatari[0].flagComparente' (riga:44)
+* Aggiunto 'evento.intestatari[0].flagFirmatario' (riga:45)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:72)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:73)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:74)
+
+### Modifiche per il caso uso cittadinanza/Citt_031.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:28)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:29)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:30)
+
+### Modifiche per il caso uso cittadinanza/Citt_032.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:33)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:34)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:35)
+
+### Modifiche per il caso uso cittadinanza/Citt_033.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:37)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:38)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:39)
+* Aggiunto 'evento.intestatari[0].flagDichiarante' (riga:49)
+* Aggiunto 'evento.intestatari[0].flagComparente' (riga:50)
+* Aggiunto 'evento.intestatari[0].flagFirmatario' (riga:51)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:67)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:68)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:69)
+
+### Modifiche per il caso uso cittadinanza/Citt_034.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:28)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:29)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:30)
+
+### Modifiche per il caso uso cittadinanza/Citt_035.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:28)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:29)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:30)
+
+### Modifiche per il caso uso cittadinanza/Citt_036.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:34)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:35)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:36)
+* Aggiunto 'evento.intestatari[0].flagDichiarante' (riga:46)
+* Aggiunto 'evento.intestatari[0].flagComparente' (riga:47)
+* Aggiunto 'evento.intestatari[0].flagFirmatario' (riga:48)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:65)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:66)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:67)
+
+### Modifiche per il caso uso cittadinanza/Citt_037.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:28)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:29)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:30)
+
+### Modifiche per il caso uso cittadinanza/Citt_038.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:32)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:33)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:34)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:65)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:66)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:67)
+
+### Modifiche per il caso uso cittadinanza/Citt_039.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:28)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:29)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:30)
+
+### Modifiche per il caso uso cittadinanza/Citt_040.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:31)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:32)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:33)
+* Aggiunto 'evento.datiEventoCittadinanza.coniuge.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.datiEventoCittadinanza.coniuge.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.datiEventoCittadinanza.coniuge.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:88)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:89)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:90)
+
+### Modifiche per il caso uso cittadinanza/Citt_041.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:28)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:29)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:30)
+
+### Modifiche per il caso uso cittadinanza/Citt_043.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:37)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:38)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:39)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:66)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:67)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:68)
+
+### Modifiche per il caso uso cittadinanza/Citt_044.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:35)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:36)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:37)
+* Aggiunto 'evento.datiEventoCittadinanza.delegato.flagIrreperibile' (riga:64)
+* Presenti modifiche per 'evento.datiEventoCittadinanza.delegato.idStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.datiEventoCittadinanza.delegato.nomeStatoResidenza' (riga:66)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:89)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:90)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:91)
+* Rimosso 'evento.ausilioInterprete'
+
+### Modifiche per il caso uso cittadinanza/Citt_045.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:87)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:88)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:89)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.flagIrreperibile' (riga:61)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:135)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:136)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:137)
+
+### Modifiche per il caso uso cittadinanza/Citt_046.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:85)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:86)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:87)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.flagIrreperibile' (riga:59)
+
+### Modifiche per il caso uso cittadinanza/Citt_999.csv :
+* Presenti modifiche per 'evento.motivoRecupero' (riga:11)
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:28)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:29)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:30)
+
+### Modifiche per il caso uso morte/Morte_001.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:43)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:44)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:45)
+* Aggiunto 'evento.datiEventoMorte.comparente1.flagIrreperibile' (riga:69)
+* Presenti modifiche per 'evento.datiEventoMorte.comparente1.idStatoResidenza' (riga:70)
+* Presenti modifiche per 'evento.datiEventoMorte.comparente1.nomeStatoResidenza' (riga:71)
+* Aggiunto 'evento.datiEventoMorte.comparente2.flagIrreperibile' (riga:94)
+* Presenti modifiche per 'evento.datiEventoMorte.comparente2.idStatoResidenza' (riga:95)
+* Presenti modifiche per 'evento.datiEventoMorte.comparente2.nomeStatoResidenza' (riga:96)
+* Aggiunto 'evento.coniuge.flagIrreperibile' (riga:144)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:169)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:170)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:171)
+
+### Modifiche per il caso uso morte/Morte_002.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:41)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:42)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:43)
+* Aggiunto 'evento.coniuge.flagIrreperibile' (riga:92)
+
+### Modifiche per il caso uso morte/Morte_003.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:41)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:42)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:43)
+* Aggiunto 'evento.coniuge.flagIrreperibile' (riga:92)
+
+### Modifiche per il caso uso morte/Morte_005.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:38)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:39)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:40)
+* Aggiunto 'evento.coniuge.flagIrreperibile' (riga:98)
+
+### Modifiche per il caso uso morte/Morte_006.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:40)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:41)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:42)
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:66)
+* Aggiunto 'evento.coniuge.flagIrreperibile' (riga:124)
+
+### Modifiche per il caso uso morte/Morte_007.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:42)
+* Aggiunto 'evento.coniuge.flagIrreperibile' (riga:102)
+
+### Modifiche per il caso uso morte/Morte_008.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:50)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:51)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:52)
+* Aggiunto 'evento.coniuge.flagIrreperibile' (riga:101)
+
+### Modifiche per il caso uso morte/Morte_009.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:27)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:28)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:29)
+* Aggiunto 'evento.coniuge.flagIrreperibile' (riga:96)
+
+### Modifiche per il caso uso morte/Morte_010.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:25)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:26)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:27)
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:51)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:52)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:53)
+* Aggiunto 'evento.coniuge.flagIrreperibile' (riga:120)
+
+### Modifiche per il caso uso morte/Morte_011.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:65)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:66)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:67)
+* Aggiunto 'evento.coniuge.flagIrreperibile' (riga:126)
+
+### Modifiche per il caso uso morte/Morte_999.csv :
+* Presenti modifiche per 'evento.motivoRecupero' (riga:11)
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:38)
+* Presenti modifiche per 'evento.intestatari[0].idStatoResidenza' (riga:39)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoResidenza' (riga:40)
+* Aggiunto 'evento.coniuge.flagIrreperibile' (riga:89)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_001.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:34)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:59)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:60)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:61)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:89)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:90)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:91)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:141)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:142)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:143)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_002.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:35)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:60)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:61)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:62)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:90)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:91)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:92)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:142)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:143)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:144)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_003.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:91)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:92)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:93)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:143)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:144)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_004.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:34)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:59)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:60)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:61)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:89)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:90)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:91)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:141)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:142)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:143)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_005.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:35)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:60)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:61)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:62)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:90)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:91)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:92)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:142)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:143)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:144)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_006.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:34)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:59)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:60)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:61)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:89)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:90)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:91)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:141)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:142)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:143)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_007.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:91)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:92)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:93)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:143)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:144)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_008.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:34)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:35)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:91)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:92)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:93)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:143)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:144)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_009.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:93)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:145)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:146)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_010.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:32)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:33)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:34)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:58)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:59)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:60)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:88)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:89)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:90)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:140)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:141)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:142)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_011.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:34)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:35)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:60)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:61)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:62)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:90)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:91)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:92)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:142)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:143)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:144)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_012.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:93)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:145)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:146)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_013.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:39)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:64)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:66)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:94)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:95)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:96)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:146)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:147)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_014.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:91)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:92)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:93)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:143)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:144)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_015.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:91)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:92)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:93)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:143)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:144)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_016.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:91)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:92)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:93)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:143)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:144)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_017.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:39)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:64)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:66)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:94)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:95)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:96)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:146)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:147)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_018.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:34)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:35)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:60)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:61)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:62)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:90)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:91)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:92)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:142)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:143)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:144)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_019.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:34)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:59)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:60)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:61)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:111)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:112)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:113)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_020.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:35)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:60)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:61)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:62)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:90)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:91)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:92)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:149)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:150)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:151)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_021.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:113)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:114)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:115)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_022.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:62)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:63)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:64)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:92)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:93)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:94)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:151)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:152)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:153)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_023.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:113)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:114)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:115)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_024.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:34)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:59)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:60)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:61)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:111)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:112)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:113)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_025.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:35)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:60)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:61)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:62)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:90)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:91)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:92)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:149)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:150)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:151)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_026.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:113)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:114)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:115)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_027.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:62)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:63)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:64)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:92)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:93)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:94)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:151)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:152)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:153)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_028.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:113)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:114)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:115)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_029.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:62)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:63)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:64)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:92)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:93)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:94)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:151)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:152)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:153)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_030.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:34)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:59)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:60)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:61)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:89)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:90)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:91)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:141)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:142)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:143)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_031.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:91)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:92)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:93)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:143)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:144)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_032.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:91)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:92)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:93)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:143)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:144)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_033.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:35)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:36)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:37)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:62)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:63)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:64)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:92)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:93)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:94)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:151)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:152)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:153)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_034.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:39)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:64)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:66)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:94)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:95)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:96)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:153)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:154)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:155)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_035.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:39)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:64)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:66)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:94)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:95)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:96)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:153)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:154)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:155)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_036.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:113)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:114)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:115)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_037.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:62)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:63)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:64)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:92)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:93)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:94)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:151)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:152)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:153)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_038.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:115)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:116)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:117)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_039.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:39)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:64)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:66)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:94)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:95)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:96)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:153)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:154)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:155)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_040.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:115)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:116)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:117)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_041.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:39)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:64)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:66)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:94)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:95)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:96)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:153)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:154)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:155)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_042.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:113)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:114)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:115)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_043.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:62)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:63)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:64)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:92)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:93)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:94)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:151)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:152)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:153)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_044.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:115)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:116)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:117)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_045.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:39)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:64)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:66)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:94)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:95)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:96)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:153)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:154)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:155)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_046.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:115)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:116)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:117)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_047.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:39)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:64)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:66)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:94)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:95)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:96)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:153)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:154)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:155)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_048.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:91)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:92)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:93)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:143)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:144)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_049.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:93)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:145)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:146)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_050.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:62)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:63)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:64)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:92)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:93)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:94)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:144)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:145)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_051.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:39)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:64)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:66)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:94)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:95)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:96)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:153)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:154)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:155)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_052.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:39)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:40)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:65)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:66)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:67)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:95)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:96)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:97)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:154)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:155)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:156)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_053.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:39)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:40)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:41)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:66)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:67)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:68)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:96)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:97)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:98)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:155)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:156)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:157)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_054.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:33)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:34)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:35)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:81)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:82)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:83)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_055.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:38)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:84)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:85)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:86)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_056.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:35)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:36)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:37)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:83)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:84)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:85)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_057.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:35)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:36)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:37)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:83)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:84)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:85)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_058.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:39)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:85)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:86)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:87)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_059.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:39)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:85)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:86)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:87)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_060.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:62)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:63)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.padre.siglaProvinciaNascita' (riga:86)
+* Presenti modifiche per 'evento.padre.nomeComuneNascita' (riga:88)
+* Presenti modifiche per 'evento.padre.localitaEsteraNascita' (riga:89)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:92)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:93)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.siglaProvinciaResidenza' (riga:96)
+* Presenti modifiche per 'evento.padre.nomeComuneResidenza' (riga:98)
+* Presenti modifiche per 'evento.padre.indirizzoResidenza' (riga:99)
+* Presenti modifiche per 'evento.padre.siglaProvinciaAIRE' (riga:104)
+* Presenti modifiche per 'evento.padre.nomeComuneAIRE' (riga:106)
+* Presenti modifiche per 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:107)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:170)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:171)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:172)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_061.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Presenti modifiche per 'evento.padre.siglaProvinciaNascita' (riga:85)
+* Presenti modifiche per 'evento.padre.nomeComuneNascita' (riga:87)
+* Presenti modifiche per 'evento.padre.localitaEsteraNascita' (riga:88)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:91)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:92)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:93)
+* Presenti modifiche per 'evento.padre.siglaProvinciaResidenza' (riga:95)
+* Presenti modifiche per 'evento.padre.nomeComuneResidenza' (riga:97)
+* Presenti modifiche per 'evento.padre.indirizzoResidenza' (riga:98)
+* Presenti modifiche per 'evento.padre.siglaProvinciaAIRE' (riga:103)
+* Presenti modifiche per 'evento.padre.nomeComuneAIRE' (riga:105)
+* Presenti modifiche per 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:106)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:156)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:157)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:158)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_062.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:62)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:63)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.padre.siglaProvinciaNascita' (riga:86)
+* Presenti modifiche per 'evento.padre.nomeComuneNascita' (riga:88)
+* Presenti modifiche per 'evento.padre.localitaEsteraNascita' (riga:89)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:92)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:93)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.siglaProvinciaResidenza' (riga:96)
+* Presenti modifiche per 'evento.padre.nomeComuneResidenza' (riga:98)
+* Presenti modifiche per 'evento.padre.indirizzoResidenza' (riga:99)
+* Presenti modifiche per 'evento.padre.siglaProvinciaAIRE' (riga:104)
+* Presenti modifiche per 'evento.padre.nomeComuneAIRE' (riga:106)
+* Presenti modifiche per 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:107)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:170)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:171)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:172)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_063.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:62)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:63)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:64)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:127)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:128)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:129)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_064.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.padre.siglaProvinciaNascita' (riga:87)
+* Presenti modifiche per 'evento.padre.nomeComuneNascita' (riga:89)
+* Presenti modifiche per 'evento.padre.localitaEsteraNascita' (riga:90)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:93)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:95)
+* Presenti modifiche per 'evento.padre.siglaProvinciaResidenza' (riga:97)
+* Presenti modifiche per 'evento.padre.nomeComuneResidenza' (riga:99)
+* Presenti modifiche per 'evento.padre.indirizzoResidenza' (riga:100)
+* Presenti modifiche per 'evento.padre.siglaProvinciaAIRE' (riga:105)
+* Presenti modifiche per 'evento.padre.nomeComuneAIRE' (riga:107)
+* Presenti modifiche per 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:108)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:158)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:159)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:160)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_065.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:35)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:36)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:37)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Presenti modifiche per 'evento.padre.siglaProvinciaNascita' (riga:85)
+* Presenti modifiche per 'evento.padre.nomeComuneNascita' (riga:87)
+* Presenti modifiche per 'evento.padre.localitaEsteraNascita' (riga:88)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:91)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:92)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:93)
+* Presenti modifiche per 'evento.padre.siglaProvinciaResidenza' (riga:95)
+* Presenti modifiche per 'evento.padre.nomeComuneResidenza' (riga:97)
+* Presenti modifiche per 'evento.padre.indirizzoResidenza' (riga:98)
+* Presenti modifiche per 'evento.padre.siglaProvinciaAIRE' (riga:103)
+* Presenti modifiche per 'evento.padre.nomeComuneAIRE' (riga:105)
+* Presenti modifiche per 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:106)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:169)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:170)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:171)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_066.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:35)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:36)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:37)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:126)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:127)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:128)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_067.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:39)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:64)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:66)
+* Presenti modifiche per 'evento.padre.siglaProvinciaNascita' (riga:88)
+* Presenti modifiche per 'evento.padre.nomeComuneNascita' (riga:90)
+* Presenti modifiche per 'evento.padre.localitaEsteraNascita' (riga:91)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:94)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:95)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:96)
+* Presenti modifiche per 'evento.padre.siglaProvinciaResidenza' (riga:98)
+* Presenti modifiche per 'evento.padre.nomeComuneResidenza' (riga:100)
+* Presenti modifiche per 'evento.padre.indirizzoResidenza' (riga:101)
+* Presenti modifiche per 'evento.padre.siglaProvinciaAIRE' (riga:106)
+* Presenti modifiche per 'evento.padre.nomeComuneAIRE' (riga:108)
+* Presenti modifiche per 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:109)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:172)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:173)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:174)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_068.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:39)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:64)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:66)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:94)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:95)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:96)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:159)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:160)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:161)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_069.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:39)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:64)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:66)
+* Presenti modifiche per 'evento.padre.siglaProvinciaNascita' (riga:88)
+* Presenti modifiche per 'evento.padre.nomeComuneNascita' (riga:90)
+* Presenti modifiche per 'evento.padre.localitaEsteraNascita' (riga:91)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:94)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:95)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:96)
+* Presenti modifiche per 'evento.padre.siglaProvinciaResidenza' (riga:98)
+* Presenti modifiche per 'evento.padre.nomeComuneResidenza' (riga:100)
+* Presenti modifiche per 'evento.padre.indirizzoResidenza' (riga:101)
+* Presenti modifiche per 'evento.padre.siglaProvinciaAIRE' (riga:106)
+* Presenti modifiche per 'evento.padre.nomeComuneAIRE' (riga:108)
+* Presenti modifiche per 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:109)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:172)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:173)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:174)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_070.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:40)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:65)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:66)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:67)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:95)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:96)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:97)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:167)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:168)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:169)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_071.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:39)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:64)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:66)
+* Presenti modifiche per 'evento.padre.siglaProvinciaNascita' (riga:88)
+* Presenti modifiche per 'evento.padre.nomeComuneNascita' (riga:90)
+* Presenti modifiche per 'evento.padre.localitaEsteraNascita' (riga:91)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:94)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:95)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:96)
+* Presenti modifiche per 'evento.padre.siglaProvinciaResidenza' (riga:98)
+* Presenti modifiche per 'evento.padre.nomeComuneResidenza' (riga:100)
+* Presenti modifiche per 'evento.padre.indirizzoResidenza' (riga:101)
+* Presenti modifiche per 'evento.padre.siglaProvinciaAIRE' (riga:106)
+* Presenti modifiche per 'evento.padre.nomeComuneAIRE' (riga:108)
+* Presenti modifiche per 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:109)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:172)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:173)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:174)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_072.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:39)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:64)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:66)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:129)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:130)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:131)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_073.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:40)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:65)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:66)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:67)
+* Presenti modifiche per 'evento.padre.siglaProvinciaNascita' (riga:89)
+* Presenti modifiche per 'evento.padre.nomeComuneNascita' (riga:91)
+* Presenti modifiche per 'evento.padre.localitaEsteraNascita' (riga:92)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:95)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:96)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:97)
+* Presenti modifiche per 'evento.padre.siglaProvinciaResidenza' (riga:99)
+* Presenti modifiche per 'evento.padre.nomeComuneResidenza' (riga:101)
+* Presenti modifiche per 'evento.padre.indirizzoResidenza' (riga:102)
+* Presenti modifiche per 'evento.padre.siglaProvinciaAIRE' (riga:107)
+* Presenti modifiche per 'evento.padre.nomeComuneAIRE' (riga:109)
+* Presenti modifiche per 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:110)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:160)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:161)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:162)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_074.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:35)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:36)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:37)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Presenti modifiche per 'evento.padre.siglaProvinciaNascita' (riga:85)
+* Presenti modifiche per 'evento.padre.nomeComuneNascita' (riga:87)
+* Presenti modifiche per 'evento.padre.localitaEsteraNascita' (riga:88)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:91)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:92)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:93)
+* Presenti modifiche per 'evento.padre.siglaProvinciaResidenza' (riga:95)
+* Presenti modifiche per 'evento.padre.nomeComuneResidenza' (riga:97)
+* Presenti modifiche per 'evento.padre.indirizzoResidenza' (riga:98)
+* Presenti modifiche per 'evento.padre.siglaProvinciaAIRE' (riga:103)
+* Presenti modifiche per 'evento.padre.nomeComuneAIRE' (riga:105)
+* Presenti modifiche per 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:106)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:169)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:170)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:171)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_075.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:39)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:128)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:129)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:130)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_076.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:39)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:40)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:41)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:66)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:67)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:68)
+* Presenti modifiche per 'evento.padre.siglaProvinciaNascita' (riga:90)
+* Presenti modifiche per 'evento.padre.nomeComuneNascita' (riga:92)
+* Presenti modifiche per 'evento.padre.localitaEsteraNascita' (riga:93)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:96)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:97)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:98)
+* Presenti modifiche per 'evento.padre.siglaProvinciaResidenza' (riga:100)
+* Presenti modifiche per 'evento.padre.nomeComuneResidenza' (riga:102)
+* Presenti modifiche per 'evento.padre.indirizzoResidenza' (riga:103)
+* Presenti modifiche per 'evento.padre.siglaProvinciaAIRE' (riga:108)
+* Presenti modifiche per 'evento.padre.nomeComuneAIRE' (riga:110)
+* Presenti modifiche per 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:111)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:161)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:162)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:163)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_077.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:93)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:145)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:146)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_078.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:62)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:63)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:64)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:92)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:93)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:94)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:144)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:145)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_079.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:93)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:145)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:146)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_080.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:34)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:35)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:60)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:61)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:62)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:90)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:91)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:92)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:142)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:143)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:144)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_081.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:40)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:65)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:66)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:67)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:95)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:96)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:97)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:147)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:148)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:149)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_082.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:41)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:66)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:67)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:68)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:96)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:97)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:98)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:148)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:149)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:150)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_083.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:39)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:40)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:65)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:66)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:67)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:95)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:96)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:97)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:147)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:148)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:149)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_084.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:62)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:63)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:64)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:92)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:93)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:94)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:144)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:145)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_085.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:93)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:145)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:146)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_086.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:93)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:145)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:146)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_087.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:39)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:40)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:65)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:66)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:67)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:95)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:96)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:97)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:147)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:148)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:149)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_088.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:39)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:93)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:145)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:146)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_089.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:34)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:59)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:60)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:61)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:89)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:90)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:91)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:141)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:142)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:143)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_090.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:91)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:92)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:93)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:143)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:144)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_091.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:62)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:63)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.padre.siglaProvinciaNascita' (riga:86)
+* Presenti modifiche per 'evento.padre.nomeComuneNascita' (riga:88)
+* Presenti modifiche per 'evento.padre.localitaEsteraNascita' (riga:89)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:92)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:93)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.siglaProvinciaResidenza' (riga:96)
+* Presenti modifiche per 'evento.padre.nomeComuneResidenza' (riga:98)
+* Presenti modifiche per 'evento.padre.indirizzoResidenza' (riga:99)
+* Presenti modifiche per 'evento.padre.siglaProvinciaAIRE' (riga:104)
+* Presenti modifiche per 'evento.padre.nomeComuneAIRE' (riga:106)
+* Presenti modifiche per 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:107)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:157)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:158)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:159)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_092.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:39)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:64)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:66)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:94)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:95)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:96)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:159)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:160)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:161)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_093.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:91)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:92)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:93)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:143)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:144)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_094.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:93)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:145)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:146)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_095.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:93)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:145)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:146)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_096.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:34)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:35)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:91)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:92)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:93)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:143)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:144)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_097.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:93)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:145)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:146)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_098.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:39)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:40)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:65)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:66)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:67)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:95)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:96)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:97)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:147)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:148)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:149)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_099.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:62)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:63)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:64)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:92)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:93)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:94)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:144)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:145)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_100.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:91)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:92)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:93)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:143)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:144)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_101.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:91)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:92)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:93)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:143)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:144)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_102.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:91)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:92)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:93)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:143)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:144)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_103.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:93)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:145)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:146)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_104.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:93)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:145)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:146)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_105.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.padre.cognome' (riga:79)
+* Aggiunto 'evento.padre.nome' (riga:80)
+* Aggiunto 'evento.padre.idANPR' (riga:81)
+* Aggiunto 'evento.padre.sesso' (riga:82)
+* Aggiunto 'evento.padre.dataNascita' (riga:83)
+* Aggiunto 'evento.padre.idStatoNascita' (riga:84)
+* Aggiunto 'evento.padre.nomeStatoNascita' (riga:85)
+* Aggiunto 'evento.padre.idProvinciaNascita' (riga:86)
+* Aggiunto 'evento.padre.siglaProvinciaNascita' (riga:87)
+* Aggiunto 'evento.padre.idComuneNascita' (riga:88)
+* Aggiunto 'evento.padre.nomeComuneNascita' (riga:89)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:90)
+* Aggiunto 'evento.padre.idNazionalita' (riga:91)
+* Aggiunto 'evento.padre.nazionalita' (riga:92)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:93)
+* Aggiunto 'evento.padre.idStatoResidenza' (riga:94)
+* Aggiunto 'evento.padre.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.padre.idProvinciaResidenza' (riga:96)
+* Aggiunto 'evento.padre.siglaProvinciaResidenza' (riga:97)
+* Aggiunto 'evento.padre.idComuneResidenza' (riga:98)
+* Aggiunto 'evento.padre.nomeComuneResidenza' (riga:99)
+* Aggiunto 'evento.padre.indirizzoResidenza' (riga:100)
+* Aggiunto 'evento.padre.flagDichiarante' (riga:101)
+* Aggiunto 'evento.padre.flagComparente' (riga:102)
+* Aggiunto 'evento.padre.flagFirmatario' (riga:103)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:104)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:105)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:106)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:107)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:108)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:152)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:153)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:154)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_106.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:39)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:40)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:65)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:66)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:67)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:95)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:96)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:97)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:154)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:155)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:156)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_107.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:39)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:40)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:65)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:66)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:67)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:95)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:96)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:97)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:154)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:155)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:156)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_108.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:39)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:64)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:66)
+* Presenti modifiche per 'evento.padre.siglaProvinciaNascita' (riga:88)
+* Presenti modifiche per 'evento.padre.nomeComuneNascita' (riga:90)
+* Presenti modifiche per 'evento.padre.localitaEsteraNascita' (riga:91)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:94)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:95)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:96)
+* Presenti modifiche per 'evento.padre.siglaProvinciaResidenza' (riga:98)
+* Presenti modifiche per 'evento.padre.nomeComuneResidenza' (riga:100)
+* Presenti modifiche per 'evento.padre.indirizzoResidenza' (riga:101)
+* Presenti modifiche per 'evento.padre.siglaProvinciaAIRE' (riga:106)
+* Presenti modifiche per 'evento.padre.nomeComuneAIRE' (riga:108)
+* Presenti modifiche per 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:109)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:172)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:173)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:174)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_109.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:39)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:64)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:65)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:66)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:129)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:130)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:131)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_110.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:93)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:145)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:146)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_111.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:38)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:39)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:40)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:65)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:66)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:67)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:95)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:96)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:97)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:147)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:148)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:149)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_112.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:93)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:152)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:153)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:154)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_113.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:93)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:152)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:153)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:154)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_114.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:34)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:59)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:60)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:61)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:89)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:90)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:91)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:141)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:142)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:143)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_115.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:36)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:37)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:38)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:63)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:64)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:65)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:93)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:94)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:145)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:146)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_116.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:34)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:35)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:36)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:61)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:62)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:63)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:91)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:92)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:93)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:150)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:151)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:152)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_117.csv :
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:39)
+* Presenti modifiche per 'evento.dichiarante.idStatoResidenza' (riga:40)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:41)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:66)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:67)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:68)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:131)
+* Presenti modifiche per 'evento.interprete.idStatoResidenza' (riga:132)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:133)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_999.csv :
+* Presenti modifiche per 'evento.motivoRecupero' (riga:12)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:28)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:29)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:30)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:57)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:58)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:59)
+* Aggiunto 'evento.dichiarante.flagIrreperibile' (riga:86)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Citt_999.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:27)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Morte_999.csv :
+* Aggiunto 'evento.intestatari[0].flagIrreperibile' (riga:42)
+* Aggiunto 'evento.datiEventoMorte.comparente1.flagIrreperibile' (riga:71)
+* Presenti modifiche per 'evento.datiEventoMorte.comparente1.idStatoResidenza' (riga:72)
+* Presenti modifiche per 'evento.datiEventoMorte.comparente1.nomeStatoResidenza' (riga:73)
+* Aggiunto 'evento.coniuge.flagIrreperibile' (riga:133)
+
+
 #Changelog mappatura casi uso 1.32.12  
 
 ## Casi uso aggiunti : 0

@@ -24,6 +24,7 @@
 "Intestatario","Località estera","NO","evento.intestatari[0]","localitaEsteraNascita","","obbligatoria"
 "Intestatario","Nazionalità","NO","evento.intestatari[0]","idNazionalita","","obbligatoria"
 "Intestatario","Nazionalità - Descrizione","NO","evento.intestatari[0]","nazionalita","","obbligatoria"
+"Intestatario","Residenza non nota","NO","evento.intestatari[0]","flagIrreperibile","","obbligatoria"
 "Intestatario","Stato di residenza","NO","evento.intestatari[0]","idStatoResidenza","","obbligatoria"
 "Intestatario","Stato di residenza - Descrizione","NO","evento.intestatari[0]","nomeStatoResidenza","","obbligatoria"
 "Intestatario","Provincia di residenza","NO","evento.intestatari[0]","idProvinciaResidenza","","obbligatoria"
