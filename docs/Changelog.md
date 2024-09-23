@@ -23,6 +23,16 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.32.15 - 23-09-2024]
+
+### Added
+
+- [webapp] [Single sign-on Anagrafe/Elettorale/Stato civile (per utenti abilitati)](https://dait.interno.gov.it/servizi-demografici/circolari/circolare-dait-n76-del-19-settembre-2024)
+
+### Fixed
+
+- [webapp]: Nota tecnica errore evento annullato o firmato <https://github.com/italia/ansc/issues/1053>
+
 ## [1.32.14 - 17-09-2024]
 
 ## Changed
