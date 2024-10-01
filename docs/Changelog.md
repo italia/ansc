@@ -23,6 +23,13 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.32.16 - 01-10-2024]
+
+### Changed
+
+- [webapp] I comuni che non hanno aderito ad ANSC non possono accedere alla web app di stato civile in produzione (tranne gli utenti abilitati a inserire la richiesta di adesione)
+- [R001/R009] I comuni che non hanno aderito ad ANSC non possono usare il servizio in produzione.
+
 ## [1.32.15 - 23-09-2024]
 
 ### Added
