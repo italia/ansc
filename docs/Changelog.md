@@ -23,6 +23,13 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.32.17 - 02-10-2024]
+
+### Changed
+
+- [versioni] fine validita versione 100013 prolungata al 2024-12-01
+- [versioni] fine validita versione 100012 prolungata al 2024-11-01
+
 ## [1.32.16 - 01-10-2024]
 
 ### Changed
