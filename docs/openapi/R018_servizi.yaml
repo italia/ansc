@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   title: Servizi cooperativi per la riconciliazione di due soggetti
-  version: '1.4.0'
+  version: '1.32.0'
 servers:
   - url: https://anscservice.anpr.interno.it/services/service/val
     description: Servizio di produzione

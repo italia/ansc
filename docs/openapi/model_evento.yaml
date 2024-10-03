@@ -1210,6 +1210,10 @@ components:
           type: boolean
           description: indica che va gestita la residenza estera
           example: false
+        flagIrreperibile:
+          type: boolean
+          description: Indica che la residenza del soggetto non è nota o che il soggetto non è iscritto in ANPR
+          example: false
     
     ModelEnteDichiarante:
       properties:
@@ -3155,9 +3159,6 @@ components:
          items:
            $ref: '#/components/schemas/ModelDatiAnnotazioneML'
 
-
-
-           
     ModelAnnotazioneModificativa:
       description: Model annotazione modificativa rettifica per figlio a seguito cambio generalita genitori 
       properties:
@@ -3205,6 +3206,8 @@ components:
           type: string
           description: vechio  cognome  Intestatario - se valorizzato cambia l'anagrafe del intestatario
           example: 'Rossi'
+        soggettoCollegato:
+          $ref: '#/components/schemas/ModelSoggetto'
     ModelAdozioneMinoriInternazionale:
       description: Model annotazione modificativa rettifica per figlio a seguito cambio generalita genitori
       properties:

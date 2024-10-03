@@ -23,6 +23,56 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.33.0 - 03-10-2024]
+
+## Added
+
+- [feature] Annotazioni automatiche in lingua (ID 111)
+- [feature] Gestione soggetto irreperibile (ID 124)
+- [feature] Annotazione modificativa su atti cartacei (ID 95)
+- [feature] Disabilitazione casi d'uso di servizio lato servizi cooperativi (ID 120)
+- [feature] Gestione certificati internazionali (Convenzione Monaco, Vienna) (ID 67)
+- [feature] Gestione riconciliazione con SoggettoCollegato in Annotazione Modificativa Generica
+
+- [decodifiche] Aggiunto valore in tipo allegato decodifica ANSC_9 DEC_TIPO_ALLEGATO: 105 = Processo Verbale (Redatto in luogo particolare da autorità incaricata).
+- [decodifiche] Aggiunta decodifica ANSC_114 DEC_TIPO_CERT_INT per campo idTipoCertificato (ID 67)
+- [casi d'uso] Aggiunto nuovo caso d'uso 1.4.8.6.0.0.0.0 (Dic_Nasc_998_5) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso 2.3.5.1 (Morte_998_4) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso 3.6.9.1.0.0 (Matr_998_4) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso 4.5.9.1.0.0 (UnCiv_998_4) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso 5.3.8.1.0 (Citt_998_4) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+
+- [model_evento.yaml]
+  - Aggiunto il campo flagIrreperibile in modelSoggetto
+  - Aggiunto il campo soggettoCollegato di tipo modelSoggetto in modelAnnotazioneModificativa
+- [R019_certificato_internazionale.yaml]
+  - Definiti nuovi servizi per la gestione certificati internazionali:
+  - /certificato-internazionale/preview/{version}
+  - /certificato-internazionale/create/{version}
+  - /certificato-internazionale/annotazioni/{version} per sola consultazione
+  - /certificato-internazionale/sigle-enunciazioni/{version} per sola consultazione
+  - Aggiunto ModelCertificatoInternazionale
+
+- [versione] Aggiunta versione 100016
+
+## Fixed
+
+- Casi d'uso 433000 e 434000 (Web e SC) <https://github.com/italia/ansc/issues/1057>
+- Nota tecnica: aggiunta numero comunale <https://github.com/italia/ansc/issues/980>
+- [webapp]: atto di matrimonio celebrato con la presenza dell’interprete <https://github.com/italia/ansc/issues/801>
+- Trascr_007 Allegato con Id 999 da sostituire con nuovo allegato
+- [anteprima e certificazione]: corretta anomalia che a volte portava a un errore in fase di generazione di anteprima e certificati
+- [SC]: R009 - errore validazione caso 14950000 Annotazione per adozione internazionale di minore <https://github.com/italia/ansc/issues/993>
+- Nota tecnica e controlli bloccanti per atti rettificati
+- [SC]: UC 3.4.2.0.0.0 - manca spazio firma per avvocati #1054 <https://github.com/italia/ansc/issues/1054>
+- [SC]: KO anteprima atto UseCase 52341 <https://github.com/italia/ansc/issues/1050>
+- [SC]: Dati in ingresso non corretti - Anteprima Atto <https://github.com/italia/ansc/issues/1016>
+- Aggiornamento atto con modifica caso d'uso  - Controllo bloccante <https://github.com/italia/ansc/issues/1008>
+- [WEBAPP, SC] - allegati del provvedimento di rifiuto <https://github.com/italia/ansc/issues/1013>
+- [SC]: R009 - caso d'uso 344000 Accordo di modifica delle condizioni di separazione o divorzio (Sep_Div_004) <https://github.com/italia/ansc/issues/1017>
+- [SC, WEBAPP] - Soggetto Padre mancante nello usecase 11227000 <https://github.com/italia/ansc/issues/1018>
+- Caso d'uso 312111  matrimonio: minuta non corretta
+
 ## [1.32.17 - 02-10-2024]
 
 ### Changed
