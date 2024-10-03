@@ -1,0 +1,431 @@
+openapi: 3.0.0
+info:
+  title: Servizi cooperativi per la creazione dei certificati internazionali plurilingue per lo stato civile
+  version: '1.4.0'
+servers:
+  - url: https://anscservice.anpr.interno.it/services/service/val
+    description: Servizio di produzione
+  - url: https://anscservicepre.anpr.interno.it/services/service/val
+    description: Servizio di preproduzione
+  - url: http://localhost:8083
+    description: Servizio mock locale
+paths:
+  /certificato-internazionale/create/{version}:
+    post:
+      tags:
+        - CertificatoInternazionale
+      summary: Servizio per richiesta di certificato internazionale
+      operationId: createCertificatoInternazionaleCoop
+      parameters:
+        - name: version
+          in: path
+          description: Versione del servizio
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        description: Servizio che genera un certificato internazionale plurilingue
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CertificatoInternazionaleRequest"
+      responses:
+        "200":
+          description: Successo. L'anteprima del certificato è stata creata con successo
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CertificatoInternazionaleResponse"
+        "400":
+          description: I dati in input non sono corretti
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CertificatoInternazionaleResponse"
+        "403":
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CertificatoInternazionaleResponse"
+  /certificato-internazionale/preview/{version}:
+    post:
+      tags:
+        - CertificatoInternazionale
+      summary: Servizio per richiesta di certificato internazionale
+      operationId: previewCertificatoInternazionaleCoop
+      parameters:
+        - name: version
+          in: path
+          description: Versione del servizio
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        description: Servizio che genera l'anteprima di un certificato internazionale plurilingue
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CertificatoInternazionaleRequest"
+      responses:
+        "200":
+          description: Successo. L'anteprima del certificato è stata creata con successo
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CertificatoInternazionaleResponse"
+        "400":
+          description: I dati in input non sono corretti
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CertificatoInternazionaleResponse"
+        "403":
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CertificatoInternazionaleResponse"
+  /certificato-internazionale/annotazioni/{version}:
+    post:
+      description: Servizio di reperimento della lista delle annotazioni per uno specifico evento
+      summary: Servizio per reperimento annotazioni di certificato internazionale
+      operationId: annotazioniCertificatoInternazionaleCoop
+      tags:
+        - CertificatoInternazionale
+      parameters:
+        - name: version
+          in: path
+          description: Versione del servizio
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AnnotazioneEventoRequest'
+      responses:
+        200:
+          description: Successo. Lista annotazioni integrative/contestuali
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AnnotazioneEventoResponse'
+        400:
+          description: Dati in ingresso non completi
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AnnotazioneEventoResponse'
+        403:
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AnnotazioneEventoResponse'
+  /certificato-internazionale/sigle-enunciazioni/{version}:
+    post:
+      summary: Servizio che restituisce le sigle delle enunciazioni
+      operationId: sigleEnunciazioni
+      tags:
+        - CertificatoInternazionale
+      description: Servizio che restituisce la decodifica degli usi
+      parameters:
+        - name: version
+          in: path
+          description: Versione del servizio
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SigleEnunciazioniRequest'
+      responses:
+        "200":
+          description: Successo
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SigleEnunciazioniResponse"
+        "400":
+          description: I dati in input non sono corretti
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SigleEnunciazioniResponse"
+        "403":
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SigleEnunciazioniResponse"
+
+
+components:
+  schemas:
+    CertificatoInternazionaleRequest:
+      description: Richiesta del servizio di creazione Certificato Internazionale
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:
+            idEvento:
+              type: string
+              description: Id univoco interno dell’evento
+              example: "35634"
+            idTipoCertificato:
+              type: string
+              description: Id univoco del tipo certificato (Decodifica ANSC_114) ( 1 - Estratto atto di nascita (Modulo A); 2 - Estratto atto di matrimonio (Modulo B); 3 - Estratto atto di morte (Modulo C); 4 - CERTIFICATO PLURILINGUE DI CAPACITA' MATRIMONIALE)
+              example: "1"
+            stato:
+              type: string
+              description: Stato
+              example: "ITALIA"
+            dataRilascio:
+              type: string
+              format: date
+              description: Data rilascio dell'atto.
+              example: '2020-01-23'
+            certificatoCapacitaMatrimoniale:
+              $ref: '#/components/schemas/CertificatoCapacitaMatrimonialeDTO'
+              description: Modello certificato capacita' matrimoniale
+            certificatoNascita:
+              $ref: '#/components/schemas/CertificatoNascitaDTO'
+              description: Modello certificato nascita (Modello A)
+            certificatoMatrimonio:
+              $ref: '#/components/schemas/CertificatoMatrimonioDTO'
+              description: Modello certificato matrimonio (Modello B)
+            certificatoMorte:
+              $ref: '#/components/schemas/CertificatoMorteDTO'
+              description: Modello certificato morte (Modello C)
+    CertificatoCapacitaMatrimonialeDTO:
+      description: Modello certificato capacita' matrimoniale
+      allOf:
+        - type: object
+          properties:
+            coniuge1:
+              $ref: '#/components/schemas/ConiugeDTO'
+              description: Coniuge 1
+            coniuge2:
+              $ref: '#/components/schemas/ConiugeDTO'
+              description: Coniuge 2
+    ConiugeDTO:
+      description: Modello Coniuge
+      allOf:
+        - type: object
+          properties:
+            soggetto:
+              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
+              description: Modello soggetto marito
+            luogoRegistroFamiglia:
+              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelLuogo'
+              description:  Luogo del registro di famiglia.
+            numeroRegistroFamiglia:
+              type: string
+              description:  Numero del registro di famiglia.
+              example: '34435454'
+            coniugePrecedente:
+              type: string
+              description:  Nome e Cognome del precedente coniuge.
+              example: 'Torino'
+            dataScioglimento:
+              type: string
+              format: date
+              description:  Data scioglimento.
+              example: '06/07/2023'
+            luogoScioglimento:
+              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelLuogo'
+              description:  Luogo scioglimento.
+            scioltoDa:
+              type: string
+              description:  Sciolto da (può assumere una delle seguenti sigle D,Div,A,Abs).
+              example: 'Div'
+    CertificatoNascitaDTO:
+      description: Modello Certificato Internazionale di Nascita
+      allOf:
+        - type: object
+          properties:
+            annotazione:
+              type: string
+              description: Altre enunciazioni dell'atto
+              example: "annotazione"
+            siglaEnunciazioni:
+              type: string
+              description: Sigla enunciazioni (Mar,Sc,Div,A,D,Dm,Df).
+              example: 'Mar'
+    CertificatoMatrimonioDTO:
+      description: Modello Certificato Internazionale di Matrimonio
+      allOf:
+        - type: object
+          properties:
+            marito:
+              $ref: '#/components/schemas/ConiugeEstrattoMatrDTO'
+              description: Modello soggetto marito
+            moglie:
+              $ref: '#/components/schemas/ConiugeEstrattoMatrDTO'
+            annotazione:
+              type: string
+              description: Altre enunciazioni dell'atto
+              example: "annotazione"
+            siglaEnunciazioni:
+              type: string
+              description: Sigla enunciazioni (Sc,Div,A,Dm,Df). Obbligatorio nel caso ci siano annotazioni.
+              example: 'Sc'
+    ConiugeEstrattoMatrDTO:
+      description: Modello Coniuge per l'estratto di matrimonio
+      allOf:
+        - type: object
+          properties:
+            soggetto:
+              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
+              description: Modello soggetto marito o moglie
+            cognomePrimaMatrimonio:
+              type: string
+              description: Cognome del coniuge prima il matrimonio (Si fa presente che la legge italiana NON prevede la possibilità di cambiare cognome per matrimonio, per cui i cittadini italiani mantengono sempre il proprio cognome di nascita, anche dopo il matrimonio. )
+              example: 'Tasso'
+    CertificatoMorteDTO:
+      description: Modello Certificato Internazionale di Morte
+      allOf:
+        - type: object
+          properties:
+            madre:
+              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
+              description: Modello soggetto madre
+            padre:
+              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
+              description: Modello soggetto padre
+            nomeUltimoConiuge:
+              type: string
+              description: Nome ultimo coniuge.
+              example: 'Carlo'
+            cognomeUltimoConiuge:
+              type: string
+              description: Cognome ultimo coniuge.
+              example: 'Di Prinzio'
+    CertificatoInternazionaleResponse:
+      description: Ritorno del servizio di creazione del certificato
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:
+            contenuto:
+              type: string
+              description: File in formato base64
+              example: QU5TQw==
+            nomeFile:
+              type: string
+              description: Nome del file
+              example: Nome.pdf
+            tipoFile:
+              type: string
+              description: Tipo del file (codificato ANSC_10)
+              example: '3'
+            tipoContenutoFile:
+              type: string
+              description: Id del tipo contenuto
+              example: '1'
+            idCertificato:
+              type: string
+              description: Identificativo univoco del certificato
+              example: '2757'
+            codice:
+              type: string
+              description: Codice chiamata
+              example: '200'
+            descrizione:
+              type: string
+              description: Descrizione esito chiamata
+              example: 'success'
+            tipologia:
+              type: string
+              description: Tipo errore del servizio
+              example: 'errore'
+    AnnotazioneEventoRequest:
+      description: Richiesta del servizio di annotazioni per idEvento
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:
+            idEvento:
+              type: string
+              description: Identificativo interno dell’evento
+              example: "34542"
+    AnnotazioneEventoResponse:
+      description: Ritorno per il servizio di reperimento delle annotazioni per l'evento
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:
+            listaAnnotazioni:
+              type: array
+              items:
+                $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'
+    SigleEnunciazioniRequest:
+      description: Richiesta del servizio che restituisce le sigle dell'enunciazioni
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:
+            idTipoCertificato:
+              type: string
+              description: Id univoco del tipo certificato (Decodifica ANSC_114) ( 1 - Estratto atto di nascita (Modulo A); 2 - Estratto atto di matrimonio (Modulo B); 3 - Estratto atto di morte (Modulo C); 4 - CERTIFICATO PLURILINGUE DI CAPACITA' MATRIMONIALE)
+              example: "1"
+    SigleEnunciazioniResponse:
+      description: Ritorno del servizio che restituisce le sigle dell'enunciazioni
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:
+            listaSigleEnunciazioni:
+              type: array
+              items:
+                $ref: '#/components/schemas/InfoSigla'
+    InfoSigla:
+      description: Informazioni sigla enunciazioni e nazionalità
+      properties:
+        rifNomeCampo:
+          type: string
+          description: Nome del campo a cui si riferisce la sigla
+          example: "scioltoDa"
+        modleDecCertInt:
+          type: object
+          description: Decodifica Certificati Internazionali (sigla, descrizione)
+          $ref: '#/components/schemas/ModelDecCertInt'
+    ModelDecCertInt:
+      description: Decodifica Certificati Internazionali
+      properties:
+        id:
+          type: number
+          description: Identificativo univoco della sigla
+          example: "6"
+        sigla:
+          type: string
+          description: Sigla per enunciazioni Certificati Internazionali
+          example: "DIV"
+        descrizione:
+          type: string
+          description: Descrizione sigla per enunciazioni Certificati Internazionali
+          example: "divorzio"
+        ordinamento:
+          type: number
+          description: Ordinamento
+          example: "6"
+        datainiziovalidita:
+          format: date
+          description: Data inizio validità.
+          example: '1999-12-31T23:00:00.000+00:00'
+        datafinevalidita:
+          format: date
+          description: Data fine validità.
+          example: '9999-12-30T23:00:00.000+00:00'
+        tipologiaCertificato:
+          type: string
+          description: Lista tipologia certificato in cui la sigla è visibile
+          example: "1,2,4"
