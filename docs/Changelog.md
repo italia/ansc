@@ -73,6 +73,7 @@ NOTE:
 - [SC]: R009 - caso d'uso 344000 Accordo di modifica delle condizioni di separazione o divorzio (Sep_Div_004) <https://github.com/italia/ansc/issues/1017>
 - [SC, WEBAPP] - Soggetto Padre mancante nello usecase 11227000 <https://github.com/italia/ansc/issues/1018>
 - Caso d'uso 312111  matrimonio: minuta non corretta
+- [SC]: UC 2102 ATTO DI MORTE CON DATA E ORA PRESUNTA <https://github.com/italia/ansc/issues/1026>
 
 ## [1.32.17 - 02-10-2024]
 
