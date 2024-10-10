@@ -96,6 +96,7 @@ NOTE:
 
 ### Fixed
 
+- [SC]: R010 - R002 Anteprima/Estratto atto di matrimonio - atto di nascita sposa riportato 2 volte <https://github.com/italia/ansc/issues/1051>
 - [webapp]: Nota tecnica errore evento annullato o firmato <https://github.com/italia/ansc/issues/1053>
 
 ## [1.32.14 - 17-09-2024]
