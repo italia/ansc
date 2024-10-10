@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.33.1 - 10-10-2024]]
+### Fixed
+
+- [SC]: Servizio generazione certificati plurilingue internazionali (R019) irraggiungibile <https://github.com/italia/ansc/issues/1075>
+- Modifica template di creazione issue per i nuovi servizi cooperativi <https://github.com/italia/ansc/issues/1075>
+
 ## [1.33.0 - 03-10-2024]
 
 ## Added
@@ -98,7 +104,7 @@ NOTE:
 ### Fixed
 
 - [SC]: R010 - R002 Anteprima/Estratto atto di matrimonio - atto di nascita sposa riportato 2 volte <https://github.com/italia/ansc/issues/1051>
-- [webapp]: Nota tecnica errore evento annullato o firmato <https://github.com/italia/ansc/issues/1053>
+- [webapp]: Nota tecnica errore evento annullato o firmato <https://github.com/italia/ansc/issues/1053>>
 
 ## [1.32.14 - 17-09-2024]
 

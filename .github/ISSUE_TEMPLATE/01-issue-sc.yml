@@ -55,6 +55,10 @@ body:
         - R013 - Servizi cooperativi per la validazione della rettifica
         - R014 - Servizi cooperativi per la gestione data di validità verso anagrafe
         - R015 - Servizi cooperativi per la validazione delle adozioni internazionali
+        - R016 - Servizi cooperativi per la validazione del provvedimento di rifiuto
+        - R017 - Servizi cooperativi per la rettifica di un annotazione
+        - R018 - Servizi cooperativi per la riconciliazione di due soggetti
+        - R019 - Servizi cooperativi per la creazione dei certificati internazionali plurilingue per lo stato civile
         - R901 - Servizio di configurazione per il reperibimento delle tabelle di decodifica    
     validations:
       required: true        

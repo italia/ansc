@@ -1,13 +1,13 @@
 openapi: 3.0.0
 info:
   title: Servizi cooperativi per la creazione dei certificati internazionali plurilingue per lo stato civile
-  version: '1.4.0'
+  version: '1.33.0'
 servers:
-  - url: https://anscservice.anpr.interno.it/services/service/val
+  - url: https://anscservice.anpr.interno.it/services/service/certificazione
     description: Servizio di produzione
-  - url: https://anscservicepre.anpr.interno.it/services/service/val
+  - url: https://anscservicepre.anpr.interno.it/services/service/certificazione
     description: Servizio di preproduzione
-  - url: http://localhost:8083
+  - url: http://localhost:8092
     description: Servizio mock locale
 paths:
   /certificato-internazionale/create/{version}:
