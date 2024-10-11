@@ -23,7 +23,15 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.33.2 - 11-10-2024]
+
+### Fixed
+
+- [webapp]: errore 500 su estratto integrale <https://github.com/italia/ansc/issues/1081>
+- [SC]: Annotazione per Rettifica (14630000) - Messaggio "errore interno" <https://github.com/italia/ansc/issues/1066>
+
 ## [1.33.1 - 10-10-2024]]
+
 ### Fixed
 
 - [SC]: Servizio generazione certificati plurilingue internazionali (R019) irraggiungibile <https://github.com/italia/ansc/issues/1075>
