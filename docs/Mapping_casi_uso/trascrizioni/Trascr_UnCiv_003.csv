@@ -127,5 +127,5 @@
 "Autorità mittente","Provincia ente - Descrizione","NO","evento.trascrizioneUnioneCivile.autoritaMittente","siglaProvinciaEnte","","opzionale"
 "Autorità mittente","Comune Ente","NO","evento.trascrizioneUnioneCivile.autoritaMittente","idComuneEnte","","opzionale"
 "Autorità mittente","Comune ente - Descrizione","NO","evento.trascrizioneUnioneCivile.autoritaMittente","nomeComuneEnte","","opzionale"
-"Autorità mittente","Indirizzo Ente","SI","evento.trascrizioneUnioneCivile.autoritaMittente","indirizzoEnte","","opzionale"
+"Autorità mittente","Indirizzo Ente","NO","evento.trascrizioneUnioneCivile.autoritaMittente","indirizzoEnte","","opzionale"
 "Autorità mittente","Estremi documento","SI","evento.trascrizioneUnioneCivile.autoritaMittente","estremiDocumento","","opzionale"

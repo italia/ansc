@@ -1,6 +1,6 @@
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
 "Allegati","Attestazione di acquisizione di cittadinanza","SI","","","",""
-"Formula","193.18","SI","","","",""
+"Formula","193.24","SI","","","",""
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Si puo' ignorare la sezione per"
 "Formazione atto","Numero comunale","SI","evento","numeroatto","","obbligatoria"
 "Formazione atto","Data formazione","SI","evento","dataformazione","","obbligatoria"

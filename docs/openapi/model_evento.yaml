@@ -335,7 +335,18 @@ components:
           $ref: '#/components/schemas/ModelAdozioneMinoriInternazionale'
         datiRifiuto:
           $ref: '#/components/schemas/ModelRifiuto'
+        richiedente:
+          $ref: '#/components/schemas/ModelRichiedente'
 
+    ModelRichiedente:
+      properties:
+        idTipoRichiedente:
+          type: number
+          description: tipo di richiedente (1 - privato, 2 - ente pubblico) (decodifica ANSC_117)
+        privato:
+          $ref: '#/components/schemas/ModelSoggetto'
+        entePubblico:
+          $ref: '#/components/schemas/ModelEnteEstero'
     ModelRifiuto:
       properties:
         eventoCollegato:

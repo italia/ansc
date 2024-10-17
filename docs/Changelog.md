@@ -23,6 +23,43 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.33.3 - 17-10-2024]
+
+### Fixed
+
+- [SC]: Metadati mancanti su Anteprima 1312 <https://github.com/italia/ansc/issues/1067>
+- Matrimonio stranieri: [3.1.3.1.1.1] Matrimonio con rito civile di stranieri non domiciliati né residenti <https://github.com/italia/ansc/issues/1072>
+- Atti morte certificati: aggiunto stato civile del defunto
+- [SC]: R008 - Consultazione notifiche: non vengono restituiti in response i datiPaginazione <https://github.com/italia/ansc/issues/1074>
+- Gestione Mapped Diagnostic Context (MDC) al fine di aggiungere informazioni chiave di contesto
+- [webapp]: Non permette di indicare il comune di nascita valido alla data <https://github.com/italia/ansc/issues/1078>
+- [SC]: Firma USC per Rettifiche - Firma non avvenuta con successo. <https://github.com/italia/ansc/issues/1070> <https://github.com/italia/ansc/issues/1085>
+- Proposta di aggiustamenti testo Annotazioni Automatiche. <https://github.com/italia/ansc/discussions/961>
+- [SC]: usecase 411212 - dati obbligatori non reperibili perché inesistenti <https://github.com/italia/ansc/issues/1046>
+- [SC]: Estratto per copia integrale - Errore interno <https://github.com/italia/ansc/issues/1029>
+- Casi d'uso 433000 e 434000 (Web e SC) <https://github.com/italia/ansc/issues/1057>
+- Aggiornamento annotazione contestuale unioni civili (regime patrimoniale)
+- RettificaFacade: Errore di connessione nella creazione di un nuovo atto.null: java.lang.NullPointerException
+- Annotazione automatica generata a seguito della trascrizione del decreto di cambio cognome/nome
+- Atti matrimonio composizione: per soggetto diverso dal sindaco, vicesindaco o USC aggiunta nella composizione la dicitura "per delega avuta"
+- Data formazione atto: aggiungere su tutti gli atti oltre alla data anche l'ora di formazione dell'atto
+
+### Fixed Multilinguismo
+- atti di nasccita in tedesco: Sesso bambino sempre in minuscolo
+- matrimonio in tedesco: gibt der Erklärende (non der Erklärende gibt) den Namen XXX und den Zunamen XXX
+- atti di morte in tedesco: Staatsbürgerschaft: italienische solo se ci sono i due punti, altrimenti mit italiensiche Staatsbürgerschaft come Nota 8 della nascita
+- atti di morte in tedesco: Aggiungere lo stato civile del defunto anche se il deceduto è celibe/nubile und war ledig
+- atti di morte in tedesco: usare la minuscola in "Folgendes erklärt"
+- unioni civili in tedesco: Non "bewohner"(abitante) ma giusto "ansässig"(residente)
+- trasversale in tedesco: Nelle date sostituire gli slash con i punti
+- matrimonio in tedesco: die Vorgenannte è scritto maiuscolo: corretto se vi fosse scritto solo "la comparente". Poiché invece´nella formula la parola è seguita dalle generalità della stessa, vorgenannte va scritto minuscolo (es.: die vorgenannte Margherita Hack)
+- aggiunta su tutti gli atti oltre alla data anche l'ora di formazione dell'atto
+- unione civile: corretto: "in" amtlicher Kleidung (non"im" amtlicher Kleidung)
+- unione civile: anziché "als Zeugen sind anwesend" andrebbe scritto "bei der Eheschließung waren als  Zeugen anwesend"
+- matrimonio: atto di nascita con estremi numero .....Geburtsurkunde mit Einzelheiten non è corretto (non è possibile inserire solo "atto nr......xxx  Urk. Nr. xxx" ?
+- richiesta trascrizione atto di morte all'estero richiesto da privati: Heute manca am
+- trasversale: Se non é previsto un ulteriore qualifica per l'ufficiale che forma l'atto togliere , und (... vor mir, Michela Facchini, und Standesbeamten)
+
 ## [1.33.2 - 11-10-2024]
 
 ### Fixed
