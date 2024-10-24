@@ -23,6 +23,16 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.33.4 - 24-10-2024]
+
+### Changed
+
+- Aggiornata la guida operativa della web app (in particolare aggiunta una sezione per l'applicazione di generazione dell'otp).
+
+### Fixed
+
+- [SC]: Cittadinanza - Notifiche ANPR che arrivano tramite web-service <https://github.com/italia/ansc/issues/1104>
+
 ## [1.33.3 - 17-10-2024]
 
 ### Fixed
