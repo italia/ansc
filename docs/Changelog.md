@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.33.5 - 28-10-2024]
+
+## Changed
+
+- [Guida adesione ANSC](https://www.anagrafenazionale.interno.it/wp-content/uploads/Guida-operativa-per-adesione-ad-ANSC.pdf) link a portale ANPR.
+
 ## [1.33.4 - 24-10-2024]
 
 ### Changed
