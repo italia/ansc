@@ -381,6 +381,7 @@ NOTE:
 
 - [feature] Modifica per correzione di eventi di tipo annotazioni (ID 86)
 - [feature] Gestione ulteriori usi specifici certificati (ID 76.a)
+- [feature] Matrimoni tra stranieri con pubblicazioni da consolato, da comune e consolato ecc. (ID 113)
 - [decodifiche] Aggiunta decodifica ANSC_113 - Tipo uso  DEC_TIPO_USO:
   - 1 = Art. 40 comma 2 DPR 445/2000
   - 2 = Certificati da produrre all'estero
