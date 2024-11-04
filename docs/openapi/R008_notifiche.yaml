@@ -341,6 +341,10 @@ components:
         idcanalenotifica:
           type: string
           description: Identifica modalità di trasmissione PEC o DIGITALE (decodifica ANSC_105)
+        idformula:
+          description: Id Formula Annotazione
+          type: string
+          example: '121-septies'
      
     NotificheRicercaRequest:
       description: Ritorno del servizio specializzato per la configurazione dei pannelli

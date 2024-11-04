@@ -1,3 +1,2154 @@
+#Changelog mappatura casi uso 1.34.0  
+
+## Casi uso aggiunti : 16
+* cittadinanza/Citt_049.csv
+* nascita/Dic_Nasc_121.csv
+* nascita/Dic_Nasc_122.csv
+* nascita/Dic_Nasc_123.csv
+* nascita/Dic_Nasc_124.csv
+* nascita/Dic_Nasc_125.csv
+* nascita/Dic_Nasc_126.csv
+* nascita/Dic_Nasc_127.csv
+* nascita/Dic_Nasc_128.csv
+* nascita/Dic_Nasc_129.csv
+* nascita/Dic_Nasc_130.csv
+* nascita/Dic_Nasc_131.csv
+* nascita/Dic_Nasc_132.csv
+* nascita/Dic_Nasc_133.csv
+* trascrizioni/Trascr_028.csv
+* trascrizioni/Trascr_029.csv
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 260
+* cittadinanza/Citt_001.csv
+* cittadinanza/Citt_002.csv
+* cittadinanza/Citt_003.csv
+* cittadinanza/Citt_004.csv
+* cittadinanza/Citt_005.csv
+* cittadinanza/Citt_007.csv
+* cittadinanza/Citt_009.csv
+* cittadinanza/Citt_011.csv
+* cittadinanza/Citt_013.csv
+* cittadinanza/Citt_019.csv
+* cittadinanza/Citt_021.csv
+* cittadinanza/Citt_022.csv
+* cittadinanza/Citt_023.csv
+* cittadinanza/Citt_024.csv
+* cittadinanza/Citt_028.csv
+* cittadinanza/Citt_030.csv
+* cittadinanza/Citt_032.csv
+* cittadinanza/Citt_033.csv
+* cittadinanza/Citt_036.csv
+* cittadinanza/Citt_038.csv
+* cittadinanza/Citt_040.csv
+* cittadinanza/Citt_043.csv
+* cittadinanza/Citt_045.csv
+* cittadinanza/Citt_046.csv
+* cittadinanza/Citt_998_3.csv
+* matrimoni/Matr_001.csv
+* matrimoni/Matr_002.csv
+* matrimoni/Matr_003.csv
+* matrimoni/Matr_004.csv
+* matrimoni/Matr_005.csv
+* matrimoni/Matr_007.csv
+* matrimoni/Matr_008.csv
+* matrimoni/Matr_009.csv
+* matrimoni/Matr_010.csv
+* matrimoni/Matr_011.csv
+* matrimoni/Matr_012.csv
+* matrimoni/Matr_013.csv
+* matrimoni/Matr_019.csv
+* matrimoni/Matr_998_3.csv
+* matrimoni/Matr_999_1.csv
+* matrimoni/Matr_999_2.csv
+* matrimoni/Matr_Riconc_001.csv
+* matrimoni/Matr_Riconc_999.csv
+* matrimoni/Sep_Div_001.csv
+* matrimoni/Sep_Div_002.csv
+* matrimoni/Sep_Div_003.csv
+* matrimoni/Sep_Div_004.csv
+* matrimoni/Sep_Div_005.csv
+* matrimoni/Sep_Div_006.csv
+* matrimoni/Sep_Div_007.csv
+* matrimoni/Sep_Div_008.csv
+* matrimoni/Sep_Div_999.csv
+* morte/Morte_001.csv
+* morte/Morte_002.csv
+* morte/Morte_003.csv
+* morte/Morte_005.csv
+* morte/Morte_006.csv
+* morte/Morte_007.csv
+* morte/Morte_008.csv
+* morte/Morte_009.csv
+* morte/Morte_010.csv
+* morte/Morte_011.csv
+* morte/Morte_998_3.csv
+* morte/Morte_999.csv
+* nascita/Dic_Nasc_001.csv
+* nascita/Dic_Nasc_002.csv
+* nascita/Dic_Nasc_003.csv
+* nascita/Dic_Nasc_004.csv
+* nascita/Dic_Nasc_005.csv
+* nascita/Dic_Nasc_006.csv
+* nascita/Dic_Nasc_007.csv
+* nascita/Dic_Nasc_008.csv
+* nascita/Dic_Nasc_009.csv
+* nascita/Dic_Nasc_010.csv
+* nascita/Dic_Nasc_011.csv
+* nascita/Dic_Nasc_012.csv
+* nascita/Dic_Nasc_013.csv
+* nascita/Dic_Nasc_014.csv
+* nascita/Dic_Nasc_015.csv
+* nascita/Dic_Nasc_016.csv
+* nascita/Dic_Nasc_017.csv
+* nascita/Dic_Nasc_018.csv
+* nascita/Dic_Nasc_019.csv
+* nascita/Dic_Nasc_020.csv
+* nascita/Dic_Nasc_021.csv
+* nascita/Dic_Nasc_022.csv
+* nascita/Dic_Nasc_023.csv
+* nascita/Dic_Nasc_024.csv
+* nascita/Dic_Nasc_025.csv
+* nascita/Dic_Nasc_026.csv
+* nascita/Dic_Nasc_027.csv
+* nascita/Dic_Nasc_028.csv
+* nascita/Dic_Nasc_029.csv
+* nascita/Dic_Nasc_030.csv
+* nascita/Dic_Nasc_031.csv
+* nascita/Dic_Nasc_032.csv
+* nascita/Dic_Nasc_033.csv
+* nascita/Dic_Nasc_034.csv
+* nascita/Dic_Nasc_035.csv
+* nascita/Dic_Nasc_036.csv
+* nascita/Dic_Nasc_037.csv
+* nascita/Dic_Nasc_038.csv
+* nascita/Dic_Nasc_039.csv
+* nascita/Dic_Nasc_040.csv
+* nascita/Dic_Nasc_041.csv
+* nascita/Dic_Nasc_042.csv
+* nascita/Dic_Nasc_043.csv
+* nascita/Dic_Nasc_044.csv
+* nascita/Dic_Nasc_045.csv
+* nascita/Dic_Nasc_046.csv
+* nascita/Dic_Nasc_047.csv
+* nascita/Dic_Nasc_048.csv
+* nascita/Dic_Nasc_049.csv
+* nascita/Dic_Nasc_050.csv
+* nascita/Dic_Nasc_051.csv
+* nascita/Dic_Nasc_052.csv
+* nascita/Dic_Nasc_053.csv
+* nascita/Dic_Nasc_054.csv
+* nascita/Dic_Nasc_055.csv
+* nascita/Dic_Nasc_056.csv
+* nascita/Dic_Nasc_057.csv
+* nascita/Dic_Nasc_058.csv
+* nascita/Dic_Nasc_059.csv
+* nascita/Dic_Nasc_060.csv
+* nascita/Dic_Nasc_061.csv
+* nascita/Dic_Nasc_062.csv
+* nascita/Dic_Nasc_063.csv
+* nascita/Dic_Nasc_064.csv
+* nascita/Dic_Nasc_065.csv
+* nascita/Dic_Nasc_066.csv
+* nascita/Dic_Nasc_067.csv
+* nascita/Dic_Nasc_068.csv
+* nascita/Dic_Nasc_069.csv
+* nascita/Dic_Nasc_070.csv
+* nascita/Dic_Nasc_071.csv
+* nascita/Dic_Nasc_072.csv
+* nascita/Dic_Nasc_073.csv
+* nascita/Dic_Nasc_074.csv
+* nascita/Dic_Nasc_075.csv
+* nascita/Dic_Nasc_076.csv
+* nascita/Dic_Nasc_077.csv
+* nascita/Dic_Nasc_078.csv
+* nascita/Dic_Nasc_079.csv
+* nascita/Dic_Nasc_080.csv
+* nascita/Dic_Nasc_081.csv
+* nascita/Dic_Nasc_082.csv
+* nascita/Dic_Nasc_083.csv
+* nascita/Dic_Nasc_084.csv
+* nascita/Dic_Nasc_085.csv
+* nascita/Dic_Nasc_086.csv
+* nascita/Dic_Nasc_087.csv
+* nascita/Dic_Nasc_088.csv
+* nascita/Dic_Nasc_089.csv
+* nascita/Dic_Nasc_090.csv
+* nascita/Dic_Nasc_091.csv
+* nascita/Dic_Nasc_092.csv
+* nascita/Dic_Nasc_093.csv
+* nascita/Dic_Nasc_094.csv
+* nascita/Dic_Nasc_095.csv
+* nascita/Dic_Nasc_096.csv
+* nascita/Dic_Nasc_097.csv
+* nascita/Dic_Nasc_098.csv
+* nascita/Dic_Nasc_099.csv
+* nascita/Dic_Nasc_100.csv
+* nascita/Dic_Nasc_101.csv
+* nascita/Dic_Nasc_102.csv
+* nascita/Dic_Nasc_103.csv
+* nascita/Dic_Nasc_104.csv
+* nascita/Dic_Nasc_105.csv
+* nascita/Dic_Nasc_106.csv
+* nascita/Dic_Nasc_107.csv
+* nascita/Dic_Nasc_108.csv
+* nascita/Dic_Nasc_109.csv
+* nascita/Dic_Nasc_110.csv
+* nascita/Dic_Nasc_111.csv
+* nascita/Dic_Nasc_112.csv
+* nascita/Dic_Nasc_113.csv
+* nascita/Dic_Nasc_114.csv
+* nascita/Dic_Nasc_115.csv
+* nascita/Dic_Nasc_116.csv
+* nascita/Dic_Nasc_117.csv
+* nascita/Dic_Nasc_998_3.csv
+* nascita/Dic_Nasc_999.csv
+* riconoscimenti/Rico_001.csv
+* riconoscimenti/Rico_002.csv
+* riconoscimenti/Rico_003.csv
+* riconoscimenti/Rico_004.csv
+* riconoscimenti/Rico_005.csv
+* riconoscimenti/Rico_006.csv
+* riconoscimenti/Rico_007.csv
+* riconoscimenti/Rico_008.csv
+* riconoscimenti/Rico_009.csv
+* riconoscimenti/Rico_010.csv
+* riconoscimenti/Rico_011.csv
+* riconoscimenti/Rico_012.csv
+* riconoscimenti/Rico_013.csv
+* riconoscimenti/Rico_014.csv
+* riconoscimenti/Rico_015.csv
+* riconoscimenti/Rico_016.csv
+* riconoscimenti/Rico_017.csv
+* riconoscimenti/Rico_018.csv
+* riconoscimenti/Rico_019.csv
+* riconoscimenti/Rico_020.csv
+* riconoscimenti/Rico_999.csv
+* trascrizioni/Trascr_001.csv
+* trascrizioni/Trascr_002.csv
+* trascrizioni/Trascr_003.csv
+* trascrizioni/Trascr_005.csv
+* trascrizioni/Trascr_006.csv
+* trascrizioni/Trascr_007.csv
+* trascrizioni/Trascr_008.csv
+* trascrizioni/Trascr_009.csv
+* trascrizioni/Trascr_010.csv
+* trascrizioni/Trascr_011.csv
+* trascrizioni/Trascr_012.csv
+* trascrizioni/Trascr_013.csv
+* trascrizioni/Trascr_014.csv
+* trascrizioni/Trascr_015.csv
+* trascrizioni/Trascr_016.csv
+* trascrizioni/Trascr_017.csv
+* trascrizioni/Trascr_018.csv
+* trascrizioni/Trascr_019.csv
+* trascrizioni/Trascr_020.csv
+* trascrizioni/Trascr_021.csv
+* trascrizioni/Trascr_022.csv
+* trascrizioni/Trascr_023.csv
+* trascrizioni/Trascr_024.csv
+* trascrizioni/Trascr_025.csv
+* trascrizioni/Trascr_026.csv
+* trascrizioni/Trascr_027.csv
+* trascrizioni/Trascr_999.csv
+* trascrizioni/Trascr_Citt_999.csv
+* trascrizioni/Trascr_Matr_001.csv
+* trascrizioni/Trascr_Matr_002.csv
+* trascrizioni/Trascr_Matr_003.csv
+* trascrizioni/Trascr_Matr_004.csv
+* trascrizioni/Trascr_Matr_005.csv
+* trascrizioni/Trascr_Matr_006.csv
+* trascrizioni/Trascr_Matr_999.csv
+* trascrizioni/Trascr_Morte_999.csv
+* trascrizioni/Trascr_UnCiv_001.csv
+* trascrizioni/Trascr_UnCiv_002.csv
+* trascrizioni/Trascr_UnCiv_003.csv
+* trascrizioni/Trascr_UnCiv_004.csv
+* trascrizioni/Trascr_UnCiv_005.csv
+* trascrizioni/Trascr_UnCiv_999.csv
+* unioni_civili/Sciogl_UnCiv_001.csv
+* unioni_civili/Sciogl_UnCiv_002.csv
+* unioni_civili/Sciogl_UnCiv_003.csv
+* unioni_civili/Sciogl_UnCiv_004.csv
+* unioni_civili/Sciogl_UnCiv_005.csv
+* unioni_civili/Sciogl_UnCiv_999.csv
+* unioni_civili/UnCiv_001.csv
+* unioni_civili/UnCiv_002.csv
+* unioni_civili/UnCiv_003.csv
+* unioni_civili/UnCiv_004.csv
+* unioni_civili/UnCiv_005.csv
+* unioni_civili/UnCiv_007.csv
+* unioni_civili/UnCiv_998_3.csv
+* unioni_civili/UnCiv_999.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_001.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:57)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:89)
+
+### Modifiche per il caso uso cittadinanza/Citt_002.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:56)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:88)
+
+### Modifiche per il caso uso cittadinanza/Citt_003.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:57)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:89)
+
+### Modifiche per il caso uso cittadinanza/Citt_004.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:55)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:87)
+
+### Modifiche per il caso uso cittadinanza/Citt_005.csv : 
+* Aggiunto 'evento.datiEventoCittadinanza.parenteDiretto.tipoImpedimento' (riga:67)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:94)
+
+### Modifiche per il caso uso cittadinanza/Citt_007.csv : 
+* Aggiunto 'evento.datiEventoCittadinanza.parenteDiretto.tipoImpedimento' (riga:67)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:105)
+
+### Modifiche per il caso uso cittadinanza/Citt_009.csv : 
+* Aggiunto 'evento.datiEventoCittadinanza.parenteDiretto.tipoImpedimento' (riga:69)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:96)
+
+### Modifiche per il caso uso cittadinanza/Citt_011.csv : 
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:71)
+
+### Modifiche per il caso uso cittadinanza/Citt_013.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:30)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:61)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:166)
+
+### Modifiche per il caso uso cittadinanza/Citt_019.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:53)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:85)
+
+### Modifiche per il caso uso cittadinanza/Citt_021.csv : 
+* Aggiunto 'Formula 198' (riga:13)
+* Aggiunto 'Formula 199' (riga:14)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:68)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:100)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:144)
+
+### Modifiche per il caso uso cittadinanza/Citt_022.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:60)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:86)
+
+### Modifiche per il caso uso cittadinanza/Citt_023.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:57)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:89)
+
+### Modifiche per il caso uso cittadinanza/Citt_024.csv : 
+* Aggiunto 'Formula 198' (riga:11)
+* Aggiunto 'Formula 199' (riga:12)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:66)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:98)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:152)
+
+### Modifiche per il caso uso cittadinanza/Citt_028.csv : 
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:73)
+
+### Modifiche per il caso uso cittadinanza/Citt_030.csv : 
+* Aggiunto 'Formula 198' (riga:10)
+* Aggiunto 'Formula 199' (riga:11)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:74)
+
+### Modifiche per il caso uso cittadinanza/Citt_032.csv : 
+* Aggiunto 'Formula 198' (riga:8)
+* Aggiunto 'Formula 199' (riga:9)
+
+### Modifiche per il caso uso cittadinanza/Citt_033.csv : 
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:67)
+
+### Modifiche per il caso uso cittadinanza/Citt_036.csv : 
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:65)
+
+### Modifiche per il caso uso cittadinanza/Citt_038.csv : 
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:65)
+
+### Modifiche per il caso uso cittadinanza/Citt_040.csv : 
+* Aggiunto 'Formula 198' (riga:11)
+* Aggiunto 'Formula 199' (riga:12)
+* Aggiunto 'evento.datiEventoCittadinanza.coniuge.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:91)
+
+### Modifiche per il caso uso cittadinanza/Citt_043.csv : 
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:66)
+
+### Modifiche per il caso uso cittadinanza/Citt_045.csv : 
+* Aggiunto 'Formula 198' (riga:8)
+* Aggiunto 'Formula 199' (riga:9)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.tipoImpedimento' (riga:63)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:138)
+
+### Modifiche per il caso uso cittadinanza/Citt_046.csv : 
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.tipoImpedimento' (riga:59)
+
+### Modifiche per il caso uso cittadinanza/Citt_998_3.csv : 
+* Aggiunto 'evento.datiAnnotazioneModificativa.soggettoCollegato.tipoImpedimento' (riga:57)
+
+### Modifiche per il caso uso matrimoni/Matr_001.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:17)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.tipoImpedimento' (riga:60)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:86)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:116)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.tipoImpedimento' (riga:146)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.tipoImpedimento' (riga:172)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.tipoImpedimento' (riga:198)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.tipoImpedimento' (riga:224)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.tipoImpedimento' (riga:342)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.tipoImpedimento' (riga:368)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.tipoImpedimento' (riga:394)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.tipoImpedimento' (riga:420)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.tipoImpedimento' (riga:472)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.tipoImpedimento' (riga:531)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:564)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.motivoImpedimentoScritturaSposa' (riga:579)
+
+### Modifiche per il caso uso matrimoni/Matr_002.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:17)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.tipoImpedimento' (riga:70)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:96)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:126)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.tipoImpedimento' (riga:156)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.tipoImpedimento' (riga:182)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.tipoImpedimento' (riga:208)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.tipoImpedimento' (riga:234)
+* Aggiunto 'evento.datiEventoMatrimonio.segretarioComunale.tipoImpedimento' (riga:353)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.tipoImpedimento' (riga:379)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.tipoImpedimento' (riga:405)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.tipoImpedimento' (riga:431)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.tipoImpedimento' (riga:465)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.tipoImpedimento' (riga:525)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.tipoImpedimento' (riga:584)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:617)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.motivoImpedimentoScritturaSposa' (riga:632)
+
+### Modifiche per il caso uso matrimoni/Matr_003.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:15)
+* Aggiunto 'Allegati Certificato medico' (riga:16)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:91)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:123)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.tipoImpedimento' (riga:155)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.tipoImpedimento' (riga:181)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.tipoImpedimento' (riga:207)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.tipoImpedimento' (riga:233)
+* Aggiunto 'evento.datiEventoMatrimonio.segretarioComunale.tipoImpedimento' (riga:310)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.tipoImpedimento' (riga:336)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.tipoImpedimento' (riga:362)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.tipoImpedimento' (riga:388)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.tipoImpedimento' (riga:414)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.tipoImpedimento' (riga:466)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.tipoImpedimento' (riga:525)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:558)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.motivoImpedimentoScritturaSposa' (riga:573)
+
+### Modifiche per il caso uso matrimoni/Matr_004.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:15)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.tipoImpedimento' (riga:57)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:93)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:123)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.tipoImpedimento' (riga:153)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.tipoImpedimento' (riga:179)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.tipoImpedimento' (riga:205)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.tipoImpedimento' (riga:231)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.tipoImpedimento' (riga:349)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.tipoImpedimento' (riga:375)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.tipoImpedimento' (riga:401)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.tipoImpedimento' (riga:427)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.tipoImpedimento' (riga:479)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.tipoImpedimento' (riga:538)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:571)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.motivoImpedimentoScritturaSposa' (riga:586)
+
+### Modifiche per il caso uso matrimoni/Matr_005.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:15)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.tipoImpedimento' (riga:66)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:102)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:132)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.tipoImpedimento' (riga:162)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.tipoImpedimento' (riga:188)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.tipoImpedimento' (riga:214)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.tipoImpedimento' (riga:240)
+* Aggiunto 'evento.datiEventoMatrimonio.segretarioComunale.tipoImpedimento' (riga:359)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.tipoImpedimento' (riga:385)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.tipoImpedimento' (riga:419)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.tipoImpedimento' (riga:453)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.tipoImpedimento' (riga:479)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.tipoImpedimento' (riga:531)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.tipoImpedimento' (riga:590)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:623)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.motivoImpedimentoScritturaSposa' (riga:638)
+
+### Modifiche per il caso uso matrimoni/Matr_007.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:17)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:91)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:121)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.tipoImpedimento' (riga:243)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.tipoImpedimento' (riga:269)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.tipoImpedimento' (riga:295)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.tipoImpedimento' (riga:321)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.tipoImpedimento' (riga:373)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.tipoImpedimento' (riga:432)
+
+### Modifiche per il caso uso matrimoni/Matr_008.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:17)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:91)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:121)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.tipoImpedimento' (riga:243)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.tipoImpedimento' (riga:269)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.tipoImpedimento' (riga:295)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.tipoImpedimento' (riga:321)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.tipoImpedimento' (riga:373)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.tipoImpedimento' (riga:432)
+
+### Modifiche per il caso uso matrimoni/Matr_009.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:18)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:90)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:120)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.tipoImpedimento' (riga:150)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.tipoImpedimento' (riga:176)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.tipoImpedimento' (riga:202)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.tipoImpedimento' (riga:228)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.tipoImpedimento' (riga:372)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.tipoImpedimento' (riga:398)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.tipoImpedimento' (riga:424)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.tipoImpedimento' (riga:450)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.tipoImpedimento' (riga:502)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].tipoImpedimento' (riga:556)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita.parte' (riga:584)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita.serie' (riga:585)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.tipoImpedimento' (riga:628)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].tipoImpedimento' (riga:663)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:689)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.motivoImpedimentoScritturaSposa' (riga:704)
+* Rimosso 'evento.riconoscimento.atto.idAnsc'
+* Rimosso 'evento.riconoscimento.atto.idProvinciaRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.idComuneRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.nomeComuneRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.idtipocontenuto'
+* Rimosso 'evento.riconoscimento.atto.numeroatto'
+* Rimosso 'evento.riconoscimento.atto.annoAtto'
+* Rimosso 'evento.riconoscimento.atto.dataformazione'
+* Rimosso 'evento.riconoscimento.atto.parte'
+* Rimosso 'evento.riconoscimento.atto.serie'
+* Rimosso 'evento.riconoscimento.atto.tipologia'
+
+### Modifiche per il caso uso matrimoni/Matr_010.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:18)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.tipoImpedimento' (riga:74)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:100)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:130)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.tipoImpedimento' (riga:160)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.tipoImpedimento' (riga:186)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.tipoImpedimento' (riga:212)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.tipoImpedimento' (riga:238)
+* Aggiunto 'evento.datiEventoMatrimonio.segretarioComunale.tipoImpedimento' (riga:383)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.tipoImpedimento' (riga:409)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.tipoImpedimento' (riga:435)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.tipoImpedimento' (riga:461)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.tipoImpedimento' (riga:495)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.tipoImpedimento' (riga:555)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].tipoImpedimento' (riga:609)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita.parte' (riga:637)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita.serie' (riga:638)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.tipoImpedimento' (riga:681)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].tipoImpedimento' (riga:716)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:742)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.motivoImpedimentoScritturaSposa' (riga:757)
+* Rimosso 'evento.riconoscimento.atto.idAnsc'
+* Rimosso 'evento.riconoscimento.atto.idProvinciaRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.idComuneRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.nomeComuneRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.idtipocontenuto'
+* Rimosso 'evento.riconoscimento.atto.numeroatto'
+* Rimosso 'evento.riconoscimento.atto.annoAtto'
+* Rimosso 'evento.riconoscimento.atto.dataformazione'
+* Rimosso 'evento.riconoscimento.atto.parte'
+* Rimosso 'evento.riconoscimento.atto.serie'
+* Rimosso 'evento.riconoscimento.atto.tipologia'
+
+### Modifiche per il caso uso matrimoni/Matr_011.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:16)
+* Aggiunto 'Allegati Certificato medico' (riga:17)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.tipoImpedimento' (riga:68)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:94)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:126)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.tipoImpedimento' (riga:158)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.tipoImpedimento' (riga:184)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.tipoImpedimento' (riga:210)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.tipoImpedimento' (riga:236)
+* Aggiunto 'evento.datiEventoMatrimonio.segretarioComunale.tipoImpedimento' (riga:339)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.tipoImpedimento' (riga:365)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.tipoImpedimento' (riga:391)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.tipoImpedimento' (riga:417)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.tipoImpedimento' (riga:443)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.tipoImpedimento' (riga:495)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].tipoImpedimento' (riga:549)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita.parte' (riga:577)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita.serie' (riga:578)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.tipoImpedimento' (riga:621)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].tipoImpedimento' (riga:656)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:682)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.motivoImpedimentoScritturaSposa' (riga:697)
+* Rimosso 'evento.riconoscimento.atto.idAnsc'
+* Rimosso 'evento.riconoscimento.atto.idProvinciaRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.idComuneRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.nomeComuneRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.idtipocontenuto'
+* Rimosso 'evento.riconoscimento.atto.numeroatto'
+* Rimosso 'evento.riconoscimento.atto.annoAtto'
+* Rimosso 'evento.riconoscimento.atto.dataformazione'
+* Rimosso 'evento.riconoscimento.atto.parte'
+* Rimosso 'evento.riconoscimento.atto.serie'
+* Rimosso 'evento.riconoscimento.atto.tipologia'
+
+### Modifiche per il caso uso matrimoni/Matr_012.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:16)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.tipoImpedimento' (riga:60)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:96)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:126)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.tipoImpedimento' (riga:156)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.tipoImpedimento' (riga:182)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.tipoImpedimento' (riga:208)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.tipoImpedimento' (riga:234)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.tipoImpedimento' (riga:378)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.tipoImpedimento' (riga:404)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.tipoImpedimento' (riga:430)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.tipoImpedimento' (riga:456)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.tipoImpedimento' (riga:508)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].tipoImpedimento' (riga:562)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita.parte' (riga:590)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita.serie' (riga:591)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.tipoImpedimento' (riga:634)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].tipoImpedimento' (riga:669)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:695)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.motivoImpedimentoScritturaSposa' (riga:710)
+* Rimosso 'evento.riconoscimento.atto.idAnsc'
+* Rimosso 'evento.riconoscimento.atto.idProvinciaRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.idComuneRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.nomeComuneRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.idtipocontenuto'
+* Rimosso 'evento.riconoscimento.atto.numeroatto'
+* Rimosso 'evento.riconoscimento.atto.annoAtto'
+* Rimosso 'evento.riconoscimento.atto.dataformazione'
+* Rimosso 'evento.riconoscimento.atto.parte'
+* Rimosso 'evento.riconoscimento.atto.serie'
+* Rimosso 'evento.riconoscimento.atto.tipologia'
+
+### Modifiche per il caso uso matrimoni/Matr_013.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:16)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.tipoImpedimento' (riga:68)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:104)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:134)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.tipoImpedimento' (riga:164)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.tipoImpedimento' (riga:190)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.tipoImpedimento' (riga:216)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.tipoImpedimento' (riga:242)
+* Aggiunto 'evento.datiEventoMatrimonio.segretarioComunale.tipoImpedimento' (riga:387)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.tipoImpedimento' (riga:413)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.tipoImpedimento' (riga:439)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.tipoImpedimento' (riga:465)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.tipoImpedimento' (riga:499)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.tipoImpedimento' (riga:559)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].tipoImpedimento' (riga:613)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita.parte' (riga:641)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita.serie' (riga:642)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.tipoImpedimento' (riga:685)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].tipoImpedimento' (riga:720)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:746)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.motivoImpedimentoScritturaSposa' (riga:761)
+* Rimosso 'evento.riconoscimento.atto.idAnsc'
+* Rimosso 'evento.riconoscimento.atto.idProvinciaRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.idComuneRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.nomeComuneRegistrazione'
+* Rimosso 'evento.riconoscimento.atto.idtipocontenuto'
+* Rimosso 'evento.riconoscimento.atto.numeroatto'
+* Rimosso 'evento.riconoscimento.atto.annoAtto'
+* Rimosso 'evento.riconoscimento.atto.dataformazione'
+* Rimosso 'evento.riconoscimento.atto.parte'
+* Rimosso 'evento.riconoscimento.atto.serie'
+* Rimosso 'evento.riconoscimento.atto.tipologia'
+
+### Modifiche per il caso uso matrimoni/Matr_019.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:11)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.tipoImpedimento' (riga:52)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:78)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:108)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.tipoImpedimento' (riga:138)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.tipoImpedimento' (riga:164)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.tipoImpedimento' (riga:190)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.tipoImpedimento' (riga:216)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.tipoImpedimento' (riga:292)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.tipoImpedimento' (riga:318)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.tipoImpedimento' (riga:344)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.tipoImpedimento' (riga:370)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.tipoImpedimento' (riga:422)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.tipoImpedimento' (riga:481)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:521)
+* Presenti modifiche per 'evento.datiEventoMatrimonio.motivoImpedimentoScritturaSposa' (riga:536)
+
+### Modifiche per il caso uso matrimoni/Matr_998_3.csv : 
+* Aggiunto 'evento.datiAnnotazioneModificativa.soggettoCollegato.tipoImpedimento' (riga:57)
+
+### Modifiche per il caso uso matrimoni/Matr_999_1.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:32)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:62)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.tipoImpedimento' (riga:92)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.tipoImpedimento' (riga:118)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.tipoImpedimento' (riga:144)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.tipoImpedimento' (riga:170)
+
+### Modifiche per il caso uso matrimoni/Matr_999_2.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:32)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:62)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.tipoImpedimento' (riga:92)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.tipoImpedimento' (riga:118)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.tipoImpedimento' (riga:144)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.tipoImpedimento' (riga:170)
+
+### Modifiche per il caso uso matrimoni/Matr_Riconc_001.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:11)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:41)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:71)
+
+### Modifiche per il caso uso matrimoni/Matr_Riconc_999.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:27)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:57)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_001.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:55)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:85)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_002.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:53)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:83)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.tipoImpedimento' (riga:114)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.tipoImpedimento' (riga:141)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_003.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:34)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:64)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.tipoImpedimento' (riga:122)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_004.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:65)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:95)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_005.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:43)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:73)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.idANPR' (riga:92)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.sesso' (riga:93)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.dataNascita' (riga:94)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.idStatoNascita' (riga:95)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.nomeStatoNascita' (riga:96)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.idProvinciaNascita' (riga:97)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.siglaProvinciaNascita' (riga:98)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.idComuneNascita' (riga:99)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.nomeComuneNascita' (riga:100)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.localitaEsteraNascita' (riga:101)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.idNazionalita' (riga:102)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.nazionalita' (riga:103)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.tipoImpedimento' (riga:104)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.flagIrreperibile' (riga:105)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.idStatoResidenza' (riga:106)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.nomeStatoResidenza' (riga:107)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.idProvinciaResidenza' (riga:108)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.siglaProvinciaResidenza' (riga:109)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.idComuneResidenza' (riga:110)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.nomeComuneResidenza' (riga:111)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.indirizzoResidenza' (riga:112)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.flagDichiarante' (riga:113)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.flagComparente' (riga:114)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.flagFirmatario' (riga:115)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.idANPR' (riga:121)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.sesso' (riga:122)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.dataNascita' (riga:123)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.idStatoNascita' (riga:124)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.nomeStatoNascita' (riga:125)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.idProvinciaNascita' (riga:126)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.siglaProvinciaNascita' (riga:127)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.idComuneNascita' (riga:128)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.nomeComuneNascita' (riga:129)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.localitaEsteraNascita' (riga:130)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.idNazionalita' (riga:131)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.nazionalita' (riga:132)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.tipoImpedimento' (riga:133)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.flagIrreperibile' (riga:134)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.idStatoResidenza' (riga:135)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.nomeStatoResidenza' (riga:136)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.idProvinciaResidenza' (riga:137)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.siglaProvinciaResidenza' (riga:138)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.idComuneResidenza' (riga:139)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.nomeComuneResidenza' (riga:140)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.indirizzoResidenza' (riga:141)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.flagDichiarante' (riga:142)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.flagComparente' (riga:143)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.flagFirmatario' (riga:144)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_006.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:27)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:77)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:107)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_007.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:42)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:89)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:119)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_008.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:52)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.tipoImpedimento' (riga:83)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:166)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.tipoImpedimento' (riga:140)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_999.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:27)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:57)
+
+### Modifiche per il caso uso morte/Morte_001.csv : 
+* Aggiunto 'evento.datiEventoMorte.comparente1.tipoImpedimento' (riga:69)
+* Aggiunto 'evento.datiEventoMorte.comparente2.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.coniuge.tipoImpedimento' (riga:147)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:173)
+
+### Modifiche per il caso uso morte/Morte_002.csv : 
+* Aggiunto 'evento.coniuge.tipoImpedimento' (riga:93)
+
+### Modifiche per il caso uso morte/Morte_003.csv : 
+* Aggiunto 'evento.coniuge.tipoImpedimento' (riga:93)
+
+### Modifiche per il caso uso morte/Morte_005.csv : 
+* Aggiunto 'evento.coniuge.tipoImpedimento' (riga:99)
+
+### Modifiche per il caso uso morte/Morte_006.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:40)
+* Aggiunto 'evento.coniuge.tipoImpedimento' (riga:126)
+
+### Modifiche per il caso uso morte/Morte_007.csv : 
+* Aggiunto 'evento.coniuge.tipoImpedimento' (riga:103)
+
+### Modifiche per il caso uso morte/Morte_008.csv : 
+* Aggiunto 'evento.coniuge.tipoImpedimento' (riga:102)
+
+### Modifiche per il caso uso morte/Morte_009.csv : 
+* Aggiunto 'evento.coniuge.tipoImpedimento' (riga:97)
+
+### Modifiche per il caso uso morte/Morte_010.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:25)
+* Aggiunto 'evento.coniuge.tipoImpedimento' (riga:122)
+
+### Modifiche per il caso uso morte/Morte_011.csv : 
+* Aggiunto 'evento.coniuge.tipoImpedimento' (riga:127)
+
+### Modifiche per il caso uso morte/Morte_998_3.csv : 
+* Aggiunto 'evento.datiAnnotazioneModificativa.soggettoCollegato.tipoImpedimento' (riga:57)
+
+### Modifiche per il caso uso morte/Morte_999.csv : 
+* Aggiunto 'evento.coniuge.tipoImpedimento' (riga:90)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_001.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:34)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:60)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:91)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:144)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_002.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:35)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:61)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:92)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_003.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_004.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:34)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:60)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:91)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:144)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_005.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:35)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:61)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:92)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_006.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:34)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:60)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:91)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:144)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_007.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_008.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:34)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_009.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_010.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:32)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:59)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:90)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:143)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_011.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:34)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:61)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:92)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_012.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_013.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:39)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:96)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:149)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_014.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_015.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_016.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_017.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:96)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:149)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_018.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:34)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:61)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:92)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_019.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:34)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:60)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:113)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_020.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:35)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:61)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:92)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:152)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_021.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:115)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_022.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:63)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:94)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:154)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_023.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:115)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_024.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:34)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:60)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:113)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_025.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:35)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:61)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:92)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:152)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_026.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:115)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_027.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:63)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:94)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:154)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_028.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:115)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_029.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:63)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:94)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:154)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_030.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:34)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:60)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:91)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:144)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_031.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_032.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_033.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:35)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:63)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:94)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:154)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_034.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:96)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:156)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_035.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:96)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:156)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_036.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:115)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_037.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:63)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:94)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:154)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_038.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:117)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_039.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:39)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:96)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:156)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_040.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:117)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_041.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:39)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:96)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:156)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_042.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:115)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_043.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:63)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:94)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:154)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_044.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:117)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_045.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:39)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:96)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:156)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_046.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:117)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_047.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:39)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:96)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:156)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_048.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_049.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_050.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:63)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:94)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_051.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:96)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:156)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_052.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:66)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:97)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:157)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_053.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:39)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:67)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:98)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:158)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_054.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:33)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:82)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_055.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:85)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_056.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:35)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:84)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_057.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:35)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:84)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_058.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:86)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_059.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:86)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_060.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:63)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:94)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:173)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_061.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:159)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_062.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:63)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:94)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:173)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_063.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:63)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:129)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_064.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:161)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_065.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:35)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:172)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_066.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:35)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:128)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_067.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:96)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:175)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_068.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:96)
+* Aggiunto 'evento.consensoMadre.sentenzaTribunale.dataTrascrizione' (riga:135)
+* Aggiunto 'evento.consensoMadre.sentenzaTribunale.estremiDocumento' (riga:136)
+* Aggiunto 'evento.consensoMadre.sentenzaTribunale.nomeEnte' (riga:137)
+* Aggiunto 'evento.consensoMadre.sentenzaTribunale.idProvinciaEnte' (riga:138)
+* Aggiunto 'evento.consensoMadre.sentenzaTribunale.siglaProvinciaEnte' (riga:139)
+* Aggiunto 'evento.consensoMadre.sentenzaTribunale.idComuneEnte' (riga:140)
+* Aggiunto 'evento.consensoMadre.sentenzaTribunale.nomeComuneEnte' (riga:141)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:169)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_069.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:39)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:96)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:175)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_070.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:40)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:66)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:97)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:170)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_071.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:39)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:96)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:175)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_072.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:39)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:131)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_073.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:40)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:66)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:97)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:163)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_074.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:35)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:172)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_075.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:130)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_076.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:39)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:67)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:98)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:164)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_077.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_078.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:63)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:94)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_079.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_080.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:34)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:61)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:92)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_081.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:40)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:66)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:97)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:150)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_082.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:41)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:67)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:98)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:151)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_083.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:66)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:97)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:150)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_084.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:63)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:94)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_085.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_086.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_087.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:66)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:97)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:150)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_088.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_089.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:34)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:60)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:91)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:144)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_090.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_091.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:63)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:94)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:160)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_092.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:39)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:96)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:162)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_093.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_094.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_095.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_096.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:34)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_097.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_098.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:66)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:97)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:150)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_099.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:63)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:94)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_100.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_101.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_102.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_103.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_104.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_105.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:155)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_106.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:66)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:97)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:157)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_107.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:66)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:97)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:157)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_108.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:96)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:175)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_109.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:131)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_110.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_111.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:66)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:97)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:150)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_112.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:155)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_113.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:155)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_114.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:34)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:60)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:91)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:144)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_115.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:64)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:95)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_116.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:34)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:153)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_117.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:39)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:67)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:133)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_3.csv : 
+* Aggiunto 'evento.datiAnnotazioneModificativa.soggettoCollegato.tipoImpedimento' (riga:57)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_999.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:28)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:58)
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:88)
+
+### Modifiche per il caso uso riconoscimenti/Rico_001.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:35)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:171)
+
+### Modifiche per il caso uso riconoscimenti/Rico_002.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:35)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:61)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:92)
+
+### Modifiche per il caso uso riconoscimenti/Rico_003.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:131)
+
+### Modifiche per il caso uso riconoscimenti/Rico_004.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:35)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:61)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:92)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:123)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].tipoImpedimento' (riga:153)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:229)
+
+### Modifiche per il caso uso riconoscimenti/Rico_005.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:28)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:54)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:86)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].tipoImpedimento' (riga:116)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:166)
+
+### Modifiche per il caso uso riconoscimenti/Rico_006.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:63)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:94)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:125)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].tipoImpedimento' (riga:155)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:220)
+
+### Modifiche per il caso uso riconoscimenti/Rico_007.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:35)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:61)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:92)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:123)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].tipoImpedimento' (riga:153)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:229)
+
+### Modifiche per il caso uso riconoscimenti/Rico_008.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:34)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:60)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:91)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].tipoImpedimento' (riga:121)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:171)
+
+### Modifiche per il caso uso riconoscimenti/Rico_009.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:33)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:59)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:90)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].tipoImpedimento' (riga:120)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:158)
+
+### Modifiche per il caso uso riconoscimenti/Rico_010.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:35)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:61)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:92)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:123)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].tipoImpedimento' (riga:153)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:217)
+
+### Modifiche per il caso uso riconoscimenti/Rico_011.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:35)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:61)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:92)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:123)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].tipoImpedimento' (riga:153)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:203)
+
+### Modifiche per il caso uso riconoscimenti/Rico_012.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:34)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:60)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:91)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:122)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].tipoImpedimento' (riga:152)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:190)
+
+### Modifiche per il caso uso riconoscimenti/Rico_013.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:32)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:58)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:89)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:120)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:200)
+
+### Modifiche per il caso uso riconoscimenti/Rico_014.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:33)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:59)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:90)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:121)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:176)
+
+### Modifiche per il caso uso riconoscimenti/Rico_015.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:33)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:59)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:90)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:121)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:176)
+
+### Modifiche per il caso uso riconoscimenti/Rico_016.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:36)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:93)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:131)
+
+### Modifiche per il caso uso riconoscimenti/Rico_017.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:35)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:61)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:92)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:123)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].tipoImpedimento' (riga:153)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:203)
+
+### Modifiche per il caso uso riconoscimenti/Rico_018.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:40)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:66)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:97)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:128)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].tipoImpedimento' (riga:158)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:196)
+
+### Modifiche per il caso uso riconoscimenti/Rico_019.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:34)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:60)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:91)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:122)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].tipoImpedimento' (riga:152)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:229)
+
+### Modifiche per il caso uso riconoscimenti/Rico_020.csv : 
+* Aggiunto 'Formula 194' (riga:5)
+* Aggiunto 'Formula 195' (riga:6)
+* Aggiunto 'Formula 196' (riga:7)
+* Presenti modifiche per 'Formula 197' (riga:8)
+* Aggiunto 'Formula 198' (riga:9)
+* Aggiunto 'Formula 199' (riga:10)
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:32)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:58)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:89)
+* Aggiunto 'evento.datiEventoRiconoscimento.discendenti[0].tipoImpedimento' (riga:119)
+* Presenti modifiche per 'evento.interprete.cognome' (riga:143)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaNascita' (riga:151)
+* Presenti modifiche per 'evento.interprete.nomeComuneNascita' (riga:153)
+* Presenti modifiche per 'evento.interprete.localitaEsteraNascita' (riga:154)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:157)
+* Presenti modifiche per 'evento.interprete.flagIrreperibile' (riga:158)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:160)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaResidenza' (riga:162)
+* Presenti modifiche per 'evento.interprete.nomeComuneResidenza' (riga:164)
+* Presenti modifiche per 'evento.interprete.indirizzoResidenza' (riga:165)
+* Presenti modifiche per 'evento.datiDichiarante.motivoImpedimentoScrittura' (riga:170)
+
+### Modifiche per il caso uso riconoscimenti/Rico_999.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:54)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:84)
+
+### Modifiche per il caso uso trascrizioni/Trascr_001.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:25)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:56)
+
+### Modifiche per il caso uso trascrizioni/Trascr_002.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:38)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:69)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:100)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:158)
+
+### Modifiche per il caso uso trascrizioni/Trascr_003.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:34)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:96)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:169)
+
+### Modifiche per il caso uso trascrizioni/Trascr_005.csv : 
+* Rimosso 'Formula 194'
+* Rimosso 'Formula 195'
+* Rimosso 'Formula 196'
+* Rimosso 'Formula 198'
+* Rimosso 'Formula 199'
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:24)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:55)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:86)
+
+### Modifiche per il caso uso trascrizioni/Trascr_006.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:24)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:81)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:142)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:202)
+
+### Modifiche per il caso uso trascrizioni/Trascr_007.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:25)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:56)
+
+### Modifiche per il caso uso trascrizioni/Trascr_008.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:24)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:50)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:80)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:110)
+
+### Modifiche per il caso uso trascrizioni/Trascr_009.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:24)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:54)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:84)
+
+### Modifiche per il caso uso trascrizioni/Trascr_010.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:25)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:51)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:81)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:111)
+
+### Modifiche per il caso uso trascrizioni/Trascr_011.csv : 
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:32)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:92)
+
+### Modifiche per il caso uso trascrizioni/Trascr_012.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:45)
+* Presenti modifiche per 'evento.madre.cognome' (riga:87)
+* Presenti modifiche per 'evento.madre.nome' (riga:88)
+* Presenti modifiche per 'evento.madre.idANPR' (riga:89)
+* Presenti modifiche per 'evento.madre.sesso' (riga:90)
+* Presenti modifiche per 'evento.madre.dataNascita' (riga:91)
+* Presenti modifiche per 'evento.madre.idStatoNascita' (riga:92)
+* Presenti modifiche per 'evento.madre.nomeStatoNascita' (riga:93)
+* Presenti modifiche per 'evento.madre.idProvinciaNascita' (riga:94)
+* Presenti modifiche per 'evento.madre.siglaProvinciaNascita' (riga:95)
+* Presenti modifiche per 'evento.madre.idComuneNascita' (riga:96)
+* Presenti modifiche per 'evento.madre.nomeComuneNascita' (riga:97)
+* Presenti modifiche per 'evento.madre.localitaEsteraNascita' (riga:98)
+* Presenti modifiche per 'evento.madre.idNazionalita' (riga:99)
+* Presenti modifiche per 'evento.madre.nazionalita' (riga:100)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:101)
+* Presenti modifiche per 'evento.madre.flagIrreperibile' (riga:102)
+* Presenti modifiche per 'evento.madre.idStatoResidenza' (riga:103)
+* Presenti modifiche per 'evento.madre.nomeStatoResidenza' (riga:104)
+* Presenti modifiche per 'evento.madre.idProvinciaResidenza' (riga:105)
+* Presenti modifiche per 'evento.madre.siglaProvinciaResidenza' (riga:106)
+* Presenti modifiche per 'evento.madre.idComuneResidenza' (riga:107)
+* Presenti modifiche per 'evento.madre.nomeComuneResidenza' (riga:108)
+* Presenti modifiche per 'evento.madre.indirizzoResidenza' (riga:109)
+* Presenti modifiche per 'evento.madre.flagDichiarante' (riga:110)
+* Presenti modifiche per 'evento.madre.flagComparente' (riga:111)
+* Presenti modifiche per 'evento.madre.flagFirmatario' (riga:112)
+* Presenti modifiche per 'evento.madre.idProvinciaAIRE' (riga:113)
+* Presenti modifiche per 'evento.madre.siglaProvinciaAIRE' (riga:114)
+* Presenti modifiche per 'evento.madre.idComuneAIRE' (riga:115)
+* Presenti modifiche per 'evento.madre.nomeComuneAIRE' (riga:116)
+* Presenti modifiche per 'evento.padre.cognome' (riga:117)
+* Presenti modifiche per 'evento.padre.nome' (riga:118)
+* Presenti modifiche per 'evento.padre.idANPR' (riga:119)
+* Presenti modifiche per 'evento.padre.sesso' (riga:120)
+* Presenti modifiche per 'evento.padre.dataNascita' (riga:121)
+* Presenti modifiche per 'evento.padre.idStatoNascita' (riga:122)
+* Presenti modifiche per 'evento.padre.nomeStatoNascita' (riga:123)
+* Presenti modifiche per 'evento.padre.idProvinciaNascita' (riga:124)
+* Presenti modifiche per 'evento.padre.siglaProvinciaNascita' (riga:125)
+* Presenti modifiche per 'evento.padre.idComuneNascita' (riga:126)
+* Presenti modifiche per 'evento.padre.nomeComuneNascita' (riga:127)
+* Presenti modifiche per 'evento.padre.localitaEsteraNascita' (riga:128)
+* Presenti modifiche per 'evento.padre.idNazionalita' (riga:129)
+* Presenti modifiche per 'evento.padre.nazionalita' (riga:130)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:131)
+* Presenti modifiche per 'evento.padre.flagIrreperibile' (riga:132)
+* Presenti modifiche per 'evento.padre.idStatoResidenza' (riga:133)
+* Presenti modifiche per 'evento.padre.nomeStatoResidenza' (riga:134)
+* Presenti modifiche per 'evento.padre.idProvinciaResidenza' (riga:135)
+* Presenti modifiche per 'evento.padre.siglaProvinciaResidenza' (riga:136)
+* Presenti modifiche per 'evento.padre.idComuneResidenza' (riga:137)
+* Presenti modifiche per 'evento.padre.nomeComuneResidenza' (riga:138)
+* Presenti modifiche per 'evento.padre.indirizzoResidenza' (riga:139)
+* Presenti modifiche per 'evento.padre.flagDichiarante' (riga:140)
+* Presenti modifiche per 'evento.padre.flagComparente' (riga:141)
+* Presenti modifiche per 'evento.padre.flagFirmatario' (riga:142)
+* Presenti modifiche per 'evento.padre.idProvinciaAIRE' (riga:143)
+* Presenti modifiche per 'evento.padre.siglaProvinciaAIRE' (riga:144)
+* Presenti modifiche per 'evento.padre.idComuneAIRE' (riga:145)
+* Presenti modifiche per 'evento.padre.nomeComuneAIRE' (riga:146)
+* Aggiunto 'evento.coniuge.tipoImpedimento' (riga:233)
+
+### Modifiche per il caso uso trascrizioni/Trascr_013.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:50)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:81)
+* Aggiunto 'evento.madreBiologica.tipoImpedimento' (riga:112)
+* Aggiunto 'evento.padreBiologico.tipoImpedimento' (riga:143)
+
+### Modifiche per il caso uso trascrizioni/Trascr_014.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:50)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:81)
+
+### Modifiche per il caso uso trascrizioni/Trascr_015.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:51)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:82)
+
+### Modifiche per il caso uso trascrizioni/Trascr_016.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:50)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:81)
+* Aggiunto 'evento.madreBiologica.tipoImpedimento' (riga:112)
+* Aggiunto 'evento.padreBiologico.tipoImpedimento' (riga:143)
+
+### Modifiche per il caso uso trascrizioni/Trascr_017.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:54)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:85)
+
+### Modifiche per il caso uso trascrizioni/Trascr_018.csv : 
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:24)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:54)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:84)
+
+### Modifiche per il caso uso trascrizioni/Trascr_019.csv : 
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:24)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:54)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:84)
+
+### Modifiche per il caso uso trascrizioni/Trascr_020.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:25)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:51)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:81)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:111)
+
+### Modifiche per il caso uso trascrizioni/Trascr_021.csv : 
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:25)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:55)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:85)
+
+### Modifiche per il caso uso trascrizioni/Trascr_022.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:23)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:53)
+
+### Modifiche per il caso uso trascrizioni/Trascr_023.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:34)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:65)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:96)
+
+### Modifiche per il caso uso trascrizioni/Trascr_024.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:24)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:50)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:80)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:110)
+
+### Modifiche per il caso uso trascrizioni/Trascr_025.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:31)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:62)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:93)
+
+### Modifiche per il caso uso trascrizioni/Trascr_026.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:29)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:60)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:91)
+
+### Modifiche per il caso uso trascrizioni/Trascr_027.csv : 
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:24)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:81)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:142)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:202)
+
+### Modifiche per il caso uso trascrizioni/Trascr_999.csv : 
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:27)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:57)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:87)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Citt_999.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:27)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_001.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:11)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:43)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:73)
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:128)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_002.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:10)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:41)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:71)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_003.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:11)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:43)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:73)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_004.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:10)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:42)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:72)
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:103)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_005.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:3)
+* Aggiunto 'Allegati Certificato medico' (riga:4)
+* Aggiunto 'evento.trascrizioneMatrimonio.officiante.tipoImpedimento' (riga:37)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:64)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:94)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_006.csv : 
+* Aggiunto 'Allegati Documenti utilizzati per la pubblicazione' (riga:11)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:43)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:73)
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:104)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_999.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:35)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:65)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Morte_999.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:42)
+* Aggiunto 'evento.datiEventoMorte.comparente1.tipoImpedimento' (riga:72)
+* Aggiunto 'evento.coniuge.tipoImpedimento' (riga:136)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_001.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:44)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:74)
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:115)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_002.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:44)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:74)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_003.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:43)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:73)
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:114)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_004.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:43)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:73)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_005.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:43)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:73)
+* Aggiunto 'evento.dichiarante.tipoImpedimento' (riga:114)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_999.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:35)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:65)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_001.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:30)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:60)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:102)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_002.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:35)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:65)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:107)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_003.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:39)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:69)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_004.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:29)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:59)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_005.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:28)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:58)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_999.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:27)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:57)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_001.csv : 
+* Rimosso 'Formula 194'
+* Rimosso 'Formula 195'
+* Rimosso 'Formula 196'
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.tipoImpedimento' (riga:50)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:86)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:116)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.tipoImpedimento' (riga:170)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.tipoImpedimento' (riga:196)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.tipoImpedimento' (riga:222)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.tipoImpedimento' (riga:248)
+* Presenti modifiche per 'evento.interprete.cognome' (riga:287)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaNascita' (riga:295)
+* Presenti modifiche per 'evento.interprete.nomeComuneNascita' (riga:297)
+* Presenti modifiche per 'evento.interprete.localitaEsteraNascita' (riga:298)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:301)
+* Presenti modifiche per 'evento.interprete.flagIrreperibile' (riga:302)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:304)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaResidenza' (riga:306)
+* Presenti modifiche per 'evento.interprete.nomeComuneResidenza' (riga:308)
+* Presenti modifiche per 'evento.interprete.indirizzoResidenza' (riga:309)
+* Presenti modifiche per 'evento.datiEventoUnioneCivile.motivoImpedimentoScritturaConiuge1' (riga:314)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_002.csv : 
+* Rimosso 'Formula 194'
+* Rimosso 'Formula 195'
+* Rimosso 'Formula 196'
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.tipoImpedimento' (riga:60)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:96)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:126)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.tipoImpedimento' (riga:156)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.tipoImpedimento' (riga:182)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.tipoImpedimento' (riga:208)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.tipoImpedimento' (riga:234)
+* Aggiunto 'evento.datiEventoUnioneCivile.segretarioComunale.tipoImpedimento' (riga:281)
+* Presenti modifiche per 'evento.interprete.cognome' (riga:309)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaNascita' (riga:317)
+* Presenti modifiche per 'evento.interprete.nomeComuneNascita' (riga:319)
+* Presenti modifiche per 'evento.interprete.localitaEsteraNascita' (riga:320)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:323)
+* Presenti modifiche per 'evento.interprete.flagIrreperibile' (riga:324)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:326)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaResidenza' (riga:328)
+* Presenti modifiche per 'evento.interprete.nomeComuneResidenza' (riga:330)
+* Presenti modifiche per 'evento.interprete.indirizzoResidenza' (riga:331)
+* Presenti modifiche per 'evento.datiEventoUnioneCivile.motivoImpedimentoScritturaConiuge1' (riga:336)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_003.csv : 
+* Rimosso 'Formula 194'
+* Rimosso 'Formula 195'
+* Rimosso 'Formula 196'
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.tipoImpedimento' (riga:59)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:95)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:127)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.tipoImpedimento' (riga:159)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.tipoImpedimento' (riga:185)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.tipoImpedimento' (riga:211)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.tipoImpedimento' (riga:237)
+* Aggiunto 'evento.datiEventoUnioneCivile.segretarioComunale.tipoImpedimento' (riga:277)
+* Presenti modifiche per 'evento.interprete.cognome' (riga:289)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaNascita' (riga:297)
+* Presenti modifiche per 'evento.interprete.nomeComuneNascita' (riga:299)
+* Presenti modifiche per 'evento.interprete.localitaEsteraNascita' (riga:300)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:303)
+* Presenti modifiche per 'evento.interprete.flagIrreperibile' (riga:304)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:306)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaResidenza' (riga:308)
+* Presenti modifiche per 'evento.interprete.nomeComuneResidenza' (riga:310)
+* Presenti modifiche per 'evento.interprete.indirizzoResidenza' (riga:311)
+* Presenti modifiche per 'evento.datiEventoUnioneCivile.motivoImpedimentoScritturaConiuge1' (riga:316)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_004.csv : 
+* Rimosso 'Formula 194'
+* Rimosso 'Formula 195'
+* Rimosso 'Formula 196'
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.tipoImpedimento' (riga:61)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:97)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:127)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.tipoImpedimento' (riga:181)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.tipoImpedimento' (riga:207)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.tipoImpedimento' (riga:233)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.tipoImpedimento' (riga:259)
+* Presenti modifiche per 'evento.interprete.cognome' (riga:298)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaNascita' (riga:306)
+* Presenti modifiche per 'evento.interprete.nomeComuneNascita' (riga:308)
+* Presenti modifiche per 'evento.interprete.localitaEsteraNascita' (riga:309)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:312)
+* Presenti modifiche per 'evento.interprete.flagIrreperibile' (riga:313)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:315)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaResidenza' (riga:317)
+* Presenti modifiche per 'evento.interprete.nomeComuneResidenza' (riga:319)
+* Presenti modifiche per 'evento.interprete.indirizzoResidenza' (riga:320)
+* Presenti modifiche per 'evento.datiEventoUnioneCivile.motivoImpedimentoScritturaConiuge1' (riga:325)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_005.csv : 
+* Rimosso 'Formula 194'
+* Rimosso 'Formula 195'
+* Rimosso 'Formula 196'
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.tipoImpedimento' (riga:60)
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:106)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:136)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.tipoImpedimento' (riga:166)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.tipoImpedimento' (riga:192)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.tipoImpedimento' (riga:218)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.tipoImpedimento' (riga:244)
+* Aggiunto 'evento.datiEventoUnioneCivile.segretarioComunale.tipoImpedimento' (riga:291)
+* Presenti modifiche per 'evento.interprete.cognome' (riga:319)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaNascita' (riga:327)
+* Presenti modifiche per 'evento.interprete.nomeComuneNascita' (riga:329)
+* Presenti modifiche per 'evento.interprete.localitaEsteraNascita' (riga:330)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:333)
+* Presenti modifiche per 'evento.interprete.flagIrreperibile' (riga:334)
+* Presenti modifiche per 'evento.interprete.nomeStatoResidenza' (riga:336)
+* Presenti modifiche per 'evento.interprete.siglaProvinciaResidenza' (riga:338)
+* Presenti modifiche per 'evento.interprete.nomeComuneResidenza' (riga:340)
+* Presenti modifiche per 'evento.interprete.indirizzoResidenza' (riga:341)
+* Presenti modifiche per 'evento.datiEventoUnioneCivile.motivoImpedimentoScritturaConiuge1' (riga:346)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_007.csv : 
+* Rimosso 'Formula 194'
+* Rimosso 'Formula 195'
+* Rimosso 'Formula 196'
+* Rimosso 'Formula 197'
+* Rimosso 'Formula 198'
+* Rimosso 'Formula 199'
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_3.csv : 
+* Aggiunto 'evento.datiAnnotazioneModificativa.soggettoCollegato.tipoImpedimento' (riga:57)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_999.csv : 
+* Aggiunto 'evento.intestatari[0].tipoImpedimento' (riga:32)
+* Aggiunto 'evento.intestatari[1].tipoImpedimento' (riga:62)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.tipoImpedimento' (riga:92)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.tipoImpedimento' (riga:118)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.tipoImpedimento' (riga:144)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.tipoImpedimento' (riga:170)
+
+
 #Changelog mappatura casi uso 1.33.0  
 
 ## Casi uso aggiunti : 5

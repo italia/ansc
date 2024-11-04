@@ -337,6 +337,14 @@ components:
           $ref: '#/components/schemas/ModelRifiuto'
         richiedente:
           $ref: '#/components/schemas/ModelRichiedente'
+        flagCertificatoSemplice:
+          type: boolean
+          description: Indica se il caso d'uso di servizio è abilitato ad emettere il certificato semplice (true=ABILITATO, false=NON ABILITATO)
+          example: true
+        flagEstrattoPerRiassunto:
+          type: boolean
+          description: Indica se il caso d'uso di servizio è abilitato ad emettere l'estratto per riassunto (true=ABILITATO, false=NON ABILITATO)
+          example: true
 
     ModelRichiedente:
       properties:
@@ -1850,6 +1858,10 @@ components:
               type: boolean
               description: Il riconoscimento paterno è avvenuto con sentenza?
               example: true
+            tipoAdozione:
+              type: string
+              description: Tipo adozione (decodifica ANSC_116)
+              example: 0
     ModelAscendente:
       description: Un ascendente è un avo in linea diretta
       allOf:

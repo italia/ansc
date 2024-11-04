@@ -56,6 +56,7 @@
 "Intestatario (vecchie generalità)","Località estera","NO","evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita","localitaEsteraNascita","","evento.trascrizioneCittadinanza.flagCambioGeneralita,=,false"
 "Intestatario (vecchie generalità)","Nazionalità","SI","evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita","idNazionalita","","evento.trascrizioneCittadinanza.flagCambioGeneralita,=,false"
 "Intestatario (vecchie generalità)","Nazionalità - Descrizione","SI","evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita","nazionalita","","evento.trascrizioneCittadinanza.flagCambioGeneralita,=,false"
+"Intestatario (vecchie generalità)","Comprensione","NO","evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita","tipoImpedimento","","evento.trascrizioneCittadinanza.flagCambioGeneralita,=,false"
 "Intestatario (vecchie generalità)","Residenza non nota","NO","evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita","flagIrreperibile","","evento.trascrizioneCittadinanza.flagCambioGeneralita,=,false"
 "Intestatario (vecchie generalità)","Stato di residenza","NO","evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita","idStatoResidenza","","evento.trascrizioneCittadinanza.flagCambioGeneralita,=,false"
 "Intestatario (vecchie generalità)","Stato di residenza - Descrizione","NO","evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita","nomeStatoResidenza","","evento.trascrizioneCittadinanza.flagCambioGeneralita,=,false"

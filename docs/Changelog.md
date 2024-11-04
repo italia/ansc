@@ -23,6 +23,66 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.34.0 - 04-11-2024]
+
+### Added
+
+- [feature]  Dichiarazione entro i 10 giorni resa dal procuratore del padre – filiazione fuori dal matrimonio con il consenso della madre ad essere nominata, con consenso contestuale (ID107)
+- [feature]  Restituzione formula utilizzata nelle annotazioni automatiche <https://github.com/italia/ansc/issues/1122> (ID127)
+- [feature]  Gestione firmatari (impedimenti, comprensione) (ID37)
+- [feature]  Trascrizione atti multipli registro cittadinanza (ID114)
+- [feature]  Trascrizione atti multipli adozioni (ID114.a)
+- [feature]  Indicazione esplicita delle tipologie di certificazione emissibili nei casi d’uso di servizio (ID109)
+- [feature]  Sezione di monitoraggio: consultazione online riepilogativa delle proposte di adesione ad ANSC da parte dei comuni (ID131)
+
+- [versione] Aggiunta versione 100017
+- [decodifiche] Aggiunta decodifica ANSC_116 DEC_TIPO_ADOZIONE per campo tipoAdozione (ID 114 e ID 114.a1)
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.1.2.1.8.0.0.0] (Dic_Nasc_121) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.1.2.1.8.1.0.0] (Dic_Nasc_122) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.1.2.1.8.2.0.0] (Dic_Nasc_123) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.1.2.1.9.0.0.0] (Dic_Nasc_124) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.1.2.1.9.1.0.0] (Dic_Nasc_125) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.1.2.1.9.2.0.0] (Dic_Nasc_126) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.1.2.2.8.0.0.0] (Dic_Nasc_127) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.1.2.2.8.1.0.0] (Dic_Nasc_128) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.1.2.2.8.2.0.0] (Dic_Nasc_129) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.1.2.2.9.0.0.0] (Dic_Nasc_130) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.1.2.2.9.1.0.0] (Dic_Nasc_131) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.1.2.2.9.2.0.0] (Dic_Nasc_132) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.1.2.1.1.2.0.4] (Dic_Nasc_133) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.3.8.1] (Trascr_028) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.3.8.2] (Trascr_029) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [5.2.8.2.1] (Citt_049) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [decodifiche] Aggiunto valore in tipo allegato decodifica ANSC_9 DEC_TIPO_ALLEGATO: 106 = Documenti utilizzati per la pubblicazione
+- [decodifiche] Aggiunto valore in tipo allegato decodifica ANSC_9 DEC_TIPO_ALLEGATO: 107 = Certificato medico
+- [decodifiche] Aggiunto valore in tipo richiedente decodifica ANSC_64 DEC_TIPO_RICHIEDENTE: 5 = Madre e Padre
+
+- [model_evento.yaml]
+  - Aggiunto il campo:
+    - richiedente di tipo ModelRichiedente (per ID 114 e ID 114.a1)
+    - flagCertificatoSemplice (Indica se il caso d'uso di servizio è abilitato ad emettere il certificato semplice (true=ABILITATO, false=NON ABILITATO))
+    - flagEstrattoPerRiassunto (Indica se il caso d'uso di servizio è abilitato ad emettere l'estratto per riassunto (true=ABILITATO, false=NON ABILITATO))
+    - tipoAdozione (Tipo adozione (decodifica ANSC_116)) in ModelTrascrizioneNascita
+
+
+### Fixed
+
+- [SC]: allegati relativi alle pubblicazioni negli negli atti di matrimonio <https://github.com/italia/ansc/issues/997>
+- Atti morte: gestito stato civile del defunto ignoto
+- Trascrizione decreto prefettizio cambio cognome/nome: aggiunta possibilità di selezionare entrrambi i genitori come richiedenti
+- [SC]: Errore Validazione caso d'uso 51102 <https://github.com/italia/ansc/issues/1100>
+- Caso d'uso di nascita mancante, per una delle combinazioni, per bimbo nato vivo ma morto prima della denuncia di nascita <https://github.com/italia/ansc/discussions/1020>
+- [SC]: R002 - Errore Servizio certificazione: "Tipo di certificato non valido con uso matrimonio <https://github.com/italia/ansc/issues/1109>
+- Matrimonio in imminente pericolo di vita: aggiunta allegato <https://github.com/italia/ansc/issues/1121>
+- Matrimonio in imminente pericolo di vita - Accertamento volontà non digitabile <https://github.com/italia/ansc/issues/1110>
+- [SC]: impossibile creazione atto di morte (Morte_001): esteso controllo bloccante su idANPR <https://github.com/italia/ansc/issues/1111>	
+- Negoziazione assistita: ricerca avvocati <https://github.com/italia/ansc/issues/710>
+- [SC]: Mancanza dati in risposta consultazione ansc intestatario <https://github.com/italia/ansc/issues/1098>
+- Caso d'uso di nascita mancante, per una delle combinazioni, per bimbo nato vivo ma morto prima della denuncia di nascita <https://github.com/italia/ansc/issues/1106> <https://github.com/italia/ansc/issues/1020>
+- [SC] Annotazioni automatiche - richiesta nuovi campi nella risposta <https://github.com/italia/ansc/issues/1122> <https://github.com/italia/ansc/issues/836>
+- Correzione estratto integrale matrimonio: corretta data trasmissione
+
+
 ## [1.33.5 - 28-10-2024]
 
 ## Changed

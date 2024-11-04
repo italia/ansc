@@ -54,6 +54,7 @@
 "Soggetto Collegato","Località estera","NO","evento.datiAnnotazioneModificativa.soggettoCollegato","localitaEsteraNascita","","obbligatoria"
 "Soggetto Collegato","Nazionalità","NO","evento.datiAnnotazioneModificativa.soggettoCollegato","idNazionalita","","obbligatoria"
 "Soggetto Collegato","Nazionalità - Descrizione","NO","evento.datiAnnotazioneModificativa.soggettoCollegato","nazionalita","","obbligatoria"
+"Soggetto Collegato","Comprensione","NO","evento.datiAnnotazioneModificativa.soggettoCollegato","tipoImpedimento","","obbligatoria"
 "Soggetto Collegato","Residenza non nota","NO","evento.datiAnnotazioneModificativa.soggettoCollegato","flagIrreperibile","","obbligatoria"
 "Soggetto Collegato","Stato di residenza","NO","evento.datiAnnotazioneModificativa.soggettoCollegato","idStatoResidenza","","obbligatoria"
 "Soggetto Collegato","Stato di residenza - Descrizione","NO","evento.datiAnnotazioneModificativa.soggettoCollegato","nomeStatoResidenza","","obbligatoria"
