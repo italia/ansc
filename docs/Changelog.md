@@ -23,6 +23,30 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.34.1 - 06-11-2024]
+
+### Fixed
+
+- [SC]: Corretti certificati unioni civili per condizione patrimoniale comunione dei beni <https://github.com/italia/ansc/issues/1117>
+- [SC]: Trascrizione matrimonio celebrato all'estero - reso opzionale luogo nascita sposi - errore bloccante (UC 331000) <https://github.com/italia/ansc/issues/1127>
+- [WA] Cruscotti di adesione: corretto controllo data di dichiarazione di adesione
+- [SC]: versione 1.34 caso d'uso 2214 <https://github.com/italia/ansc/issues/1132>
+
+### Fixed Multilinguismo
+
+- Multilinguismo - Matrimonio ID 10
+- Multilinguismo Sep-Div  ID 79 (già corretta)
+- Multilinguismo - trasversale ID 5
+- Multilinguismo Unione civile TD 38 (già corretto)
+- Multilinguismo Dic. Nasc ID 68
+- Multilinguismo - Dic Nasc ID 70
+- Multilinguismo Unione civile ID 76
+- Multilinguismo - scioglimento unione civile ID 81
+- Multilinguismo - atti trascritti ID 82
+- Multilinguismo - dichiarazione nascita ID 99 
+- Multilinguismo dichiarazione nascita ID 101
+- Multilinguismo Unione civile in imminente pericolo di vita
+
 ## [1.34.0 - 04-11-2024]
 
 ### Added

@@ -1,3 +1,12 @@
+#Changelog mappatura casi uso 1.34.1  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 1
+
+## Casi uso modificati : 0
+
+
 #Changelog mappatura casi uso 1.34.0  
 
 ## Casi uso aggiunti : 16

@@ -40,7 +40,7 @@
 "Luogo Celebrazione","Data Evento","SI","evento.datiEventoUnioneCivile","dataEvento","","obbligatoria"
 "Luogo Celebrazione","Ora Evento","SI","evento.datiEventoUnioneCivile","oraEvento","","obbligatoria"
 "Luogo Celebrazione","Minuti Evento","SI","evento.datiEventoUnioneCivile","minutoEvento","","obbligatoria"
-"Luogo Celebrazione","Documenti presentati","SI","evento","datiProdotti","","obbligatoria"
+"Luogo Celebrazione","Documenti presentati","NO","evento","datiProdotti","","obbligatoria"
 "Officiante","Ufficiale di stato civile delegato a celebrare l’unione civile","SI","evento.datiEventoUnioneCivile","officiante","","obbligatoria"
 "Officiante","Cognome","SI","evento.datiEventoUnioneCivile.officianteEvento","cognome","","obbligatoria"
 "Officiante","Nome","SI","evento.datiEventoUnioneCivile.officianteEvento","nome","","obbligatoria"
