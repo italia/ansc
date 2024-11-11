@@ -23,6 +23,15 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.34.2 - 11-11-2024]
+
+### Fixed
+
+- [SC]: R002 Certificazione: Trascrizione matrimonio celebrato all'estero, corretto errore bloccante
+- [WA]: Adozione artt. 25-27 Legge n. 183/1984 (annotazione F.122) #1141 <https://github.com/italia/ansc/issues/1141>
+- [SC]: R010 Anteprima per presa visione: corretta tipologia di firma online/cartacea
+- [webapp]: Procedura di Proposta Adesione ANSC <https://github.com/italia/ansc/issues/1140>
+
 ## [1.34.1 - 06-11-2024]
 
 ### Fixed
