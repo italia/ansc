@@ -23,6 +23,13 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.34.3 - 14-11-2024]
+
+### Fixed
+
+- [SC]: R013 Validazione Rettifica Erroire Materiale: dati soggetto intestatario non conformi: <https://github.com/italia/ansc/issues/1147>
+- Utente ministero DTD : Correzione ricerca comuni cruscotto adesione ANSC
+
 ## [1.34.2 - 11-11-2024]
 
 ### Fixed
