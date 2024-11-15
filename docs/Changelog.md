@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.34.4 - 15-11-2024]
+
+### Fixed
+
+- [SC]: Firma USC per Rettifiche - Firma non avvenuta con successo. <https://github.com/italia/ansc/issues/1070>
+
 ## [1.34.3 - 14-11-2024]
 
 ### Fixed
