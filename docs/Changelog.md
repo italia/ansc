@@ -23,6 +23,17 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.34.5 - 18-11-2024]
+
+### Fixed
+
+- Adozione casi particolari: correzione caso d'uso 1342 <https://github.com/italia/ansc/issues/1149>
+- Estatto riassunto: correzione relativa allo stato nascita estero <https://github.com/italia/ansc/issues/1154>
+- Controllo bloccante per annotazioni apposte su atti digitali formati da altro comune <https://github.com/italia/ansc/issues/1153>
+- Monitoraggio cruscotto di adesione: ordinamento lista dei record restituiti 
+- Monitoraggio adesione: data chiusura registri vuota con - per i comuni che hanno solo proposto di aderire
+- Trasversale: eliminare il menu Amministrazione se non compaiono funzioni visibili per il ruolo dell'utente loggato 
+
 ## [1.34.4 - 15-11-2024]
 
 ### Fixed
