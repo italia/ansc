@@ -23,6 +23,24 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.34.7 - 21-11-2024]
+
+### Fixed
+
+- [SC]: "descrizioneLocalita" estera in notifica ANPR <https://github.com/italia/ansc/issues/1162>
+- Caso dep_div_001: per i coniugi oltre al nome e cognome aggiungere data di nascita e luogo di nascita (formula 121.ter)
+- Matrimoni/Unione civile (officiante) rito civile: frase iniziale della composizione - trasversale <https://github.com/italia/ansc/issues/1129>
+- [WA]: Cittadinanza Straniero nato in Italia che vi abbia risieduto legalmente senza interruzioni fino alla maggiore eta': corretta composizione
+- Multilinguismo: aggiornamento casi d'uso Riconoscimento (ID135,ID136)
+- Multilinguismo: aggiornamento casi d'uso separazione-divorzio (ID114.h,ID114.f,id114.h,id114.a)
+- Multilinguismo: aggiornamento casi d'uso matrimonio (ID10.d,ID114.f,id114.h,id114.a,ID10.b,ID10.c)
+- Multilinguismo: aggiornamento casi d'uso matrimonio-riconciliazioni (ID77)
+- Multilinguismo: aggiornamento casi d'uso dichiarazioni di nascita (ID119)
+- Multilinguismo: aggiornamento casi d'uso morte (ID129,ID133,ID80,ID128)
+- Multilinguismo: aggiornamento casi d'uso cittadinanza (ID50)
+- Multilinguismo: aggiornamento casi d'uso trascrizione matrimonio (ID78)
+- Multilinguismo: aggiornamento casi d'uso Unione Civile (ID5,Id11,ID75)
+
 ## [1.34.6 - 19-11-2024]
 
 ### Fixed

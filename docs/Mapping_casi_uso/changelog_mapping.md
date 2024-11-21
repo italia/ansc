@@ -1,13 +1,23 @@
+#Changelog mappatura casi uso 1.34.7  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 1
+* cittadinanza/Citt_011.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_011.csv : 
+* Rimosso 'Allegati Atto estero di nascita originale o copia autentica'
+
+
 #Changelog mappatura casi uso 1.34.1  
 
 ## Casi uso aggiunti : 0
 
 ## Casi uso rimossi : 1
 
-## Casi uso modificati : 0
-
-
-#Changelog mappatura casi uso 1.34.0  
+## Casi uso modificati : 0#Changelog mappatura casi uso 1.34.0  
 
 ## Casi uso aggiunti : 16
 * cittadinanza/Citt_049.csv
