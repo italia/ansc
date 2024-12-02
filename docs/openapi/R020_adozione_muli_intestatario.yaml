@@ -1,0 +1,78 @@
+openapi: 3.0.0
+info:
+  title: Servizi cooperativi per la validazione dell'annotazione per adozione multi intestatario
+  version: '1.4.0'  
+servers:
+  - url: https://anscservice.anpr.interno.it/services/service/val
+    description: Servizio di produzione      
+  - url: https://anscservicepre.anpr.interno.it/services/service/val
+    description: Servizio di preproduzione
+  - url: http://localhost:8083
+    description: Servizio mock locale
+paths:
+  /annotazione-adozione-multi-intestatario/validazione/evento/{version}:
+    post:
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string
+      tags:
+        - adozioneMultiIntestatarioValidazione
+      description: Servizio che valida l'evento di annotazione per adozione multi intestatario
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EventoAdozioneMultiIntestatarioRequest'
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EventoAdozioneMultiIntestatarioResponse'
+        400:
+          description: Dati non validi
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EventoAdozioneMultiIntestatarioResponse'
+        403:
+          description: Accesso non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EventoAdozioneMultiIntestatarioResponse'
+                               
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    EventoAdozioneMultiIntestatarioResponse:
+      description: DTO di risposta dei servizi di annotazione per adozione multi intestatario
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:
+            evento:
+              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'
+            eventoModificato:
+                $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'
+                
+    EventoAdozioneMultiIntestatarioRequest:
+      description: DTO di richiesta dei servizi di annotazione per adozione multi intestatario
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:
+            evento:
+              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'

@@ -207,9 +207,7 @@ components:
         ufficialeStatoCivile: #Ufficiale di Stato Civile responsabile dell'atto
           allOf:
             - $ref: '#/components/schemas/ModelSoggetto'
-            - deprecated: true
-          deprecated: true
-          description: -- DEPRECATO -- usare i campi relativi all operatore
+          description: Ufficiale dell Stato Civile (registri nascita fuori dalla casa comunale)
         madre: # Soggetto che contiene i dati della madre
           $ref: '#/components/schemas/ModelSoggetto'
         padre: # Soggetto che contiene i dati del padre
@@ -333,6 +331,8 @@ components:
           $ref: '#/components/schemas/ModelNotaTecnica'
         datiAdozioneMinoriInternazionale:
           $ref: '#/components/schemas/ModelAdozioneMinoriInternazionale'
+        datiAdozioneMultiIntestatario:
+          $ref: '#/components/schemas/ModelAdozioneMultiIntestatario'
         datiRifiuto:
           $ref: '#/components/schemas/ModelRifiuto'
         richiedente:
@@ -1397,7 +1397,20 @@ components:
         tipoNascitaSoggetto:
           type: string
           description: Identificativo del tipo di nascita del nascituro di cui si sta dichiarando la nascita (decodifica ANSC_107).
-          example: '1'   
+          example: '1'
+        dataRedazione:
+          type: string
+          format: date
+          description: Data Redazione nascita
+          example: '2022-06-24'
+        oraRedazione: 
+          type: string
+          description: Ora in cui e' avvenuto la redazione nascita.
+          example: '03'
+        minutiRedazione: 
+          type: string
+          description: Minuto in cui e' avvenuto la redazione nascita.
+          example: '23'   
     ModelDocumentoRiconoscimento:
       description: Descrizione del documento di Riconoscimento
       properties:
@@ -2017,6 +2030,15 @@ components:
             type: string
             description: Tipo Evento Cittadinanza  (decodifica ANSC_84)
             example: '1'
+        protocollo:
+          type: string
+          description: protocollo del documento pervenuto per posta
+          example: "1"
+        dataVerbale:
+          type: string
+          format: date
+          description: Data del verbale cittadinanza
+          example: '2022-06-24'
 
     ModelTrascrizioneCittadinanza:
       allOf:
@@ -2076,6 +2098,10 @@ components:
             flagCambioGeneralita:
               type: boolean
               description: Indica se contestualmente all'evento verrà eseguito un cambio generalità
+              example: true
+            flagRichiestaPerPosta:
+              type: boolean
+              description: Indica se il documento sia stato o meno ricevuto a mezzo posta
               example: true
             intestatarioVecchieGeneralita: # Vecchie generalità dell'intestatario
               $ref: '#/components/schemas/ModelSoggetto'
@@ -3241,4 +3267,19 @@ components:
         tipologia:
           type: string
           description: Tipo dati adozione (ANSC_108)
+          example: '1'
+    ModelAdozioneMultiIntestatario:
+      description: Model annotazione modificativa rettifica per figlio a seguito cambio generalita genitori
+      properties:
+        attoNascita:
+          $ref: '#/components/schemas/ModelAttoCollegato'
+        attoAdozione:
+          $ref: '#/components/schemas/ModelAttoCollegato'
+        tipologia:
+          type: string
+          description: Tipo dati adozione (ANSC_108)
+          example: '1'
+        formula:
+          type: string
+          description: Tipo formula (ANSC_120 per UC secretato e ANSC_119 per UC non secretato)
           example: '1'

@@ -3,14 +3,11 @@
 Questo documento descrive le principali attività che verranno rilasciata nelle 
 future versioni del software di ANSC. Le date esatte sono suscettibili di variazioni.
 
-## [30-11-2024]
-
-- ID20.b Completamento dei casi d’uso in multilingua e adeguamento al multilinguismo delle funzionalità (es. nota tecnica)
-- ID115 Trascrizione del decreto prefettizio di cambiamento del nome e cognome pervenuta da consolato
-- ID121 Estratto per copia integrale semplificato (senza metadati)
-
-
-
 ## [30-12-2024]
 
 - ID110 Completamento funzionalità per il   Comune relative al rilascio certificazioni per servizi al cittadino (flusso richiesta estratti) 
+- ID128 Dichiarazione nascita/matrimonio/unione civile/morte su decreto del tribunale
+- ID 135 Gestione giuramento cittadinanza con firma sindaco in differita
+- ID 95.a Estensione annotazione modificativa generica per consentire cambio sesso
+- ID 43.b Servizi di collegamento con PA digitale (controlli da effettuare per l’approvazione del contributo)
+- ID 117 DM Nascita e Morte

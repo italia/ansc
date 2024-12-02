@@ -96,6 +96,10 @@ components:
               type: string
               description: Id del tipo uso (codificato ANSC_113)
               example: 5
+            flagSemplificato:
+              type: boolean
+              description: Indica se il certificato estratto per copia integrale deve essere semplificato ossia senza metadati
+              example: true
     CertificatoResponse:
       description: Ritorno del servizio specializzato per il certificato
       allOf:

@@ -23,6 +23,75 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.35.0 - 02-12-2024]
+
+## Added
+
+- [feature] Disabilitazione nota tecnica #151163
+- [feature] Trascrizione del decreto prefettizio di cambiamento del nome e cognome pervenuta da consolato (ID 115)
+- [feature] Estratto per copia integrale semplificato (ID 121)
+- [feature] Adeguamento casi d'uso nascita con pre riconoscimento paterno (ID 122)
+- [feature] Dichiarazioni di nascita con luogo redazione diverso dalla casa comunale (ID 123)
+- [feature] Trascrizione decreto prefettizio cambio cognome per più intestatari (ID 136)
+- [feature] Annotazione su atti nascita in seguito a trascrizione sentenze di adozione con multiintestatari (ID 137)
+- [feature] Unioni civili gestione legge patrimoniale e certificati #1002 (ID 133)
+- [feature] Aggiornamento certificati lato servizi al cittadino 
+- [feature] Gestione flusso di rilascio chiavette da parte delle prefetture (ID 138)
+- [feature] Completamento dei casi d’uso in multilingua e adeguamento al multilinguismo delle funzionalità (ID20.b)
+- [feature] Adeguamento ai fini della conservazione della nota tecnica (ID118)
+
+- [R002_certificazione.yaml] Aggiunto flagSemplificato nel payload per ottenere il certificato estratto per copia integrale semplificato ossia senza metadati (per ID 121)
+- [R020_adozione_muli_intestatario.yaml] Aggiunto il servizio per la validazione delle Annotazioni su atti nascita in seguito a trascrizione sentenze di adozione con multiintestatari (per ID 137)
+- [model_evento.yaml]
+  - Aggiunti i campi:
+    - datiAdozioneMultiIntestatario di tipo ModelAdozioneMultiIntestatario (per ID 137)
+    - flagRichiestaPerPosta di tipo boolean in ModelTrascrizioneCittadinanza
+    - protocollo e dataVerbale di tipo string in ModelDatiEventoCittadinanza 
+    - dataRedazione, oraRedazione, minutiRedazione di tipo string in ModelDatiDiNascita (per ID 123)
+  - Riabilitazione di un campo deprecato:
+    - ufficialeStatoCivile di tipo ModelSoggetto
+
+
+- [versione] Aggiunta versione 100018
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.3.3.2] (Trascr_031) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.3.3.3] (Trascr_032) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.4.9.6.0.0.0.0] (Dic_Nasc_998_6) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.4.9.7.0.0.0.0] (Dic_Nasc_998_7) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [4.5.9.2.0.0] (UnCiv_998_5) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.3.5.5] (Trascr_030) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [decodifiche] Aggiunto valore in tipo allegato decodifica ANSC_9 DEC_TIPO_ALLEGATO: 108 = Negoziazione assistita e nulla osta o autorizzazione
+- [decodifiche] Aggiunta decodifica ANSC_118 DEC_TIPO_ADOZIONE per campo tipoAdozione (ID 137)
+- [decodifiche] Aggiunta decodifica ANSC_119 DEC_TIPO_FORMULA_SECRETATO per Tipologia di formula Annotazione Adozione Multipla NON Secretata (ID 137)
+- [decodifiche] Aggiunta decodifica ANSC_120 DEC_TIPO_FORMULA_NON_SECRETATO per Tipologia di formula Annotazione Adozione Multipla Secretato (ID 137)
+
+### Fixed
+
+- Annotazione di separazione personale dei coniugi
+- Notifiche non generate a seguito di evento conferma accordo di separazione o divorzio <https://github.com/italia/ansc/issues/1155> <https://github.com/italia/ansc/issues/1157>
+- [webapp]: Notifiche divorzio art.6 D.L. n. 132/2014 <https://github.com/italia/ansc/issues/1151>
+- ID 133:Unioni civili gestione legge patrimoniale e certificati <https://github.com/italia/ansc/issues/1002>
+- Errore in composizione in caso di decreto acquisto di cittadinanza #1142 <https://github.com/italia/ansc/issues/1142>
+- Caso d’uso negoziazione assistita: allegato obbligatorio: NOME ALLEGATI CASO D'USO 345000 <https://github.com/italia/ansc/issues/1143>
+- Nuovo caso d'uso : Trascrizione del provvedimento straniero di adozione di minore riconosciuto valido dal tribunale dei minori fuori convenzione Aja <https://github.com/italia/ansc/issues/1039>
+- Provvedimento di adozione estera: reso opzionale allegato atto di nascita
+- Data annotazione negli estratti per riassunto: da eliminare
+- caso d'uso 52143 figlio minore di chi ha acquistato la cittadinanza: aggiunto allegato atto di nascita figlio
+- [SC]: Ricerca intestatario: incongruenza campo comune nascita estero <https://github.com/italia/ansc/issues/1169>
+- caso d'uso 1342 - TRASCRIZIONE SENTENZA DI ADOZIONE IN CASI PARTICOLARI <https://github.com/italia/ansc/issues/1138> <https://github.com/italia/ansc/issues/1149>
+- Annotazione automatica generata a seguito di scelta cambio cognome
+- Matrimonio con rito civile nella casa comunale  con impedimento di uno degli sposi
+- [SC]: Tipo accertamento "dichiarazione sostitutiva" non sempre consentito <https://github.com/italia/ansc/issues/1159>
+- Trascrizione di adozione dall'estero: dati provvedimento di origine (Trascr_018 - Trascr_020) <https://github.com/italia/ansc/issues/1168>
+- [R009] - Errore interno: aggiornamento atto confermato tramite R009 <https://github.com/italia/ansc/issues/1167>
+- Emissione certificati possibile per atti non in stato conclusivo <https://github.com/italia/ansc/issues/1178>
+- Modifica link guida adesione ANSC - il link alla guida di adesione nella pagina di amministrazione ora fa riferimento al portale ANPR
+- Verifica formato file incapsulati nei p7m : i file firmati p7m (id tipo 4) devono essere di uno degli altri tipi consentiti
+- [SC]: cambiamento del nome e cognome a seguito di notifica ANSC <https://github.com/italia/ansc/issues/1172>
+- [WA] Matrimonio con rito civile nella casa comunale  con impedimento di uno degli sposi: corretta minuta <https://github.com/italia/ansc/issues/1175>
+- UC Annotazione per correzione per articolo 98 di atto di morte: da estendere per comprendere la modifica dello stato civile <https://github.com/italia/ansc/issues/1116>
+- Data annotazione negli estratti per riassunto: eliminata
+- Modulo per presa visione nell'applicazione per la firma digitale del dichiarante: mancano alcuni dati <https://github.com/italia/ansc/issues/1087>
+
 ## [1.34.7 - 21-11-2024]
 
 ### Fixed

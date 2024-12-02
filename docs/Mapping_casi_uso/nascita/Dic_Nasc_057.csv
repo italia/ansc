@@ -1,6 +1,7 @@
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
 "Allegati","Attestazione di nascita","NO","","","","evento.datiDiNascita.tipoAccertamento,=,1"
 "Allegati","Constatazione di avvenuto parto","NO","","","","evento.datiDiNascita.tipoAccertamento,=,2"
+"Allegati","Dichiarazione di nascita sostitutiva resa da dichiarante","NO","","","","evento.datiDiNascita.tipoAccertamento,=,3"
 "Formula","13","SI","","","",""
 "Formula","34","SI","","","",""
 "Formula","41-bis","SI","","","",""
