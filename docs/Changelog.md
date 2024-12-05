@@ -23,6 +23,15 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.35.1 - 05-12-2024]
+
+### Fixed
+
+- Flusso di distribuzione delle chiavette OTP da parte delle prefetture: corretta ricerca del delegato
+- corretta la redirect url di conferma email nella funzione di richiesta firma remota da parte dell'USC
+- Visualizzazione atto in errore: Generic error <https://github.com/italia/ansc/issues/1148>
+- [webapp] UC 3.6.9.0.0.0 Annotazione modificativa generica: corretta anomalia presente nella sezione soggetto collegato <https://github.com/italia/ansc/issues/1134>
+
 ## [1.35.0 - 02-12-2024]
 
 ## Added
