@@ -28,6 +28,7 @@ NOTE:
 ### Fixed
 
 - Corretta generazione notifiche anagrafiche per soggetti nati all'estero <https://github.com/italia/ansc/issues/1194>
+
   
 ## [1.35.1 - 05-12-2024]
 
