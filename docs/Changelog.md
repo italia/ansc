@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.35.3 - 12-12-2024]
+
+### Fixed
+
+- Corretto errore nel salvataggio dati di dettaglio  <https://github.com/italia/ansc/issues/1171> <https://github.com/italia/ansc/issues/1185>
+
 ## [1.35.2 - 09-12-2024]
 
 ### Fixed
