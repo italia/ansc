@@ -1,5 +1,5 @@
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
-"Allegati","Copia integrale dell'atto di nascita dell'interessato","SI","","","",""
+"Allegati","Copia integrale dell'atto di nascita intestatario","SI","","","",""
 "Allegati","Sentenza straniera","SI","","","",""
 "Allegati","Richiesta di trascrizione","NO","","","",""
 "Formula","192.9","SI","","","",""

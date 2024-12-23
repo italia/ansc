@@ -1,3 +1,369 @@
+#Changelog mappatura casi uso 1.36.0  
+
+## Casi uso aggiunti : 1
+* nascita/Dic_Nasc_998_8.csv
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 72
+* cittadinanza/Citt_043.csv
+* cittadinanza/Citt_044.csv
+* matrimoni/Matr_002.csv
+* matrimoni/Matr_010.csv
+* matrimoni/Sep_Div_007.csv
+* nascita/Dic_Nasc_001.csv
+* nascita/Dic_Nasc_002.csv
+* nascita/Dic_Nasc_003.csv
+* nascita/Dic_Nasc_004.csv
+* nascita/Dic_Nasc_005.csv
+* nascita/Dic_Nasc_006.csv
+* nascita/Dic_Nasc_007.csv
+* nascita/Dic_Nasc_008.csv
+* nascita/Dic_Nasc_009.csv
+* nascita/Dic_Nasc_010.csv
+* nascita/Dic_Nasc_011.csv
+* nascita/Dic_Nasc_019.csv
+* nascita/Dic_Nasc_020.csv
+* nascita/Dic_Nasc_021.csv
+* nascita/Dic_Nasc_022.csv
+* nascita/Dic_Nasc_023.csv
+* nascita/Dic_Nasc_024.csv
+* nascita/Dic_Nasc_025.csv
+* nascita/Dic_Nasc_026.csv
+* nascita/Dic_Nasc_027.csv
+* nascita/Dic_Nasc_028.csv
+* nascita/Dic_Nasc_029.csv
+* nascita/Dic_Nasc_030.csv
+* nascita/Dic_Nasc_031.csv
+* nascita/Dic_Nasc_032.csv
+* nascita/Dic_Nasc_033.csv
+* nascita/Dic_Nasc_034.csv
+* nascita/Dic_Nasc_035.csv
+* nascita/Dic_Nasc_054.csv
+* nascita/Dic_Nasc_055.csv
+* nascita/Dic_Nasc_056.csv
+* nascita/Dic_Nasc_060.csv
+* nascita/Dic_Nasc_061.csv
+* nascita/Dic_Nasc_062.csv
+* nascita/Dic_Nasc_063.csv
+* nascita/Dic_Nasc_064.csv
+* nascita/Dic_Nasc_065.csv
+* nascita/Dic_Nasc_066.csv
+* nascita/Dic_Nasc_067.csv
+* nascita/Dic_Nasc_068.csv
+* nascita/Dic_Nasc_077.csv
+* nascita/Dic_Nasc_078.csv
+* nascita/Dic_Nasc_079.csv
+* nascita/Dic_Nasc_080.csv
+* nascita/Dic_Nasc_089.csv
+* nascita/Dic_Nasc_090.csv
+* nascita/Dic_Nasc_091.csv
+* nascita/Dic_Nasc_093.csv
+* nascita/Dic_Nasc_096.csv
+* nascita/Dic_Nasc_097.csv
+* nascita/Dic_Nasc_100.csv
+* nascita/Dic_Nasc_101.csv
+* nascita/Dic_Nasc_108.csv
+* nascita/Dic_Nasc_109.csv
+* nascita/Dic_Nasc_110.csv
+* nascita/Dic_Nasc_112.csv
+* nascita/Dic_Nasc_113.csv
+* nascita/Dic_Nasc_114.csv
+* nascita/Dic_Nasc_116.csv
+* nascita/Dic_Nasc_121.csv
+* nascita/Dic_Nasc_122.csv
+* nascita/Dic_Nasc_123.csv
+* nascita/Dic_Nasc_124.csv
+* nascita/Dic_Nasc_125.csv
+* nascita/Dic_Nasc_126.csv
+* nascita/Dic_Nasc_133.csv
+* unioni_civili/UnCiv_003.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_043.csv : 
+* Aggiunto 'evento.ufficialeStatoCivile.cognome' (riga:22)
+* Aggiunto 'evento.ufficialeStatoCivile.nome' (riga:23)
+* Aggiunto 'evento.ufficialeStatoCivile.idANPR' (riga:24)
+* Aggiunto 'evento.ufficialeStatoCivile.sesso' (riga:25)
+* Aggiunto 'evento.ufficialeStatoCivile.dataNascita' (riga:26)
+* Aggiunto 'evento.ufficialeStatoCivile.idStatoNascita' (riga:27)
+* Aggiunto 'evento.ufficialeStatoCivile.nomeStatoNascita' (riga:28)
+* Aggiunto 'evento.ufficialeStatoCivile.idProvinciaNascita' (riga:29)
+* Aggiunto 'evento.ufficialeStatoCivile.siglaProvinciaNascita' (riga:30)
+* Aggiunto 'evento.ufficialeStatoCivile.idComuneNascita' (riga:31)
+* Aggiunto 'evento.ufficialeStatoCivile.nomeComuneNascita' (riga:32)
+* Aggiunto 'evento.ufficialeStatoCivile.localitaEsteraNascita' (riga:33)
+* Aggiunto 'evento.ufficialeStatoCivile.idNazionalita' (riga:34)
+* Aggiunto 'evento.ufficialeStatoCivile.nazionalita' (riga:35)
+* Aggiunto 'evento.ufficialeStatoCivile.flagIrreperibile' (riga:36)
+* Aggiunto 'evento.ufficialeStatoCivile.idStatoResidenza' (riga:37)
+* Aggiunto 'evento.ufficialeStatoCivile.nomeStatoResidenza' (riga:38)
+* Aggiunto 'evento.ufficialeStatoCivile.idProvinciaResidenza' (riga:39)
+* Aggiunto 'evento.ufficialeStatoCivile.siglaProvinciaResidenza' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idComuneResidenza' (riga:41)
+* Aggiunto 'evento.ufficialeStatoCivile.nomeComuneResidenza' (riga:42)
+* Aggiunto 'evento.ufficialeStatoCivile.indirizzoResidenza' (riga:43)
+* Aggiunto 'evento.ufficialeStatoCivile.flagDichiarante' (riga:44)
+* Aggiunto 'evento.ufficialeStatoCivile.flagComparente' (riga:45)
+* Aggiunto 'evento.ufficialeStatoCivile.flagFirmatario' (riga:46)
+
+### Modifiche per il caso uso cittadinanza/Citt_044.csv : 
+* Aggiunto 'evento.ufficialeStatoCivile.cognome' (riga:18)
+* Aggiunto 'evento.ufficialeStatoCivile.nome' (riga:19)
+* Aggiunto 'evento.ufficialeStatoCivile.idANPR' (riga:20)
+* Aggiunto 'evento.ufficialeStatoCivile.sesso' (riga:21)
+* Aggiunto 'evento.ufficialeStatoCivile.dataNascita' (riga:22)
+* Aggiunto 'evento.ufficialeStatoCivile.idStatoNascita' (riga:23)
+* Aggiunto 'evento.ufficialeStatoCivile.nomeStatoNascita' (riga:24)
+* Aggiunto 'evento.ufficialeStatoCivile.idProvinciaNascita' (riga:25)
+* Aggiunto 'evento.ufficialeStatoCivile.siglaProvinciaNascita' (riga:26)
+* Aggiunto 'evento.ufficialeStatoCivile.idComuneNascita' (riga:27)
+* Aggiunto 'evento.ufficialeStatoCivile.nomeComuneNascita' (riga:28)
+* Aggiunto 'evento.ufficialeStatoCivile.localitaEsteraNascita' (riga:29)
+* Aggiunto 'evento.ufficialeStatoCivile.idNazionalita' (riga:30)
+* Aggiunto 'evento.ufficialeStatoCivile.nazionalita' (riga:31)
+* Aggiunto 'evento.ufficialeStatoCivile.flagIrreperibile' (riga:32)
+* Aggiunto 'evento.ufficialeStatoCivile.idStatoResidenza' (riga:33)
+* Aggiunto 'evento.ufficialeStatoCivile.nomeStatoResidenza' (riga:34)
+* Aggiunto 'evento.ufficialeStatoCivile.idProvinciaResidenza' (riga:35)
+* Aggiunto 'evento.ufficialeStatoCivile.siglaProvinciaResidenza' (riga:36)
+* Aggiunto 'evento.ufficialeStatoCivile.idComuneResidenza' (riga:37)
+* Aggiunto 'evento.ufficialeStatoCivile.nomeComuneResidenza' (riga:38)
+* Aggiunto 'evento.ufficialeStatoCivile.indirizzoResidenza' (riga:39)
+* Aggiunto 'evento.ufficialeStatoCivile.flagDichiarante' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.flagComparente' (riga:41)
+* Aggiunto 'evento.ufficialeStatoCivile.flagFirmatario' (riga:42)
+
+### Modifiche per il caso uso matrimoni/Matr_002.csv : 
+* Aggiunto 'Allegati Certificato medico' (riga:18)
+
+### Modifiche per il caso uso matrimoni/Matr_010.csv : 
+* Aggiunto 'Allegati Certificato medico' (riga:19)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_007.csv : 
+* Aggiunto 'Allegati Certificato di cui all’art.36 del Regolamento (UE) N. 2019/1111' (riga:6)
+* Aggiunto 'Formula 192.11' (riga:7)
+* Rimosso 'Formula 192.5'
+* Presenti modifiche per 'evento.trascrizioneSeparazione.attoEstero.enteEstero.siglaProvinciaEnte' (riga:24)
+* Presenti modifiche per 'evento.trascrizioneSeparazione.attoEstero.enteEstero.nomeComuneEnte' (riga:26)
+* Presenti modifiche per 'evento.trascrizioneSeparazione.attoEstero.enteEstero.comuneEstero' (riga:27)
+* Aggiunto 'evento.trascrizioneSeparazione.attoEstero.enteEstero.descrizione' (riga:28)
+* Aggiunto 'evento.trascrizioneSeparazione.dataPubblicazioneSentenza' (riga:29)
+* Aggiunto 'evento.trascrizioneSeparazione.dataDecorrenzaSentenza' (riga:30)
+* Presenti modifiche per 'evento.dichiarante.codiceFiscale' (riga:31)
+* Presenti modifiche per 'evento.dichiarante.sesso' (riga:35)
+* Presenti modifiche per 'evento.dichiarante.dataNascita' (riga:36)
+* Presenti modifiche per 'evento.dichiarante.siglaProvinciaNascita' (riga:40)
+* Presenti modifiche per 'evento.dichiarante.nomeComuneNascita' (riga:42)
+* Presenti modifiche per 'evento.dichiarante.localitaEsteraNascita' (riga:43)
+* Presenti modifiche per 'evento.dichiarante.tipoImpedimento' (riga:46)
+* Presenti modifiche per 'evento.dichiarante.flagIrreperibile' (riga:47)
+* Presenti modifiche per 'evento.dichiarante.nomeStatoResidenza' (riga:49)
+* Presenti modifiche per 'evento.dichiarante.siglaProvinciaResidenza' (riga:51)
+* Presenti modifiche per 'evento.dichiarante.nomeComuneResidenza' (riga:53)
+* Presenti modifiche per 'evento.dichiarante.indirizzoResidenza' (riga:54)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_001.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_002.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_003.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_004.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_005.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_006.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_007.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_008.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_009.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_010.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_011.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_019.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_020.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_021.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_022.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_023.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_024.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_025.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_026.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_027.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_028.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_029.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_030.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_031.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_032.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_033.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_034.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_035.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_054.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_055.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_056.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_060.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_061.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_062.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_063.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_064.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_065.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_066.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_067.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_068.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_077.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_078.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_079.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_080.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_089.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_090.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_091.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_093.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_096.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_097.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_100.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_101.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_108.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_109.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_110.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_112.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_113.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_114.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_116.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_121.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_122.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_123.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_124.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_125.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_126.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_133.csv : 
+* Rimosso 'evento.ufficialeStatoCivile.tipoImpedimento'
+
+### Modifiche per il caso uso unioni_civili/UnCiv_003.csv : 
+* Aggiunto 'Allegati Certificato medico' (riga:8)
+
+
 #Changelog mappatura casi uso 1.35.0  
 
 ## Casi uso aggiunti : 6

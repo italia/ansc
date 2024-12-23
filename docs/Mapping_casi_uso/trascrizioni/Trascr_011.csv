@@ -1,5 +1,5 @@
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
-"Allegati","Copia integrale dell'atto di nascita dell'interessato","SI","","","",""
+"Allegati","Copia integrale dell'atto di nascita intestatario","SI","","","",""
 "Allegati","Sentenza straniera","SI","","","",""
 "Allegati","Nota di trasmissione da parte dell’autorità consolare o diplomatica","SI","","","",""
 "Formula","193.20","SI","","","",""

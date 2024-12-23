@@ -23,6 +23,52 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.36.0 - 23-12-2024]
+
+### Added
+
+- [versione] Aggiunta versione 100019
+- [feature] Annotazione modificativa per cambio sesso (ID 95.a)
+- [feature] Servizi di collegamento con PA digitale (controlli da effettuare per l’approvazione del contributo) (ID 43.b)
+- [feature] Gestione giuramento cittadinanza con firma sindaco in differita (ID 135)
+- [feature] DM Nascita e Morte (ID 117): funzionalità disponibile solo in ambiente di pre produzione
+- [feature] Completamento funzionalità per il  Comune relative al rilascio certificazioni per servizi al cittadino (flusso richiesta estratti) (ID110): funzionalità disponibile solo in ambiente di pre produzione
+
+- [casi d'uso] Aggiunto nuovo caso d'uso [1.4.8.7.0.0.0.0] (Dic_Nasc_998_8) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (Annotazione modificativa per cambio sesso)
+
+- [decodifiche] Aggiunto valore in tipo allegato decodifica ANSC_9 DEC_TIPO_ALLEGATO: 109 certificato di cui all’art.36 del Regolamento (UE) N. 2019/1111
+
+- [R019_certificato_internazionale.yaml] Modificati:
+  - CertificatoNascitaDTO sostituiti i campi annotazione e siglaEnunciazioni con listaEnunciazioni
+  - CertificatoMatrimonioDTO sostituiti i campi annotazione e siglaEnunciazioni con listaEnunciazioni
+  - AnnotazioneEventoResponse modificato il tipo del campo listaAnnotazioni da ModelEvento a InfoAnnotazione
+  
+- [model_evento.yaml]
+  - Aggiunti i campi:
+    - dataPubblicazioneSentenza e dataDecorrenzaSentenza in ModelTrascrizioneSeparazione
+
+### Fixed
+
+- [R019] - Modifica logica enunciazioni <https://github.com/italia/ansc/issues/1156>
+- [R019] - Fix luogo matrimonio (dentro la casa comunale) e modifica logica cognome dopo il matrimonio <https://github.com/italia/ansc/issues/1160>
+- [SC]: Rilascio certificazione come copia integrale dell'atto - errore interno in risposta <https://github.com/italia/ansc/issues/1180>
+- [SC]: Ordine firmatari atto unione civile - caso d'uso 411111 <https://github.com/italia/ansc/issues/1182>
+- [webapp]: caso d'uso 347000 trascrizione di una sentenza di divorzio da consolato <https://github.com/italia/ansc/issues/1126>
+- [SC]: Obbligatorietà che non dovrebbe essere richiesta per il caso d'uso Rico_007 (12222121) <https://github.com/italia/ansc/issues/1146>
+- [SC] Annotazione Rettifica - corretta NullPointer Exception
+- [WA] CASO USO MORTE: corretta minuta atto
+- Ordinamento su Consultazione notifiche <https://github.com/italia/ansc/discussions/1186>
+- [SC]: Assenza degli estremi dell'Atto, nell'Annotazione automatica (caso d'uso 52143: Citt_004) <https://github.com/italia/ansc/issues/1187>
+- [SC]: CASO D'USO 347000 TRASCRIZIONE SENTENZA DIVORZIO DALL'ESTERO - allegati mancanti <https://github.com/italia/ansc/issues/1203>
+- Unione civile fuori casa comunale- FORM. 121.1 (ID 73 Consorzio Bolzano)
+- [webapp]: Notifica annotazione divorzio estero su atto matrimonio <https://github.com/italia/ansc/issues/1205> 
+- [webapp]: testo annotazione matrimonio F.132 su atto nascita <https://github.com/italia/ansc/issues/1206>
+- Allegati al caso uso 1324 (Trascr_010) <https://github.com/italia/ansc/discussions/1200>
+- ID109: indicazione esplicita delle tipologie di certificazione emissibili nei casi d’uso di servizio
+- Corretta tabella decodifica ansc_3 <https://github.com/italia/ansc/discussions/1138>
+- Corretto errore nella registrazione di un atto: salvataggio di un soggetto intestatario con eventi già collegati
+- [SC]: casistica unciv_003 allegato mancante <https://github.com/italia/ansc/issues/1209>
+
 ## [1.35.3 - 12-12-2024]
 
 ### Fixed

@@ -70,7 +70,6 @@
 "Ufficiale dello Stato Civile","Località estera","NO","evento.ufficialeStatoCivile","localitaEsteraNascita","","evento.redattoNellaCasaComunale,!=,false"
 "Ufficiale dello Stato Civile","Nazionalità","NO","evento.ufficialeStatoCivile","idNazionalita","","evento.redattoNellaCasaComunale,!=,false"
 "Ufficiale dello Stato Civile","Nazionalità - Descrizione","NO","evento.ufficialeStatoCivile","nazionalita","","evento.redattoNellaCasaComunale,!=,false"
-"Ufficiale dello Stato Civile","Comprensione","NO","evento.ufficialeStatoCivile","tipoImpedimento","","evento.redattoNellaCasaComunale,!=,false"
 "Ufficiale dello Stato Civile","Residenza non nota","NO","evento.ufficialeStatoCivile","flagIrreperibile","","evento.redattoNellaCasaComunale,!=,false"
 "Ufficiale dello Stato Civile","Stato di residenza","NO","evento.ufficialeStatoCivile","idStatoResidenza","","evento.redattoNellaCasaComunale,!=,false"
 "Ufficiale dello Stato Civile","Stato di residenza - Descrizione","NO","evento.ufficialeStatoCivile","nomeStatoResidenza","","evento.redattoNellaCasaComunale,!=,false"
