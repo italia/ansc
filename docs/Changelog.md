@@ -23,6 +23,13 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.36.1 - 30-12-2024]
+
+### Fixed
+
+- [SC]: Anteprima caso uso 1364 - Dati in ingresso non corretti <https://github.com/italia/ansc/issues/1218>
+- [SC]: Certificazione e Estratti per Copia Integrale <https://github.com/italia/ansc/issues/1219>
+
 ## [1.36.0 - 23-12-2024]
 
 ### Added
