@@ -2155,7 +2155,17 @@ components:
             tipoModificaMatrimonio:
               type: string
               description: Tipo di modifica al matrimonio (decodifica ANSC_54) 
-              example: "1"
+              example: "1"   
+            dataPubblicazioneSentenza:
+              type: string
+              format: date
+              description: Data di pubblicazione della sentenza
+              example: "2022-04-22"
+            dataDecorrenzaSentenza:
+              type: string
+              format: date
+              description: Data di decorrenza della sentenza
+              example: "2022-04-22"
     ModelTrascrizioneUnioneCivile:
       allOf:
         - $ref: '#/components/schemas/ModelTrascrizione'

@@ -252,14 +252,10 @@ components:
       allOf:
         - type: object
           properties:
-            annotazione:
-              type: string
-              description: Altre enunciazioni dell'atto
-              example: "annotazione"
-            siglaEnunciazioni:
-              type: string
-              description: Sigla enunciazioni (Mar,Sc,Div,A,D,Dm,Df).
-              example: 'Mar'
+            listaEnunciazioni:
+              type: array
+              items:
+                $ref: '#/components/schemas/Enunciazione'
     CertificatoMatrimonioDTO:
       description: Modello Certificato Internazionale di Matrimonio
       allOf:
@@ -270,14 +266,10 @@ components:
               description: Modello soggetto marito
             moglie:
               $ref: '#/components/schemas/ConiugeEstrattoMatrDTO'
-            annotazione:
-              type: string
-              description: Altre enunciazioni dell'atto
-              example: "annotazione"
-            siglaEnunciazioni:
-              type: string
-              description: Sigla enunciazioni (Sc,Div,A,Dm,Df). Obbligatorio nel caso ci siano annotazioni.
-              example: 'Sc'
+            listaEnunciazioni:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Enunciazione'
     ConiugeEstrattoMatrDTO:
       description: Modello Coniuge per l'estratto di matrimonio
       allOf:
@@ -366,7 +358,7 @@ components:
             listaAnnotazioni:
               type: array
               items:
-                $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'
+                $ref: '#/components/schemas/InfoAnnotazione'
     SigleEnunciazioniRequest:
       description: Richiesta del servizio che restituisce le sigle dell'enunciazioni
       allOf:
@@ -429,3 +421,45 @@ components:
           type: string
           description: Lista tipologia certificato in cui la sigla è visibile
           example: "1,2,4"
+    InfoAnnotazione:
+      description: Enunciazioni per certificato di nascita e di matrimonio
+      properties:
+        id:
+          type: number
+          description: Id univoco assegnato dal sistema. (per uso interno)
+          example: '12'
+        dataEvento:
+          type: string
+          format: date
+          description: Data evento.
+          example: '2024-12-04T00:00:00'
+        luogoEvento:
+          $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelLuogo'
+        nomeCongiunto:
+          type: string
+          description: Nome congiunto solo per atti di matrimonio
+          example: "Gabriele"
+        cognomeCongiunto:
+          type: string
+          description: Cognome congiunto olo per atti di matrimonio
+          example: "Gabriele"
+        descrizione:
+          type: string
+          description: Descrizione caso d'uso dell'evento
+          example: "Gabriele"
+        composizioneCompleta:
+          type: string
+          description: Descrizione caso d'uso dell'evento
+          example: "Lorem Ipsum"
+    Enunciazione:
+      description: Enunciazioni per certificato di nascita e di matrimonio
+      properties:
+        siglaEnunciazioni:
+          type: string
+          description: Sigla enunciazioni per matrimonio=(Sc,Div,A,Dm,Df) per nascita (Mar,Sc,Div,A,D,Dm,Df). Obbligatorio nel caso ci siano annotazioni.
+          example: 'Sc'
+        infoAnnotazione:
+          type: object
+          description: Info annotazioni
+          items:
+            $ref: '#/components/schemas/InfoAnnotazione'

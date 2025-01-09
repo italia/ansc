@@ -23,6 +23,22 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.36.2 - 09-01-2025]
+
+### Fixed
+
+- model_evento.yaml non allineato alla release 1.36.0 <https://github.com/italia/ansc/issues/1234>
+
+- Sistemata documentazione:
+  - [R019_certificato_internazionale.yaml] 
+    - CertificatoNascitaDTO sostituiti i campi annotazione e siglaEnunciazioni con listaEnunciazioni
+    - CertificatoMatrimonioDTO sostituiti i campi annotazione e siglaEnunciazioni con listaEnunciazioni
+    - AnnotazioneEventoResponse modificato il tipo del campo listaAnnotazioni da ModelEvento a InfoAnnotazione
+
+  - [model_evento.yaml] 
+    - Aggiunti i campi:
+      - dataPubblicazioneSentenza e dataDecorrenzaSentenza in ModelTrascrizioneSeparazione
+
 ## [1.36.1 - 30-12-2024]
 
 ### Fixed
