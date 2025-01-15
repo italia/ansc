@@ -102,7 +102,8 @@ components:
           example: "2"
         inputFirma1:
           type: string
-          description: Primo input per la firma (es. TestUser)
+          description: "Primo input per la firma (es. TestUser) \
+            NOTA: Il nome utente va inserito per intero, se ad esempio è presente un dominio : TestUser@miodominio"
           example: "VGVzdFVzZXI="
         inputFirma2:
           type: string

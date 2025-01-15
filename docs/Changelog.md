@@ -23,6 +23,26 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.36.3 - 15-01-2025]
+
+### Added
+
+- [decodifiche] Aggiunto valore in decodifica ANSC_20 dec_ente_documento_riconoscimento: 3 - "Altra autorità straniera"
+
+### Fixed
+
+- Data certificati: corretto formato data emissione 
+- [SC]: Ricerca soggetto per intestatario e comune estero di nascita <https://github.com/italia/ansc/issues/1232>
+- [webapp]: Straniero nato in italia che vi abbia risieduto legalmente senza interruzioni fino alla maggiore eta' <https://github.com/italia/ansc/issues/1237>
+- [SC]: firma attestazione di Conformità - impedire caricamento tipo allega 99
+- [SC]: firma attestazione di Conformità - verifica tipi allegati per tipo evento in base a configurazione
+- [SC]: problema con caso uso 12221122 <https://github.com/italia/ansc/issues/1235> (adeguato messaggio, rimosso controllo di maggiore età)
+- [SC]: R005 il tag idComuneRegistrazione ritorna il codice istat invece che l'ID <https://github.com/italia/ansc/issues/1246>
+- [webapp]: Notifiche divorzio art.6 D.L. n. 132/2014 <https://github.com/italia/ansc/issues/1238>
+- [SC]: Mancanza Notifiche a seguito nullità matrimonio <https://github.com/italia/ansc/issues/1228>
+- [webapp]: aggiornato flusso distribuzione chiavette
+- [SC]: aggiornamento di idComuneRegistrazione quando ritorna codice ISTA invece che id
+
 ## [1.36.2 - 09-01-2025]
 
 ### Fixed
