@@ -23,6 +23,15 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.36.4 - 17-01-2025]
+
+### Fixed
+
+- [1.2.2.2.2.2.0.3] Riconoscimento materno di figlio di ignoti infraquattordicenne: corretto allegato obbligatorio errato <https://github.com/italia/ansc/issues/1248>
+- [SC]: casistica 12224123 Riconoscimento di figlio di ignoti ultraquattordicenne da parte del padre con presenza della madre (Rico_011): corretto allegato errato <https://github.com/italia/ansc/issues/1249>
+- [SC]: Corretto problema consultazione ANSC intestatario <https://github.com/italia/ansc/issues/1245>
+- Annotazioni per errore materiale e rettificative: correzione validazione evento
+
 ## [1.36.3 - 15-01-2025]
 
 ### Added
