@@ -1,3 +1,17 @@
+#Changelog mappatura casi uso 1.36.5  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 1
+* riconoscimenti/Rico_009.csv
+
+### Modifiche per il caso uso riconoscimenti/Rico_009.csv : 
+* Presenti modifiche per 'Allegati Copia integrale dell'atto di nascita del figlio che viene riconosciuto' (riga:2)
+* Rimosso 'Allegati Copia integrale dell'atto di nascita del dichiarante'
+
+
 #Changelog mappatura casi uso 1.36.0  
 
 ## Casi uso aggiunti : 1

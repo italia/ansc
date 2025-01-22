@@ -23,6 +23,15 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.36.5 - 22-01-2025]
+
+### Fixed
+
+- [SC]: versione 1.36.3 tabella ansc_20 - aggiunto valore 3 a tabella decodifica 20 <https://github.com/italia/ansc/issues/1261>
+- Correzione annotazione: corretto errore 500 <https://github.com/italia/ansc/issues/1000>
+- [SC] R015: Corretto errore Dati mancanti nuove generalita sull'atto di adozione nuovoNome nuovoCognome <https://github.com/italia/ansc/issues/1253>
+
+
 ## [1.36.4 - 17-01-2025]
 
 ### Fixed
