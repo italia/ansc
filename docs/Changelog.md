@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.36.7 - 23-01-2025]
+
+### Fixed
+
+- [SC]: Errata indicazione del campo id Ansc <https://github.com/italia/ansc/discussions/1264>
+
 ## [1.36.6 - 23-01-2025]
 
 ### Fixed
