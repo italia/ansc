@@ -23,6 +23,13 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.36.6 - 23-01-2025]
+
+### Fixed
+
+- tabella ansc_3  : corretto tipo contenuto per caso d'uso 459200 <https://github.com/italia/ansc/discussions/1190>
+- ansc_064 non aggiornata : aggiunta la decodifica mancante <https://github.com/italia/ansc/discussions/1137>
+
 ## [1.36.5 - 22-01-2025]
 
 ### Fixed
