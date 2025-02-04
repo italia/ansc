@@ -120,6 +120,7 @@
 "Atto Nascita Figlio","Data atto","SI","evento.datiEventoRiconoscimento.attoNascita","dataformazione","","obbligatoria"
 "Atto Nascita Figlio","Parte","NO","evento.datiEventoRiconoscimento.attoNascita","parte","","obbligatoria"
 "Atto Nascita Figlio","Serie","NO","evento.datiEventoRiconoscimento.attoNascita","serie","","obbligatoria"
+"Atto Nascita Figlio","Volume","NO","evento.datiEventoRiconoscimento.attoNascita","volume","","obbligatoria"
 "Atto Nascita Figlio","Tipo registro","SI","evento.datiEventoRiconoscimento.attoNascita","tipologia","","obbligatoria"
 "Dati generali","Tipo richiesta","NO","evento.trascrizioneNascita","tipoDichiarazione","","obbligatoria"
 "Dati generali","Data richiesta trascrizione","SI","evento.trascrizioneNascita","dataComunicazione","","obbligatoria"

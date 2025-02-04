@@ -57,6 +57,7 @@
 "Atto matrimonio - Cittadinanza","Data atto","SI","evento.eventoCollegato","dataformazione","","obbligatoria"
 "Atto matrimonio - Cittadinanza","Parte","NO","evento.eventoCollegato","parte","","obbligatoria"
 "Atto matrimonio - Cittadinanza","Serie","NO","evento.eventoCollegato","serie","","obbligatoria"
+"Atto matrimonio - Cittadinanza","Volume","NO","evento.eventoCollegato","volume","","obbligatoria"
 "Atto matrimonio - Cittadinanza","Tipo registro","SI","evento.eventoCollegato","tipologia","","obbligatoria"
 "Dati della trascrizione","Data richiesta trascrizione","SI","evento.trascrizioneCittadinanza","dataComunicazione","","obbligatoria"
 "Dati della trascrizione","Riassunto","SI","evento.trascrizioneCittadinanza","testoLibero","","obbligatoria"

@@ -116,6 +116,7 @@
 "Atto nascita intestatario","Data atto","SI","evento.datiEventoRiconoscimento.attoNascita","dataformazione","","obbligatoria"
 "Atto nascita intestatario","Parte","NO","evento.datiEventoRiconoscimento.attoNascita","parte","","obbligatoria"
 "Atto nascita intestatario","Serie","NO","evento.datiEventoRiconoscimento.attoNascita","serie","","obbligatoria"
+"Atto nascita intestatario","Volume","NO","evento.datiEventoRiconoscimento.attoNascita","volume","","obbligatoria"
 "Atto nascita intestatario","Tipo registro","SI","evento.datiEventoRiconoscimento.attoNascita","tipologia","","obbligatoria"
 "Atto da trascrivere","Nome ente","SI","evento.trascrizioneNascita.attoEstero.enteEstero","nomeEnte","","obbligatoria"
 "Atto da trascrivere","Stato ente","SI","evento.trascrizioneNascita.attoEstero.enteEstero","nazioneEnte","","obbligatoria"

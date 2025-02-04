@@ -84,6 +84,7 @@
 "Atto unione civile","Data atto","SI","evento.scioglimentoUnioneCivile.attoUnioneCivile","dataformazione","","obbligatoria"
 "Atto unione civile","Parte","NO","evento.scioglimentoUnioneCivile.attoUnioneCivile","parte","121-decies","obbligatoria"
 "Atto unione civile","Serie","NO","evento.scioglimentoUnioneCivile.attoUnioneCivile","serie","121-decies","obbligatoria"
+"Atto unione civile","Volume","NO","evento.scioglimentoUnioneCivile.attoUnioneCivile","volume","121-decies","obbligatoria"
 "Atto unione civile","Tipo registro","SI","evento.scioglimentoUnioneCivile.attoUnioneCivile","tipologia","","obbligatoria"
 "Interprete","Cognome","NO","evento.interprete","cognome","195,196","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"
 "Interprete","Nome","SI","evento.interprete","nome","","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"

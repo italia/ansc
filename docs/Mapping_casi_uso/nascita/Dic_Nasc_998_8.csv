@@ -39,6 +39,7 @@
 "Atto di riferimento","Data atto","SI","evento.datiAnnotazioneModificativa.attoIntestatario","dataformazione","","obbligatoria"
 "Atto di riferimento","Parte","NO","evento.datiAnnotazioneModificativa.attoIntestatario","parte","","obbligatoria"
 "Atto di riferimento","Serie","NO","evento.datiAnnotazioneModificativa.attoIntestatario","serie","","obbligatoria"
+"Atto di riferimento","Volume","NO","evento.datiAnnotazioneModificativa.attoIntestatario","volume","","obbligatoria"
 "Atto di riferimento","Tipo registro","SI","evento.datiAnnotazioneModificativa.attoIntestatario","tipologia","","obbligatoria"
 "Sentenza","Data formazione documento","SI","evento.enteDichiarante","dataTrascrizione","","obbligatoria"
 "Sentenza","Estremi documento","SI","evento.enteDichiarante","estremiDocumento","","obbligatoria"

@@ -24,6 +24,7 @@
 "Atto di Matrimonio","Data atto","NO","evento.negoziazioneAssistita.attoMatrimonio","dataformazione","","obbligatoria"
 "Atto di Matrimonio","Parte","NO","evento.negoziazioneAssistita.attoMatrimonio","parte","","obbligatoria"
 "Atto di Matrimonio","Serie","NO","evento.negoziazioneAssistita.attoMatrimonio","serie","","obbligatoria"
+"Atto di Matrimonio","Volume","NO","evento.negoziazioneAssistita.attoMatrimonio","volume","","obbligatoria"
 "Atto di Matrimonio","Tipo registro","SI","evento.negoziazioneAssistita.attoMatrimonio","tipologia","","obbligatoria"
 "Marito","Cognome","NO","evento.intestatari[0]","cognome","193-ter","obbligatoria"
 "Marito","Nome","SI","evento.intestatari[0]","nome","","obbligatoria"

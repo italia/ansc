@@ -15,4 +15,5 @@
 "Evento sorgente","Data atto","SI","evento.eventoCollegato","dataformazione","","obbligatoria"
 "Evento sorgente","Parte","NO","evento.eventoCollegato","parte","","obbligatoria"
 "Evento sorgente","Serie","NO","evento.eventoCollegato","serie","","obbligatoria"
+"Evento sorgente","Volume","NO","evento.eventoCollegato","volume","","obbligatoria"
 "Evento sorgente","Tipo registro","SI","evento.eventoCollegato","tipologia","","obbligatoria"

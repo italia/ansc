@@ -51,5 +51,6 @@
 "Atto collegato","Data atto","NO","evento.eventoCollegato","dataformazione","","opzionale"
 "Atto collegato","Parte","NO","evento.eventoCollegato","parte","","opzionale"
 "Atto collegato","Serie","NO","evento.eventoCollegato","serie","","opzionale"
+"Atto collegato","Volume","NO","evento.eventoCollegato","volume","","opzionale"
 "Atto collegato","Tipo registro","NO","evento.eventoCollegato","tipologia","","opzionale"
 "Composizione libera","Composizione libera","SI","evento","composizioneCompleta","","obbligatoria"

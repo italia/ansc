@@ -126,6 +126,7 @@
 "Atto collegato","Data atto","NO","evento.eventoCollegato","dataformazione","","obbligatoria"
 "Atto collegato","Parte","NO","evento.eventoCollegato","parte","","obbligatoria"
 "Atto collegato","Serie","NO","evento.eventoCollegato","serie","","obbligatoria"
+"Atto collegato","Volume","NO","evento.eventoCollegato","volume","","obbligatoria"
 "Atto collegato","Tipo registro","NO","evento.eventoCollegato","tipologia","","obbligatoria"
 "Interprete","Cognome","NO","evento.interprete","cognome","195,196","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"
 "Interprete","Nome","SI","evento.interprete","nome","","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"

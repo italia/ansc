@@ -118,6 +118,7 @@
 "Atto collegato","Data atto","NO","evento.eventoCollegato","dataformazione","","opzionale"
 "Atto collegato","Parte","NO","evento.eventoCollegato","parte","","opzionale"
 "Atto collegato","Serie","NO","evento.eventoCollegato","serie","","opzionale"
+"Atto collegato","Volume","NO","evento.eventoCollegato","volume","","opzionale"
 "Atto collegato","Tipo registro","NO","evento.eventoCollegato","tipologia","","opzionale"
 "Autorità mittente","Data formazione documento","NO","evento.trascrizioneCittadinanza.attoEstero.enteEstero","dataTrascrizione","","obbligatoria"
 "Autorità mittente","Estremi documento","SI","evento.trascrizioneCittadinanza.attoEstero.enteEstero","estremiDocumento","","obbligatoria"

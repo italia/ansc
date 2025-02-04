@@ -464,6 +464,10 @@ components:
           type: string
           description: Serie dell'atto
           example: 'Serie A'
+        volume:
+          type: string
+          description: Volume dell'atto
+          example: 'Volume 2'
         estremi: 
           type: string
           description: Sono i dati di registrazione dell'atto (parte, registro e serie) concatenati in una stringa

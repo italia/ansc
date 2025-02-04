@@ -23,6 +23,43 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.37.0 - 04-02-2025]
+
+### Added
+
+- [versione] Aggiunta versione 100020
+- [feature] Per tutti gli atti digitali riportare nella composizione e nelle certificazioni "atto presente nell’Archivio Nazionale informatizzato dei registri dello Stato Civile dal comune XY"  (ID 143)
+- [webapp]: Gestione tipologie certificati emissibili per caso d'uso di servizio (ID 167)
+- [feature] Gestione estremi atto cartacei (aggiunta volume) (ID 141)
+- [feature] Adozione estera legittimante richiesta da consolato <https://github.com/italia/ansc/issues/1254> (ID 176)
+- [feature] Consultazione/certificazione da parte delle prefetture (ID 140)
+- [feature] Gestione degli allegati errati (ID 166)
+
+- [model_evento.yaml]
+  - Aggiunto il campo volume in ModelAttoCollegato
+
+### Fixed
+
+- [SC]: 12222123 Riconoscimento materno di figlio di ignoti ultraquattordicenne Rico_008  <https://github.com/italia/ansc/discussions/1267>
+- [webapp]: RICHIESTA FIRMA DICHIARANTE PER TRASCRIZIONE ATTI MULTIPLI CITTADINANZA <https://github.com/italia/ansc/discussions/1270>
+- [SC]: Anteprima - Matrimonio: ordine dei firmatari in calce all'atto <https://github.com/italia/ansc/issues/1217> <https://github.com/italia/ansc/issues/809>
+- [SC]: Estratto per riassunto e annotazioni di riconoscimento <https://github.com/italia/ansc/issues/1125> <https://github.com/italia/ansc/issues/1210>
+- [WA] Caso d'uso 11315000 - Dichiarazione di nascita non riconosciuta: corretta composizione atto
+- Gestione allegati che rimangono in stato in elaborazione per un tempo eccessivo
+- [SC]: Validazione Use Case 1363 <https://github.com/italia/ansc/issues/1034>
+- Annotazione su Comunicazione di Consolato - Dati Ente Dichiarante (cdu 14500000) (ID 163) <https://github.com/italia/ansc/issues/1214>
+- [Web App] - Errata gestione ricerca soggetto per Identificativo unico nazionale
+- [webapp]: Obbligatorietà dati nascita nel caso acquisto cittadinanza art.14 L.91/1992 <https://github.com/italia/ansc/issues/1229>
+- [SC]: usecase 11411010 - Dichiarazione fuori del matrimonio nei termini di legge resa dal padre, di bimbo riconosciuto da entrambi i genitori prima della nascita <https://github.com/italia/ansc/issues/1268>
+- caso d'uso 12211312  Riconoscimento paterno di nascituro gia' riconosciuto dalla madre  <https://github.com/italia/ansc/issues/1269>
+- Difficoltà nell'applicare la firma ARUBA dell'Ufficiale di Stato Civile <https://github.com/italia/ansc/issues/1281>
+- [SC]: Firma USC - Errore "USC dell'operazione di firma diverso da chi ha firmato l'attestazione" <https://github.com/italia/ansc/issues/1279>
+- Annotazione errore materiale: servizio di firma usc invocato errato
+- [SC]: Firma Remota non Avvenuta con Successo- Annotazione <https://github.com/italia/ansc/issues/1275>
+- Consultazione provvedimenti di rifiuto (da web app e servizi)
+- [R002] caso d'uso 12211312  Riconoscimento paterno di nascituro gia' riconosciuto dalla madre  <https://github.com/italia/ansc/issues/1269>
+
+
 ## [1.36.7 - 23-01-2025]
 
 ### Fixed

@@ -39,6 +39,7 @@
 "Atto di riferimento","Data atto","SI","evento.datiAnnotazioneModificativa.attoIntestatario","dataformazione","","obbligatoria"
 "Atto di riferimento","Parte","NO","evento.datiAnnotazioneModificativa.attoIntestatario","parte","","obbligatoria"
 "Atto di riferimento","Serie","NO","evento.datiAnnotazioneModificativa.attoIntestatario","serie","","obbligatoria"
+"Atto di riferimento","Volume","NO","evento.datiAnnotazioneModificativa.attoIntestatario","volume","","obbligatoria"
 "Atto di riferimento","Tipo registro","SI","evento.datiAnnotazioneModificativa.attoIntestatario","tipologia","","obbligatoria"
 "Soggetto Collegato","Cognome","NO","evento.datiAnnotazioneModificativa.soggettoCollegato","cognome","","obbligatoria"
 "Soggetto Collegato","Nome","NO","evento.datiAnnotazioneModificativa.soggettoCollegato","nome","","obbligatoria"

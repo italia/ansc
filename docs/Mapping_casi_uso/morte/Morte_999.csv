@@ -113,6 +113,7 @@
 "Atto di nascita del deceduto","Data atto","NO","evento.datiEventoMorte.attoNascitaDeceduto","dataformazione","","opzionale"
 "Atto di nascita del deceduto","Parte","NO","evento.datiEventoMorte.attoNascitaDeceduto","parte","","opzionale"
 "Atto di nascita del deceduto","Serie","NO","evento.datiEventoMorte.attoNascitaDeceduto","serie","","opzionale"
+"Atto di nascita del deceduto","Volume","NO","evento.datiEventoMorte.attoNascitaDeceduto","volume","","opzionale"
 "Atto di nascita del deceduto","Tipo registro","NO","evento.datiEventoMorte.attoNascitaDeceduto","tipologia","","opzionale"
 "Annotazione Contestuale","Tipo Annotazione Contestuale","NO","evento.datiAnnotazione","tipoAnnotazione","","obbligatoria"
 "Annotazione Contestuale","Dichiara come non certificabile","NO","evento.datiAnnotazione","flagAnnotazioneNonCertificabile","","obbligatoria"

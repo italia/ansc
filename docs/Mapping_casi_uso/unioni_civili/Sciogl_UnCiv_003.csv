@@ -93,6 +93,7 @@
 "Atto unione civile","Data atto","SI","evento.scioglimentoUnioneCivile.attoUnioneCivile","dataformazione","","obbligatoria"
 "Atto unione civile","Parte","NO","evento.scioglimentoUnioneCivile.attoUnioneCivile","parte","121-octies","obbligatoria"
 "Atto unione civile","Serie","NO","evento.scioglimentoUnioneCivile.attoUnioneCivile","serie","121-octies","obbligatoria"
+"Atto unione civile","Volume","NO","evento.scioglimentoUnioneCivile.attoUnioneCivile","volume","121-octies","obbligatoria"
 "Atto unione civile","Tipo registro","SI","evento.scioglimentoUnioneCivile.attoUnioneCivile","tipologia","","obbligatoria"
 "Dettaglio accordo","Parte in causa in giudizio pendente","SI","evento.scioglimentoUnioneCivile","parteInGiudizioPendente","","evento.scioglimentoUnioneCivile.assegnoMantenimento,=,true"
 "Dettaglio accordo","Autorità giudiziale","NO","evento.scioglimentoUnioneCivile","autoritaGiudiziaria","121-octies","evento.scioglimentoUnioneCivile.assegnoMantenimento,=,true"

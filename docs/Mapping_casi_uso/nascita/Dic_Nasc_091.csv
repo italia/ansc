@@ -180,6 +180,7 @@
 "Atto riconoscimento materno","Data atto","SI","evento.riconoscimentoMadre.atto","dataformazione","","obbligatoria"
 "Atto riconoscimento materno","Parte","NO","evento.riconoscimentoMadre.atto","parte","43","obbligatoria"
 "Atto riconoscimento materno","Serie","NO","evento.riconoscimentoMadre.atto","serie","43","obbligatoria"
+"Atto riconoscimento materno","Volume","NO","evento.riconoscimentoMadre.atto","volume","43","obbligatoria"
 "Atto riconoscimento materno","Tipo registro","SI","evento.riconoscimentoMadre.atto","tipologia","","obbligatoria"
 "Interprete","Cognome","NO","evento.interprete","cognome","195,196","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"
 "Interprete","Nome","SI","evento.interprete","nome","","evento.ausilioInterprete,!=,true && evento.ausilioInterprete,!=,S && evento.ausilioInterprete,!=,SI"

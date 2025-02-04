@@ -1,3 +1,732 @@
+#Changelog mappatura casi uso 1.37.0  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 138
+* cittadinanza/Citt_004.csv
+* cittadinanza/Citt_006.csv
+* cittadinanza/Citt_008.csv
+* cittadinanza/Citt_010.csv
+* cittadinanza/Citt_012.csv
+* cittadinanza/Citt_013.csv
+* cittadinanza/Citt_014.csv
+* cittadinanza/Citt_017.csv
+* cittadinanza/Citt_021.csv
+* cittadinanza/Citt_022.csv
+* cittadinanza/Citt_025.csv
+* cittadinanza/Citt_029.csv
+* cittadinanza/Citt_031.csv
+* cittadinanza/Citt_032.csv
+* cittadinanza/Citt_034.csv
+* cittadinanza/Citt_037.csv
+* cittadinanza/Citt_039.csv
+* cittadinanza/Citt_041.csv
+* cittadinanza/Citt_043.csv
+* cittadinanza/Citt_044.csv
+* cittadinanza/Citt_045.csv
+* cittadinanza/Citt_998_3.csv
+* cittadinanza/Citt_ann_auto.csv
+* matrimoni/Matr_001.csv
+* matrimoni/Matr_002.csv
+* matrimoni/Matr_003.csv
+* matrimoni/Matr_004.csv
+* matrimoni/Matr_005.csv
+* matrimoni/Matr_007.csv
+* matrimoni/Matr_008.csv
+* matrimoni/Matr_009.csv
+* matrimoni/Matr_010.csv
+* matrimoni/Matr_011.csv
+* matrimoni/Matr_012.csv
+* matrimoni/Matr_013.csv
+* matrimoni/Matr_019.csv
+* matrimoni/Matr_998_3.csv
+* matrimoni/Matr_999_1.csv
+* matrimoni/Matr_999_2.csv
+* matrimoni/Matr_ann_auto.csv
+* matrimoni/Matr_Riconc_001.csv
+* matrimoni/Sep_Div_001.csv
+* matrimoni/Sep_Div_002.csv
+* matrimoni/Sep_Div_003.csv
+* matrimoni/Sep_Div_004.csv
+* matrimoni/Sep_Div_005.csv
+* matrimoni/Sep_Div_006.csv
+* matrimoni/Sep_Div_007.csv
+* matrimoni/Sep_Div_008.csv
+* morte/Morte_001.csv
+* morte/Morte_002.csv
+* morte/Morte_003.csv
+* morte/Morte_004.csv
+* morte/Morte_005.csv
+* morte/Morte_006.csv
+* morte/Morte_007.csv
+* morte/Morte_008.csv
+* morte/Morte_009.csv
+* morte/Morte_010.csv
+* morte/Morte_011.csv
+* morte/Morte_998_3.csv
+* morte/Morte_999.csv
+* morte/Morte_ann_auto.csv
+* nascita/Dic_Nasc_060.csv
+* nascita/Dic_Nasc_061.csv
+* nascita/Dic_Nasc_062.csv
+* nascita/Dic_Nasc_063.csv
+* nascita/Dic_Nasc_064.csv
+* nascita/Dic_Nasc_065.csv
+* nascita/Dic_Nasc_066.csv
+* nascita/Dic_Nasc_067.csv
+* nascita/Dic_Nasc_068.csv
+* nascita/Dic_Nasc_069.csv
+* nascita/Dic_Nasc_070.csv
+* nascita/Dic_Nasc_071.csv
+* nascita/Dic_Nasc_072.csv
+* nascita/Dic_Nasc_073.csv
+* nascita/Dic_Nasc_074.csv
+* nascita/Dic_Nasc_075.csv
+* nascita/Dic_Nasc_076.csv
+* nascita/Dic_Nasc_091.csv
+* nascita/Dic_Nasc_092.csv
+* nascita/Dic_Nasc_108.csv
+* nascita/Dic_Nasc_109.csv
+* nascita/Dic_Nasc_117.csv
+* nascita/Dic_Nasc_120.csv
+* nascita/Dic_Nasc_998_2.csv
+* nascita/Dic_Nasc_998_3.csv
+* nascita/Dic_Nasc_998_4.csv
+* nascita/Dic_Nasc_998_6.csv
+* nascita/Dic_Nasc_998_7.csv
+* nascita/Dic_Nasc_998_8.csv
+* riconoscimenti/Rico_001.csv
+* riconoscimenti/Rico_004.csv
+* riconoscimenti/Rico_005.csv
+* riconoscimenti/Rico_006.csv
+* riconoscimenti/Rico_007.csv
+* riconoscimenti/Rico_008.csv
+* riconoscimenti/Rico_009.csv
+* riconoscimenti/Rico_010.csv
+* riconoscimenti/Rico_011.csv
+* riconoscimenti/Rico_012.csv
+* riconoscimenti/Rico_013.csv
+* riconoscimenti/Rico_014.csv
+* riconoscimenti/Rico_015.csv
+* riconoscimenti/Rico_017.csv
+* riconoscimenti/Rico_018.csv
+* riconoscimenti/Rico_019.csv
+* riconoscimenti/Rico_020.csv
+* trascrizioni/Trascr_002.csv
+* trascrizioni/Trascr_003.csv
+* trascrizioni/Trascr_010.csv
+* trascrizioni/Trascr_011.csv
+* trascrizioni/Trascr_012.csv
+* trascrizioni/Trascr_015.csv
+* trascrizioni/Trascr_017.csv
+* trascrizioni/Trascr_018.csv
+* trascrizioni/Trascr_023.csv
+* trascrizioni/Trascr_025.csv
+* trascrizioni/Trascr_026.csv
+* trascrizioni/Trascr_031.csv
+* trascrizioni/Trascr_999.csv
+* trascrizioni/Trascr_Citt_999.csv
+* trascrizioni/Trascr_Matr_001.csv
+* trascrizioni/Trascr_Matr_002.csv
+* trascrizioni/Trascr_Matr_999.csv
+* trascrizioni/Trascr_Morte_999.csv
+* trascrizioni/Trascr_UnCiv_999.csv
+* unioni_civili/Sciogl_UnCiv_001.csv
+* unioni_civili/Sciogl_UnCiv_002.csv
+* unioni_civili/Sciogl_UnCiv_003.csv
+* unioni_civili/Sciogl_UnCiv_004.csv
+* unioni_civili/Sciogl_UnCiv_005.csv
+* unioni_civili/UnCiv_001.csv
+* unioni_civili/UnCiv_004.csv
+* unioni_civili/UnCiv_998_3.csv
+* unioni_civili/UnCiv_998_5.csv
+* unioni_civili/UnCiv_ann_auto.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_004.csv : 
+* Presenti modifiche per 'evento.eventoCollegato.idProvinciaRegistrazione' (riga:42)
+* Presenti modifiche per 'evento.eventoCollegato.siglaProvinciaRegistrazione' (riga:43)
+* Presenti modifiche per 'evento.eventoCollegato.idComuneRegistrazione' (riga:44)
+* Presenti modifiche per 'evento.eventoCollegato.nomeComuneRegistrazione' (riga:45)
+* Presenti modifiche per 'evento.eventoCollegato.numeroatto' (riga:47)
+* Presenti modifiche per 'evento.eventoCollegato.annoAtto' (riga:48)
+* Presenti modifiche per 'evento.eventoCollegato.dataformazione' (riga:49)
+* Aggiunto 'evento.eventoCollegato.volume' (riga:52)
+
+### Modifiche per il caso uso cittadinanza/Citt_006.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:61)
+
+### Modifiche per il caso uso cittadinanza/Citt_008.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:58)
+
+### Modifiche per il caso uso cittadinanza/Citt_010.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:62)
+
+### Modifiche per il caso uso cittadinanza/Citt_012.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:62)
+
+### Modifiche per il caso uso cittadinanza/Citt_013.csv : 
+* Aggiunto 'evento.riconoscimentoPadre.atto.volume' (riga:89)
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:116)
+
+### Modifiche per il caso uso cittadinanza/Citt_014.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:62)
+
+### Modifiche per il caso uso cittadinanza/Citt_017.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:60)
+
+### Modifiche per il caso uso cittadinanza/Citt_021.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:129)
+
+### Modifiche per il caso uso cittadinanza/Citt_022.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:109)
+
+### Modifiche per il caso uso cittadinanza/Citt_025.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:54)
+
+### Modifiche per il caso uso cittadinanza/Citt_029.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:56)
+
+### Modifiche per il caso uso cittadinanza/Citt_031.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:54)
+
+### Modifiche per il caso uso cittadinanza/Citt_032.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:61)
+
+### Modifiche per il caso uso cittadinanza/Citt_034.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:54)
+
+### Modifiche per il caso uso cittadinanza/Citt_037.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:54)
+
+### Modifiche per il caso uso cittadinanza/Citt_039.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:54)
+
+### Modifiche per il caso uso cittadinanza/Citt_041.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:54)
+
+### Modifiche per il caso uso cittadinanza/Citt_043.csv : 
+* Aggiunto 'evento.datiEventoCittadinanza.officiante' (riga:22)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.cognome' (riga:23)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.nome' (riga:24)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.idANPR' (riga:25)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.sesso' (riga:26)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.dataNascita' (riga:27)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.idStatoNascita' (riga:28)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.nomeStatoNascita' (riga:29)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.idProvinciaNascita' (riga:30)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.siglaProvinciaNascita' (riga:31)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.idComuneNascita' (riga:32)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.nomeComuneNascita' (riga:33)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.localitaEsteraNascita' (riga:34)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.idNazionalita' (riga:35)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.nazionalita' (riga:36)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.flagIrreperibile' (riga:37)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.idStatoResidenza' (riga:38)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.nomeStatoResidenza' (riga:39)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.idProvinciaResidenza' (riga:40)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.siglaProvinciaResidenza' (riga:41)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.idComuneResidenza' (riga:42)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.nomeComuneResidenza' (riga:43)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.indirizzoResidenza' (riga:44)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.flagDichiarante' (riga:45)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.flagComparente' (riga:46)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.flagFirmatario' (riga:47)
+
+### Modifiche per il caso uso cittadinanza/Citt_044.csv : 
+* Aggiunto 'evento.datiEventoCittadinanza.officiante' (riga:18)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.cognome' (riga:19)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.nome' (riga:20)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.idANPR' (riga:21)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.sesso' (riga:22)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.dataNascita' (riga:23)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.idStatoNascita' (riga:24)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.nomeStatoNascita' (riga:25)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.idProvinciaNascita' (riga:26)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.siglaProvinciaNascita' (riga:27)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.idComuneNascita' (riga:28)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.nomeComuneNascita' (riga:29)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.localitaEsteraNascita' (riga:30)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.idNazionalita' (riga:31)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.nazionalita' (riga:32)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.flagIrreperibile' (riga:33)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.idStatoResidenza' (riga:34)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.nomeStatoResidenza' (riga:35)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.idProvinciaResidenza' (riga:36)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.siglaProvinciaResidenza' (riga:37)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.idComuneResidenza' (riga:38)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.nomeComuneResidenza' (riga:39)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.indirizzoResidenza' (riga:40)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.flagDichiarante' (riga:41)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.flagComparente' (riga:42)
+* Presenti modifiche per 'evento.ufficialeStatoCivile.flagFirmatario' (riga:43)
+
+### Modifiche per il caso uso cittadinanza/Citt_045.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:121)
+
+### Modifiche per il caso uso cittadinanza/Citt_998_3.csv : 
+* Aggiunto 'evento.datiAnnotazioneModificativa.attoIntestatario.volume' (riga:42)
+
+### Modifiche per il caso uso cittadinanza/Citt_ann_auto.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:18)
+
+### Modifiche per il caso uso matrimoni/Matr_001.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:268)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:288)
+
+### Modifiche per il caso uso matrimoni/Matr_002.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:279)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:299)
+
+### Modifiche per il caso uso matrimoni/Matr_003.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:256)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:269)
+
+### Modifiche per il caso uso matrimoni/Matr_004.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:275)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:295)
+
+### Modifiche per il caso uso matrimoni/Matr_005.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:284)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:304)
+
+### Modifiche per il caso uso matrimoni/Matr_007.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:169)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:189)
+
+### Modifiche per il caso uso matrimoni/Matr_008.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:169)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:189)
+
+### Modifiche per il caso uso matrimoni/Matr_009.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:272)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:292)
+* Aggiunto 'evento.datiEventoMatrimonio.consensoRiconoscimento.atto.volume' (riga:312)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita.volume' (riga:589)
+
+### Modifiche per il caso uso matrimoni/Matr_010.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:283)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:303)
+* Aggiunto 'evento.datiEventoMatrimonio.consensoRiconoscimento.atto.volume' (riga:323)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita.volume' (riga:643)
+
+### Modifiche per il caso uso matrimoni/Matr_011.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:259)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:272)
+* Aggiunto 'evento.datiEventoMatrimonio.consensoRiconoscimento.atto.volume' (riga:285)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita.volume' (riga:582)
+
+### Modifiche per il caso uso matrimoni/Matr_012.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:278)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:298)
+* Aggiunto 'evento.datiEventoMatrimonio.consensoRiconoscimento.atto.volume' (riga:318)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita.volume' (riga:595)
+
+### Modifiche per il caso uso matrimoni/Matr_013.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:286)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:306)
+* Aggiunto 'evento.datiEventoMatrimonio.consensoRiconoscimento.atto.volume' (riga:326)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita.volume' (riga:646)
+
+### Modifiche per il caso uso matrimoni/Matr_019.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:239)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:252)
+
+### Modifiche per il caso uso matrimoni/Matr_998_3.csv : 
+* Aggiunto 'evento.datiAnnotazioneModificativa.attoIntestatario.volume' (riga:42)
+
+### Modifiche per il caso uso matrimoni/Matr_999_1.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:214)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:227)
+
+### Modifiche per il caso uso matrimoni/Matr_999_2.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:214)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:227)
+
+### Modifiche per il caso uso matrimoni/Matr_ann_auto.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:18)
+
+### Modifiche per il caso uso matrimoni/Matr_Riconc_001.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:98)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:111)
+* Aggiunto 'evento.riconciliazione.attoMatrimonio.volume' (riga:124)
+* Aggiunto 'evento.riconciliazione.attoAccordoSeparazione.volume' (riga:144)
+* Aggiunto 'evento.riconciliazione.attoNegoziazioneAssistita.volume' (riga:157)
+* Aggiunto 'evento.riconciliazione.attoConfermaAccordoSeparazione.volume' (riga:170)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_001.csv : 
+* Aggiunto 'evento.separazione.attoMatrimonio.volume' (riga:31)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_002.csv : 
+* Aggiunto 'evento.separazione.attoMatrimonio.volume' (riga:31)
+* Aggiunto 'evento.separazione.accordoSeparazione.volume' (riga:165)
+* Aggiunto 'evento.separazione.confermaAccordoSeparazione.volume' (riga:178)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_003.csv : 
+* Aggiunto 'evento.separazione.attoMatrimonio.volume' (riga:19)
+* Aggiunto 'evento.separazione.accordoSeparazione.volume' (riga:146)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_004.csv : 
+* Aggiunto 'evento.separazione.attoMatrimonio.volume' (riga:30)
+* Aggiunto 'evento.separazione.accordoSeparazione.volume' (riga:129)
+* Aggiunto 'evento.separazione.confermaAccordoSeparazione.volume' (riga:142)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_005.csv : 
+* Aggiunto 'evento.negoziazioneAssistita.attoMatrimonio.volume' (riga:27)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_006.csv : 
+* Aggiunto 'evento.separazione.attoMatrimonio.volume' (riga:62)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_007.csv : 
+* Aggiunto 'evento.separazione.attoMatrimonio.volume' (riga:78)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_008.csv : 
+* Aggiunto 'evento.separazione.accordoSeparazione.volume' (riga:193)
+
+### Modifiche per il caso uso morte/Morte_001.csv : 
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.volume' (riga:202)
+
+### Modifiche per il caso uso morte/Morte_002.csv : 
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.volume' (riga:118)
+
+### Modifiche per il caso uso morte/Morte_003.csv : 
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.volume' (riga:118)
+
+### Modifiche per il caso uso morte/Morte_004.csv : 
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.volume' (riga:47)
+
+### Modifiche per il caso uso morte/Morte_005.csv : 
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.volume' (riga:133)
+
+### Modifiche per il caso uso morte/Morte_006.csv : 
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.volume' (riga:154)
+
+### Modifiche per il caso uso morte/Morte_007.csv : 
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.volume' (riga:137)
+
+### Modifiche per il caso uso morte/Morte_008.csv : 
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.volume' (riga:130)
+
+### Modifiche per il caso uso morte/Morte_009.csv : 
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.volume' (riga:134)
+
+### Modifiche per il caso uso morte/Morte_010.csv : 
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.volume' (riga:151)
+
+### Modifiche per il caso uso morte/Morte_011.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:21)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.volume' (riga:155)
+
+### Modifiche per il caso uso morte/Morte_998_3.csv : 
+* Aggiunto 'evento.datiAnnotazioneModificativa.attoIntestatario.volume' (riga:42)
+
+### Modifiche per il caso uso morte/Morte_999.csv : 
+* Aggiunto 'evento.datiEventoMorte.attoNascitaDeceduto.volume' (riga:116)
+
+### Modifiche per il caso uso morte/Morte_ann_auto.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:18)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_060.csv : 
+* Presenti modifiche per 'Allegati Atto di pre-riconoscimento' (riga:5)
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:183)
+* Aggiunto 'evento.riconoscimentoPadre.atto.volume' (riga:197)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_061.csv : 
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:182)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_062.csv : 
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:183)
+* Aggiunto 'evento.riconoscimentoPadre.atto.volume' (riga:197)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_063.csv : 
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:183)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_064.csv : 
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:184)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_065.csv : 
+* Presenti modifiche per 'evento.dichiarante.nazionalita' (riga:48)
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:183)
+* Aggiunto 'evento.riconoscimentoPadre.atto.volume' (riga:197)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_066.csv : 
+* Presenti modifiche per 'evento.dichiarante.nazionalita' (riga:48)
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:183)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_067.csv : 
+* Presenti modifiche per 'evento.dichiarante.nazionalita' (riga:49)
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:185)
+* Aggiunto 'evento.riconoscimentoPadre.atto.volume' (riga:199)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_068.csv : 
+* Presenti modifiche per 'evento.dichiarante.nazionalita' (riga:49)
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:192)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_069.csv : 
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:147)
+* Aggiunto 'evento.riconoscimentoPadre.atto.volume' (riga:161)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_070.csv : 
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:155)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_071.csv : 
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:147)
+* Aggiunto 'evento.riconoscimentoPadre.atto.volume' (riga:161)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_072.csv : 
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_073.csv : 
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_074.csv : 
+* Presenti modifiche per 'evento.dichiarante.nazionalita' (riga:37)
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:147)
+* Aggiunto 'evento.riconoscimentoPadre.atto.volume' (riga:161)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_075.csv : 
+* Presenti modifiche per 'evento.dichiarante.nazionalita' (riga:37)
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_076.csv : 
+* Presenti modifiche per 'evento.dichiarante.nazionalita' (riga:38)
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:149)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_091.csv : 
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:183)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_092.csv : 
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_108.csv : 
+* Presenti modifiche per 'evento.dichiarante.nazionalita' (riga:49)
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:185)
+* Aggiunto 'evento.riconoscimentoPadre.atto.volume' (riga:199)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_109.csv : 
+* Presenti modifiche per 'evento.dichiarante.nazionalita' (riga:49)
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:185)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_117.csv : 
+* Presenti modifiche per 'evento.dichiarante.nazionalita' (riga:38)
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:149)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_120.csv : 
+* Aggiunto 'evento.datiAnnotazioneModificativa.attoIntestatario.volume' (riga:42)
+* Aggiunto 'evento.datiAnnotazioneModificativa.attoGenitore.volume' (riga:55)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_2.csv : 
+* Aggiunto 'evento.enteDichiarante.nazioneEnte' (riga:15)
+* Aggiunto 'evento.enteDichiarante.nomeNazioneEnte' (riga:16)
+* Presenti modifiche per 'evento.enteDichiarante.idProvinciaEnte' (riga:17)
+* Presenti modifiche per 'evento.enteDichiarante.siglaProvinciaEnte' (riga:18)
+* Presenti modifiche per 'evento.enteDichiarante.idComuneEnte' (riga:19)
+* Presenti modifiche per 'evento.enteDichiarante.nomeComuneEnte' (riga:20)
+* Aggiunto 'evento.enteDichiarante.idAnagraficaConsolato' (riga:21)
+* Aggiunto 'evento.enteDichiarante.nomeAnagraficaConsolato' (riga:22)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_3.csv : 
+* Aggiunto 'evento.datiAnnotazioneModificativa.attoIntestatario.volume' (riga:42)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_4.csv : 
+* Aggiunto 'evento.datiAdozioneMinoriInternazionale.attoAdozione.volume' (riga:19)
+* Aggiunto 'evento.datiAdozioneMinoriInternazionale.attoNascita.volume' (riga:32)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_6.csv : 
+* Aggiunto 'evento.datiAdozioneMultiIntestatario.attoAdozione.volume' (riga:20)
+* Aggiunto 'evento.datiAdozioneMultiIntestatario.attoNascita.volume' (riga:33)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_7.csv : 
+* Aggiunto 'evento.datiAdozioneMultiIntestatario.attoAdozione.volume' (riga:20)
+* Aggiunto 'evento.datiAdozioneMultiIntestatario.attoNascita.volume' (riga:33)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_8.csv : 
+* Aggiunto 'evento.datiAnnotazioneModificativa.attoIntestatario.volume' (riga:42)
+
+### Modifiche per il caso uso riconoscimenti/Rico_001.csv : 
+* Aggiunto 'evento.consensoMadre.atto.volume' (riga:128)
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:157)
+
+### Modifiche per il caso uso riconoscimenti/Rico_004.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:176)
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoAtto.volume' (riga:189)
+* Aggiunto 'evento.consensoMadre.atto.volume' (riga:202)
+
+### Modifiche per il caso uso riconoscimenti/Rico_005.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:139)
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoAtto.volume' (riga:152)
+
+### Modifiche per il caso uso riconoscimenti/Rico_006.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:178)
+* Aggiunto 'evento.consensoMadre.atto.volume' (riga:191)
+
+### Modifiche per il caso uso riconoscimenti/Rico_007.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:176)
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoAtto.volume' (riga:189)
+* Aggiunto 'evento.consensoPadre.atto.volume' (riga:202)
+
+### Modifiche per il caso uso riconoscimenti/Rico_008.csv : 
+* Presenti modifiche per 'Allegati Copia dell'atto di assenso del figlio' (riga:4)
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:144)
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoAtto.volume' (riga:157)
+
+### Modifiche per il caso uso riconoscimenti/Rico_009.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:142)
+
+### Modifiche per il caso uso riconoscimenti/Rico_010.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:176)
+* Aggiunto 'evento.consensoPadre.atto.volume' (riga:189)
+
+### Modifiche per il caso uso riconoscimenti/Rico_011.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:176)
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoAtto.volume' (riga:189)
+
+### Modifiche per il caso uso riconoscimenti/Rico_012.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:175)
+
+### Modifiche per il caso uso riconoscimenti/Rico_013.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:147)
+* Aggiunto 'evento.riconoscimentoPadre.atto.volume' (riga:161)
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:175)
+* Aggiunto 'evento.riconoscimento.atto.volume' (riga:188)
+
+### Modifiche per il caso uso riconoscimenti/Rico_014.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:148)
+* Aggiunto 'evento.riconoscimentoPadre.atto.volume' (riga:162)
+
+### Modifiche per il caso uso riconoscimenti/Rico_015.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:148)
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:162)
+
+### Modifiche per il caso uso riconoscimenti/Rico_017.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:176)
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoAtto.volume' (riga:189)
+
+### Modifiche per il caso uso riconoscimenti/Rico_018.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:181)
+
+### Modifiche per il caso uso riconoscimenti/Rico_019.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:175)
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoAtto.volume' (riga:188)
+* Aggiunto 'evento.consensoMadre.atto.volume' (riga:201)
+
+### Modifiche per il caso uso riconoscimenti/Rico_020.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:142)
+
+### Modifiche per il caso uso trascrizioni/Trascr_002.csv : 
+* Aggiunto 'evento.trascrizioneNascita.attoCambioCognomeGenitore.volume' (riga:131)
+* Aggiunto 'evento.eventoCollegato.volume' (riga:144)
+
+### Modifiche per il caso uso trascrizioni/Trascr_003.csv : 
+* Aggiunto 'evento.riconoscimentoPadre.atto.volume' (riga:123)
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:143)
+* Aggiunto 'evento.eventoCollegato.volume' (riga:156)
+
+### Modifiche per il caso uso trascrizioni/Trascr_010.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:138)
+
+### Modifiche per il caso uso trascrizioni/Trascr_011.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:119)
+
+### Modifiche per il caso uso trascrizioni/Trascr_012.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:168)
+* Aggiunto 'evento.eventoCollegato.volume' (riga:194)
+
+### Modifiche per il caso uso trascrizioni/Trascr_015.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:110)
+
+### Modifiche per il caso uso trascrizioni/Trascr_017.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:123)
+
+### Modifiche per il caso uso trascrizioni/Trascr_018.csv : 
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.nazioneEnte' (riga:108)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.nomeNazioneEnte' (riga:109)
+* Presenti modifiche per 'evento.trascrizioneNascita.autoritaMittente.idProvinciaEnte' (riga:110)
+* Presenti modifiche per 'evento.trascrizioneNascita.autoritaMittente.idComuneEnte' (riga:112)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.idAnagraficaConsolato' (riga:114)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.nomeAnagraficaConsolato' (riga:115)
+
+### Modifiche per il caso uso trascrizioni/Trascr_023.csv : 
+* Aggiunto 'evento.riconoscimentoPadre.atto.volume' (riga:123)
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:136)
+* Aggiunto 'evento.riconoscimento.atto.volume' (riga:149)
+* Aggiunto 'evento.eventoCollegato.volume' (riga:162)
+
+### Modifiche per il caso uso trascrizioni/Trascr_025.csv : 
+* Aggiunto 'evento.trascrizioneNascita.attoCambioCognomeGenitore.volume' (riga:124)
+* Aggiunto 'evento.eventoCollegato.volume' (riga:137)
+
+### Modifiche per il caso uso trascrizioni/Trascr_026.csv : 
+* Aggiunto 'evento.riconoscimentoPadre.atto.volume' (riga:118)
+* Aggiunto 'evento.riconoscimentoMadre.atto.volume' (riga:131)
+* Aggiunto 'evento.riconoscimento.atto.volume' (riga:144)
+* Aggiunto 'evento.eventoCollegato.volume' (riga:157)
+
+### Modifiche per il caso uso trascrizioni/Trascr_031.csv : 
+* Aggiunto 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:91)
+* Aggiunto 'evento.eventoCollegato.volume' (riga:117)
+
+### Modifiche per il caso uso trascrizioni/Trascr_999.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:114)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Citt_999.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:54)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_001.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:100)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:113)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_002.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:98)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:111)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_999.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:92)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:105)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:118)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Morte_999.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:95)
+* Aggiunto 'evento.trascrizioneMorte.attoNascitaDeceduto.volume' (riga:163)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_999.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:92)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_001.csv : 
+* Aggiunto 'evento.scioglimentoUnioneCivile.attoUnioneCivile.volume' (riga:87)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_002.csv : 
+* Aggiunto 'evento.scioglimentoUnioneCivile.attoUnioneCivile.volume' (riga:92)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_003.csv : 
+* Aggiunto 'evento.scioglimentoUnioneCivile.attoUnioneCivile.volume' (riga:96)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_004.csv : 
+* Aggiunto 'evento.scioglimentoUnioneCivile.accordoScioglimento.volume' (riga:86)
+* Aggiunto 'evento.scioglimentoUnioneCivile.attoUnioneCivile.volume' (riga:99)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_005.csv : 
+* Aggiunto 'evento.scioglimentoUnioneCivile.accordoScioglimento.volume' (riga:85)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_001.csv : 
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.volume' (riga:143)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.volume' (riga:156)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_004.csv : 
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge1.volume' (riga:154)
+* Aggiunto 'evento.datiEventoUnioneCivile.attoNascitaConiuge2.volume' (riga:167)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_3.csv : 
+* Aggiunto 'evento.datiAnnotazioneModificativa.attoIntestatario.volume' (riga:42)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_5.csv : 
+* Aggiunto 'evento.datiAnnotazioneModificativa.attoIntestatario.volume' (riga:24)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_ann_auto.csv : 
+* Aggiunto 'evento.eventoCollegato.volume' (riga:18)
+
+
 #Changelog mappatura casi uso 1.36.5  
 
 ## Casi uso aggiunti : 0

@@ -190,6 +190,7 @@
 "Accordo divorzio collegato","Data atto","SI","evento.separazione.accordoSeparazione","dataformazione","","obbligatoria"
 "Accordo divorzio collegato","Parte","NO","evento.separazione.accordoSeparazione","parte","121-sexies","obbligatoria"
 "Accordo divorzio collegato","Serie","NO","evento.separazione.accordoSeparazione","serie","121-sexies","obbligatoria"
+"Accordo divorzio collegato","Volume","NO","evento.separazione.accordoSeparazione","volume","121-sexies","obbligatoria"
 "Accordo divorzio collegato","Tipo registro","SI","evento.separazione.accordoSeparazione","tipologia","","obbligatoria"
 "Dettagli evento","Tipo accordo","SI","evento.separazione","tipoAccordo","","obbligatoria"
 "Dettagli evento","Presenza Marito","SI","evento.separazione","presenzaConiuge1","","obbligatoria"

@@ -59,6 +59,7 @@
 "Atto di Matrimonio","Data atto","NO","evento.separazione.attoMatrimonio","dataformazione","","obbligatoria"
 "Atto di Matrimonio","Parte","NO","evento.separazione.attoMatrimonio","parte","","obbligatoria"
 "Atto di Matrimonio","Serie","NO","evento.separazione.attoMatrimonio","serie","","obbligatoria"
+"Atto di Matrimonio","Volume","NO","evento.separazione.attoMatrimonio","volume","","obbligatoria"
 "Atto di Matrimonio","Tipo registro","SI","evento.separazione.attoMatrimonio","tipologia","","obbligatoria"
 "Marito","Cognome","NO","evento.intestatari[0]","cognome","","obbligatoria"
 "Marito","Nome","SI","evento.intestatari[0]","nome","","obbligatoria"
