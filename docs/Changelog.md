@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.37.1 - 05-02-2025]
+
+### Fixed
+
+- Corretto campo da siglaEnunciazioni a siglaEnunciazione nell'openapi R019 <https://github.com/italia/ansc/issues/1291>
+
 ## [1.37.0 - 04-02-2025]
 
 ### Added
