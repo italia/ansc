@@ -1,13 +1,17 @@
 # Roadmap
 
-Questo documento descrive le principali attività che verranno rilasciata nelle 
-future versioni del software di ANSC. Le date esatte sono suscettibili di variazioni.
+Questo documento descrive le principali attività che verranno rilasciata nelle future versioni del software di ANSC.
+Le date e la composizione degli interventi potrebbero subire variazioni.
 
-## [30-12-2024]
+## [04-03-2025]
+- ID139 Trascrizione del decreto cittadinanza per art.9 (per residenza) <https://github.com/italia/ansc/issues/1084>
+- ID 145 Servizi di riconciliazione anagrafiche ANPR/ANSC; estensione del servizio di riconciliazione prevedendo l'integrazione con ANPR <https://github.com/italia/ansc/issues/1088>
+- ID 148 Evoluzione annotazioni automatiche inviate al comune che detiene l'atto cartaceo se ha aderito ad ANSC; estensione servizio di notifiche delle annotazioni automatiche con l'aggiunta delle informazioni sull'atto di destinazione e relativo comune <https://github.com/italia/ansc/issues/1091>
 
-- ID110 Completamento funzionalità per il   Comune relative al rilascio certificazioni per servizi al cittadino (flusso richiesta estratti) 
-- ID128 Dichiarazione nascita/matrimonio/unione civile/morte su decreto del tribunale
-- ID 135 Gestione giuramento cittadinanza con firma sindaco in differita
-- ID 95.a Estensione annotazione modificativa generica per consentire cambio sesso
-- ID 43.b Servizi di collegamento con PA digitale (controlli da effettuare per l’approvazione del contributo)
-- ID 117 DM Nascita e Morte
+## [31-03-2025]
+- ID 170 Asseverazione per piccoli comuni
+
+## [30-04-2025]
+- ID 144 Servizi per il completamento della gestione documenti dei flussi DM nascita e morte: predisposzione bozze per atti di stato civile la cui documentazione perviene da sistema TS
+- ID 150 Evoluzione firma attestazione con possibilità di scegliere quali allegati siano da includere nell'attestazione di conformità e quali sono da ritenenrsi già conformi
+- ID 151 Prevedere di acquisire il numero di registro cartaceo quando ci sia un malfunzionamento ed una successiva acquisizione digitale (collegamento tra atto cartaceo temporaneo e atto digitalizzato)
