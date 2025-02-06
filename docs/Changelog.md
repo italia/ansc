@@ -23,6 +23,14 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.37.2 - 06-02-2025]
+
+### Fixed
+
+- Gestione doppi nome separati da virgola nelle certificazioni 
+- UC decesso: certificati ed estratti per riassunto, riferimento coniuge <https://github.com/italia/ansc/issues/1272>
+- [SC] Obbligatorietà dati nascita nel caso acquisto cittadinanza art.14 L.91/1992 <https://github.com/italia/ansc/issues/1289>
+
 ## [1.37.1 - 05-02-2025]
 
 ### Fixed
