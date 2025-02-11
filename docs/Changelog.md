@@ -23,6 +23,16 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.37.3 - 11-02-2025]
+
+### Fixed
+
+- [R009 / WA] Controllo bloccante anno di formazione: non è consentito trasmettere atti con anno formazione differente dall'anno in corso
+- [SC / WA] Trascrizione Atti di Morte: sezione coniuge resa completamente opzionale <https://github.com/italia/ansc/issues/1298>
+- [SC R020] Corretta la descrizione del controllo relativo all'atto collegato <https://github.com/italia/ansc/issues/1299>
+- [SC] Corretta notifica lato anagrafe <https://github.com/italia/ansc/issues/1295>
+- [Documentation] Corretta documentazione relativa alle casistiche di riconoscimento <https://github.com/italia/ansc/issues/1306>
+
 ## [1.37.2 - 06-02-2025]
 
 ### Fixed
