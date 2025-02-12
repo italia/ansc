@@ -32,6 +32,7 @@ NOTE:
 - [SC R020] Corretta la descrizione del controllo relativo all'atto collegato <https://github.com/italia/ansc/issues/1299>
 - [SC] Corretta notifica lato anagrafe <https://github.com/italia/ansc/issues/1295>
 - [Documentation] Corretta documentazione relativa alle casistiche di riconoscimento <https://github.com/italia/ansc/issues/1306>
+- [webapp]: RILASCIO CERTIFICATI INTERNAZIONALI EVENTI IN TRASCRIZIONE con caso d'uso di servizio  <https://github.com/italia/ansc/issues/1303>
 
 ## [1.37.2 - 06-02-2025]
 
