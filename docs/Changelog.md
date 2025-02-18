@@ -23,6 +23,21 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.37.4 - 18-02-2025]
+
+### Fixed
+
+- [SC]: R013 Annotazione modificativa per cambio regime patrimoniale <https://github.com/italia/ansc/issues/1313>
+- [SC R002]: segnalazione su estratti e certificati matrimonio <https://github.com/italia/ansc/issues/1314>
+- Documentazione non coerente per alcuni UC <https://github.com/italia/ansc/issues/1309>
+  - [casi d'uso] Aggiunto nuovo caso d'uso [2.2.2.5] (Morte_015) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+
+- Documentazione errata: UC annotazione modificativa di cambio sesso <https://github.com/italia/ansc/issues/1290>
+- [Documentation] Corretta documentazione relativa al model_evento.yaml:
+  - Aggiunti i campi: nuovoSesso, flagScioglimentoOCessazione, dataAnnotazioneRiferimento in ModelAnnotazioneModificativa
+- Gestione corretta del campo TIPOLOGIAADESIONE nel flusso PADigitale
+- Multilinguismo: recepite le prime correttive del tradutttore nelle minute generate in tedesco 
+
 ## [1.37.3 - 11-02-2025]
 
 ### Fixed

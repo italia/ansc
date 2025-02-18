@@ -3271,6 +3271,19 @@ components:
           example: 'Rossi'
         soggettoCollegato:
           $ref: '#/components/schemas/ModelSoggetto'
+        nuovoSesso:
+          type: string
+          description: nuovo sesso dell'intestatario
+          example: 'M'
+        flagScioglimentoOCessazione:
+          type: boolean
+          description: flag che indica se necessario chiedere le informazioni del coniuge
+          example: true
+        dataAnnotazioneRiferimento:
+          type: string
+          format: date
+          description: data annotazione di riferimento
+          example: '2020-01-23'
     ModelAdozioneMinoriInternazionale:
       description: Model annotazione modificativa rettifica per figlio a seguito cambio generalita genitori
       properties:

@@ -1,3 +1,13 @@
+#Changelog mappatura casi uso 1.37.4  
+
+## Casi uso aggiunti : 1
+* morte/Morte_015.csv
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 0
+
+
 #Changelog mappatura casi uso 1.37.3
 
 ## Casi uso aggiunti : 0
