@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.37.5 - 19-02-2025]
+
+### Fixed
+
+- [SC]: [2.2.2.5] (Morte_015) descrizione e idtipocontenuto <https://github.com/italia/ansc/issues/1328>
+
 ## [1.37.4 - 18-02-2025]
 
 ### Fixed

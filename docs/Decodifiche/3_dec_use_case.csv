@@ -210,6 +210,7 @@
 "2222","Trascrizione di morte: Trascrizioni di sentenze estera di morte presunta o scomparsa o assenza richiesta da pubblica autorita'","2022-01-01 00:00:00.0","9999-12-31 00:00:00.0","","3"
 "2223","Trascrizione di morte: Trascrizioni di sentenze estera di morte presunta o scomparsa o assenza richiesta da privato","2022-01-01 00:00:00.0","9999-12-31 00:00:00.0","","3"
 "2224","Trascrizione di morte: Trascrizioni di sentenze di accertamento morte gia' dichiarata presunta","2022-01-01 00:00:00.0","9999-12-31 00:00:00.0","","3"
+"2225","Trascrizione dichiarazione di morte su decreto del tribunale","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","","3"
 "2299","Caso d'uso di servizio trascrizioni di morte","2022-01-01 00:00:00.0","9999-12-31 00:00:00.0","","3"
 "2310","Caso d'uso di servizio annotazione comunicazione da altri comuni","2022-01-01 00:00:00.0","9999-12-31 00:00:00.0","","2"
 "2320","Caso d'uso di servizio annotazione comunicazione da altre amministrazioni","2022-01-01 00:00:00.0","9999-12-31 00:00:00.0","","2"
