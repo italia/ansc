@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.37.6 - 24-02-2025]
+
+### Fixed
+
+- [SC]: Notifica ANPR con luogo matrimonio errato <https://github.com/italia/ansc/issues/1320>
+
 ## [1.37.5 - 19-02-2025]
 
 ### Fixed
