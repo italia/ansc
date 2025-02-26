@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.37.7 - 26-02-2025]
+
+### Fixed
+
+- [SC]: Atto di Altro Comune - Notifica ANPR con dati mancanti <https://github.com/italia/ansc/issues/1339>
+
 ## [1.37.6 - 24-02-2025]
 
 ### Fixed
