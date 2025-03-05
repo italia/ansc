@@ -100,6 +100,12 @@ paths:
         required: true
         schema:
           type: string
+      - name: revision
+        in: query
+        required: true
+        description: La revisione del servizio invocato (ultima 2000004)
+        schema:
+          type: string
       requestBody:
         description: Body della richiesta
         content:
@@ -282,13 +288,13 @@ components:
           $ref: '#/components/schemas/ModelSoggettoRicerca'
 
     GetNotificheByEventoRequest:
-      description: Richiesta del servizio di ricerca notifiche per evento.
+      description: Richiesta del servizio di ricerca notifiche per evento sorgente.
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
         - type: object
           properties:
             idAnsc:
-              description: Identificativo dell'evento
+              description: Identificativo dell'evento sorgente
               type: string
               example: 2022-23525-3523-33A
     GetNotificheByEventoResponse:
@@ -345,7 +351,22 @@ components:
           description: Id Formula Annotazione
           type: string
           example: '121-septies'
-     
+        idstatorifiuto:
+          description: Id stato rifiuto (decodidifica ANSC 112)
+          type: number
+          example: 0
+        attoCollegato:
+          description: atto a cui si riferisce l'annotazione
+          $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelAttoCollegato'
+        attoPrimario:
+          description: atto su cui va apposta l'annotazione
+          $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelAttoCollegato'
+        composizioneAnnotazione:
+          description: testo annotazione presente sul pdf
+          type: string
+          example: 'Con provvedimento del nomeente in ITALIA in data 24/01/2025 n. ABC1234567890, è stata
+omologata la separazione consensuale fra i coniugi di cui atto di matrimonio controscritto.'
+
     NotificheRicercaRequest:
       description: Ritorno del servizio specializzato per la configurazione dei pannelli
       allOf:

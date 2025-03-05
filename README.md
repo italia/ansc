@@ -26,6 +26,7 @@ Nella cartella [docs](docs/index.md) si trova la seguente documentazione tecnica
 - Il mapping [dei metadati necessari](docs/Mapping_casi_uso) per casi d'uso in formato xlsx e csv, e relativi [readme](docs/Mapping_casi_uso/readme_mapping.md) ed [elenco delle modifiche](docs/Mapping_casi_uso/changelog_mapping.md).
 - La [storia delle versioni e patch](docs/Changelog.md) rilasciate.
 - La [note di rilascio](docs/ReleaseNotes.md), contenenti eventuali dettagli aggiuntivi necessari per un rilascio.
+- [Documentazione casi d'uso](https://italia.github.io/ansc/guide/)
 - [Il piano di test](docs/CasiTest/index.md).
 
 ## 4. Supporto

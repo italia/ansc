@@ -44,12 +44,12 @@ components:
           example: "BOZZA"
         flagsecretato:
           type: string
-          description: Indica se l'atto e' secretato o meno (1 secretato - 0 non secretato)
+          description: Indica se l'atto e' secretato o meno (1 secretato - 0 non secretato) (campo gestito dal sistema)
           example: 0
         idVersion:
           type: string
           description: Id della versione utilizzato per la creazione dell'evento (decodifica ANSC_100)
-          example: 1          
+          example: 100001
         # Dati di redazione dell'evento (sempre presenti)
         dataformazione: 
           type: string
@@ -2043,6 +2043,10 @@ components:
           format: date
           description: Data del verbale cittadinanza
           example: '2022-06-24'
+        officiante:
+          type: string
+          description: Officiante (decodifica ANSC_121)
+          example: '1'
 
     ModelTrascrizioneCittadinanza:
       allOf:
@@ -3308,5 +3312,5 @@ components:
           example: '1'
         formula:
           type: string
-          description: Tipo formula (ANSC_120 per UC secretato e ANSC_119 per UC non secretato)
+          description: Tipo formula (ANSC_119 per i casi d'uso secretati e ANSC_120 per i casi d'uso non secretati)
           example: '1'

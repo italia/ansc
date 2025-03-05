@@ -1,0 +1,105 @@
+=== Annotazione per adozione di minore multi-intestatario
+
+Il caso d’uso [UC 14960000], utilizzabile solo da un USC che possiede il profilo per la gestione dei dati secretati, prevede: 
+
+* l’indicazione dell’atto di nascita di uno degli intestatari
+* l’indicazione dell’atto di adozione obbligatoriamente multi-intestatario
+* l’eventuale rettifica del cognome per ogni intestatario interessato dal decreto di adozione multi-intestatario
+* l’inserimento del testo dell’annotazione 
+
+la formula prevista per l’annotazione è la n. 122-bis oppure 122 del DM 5/4/2002.
+
+L’annotazione verrà mostrata come annotazione a margine sulla copia integrale dell’atto di nascita di ogni intestatario, mentre i certificati semplici e gli estratti per riassunto, conterranno già le informazioni eventualmente modificate a seguito della annotazione.
+
+Per registrare l’evento è necessario utilizzare il servizio di validazione
+
+__R020 /annotazione-adozione-multi-intestatario/validazione/evento/{version}__, 
+
+di cui un esempio di payload è il seguente
+
+[source, json]
+----
+"evento": {
+      "id": "{ id }",
+      "idTipoEvento": "1",
+      "idtipocontenuto": "2",
+      "idUsecase": "14960000",
+      "descrizioneCasoUso": "Annotazione per adozione di minore multi intestatario",
+      "stato": "CONFERMATO",
+      "dataformazione": "2025-02-21",
+      "ora": "15",
+      "minuto": "37",
+      "annoAtto": "2025",
+      "numeroatto": "3",
+      "idComuneRegistrazione": "1000000",
+      "nomeComuneRegistrazione": "ANPR",
+      "idProvinciaRegistrazione": "58",
+      "siglaProvinciaRegistrazione": "RM",
+      "operatore": "CRUMRA67S47Z127B",
+      "ruoloOperatore": "2",
+      "operatoreNome": "MARIE",
+      "operatoreCognome": "CURIE",
+      "composizioneCompleta": "{ composizione per test }",
+      "idVersion": 100020,
+      "datiAdozioneMultiIntestatario": {
+         "tipologia": "1",
+         "attoAdozione": {
+            "id": "{ id }",
+            "idAnsc": "{ idAnsc }",
+            "idComuneRegistrazione": "1000000",
+            "nomeComuneRegistrazione": "ANPR",
+            "idProvinciaRegistrazione": "58",
+            "siglaProvinciaRegistrazione": "RM",
+            "idtipocontenuto": "3",
+            "dataformazione": "2025-02-21",
+            "numeroatto": "56387",
+            "annoAtto": "2025",
+            "tipologia": "1",
+            "serie": "",
+            "parte": "",
+            "volume": ""
+         },
+         "attoNascita": {
+            "id": "{ id }",
+            "idAnsc": "{ idAnsc }",
+            "idComuneRegistrazione": "1000000",
+            "nomeComuneRegistrazione": "ANPR",
+            "idProvinciaRegistrazione": "58",
+            "siglaProvinciaRegistrazione": "RM",
+            "idtipocontenuto": "3",
+            "dataformazione": "2025-02-21",
+            "numeroatto": "23456",
+            "annoAtto": "2025",
+            "tipologia": "1",
+            "serie": "",
+            "parte": "",
+            "volume": ""
+         },
+         "formula": "1"
+      }
+   }
+
+----
+
+
+La annotazione di adozione comporta la modifica dei dati di ogni intestatario se l’atto di nascita contiene una anagrafica precedente all’adozione.
+
+Il servizio cooperativo richiede i seguenti metadati nella sezione _ModelAdozioneMultiIntestatario_
+
+* attoNascita: i dati generali identificativi dell’atto di nascita del soggetto
+
+* attoAdozione:	i dati generali identificativi dell’atto di adozione, da cui vengono desunti eventualmente i dati anagrafici nuovi del soggetto adottato
+
+* tipologia: Tipo dati adozione (tabella decodifica __ANSC_108__)
+** 1 Atto di nascita con dati precedenti all'adozione
+** 2 Atto di nascita con nuove generalità
+
+* formula: Tipo formula (tabella decodifica __ANSC_119__)
+** 1	per la formula 122
+** 2 per la formula 122-bis 
+
+come dati generali dell’evento, il servizio richiede:
+* composizioneCompleta: questa informazione, se assente, viene automaticamente generata da sistema e restituita nella response del servizio; se presente viene considerata quella trasmessa.
+
+NOTE: *il flagsecretato non è una informazione da trasmettere in quanto è un dato gestito automaticamente da sistema; il caso d’uso nasce già secretato, e come tale viene gestito dal sistema.*
+

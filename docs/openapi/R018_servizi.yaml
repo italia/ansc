@@ -50,6 +50,46 @@ paths:
               schema:
                 $ref: '#/components/schemas/RiconciliazioneSoggettiResponse'
 
+  /servizi/soggetto-anpr/riconciliazione/{version}:
+    post:
+      tags:
+        - Servizio di riconciliazione soggetto anpr soggetto ansc
+      summary: Servizio che riconcilia soggetto anpr soggetto ansc
+      operationId: soggettoRiconciliazioneANPR
+      parameters:
+        - name: version
+          in: path
+          description: Versione del servizio
+          required: true
+          schema:
+            type: string
+      requestBody:
+        description: Soggetti da riconciliare
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RiconciliazioneSoggettiANPRRequest'
+        required: true
+      responses:
+        "200":
+          description: Successo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RiconciliazioneSoggettiResponse'
+        "403":
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RiconciliazioneSoggettiResponse'
+        "404":
+          description: Non trovato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RiconciliazioneSoggettiResponse'
+                
 components:
   securitySchemes:
     bearerAuth:
@@ -71,6 +111,21 @@ components:
               $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
             soggettoDaRiconciliare:
               description: Soggetto da riconciliare
+              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
+    RiconciliazioneSoggettiANPRRequest:
+      description: Dati dei soggetti da riconciliare
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+          required:
+            - soggettoANPR
+            - soggettoANSC
+        - type: object
+          properties:
+            soggettoANPR:
+              description: Soggetto anpr
+              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
+            soggettoANSC:
+              description: Soggetto ansc da riconciliare 
               $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
     RiconciliazioneSoggettiResponse:
       description: Dati di risposta del servizio di riconciliazione

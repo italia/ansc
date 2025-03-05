@@ -1,0 +1,27 @@
+== Annotazioni per adozioni
+
+La piattaforma ANSC, sia tramite utilizzo di web app che tramite utilizzo di servizi cooperativi richiamati dal gestionale locale, consente il trattamento delle adozioni nelle varie fattispecie di interesse.
+
+Nel caso di adozioni di minori, il sistema gestisce il caso in cui l’ufficiale dello stato civile abbia prima formato l’atto di nascita e successivamente abbia effettuato la trascrizione della sentenza di adozione. 
+
+In questo caso il sistema riporta sull’atto di nascita l’annotazione automatica della sentenza di adozione. Tale annotazione è visibile nella consultazione e nella produzione dell’estratto per copia integrale solo laddove la richiesta venga effettuata dal comune che ha formato l’atto e solo se l’ufficiale dello stato civile che ne fa richiesta abbia il profilo per la gestione dei dati secretati. 
+
+Nella casistica di adozione internazionale, invece, generalmente viene prima trascritta la sentenza di adozione, trasmessa al comune di residenza del minore che ha fatto ingresso con passaporto straniero, e successivamente il comune registra l’atto di nascita se esiste.
+
+Tale registrazione, a seconda della casistica può essere effettuata: 
+
+* riportando direttamente le nuove generalità e i dati dei genitori adottivi se l'atto di nascita nel paese straniero ha già riportato le generalità dei genitori adottanti 
+* riportando le vecchie generalità ed i genitori naturali perché nell'atto originale straniero rimangono le generalità dei genitori biologici.
+
+In entrambi i casi sull’atto di nascita deve sempre essere apposta l’annotazione di adozione:
+
+* integrativa, nel caso di formazione dell’atto di nascita con le nuove generalità
+* modificativa, nel caso di formazione dell’atto di nascita precedenti l’adozione.
+
+Tali annotazioni sull’atto di nascita di un minore adottato, rispettano il principio di secretazione; sono infatti consultabili e può essere richiesto l’estratto per copia integrale dal solo comune che ha formato l’atto e dall’ufficiale dello stato civile che abbia il profilo per la gestione dei dati secretati.
+
+I casi d’uso previsti per la gestione delle annotazioni sono:
+
+* annotazione per adozione internazionale di minore (secretata)
+* annotazione per adozione di minore multi-intestatario (secretata)
+* annotazione di adozione di maggiorenne o casi particolari multi-intestatario (non secretata)

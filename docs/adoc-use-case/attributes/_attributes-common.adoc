@@ -1,0 +1,14 @@
+:author: Angela Squeglia, Antonio Musarra, Matteo Franci
+:revnumber: v1.0.0
+:revdate: Febraury 28, 2025
+:email: supporto-ansc@sogei.it
+:description: Documentazione casi d'uso
+:keywords: stato civile, ansc, anpr
+:encoding: utf-8
+:lang: it
+:toc: left
+:hardbreaks-option:
+:sectnums:
+:sectnumlevels: 3
+:!figure-caption:
+:!chapter-signifier:

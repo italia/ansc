@@ -23,6 +23,46 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.38.0 - 04-03-2025]
+
+### Added
+
+- [versione] Estesa validità versioni attive di due mesi: le versioni sono valide 8 mesi complessivi
+- [versione] Aggiunta versione 100021
+- [feature] Aggiuna datavalidità sui certificati e sulla response R002
+- [feature] Estensione servizio di riconciliazione per soggetti ANPR con soggetti ANSC (ID 145)
+- [feature] Evoluzione annotazioni automatiche inviate al comune che detiene l'atto cartaceo se ha aderito ad ANSC (issue <https://github.com/italia/ansc/issues/1091>) (ID 148)
+- [feature] Estensione Giuramento di cittadinanza in merito all'officiante <https://github.com/italia/ansc/issues/1263> (ID 177)
+  - model_evento.yaml
+    - Aggiunto campo officiante in ModelDatiEventoCittadinanza
+- [R008] aggiunta revision [2000004](https://github.com/italia/ansc/blob/main/docs/Revision.md), adeguato l'output del path /notifiche/getNotificheByEvento a quanto dichiarato nell'openapi <https://github.com/italia/ansc/issues/1091>
+  - Aggiunti campi in ModelNotifica come segue:
+    attoCollegato: # atto a cui si riferisce l'annotazione
+    attoPrimario: # atto su cui va apposta l'annotazione
+    composizioneAnnotazione: # testo annotazione presente sul pdf
+  - Tali modifiche impattano i seguenti servizi:
+    - /notifiche/getNotificheByEvento 
+    - /notifiche/ricerca/
+- [decodifiche] Aggiunti valori in decodifica ANSC_46 dec_officiante: 11 - Assessore, 12 - Consigliere delegato dal Sindaco
+- [decodifiche] Aggiunta decodifica ANSC_121 dec_officiante_cittadinanza
+- [documentazione] Nuova sezione per la [documentazione dei casi d'uso](https://italia.github.io/ansc/guide/) che necessitano di ulteriori informazioni per l'integrazione.
+
+### Fixed
+
+- [WA]: Consultazione atti prefettura: gestione profili prefetture
+- [WA] CORREZIONE METADATI PER ART. 98 COMMA1: VISUALIZZAZIONE ANTEPRIMA ATTO E CERTIFICAZIONE ATTO DIFFERENTI <https://github.com/italia/ansc/issues/1340>
+- [SC]: R019 idesito=999 ma sembra tutto ok <https://github.com/italia/ansc/issues/1282>
+- [SC] annotazione per errore materiale: controllo sulla presenza del'id per ogni soggetto intestatario dell'atto rettifica
+- Corretti certificati ed estratti per riassunto di nascita in caso di bambino nato morto
+- UC matrimonio civile/unione civile: estendere la tabella di decodifica degli officianti
+- [R009] - Trascr_022 - Validazione evento in errore per dati mancanti del padre <https://github.com/italia/ansc/discussions/1280>
+- [webapp]: Allegato obbligatorio su trascrizione divorzio estero <https://github.com/italia/ansc/issues/1300>
+- [SC]: R020 Errore composizioneCompleta <https://github.com/italia/ansc/issues/1326>
+  - model_evento.yaml
+    - Adeguata la descrizione del campo formula in ModelAdozioneMultiIntestatario
+    - Adeguata la descrizione del campo flagsecretato
+- [WA]: verifica qr code certificati - ora i certificati si possono verificare solo per 6 mesi dopo l'emissione.
+
 ## [1.37.7 - 26-02-2025]
 
 ### Fixed

@@ -32,5 +32,5 @@
 "Atto di Nascita","Serie","NO","evento.datiAdozioneMultiIntestatario.attoNascita","serie","","obbligatoria"
 "Atto di Nascita","Volume","NO","evento.datiAdozioneMultiIntestatario.attoNascita","volume","","obbligatoria"
 "Atto di Nascita","Tipo registro","SI","evento.datiAdozioneMultiIntestatario.attoNascita","tipologia","","obbligatoria"
-"Dati generali","Formula","NO","evento.datiAdozioneMultiIntestatario","formula","","obbligatoria"
+"Dati generali","Formula","SI","evento.datiAdozioneMultiIntestatario","formula","","obbligatoria"
 "Dettagli evento","Dati atto di nascita","SI","evento.datiAdozioneMultiIntestatario","tipologia","","obbligatoria"

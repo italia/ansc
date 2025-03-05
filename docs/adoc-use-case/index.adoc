@@ -1,0 +1,9 @@
+= Documentazione casi d'uso
+
+include::sections/annotazioni-adozioni.adoc[]
+
+include::../Mapping_casi_uso/nascita/Dic_Nasc_998_4.adoc[]
+
+include::../Mapping_casi_uso/nascita/Dic_Nasc_998_6.adoc[]
+
+include::../Mapping_casi_uso/nascita/Dic_Nasc_998_7.adoc[]
