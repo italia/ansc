@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.38.1 - 06-03-2025]
+
+### Fixed
+
+- [SC]: correzione formato date in ricerca notifiche: (issue <https://github.com/italia/ansc/issues/1355>)
+
 ## [1.38.0 - 04-03-2025]
 
 ### Added
