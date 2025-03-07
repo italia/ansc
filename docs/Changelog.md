@@ -21,6 +21,13 @@ NOTE:
 ~~- Per verificare le differenze tra~~ due versioni di questo repository, è possibile usare anche gli strumenti di comparazione messi a disposizione da git, in particolare l'interfaccia web di github, ad esempio [Questa è la comparazione tra il tag v1.19.0 e il tag v1.20.0](https://github.com/italia/ansc/compare/v1.19.0...v1.20.0) 
 - Inoltre per l'elenco delle principali modifiche apportate specificatamente al mapping dei casi d'uso, è presente un [changelog dedicato](Mapping_casi_uso/changelog_mapping.md).
 
+## [1.38.2 - 07-03-2025]
+
+### Fixed
+
+- [SC]: R008 - modifica tracciato risposta dopo ultima versione 1.38: (issue <https://github.com/italia/ansc/issues/1364>)
+- Dati flusso PADigitale
+
 ## [Unreleased]
 
 ## [1.38.1 - 06-03-2025]
