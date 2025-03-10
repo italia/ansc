@@ -110,4 +110,3 @@
 "Dati della trascrizione","Descrizione luogo nascita","NO","evento.trascrizioneNascita","specificaLuogoNascita","","obbligatoria"
 "Dati della trascrizione","Data richiesta trascrizione","SI","evento.trascrizioneNascita","dataComunicazione","","obbligatoria"
 "Dati della trascrizione","Riassunto","SI","evento.trascrizioneNascita","testoLibero","","obbligatoria"
-"Dettagli evento","Tipo luogo nascita","SI","evento.trascrizioneNascita","tipoLuogoNascita","","obbligatoria"

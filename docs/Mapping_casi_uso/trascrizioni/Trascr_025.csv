@@ -14,6 +14,7 @@
 "Dati generali","Tipo mutazione","SI","evento.trascrizioneNascita","tipoMutazioneCognome","","obbligatoria"
 "Dati generali","Vecchio cognome genitore","SI","evento.trascrizioneNascita","vecchioCognomeGenitore","","obbligatoria"
 "Dati generali","Scelta cambio cognome figlio","SI","evento.trascrizioneNascita","sceltaCognome","","obbligatoria"
+"Dati generali","Nuovo cognome","SI","evento.trascrizioneNascita","nuovoCognome","","obbligatoria"
 "Madre","Cognome","NO","evento.madre","cognome","114-quater.2","evento.trascrizioneNascita.genitoreMutazioneCognome,!=,1"
 "Madre","Nome","SI","evento.madre","nome","","evento.trascrizioneNascita.genitoreMutazioneCognome,!=,1"
 "Madre","Identificativo unico nazionale","NO","evento.madre","idANPR","","evento.trascrizioneNascita.genitoreMutazioneCognome,!=,1"

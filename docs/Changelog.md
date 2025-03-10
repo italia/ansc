@@ -21,6 +21,28 @@ NOTE:
 ~~- Per verificare le differenze tra~~ due versioni di questo repository, è possibile usare anche gli strumenti di comparazione messi a disposizione da git, in particolare l'interfaccia web di github, ad esempio [Questa è la comparazione tra il tag v1.19.0 e il tag v1.20.0](https://github.com/italia/ansc/compare/v1.19.0...v1.20.0) 
 - Inoltre per l'elenco delle principali modifiche apportate specificatamente al mapping dei casi d'uso, è presente un [changelog dedicato](Mapping_casi_uso/changelog_mapping.md).
 
+## [1.38.3 - 10-03-2025]
+
+### Added
+
+- Nuovo use case per MATRIMONIO IN PERICOLO DI VITA NELLA CASA COMUNALE (ID 178)
+- [casi d'uso] Aggiunto nuovo caso d'uso 3.1.1.1.1.2 (Matr_020) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso 3.1.1.1.2.2 (Matr_021) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+
+### Fixed
+
+- [WA]: aggiornamento template visura per le prefetture
+- [WA/SC]: Adeguamento UC Scelta del cognome del figlio maggiorenne su istanza di parte / su istanza d'ufficio  <https://github.com/italia/ansc/issues/1341>
+- [WA]: Correzione del servizio di gestione Allegati Errati <https://github.com/italia/ansc/issues/1338>
+- [SC]: Correzione regular expression codice Fiscale <https://github.com/italia/ansc/issues/1344>
+- [SC]: Correzione errore interno, non accessibile <https://github.com/italia/ansc/issues/1345>
+- [WA/SC]: Comune Atto originale Notifica ANPR <https://github.com/italia/ansc/issues/1349>
+- Aggiunto controllo per impedire di modificare la tipologia di certificazione di un atto prodotto da altro comune
+- [Multilinguismo] Adeguamenti formule e modelli in seguito a modifiche proposte dal traduttore, allineamento alle minute in italiano, ed alcune minor-fix
+- [WA] Aggiornamento proceso richiesta firma per impedire la richiesta in assenza dati su ANPR
+- [WA] Corretta dichiarazione di adesione: impostata la data adesione con la data odierna, rimosso il datepicker 
+- [SC] Integrazione risposta servizio R008 per issue <https://github.com/italia/ansc/issues/1364>
+
 ## [1.38.2 - 07-03-2025]
 
 ### Fixed

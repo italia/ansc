@@ -366,7 +366,47 @@ components:
           type: string
           example: 'Con provvedimento del nomeente in ITALIA in data 24/01/2025 n. ABC1234567890, è stata
 omologata la separazione consensuale fra i coniugi di cui atto di matrimonio controscritto.'
-
+        idusecase:
+          description: Id use case
+          type: string
+          example: '10000000'
+        idtipoevento:
+          description: Id tipo evento
+          type: number
+          example: 1
+        idtipocontenuto:
+          description: Id tipo contenuto
+          type: number
+          example: 4
+        idevento:
+          description: Id evento
+          type: number
+          example: 584448
+        ideventosorgente:
+          description: Id evento sorgente
+          type: number
+          example: 584448
+        nomecomuneform:
+          description: Nome comune formazione
+          type: string
+          example: 'CESENA'
+        descsoggettointestatario:
+          description: Descrizione soggetto intestatario
+          type: string
+          example: 'MARIE CURIE'
+        flageventocartaceo:
+          description: Flag evento cartaceo
+          type: number
+          example: 1
+        datamodificastato:
+          description: Id use case
+          type: string
+          format: date-time
+          example: '2025-03-06T16:47:02.000+00:00'          
+        flagnotificacondivisa:
+          description: Flag notifica condivisa
+          type: number
+          example: 0
     NotificheRicercaRequest:
       description: Ritorno del servizio specializzato per la configurazione dei pannelli
       allOf:

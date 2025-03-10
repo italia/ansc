@@ -1,3 +1,93 @@
+#Changelog mappatura casi uso 1.38.3  
+
+## Casi uso aggiunti : 2
+* matrimoni/Matr_020.csv
+* matrimoni/Matr_021.csv
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 15
+* matrimoni/Matr_001.csv
+* matrimoni/Matr_002.csv
+* matrimoni/Matr_003.csv
+* matrimoni/Matr_004.csv
+* matrimoni/Matr_005.csv
+* matrimoni/Matr_007.csv
+* matrimoni/Matr_008.csv
+* matrimoni/Matr_010.csv
+* matrimoni/Matr_011.csv
+* matrimoni/Matr_012.csv
+* matrimoni/Matr_013.csv
+* matrimoni/Matr_019.csv
+* trascrizioni/Trascr_001.csv
+* trascrizioni/Trascr_007.csv
+* trascrizioni/Trascr_025.csv
+
+### Modifiche per il caso uso matrimoni/Matr_001.csv : 
+* Aggiunto 'evento.datiProdotti' (riga:45)
+
+### Modifiche per il caso uso matrimoni/Matr_002.csv : 
+* Aggiunto 'evento.datiProdotti' (riga:56)
+
+### Modifiche per il caso uso matrimoni/Matr_003.csv : 
+* Presenti modifiche per 'evento.datiProdotti' (riga:50)
+
+### Modifiche per il caso uso matrimoni/Matr_004.csv : 
+* Aggiunto 'evento.datiProdotti' (riga:42)
+
+### Modifiche per il caso uso matrimoni/Matr_005.csv : 
+* Aggiunto 'evento.datiProdotti' (riga:51)
+
+### Modifiche per il caso uso matrimoni/Matr_007.csv : 
+* Aggiunto 'evento.datiProdotti' (riga:47)
+
+### Modifiche per il caso uso matrimoni/Matr_008.csv : 
+* Aggiunto 'evento.datiProdotti' (riga:47)
+
+### Modifiche per il caso uso matrimoni/Matr_010.csv : 
+* Presenti modifiche per 'evento.datiProdotti' (riga:60)
+
+### Modifiche per il caso uso matrimoni/Matr_011.csv : 
+* Presenti modifiche per 'evento.datiProdotti' (riga:53)
+
+### Modifiche per il caso uso matrimoni/Matr_012.csv : 
+* Aggiunto 'evento.datiProdotti' (riga:45)
+
+### Modifiche per il caso uso matrimoni/Matr_013.csv : 
+* Presenti modifiche per 'evento.datiProdotti' (riga:53)
+
+### Modifiche per il caso uso matrimoni/Matr_019.csv : 
+* Aggiunto 'evento.datiProdotti' (riga:37)
+
+### Modifiche per il caso uso trascrizioni/Trascr_001.csv : 
+* Presenti modifiche per 'evento.intestatari[0].cognome' (riga:73)
+* Presenti modifiche per 'evento.intestatari[0].nome' (riga:74)
+* Presenti modifiche per 'evento.datiDiNascita.sceltaCognome' (riga:75)
+* Presenti modifiche per 'evento.intestatari[0].idANPR' (riga:76)
+* Presenti modifiche per 'evento.intestatari[0].sesso' (riga:77)
+* Presenti modifiche per 'evento.intestatari[0].dataNascita' (riga:78)
+* Presenti modifiche per 'evento.datiDiNascita.oraNascita' (riga:79)
+* Presenti modifiche per 'evento.datiDiNascita.minutoNascita' (riga:80)
+* Presenti modifiche per 'evento.intestatari[0].idStatoNascita' (riga:81)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoNascita' (riga:82)
+* Presenti modifiche per 'evento.intestatari[0].idProvinciaNascita' (riga:83)
+* Presenti modifiche per 'evento.intestatari[0].siglaProvinciaNascita' (riga:84)
+* Presenti modifiche per 'evento.intestatari[0].idComuneNascita' (riga:85)
+* Presenti modifiche per 'evento.intestatari[0].nomeComuneNascita' (riga:86)
+* Presenti modifiche per 'evento.datiDiNascita.luogoFiliazione' (riga:87)
+* Presenti modifiche per 'evento.intestatari[0].idProvinciaAIRE' (riga:88)
+* Presenti modifiche per 'evento.intestatari[0].siglaProvinciaAIRE' (riga:89)
+* Presenti modifiche per 'evento.intestatari[0].idComuneAIRE' (riga:90)
+* Presenti modifiche per 'evento.intestatari[0].nomeComuneAIRE' (riga:91)
+* Aggiunto 'evento.trascrizioneNascita.figlioDiIgnoti' (riga:102)
+
+### Modifiche per il caso uso trascrizioni/Trascr_007.csv : 
+* Rimosso 'evento.trascrizioneNascita.tipoLuogoNascita'
+
+### Modifiche per il caso uso trascrizioni/Trascr_025.csv : 
+* Aggiunto 'evento.trascrizioneNascita.nuovoCognome' (riga:17)
+
+
 #Changelog mappatura casi uso 1.37.4  
 
 ## Casi uso aggiunti : 1

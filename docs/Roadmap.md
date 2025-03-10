@@ -3,10 +3,6 @@
 Questo documento descrive le principali attività che verranno rilasciata nelle future versioni del software di ANSC.
 Le date e la composizione degli interventi potrebbero subire variazioni.
 
-
-## [14-03-2025]
-- ID 178 Nuovo UC Matrimonio in imminente pericolo di vita nella casa comunale 
-
 ## [31-03-2025]
 
 - ID 170 Asseverazione per piccoli comuni
