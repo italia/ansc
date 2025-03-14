@@ -21,6 +21,12 @@ NOTE:
 ~~- Per verificare le differenze tra~~ due versioni di questo repository, è possibile usare anche gli strumenti di comparazione messi a disposizione da git, in particolare l'interfaccia web di github, ad esempio [Questa è la comparazione tra il tag v1.19.0 e il tag v1.20.0](https://github.com/italia/ansc/compare/v1.19.0...v1.20.0) 
 - Inoltre per l'elenco delle principali modifiche apportate specificatamente al mapping dei casi d'uso, è presente un [changelog dedicato](Mapping_casi_uso/changelog_mapping.md).
 
+## [1.38.4 - 14-03-2025]
+
+### Fixed
+
+- [WA] Gestione permessi comuni prima dell'adesione. Ora gli utenti con permessi da USC che entrano nella web app prima dell'adesione, vedranno sempre e solo il menu amministrazione.
+
 ## [1.38.3 - 10-03-2025]
 
 ### Added
