@@ -40,8 +40,6 @@
 "Intestatario","flag dichiarante","SI","evento.intestatari[0]","flagDichiarante","","obbligatoria"
 "Intestatario","flag comparente","SI","evento.intestatari[0]","flagComparente","","obbligatoria"
 "Intestatario","flag firmatario","SI","evento.intestatari[0]","flagFirmatario","","obbligatoria"
-"Intestatario","Ulteriore cittadinanza di cui è in possesso","SI","evento.trascrizioneCittadinanza","idUlterioreCittadinanza","","obbligatoria"
-"Intestatario","Ulteriore cittadinanza di cui è in possesso","SI","evento.trascrizioneCittadinanza","ulterioreCittadinanza","","obbligatoria"
 "Atto collegato","Id atto","NO","evento.eventoCollegato","idAnsc","","obbligatoria"
 "Atto collegato","Provincia registrazione","SI","evento.eventoCollegato","idProvinciaRegistrazione","","obbligatoria"
 "Atto collegato","Provincia registrazione - Descrizione","SI","evento.eventoCollegato","siglaProvinciaRegistrazione","","obbligatoria"

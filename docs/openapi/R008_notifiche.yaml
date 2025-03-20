@@ -395,7 +395,7 @@ omologata la separazione consensuale fra i coniugi di cui atto di matrimonio con
           type: string
           example: 'MARIE CURIE'
         flageventocartaceo:
-          description: Flag evento cartaceo
+          description: Flag evento cartaceo (1 se l'evento è cartaceo altrimenti l'evento è digitale)
           type: number
           example: 1
         datamodificastato:

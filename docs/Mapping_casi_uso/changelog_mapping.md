@@ -1,3 +1,25 @@
+#Changelog mappatura casi uso 1.38.5  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 3
+* cittadinanza/Citt_029.csv
+* trascrizioni/Trascr_005.csv
+* trascrizioni/Trascr_006.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_029.csv : 
+* Rimosso 'evento.trascrizioneCittadinanza.idUlterioreCittadinanza'
+* Rimosso 'evento.trascrizioneCittadinanza.ulterioreCittadinanza'
+
+### Modifiche per il caso uso trascrizioni/Trascr_005.csv : 
+* Aggiunto 'Allegati Sentenza di riconoscimento giudiziale della cittadinanza italiana' (riga:4)
+
+### Modifiche per il caso uso trascrizioni/Trascr_006.csv : 
+* Aggiunto 'Allegati Sentenza di riconoscimento giudiziale della cittadinanza italiana' (riga:4)
+
+
 #Changelog mappatura casi uso 1.38.3  
 
 ## Casi uso aggiunti : 2

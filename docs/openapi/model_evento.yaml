@@ -580,14 +580,12 @@ components:
           $ref: '#/components/schemas/ModelAttoCollegatoML'
     ModelAttoCollegatoML:
       properties:
-        note: 
+        ente:
           type: string
           description: Ente che ha redatto l'atto.
           example:  'tribunale'
-        luogoRedazione: 
-          type: string
-          description: ''
-          example:  'Morgue Hospital'
+        luogoRedazione:
+          $ref: '#/components/schemas/ModelLuogoML'
     ModelDatiEventoCittadinanzaML:
       properties:
         parenteDiretto: 
@@ -1073,11 +1071,23 @@ components:
         descrizione: 
           type: string
           description: Descrizione dell'atto da trascrivere
-          example:  'Descrizione'
+          example:  'Descrizione'          
+    ModelRifiutoML:
+      properties:
+        eventoCollegato:
+          $ref: '#/components/schemas/ModelAttoCollegatoML'
+        motivazioneRifiuto:
+          type: string
+          description: motivazione del rifiuto
+    ModelRichiedenteML:
+      properties:
+        privato:
+          $ref: '#/components/schemas/ModelSoggettoML'
+        entePubblico:
+          $ref: '#/components/schemas/ModelEnteEsteroML'
 
 
 
-                         
     ModelSoggetto:
       properties:
         id: 
@@ -2089,11 +2099,11 @@ components:
               type: string
               description: Indirizzo PEC Ministero
               example: 'ministero-pec@gov.it'
-            ulterioreCittadinanza:
+            idUlterioreCittadinanza:
               type: string
               description: Ulteriore cittadinanza 
               example: "91"
-            descrizioneUlterioreCittadinanza:
+            ulterioreCittadinanza:
               type: string
               description: Descrizione ulteriore cittadinanza 
               example: "Austriaca"
@@ -3153,7 +3163,11 @@ components:
         madre:
          $ref: '#/components/schemas/ModelSoggettoML'
         padre:
-         $ref: '#/components/schemas/ModelSoggettoML'
+          $ref: '#/components/schemas/ModelSoggettoML'
+        madreBiologica:
+          $ref: '#/components/schemas/ModelSoggettoML'
+        padreBiologico:
+          $ref: '#/components/schemas/ModelSoggettoML'
         coniuge:
          $ref: '#/components/schemas/ModelSoggettoML'
         dichiarante:
@@ -3180,7 +3194,11 @@ components:
         datiEventoUnioneCivile:
          $ref: '#/components/schemas/ModelUnioneCivileML'
         riconoscimentoMadre:
-         $ref: '#/components/schemas/ModelRiconoscimentoML'
+          $ref: '#/components/schemas/ModelRiconoscimentoML'
+        riconoscimentoPadre:
+          $ref: '#/components/schemas/ModelRiconoscimentoML'
+        riconoscimento: # Riconoscimento di entrambi i genitori
+          $ref: '#/components/schemas/ModelRiconoscimentoML'
         consenso:
          $ref: '#/components/schemas/ModelAttoCollegatoML'
         consensoMadre:
@@ -3221,10 +3239,14 @@ components:
          $ref: '#/components/schemas/ModelEnteDichiaranteML'
         luogoRedazione:
          $ref: '#/components/schemas/ModelLuogoML'
+        richiedente:
+          $ref: '#/components/schemas/ModelRichiedenteML'
         datiAnnotazione:
-         type: array
-         items:
-           $ref: '#/components/schemas/ModelDatiAnnotazioneML'
+          type: array
+          items:
+            $ref: '#/components/schemas/ModelDatiAnnotazioneML'
+        datiRifiuto:
+          $ref: '#/components/schemas/ModelRifiutoML'
 
     ModelAnnotazioneModificativa:
       description: Model annotazione modificativa rettifica per figlio a seguito cambio generalita genitori 

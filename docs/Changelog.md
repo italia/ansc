@@ -21,6 +21,23 @@ NOTE:
 ~~- Per verificare le differenze tra~~ due versioni di questo repository, è possibile usare anche gli strumenti di comparazione messi a disposizione da git, in particolare l'interfaccia web di github, ad esempio [Questa è la comparazione tra il tag v1.19.0 e il tag v1.20.0](https://github.com/italia/ansc/compare/v1.19.0...v1.20.0) 
 - Inoltre per l'elenco delle principali modifiche apportate specificatamente al mapping dei casi d'uso, è presente un [changelog dedicato](Mapping_casi_uso/changelog_mapping.md).
 
+## [1.38.5 - 20-03-2025]
+
+### Fixed
+- [SC,webapp] correzione accesso alla risorsa per il provvedimento di rifiuto <https://github.com/italia/ansc/issues/1367>
+- [SC] R013 Corretto messaggio di errore <https://github.com/italia/ansc/issues/1369>
+- [SC] controllo per presenza soggetto nel provvedimento di rifiuto <https://github.com/italia/ansc/issues/1361>
+- [SC] aggiornamento messaggio di errore nel provvedimento di rifiuto
+- [SC] R013 - Servizi cooperativi per la validazione della rettifica: corretto errore con 5.3.7.2.9 <https://github.com/italia/ansc/issues/1369>
+- [Webapp, SC] Corretto INSERIMENTO ALLEGATO AGGIUNTIVO IN TRASCRIZIONE NASCITA DALL'ESTERO <https://github.com/italia/ansc/issues/1360>
+- [SC] R008 - modifica tracciato risposta dopo ultima versione 1.38 <https://github.com/italia/ansc/issues/1364>
+- [Webapp, SC] aggiornamento messaggio di errore su provvedimento di rifiuto 
+- [Webapp, SC] Corretto caso d'uso Citt_029: eliminati dati non necessario relativi all'ulteriore cittadinanza <https://github.com/italia/ansc/issues/1060> <https://github.com/italia/ansc/issues/1385>
+  - model_evento.yaml
+    - Corretta la denominazione del campo descrizioneUlterioreCittadinanza in idUlterioreCittadinanza
+    - Adeguata la descrizione e l'esempio del campo ulterioreCittadinanza
+- [OpenAPI] - nel model_evento.yaml, tipo ModelAttoCollegatoML, la proprietà luogoRedazione viene corretta da string a ModelLuogoML
+
 ## [1.38.4 - 14-03-2025]
 
 ### Fixed
