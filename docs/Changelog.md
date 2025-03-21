@@ -30,7 +30,7 @@ NOTE:
 - [SC] aggiornamento messaggio di errore nel provvedimento di rifiuto
 - [SC] R013 - Servizi cooperativi per la validazione della rettifica: corretto errore con 5.3.7.2.9 <https://github.com/italia/ansc/issues/1369>
 - [Webapp, SC] Corretto INSERIMENTO ALLEGATO AGGIUNTIVO IN TRASCRIZIONE NASCITA DALL'ESTERO <https://github.com/italia/ansc/issues/1360>
-- [SC] R008 - corretta la gestione del flagcartaceo per discriminare se la notifica è destinata ad un atto cartaceo o ad un atto digitale <https://github.com/italia/ansc/issues/1364>
+- [SC] R008 - corretta la gestione del flageventocartaceo per discriminare se la notifica è destinata ad un atto cartaceo o ad un atto digitale <https://github.com/italia/ansc/issues/1364>
 - [Webapp, SC] aggiornamento messaggio di errore su provvedimento di rifiuto 
 - [Webapp, SC] Corretto caso d'uso Citt_029: eliminati dati non necessario relativi all'ulteriore cittadinanza <https://github.com/italia/ansc/issues/1060> <https://github.com/italia/ansc/issues/1385>
   - model_evento.yaml
