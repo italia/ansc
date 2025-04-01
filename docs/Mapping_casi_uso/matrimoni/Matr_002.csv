@@ -41,6 +41,7 @@
 "Formazione atto","Data formazione","SI","evento","dataformazione","","obbligatoria"
 "Formazione atto","Ora formazione","SI","evento","ora","","obbligatoria"
 "Formazione atto","Minuti formazione","SI","evento","minuto","","obbligatoria"
+"Dati generali","Presentazione documenti","SI","evento","datiProdotti","","obbligatoria"
 "Luogo Celebrazione","Luogo","SI","evento.datiEventoMatrimonio.luogoCelebrazione","luogo","","obbligatoria"
 "Luogo Celebrazione","Stato","SI","evento.datiEventoMatrimonio.luogoCelebrazione","idStato","","obbligatoria"
 "Luogo Celebrazione","Stato - Descrizione","SI","evento.datiEventoMatrimonio.luogoCelebrazione","nomeStato","","obbligatoria"

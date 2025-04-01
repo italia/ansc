@@ -103,7 +103,7 @@ paths:
       - name: revision
         in: query
         required: true
-        description: La revisione del servizio invocato (ultima 2000004)
+        description: La revisione del servizio invocato
         schema:
           type: string
       requestBody:

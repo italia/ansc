@@ -21,6 +21,49 @@ NOTE:
 ~~- Per verificare le differenze tra~~ due versioni di questo repository, è possibile usare anche gli strumenti di comparazione messi a disposizione da git, in particolare l'interfaccia web di github, ad esempio [Questa è la comparazione tra il tag v1.19.0 e il tag v1.20.0](https://github.com/italia/ansc/compare/v1.19.0...v1.20.0) 
 - Inoltre per l'elenco delle principali modifiche apportate specificatamente al mapping dei casi d'uso, è presente un [changelog dedicato](Mapping_casi_uso/changelog_mapping.md).
 
+## [1.39.0 - 01-04-2025]
+
+# Added
+
+- [versione] Aggiunta versione 100022
+- UC: accordo di sciogliemento unione civile con negoziazione assistita (ID 164)
+     - [casi d'uso] Aggiunto nuovo caso d'uso 4.4.6.0.0.0 (Sciogl_UnCiv_006) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+ 
+- gestione asseverazione per piccoli comuni (ID 170)
+- [Webapp, SC] Acquisizione estremi atto e comune in tutti gli atti secondari (ID 147)
+- [Webapp, SC] ANNOTAZIONE ADOZIONE SU ATTO DI NASCITA con nuove generalità - <https://github.com/italia/ansc/issues/1164>
+
+- model_evento.yaml
+    - Aggiunte le seguenti proprietà nel Modello "ModelAdozioneMinoriInternazionale":
+    - autoritaMittente
+    - vecchioNomeIntestatario
+    - vecchioCognomeIntestatario
+    - Aggiunta proprietà "eventoPrimario" di tipo "ModelAttoCollegato"
+    - Aggiunte le proprietà "attoMatrimonio" e "attoUnioneCivile" di tipo "ModelAttoCollegato" nel Modello "ModelTrascrizioneMorte"
+    - Aggiunte le proprietà "attoNascitaSposo" e "attoNascitaSposa" di tipo "ModelAttoCollegato" nel Modello "ModelMatrimonio"
+    - Aggiunte le proprietà "attoNascitaConiuge1" e "attoNascitaConiuge2" di tipo "ModelAttoCollegato" nel Modello "ModelUnioneCivile"
+    - Aggiunte le proprietà "attoMatrimonio" e "attoUnioneCivile" di tipo "ModelAttoCollegato" nel Modello "ModelTrascrizioneNascita"
+    - Aggiunta proprietà "attoUnioneCivile" di tipo "ModelAttoCollegato" nel Modello "ModelNegoziazioneAssistita"
+  
+### Fixed
+
+- [model_evento.yaml]: indentazione proprietà ModelTrascrizioneMorteML
+- [SWA] Corretta rettifica annotazione (problema duplicati)
+- [SC]: Consultazione Soggetto Codice Fiscale Omocodice <https://github.com/italia/ansc/issues/1402>
+- [SC]: Corretto errore UC 5.3.7.2.9 <https://github.com/italia/ansc/issues/1369>
+- [SWA] Estensione rettifica annotazione per gestire certificabilità e data decorrenza nei casi d'uso di servizio (ID 179)
+- [SWA] Corretto il servizio di estensione riconciliazione ANSC-ANPR per gestire aggiornamento soggetti riconciliati (ID 145)
+- [webapp] Composizione 'con cittadinanza' da sostituire in 'cittadino/a'
+- [SC]: Anteprima Atto Matrimonio in presenza di Interprete <https://github.com/italia/ansc/issues/1350>
+- [SWA] Matr_007:  correzione formule e modelli
+- [SWA] Corretta dicitura 'delega ricevuta' con 'delega avuta' nella minuta degli atti
+- [SC]: Corretta anomalia emissione certificato internazionale <https://github.com/italia/ansc/issues/1386>
+- [webapp]: Matrimonio civile tra stranieri residenti all'estero: aggiunta ulteriore sezione estremi certificazione <https://github.com/italia/ansc/issues/1336>
+- model_evento.yaml
+    - [ML] Aggiunta proprietà "comuneEstero" nel Modello "ModelDatiDiMorteML"
+    - Aggiunta proprietà "attoEstero" di tipo "ModelEnteEstero" nel Modello "ModelMatrimonio"
+
+
 ## [1.38.5 - 20-03-2025]
 
 ### Fixed
