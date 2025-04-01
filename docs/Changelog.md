@@ -232,6 +232,7 @@ NOTE:
 - [feature] Gestione estremi atto cartacei (aggiunta volume) (ID 141)
 - [feature] Adozione estera legittimante richiesta da consolato <https://github.com/italia/ansc/issues/1254> (ID 176)
 - [feature] Consultazione/certificazione da parte delle prefetture (ID 140)
+- [feature] Cruscotto per la vigilanza delle prefetture (indice annuale) (ID 142)
 - [feature] Gestione degli allegati errati (ID 166)
 
 - [model_evento.yaml]
