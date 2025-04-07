@@ -1,3 +1,14 @@
+#Changelog mappatura casi uso 1.39.1  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 2
+* matrimoni/Matr_020.csv
+* matrimoni/Matr_021.csv
+
+## Casi uso modificati : 1
+* cittadinanza/Citt_020.csv
+
 #Changelog mappatura casi uso 1.39.0  
 
 ## Casi uso aggiunti : 1

@@ -584,6 +584,11 @@ components:
           $ref: '#/components/schemas/ModelAttoCollegatoML'
         assensoAtto:
           $ref: '#/components/schemas/ModelAttoCollegatoML'
+        assensoReso:
+          type: string
+          description: Indica a chi è stato reso il consenso
+          example:  'Ufficiale di polizia'
+          
     ModelAttoCollegatoML:
       properties:
         ente:
@@ -598,7 +603,8 @@ components:
           $ref: '#/components/schemas/ModelAscendenteML'
         indirizzoPostaAutorità:
           type: string
-          description: Indirizzo di posta dell'autorità competente
+          deprecated: true
+          description: Indirizzo di posta dell'autorità competente -- DEPRECATO --
           example:  'Sindaco - Piazza del Municipio 1'
         infoResidenzaBiennale:
           type: string
@@ -616,6 +622,14 @@ components:
           type: string
           description: Nome del datore di lavoro
           example:  'Rossi Paolo'
+        nazioneImpiego:
+          type: string
+          description: Nazione presso la quale si esercita(va) l'impiego (decodifica ANPR_02)
+          example:  '3'
+        motivoPerditaCittadinanza:
+          type: string
+          description: Motivo perdita cittadinanza italiana
+          example:  'Testo libero'
     ModelAscendenteML:
       $ref: '#/components/schemas/ModelSoggettoML'
     ModelDatiEventoMorteML:
@@ -677,7 +691,7 @@ components:
         datiRiconoscimento:
           type: array
           items:
-            $ref: '#/components/schemas/ModelSoggettoML'
+            $ref: '#/components/schemas/ModelDatiEventoRiconoscimentoML'
         consensoRiconoscimento:
           $ref: '#/components/schemas/ModelConsensoML'
         attoNascitaSposo:
@@ -714,6 +728,16 @@ components:
           $ref: '#/components/schemas/ModelEnteDichiaranteML'
         datiRiconoscimentoFigli:
           $ref: '#/components/schemas/ModelDatiEventoRiconoscimentoML'
+        motivoImpedimentoScritturaSposo:
+          type: string
+          description: Motivo impedimento alla scrittura dello sposo
+          example:  'Motivo'
+        motivoImpedimentoScritturaSposa:
+          type: string
+          description: Motivo impedimento alla scrittura dello sposa
+          example:  'Motivo'
+        enteEstero:
+          $ref: '#/components/schemas/ModelEnteEsteroML'
     ModelUnioneCivileML:
       properties:
         luogoCelebrazione:
@@ -770,7 +794,8 @@ components:
           $ref: '#/components/schemas/ModelImpedimentoML'
         soggettoImpedimentoCivile:
           type: string
-          description: ''
+          deprecated: true
+          description:  -- DEPRECATO --
           example:  ''
         soggettoImpedimentoGenerico:
           $ref: '#/components/schemas/ModelImpedimentoML'
@@ -821,6 +846,10 @@ components:
           $ref: '#/components/schemas/ModelEnteDichiaranteML'
         attoCambioCognomeGenitore:
           $ref: '#/components/schemas/ModelAttoCollegatoML'
+        attoMatrimonio:
+          $ref: '#/components/schemas/ModelAttoCollegatoML'
+        attoUnioneCivile:
+          $ref: '#/components/schemas/ModelAttoCollegatoML'
     ModelTrascrizioneCittadinanzaML:
       allOf:
         - $ref: '#/components/schemas/ModelTrascrizioneML'
@@ -834,8 +863,11 @@ components:
           $ref: '#/components/schemas/ModelEnteDichiaranteML'
         genitoreConCittadinanza:
           type: string
-          description: Genitore che ha cittadinanza italiana
+          deprecated: true
+          description: Genitore che ha cittadinanza italiana  -- DEPRECATO --
           example:  ''
+        intestatarioVecchieGeneralita:
+          $ref: '#/components/schemas/ModelSoggettoML'
     ModelTrascrizioneMorteML:
       allOf:
         - $ref: '#/components/schemas/ModelTrascrizioneML'
@@ -846,6 +878,12 @@ components:
         sentenzaMortePresunta:
           $ref: '#/components/schemas/ModelEnteDichiaranteML'
         annotazioneMortePresunta:
+          $ref: '#/components/schemas/ModelAttoCollegatoML'
+        attoNascitaDeceduto:
+          $ref: '#/components/schemas/ModelAttoCollegatoML'
+        attoMatrimonio:
+          $ref: '#/components/schemas/ModelAttoCollegatoML'
+        attoUnioneCivile:
           $ref: '#/components/schemas/ModelAttoCollegatoML'
     ModelTrascrizioneMatrimonioML:
       allOf:
@@ -876,6 +914,18 @@ components:
           $ref: '#/components/schemas/ModelAttoCollegatoML'
         provvedimentoSeparazione:
           $ref: '#/components/schemas/ModelEnteDichiaranteML'
+        luogoEventoMatrimonio:
+          $ref: '#/components/schemas/ModelLuogoML'
+        attoAccordoSeparazione:
+          $ref: '#/components/schemas/ModelAttoCollegatoML'
+        attoConfermaAccordoSeparazione:
+          $ref: '#/components/schemas/ModelAttoCollegatoML'
+        attoNegoziazioneAssistita:
+          $ref: '#/components/schemas/ModelAttoCollegatoML'
+        officianteEventoMatrimonio:
+          type: string
+          description:  Officiante che ha effettuato il matrimonio
+          example:  'Gianni Rossi Parroco'
     ModelSeparazioneML:
       properties:
         avvocatoConiuge1:
@@ -910,6 +960,8 @@ components:
           type: string
           description: Nome dell'officiante che ha celebrato il matrimonio.
           example:  'Mario Rossi Parroco'
+        confermaAccordoSeparazione:
+          $ref: '#/components/schemas/ModelAttoCollegatoML'
     ModelNegoziazioneAssistitaML:
       properties:
         avvocatoConiuge1:
@@ -925,6 +977,8 @@ components:
           description: Foro di competenza dell'avvocato del coniuge 2
           example:  'Rieti'
         attoMatrimonio:
+          $ref: '#/components/schemas/ModelAttoCollegatoML'
+        attoUnioneCivile:
           $ref: '#/components/schemas/ModelAttoCollegatoML'
         provvedimentoAutoritaGiudiziaria:
           $ref: '#/components/schemas/ModelEnteDichiaranteML'
@@ -947,7 +1001,7 @@ components:
           description: Motivo impedimento alla scrittura del coniuge 2
           example:  'Motivo'
         altroMezzoDiComunicazione:
-          type: string
+          type: string  
           description: Se non è stata usata la raccomandata AR va indicato quale altro modo è stato usato
           example:  'PEC'
         autoritaGiudiziaria:
@@ -974,6 +1028,8 @@ components:
           $ref: '#/components/schemas/ModelAttoCollegatoML'
         attoGenitore:
           $ref: '#/components/schemas/ModelAttoCollegatoML'
+        soggettoCollegato:
+          $ref: '#/components/schemas/ModelSoggettoML'
     ModelRettificaML:
       properties:
         eventoCollegato:
@@ -1030,6 +1086,10 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/ModelAssistenzaMinoriML'
+        legge:
+          type: string
+          description: 'Numero della legga cui gli sposi si avvalgono per definire il regime patrimoniale'
+          example:  '64/2001'
     ModelImpedimentoML:
       properties:
         certificato:

@@ -21,6 +21,49 @@ NOTE:
 ~~- Per verificare le differenze tra~~ due versioni di questo repository, è possibile usare anche gli strumenti di comparazione messi a disposizione da git, in particolare l'interfaccia web di github, ad esempio [Questa è la comparazione tra il tag v1.19.0 e il tag v1.20.0](https://github.com/italia/ansc/compare/v1.19.0...v1.20.0) 
 - Inoltre per l'elenco delle principali modifiche apportate specificatamente al mapping dei casi d'uso, è presente un [changelog dedicato](Mapping_casi_uso/changelog_mapping.md).
 
+## [1.39.1 - 07-04-2025]
+
+### Added
+
+- model_evento.yaml
+    - [ML] proprietà "intestatarioVecchieGeneralita" nel Modello "ModelTrascrizioneCittadinanzaML"
+    - [ML] proprietà "attoNascitaDeceduto" nel Modello "ModelTrascrizioneMorteML"
+    - [ML] proprietà "attoMatrimonio" nel Modello "ModelTrascrizioneMorteML"
+    - [ML] proprietà "attoUnioneCivile" nel Modello "ModelTrascrizioneMorteML"
+    - [ML] proprietà "confermaAccordoSeparazione" nel Modello "ModelSeparazioneML"
+    - [ML] proprietà "attoUnioneCivile" nel Modello "ModelNegoziazioneAssistitaML"
+    - [ML] proprietà "soggettoCollegato" nel Modello "ModelAnnotazioneModificativaML"
+    - [ML] proprietà "attoMatrimonio" nel Modello "ModelTrascrizioneNascitaML"
+    - [ML] proprietà "attoUnioneCivile" nel Modello "ModelTrascrizioneNascitaML"
+
+### Fixed
+
+- [SC]: Composizione completa atto errata <https://github.com/italia/ansc/issues/1401>
+- [SC]: Errore su mancanza firmatari <https://github.com/italia/ansc/issues/1358>
+- [webapp]: [5.2.2.6.1] Rinuncia espressa <https://github.com/italia/ansc/issues/1415>
+- Dismissione casi d'uso di matrimonio in imminente pericolo di vita nella casa comunale 
+
+- model_evento.yaml
+    - [ML] proprietà "assensoReso" nel Modello "ModelDatiEventoRiconoscimentoML"
+    - [ML] proprietà "motivoImpedimentoScritturaSposo" nel Modello "ModelMatrimonioML"
+    - [ML] proprietà "motivoImpedimentoScritturaSposa" nel Modello "ModelMatrimonioML"
+    - [ML] proprietà "enteEstero" nel Modello "ModelMatrimonioML"
+    - [ML] proprietà "luogoEventoMatrimonio" nel Modello "ModelRiconciliazioneML"
+    - [ML] proprietà "attoAccordoSeparazione" nel Modello "ModelRiconciliazioneML"
+    - [ML] proprietà "attoConfermaAccordoSeparazione" nel Modello "ModelRiconciliazioneML"
+    - [ML] proprietà "attoNegoziazioneAssistita" nel Modello "ModelRiconciliazioneML"
+    - [ML] proprietà "officianteEventoMatrimonio" nel Modello "ModelRiconciliazioneML"
+    - [ML] proprietà "assistenzaMinori" nel Modello "ModelRegimePatrimonialeML"
+    - [ML] proprietà "legge" nel Modello "ModelRegimePatrimonialeML"
+    
+
+### Deprecated
+
+- model_evento.yaml
+    - [ML] proprietà "indirizzoPostaAutorita" nel Modello "ModelDatiEventoCittadinanzaML"
+    - [ML] proprietà "soggettoImpedimentoCivile" nel Modello "ModelUnioneCivileML"
+    - [ML] proprietà "genitoreConCittadinanza" nel Modello "ModelTrascrizioneCittadinanzaML"
+
 ## [1.39.0 - 01-04-2025]
 
 # Added
