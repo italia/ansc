@@ -21,6 +21,26 @@ NOTE:
 ~~- Per verificare le differenze tra~~ due versioni di questo repository, è possibile usare anche gli strumenti di comparazione messi a disposizione da git, in particolare l'interfaccia web di github, ad esempio [Questa è la comparazione tra il tag v1.19.0 e il tag v1.20.0](https://github.com/italia/ansc/compare/v1.19.0...v1.20.0) 
 - Inoltre per l'elenco delle principali modifiche apportate specificatamente al mapping dei casi d'uso, è presente un [changelog dedicato](Mapping_casi_uso/changelog_mapping.md).
 
+## [1.39.3 - 14-04-2025]
+
+### Changed
+
+- Bloccate da sistema invio notifiche ANPR per i casi d'uso a seguire, relativi alla formazione di atti secretati in seguito ad adozioni ex legittimanti di minori: 1341, 1342, 1344, 1351, 1352, 1353, 1354, 1355, 1381, 14950000, 14960000, 52142, 51202, 52222, 52271, 1343, 1345 e 14870000.
+
+### Fixed
+
+- [WA]: Cruscotto richiesta di adesione: controllo codice IPA in fase di inserimento
+- [SC]: Caso d'uso 1331- Trasc_012 <https://github.com/italia/ansc/issues/1425>
+- [WA]: Corretta consultazione atto a seguito di servizio di "Correzione annotazione" <https://github.com/italia/ansc/discussions/1426>
+- [SC]: Corretta documentazione relativa al caso d'uso di acquisto di cittadinanza (specificato il significato di evento collegato eddicato all'indicazione dell'atto di nascita del soggetto intestatario) <http://github.com/italia/ansc/issues/1429>
+- [SC]: Corretti metadati relativi a USC che valida e USC che firma, negli estratti integrali <https://github.com/italia/ansc/issues/1434>
+- [SC]: Corretta documentazione per mapping caso d'uso 14950000 (Dic_Nasc_998_4) / model_evento.yaml <https://github.com/italia/ansc/issues/1422>
+- [ML]: Multilinguismo: adeguate le annotazioni generate da atti di nascita che vengono apposte su atti di nascita.
+- [ML]: Multilinguismo: adeguate formule/modelli per le minute di atti di nascita secondo indicazioni del traduttore.
+
+- model_evento.yaml
+  - Aggiunti campi nomeAnagraficaConsolato e idAnagraficaConsolato in ModelEnteDichiarante
+
 ## [1.39.2 - 09-04-2025]
 
 ### Fixed

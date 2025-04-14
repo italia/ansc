@@ -1,3 +1,24 @@
+#Changelog mappatura casi uso 1.39.3
+
+## Casi uso aggiunti : 2
+* matrimoni/Matr_020.csv
+* matrimoni/Matr_021.csv
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 1
+* cittadinanza/Citt_020.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_020.csv : 
+* Aggiunto 'evento.enteDichiarante.dataTrascrizione' (riga:58)
+* Aggiunto 'evento.enteDichiarante.estremiDocumento' (riga:59)
+* Aggiunto 'evento.enteDichiarante.nomeEnte' (riga:60)
+* Aggiunto 'evento.enteDichiarante.idProvinciaEnte' (riga:61)
+* Aggiunto 'evento.enteDichiarante.siglaProvinciaEnte' (riga:62)
+* Aggiunto 'evento.enteDichiarante.idComuneEnte' (riga:63)
+* Aggiunto 'evento.enteDichiarante.nomeComuneEnte' (riga:64)
+
+
 #Changelog mappatura casi uso 1.39.1  
 
 ## Casi uso aggiunti : 0

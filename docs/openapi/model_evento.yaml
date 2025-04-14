@@ -1352,6 +1352,14 @@ components:
           type: string
           description: Descrizione della nazione
           example: "AUSTRIA"
+        idAnagraficaConsolato:
+          type: string
+          description: id sede estera del consolato (decodifica ANSC_97)
+          example: "190"
+        nomeAnagraficaConsolato:
+          type: string
+          description: Descrizione sede estera del consolato
+          example: "VILNIUS"
         indirizzoEnte:
           type: string
           description: Indirizzo dell'ente dichiarante.
