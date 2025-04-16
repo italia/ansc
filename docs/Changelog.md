@@ -21,6 +21,13 @@ NOTE:
 ~~- Per verificare le differenze tra~~ due versioni di questo repository, è possibile usare anche gli strumenti di comparazione messi a disposizione da git, in particolare l'interfaccia web di github, ad esempio [Questa è la comparazione tra il tag v1.19.0 e il tag v1.20.0](https://github.com/italia/ansc/compare/v1.19.0...v1.20.0) 
 - Inoltre per l'elenco delle principali modifiche apportate specificatamente al mapping dei casi d'uso, è presente un [changelog dedicato](Mapping_casi_uso/changelog_mapping.md).
 
+## [1.39.4 - 16-04-2025]
+
+- [SC]: Corretto estratto copia integrale per atto di riconoscimento prima della nascita <https://github.com/italia/ansc/issues/1436>
+- [SC]: servizio R009: corretto errore "Comune non corrispondente" <https://github.com/italia/ansc/issues/1438>
+- [SC]: Cittadinanza: controllo bloccante stringente su evento collegato diverso da evento nascita <https://github.com/italia/ansc/issues/1439>
+- [SC]: Corretta anomalia relativa a notifica annotazione di cittadinanza <https://github.com/italia/ansc/issues/1429>
+
 ## [1.39.3 - 14-04-2025]
 
 ### Changed
