@@ -21,6 +21,18 @@ NOTE:
 ~~- Per verificare le differenze tra~~ due versioni di questo repository, è possibile usare anche gli strumenti di comparazione messi a disposizione da git, in particolare l'interfaccia web di github, ad esempio [Questa è la comparazione tra il tag v1.19.0 e il tag v1.20.0](https://github.com/italia/ansc/compare/v1.19.0...v1.20.0) 
 - Inoltre per l'elenco delle principali modifiche apportate specificatamente al mapping dei casi d'uso, è presente un [changelog dedicato](Mapping_casi_uso/changelog_mapping.md).
 
+## [Unreleased]
+
+## [1.39.5 - 17-04-2025]
+
+### Changed
+
+- [SC]: [model_evento.yaml] (ModelEnteEstero) rimossi campi ridondanti idAnagraficaConsolato e nomeAnagraficaConsolato. <https://github.com/italia/ansc/issues/1422>
+
+### Fixed
+
+- [webapp]: Errore "Richiesta fallita codice errore 500" durante conferma Dichiarazione adesione <https://github.com/italia/ansc/issues/1444>
+
 ## [1.39.4 - 16-04-2025]
 
 - [SC]: Corretto estratto copia integrale per atto di riconoscimento prima della nascita <https://github.com/italia/ansc/issues/1436>
@@ -196,8 +208,6 @@ NOTE:
 
 - [SC]: R008 - modifica tracciato risposta dopo ultima versione 1.38: (issue <https://github.com/italia/ansc/issues/1364>)
 - Dati flusso PADigitale
-
-## [Unreleased]
 
 ## [1.38.1 - 06-03-2025]
 

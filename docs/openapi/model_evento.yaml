@@ -1386,15 +1386,7 @@ components:
             comuneEstero:
               type: string
               description: comune estero della nazione estera
-              example: " berlino"
-            idAnagraficaConsolato:
-              type: string
-              description: id sede estera del consolato (decodifica ANSC_97)
-              example: "190"
-            nomeAnagraficaConsolato:
-              type: string
-              description: Descrizione sede estera del consolato
-              example: "VILNIUS"
+              example: "Berlino"
 
     ModelAllegatoRif:
       properties:
