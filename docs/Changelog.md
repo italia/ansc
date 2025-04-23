@@ -23,6 +23,13 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.39.6 - 23-04-2025]
+
+### Fixed
+
+- [documentazione][SC]: ModelDatiLingua <https://github.com/italia/ansc/issues/1452>
+- [documentazione][SC]: DatiDiNascitaML <https://github.com/italia/ansc/issues/1457>
+
 ## [1.39.5 - 17-04-2025]
 
 ### Changed
