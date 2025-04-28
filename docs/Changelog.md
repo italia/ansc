@@ -23,6 +23,46 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.40.0 - 29-04-2025]
+
+### Added
+
+- Ripristino Nota tecnica (ID 184)
+- Verifica lunghezza massima campi trasmessi in input
+- Aggiornamento formule Multilinguismo primo lotto  registro nascita (ID 165.a)
+- [SC / WA]: Evoluzione firma attestazione con possibilità di scegliere quali allegati siano da includere nell'attestazione di conformità (ID 150)
+- model_evento.yaml
+  - Aggiunto campo flagInclusoAttConformita in ModelAllegatoRif
+- R007_firma_usc.yaml
+  - Aggiunto array allegati (per includerli nell'attestazione tramite flagInclusoAttConformita) al payload del servizio: /attestazione/firma/{version} (per la firma USC dell'Attestazione di conformità)
+- R010_anteprima.yaml
+  - Aggiunto array allegati al payload del servizio: /anteprima/attestazione/{version} (per l'anteprima dell'Attestazione di conformità)
+
+### Fixed
+
+- [versione] le fix effettuate sono retrocompatibili, pertanto sono state applicate sulla versione corrente (100022)
+- [SWA] Trasversale - trascrizioni: Utilizzato il termine integrale solo nelle formule che prevedono la trascrizione integrale
+- Trasversale - UC cittadinanza gestione interprete
+- [SC]: usecase 1314 - richiesta aggiunta allegato <https://github.com/italia/ansc/issues/1399>
+- [SWA]: Matrimonio con rito religioso: aggiunta dicitura alla porzione 11
+- [SC]: Mancato aggiornamento campo località estera di nascita soggetti <https://github.com/italia/ansc/issues/1396>
+- [SC]: Caso d'uso 14870000 - Validazione Annotazione Modificativa (per cambio sesso) - Errore Interno
+- [SC]: Anteprima - Trascrizione Divorzio Estero (347000) - metaDati mancanti <https://github.com/italia/ansc/issues/1404>
+- [SC]: Attestazione conformità, allegato generico <https://github.com/italia/ansc/issues/1409>
+- [SC]: Rifiuto notifiche "L'atto o la notifica risulta già rifiutata" <https://github.com/italia/ansc/issues/1352>
+- [SC]: Problemi con consultazione intestatario  <https://github.com/italia/ansc/issues/1418>
+- [SC]: Chiarimenti su Codici di errori specifici per OTP <https://github.com/italia/ansc/issues/1416>
+- [SC]: Composizione completa sovrascritta se si visualizza l'anteprima da webapp STEP 2
+- [SWA]: Refuso nel nome della sezione Documentazione relativa al pubblico impiego <https://github.com/italia/ansc/issues/1445>
+- [SC / WA]: Validazione - Riconoscimenti: Assenso 14enne (12323100) - Controlli <https://github.com/italia/ansc/issues/1451>
+- [SC]:Data annotazione matrimonio in annotazione divorzio su atto nascita <https://github.com/italia/ansc/issues/1440>
+- [SC]: Stato di firma parziale / dettaglio firmatari <https://github.com/italia/ansc/issues/1432>
+- [SC]: Impedire di caricare il processo verbale (999) dal servizio di upload R001
+- [SC]: Anteprima - Annotazioni contestuali vuote: anomalia collegata alla composizioneCompleta <https://github.com/italia/ansc/issues/1464>
+- [SC]: tabella ansc_4_dec_tipo_dichiarante richiesto aggiornamento <https://github.com/italia/ansc/issues/1459>
+- tabella ansc_4  : Aggiunti valori 9 - "Procuratore della madre con presenza padre", e 10 - "Procuratore del padre con presenza madre" , alla decodifica 
+
+
 ## [1.39.6 - 23-04-2025]
 
 ### Fixed

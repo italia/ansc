@@ -3,12 +3,9 @@
 Questo documento descrive le principali attività che verranno rilasciata nelle future versioni del software di ANSC.
 Le date e la composizione degli interventi potrebbero subire variazioni.
 
-## [30-04-2025]
+## [15-05-2025]
 
-- ID 184 Ripristino Nota tecnica
-- ID 150 Evoluzione firma attestazione con possibilità di scegliere quali allegati siano da includere nell'attestazione di conformità e quali sono da ritenenrsi già conformi
-- ID 173  Chiusura dei registri e verificazione da parte delle prefetture  (metà maggio)
-- ID 165.a Aggiornamento formule multilinguismo registro nascita (primo lotto)
+- ID 173  Chiusura dei registri e verificazione da parte delle prefetture
 
 ## [30-05-2025]
 

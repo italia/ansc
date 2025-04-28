@@ -1,3 +1,16 @@
+#Changelog mappatura casi uso 1.40.0  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 1
+* trascrizioni/Trascr_022.csv
+
+### Modifiche per il caso uso trascrizioni/Trascr_022.csv : 
+* Aggiunto 'Allegati Attestazione di nascita' (riga:2)
+
+
 #Changelog mappatura casi uso 1.39.3
 
 ## Casi uso aggiunti : 2

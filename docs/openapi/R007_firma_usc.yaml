@@ -136,6 +136,9 @@ components:
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
         - type: object
+          required:
+            - idTipoFlusso
+            - firmaInput
           properties:
             idTipoFlusso:
               type: integer
@@ -143,6 +146,42 @@ components:
               example: "0"
             firmaInput:
               $ref: '#/components/schemas/FirmaInput'
+            allegati:
+              description: Allegati all'atto con flagAttConformita
+              type: array
+              items:
+                $ref: '#/components/schemas/AllegatoInput'
+    AllegatoInput:
+      description: Modello allegato passato dal FE con flagAttConformita (se settato a true allora l'allegato viene incluso nell'attestazione di conformità)
+      properties:
+        idAllegato:
+          type: string
+          description: Id del file assegnato dal sistema
+          example: "43676"
+        statoAllegato:
+          type: string
+          description: Stato corrente dell'allegato (codificato ANSC_8)
+          example: "1"
+        nomefile:
+          type: string
+          description: Nome del file
+          example: "nome_del_file.pdf"
+        tipoFile:
+          type: string
+          description: Tipo del file (codificato ANSC_10)
+          example: "1"
+        tipoAllegato:
+          type: string
+          description: Tipo dell'allegato (codificato ANSC_9)
+          example: "1"
+        hash:
+          description: "Hash del file calcolato dal sistema (nota: definire l'algoritmo, per es: SHA1)"
+          type: string
+          example: "21d305c42509"
+        flagAttConformita:
+          type: boolean
+          description: Se il flag è true l'allegato deve essere incluso nell'attestazione di conformità
+          example: true
     FirmaAttestazioneResponse:
       description: Risposta del servizio per la firma dell'attestazione di conformita'
       allOf:

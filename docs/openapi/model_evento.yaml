@@ -25,7 +25,7 @@ components:
         idTipoEvento:
           type: string
           description: Id del tipo evento. (decodifica ANSC_01)
-          example: 5
+          example: "5"
         idtipocontenuto:
           description: Tipologia di evento (Atto, annotazione, trascrizione) (decodifica ANSC_02)
           type: string
@@ -33,7 +33,7 @@ components:
         idUsecase:
           type: string
           description: Id del caso d'uso cui si riferisce l'evento. (decodifica ANSC_03)
-          example: 1170
+          example: "1170"
         descrizioneCasoUso:
           type: string
           description: Descrizione del caso d'uso cui si riferisce l'evento.
@@ -45,11 +45,11 @@ components:
         flagsecretato:
           type: string
           description: Indica se l'atto e' secretato o meno (1 secretato - 0 non secretato) (campo gestito dal sistema)
-          example: 0
+          example: "0"
         idVersion:
           type: string
           description: Id della versione utilizzato per la creazione dell'evento (decodifica ANSC_100)
-          example: 1
+          example: "1"
         # Dati di redazione dell'evento (sempre presenti)
         dataformazione:
           type: string
@@ -1414,6 +1414,10 @@ components:
           type: string
           description: Flag attestazione.
           example: 'true'
+        flagInclusoAttConformita:
+          type: string
+          description: Flag se true l'allegato viene incluso nell'attestazione di conformità.
+          example: 'true'
     ModelDatiDiNascita:
       description: Questi dati integrano quelli dell'intestatario e definiscono l'evento di nascita. Per non creare ridondanze la data, lo stato, la provincia e il comune dell'evento sono quelli corrispondenti indicati nel ModelSoggetto dell'intestatario
       properties:
@@ -1955,7 +1959,7 @@ components:
             tipoAdozione:
               type: string
               description: Tipo adozione (decodifica ANSC_116)
-              example: 0
+              example: "0"
             attoMatrimonio:
               $ref: '#/components/schemas/ModelAttoCollegato'
             attoUnioneCivile:
