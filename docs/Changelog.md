@@ -23,6 +23,14 @@ NOTE:
 
 ## [Unreleased]
 
+### Added
+
+- [documentazione] [Guida operativa ANSC - Servizi di ausilio](Guida_operativa_ANSC_Servizi_di_ausilio.pdf)
+
+### Changed
+
+- [documentazione] [Guida operativa ANSC](Guida_operativa_ANSC.pdf)
+
 ## [1.40.0 - 29-04-2025]
 
 ### Added

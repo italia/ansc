@@ -4,6 +4,7 @@
 
 * [Changelog.md](Changelog.md)
 * [Guida operativa ANSC](Guida_operativa_ANSC.pdf)
+* [Guida operativa ANSC - Servizi di ausilio](Guida_operativa_ANSC_Servizi_di_ausilio.pdf)
 * [Guida adesione ANSC](https://www.anagrafenazionale.interno.it/wp-content/uploads/Guida-operativa-per-adesione-ad-ANSC.pdf)
 * [ReleaseNotes.md](ReleaseNotes.md)
 * Contratto di servizio [OpenAPI](openapi/index.md) e [PDF](Caratteristiche_servizi/index.md) 
