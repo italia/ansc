@@ -23,13 +23,20 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.40.1 - 12-05-2025]
+
 ### Added
 
+- [feature] abilitazione servizio di richiesta firma remota in produzione
 - [documentazione] [Guida operativa ANSC - Servizi di ausilio](Guida_operativa_ANSC_Servizi_di_ausilio.pdf)
 
 ### Changed
 
 - [documentazione] [Guida operativa ANSC](Guida_operativa_ANSC.pdf)
+
+### Fixed
+
+- [Notifiche ANPR]: Modificate restriction pattern xsd dei riferimenti agli atti ANSC cartacei, intervento effettuato per accettare un set più ampio di caratteri
 
 ## [1.40.0 - 29-04-2025]
 
