@@ -23,6 +23,16 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.40.2 - 15-05-2025]
+
+### Added
+
+- [feature] Chiusura dei registri e processo di verificazione da parte delle prefetture (ID 173, disponibile solo da WA in preproduzione) 
+
+### Fixed
+
+- [WA] nella visualizzazione atti in alcuni casi compariva 'undefined' al posto dell' USC nella sezione dati evento.
+
 ## [1.40.1 - 12-05-2025]
 
 ### Added

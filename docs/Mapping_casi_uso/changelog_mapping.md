@@ -1,3 +1,40 @@
+#Changelog mappatura casi uso 1.40.2  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 7
+* matrimoni/Matr_001.csv
+* matrimoni/Matr_002.csv
+* matrimoni/Matr_004.csv
+* matrimoni/Matr_005.csv
+* matrimoni/Matr_010.csv
+* matrimoni/Matr_012.csv
+* matrimoni/Matr_019.csv
+
+### Modifiche per il caso uso matrimoni/Matr_001.csv : 
+* Rimosso 'evento.datiProdotti'
+
+### Modifiche per il caso uso matrimoni/Matr_002.csv : 
+* Presenti modifiche per 'evento.datiProdotti' (riga:44)
+
+### Modifiche per il caso uso matrimoni/Matr_004.csv : 
+* Rimosso 'evento.datiProdotti'
+
+### Modifiche per il caso uso matrimoni/Matr_005.csv : 
+* Rimosso 'evento.datiProdotti'
+
+### Modifiche per il caso uso matrimoni/Matr_010.csv : 
+* Presenti modifiche per 'evento.datiProdotti' (riga:47)
+
+### Modifiche per il caso uso matrimoni/Matr_012.csv : 
+* Rimosso 'evento.datiProdotti'
+
+### Modifiche per il caso uso matrimoni/Matr_019.csv : 
+* Rimosso 'evento.datiProdotti'
+
+
 #Changelog mappatura casi uso 1.40.0  
 
 ## Casi uso aggiunti : 0

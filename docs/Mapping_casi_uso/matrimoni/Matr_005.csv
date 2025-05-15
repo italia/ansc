@@ -48,7 +48,6 @@
 "Luogo Celebrazione","Data Evento","SI","evento.datiEventoMatrimonio","dataEvento","","obbligatoria"
 "Luogo Celebrazione","Ora Evento","SI","evento.datiEventoMatrimonio","oraEvento","","obbligatoria"
 "Luogo Celebrazione","Minuti Evento","SI","evento.datiEventoMatrimonio","minutoEvento","","obbligatoria"
-"Luogo Celebrazione","Presentazione documenti","SI","evento","datiProdotti","","obbligatoria"
 "Officiante","Ufficiale di stato civile delegato a celebrare il matrimonio","SI","evento.datiEventoMatrimonio","officiante","","obbligatoria"
 "Officiante","Cognome","SI","evento.datiEventoMatrimonio.officianteEvento","cognome","","obbligatoria"
 "Officiante","Nome","SI","evento.datiEventoMatrimonio.officianteEvento","nome","","obbligatoria"
