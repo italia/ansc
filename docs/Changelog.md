@@ -23,6 +23,17 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.40.3 - 19-05-2025]
+
+### Fixed
+
+- [WA] aggiornamento per supportare la correzione di annotazione in caso la annotazione contenga allegati e quindi attestazione di conformita
+- [SC / WA]: reso orario nascita non obblicatorio in caso di uso 1361 come da issue:  <https://github.com/italia/ansc/issues/1486> 
+- [SC / WA]: inserita data decorrenza nelle annotazioni contestuali  come da issue:  <https://github.com/italia/ansc/issues/1501> 
+- [WA] Richiesta firma remota: aggiunta gestione di comune e  residenza per gli utenti residenti all'estero nella generazione del CSV per le richieste firme remote
+- [WA] richiesta firma remota: Migliorata gestione otp per conferma numero richiesta firma remota
+- [WA] richiesta firma remota: aggiunto tour interattivo (documentazione)
+
 ## [1.40.2 - 15-05-2025]
 
 ### Added

@@ -141,6 +141,78 @@ components:
           maxLength: 5
           example: '9423'
           # Dati specifici dell'evento
+        dataAttoCartaceo:
+          type: string
+          format: date
+          description: Data decorrenza atto cartaceo correlato
+          example: '2022-03-22'
+        idAttoCartaceo:
+          type: string
+          description: Identificativo dell'atto cartaceo collegato assegnato dal comune.
+          maxLength: 256
+          example: '9423 p1 sA-2025 999999'
+        numeroComunaleAttoCartaceo:
+          type: string
+          description: Numero dell'atto cartaceo collegato assegnato dal comune.
+          maxLength: 5
+          example: '9423'
+        serieAttoCartaceo:
+          type: string
+          description: Serie atto cartaceo correlato
+          example: 'Serie II'
+        parteAttoCartaceo:
+          type: string
+          description: Parte atto cartaceo correlato
+          example: 'Parte 2'
+        volumeAttoCartaceo:
+          type: string
+          description: Volume atto cartaceo correlato
+          example: 'Volume 3'
+        tipoDichiarante:
+          type: string
+          description: Tipo del dichiarante (decodifica ANSC_04)
+          example: '1'
+        ausilioInterprete:
+          type: string
+          description: Indica se e' stato necessario l'ausilio di un interprete (comportamento Boolean 'true'/'false').
+          example: 'false'
+        conTestimoni:
+          type: string
+          deprecated: true
+          description: -- DEPRECATO -- Indica se la dichiarazione e' stata resa con testimoni.
+          example: 'no'
+        noteRitardo:
+          type: string
+          description: Note sul ritardo nella dichiarazione
+          example: 'Esempio di note'
+        motivoAnnullamento:
+          type: string
+          description: Motivo annullamento atto.
+          example: 'Motivo di annullamento'
+        tipoConsenso:
+          type: string
+          description: Riconoscimento e consenso (decodifica ANSC_12)
+          example: '1'
+        certificabile:
+          type: string
+          description: (decodifica ANSC_29)
+          example: '0'
+        datiRiconoscimento:
+          type: string
+          deprecated: true
+          description: -- DEPRECATO -- usare datiProdotti
+        sentenzaFiglioIncestuoso:
+          type: boolean
+          description: Indica se presente sentenza di figlio incestuoso
+          example: true
+        propostaAnnotazione:
+          type: boolean
+          description: L'evento deve generare l'annotazione?
+          example: true
+        datiProdotti:
+          type: string
+          description: Tipo di produzione dati (decodifica ANSC_36)
+          
         tipoDichiarante:
           type: string
           description: Tipo del dichiarante (decodifica ANSC_04)
@@ -1841,6 +1913,11 @@ components:
           type: boolean
           description: Indica se l'annotazione è certificabile o meno (true=NON CERTIFICABILE, false=CERTIFICABILE)
           example: true
+        dataDecorrenza:
+          type: string
+          format: date
+          description: Data della annotazione contestuale.
+          example: '2020-01-08'
     ModelTrascrizione:
       description: classe base per le trascrizioni. Non è mai usata da sola
       properties:

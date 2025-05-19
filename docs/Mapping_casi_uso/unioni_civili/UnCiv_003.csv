@@ -349,3 +349,4 @@
 "Annotazione Contestuale","Tipo Annotazione Contestuale","NO","evento.datiAnnotazione","tipoAnnotazione","","evento.datiEventoUnioneCivile.regimePatrimoniale.tipo,=,1"
 "Annotazione Contestuale","Dichiara come non certificabile","NO","evento.datiAnnotazione","flagAnnotazioneNonCertificabile","","evento.datiEventoUnioneCivile.regimePatrimoniale.tipo,=,1"
 "Annotazione Contestuale","Testo Annotazione Contestuale","NO","evento.datiAnnotazione","testoAnnotazione","","evento.datiEventoUnioneCivile.regimePatrimoniale.tipo,=,1"
+"Annotazione Contestuale","Data decorrenza","NO","evento.datiAnnotazione","dataDecorrenza","","evento.datiEventoUnioneCivile.regimePatrimoniale.tipo,=,1"

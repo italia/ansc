@@ -1,3 +1,475 @@
+#Changelog mappatura casi uso 1.40.3  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 106
+* cittadinanza/Citt_001.csv
+* cittadinanza/Citt_002.csv
+* cittadinanza/Citt_003.csv
+* cittadinanza/Citt_004.csv
+* cittadinanza/Citt_006.csv
+* cittadinanza/Citt_008.csv
+* cittadinanza/Citt_010.csv
+* cittadinanza/Citt_012.csv
+* cittadinanza/Citt_014.csv
+* cittadinanza/Citt_018.csv
+* cittadinanza/Citt_019.csv
+* cittadinanza/Citt_020.csv
+* cittadinanza/Citt_022.csv
+* cittadinanza/Citt_023.csv
+* cittadinanza/Citt_025.csv
+* cittadinanza/Citt_026.csv
+* cittadinanza/Citt_027.csv
+* cittadinanza/Citt_029.csv
+* cittadinanza/Citt_031.csv
+* cittadinanza/Citt_032.csv
+* cittadinanza/Citt_034.csv
+* cittadinanza/Citt_035.csv
+* cittadinanza/Citt_037.csv
+* cittadinanza/Citt_039.csv
+* cittadinanza/Citt_041.csv
+* cittadinanza/Citt_045.csv
+* cittadinanza/Citt_046.csv
+* cittadinanza/Citt_998_1.csv
+* cittadinanza/Citt_998_2.csv
+* cittadinanza/Citt_998_4.csv
+* cittadinanza/Citt_999.csv
+* matrimoni/Matr_001.csv
+* matrimoni/Matr_002.csv
+* matrimoni/Matr_003.csv
+* matrimoni/Matr_004.csv
+* matrimoni/Matr_005.csv
+* matrimoni/Matr_007.csv
+* matrimoni/Matr_008.csv
+* matrimoni/Matr_009.csv
+* matrimoni/Matr_010.csv
+* matrimoni/Matr_011.csv
+* matrimoni/Matr_012.csv
+* matrimoni/Matr_013.csv
+* matrimoni/Matr_019.csv
+* matrimoni/Matr_998_1.csv
+* matrimoni/Matr_998_2.csv
+* matrimoni/Matr_998_4.csv
+* matrimoni/Matr_999_1.csv
+* matrimoni/Matr_999_2.csv
+* matrimoni/Matr_Riconc_999.csv
+* matrimoni/Sep_Div_999.csv
+* morte/Morte_998_1.csv
+* morte/Morte_998_2.csv
+* morte/Morte_998_4.csv
+* morte/Morte_999.csv
+* nascita/Dic_Nasc_998_1.csv
+* nascita/Dic_Nasc_998_2.csv
+* nascita/Dic_Nasc_998_5.csv
+* nascita/Dic_Nasc_999.csv
+* riconoscimenti/Rico_999.csv
+* trascrizioni/Trascr_005.csv
+* trascrizioni/Trascr_006.csv
+* trascrizioni/Trascr_008.csv
+* trascrizioni/Trascr_009.csv
+* trascrizioni/Trascr_010.csv
+* trascrizioni/Trascr_011.csv
+* trascrizioni/Trascr_012.csv
+* trascrizioni/Trascr_013.csv
+* trascrizioni/Trascr_014.csv
+* trascrizioni/Trascr_015.csv
+* trascrizioni/Trascr_016.csv
+* trascrizioni/Trascr_018.csv
+* trascrizioni/Trascr_019.csv
+* trascrizioni/Trascr_020.csv
+* trascrizioni/Trascr_021.csv
+* trascrizioni/Trascr_024.csv
+* trascrizioni/Trascr_027.csv
+* trascrizioni/Trascr_030.csv
+* trascrizioni/Trascr_031.csv
+* trascrizioni/Trascr_999.csv
+* trascrizioni/Trascr_Citt_999.csv
+* trascrizioni/Trascr_Matr_001.csv
+* trascrizioni/Trascr_Matr_002.csv
+* trascrizioni/Trascr_Matr_003.csv
+* trascrizioni/Trascr_Matr_004.csv
+* trascrizioni/Trascr_Matr_005.csv
+* trascrizioni/Trascr_Matr_006.csv
+* trascrizioni/Trascr_Matr_999.csv
+* trascrizioni/Trascr_Morte_999.csv
+* trascrizioni/Trascr_UnCiv_001.csv
+* trascrizioni/Trascr_UnCiv_002.csv
+* trascrizioni/Trascr_UnCiv_003.csv
+* trascrizioni/Trascr_UnCiv_004.csv
+* trascrizioni/Trascr_UnCiv_005.csv
+* trascrizioni/Trascr_UnCiv_999.csv
+* unioni_civili/Sciogl_UnCiv_999.csv
+* unioni_civili/UnCiv_001.csv
+* unioni_civili/UnCiv_002.csv
+* unioni_civili/UnCiv_003.csv
+* unioni_civili/UnCiv_004.csv
+* unioni_civili/UnCiv_005.csv
+* unioni_civili/UnCiv_998_1.csv
+* unioni_civili/UnCiv_998_2.csv
+* unioni_civili/UnCiv_998_4.csv
+* unioni_civili/UnCiv_998_5.csv
+* unioni_civili/UnCiv_999.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_001.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:40)
+
+### Modifiche per il caso uso cittadinanza/Citt_002.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:39)
+
+### Modifiche per il caso uso cittadinanza/Citt_003.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:40)
+
+### Modifiche per il caso uso cittadinanza/Citt_004.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:38)
+
+### Modifiche per il caso uso cittadinanza/Citt_006.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:38)
+
+### Modifiche per il caso uso cittadinanza/Citt_008.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:38)
+
+### Modifiche per il caso uso cittadinanza/Citt_010.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:38)
+
+### Modifiche per il caso uso cittadinanza/Citt_012.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:38)
+
+### Modifiche per il caso uso cittadinanza/Citt_014.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:38)
+
+### Modifiche per il caso uso cittadinanza/Citt_018.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:42)
+
+### Modifiche per il caso uso cittadinanza/Citt_019.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:39)
+
+### Modifiche per il caso uso cittadinanza/Citt_020.csv : 
+* Aggiunto 'Allegati Copia dell'atto di cittadinanza che contiene l'esito di accertamento rilasciato dal consolato' (riga:2)
+* Presenti modifiche per 'Allegati Copia integrale dell'atto di nascita dell'interessato' (riga:3)
+* Rimosso 'Allegati Decreto del Tribunale'
+* Rimosso 'Allegati Copia integrale dell'atto di cittadinanza dell'interessato'
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:43)
+* Rimosso 'evento.trascrizioneCittadinanza.atto.enteEstero.idProvinciaEnte'
+* Rimosso 'evento.trascrizioneCittadinanza.atto.enteEstero.siglaProvinciaEnte'
+* Rimosso 'evento.trascrizioneCittadinanza.atto.enteEstero.idComuneEnte'
+* Rimosso 'evento.trascrizioneCittadinanza.atto.enteEstero.nomeComuneEnte'
+
+### Modifiche per il caso uso cittadinanza/Citt_022.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:44)
+
+### Modifiche per il caso uso cittadinanza/Citt_023.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:41)
+
+### Modifiche per il caso uso cittadinanza/Citt_025.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:40)
+
+### Modifiche per il caso uso cittadinanza/Citt_026.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:38)
+
+### Modifiche per il caso uso cittadinanza/Citt_027.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:38)
+
+### Modifiche per il caso uso cittadinanza/Citt_029.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:40)
+
+### Modifiche per il caso uso cittadinanza/Citt_031.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:40)
+
+### Modifiche per il caso uso cittadinanza/Citt_032.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:47)
+
+### Modifiche per il caso uso cittadinanza/Citt_034.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:40)
+
+### Modifiche per il caso uso cittadinanza/Citt_035.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:40)
+
+### Modifiche per il caso uso cittadinanza/Citt_037.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:40)
+
+### Modifiche per il caso uso cittadinanza/Citt_039.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:40)
+
+### Modifiche per il caso uso cittadinanza/Citt_041.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:40)
+
+### Modifiche per il caso uso cittadinanza/Citt_045.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:51)
+
+### Modifiche per il caso uso cittadinanza/Citt_046.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:42)
+
+### Modifiche per il caso uso cittadinanza/Citt_998_1.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso cittadinanza/Citt_998_2.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso cittadinanza/Citt_998_4.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso cittadinanza/Citt_999.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso matrimoni/Matr_001.csv : 
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:598)
+
+### Modifiche per il caso uso matrimoni/Matr_002.csv : 
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:654)
+
+### Modifiche per il caso uso matrimoni/Matr_003.csv : 
+* Presenti modifiche per 'evento.datiProdotti' (riga:39)
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:588)
+
+### Modifiche per il caso uso matrimoni/Matr_004.csv : 
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:605)
+
+### Modifiche per il caso uso matrimoni/Matr_005.csv : 
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:658)
+
+### Modifiche per il caso uso matrimoni/Matr_007.csv : 
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:467)
+* Rimosso 'evento.datiProdotti'
+
+### Modifiche per il caso uso matrimoni/Matr_008.csv : 
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:463)
+* Rimosso 'evento.datiEventoMatrimonio.luogoCelebrazione.luogo'
+* Rimosso 'evento.datiEventoMatrimonio.luogoCelebrazione.idProvincia'
+* Rimosso 'evento.datiEventoMatrimonio.luogoCelebrazione.siglaProvincia'
+* Rimosso 'evento.datiEventoMatrimonio.luogoCelebrazione.idComune'
+* Rimosso 'evento.datiEventoMatrimonio.luogoCelebrazione.nomeComune'
+
+### Modifiche per il caso uso matrimoni/Matr_009.csv : 
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:729)
+
+### Modifiche per il caso uso matrimoni/Matr_010.csv : 
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:784)
+
+### Modifiche per il caso uso matrimoni/Matr_011.csv : 
+* Presenti modifiche per 'evento.datiProdotti' (riga:42)
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:718)
+
+### Modifiche per il caso uso matrimoni/Matr_012.csv : 
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:735)
+
+### Modifiche per il caso uso matrimoni/Matr_013.csv : 
+* Presenti modifiche per 'evento.datiProdotti' (riga:42)
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:787)
+
+### Modifiche per il caso uso matrimoni/Matr_019.csv : 
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:558)
+
+### Modifiche per il caso uso matrimoni/Matr_998_1.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso matrimoni/Matr_998_2.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso matrimoni/Matr_998_4.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso matrimoni/Matr_999_1.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:245)
+
+### Modifiche per il caso uso matrimoni/Matr_999_2.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:244)
+
+### Modifiche per il caso uso matrimoni/Matr_Riconc_999.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_999.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso morte/Morte_998_1.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso morte/Morte_998_2.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso morte/Morte_998_4.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso morte/Morte_999.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_1.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_2.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_5.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_999.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:14)
+
+### Modifiche per il caso uso riconoscimenti/Rico_999.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso trascrizioni/Trascr_005.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:103)
+
+### Modifiche per il caso uso trascrizioni/Trascr_006.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:220)
+
+### Modifiche per il caso uso trascrizioni/Trascr_008.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:126)
+
+### Modifiche per il caso uso trascrizioni/Trascr_009.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:100)
+
+### Modifiche per il caso uso trascrizioni/Trascr_010.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:127)
+
+### Modifiche per il caso uso trascrizioni/Trascr_011.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:108)
+
+### Modifiche per il caso uso trascrizioni/Trascr_012.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:84)
+
+### Modifiche per il caso uso trascrizioni/Trascr_013.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:36)
+
+### Modifiche per il caso uso trascrizioni/Trascr_014.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:36)
+
+### Modifiche per il caso uso trascrizioni/Trascr_015.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:37)
+
+### Modifiche per il caso uso trascrizioni/Trascr_016.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:36)
+
+### Modifiche per il caso uso trascrizioni/Trascr_018.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:100)
+
+### Modifiche per il caso uso trascrizioni/Trascr_019.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:100)
+
+### Modifiche per il caso uso trascrizioni/Trascr_020.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:127)
+
+### Modifiche per il caso uso trascrizioni/Trascr_021.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:101)
+
+### Modifiche per il caso uso trascrizioni/Trascr_024.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:126)
+
+### Modifiche per il caso uso trascrizioni/Trascr_027.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:219)
+
+### Modifiche per il caso uso trascrizioni/Trascr_030.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:100)
+
+### Modifiche per il caso uso trascrizioni/Trascr_031.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:58)
+
+### Modifiche per il caso uso trascrizioni/Trascr_999.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:104)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Citt_999.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:44)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_001.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:59)
+* Aggiunto 'evento.intestatari[1].residenzaOriginaria' (riga:90)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_002.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:57)
+* Aggiunto 'evento.intestatari[1].residenzaOriginaria' (riga:88)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_003.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:59)
+* Aggiunto 'evento.intestatari[1].residenzaOriginaria' (riga:90)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_004.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:58)
+* Aggiunto 'evento.intestatari[1].residenzaOriginaria' (riga:89)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_005.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:80)
+* Aggiunto 'evento.intestatari[1].residenzaOriginaria' (riga:111)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_006.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:59)
+* Aggiunto 'evento.intestatari[1].residenzaOriginaria' (riga:90)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_999.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:52)
+* Aggiunto 'evento.intestatari[1].residenzaOriginaria' (riga:83)
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:127)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Morte_999.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:28)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_001.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:60)
+* Aggiunto 'evento.intestatari[1].residenzaOriginaria' (riga:91)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_002.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:60)
+* Aggiunto 'evento.intestatari[1].residenzaOriginaria' (riga:91)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_003.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:59)
+* Aggiunto 'evento.intestatari[1].residenzaOriginaria' (riga:90)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_004.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:59)
+* Aggiunto 'evento.intestatari[1].residenzaOriginaria' (riga:90)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_005.csv : 
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:59)
+* Aggiunto 'evento.intestatari[1].residenzaOriginaria' (riga:90)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_999.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:52)
+* Aggiunto 'evento.intestatari[1].residenzaOriginaria' (riga:83)
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:101)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_999.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_001.csv : 
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:329)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_002.csv : 
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:374)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_003.csv : 
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:352)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_004.csv : 
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:340)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_005.csv : 
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:384)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_1.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_2.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_4.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_5.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_999.csv : 
+* Aggiunto 'evento.idAttoCartaceo' (riga:13)
+* Aggiunto 'evento.datiAnnotazione.dataDecorrenza' (riga:188)
+
+
 #Changelog mappatura casi uso 1.40.2  
 
 ## Casi uso aggiunti : 0

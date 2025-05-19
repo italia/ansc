@@ -655,3 +655,4 @@
 "Annotazione Contestuale","Tipo Annotazione Contestuale","NO","evento.datiAnnotazione","tipoAnnotazione","","evento.datiEventoMatrimonio.regimePatrimoniale.tipo,=,1"
 "Annotazione Contestuale","Dichiara come non certificabile","NO","evento.datiAnnotazione","flagAnnotazioneNonCertificabile","","evento.datiEventoMatrimonio.regimePatrimoniale.tipo,=,1"
 "Annotazione Contestuale","Testo Annotazione Contestuale","NO","evento.datiAnnotazione","testoAnnotazione","","evento.datiEventoMatrimonio.regimePatrimoniale.tipo,=,1"
+"Annotazione Contestuale","Data decorrenza","NO","evento.datiAnnotazione","dataDecorrenza","","evento.datiEventoMatrimonio.regimePatrimoniale.tipo,=,1"

@@ -10,6 +10,7 @@
 "Dati generali","Minuto decorrenza","NO","evento","minutoDecorrenza","","obbligatoria"
 "Dati generali","Motivo recupero","SI","evento","motivoRecupero","","obbligatoria"
 "Dati generali","Descrizione recupero","NO","evento","descrizioneMotivoRecupero","","obbligatoria"
+"Dati generali","Identificativo Atto Cartaceo","NO","evento","idAttoCartaceo","","obbligatoria"
 "Dati generali","Data Evento","SI","evento.datiEventoMatrimonio","dataEvento","","obbligatoria"
 "Dati generali","Provincia","SI","evento.datiEventoMatrimonio.luogoCelebrazione","idProvincia","","obbligatoria"
 "Dati generali","Provincia - Descrizione","SI","evento.datiEventoMatrimonio.luogoCelebrazione","siglaProvincia","","obbligatoria"
@@ -240,3 +241,4 @@
 "Annotazione Contestuale","Tipo Annotazione Contestuale","NO","evento.datiAnnotazione","tipoAnnotazione","","obbligatoria"
 "Annotazione Contestuale","Dichiara come non certificabile","NO","evento.datiAnnotazione","flagAnnotazioneNonCertificabile","","obbligatoria"
 "Annotazione Contestuale","Testo Annotazione Contestuale","NO","evento.datiAnnotazione","testoAnnotazione","","obbligatoria"
+"Annotazione Contestuale","Data decorrenza","NO","evento.datiAnnotazione","dataDecorrenza","","obbligatoria"

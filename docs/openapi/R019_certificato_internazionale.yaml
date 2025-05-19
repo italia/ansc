@@ -426,8 +426,12 @@ components:
       properties:
         id:
           type: number
-          description: Id univoco assegnato dal sistema. (per uso interno)
+          description: Id univoco assegnato dal sistema dell'evento sorgente. (per uso interno)
           example: '12'
+        idAnnotazione:
+          type: number
+          description: Id univoco assegnato dal sistema dell'annotazione. (per uso interno)
+          example: '13'
         dataEvento:
           type: string
           format: date
