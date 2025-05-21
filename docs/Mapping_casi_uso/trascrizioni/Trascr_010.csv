@@ -124,7 +124,6 @@
 "Figlio","Provincia AIRE - Descrizione","NO","evento.intestatari[0]","siglaProvinciaAIRE","","obbligatoria"
 "Figlio","Comune AIRE","NO","evento.intestatari[0]","idComuneAIRE","","obbligatoria"
 "Figlio","Comune AIRE - Descrizione","NO","evento.intestatari[0]","nomeComuneAIRE","","obbligatoria"
-"Figlio","Residenza al momento dell'evento originario","NO","evento.intestatari[0]","residenzaOriginaria","","obbligatoria"
 "Atto nascita intestatario","Id atto","NO","evento.datiEventoRiconoscimento.attoNascita","idAnsc","","obbligatoria"
 "Atto nascita intestatario","Provincia registrazione","SI","evento.datiEventoRiconoscimento.attoNascita","idProvinciaRegistrazione","","obbligatoria"
 "Atto nascita intestatario","Provincia registrazione - Descrizione","SI","evento.datiEventoRiconoscimento.attoNascita","siglaProvinciaRegistrazione","","obbligatoria"

@@ -23,6 +23,14 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.40.4 - 21-05-2025]
+
+### Fixed
+
+- [SC]: Caricamento Anteprima atto e generazione processo verbale <https://github.com/italia/ansc/issues/1513> <https://github.com/italia/ansc/issues/1515>
+- Annotazione contestuale: gestione data decorrenza in annotazione contestuale <https://github.com/italia/ansc/issues/1501>
+- Rimossi alcuni campi del mapping inseriti nella versione 1.40.3
+
 ## [1.40.3 - 19-05-2025]
 
 ### Fixed

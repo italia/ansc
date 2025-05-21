@@ -38,7 +38,6 @@
 "Intestatario","flag dichiarante","SI","evento.intestatari[0]","flagDichiarante","","obbligatoria"
 "Intestatario","flag comparente","SI","evento.intestatari[0]","flagComparente","","obbligatoria"
 "Intestatario","flag firmatario","SI","evento.intestatari[0]","flagFirmatario","","obbligatoria"
-"Intestatario","Residenza al momento dell'evento originario","NO","evento.intestatari[0]","residenzaOriginaria","","obbligatoria"
 "Intestatario","Ulteriore cittadinanza di cui è in possesso","SI","evento.trascrizioneCittadinanza","idUlterioreCittadinanza","","obbligatoria"
 "Intestatario","Ulteriore cittadinanza di cui è in possesso","SI","evento.trascrizioneCittadinanza","ulterioreCittadinanza","","obbligatoria"
 "Madre","Cognome","NO","evento.madre","cognome","","obbligatoria"

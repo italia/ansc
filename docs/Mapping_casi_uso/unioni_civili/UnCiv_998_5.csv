@@ -10,7 +10,6 @@
 "Dati generali","Minuto decorrenza","NO","evento","minutoDecorrenza","","obbligatoria"
 "Dati generali","Motivo recupero","NO","evento","motivoRecupero","","obbligatoria"
 "Dati generali","Descrizione recupero","NO","evento","descrizioneMotivoRecupero","","obbligatoria"
-"Dati generali","Identificativo Atto Cartaceo","NO","evento","idAttoCartaceo","","obbligatoria"
 "Atto di riferimento","Id atto","NO","evento.datiAnnotazioneModificativa.attoIntestatario","idAnsc","","obbligatoria"
 "Atto di riferimento","Provincia registrazione","SI","evento.datiAnnotazioneModificativa.attoIntestatario","idProvinciaRegistrazione","","obbligatoria"
 "Atto di riferimento","Provincia registrazione - Descrizione","SI","evento.datiAnnotazioneModificativa.attoIntestatario","siglaProvinciaRegistrazione","","obbligatoria"

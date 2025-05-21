@@ -48,7 +48,6 @@
 "Intestatario","Provincia AIRE - Descrizione","NO","evento.intestatari[0]","siglaProvinciaAIRE","192.6","evento.trascrizioneCittadinanza.flagCambioGeneralita,=,true"
 "Intestatario","Comune AIRE","NO","evento.intestatari[0]","idComuneAIRE","","evento.trascrizioneCittadinanza.flagCambioGeneralita,=,true"
 "Intestatario","Comune AIRE - Descrizione","NO","evento.intestatari[0]","nomeComuneAIRE","192.6","evento.trascrizioneCittadinanza.flagCambioGeneralita,=,true"
-"Intestatario","Residenza al momento dell'evento originario","NO","evento.intestatari[0]","residenzaOriginaria","192.6","evento.trascrizioneCittadinanza.flagCambioGeneralita,=,true"
 "Intestatario","flag dichiarante","SI","evento.intestatari[0]","flagDichiarante","","evento.trascrizioneCittadinanza.flagCambioGeneralita,=,true"
 "Intestatario","flag comparente","SI","evento.intestatari[0]","flagComparente","","evento.trascrizioneCittadinanza.flagCambioGeneralita,=,true"
 "Intestatario","flag firmatario","SI","evento.intestatari[0]","flagFirmatario","","evento.trascrizioneCittadinanza.flagCambioGeneralita,=,true"

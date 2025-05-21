@@ -35,7 +35,6 @@
 "Intestatario","Provincia AIRE - Descrizione","NO","evento.intestatari[0]","siglaProvinciaAIRE","","obbligatoria"
 "Intestatario","Comune AIRE","NO","evento.intestatari[0]","idComuneAIRE","","obbligatoria"
 "Intestatario","Comune AIRE - Descrizione","NO","evento.intestatari[0]","nomeComuneAIRE","","obbligatoria"
-"Intestatario","Residenza al momento dell'evento originario","NO","evento.intestatari[0]","residenzaOriginaria","","obbligatoria"
 "Dati accertamento","Data formazione documento","SI","evento.trascrizioneCittadinanza.attoEstero.enteEstero","dataTrascrizione","","obbligatoria"
 "Dati accertamento","Estremi documento","SI","evento.trascrizioneCittadinanza.attoEstero.enteEstero","estremiDocumento","","obbligatoria"
 "Dati accertamento","Nome ente","SI","evento.trascrizioneCittadinanza.attoEstero.enteEstero","nomeEnte","","obbligatoria"

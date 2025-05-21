@@ -36,7 +36,6 @@
 "Intestatario","Provincia AIRE - Descrizione","NO","evento.intestatari[0]","siglaProvinciaAIRE","","obbligatoria"
 "Intestatario","Comune AIRE","NO","evento.intestatari[0]","idComuneAIRE","","obbligatoria"
 "Intestatario","Comune AIRE - Descrizione","NO","evento.intestatari[0]","nomeComuneAIRE","","obbligatoria"
-"Intestatario","Residenza al momento dell'evento originario","NO","evento.intestatari[0]","residenzaOriginaria","","obbligatoria"
 "Intestatario","flag dichiarante","SI","evento.intestatari[0]","flagDichiarante","","obbligatoria"
 "Intestatario","flag comparente","SI","evento.intestatari[0]","flagComparente","","obbligatoria"
 "Intestatario","flag firmatario","SI","evento.intestatari[0]","flagFirmatario","","obbligatoria"
