@@ -23,6 +23,13 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.40.5 - 22-05-2025]
+
+### Fixed
+
+- [WA] Decodifica corretta del codice catastale nella richiesta firme
+- [padigitale] asseverazione inviata due volte a settimana (lunedì e giovedì) invece di una
+
 ## [1.40.4 - 21-05-2025]
 
 ### Fixed
