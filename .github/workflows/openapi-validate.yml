@@ -1,0 +1,47 @@
+# OpenAPI linting workflow
+name: OpenAPI lint workflow
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main", "spectral", "demo"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  # Single deploy job since we're just deploying
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+
+      - name: Set up Node.js
+        uses: actions/setup-node@main
+        with:
+          node-version: '20'  # Puoi scegliere la versione di Node.js desiderata
+
+      - name: Install Spectral CLI
+        run: npm install -g @stoplight/spectral-cli
+
+      - name: Verify Spectral CLI installation
+        run: npm install -g @stoplight/spectral-cli
+
+      - name: Write .spectral.yaml configuration
+        run: |
+          cat << 'EOF' > .spectral.yaml
+          extends: spectral:oas
+          rules:
+            operation-description:
+              description: "Operation must have a non-empty description"
+              message: "Missing operation description"
+              severity: error
+              given: "$.paths[*][*]"
+              then:
+                field: description
+                function: truthy
+          EOF
+
+      - name: Spectral ling model_evento.yaml
+        run: spectral lint docs/openapi/model_evento.yaml
