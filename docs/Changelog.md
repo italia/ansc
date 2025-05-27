@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.40.6 - 27-05-2025]
+
+### Fixed
+
+- Documentazione, Refuso model_evento.yaml rimossi campi duplicati:  tipoDichiarante, ausilioInterprete, conTestimoni, noteRitardo, motivoAnnullamento, tipoConsenso, certificabile, datiRiconoscimento, sentenzaFiglioIncestuoso, propostaAnnotazione, datiProdotti.
+
 ## [1.40.5 - 22-05-2025]
 
 ### Fixed
