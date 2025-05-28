@@ -3,11 +3,7 @@
 Questo documento descrive le principali attività che verranno rilasciata nelle future versioni del software di ANSC.
 Le date e la composizione degli interventi potrebbero subire variazioni.
 
-## [15-05-2025]
-
-- ID 173  Chiusura dei registri e verificazione da parte delle prefetture
-
-## [30-05-2025]
+## [03-05-2025]
 
 - ID 180:  Matrimonio religioso tra cittadini stranieri residenti all'estero
 - ID 151 Prevedere di acquisire il numero di registro cartaceo quando ci sia un malfunzionamento ed una successiva acquisizione digitale (collegamento tra atto cartaceo temporaneo e atto digitalizzato)
