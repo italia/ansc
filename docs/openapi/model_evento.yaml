@@ -135,39 +135,17 @@ components:
           type: string
           description: Motivo del recupero atto
           example: 'interruzione'
+        idAttoCartaceo:
+          type: string
+          description: id Atto Cartaceo registro temporaneo
+          example: '123 p1 sA-2025 999999'
+          maxLength: 256
         numeroatto:
           type: string
           description: Numero dell'atto assegnato dal comune.
           maxLength: 5
           example: '9423'
           # Dati specifici dell'evento
-        dataAttoCartaceo:
-          type: string
-          format: date
-          description: Data decorrenza atto cartaceo correlato
-          example: '2022-03-22'
-        idAttoCartaceo:
-          type: string
-          description: Identificativo dell'atto cartaceo collegato assegnato dal comune.
-          maxLength: 256
-          example: '9423 p1 sA-2025 999999'
-        numeroComunaleAttoCartaceo:
-          type: string
-          description: Numero dell'atto cartaceo collegato assegnato dal comune.
-          maxLength: 5
-          example: '9423'
-        serieAttoCartaceo:
-          type: string
-          description: Serie atto cartaceo correlato
-          example: 'Serie II'
-        parteAttoCartaceo:
-          type: string
-          description: Parte atto cartaceo correlato
-          example: 'Parte 2'
-        volumeAttoCartaceo:
-          type: string
-          description: Volume atto cartaceo correlato
-          example: 'Volume 3'
         tipoDichiarante:
           type: string
           description: Tipo del dichiarante (decodifica ANSC_04)
@@ -989,6 +967,9 @@ components:
           example:  'Mario Rossi Parroco'
         confermaAccordoSeparazione:
           $ref: '#/components/schemas/ModelAttoCollegatoML'
+        datiAssegnoMantenimento:
+          type: string
+          description: Nel caso esista l'assegno di mantenimento o divorzile
     ModelNegoziazioneAssistitaML:
       properties:
         avvocatoConiuge1:
@@ -1049,6 +1030,9 @@ components:
           example:  'Rieti'
         accordoScioglimento:
           $ref: '#/components/schemas/ModelAttoCollegatoML'
+        datiAssegnoMantenimento:
+          type: string
+          description: Nel caso esista l'assegno di mantenimento o divorzile
     ModelAnnotazioneModificativaML:
       properties:
         attoIntestatario:
@@ -1340,6 +1324,10 @@ components:
           type: boolean
           description: Indica che la residenza del soggetto non è nota o che il soggetto non è iscritto in ANPR
           example: false
+        residenzaOriginaria:
+          type: string
+          description: Residenza al momento dell'evento originario
+          example: ANPR (RM)
     
     ModelEnteDichiarante:
       properties:

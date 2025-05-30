@@ -23,6 +23,45 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.41.0 - 03-06-2025]
+
+### Added
+- [versione] Aggiunta versione 100023
+
+- [feature] Gestione trascrizione matrimonio di cittadini AIRE iscritti in due comuni AIRE differenti (ID153)
+- [feature] Evoluzione servizio di consultazione notifiche (ID192)
+- [feature] Matrimonio religioso tra cittadini stranieri residenti all'estero <https://github.com/italia/ansc/issues/1335> (ID180) <https://github.com/italia/ansc/issues/1335> <https://github.com/italia/ansc/issues/1539>
+- [feature] Aggiunta metadato residenza in trascrizioni (ID187) <https://github.com/italia/ansc/issues/1408>
+- [feature] Funzionalità di servizio disponibile da WA per annullare atti per INEFFICACIA (ID185)
+- [feature] Acquisizione il numero di registro cartaceo quando ci sia un malfunzionamento ed una successiva acquisizione digitale: collegamento tra atto cartaceo temporaneo e atto digitalizzato (ID151)
+- [feature] Aggiornamento formule Multilinguismo (secondo rilascio - matrimoni e unioni civili) (ID165.b)
+
+- [casi d'uso] Aggiunto nuovo caso d'uso 3.2.3.1.1.1 (Matr_022) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- model_evento.yaml
+  - Aggiunto campo residenzaOriginaria in ModelSoggetto   - Dichiarato deprecato il campo soggetto nel model ConiugeEstrattoMatrDTO in quanto recuperato dall'idEvento
+   - Aggiunto il campo "idAnnotazione" nel model "InfoAnnotazione" (invece il campo "id" identifica l'evento sorgente)
+   - Aggiunto il campo "idAttoCartaceo" nel model evento per ID151
+   - Aggiunto il supporto multilingue per la proprietà "datiAssegnoMantenimento" negli usecase di scioglimento matrimonio e unione civile
+   
+- R008_notifiche.yaml
+  - Aggiunto flag tuttiComuni (per ID192) al payload del servizio /notifiche/getNotificheByEvento/{version}
+
+### Fixed
+
+- [SC] Corretto estratto internazionale matrimonio: località estera di nascita <https://github.com/italia/ansc/issues/1494>
+- [WA] Eliminata richiesta tipologie di certificazione in caso di registrazione annotazioni
+- [SC]: TestataRisposta idEsito mancante per R018 <https://github.com/italia/ansc/issues/1453>
+- [WA]: Rinuncia cittadinanza art.11 Legge n. 91/1992 <https://github.com/italia/ansc/issues/1475>
+- [SC]: mancato aggiornamento data formazione atto di nascita <https://github.com/italia/ansc/issues/1485>
+- [SC]: Annotazione automatica a seguito di adozione: testo errato <https://github.com/italia/ansc/issues/1497>
+- [webapp]: atto non certificabile (cf omocodici) <https://github.com/italia/ansc/issues/1507>
+- [SC]: Errore difformità dati intestatario atto <https://github.com/italia/ansc/issues/1478>
+- [SC]: Proposizione ora nascita errata <https://github.com/italia/ansc/issues/1519>
+- [SC]: Trascrizione del decreto per matrimonio-unione civile-naturalizzazione <https://github.com/italia/ansc/issues/1510>
+- Errore cancellazione annotazione idannotazionerettificata:29624
+- [SC]: R009 Caso d'Uso 1361: Ora e Minuti "imprecisati" resi opzionali <https://github.com/italia/ansc/issues/1486>
+- [SC]: allegato "Atto notarile consenso" per casi d'uso 11214000, 11217000, 11224000, 11227000 <https://github.com/italia/ansc/issues/1532>
+
 ## [1.40.6 - 27-05-2025]
 
 ### Fixed

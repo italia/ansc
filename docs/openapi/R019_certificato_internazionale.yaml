@@ -277,7 +277,8 @@ components:
           properties:
             soggetto:
               $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
-              description: Modello soggetto marito o moglie
+              deprecated: true
+              description: -- DEPRECATO -- Modello soggetto marito o moglie (deprecato in quanto recuperato a partire dall'idEvento)
             cognomePrimaMatrimonio:
               type: string
               description: Cognome del coniuge prima il matrimonio (Si fa presente che la legge italiana NON prevede la possibilità di cambiare cognome per matrimonio, per cui i cittadini italiani mantengono sempre il proprio cognome di nascita, anche dopo il matrimonio. )

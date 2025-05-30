@@ -34,7 +34,6 @@
 "Dati generali","Data Evento","SI","evento.datiEventoMatrimonio","dataEvento","","obbligatoria"
 "Dati generali","Ora Evento","SI","evento.datiEventoMatrimonio","oraEvento","","obbligatoria"
 "Dati generali","Minuti Evento","SI","evento.datiEventoMatrimonio","minutoEvento","","obbligatoria"
-"Dati generali","Presentazione documenti","SI","evento","datiProdotti","","obbligatoria"
 "Officiante","Ufficiale di stato civile delegato a celebrare il matrimonio","SI","evento.datiEventoMatrimonio","officiante","","obbligatoria"
 "Officiante","Cognome","SI","evento.datiEventoMatrimonio.officianteEvento","cognome","","obbligatoria"
 "Officiante","Nome","SI","evento.datiEventoMatrimonio.officianteEvento","nome","","obbligatoria"

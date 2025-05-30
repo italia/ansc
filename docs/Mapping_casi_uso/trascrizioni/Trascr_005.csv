@@ -100,6 +100,7 @@
 "Soggetto","Provincia AIRE - Descrizione","NO","evento.intestatari[0]","siglaProvinciaAIRE","","obbligatoria"
 "Soggetto","Comune AIRE","NO","evento.intestatari[0]","idComuneAIRE","","obbligatoria"
 "Soggetto","Comune AIRE - Descrizione","NO","evento.intestatari[0]","nomeComuneAIRE","","obbligatoria"
+"Soggetto","Residenza al momento dell'evento originario","NO","evento.intestatari[0]","residenzaOriginaria","","obbligatoria"
 "Atto da trascrivere","Nome ente","SI","evento.trascrizioneNascita.attoEstero.enteEstero","nomeEnte","","obbligatoria"
 "Atto da trascrivere","Stato ente","SI","evento.trascrizioneNascita.attoEstero.enteEstero","nazioneEnte","","obbligatoria"
 "Atto da trascrivere","Stato ente - Descrizione","SI","evento.trascrizioneNascita.attoEstero.enteEstero","nomeNazioneEnte","","obbligatoria"

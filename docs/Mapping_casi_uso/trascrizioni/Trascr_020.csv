@@ -124,6 +124,7 @@
 "Intestatario","Provincia AIRE - Descrizione","NO","evento.intestatari[0]","siglaProvinciaAIRE","","obbligatoria"
 "Intestatario","Comune AIRE","NO","evento.intestatari[0]","idComuneAIRE","","obbligatoria"
 "Intestatario","Comune AIRE - Descrizione","NO","evento.intestatari[0]","nomeComuneAIRE","","obbligatoria"
+"Intestatario","Residenza al momento dell'evento originario","NO","evento.intestatari[0]","residenzaOriginaria","","obbligatoria"
 "Atto nascita intestatario","Provincia registrazione","NO","evento.eventoCollegato","idProvinciaRegistrazione","","opzionale"
 "Atto nascita intestatario","Provincia registrazione - Descrizione","NO","evento.eventoCollegato","siglaProvinciaRegistrazione","","opzionale"
 "Atto nascita intestatario","Comune registrazione","NO","evento.eventoCollegato","idComuneRegistrazione","","opzionale"

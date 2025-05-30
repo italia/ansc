@@ -10,6 +10,7 @@
 "Dati generali","Minuto decorrenza","NO","evento","minutoDecorrenza","","obbligatoria"
 "Dati generali","Motivo recupero","NO","evento","motivoRecupero","","obbligatoria"
 "Dati generali","Descrizione recupero","NO","evento","descrizioneMotivoRecupero","","obbligatoria"
+"Dati generali","Identificativo Atto Cartaceo","NO","evento","idAttoCartaceo","","obbligatoria"
 "Ente dichiarante","Estremi documento","SI","evento.enteDichiarante","estremiDocumento","","obbligatoria"
 "Ente dichiarante","Nome ente","NO","evento.enteDichiarante","nomeEnte","","obbligatoria"
 "Ente dichiarante","Stato ente","SI","evento.enteDichiarante","nazioneEnte","","obbligatoria"

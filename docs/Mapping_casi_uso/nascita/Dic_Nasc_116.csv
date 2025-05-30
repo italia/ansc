@@ -3,6 +3,7 @@
 "Allegati","Constatazione di avvenuto parto","NO","","","","evento.datiDiNascita.tipoAccertamento,=,2"
 "Allegati","Dichiarazione di nascita sostitutiva resa da dichiarante","NO","","","","evento.datiDiNascita.tipoAccertamento,=,3"
 "Allegati","Procura","SI","","","",""
+"Allegati","Atto notarile consenso","SI","","","",""
 "Formula","7","SI","","","",""
 "Formula","22","SI","","","",""
 "Formula","194","NO","","","",""

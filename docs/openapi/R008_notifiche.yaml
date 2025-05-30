@@ -297,6 +297,10 @@ components:
               description: Identificativo dell'evento sorgente
               type: string
               example: 2022-23525-3523-33A
+            tuttiComuni:
+              description: Flag per estendere il servizio per consultare lo stato delle notifiche inviate ad altri comuni relative ad un evento sorgente formato
+              type: boolean
+              example: true
     GetNotificheByEventoResponse:
       description: Risposta del servizio di ricerca notifiche per evento.
       allOf:
