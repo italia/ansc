@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.41.1 - 04-06-2025]
+
+### Modificato
+
+- Impostata una tolleranza di di circa il 5% sulle dimensioni massime degli allegati (10M) <https://github.com/italia/ansc/issues/1547>
+
 ## [1.41.0 - 03-06-2025]
 
 ### Added
