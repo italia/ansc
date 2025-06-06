@@ -8,7 +8,7 @@ Le date e la composizione degli interventi potrebbero subire variazioni.
 
 - ID 129 Matrimonio religioso: da prevedere il caso in cui l’officiante sia diverso da colui che trasmette la richiesta di trascrizione del matrimonio 
 - ID 172 Completamento conservazione per i documenti provenienti dal sistema TS
-​- ID 165.c Aggiornamento formule Multilinguismo (terzo lotto)
+- ID 165.c Aggiornamento formule Multilinguismo (terzo lotto)
 - ID 183 Trascrizione atto con sesso mancante
 - ID 186.a Gestione assenso postumo figlio infra quattordicenne o maggiorenne nei riconoscimenti
 - ID 154 Evoluzione trascrizione decreto prefettizio di cambio cognome (aggiunta figli)​
