@@ -1,3 +1,20 @@
+#Changelog mappatura casi uso 1.41.2  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 1
+* matrimoni/Sep_Div_007.csv
+
+### Modifiche per il caso uso matrimoni/Sep_Div_007.csv : 
+* Presenti modifiche per 'Allegati Sentenza straniera' (riga:2)
+* Aggiunto 'Allegati Certificato di cui all’art.36 o 66 del Regolamento (UE) N. 2019/1111' (riga:4)
+* Rimosso 'Allegati Atto di matrimonio'
+* Rimosso 'Allegati Dichiarazione di conformità'
+* Rimosso 'Allegati Certificato di cui all’art.36 del Regolamento (UE) N. 2019/1111'
+
+
 #Changelog mappatura casi uso 1.41.0  
 
 ## Casi uso aggiunti : 1

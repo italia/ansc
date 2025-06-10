@@ -23,6 +23,22 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.41.2 - 10-06-2025]
+
+### Fixed
+
+- [R005] Corretta estrazione delle annotazioni relative ad uno specifico atto, individuato dall'idEvento, utilizzando idtipocontenuto=0 <https://github.com/italia/ansc/issues/1533>
+- [SC] caso d'uso 12221422 - Rico_019:  Corretto errore validazione  <https://github.com/italia/ansc/issues/1536>
+- [WA] Nota tecnica: aggiunta modifica stato civile soggetto
+- [WA] Nota tecnica: gestione data decorrenza nelle annotazioni contestuali
+- [SC] Gestione automatica idprovincia formazione in caso non trasmessa a partire dal comune registrazione
+- [SC]: Modificato a warning il controllo bloccante sull'età nelle adozioni per gestire i casi in cui il minore diventi maggiorenne prima della trascrizione <https://github.com/italia/ansc/issues/1541>
+- [3.4.7.0.0.0] Trascrizione provvedimenti esteri in materia matrimoniale: resi opzionali gli allegati e rimossi alcuni allegati non previsti
+- [WA] Corretto errore nel servizio gestione allegati errati
+- [SC] UC 1312:  corretto problema mancata ereditarietà residenza madre
+
+- [decodifiche] Modificato valore in tipo allegato decodifica ANSC_9 DEC_TIPO_ALLEGATO: 109 "Certificato di cui all’art.36 del Regolamento (UE) N. 2019/1111" modificata la descrizione in "Certificato di cui all’art.36 o 66 del Regolamento (UE) N. 2019/1111"
+
 ## [1.41.1 - 04-06-2025]
 
 ### Modificato

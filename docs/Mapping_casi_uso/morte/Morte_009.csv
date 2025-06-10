@@ -1,6 +1,6 @@
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
 "Allegati","Nota di trasmissione da parte dell’autorità consolare o diplomatica","SI","","","",""
-"Allegati","Dichiarazione di conformità","SI","","","",""
+"Allegati","Dichiarazione di conformità","NO","","","",""
 "Allegati","Sentenza straniera","SI","","","",""
 "Allegati","Traduzione sentenza straniera","SI","","","",""
 "Formula","193.3","SI","","","",""
