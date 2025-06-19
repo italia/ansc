@@ -23,6 +23,20 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.41.3 - 19-06-2025]
+
+### Added
+- Apertura in produzione del flusso di distrbuzione delle chiavette da parte delle prefetuue
+- Apertura in produzione della richiesta firma remota con OTP su chiavetta
+
+### Fixed
+- Prima attività di miglioramento del flusso di generazione notifiche ANSC tra comuni
+- [R010][R009] servizio di anteprima e agiironamento atto: inmplementato un controllo bloccante di coerenza tra id atto e parte nazionale dell'id ansc dell'atto
+- Documentazione aggiornamento: deprecato datiRiconoscimentoFigli sul modello evento
+- model_evento.yaml
+  - Dichiarato deprecato il campo 'datiRiconoscimentoFigli' in ModelMatrimonio e ModelMatrimonioML
+- [Notifiche ANPR]: adeguata selezione eventi per generazione notifica di anagrafe <https://github.com/italia/ansc/issues/1588>
+
 ## [1.41.2 - 10-06-2025]
 
 ### Fixed

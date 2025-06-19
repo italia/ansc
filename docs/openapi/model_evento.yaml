@@ -207,7 +207,7 @@ components:
           deprecated: true
           items:
             $ref: '#/components/schemas/ModelVariazioni'
-        enteDichiarante: # Ente dichiarante 
+        enteDichiarante: # Ente dichiarante
           $ref: '#/components/schemas/ModelEnteEstero'
         ufficialeStatoCivile: #Ufficiale di Stato Civile responsabile dell'atto
           allOf:
@@ -228,7 +228,7 @@ components:
         interprete: # Soggetto che contiene i dati dell'eventuale interprete
           $ref: '#/components/schemas/ModelSoggetto'
 
-        # Dati specifici dei vari eventi  
+        # Dati specifici dei vari eventi
         datiDichiarante:
           $ref: '#/components/schemas/ModelDatiDichiarante'
         datiDiNascita:
@@ -593,7 +593,7 @@ components:
           type: string
           description: Indica a chi è stato reso il consenso
           example:  'Ufficiale di polizia'
-          
+
     ModelAttoCollegatoML:
       properties:
         ente:
@@ -732,7 +732,9 @@ components:
         nominaAssistenteLegaleSposa:
           $ref: '#/components/schemas/ModelEnteDichiaranteML'
         datiRiconoscimentoFigli:
-          $ref: '#/components/schemas/ModelDatiEventoRiconoscimentoML'
+          allOf:
+            - $ref: '#/components/schemas/ModelDatiEventoRiconoscimentoML'
+          deprecated: true
         motivoImpedimentoScritturaSposo:
           type: string
           description: Motivo impedimento alla scrittura dello sposo
@@ -1009,7 +1011,7 @@ components:
           description: Motivo impedimento alla scrittura del coniuge 2
           example:  'Motivo'
         altroMezzoDiComunicazione:
-          type: string  
+          type: string
           description: Se non è stata usata la raccomandata AR va indicato quale altro modo è stato usato
           example:  'PEC'
         autoritaGiudiziaria:
@@ -1148,7 +1150,7 @@ components:
         descrizione:
           type: string
           description: Descrizione dell'atto da trascrivere
-          example:  'Descrizione'          
+          example:  'Descrizione'
     ModelRifiutoML:
       properties:
         eventoCollegato:
@@ -1328,7 +1330,7 @@ components:
           type: string
           description: Residenza al momento dell'evento originario
           example: ANPR (RM)
-    
+
     ModelEnteDichiarante:
       properties:
         tipologiaTrascrizione:
@@ -1999,7 +2001,7 @@ components:
               format: date
               description: Data di morte ascendente
               example: "2022-10-30"
-    
+
     ModelDatiEventoCittadinanza:
       properties:
         intestatarioApolide:
@@ -2255,7 +2257,7 @@ components:
               example: "Comandante"
             officiante: # Chi ha officiato il matrimonio da trascrivere
               $ref: '#/components/schemas/ModelSoggetto'
-    
+
     ModelTrascrizioneSeparazione:
       allOf:
         - $ref: '#/components/schemas/ModelTrascrizione'
@@ -2372,7 +2374,7 @@ components:
           description: Nome officiante quando questo non sia l'USC
           deprecated: true
           example: 'Mario'
-        officianteEvento: # Chi ha officiato il matrimonio 
+        officianteEvento: # Chi ha officiato il matrimonio
           $ref: '#/components/schemas/ModelSoggetto'
         comprensioneSposo:
           type: string
@@ -2540,10 +2542,10 @@ components:
           items:
             $ref: '#/components/schemas/ModelSoggetto'
         datiRiconoscimentoFigli:
-          description: Informazioni sul riconoscimento di ogni figlio
-          type: array
+          description: -- DEPRECATO -- Informazioni sul riconoscimento di ogni figlio
           items:
             $ref: '#/components/schemas/ModelDatiEventoRiconoscimento'
+          deprecated: true
         consensoRiconoscimento: # Eventuale consenso dell'altro genitore al riconoscimento
           $ref: '#/components/schemas/ModelConsenso'
         descrizioneRitoReligioso:
@@ -2752,7 +2754,7 @@ components:
           type: string
           description: Tipo di impedimento (decodifica ANSC_95)
           example: "0"
-        soggettoImpedimentoGenerico: # Eventuale motivo di impedimento 
+        soggettoImpedimentoGenerico: # Eventuale motivo di impedimento
           $ref: '#/components/schemas/ModelImpedimento'
     ModelCertificatoUnioneCivile:
       properties:
