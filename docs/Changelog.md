@@ -23,6 +23,43 @@ NOTE:
 
 ## [Unreleased]
 
+##  [1.42.0 - 30-06-2025]
+
+### Added
+
+- [feature] aggiunti nuovi casi d'uso (1334,1335) per decreto prefettizio di cambio cognome con figli e gestione automatica di annotazioni cambiamento cognome figli (ID154)
+- [feature] gestione del caso di riconoscimento di filgio ultra quattordicenne con assenso posteriore al riconoscimento (ID 186a) 
+- [feature] Matrimonio religioso: previsto caso in cui l’officiante sia diverso da colui che trasmette la richiesta di trascrizione del matrimonio (ID 129)
+- [feature] Trascrizione atto con soggetto con il dato del sesso non indicato <https://github.com/italia/ansc/discussions/1384><https://github.com/italia/ansc/issues/1394> (ID 183)
+- [feature] Aggiornamento formule Multilinguismo (terzo lotto) (ID 165.c)
+- [feature] Completamento conservazione per i documenti provenienti dal sistema TS (ID 172)
+- [feature] Completamento attività di miglioramento del flusso delle notifiche ANSC tra comuni
+- [feature] Abilitazione in produzione del tour guidato sulla home page
+
+- [decodifiche] Aggiunto valore in decodifica ANSC_5 dec_genere 'N' - "Non indicato" per indicare sesso non indicato
+- [decodifiche] Aggiunto valore in decodifica ANSC_9 dec_tipo_allegato '115' - "Atto di costituzione e traduzione"
+- [decodifiche] Aggiunta nuova decodifica (ANSC_123) per il tipo richiedente nei casi di uso di decreto prefettizio con fgli: limitazione al solo soggetto o altro.
+- [versione] Aggiunta versione 100024
+
+- moedel_evento.yaml
+  - Aggiunto campo officianteTrasmissioneAtto (di tipo ModelSoggetto) al ModelMatrimonio
+  - Aggiunto campo tipoOfficianteTrasmissioneAtto (decodifica ANSC_46) al ModelMatrimonio
+  - Aggiunta nel ModelMatrimonioML la proprietà attoEstero di tipo ModelEnteEsteroML
+  - Aggiunta nel ModelSoggettoML la proprietà residenzaOriginaria di tipo String
+
+### Fixed
+
+- [SC] Caso uso 335003 Matrimoni - Durante viaggio in aereo o nave - campo "trascrizioneMatrimonio.tipoDichiarazione"reso opzionale <https://github.com/italia/ansc/issues/1521>
+- [SC] Caso d'uso 1331 - Trascr_012: corretto messaggio di errore in caso di atto di nascita non inserito <https://github.com/italia/ansc/issues/1535>
+- [3.2.3.1.1.1] Matrimonio religioso tra cittadini stranieri residenti all'estero: eliminato flag di rigetto opposizione
+- [R009] UC 1331 - Trascrizione del decreto prefettizio di cambiamento del nome e cognome: corretto aggiornamento anagrafica soggetto in caso di atto di nascita cartaceo
+- [SC] UC 431000 e 432000 - trascrizioni estere: aggiunto un unico allegato 'Atto di costituizione e traduzione <https://github.com/italia/ansc/issues/1587>
+- [WA] corretta mancata generazione notifica di anagrafe a seguito di conferma notifica ANSC <https://github.com/italia/ansc/issues/1588>
+- [SC] problema disallineamento tra stato mongo e stato oracle in caso di errore:  <https://github.com/italia/ansc/issues/1614>
+- [R009] modificato controllo anagrafiche già presenti: eliminata la località estera di nascita
+- [R009] in caso di aggiornamento atto, inserito controllo bloccante di coerenza tra id nazionale dell'atto e la parte nazionale dell'identificativo alfanumerico
+- [WA] Modificata etichetta del tasto funzione 'Abbandona' in 'Elimina atto', per rendere ancora più chiara che la funzionalità consente la cancellazione dell'atto come descritto nella modale di conferma
+
 ## [1.41.3 - 19-06-2025]
 
 ### Added

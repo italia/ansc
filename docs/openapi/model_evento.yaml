@@ -505,6 +505,10 @@ components:
           type: string
           description: Località estera nascita
           example: 'Madrid'
+        residenzaOriginaria:
+          type: string
+          description: Residenza al momento dell'evento originario
+          example: ANPR (RM)
     ModelDatiDichiaranteML:
       properties:
         datiEssenzialiProcura:
@@ -744,6 +748,8 @@ components:
           description: Motivo impedimento alla scrittura dello sposa
           example:  'Motivo'
         enteEstero:
+          $ref: '#/components/schemas/ModelEnteEsteroML'
+        attoEstero:
           $ref: '#/components/schemas/ModelEnteEsteroML'
     ModelUnioneCivileML:
       properties:
@@ -1896,11 +1902,11 @@ components:
           properties:
             tipoRichiedente:
               type: string
-              description: Id del tipo richiedente (decodica ANSC_64)
+              description: Id del tipo richiedente (decodifica ANSC_64), per usecase 1334 e 1335 (decodifica ANSC_123)
               example: "1"
             tipoLuogoNascita:
               type: string
-              description: Id del luogo di nascita (decodica ANSC_41)
+              description: Id del luogo di nascita (decodifica ANSC_41)
               example: "1"
             specificaLuogoNascita:
               type: string
@@ -1986,6 +1992,44 @@ components:
               $ref: '#/components/schemas/ModelAttoCollegato'
             attoUnioneCivile:
               $ref: '#/components/schemas/ModelAttoCollegato'
+            figli:
+              description: Figli per cambio cognome
+              type: array
+              items:
+                $ref: '#/components/schemas/ModelFiglio'
+    ModelFiglio:
+      allOf:
+        - $ref: '#/components/schemas/ModelSoggetto'
+        - type: object
+          properties:
+            nuovoCognome:
+              type: string
+              description: "nuovo cognome assunto dal soggetto"
+              example: "xxxxxxxxx"
+            idAnsc:
+              type: string
+              description: "idAnsc atto di nascita"
+              example: "2025-12-12-999999"
+            idAttoCartaceo:
+              type: string
+              description: "id atto di nascita da registro cartaceo"
+              example: "xxxxxxxxx"
+            idComuneRegistrazione:
+              type: number
+              description: "Id del comune in cui e' stato registrato l'atto."
+              example: 2780
+            nomeComuneRegistrazione:
+              type: string
+              description: "Nome del comune in cui e' stato registrato l'atto."
+              example: "TORCHIAROLO"
+            idProvinciaRegistrazione:
+              type: number
+              description: "Id della provincia in cui e' stato registrato l'atto."
+              example: 123
+            siglaProvinciaRegistrazione:
+              type: string
+              description: "Sigla della provincia in cui e' stato registrato l'atto."
+              example: "BR"
     ModelAscendente:
       description: Un ascendente è un avo in linea diretta
       allOf:
@@ -2376,6 +2420,12 @@ components:
           example: 'Mario'
         officianteEvento: # Chi ha officiato il matrimonio
           $ref: '#/components/schemas/ModelSoggetto'
+        officianteTrasmissioneAtto: # Chi ha trasmesso l'atto di matrimonio
+          $ref: '#/components/schemas/ModelSoggetto'
+        tipoOfficianteTrasmissioneAtto:
+          type: string
+          description: Officiante (decodifica ANSC_46)
+          example: '1'
         comprensioneSposo:
           type: string
           description: Abilità di comprensione dello sposo (decodifica ANSC_32)

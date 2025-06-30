@@ -579,7 +579,7 @@
 "Atto Nascita Figlio","Data atto","SI","evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita","dataformazione","","obbligatoria"
 "Atto Nascita Figlio","Parte","NO","evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita","parte","60","obbligatoria"
 "Atto Nascita Figlio","Serie","NO","evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita","serie","60","obbligatoria"
-"Atto Nascita Figlio","Volume","NO","evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita","volume","","obbligatoria"
+"Atto Nascita Figlio","Volume","NO","evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita","volume","60","obbligatoria"
 "Atto Nascita Figlio","Tipo registro","SI","evento.datiEventoMatrimonio.datiRiconoscimento[0].attoNascita","tipologia","","obbligatoria"
 "Dati generali riconoscimento","Presentazione documenti","SI","evento.datiEventoMatrimonio.datiRiconoscimento[0]","datiProdotti","","obbligatoria"
 "Tutore Sposa","Cognome","NO","evento.datiEventoMatrimonio.assistenteLegaleSposa","cognome","","(evento.datiEventoMatrimonio.regimePatrimoniale.tipo,=,2 && evento.datiEventoMatrimonio.difettoEta,in,(1,2)) || evento.datiEventoMatrimonio.regimePatrimoniale.tipo,!=,2 || evento.datiEventoMatrimonio.tipoAssistenteSposa,in,(1,2,3,5)"

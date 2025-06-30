@@ -1,7 +1,7 @@
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
 "Allegati","Richiesta di trascrizione","NO","","","",""
 "Allegati","Atto di morte (in originale)","SI","","","",""
-"Allegati","Traduzione atto di morte","NO","","","",""
+"Allegati","Atto di costituzione e traduzione","SI","","","",""
 "Formula","192.8","SI","","","",""
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Si puo' ignorare la sezione per"
 "Formazione atto","Numero comunale","SI","evento","numeroatto","","obbligatoria"

@@ -16,7 +16,6 @@
 "Dati generali","Comune","NO","evento.datiEventoMatrimonio.luogoCelebrazione","idComune","","obbligatoria"
 "Dati generali","Comune - Descrizione","NO","evento.datiEventoMatrimonio.luogoCelebrazione","nomeComune","","obbligatoria"
 "Dati generali","Località estera","NO","evento.datiEventoMatrimonio.luogoCelebrazione","comuneEstero","","obbligatoria"
-"Dati generali","Tipo richiesta","SI","evento.trascrizioneMatrimonio","tipoDichiarazione","","obbligatoria"
 "Dati generali","Data richiesta","SI","evento.trascrizioneMatrimonio","dataComunicazione","","obbligatoria"
 "Dati generali","Riassunto trascrizione","SI","evento.trascrizioneMatrimonio","testoLibero","","obbligatoria"
 "Officiante","Titolo officiante","NO","evento.trascrizioneMatrimonio","titoloOfficiante","","obbligatoria"

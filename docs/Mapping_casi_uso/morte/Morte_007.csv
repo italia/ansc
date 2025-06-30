@@ -1,7 +1,7 @@
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
 "Allegati","Nota di trasmissione da parte dell’autorità consolare o diplomatica","SI","","","",""
 "Allegati","Atto di morte (in originale)","NO","","","",""
-"Allegati","Traduzione atto di morte","NO","","","",""
+"Allegati","Atto di costituzione e traduzione","SI","","","",""
 "Allegati","Certificazione sostitutiva della documentazione","NO","","","",""
 "Formula","193.3","SI","","","",""
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Si puo' ignorare la sezione per"

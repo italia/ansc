@@ -1,3 +1,124 @@
+#Changelog mappatura casi uso 1.42.0  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 4
+* matrimoni/Matr_007.csv
+* matrimoni/Matr_008.csv
+* matrimoni/Matr_022.csv
+* trascrizioni/Trascr_Matr_005.csv
+
+### Modifiche per il caso uso matrimoni/Matr_007.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.tipoOfficianteTrasmissioneAtto' (riga:77)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.cognome' (riga:78)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.nome' (riga:79)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idANPR' (riga:80)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.sesso' (riga:81)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.dataNascita' (riga:82)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idStatoNascita' (riga:83)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.nomeStatoNascita' (riga:84)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idProvinciaNascita' (riga:85)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.siglaProvinciaNascita' (riga:86)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idComuneNascita' (riga:87)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.nomeComuneNascita' (riga:88)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.localitaEsteraNascita' (riga:89)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idNazionalita' (riga:90)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.nazionalita' (riga:91)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.tipoImpedimento' (riga:92)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.flagIrreperibile' (riga:93)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idStatoResidenza' (riga:94)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idProvinciaResidenza' (riga:96)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.siglaProvinciaResidenza' (riga:97)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idComuneResidenza' (riga:98)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.nomeComuneResidenza' (riga:99)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.indirizzoResidenza' (riga:100)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.flagDichiarante' (riga:101)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.flagComparente' (riga:102)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.flagFirmatario' (riga:103)
+
+### Modifiche per il caso uso matrimoni/Matr_008.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.tipoOfficianteTrasmissioneAtto' (riga:77)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.cognome' (riga:78)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.nome' (riga:79)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idANPR' (riga:80)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.sesso' (riga:81)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.dataNascita' (riga:82)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idStatoNascita' (riga:83)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.nomeStatoNascita' (riga:84)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idProvinciaNascita' (riga:85)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.siglaProvinciaNascita' (riga:86)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idComuneNascita' (riga:87)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.nomeComuneNascita' (riga:88)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.localitaEsteraNascita' (riga:89)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idNazionalita' (riga:90)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.nazionalita' (riga:91)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.tipoImpedimento' (riga:92)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.flagIrreperibile' (riga:93)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idStatoResidenza' (riga:94)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.nomeStatoResidenza' (riga:95)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idProvinciaResidenza' (riga:96)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.siglaProvinciaResidenza' (riga:97)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idComuneResidenza' (riga:98)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.nomeComuneResidenza' (riga:99)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.indirizzoResidenza' (riga:100)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.flagDichiarante' (riga:101)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.flagComparente' (riga:102)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.flagFirmatario' (riga:103)
+
+### Modifiche per il caso uso matrimoni/Matr_022.csv : 
+* Rimosso 'Allegati Rigetto del Tribunale all'opposizione'
+* Rimosso 'Allegati Ordinanza che dichiara estinto il giudizio di opposizione'
+* Aggiunto 'evento.datiEventoMatrimonio.tipoOfficianteTrasmissioneAtto' (riga:70)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.cognome' (riga:71)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.nome' (riga:72)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idANPR' (riga:73)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.sesso' (riga:74)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.dataNascita' (riga:75)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idStatoNascita' (riga:76)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.nomeStatoNascita' (riga:77)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idProvinciaNascita' (riga:78)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.siglaProvinciaNascita' (riga:79)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idComuneNascita' (riga:80)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.nomeComuneNascita' (riga:81)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.localitaEsteraNascita' (riga:82)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idNazionalita' (riga:83)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.nazionalita' (riga:84)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.tipoImpedimento' (riga:85)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.flagIrreperibile' (riga:86)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idStatoResidenza' (riga:87)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.nomeStatoResidenza' (riga:88)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idProvinciaResidenza' (riga:89)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.siglaProvinciaResidenza' (riga:90)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idComuneResidenza' (riga:91)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.nomeComuneResidenza' (riga:92)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.indirizzoResidenza' (riga:93)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.flagDichiarante' (riga:94)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.flagComparente' (riga:95)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.flagFirmatario' (riga:96)
+* Rimosso 'evento.datiEventoMatrimonio.provvedimentoRigettoOpposizione.dataTrascrizione'
+* Rimosso 'evento.datiEventoMatrimonio.provvedimentoRigettoOpposizione.estremiDocumento'
+* Rimosso 'evento.datiEventoMatrimonio.provvedimentoRigettoOpposizione.nomeEnte'
+* Rimosso 'evento.datiEventoMatrimonio.provvedimentoRigettoOpposizione.idProvinciaEnte'
+* Rimosso 'evento.datiEventoMatrimonio.provvedimentoRigettoOpposizione.siglaProvinciaEnte'
+* Rimosso 'evento.datiEventoMatrimonio.provvedimentoRigettoOpposizione.idComuneEnte'
+* Rimosso 'evento.datiEventoMatrimonio.provvedimentoRigettoOpposizione.nomeComuneEnte'
+* Rimosso 'evento.datiEventoMatrimonio.provvedimentoEstinzioneOpposizione.dataTrascrizione'
+* Rimosso 'evento.datiEventoMatrimonio.provvedimentoEstinzioneOpposizione.estremiDocumento'
+* Rimosso 'evento.datiEventoMatrimonio.provvedimentoEstinzioneOpposizione.nomeEnte'
+* Rimosso 'evento.datiEventoMatrimonio.provvedimentoEstinzioneOpposizione.idProvinciaEnte'
+* Rimosso 'evento.datiEventoMatrimonio.provvedimentoEstinzioneOpposizione.siglaProvinciaEnte'
+* Rimosso 'evento.datiEventoMatrimonio.provvedimentoEstinzioneOpposizione.idComuneEnte'
+* Rimosso 'evento.datiEventoMatrimonio.provvedimentoEstinzioneOpposizione.nomeComuneEnte'
+* Rimosso 'evento.datiEventoMatrimonio.rigettoOpposizione'
+* Rimosso 'evento.datiEventoMatrimonio.estintaOpposizione'
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_005.csv : 
+* Rimosso 'evento.trascrizioneMatrimonio.tipoDichiarazione'
+
+
 #Changelog mappatura casi uso 1.41.2  
 
 ## Casi uso aggiunti : 0
