@@ -659,6 +659,8 @@ components:
           example:  ''
         officianteEvento:
           $ref: '#/components/schemas/ModelSoggettoML'
+        officianteTrasmissioneAtto: # Chi ha trasmesso l'atto di matrimonio
+          $ref: '#/components/schemas/ModelSoggettoML'
         testimone1:
           $ref: '#/components/schemas/ModelSoggettoML'
         testimone2:

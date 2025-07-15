@@ -23,6 +23,26 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.42.1 - 15-07-2025]
+
+### Fixed
+
+- [R005]: corretto errore interno per consultazione eventi con filtro comune registrazione
+- [WA]: corretto malfunzionamento servizio di annullamento per inefficiacia di un atto <https://github.com/italia/ansc/issues/1567>
+- [R005] - Corretto errore su record totali paginazione <https://github.com/italia/ansc/issues/1644>
+- [WA]: Caso d'uso UNIONE CIVILE PER DELEGA corretta generazione minuta automatica <https://github.com/italia/ansc/issues/1638>
+- Nota tecnica: coretto errore 500 (sezione dati eccedenti) <https://github.com/italia/ansc/issues/1671>
+- Corretta mancata associazione dell'annotazione automatica all'atto di nascita registrato con caso d'uso di servizio  <https://github.com/italia/ansc/issues/1674>
+- Controllo anagrafica soggetto: eliminata località estera di nascita dal controllo bloccante <https://github.com/italia/ansc/issues/1680>
+- [WA]: Aggiornamento Informativa privacy per autenticazione ANSC
+- [SC]: corretta incoerenza modelli italiano e tedesco <https://github.com/italia/ansc/issues/1690>
+- [SC]: corrette differenze tra tracciato json italiano e tedesco <https://github.com/italia/ansc/issues/1636>
+- [SC]: corretta documentazione model per lingua tedesca  <https://github.com/italia/ansc/issues/1667>
+- [Webapp/SC] Aggiunta proprietà "officianteTrasmissioneAtto" di tipo ModelSoggettoML in ModelMatrimonioML.
+
+- model_evento.yaml
+   - Aggiunta proprietà opzionale "officianteTrasmissioneAtto" di tipo ModelSoggettoML in ModelMatrimonioML.
+
 ##  [1.42.0 - 30-06-2025]
 
 ### Added
