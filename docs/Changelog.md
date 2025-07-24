@@ -23,6 +23,14 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.42.2 - 24-07-2025]
+
+### Fixed
+
+- [WA]: Monitoraggio per le Prefetture per la consegna chiavette - rimozione errore numero errato di chiavette consegnate
+- [WA/SC]: corretto errore ricorrente "soggetto già presente in ansc con id ...": <https://github.com/italia/ansc/issues/1719>, <https://github.com/italia/ansc/issues/1722>, <https://github.com/italia/ansc/issues/1732> <https://github.com/italia/ansc/issues/1735>, <https://github.com/italia/ansc/issues/1738>, <https://github.com/italia/ansc/issues/1739>, <https://github.com/italia/ansc/issues/1740>
+- [WA]: rimozione dichiarazione sostitutiva di atto digitale <https://github.com/italia/ansc/issues/1754>
+
 ## [1.42.1 - 15-07-2025]
 
 ### Fixed
