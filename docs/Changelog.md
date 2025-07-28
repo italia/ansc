@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.42.3 - 28-07-2025]
+
+### Fixed
+
+- [decodifiche], pubblicazione sul repository della tabella ANSC_123 annunciata nella versione 1.42.0
+
 ## [1.42.2 - 24-07-2025]
 
 ### Fixed
