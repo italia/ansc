@@ -7,7 +7,7 @@ paths:
     get:
       description: Metodo di default
       responses:
-        "200":
+        '200':
           description: ok
 components:
   schemas:
@@ -25,7 +25,7 @@ components:
           type: string
           format: date-time
           description: Data e ora della richiesta
-          example: "1"
+          example: "2021-03-16T18:38:01.942Z"
         nomeApplicativo:
           description: Nome del gestionale comunale
           type: string
