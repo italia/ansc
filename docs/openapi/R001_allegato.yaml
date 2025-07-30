@@ -27,25 +27,25 @@ paths:
               schema:
                 $ref: '#/components/schemas/AllegatoUploadRequest'
       responses:
-       200:
+       '200':
           description: Successo
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/AllegatoUploadResponse'
-       403:
+       '403':
          description: Non autorizzato
          content:
             application/json:
               schema:
                  $ref: '#/components/schemas/AllegatoUploadResponse'
-       400:
+       '400':
          description: Se non arriva un file valido (deve essere diverso da null)
          content:
            application/json:
               schema:
                  $ref: '#/components/schemas/AllegatoUploadResponse'
-       413:
+       '413':
          description: La dimensione del file supera i limiti del sistema
          content:
            application/json:
@@ -69,19 +69,19 @@ paths:
               schema:
                 $ref: '#/components/schemas/AllegatoRequest'
       responses:
-       200:
+       '200':
           description: Successo
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/AllegatoResponse'
-       403:
+       '403':
          description: Non autorizzato
          content:
             application/json:
               schema:
                  $ref: '#/components/schemas/AllegatoResponse'
-       404:
+       '404':
          description: Non trovato
          content:
            application/json:
@@ -105,19 +105,19 @@ paths:
               schema:
                 $ref: '#/components/schemas/AllegatoVerificaRequest'
       responses:
-       200:
+       '200':
           description: Successo
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/AllegatoVerificaResponse'
-       403:
+       '403':
          description: Non autorizzato
          content:
             application/json:
               schema:
                  $ref: '#/components/schemas/AllegatoVerificaResponse'
-       404:
+       '404':
          description: Non trovato
          content:
            application/json:
@@ -142,10 +142,10 @@ components:
         nomefile:
           type: string
           description: Nome del file
-          example: "nome_del_file.pdf"
+          example: "nome-del-file.pdf"
           minLength: 1
           maxLength: 200
-          pattern: '^[- _a-zA-Z0-9_]*$'
+          pattern: '^[-. _a-zA-Z0-9_]*$'
         tipoFile:
           type: string
           description: Tipo del file (codificato ANSC_10)

@@ -654,9 +654,7 @@ components:
     ModelMatrimonioML:
       properties:
         luogoCelebrazione:
-          type: string
-          description: Luogo di celebrazione del matrimonio
-          example:  ''
+          $ref: '#/components/schemas/ModelLuogoML'
         officianteEvento:
           $ref: '#/components/schemas/ModelSoggettoML'
         officianteTrasmissioneAtto: # Chi ha trasmesso l'atto di matrimonio
@@ -674,6 +672,8 @@ components:
         sentenzaOmissionePubblicazione:
           $ref: '#/components/schemas/ModelEnteDichiaranteML'
         provvedimentoRigettoOpposizione:
+          $ref: '#/components/schemas/ModelEnteDichiaranteML'
+        provvedimentoEstinzioneOpposizione:
           $ref: '#/components/schemas/ModelEnteDichiaranteML'
         autorizzazioneDifettoEta:
           $ref: '#/components/schemas/ModelEnteDichiaranteML'
@@ -846,83 +846,83 @@ components:
       allOf:
         - $ref: '#/components/schemas/ModelTrascrizioneML'
         - type: object
-      properties:
-        specificaLuogoNascita:
-          type: string
-          description: Se tipoLuogoNascita è Altro qui è indicata la denominazione
-          example:  ''
-        prefettura:
-          $ref: '#/components/schemas/ModelEnteDichiaranteML'
-        volontaEspressa:
-          type: string
-          description: Testo libero per annotazione formula 147-ter
-          example:  'Testo libero'
-        istituto:
-          $ref: '#/components/schemas/ModelEnteDichiaranteML'
-        attoCambioCognomeGenitore:
-          $ref: '#/components/schemas/ModelAttoCollegatoML'
-        attoMatrimonio:
-          $ref: '#/components/schemas/ModelAttoCollegatoML'
-        attoUnioneCivile:
-          $ref: '#/components/schemas/ModelAttoCollegatoML'
+          properties:
+            specificaLuogoNascita:
+              type: string
+              description: Se tipoLuogoNascita è Altro qui è indicata la denominazione
+              example:  ''
+            prefettura:
+              $ref: '#/components/schemas/ModelEnteDichiaranteML'
+            volontaEspressa:
+              type: string
+              description: Testo libero per annotazione formula 147-ter
+              example:  'Testo libero'
+            istituto:
+              $ref: '#/components/schemas/ModelEnteDichiaranteML'
+            attoCambioCognomeGenitore:
+              $ref: '#/components/schemas/ModelAttoCollegatoML'
+            attoMatrimonio:
+              $ref: '#/components/schemas/ModelAttoCollegatoML'
+            attoUnioneCivile:
+              $ref: '#/components/schemas/ModelAttoCollegatoML'
     ModelTrascrizioneCittadinanzaML:
       allOf:
         - $ref: '#/components/schemas/ModelTrascrizioneML'
         - type: object
-      properties:
-        esitoAccertamento:
-          type: string
-          description: Esito dell'accertamento
-          example:  ''
-        decretoIntimazione:
-          $ref: '#/components/schemas/ModelEnteDichiaranteML'
-        genitoreConCittadinanza:
-          type: string
-          deprecated: true
-          description: Genitore che ha cittadinanza italiana  -- DEPRECATO --
-          example:  ''
-        intestatarioVecchieGeneralita:
-          $ref: '#/components/schemas/ModelSoggettoML'
+          properties:
+            esitoAccertamento:
+              type: string
+              description: Esito dell'accertamento
+              example:  ''
+            decretoIntimazione:
+              $ref: '#/components/schemas/ModelEnteDichiaranteML'
+            genitoreConCittadinanza:
+              type: string
+              deprecated: true
+              description: Genitore che ha cittadinanza italiana  -- DEPRECATO --
+              example:  ''
+            intestatarioVecchieGeneralita:
+              $ref: '#/components/schemas/ModelSoggettoML'
     ModelTrascrizioneMorteML:
       allOf:
         - $ref: '#/components/schemas/ModelTrascrizioneML'
         - type: object
-      properties:
-        ultimoLuogo:
-          $ref: '#/components/schemas/ModelLuogoML'
-        sentenzaMortePresunta:
-          $ref: '#/components/schemas/ModelEnteDichiaranteML'
-        annotazioneMortePresunta:
-          $ref: '#/components/schemas/ModelAttoCollegatoML'
-        attoNascitaDeceduto:
-          $ref: '#/components/schemas/ModelAttoCollegatoML'
-        attoMatrimonio:
-          $ref: '#/components/schemas/ModelAttoCollegatoML'
-        attoUnioneCivile:
-          $ref: '#/components/schemas/ModelAttoCollegatoML'
+          properties:
+            ultimoLuogo:
+              $ref: '#/components/schemas/ModelLuogoML'
+            sentenzaMortePresunta:
+              $ref: '#/components/schemas/ModelEnteDichiaranteML'
+            annotazioneMortePresunta:
+              $ref: '#/components/schemas/ModelAttoCollegatoML'
+            attoNascitaDeceduto:
+              $ref: '#/components/schemas/ModelAttoCollegatoML'
+            attoMatrimonio:
+              $ref: '#/components/schemas/ModelAttoCollegatoML'
+            attoUnioneCivile:
+              $ref: '#/components/schemas/ModelAttoCollegatoML'
     ModelTrascrizioneMatrimonioML:
       allOf:
         - $ref: '#/components/schemas/ModelTrascrizioneML'
         - type: object
-      properties:
-        officiante:
-          $ref: '#/components/schemas/ModelSoggettoML'
+          properties:
+            officiante:
+              $ref: '#/components/schemas/ModelSoggettoML'
     ModelTrascrizioneUnioneCivileML:
       allOf:
         - $ref: '#/components/schemas/ModelTrascrizioneML'
         - type: object
-      properties:
-        officiante:
-          $ref: '#/components/schemas/ModelSoggettoML'
+          properties:
+            officiante:
+              $ref: '#/components/schemas/ModelSoggettoML'
     ModelTrascrizioneSeparazioneML:
       allOf:
         - $ref: '#/components/schemas/ModelTrascrizioneML'
         - type: object
-      properties:
-        attoMatrimonio:
-          $ref: '#/components/schemas/ModelAttoCollegatoML'
-        sentenzaEcclesiastica:
-          $ref: '#/components/schemas/ModelEnteDichiaranteML'
+          properties:
+            attoMatrimonio:
+              $ref: '#/components/schemas/ModelAttoCollegatoML'
+            sentenzaEcclesiastica:
+              $ref: '#/components/schemas/ModelEnteDichiaranteML'
     ModelRiconciliazioneML:
       properties:
         attoMatrimonio:
@@ -1128,6 +1128,10 @@ components:
     ModelAttoEsteroML:
       properties:
         certificato:
+          allOf:
+            - $ref: '#/components/schemas/ModelEnteEsteroML'
+          deprecated: true
+        enteEstero:
           $ref: '#/components/schemas/ModelEnteEsteroML'
     ModelAssistenzaMinoriML:
       properties:
@@ -1138,27 +1142,14 @@ components:
         nominaAssistenteLegale:
           $ref: '#/components/schemas/ModelEnteDichiaranteML'
     ModelEnteEsteroML:
-      properties:
-        comuneEstero:
-          type: string
-          description: comune Estero della nazione estera
-          example:  ''
-        ruoloEnteDichiarante:
-          type: string
-          description: Ruolo dell'ente dichiarante.
-          example:  'tribunale'
-        nomeEnte:
-          type: string
-          description: Nome dell'ente dichiarante.
-          example:  'tribunale'
-        indirizzoEnte:
-          type: string
-          description: Indirizzo dell'ente dichiarante.
-          example:  'Via Roma 1'
-        descrizione:
-          type: string
-          description: Descrizione dell'atto da trascrivere
-          example:  'Descrizione'
+      allOf:
+        - $ref: '#/components/schemas/ModelEnteDichiaranteML'
+        - type: object
+          properties:
+            comuneEstero:
+              type: string
+              description: comune Estero della nazione estera
+              example:  ''
     ModelRifiutoML:
       properties:
         eventoCollegato:
@@ -1209,6 +1200,14 @@ components:
           type: string
           description: descrizione del sesso
           example: 'femmina'
+        idFormatodata:
+          type: string
+          description: formato data secondo decodifica ANSC_125
+          example: '1'
+        formatodata:
+          type: string
+          description: espilcitazione formato data
+          example: 'completa'
         dataNascita:
           type: string
           format: date
@@ -2598,6 +2597,10 @@ components:
           items:
             $ref: '#/components/schemas/ModelDatiEventoRiconoscimento'
           deprecated: true
+        datiRiconoscimento:
+          type: array
+          items:
+            $ref: '#/components/schemas/ModelDatiEventoRiconoscimento'
         consensoRiconoscimento: # Eventuale consenso dell'altro genitore al riconoscimento
           $ref: '#/components/schemas/ModelConsenso'
         descrizioneRitoReligioso:

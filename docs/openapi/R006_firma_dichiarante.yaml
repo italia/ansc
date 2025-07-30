@@ -27,25 +27,25 @@ paths:
               schema:
                 $ref: '#/components/schemas/FirmaDichiaranteRequest'
       responses:
-       200:
+       '200':
           description: Successo
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/FirmaDichiaranteResponse'
-       403:
+       '403':
          description: Non autorizzato
          content:
             application/json:
               schema:
                  $ref: '#/components/schemas/FirmaDichiaranteResponse'
-       400:
+       '400':
          description: Se non arriva un file valido (deve essere diverso da null)
          content:
            application/json:
               schema:
                  $ref: '#/components/schemas/FirmaDichiaranteResponse'
-       413:
+       '413':
          description: La dimensione del file supera i limiti del sistema
          content:
            application/json:

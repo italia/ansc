@@ -27,19 +27,19 @@ paths:
               schema:
                 $ref: '#/components/schemas/ConsultazioneANSCEventoRequest'
       responses:
-       200:
+       '200':
           description: Atto richiesto dalla ricerca
           content:
             application/json:
              schema:
                  $ref: '#/components/schemas/ConsultazioneANSCResponse'
-       403:
+       '403':
          description: Non autorizzato
          content:
            application/json:
              schema:
                  $ref: '#/components/schemas/ConsultazioneANSCResponse'
-       400:
+       '400':
          description: Se non arriva una firma valida (deve essere diversa da null)
          content:
            application/json:
@@ -63,19 +63,19 @@ paths:
               schema:
                 $ref: '#/components/schemas/ConsultazioneANSCEventoNoteTecnicheRequest'
       responses:
-       200:
+       '200':
           description: Note Tecniche richieste dalla ricerca
           content:
             application/json:
              schema:
                  $ref: '#/components/schemas/ConsultazioneANSCResponse'
-       403:
+       '403':
          description: Non autorizzato
          content:
            application/json:
              schema:
                  $ref: '#/components/schemas/ConsultazioneANSCResponse'
-       400:
+       '400':
          description: Se non arriva una firma valida (deve essere diversa da null)
          content:
            application/json:
@@ -84,6 +84,7 @@ paths:
 
   /consultazione/ansc/evento/rifiuti/{version}:
     post:
+      description: 'Ricerca provvedimenti di rifiuto per evento'
       tags:
         - Consultazione service
       summary: 'Ricerca di tutti i provvedimenti di rifiuto afferenti all''evento
@@ -104,19 +105,19 @@ paths:
               $ref: '#/components/schemas/ConsultazioneANSCEventoRifiutoRequest'
         required: true
       responses:
-        "200":
+        '200':
           description: Provvedimenti di rifiuto richiesti dalla ricerca
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/ConsultazioneANSCResponse'
-        "400":
+        '400':
           description: Se non arrivano dati validi (devono essere diversi da null)
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/ConsultazioneANSCResponse'
-        "403":
+        '403':
           description: Non autorizzato
           content:
             application/json:
@@ -140,19 +141,19 @@ paths:
               schema:
                 $ref: '#/components/schemas/ConsultazioneANSCSoggettoRequest'
       responses:
-       200:
+       '200':
           description: Atto richiesto dalla ricerca
           content:
             application/json:
              schema:
                  $ref: '#/components/schemas/ConsultazioneANSCResponse'
-       403:
+       '403':
          description: Non autorizzato
          content:
            application/json:
              schema:
                  $ref: '#/components/schemas/ConsultazioneANSCResponse'
-       400:
+       '400':
          description: Se non arriva una firma valida (deve essere diversa da null)
          content:
            application/json:
@@ -189,7 +190,7 @@ paths:
              schema:
                  $ref: '#/components/schemas/ConsultazioneANSCSoggettoRequest'
       responses:
-       200:
+       '200':
           description: Soggetto richiesto dalla ricerca
           content:
             application/json:
@@ -197,13 +198,13 @@ paths:
                 oneOf:
                   - $ref: '#/components/schemas/ConsultazioneANSCSoggettoResponse'
                   - $ref: '#/components/schemas/ConsultazioneANSCSoggettoRevision1Response'
-       403:
+       '403':
          description: Non autorizzato
          content:
            application/json:
              schema:
                  $ref: '#/components/schemas/ConsultazioneANSCSoggettoResponse'
-       400:
+       '400':
          description: Se non arriva una firma valida (deve essere diversa da null)
          content:
            application/json:
@@ -418,17 +419,17 @@ components:
           type: string
           format: date
           description: Data di nascita del soggetto
-          example: '2024-05-30T16:02:38.000+00:00'
+          example: '2024-05-30'
         datains:
           type: string
           format: date
           description: Data di inserimento
-          example: '2024-05-30T16:02:38.000+00:00'
+          example: '2024-05-30'
         dataultimoagg:
           type: string
           format: date
           description: Data dell'ultimo aggiornamento
-          example: '2024-05-30T16:02:38.000+00:00'
+          example: '2024-05-30'
         codiceFiscale:
           type: string
           description: Codice fiscale del soggetto

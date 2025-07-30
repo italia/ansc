@@ -27,19 +27,19 @@ paths:
               schema:
                 $ref: '#/components/schemas/DataValiditaEventoRequest'
        responses:
-        200:
+        '200':
           description: Successo
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/DataValiditaEventoResponse'
-        403:
+        '403':
           description: Non autorizzato
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/DataValiditaEventoResponse'
-        404:
+        '404':
           description: Se i dati dello use case non sono presenti in base dati.
           content:
             application/json:

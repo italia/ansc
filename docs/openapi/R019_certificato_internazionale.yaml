@@ -12,6 +12,7 @@ servers:
 paths:
   /certificato-internazionale/create/{version}:
     post:
+      description: Servizio per richiesta di certificato internazionale
       tags:
         - CertificatoInternazionale
       summary: Servizio per richiesta di certificato internazionale
@@ -31,19 +32,19 @@ paths:
             schema:
               $ref: "#/components/schemas/CertificatoInternazionaleRequest"
       responses:
-        "200":
+        '200':
           description: Successo. L'anteprima del certificato è stata creata con successo
           content:
             application/json:
               schema:
                 $ref: "#/components/schemas/CertificatoInternazionaleResponse"
-        "400":
+        '400':
           description: I dati in input non sono corretti
           content:
             application/json:
               schema:
                 $ref: "#/components/schemas/CertificatoInternazionaleResponse"
-        "403":
+        '403':
           description: Non autorizzato
           content:
             application/json:
@@ -51,6 +52,7 @@ paths:
                 $ref: "#/components/schemas/CertificatoInternazionaleResponse"
   /certificato-internazionale/preview/{version}:
     post:
+      description: Servizio per richiesta di certificato internazionale
       tags:
         - CertificatoInternazionale
       summary: Servizio per richiesta di certificato internazionale
@@ -70,19 +72,19 @@ paths:
             schema:
               $ref: "#/components/schemas/CertificatoInternazionaleRequest"
       responses:
-        "200":
+        '200':
           description: Successo. L'anteprima del certificato è stata creata con successo
           content:
             application/json:
               schema:
                 $ref: "#/components/schemas/CertificatoInternazionaleResponse"
-        "400":
+        '400':
           description: I dati in input non sono corretti
           content:
             application/json:
               schema:
                 $ref: "#/components/schemas/CertificatoInternazionaleResponse"
-        "403":
+        '403':
           description: Non autorizzato
           content:
             application/json:
@@ -109,19 +111,19 @@ paths:
             schema:
               $ref: '#/components/schemas/AnnotazioneEventoRequest'
       responses:
-        200:
+        '200':
           description: Successo. Lista annotazioni integrative/contestuali
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/AnnotazioneEventoResponse'
-        400:
+        '400':
           description: Dati in ingresso non completi
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/AnnotazioneEventoResponse'
-        403:
+        '403':
           description: Non autorizzato
           content:
             application/json:
@@ -148,19 +150,19 @@ paths:
             schema:
               $ref: '#/components/schemas/SigleEnunciazioniRequest'
       responses:
-        "200":
+        '200':
           description: Successo
           content:
             application/json:
               schema:
                 $ref: "#/components/schemas/SigleEnunciazioniResponse"
-        "400":
+        '400':
           description: I dati in input non sono corretti
           content:
             application/json:
               schema:
                 $ref: "#/components/schemas/SigleEnunciazioniResponse"
-        "403":
+        '403':
           description: Non autorizzato
           content:
             application/json:
@@ -194,16 +196,20 @@ components:
               description: Data rilascio dell'atto.
               example: '2020-01-23'
             certificatoCapacitaMatrimoniale:
-              $ref: '#/components/schemas/CertificatoCapacitaMatrimonialeDTO'
+              allOf:
+                - $ref: '#/components/schemas/CertificatoCapacitaMatrimonialeDTO'
               description: Modello certificato capacita' matrimoniale
             certificatoNascita:
-              $ref: '#/components/schemas/CertificatoNascitaDTO'
+              allOf:
+                - $ref: '#/components/schemas/CertificatoNascitaDTO'
               description: Modello certificato nascita (Modello A)
             certificatoMatrimonio:
-              $ref: '#/components/schemas/CertificatoMatrimonioDTO'
+              allOf:
+                - $ref: '#/components/schemas/CertificatoMatrimonioDTO'
               description: Modello certificato matrimonio (Modello B)
             certificatoMorte:
-              $ref: '#/components/schemas/CertificatoMorteDTO'
+              allOf:
+                - $ref: '#/components/schemas/CertificatoMorteDTO'
               description: Modello certificato morte (Modello C)
     CertificatoCapacitaMatrimonialeDTO:
       description: Modello certificato capacita' matrimoniale
@@ -211,10 +217,12 @@ components:
         - type: object
           properties:
             coniuge1:
-              $ref: '#/components/schemas/ConiugeDTO'
+              allOf:
+                - $ref: '#/components/schemas/ConiugeDTO'
               description: Coniuge 1
             coniuge2:
-              $ref: '#/components/schemas/ConiugeDTO'
+              allOf:
+                - $ref: '#/components/schemas/ConiugeDTO'
               description: Coniuge 2
     ConiugeDTO:
       description: Modello Coniuge
@@ -222,10 +230,12 @@ components:
         - type: object
           properties:
             soggetto:
-              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
+              allOf:
+                - $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
               description: Modello soggetto marito
             luogoRegistroFamiglia:
-              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelLuogo'
+              allOf:
+                - $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelLuogo'
               description:  Luogo del registro di famiglia.
             numeroRegistroFamiglia:
               type: string
@@ -239,9 +249,10 @@ components:
               type: string
               format: date
               description:  Data scioglimento.
-              example: '06/07/2023'
+              example: '2023-07-06'
             luogoScioglimento:
-              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelLuogo'
+              allOf:
+                - $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelLuogo'
               description:  Luogo scioglimento.
             scioltoDa:
               type: string
@@ -262,8 +273,9 @@ components:
         - type: object
           properties:
             marito:
-              $ref: '#/components/schemas/ConiugeEstrattoMatrDTO'
               description: Modello soggetto marito
+              allOf:
+                - $ref: '#/components/schemas/ConiugeEstrattoMatrDTO'
             moglie:
               $ref: '#/components/schemas/ConiugeEstrattoMatrDTO'
             listaEnunciazioni:
@@ -276,9 +288,10 @@ components:
         - type: object
           properties:
             soggetto:
-              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
               deprecated: true
               description: -- DEPRECATO -- Modello soggetto marito o moglie (deprecato in quanto recuperato a partire dall'idEvento)
+              allOf:
+                - $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
             cognomePrimaMatrimonio:
               type: string
               description: Cognome del coniuge prima il matrimonio (Si fa presente che la legge italiana NON prevede la possibilità di cambiare cognome per matrimonio, per cui i cittadini italiani mantengono sempre il proprio cognome di nascita, anche dopo il matrimonio. )
@@ -289,11 +302,13 @@ components:
         - type: object
           properties:
             madre:
-              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
               description: Modello soggetto madre
+              allOf:
+                - $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
             padre:
-              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
               description: Modello soggetto padre
+              allOf: 
+                - $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
             nomeUltimoConiuge:
               type: string
               description: Nome ultimo coniuge.
@@ -390,14 +405,15 @@ components:
         modleDecCertInt:
           type: object
           description: Decodifica Certificati Internazionali (sigla, descrizione)
-          $ref: '#/components/schemas/ModelDecCertInt'
+          allOf:
+            - $ref: '#/components/schemas/ModelDecCertInt'
     ModelDecCertInt:
       description: Decodifica Certificati Internazionali
       properties:
         id:
           type: number
           description: Identificativo univoco della sigla
-          example: "6"
+          example: 6
         sigla:
           type: string
           description: Sigla per enunciazioni Certificati Internazionali
@@ -409,15 +425,15 @@ components:
         ordinamento:
           type: number
           description: Ordinamento
-          example: "6"
+          example: 6
         datainiziovalidita:
           format: date
           description: Data inizio validità.
-          example: '1999-12-31T23:00:00.000+00:00'
+          example: '1999-12-31'
         datafinevalidita:
           format: date
           description: Data fine validità.
-          example: '9999-12-30T23:00:00.000+00:00'
+          example: '9999-12-31'
         tipologiaCertificato:
           type: string
           description: Lista tipologia certificato in cui la sigla è visibile
@@ -428,16 +444,16 @@ components:
         id:
           type: number
           description: Id univoco assegnato dal sistema dell'evento sorgente. (per uso interno)
-          example: '12'
+          example: 12
         idAnnotazione:
           type: number
           description: Id univoco assegnato dal sistema dell'annotazione. (per uso interno)
-          example: '13'
+          example: 13
         dataEvento:
           type: string
           format: date
           description: Data evento.
-          example: '2024-12-04T00:00:00'
+          example: '2024-12-04'
         luogoEvento:
           $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelLuogo'
         nomeCongiunto:
@@ -466,5 +482,5 @@ components:
         infoAnnotazione:
           type: object
           description: Info annotazioni
-          items:
-            $ref: '#/components/schemas/InfoAnnotazione'
+          allOf:
+            - $ref: '#/components/schemas/InfoAnnotazione'

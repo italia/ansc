@@ -28,25 +28,25 @@ paths:
                 $ref: '#/components/schemas/CancellazioneEventoRequest'
                 
        responses:
-        200:
+        '200':
           description: Successo. Cancellazione riuscita
           content:
             application/json:
              schema:
                  $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
-        400:
+        '400':
          description: Dati non validi
          content:
            application/json:
              schema:
                  $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
-        403:
+        '403':
           description: Non autorizzato
           content:
             application/json:
               schema:
                  $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
-        404:
+        '404':
           description: Se il model evento passato non è presente in base dati.
           content:
             application/json:

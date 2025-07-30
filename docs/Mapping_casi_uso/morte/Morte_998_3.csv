@@ -45,6 +45,8 @@
 "Soggetto Collegato","Nome","NO","evento.datiAnnotazioneModificativa.soggettoCollegato","nome","","obbligatoria"
 "Soggetto Collegato","Identificativo unico nazionale","NO","evento.datiAnnotazioneModificativa.soggettoCollegato","idANPR","","obbligatoria"
 "Soggetto Collegato","Sesso","NO","evento.datiAnnotazioneModificativa.soggettoCollegato","sesso","","obbligatoria"
+"Soggetto Collegato","Formato Data Nascita","NO","evento.datiAnnotazioneModificativa.soggettoCollegato","idFormatodata","","obbligatoria"
+"Soggetto Collegato","Formato Data Nascita - Descrizione","NO","evento.datiAnnotazioneModificativa.soggettoCollegato","formatodata","","obbligatoria"
 "Soggetto Collegato","Data nascita","NO","evento.datiAnnotazioneModificativa.soggettoCollegato","dataNascita","","obbligatoria"
 "Soggetto Collegato","Stato di nascita","NO","evento.datiAnnotazioneModificativa.soggettoCollegato","idStatoNascita","","obbligatoria"
 "Soggetto Collegato","Stato di nascita - Descrizione","NO","evento.datiAnnotazioneModificativa.soggettoCollegato","nomeStatoNascita","","obbligatoria"

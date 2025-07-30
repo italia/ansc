@@ -31,19 +31,19 @@ paths:
             schema:
               $ref: '#/components/schemas/EventoAdozioneMultiIntestatarioRequest'
       responses:
-        200:
+        '200':
           description: OK
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/EventoAdozioneMultiIntestatarioResponse'
-        400:
+        '400':
           description: Dati non validi
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/EventoAdozioneMultiIntestatarioResponse'
-        403:
+        '403':
           description: Accesso non autorizzato
           content:
             application/json:

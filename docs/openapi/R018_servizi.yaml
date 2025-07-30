@@ -12,6 +12,7 @@ servers:
 paths:
   /servizi/soggetto/riconciliazione/{version}:
     post:
+      description: Servizio che riconcilia due soggetti
       tags:
         - Servizio di riconciliazione di due soggetti
       summary: Servizio che riconcilia due soggetti
@@ -31,19 +32,19 @@ paths:
               $ref: '#/components/schemas/RiconciliazioneSoggettiRequest'
         required: true
       responses:
-        "200":
+        '200':
           description: Successo
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/RiconciliazioneSoggettiResponse'
-        "403":
+        '403':
           description: Non autorizzato
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/RiconciliazioneSoggettiResponse'
-        "404":
+        '404':
           description: Non trovato
           content:
             application/json:
@@ -52,6 +53,7 @@ paths:
 
   /servizi/soggetto-anpr/riconciliazione/{version}:
     post:
+      description: Servizio che riconcilia soggetto anpr soggetto ansc
       tags:
         - Servizio di riconciliazione soggetto anpr soggetto ansc
       summary: Servizio che riconcilia soggetto anpr soggetto ansc
@@ -71,19 +73,19 @@ paths:
               $ref: '#/components/schemas/RiconciliazioneSoggettiANPRRequest'
         required: true
       responses:
-        "200":
+        '200':
           description: Successo
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/RiconciliazioneSoggettiResponse'
-        "403":
+        '403':
           description: Non autorizzato
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/RiconciliazioneSoggettiResponse'
-        "404":
+        '404':
           description: Non trovato
           content:
             application/json:
@@ -99,34 +101,38 @@ components:
   schemas:
     RiconciliazioneSoggettiRequest:
       description: Dati dei soggetti da riconciliare
+      type: object
+      required:
+        - soggetto
+        - soggettoDaRiconciliare
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
-          required:
-            - soggetto
-            - soggettoDaRiconciliare
-        - type: object
-          properties:
-            soggetto:
-              description: Soggetto alla quale si intende riconciliarne un altro
-              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
-            soggettoDaRiconciliare:
-              description: Soggetto da riconciliare
-              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
+      properties:
+        soggetto:
+          description: Soggetto alla quale si intende riconciliarne un altro
+          allOf:
+            - $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
+        soggettoDaRiconciliare:
+          description: Soggetto da riconciliare
+          allOf:
+            - $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
     RiconciliazioneSoggettiANPRRequest:
       description: Dati dei soggetti da riconciliare
+      required:
+        - soggettoANPR
+        - soggettoANSC
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
-          required:
-            - soggettoANPR
-            - soggettoANSC
         - type: object
           properties:
             soggettoANPR:
               description: Soggetto anpr
-              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
+              allOf:
+                - $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
             soggettoANSC:
-              description: Soggetto ansc da riconciliare 
-              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
+              description: Soggetto ansc da riconciliare
+              allOf: 
+                - $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
     RiconciliazioneSoggettiResponse:
       description: Dati di risposta del servizio di riconciliazione
       allOf:
@@ -135,7 +141,6 @@ components:
           properties:
             esitoRiconciliazioneSoggetti:
               $ref: '#/components/schemas/EsitoRiconciliazioneSoggetti'
-
     EsitoRiconciliazioneSoggetti:
       properties:
         codice:

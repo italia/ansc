@@ -27,31 +27,31 @@ paths:
               schema:
                 $ref: '#/components/schemas/ValidazioneEventoRequest'
        responses:
-        200:
+        '200':
           description: Successo
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/ValidazioneEventoResponse'
-        403:
+        '403':
           description: Non autorizzato
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/ValidazioneEventoResponse'
-        400:
+        '400':
           description: Se i metadati non sono in formato json corretto
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/ValidazioneEventoResponse'
-        404:
+        '404':
           description: Se i dati dello use case non sono presenti in base dati.
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/ValidazioneEventoResponse'
-        416:
+        '416':
           description: Quando lo use case non è abiltato
           content:
             application/json:
@@ -75,25 +75,25 @@ paths:
               schema:
                 $ref: '#/components/schemas/CollegamentoEventoRequest'
        responses:
-        200:
+        '200':
           description: Successo
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/CollegamentoEventoResponse'
-        403:
+        '403':
           description: Non autorizzato
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/CollegamentoEventoResponse'
-        400:
+        '400':
           description: Se i metadati non sono in formato json corretto
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/CollegamentoEventoResponse'
-        404:
+        '404':
           description: Se i dati evento non sono presenti in base dati.
           content:
             application/json:
@@ -117,19 +117,19 @@ paths:
               schema:
                 $ref: '#/components/schemas/PrenotaEventoRequest'
       responses:
-        200:
+        '200':
           description: Successo
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/PrenotaEventoResponse'
-        403:
+        '403':
           description: Non autorizzato
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/PrenotaEventoResponse'
-        404:
+        '404':
           description: Se i dati dello use case non sono presenti in base dati.
           content:
             application/json:
@@ -139,10 +139,10 @@ components:
   schemas:
     ValidazioneEventoRequest:
       description: Richiesta del servizio specializzato per la validazione dei singoli Use Case
+      required:
+        - evento
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
-          required:
-            - evento
         - type: object
           properties:         
             evento:
@@ -200,7 +200,7 @@ components:
             numeroGemelliNatiVivi: 
              type: string
              description: Numero di gemelli nati vivi
-             example: 2
+             example: "2"
             listaNumeriComunali:
              type: array
              items:
@@ -209,7 +209,7 @@ components:
             idUsecase: 
              type: string
              description: Id del caso d'uso cui si riferisce l'evento.
-             example: 1170
+             example: "1170"
           required:
             - numeroGemelliNatiVivi
             - listaNumeriComunali

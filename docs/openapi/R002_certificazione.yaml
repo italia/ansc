@@ -27,20 +27,20 @@ paths:
                     schema:
                       $ref: '#/components/schemas/CertificatoRequest'
       responses:
-        200:
+        '200':
           description: Successo
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/CertificatoResponse'
-        403:
+        '403':
           description: Non autorizzato
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/CertificatoResponse'
 
-        404:
+        '404':
           description: Non trovato
           content:
             application/json:
@@ -63,13 +63,16 @@ components:
               description: Id univoco dell’ Evento
               example: "256343"
             richiedente:
-              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
+              allOf:
+                - $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
               description: Modello  soggetto richiedente
             enteRichiedente:
-              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEnteEstero'
+              allOf:
+                - $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEnteEstero'
               description: Ente terzo richiedente
             intestatario:
-              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
+              allOf:
+                - $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
               description: soggetto intestatario
             idTipoCertificato:
               type: string
@@ -78,7 +81,7 @@ components:
             idTipoEvento:
               type: string
               description: Id del tipo evento. (decodifica ANSC_01)
-              example: 5
+              example: "5"
             conPaternitaMaternita:
               type: boolean
               description: Indica se il certificato nascita deve contenere o meno anche i dati di padre e madre
@@ -95,7 +98,7 @@ components:
             idTipoUso:
               type: string
               description: Id del tipo uso (codificato ANSC_113)
-              example: 5
+              example: "5"
             flagSemplificato:
               type: boolean
               description: Indica se il certificato estratto per copia integrale deve essere semplificato ossia senza metadati
@@ -141,5 +144,5 @@ components:
             datavalidita:
               format: date
               description: Data fine validità.
-              example: '2025-12-30T23:00:00.000+00:00'
+              example: '2025-12-30'
 

@@ -12,6 +12,7 @@ servers:
 paths:
   /consultazione/anagrafica/{version}:
     post:
+      description: Servizio consultazione anagrafica
       parameters:
         - name: version
           in: path
@@ -26,19 +27,19 @@ paths:
               schema:
                 $ref: '#/components/schemas/ConsultazioneANPRRequest'
       responses:
-       200:
+       '200':
           description: Atto richiesto dalla ricerca
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/ConsultazioneANPRResponse'
-       403:
+       '403':
          description: Non autorizzato
          content:
             application/json:
               schema:
                  $ref: '#/components/schemas/ConsultazioneANPRResponse'
-       400:
+       '400':
          description: Se non arriva una firma valida (deve essere diversa da null)
          content:
            application/json:

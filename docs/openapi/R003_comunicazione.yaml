@@ -27,19 +27,19 @@ paths:
               schema:
                 $ref: '#/components/schemas/ComunicazioneRequest'          
       responses:
-       200:
+       '200':
           description: Successo. Elenco delle comunicazioni associate con l'evento
           content:
             application/json:
              schema:
                  $ref: '#/components/schemas/ComunicazioneResponse'
-       400:
+       '400':
          description: Id dell'evento non valido
          content:
            application/json:
              schema:
                  $ref: '#/components/schemas/ComunicazioneResponse'
-       403:
+       '403':
          description: Non autorizzato
          content:
            application/json:

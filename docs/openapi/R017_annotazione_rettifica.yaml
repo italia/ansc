@@ -12,6 +12,7 @@ servers:
 paths:
   /annotazione-rettifica/validazione/evento/{version}:
     post:
+      description: Servizio che valida l'evento annotazione rettifica
       tags:
         - Validazione service annotazione rettifica
       summary: Servizio che valida l'evento annotazione rettifica
@@ -31,19 +32,19 @@ paths:
               $ref: '#/components/schemas/AnnotazioneRettificaRequest'
         required: true
       responses:
-        "200":
+        '200':
           description: Successo
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/AnnotazioneRettificaResponse'
-        "403":
+        '403':
           description: Non autorizzato
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/AnnotazioneRettificaResponse'
-        "404":
+        '404':
           description: Non trovato
           content:
             application/json:
@@ -54,15 +55,16 @@ components:
   schemas:
     AnnotazioneRettificaRequest:
       description: Dati dell'evento inviato
+      required:
+        - idEventoAnnotazione
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
-          required:
-            - idEventoAnnotazione
         - type: object
           properties:
             evento:
               description: model evento annotazione rettificata
-              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'
+              allOf:
+                - $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'
             idEventoAnnotazione:
               description: 'Id Evento dell''annotazione '
               type: number
@@ -76,4 +78,5 @@ components:
             evento:
               description: model evento annotazione rettificata
               type: object
-              $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'
+              allOf:
+                - $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'

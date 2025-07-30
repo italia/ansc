@@ -12,6 +12,7 @@ servers:
 paths:
   /rifiuto/validazione/evento/{version}:
     post:
+      description: Validazione del provvedimento di rifiuto
       tags:
         - Validazione service
       summary: Validazione del provvedimento di rifiuto
@@ -31,19 +32,19 @@ paths:
               $ref: '#/components/schemas/ValidazioneEventoRifiutoRequest'
         required: true
       responses:
-        "200":
+        '200':
           description: Successo
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/ValidazioneEventoRifiutoResponse'
-        "403":
+        '403':
           description: Non autorizzato
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/ValidazioneEventoRifiutoResponse'
-        "404":
+        '404':
           description: Non trovato
           content:
             application/json:
@@ -53,10 +54,10 @@ components:
   schemas:
     ValidazioneEventoRifiutoRequest:
       description: DTO di validazione per l'inserimento del provvedimento di rifiuto
+      required:
+        - evento
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
-          required:
-            - evento
         - type: object
           properties:
             evento:

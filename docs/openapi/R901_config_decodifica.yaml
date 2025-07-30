@@ -27,25 +27,25 @@ paths:
               schema:
                 $ref: '#/components/schemas/DecodificaElencoRequest'
        responses:
-        200:
+        '200':
           description: Successo
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/DecodificaElencoResponse'
-        403:
+        '403':
           description: Non autorizzato
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/DecodificaElencoResponse'
-        400:
+        '400':
           description: Se i metadati non sono in formato json corretto
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/DecodificaElencoResponse'
-        404:
+        '404':
           description: Se i dati dello use case non sono presenti in base dati.
           content:
             application/json:
@@ -68,25 +68,25 @@ paths:
               schema:
                 $ref: '#/components/schemas/DecodificaDettaglioRequest'
        responses:
-        200:
+        '200':
           description: Successo
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/DecodificaDettaglioResponse'
-        403:
+        '403':
           description: Non autorizzato
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/DecodificaDettaglioResponse'
-        400:
+        '400':
           description: Se i metadati non sono in formato json corretto
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/DecodificaDettaglioResponse'
-        404:
+        '404':
           description: Se i dati dello use case non sono presenti in base dati.
           content:
             application/json:
@@ -109,25 +109,25 @@ paths:
               schema:
                 $ref: '#/components/schemas/DataAdesioneRequest'
        responses:
-        200:
+        '200':
           description: Successo, Il comune esiste ed ha aderito
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/DataAdesioneResponse'
-        403:
+        '403':
           description: Non autorizzato
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/DataAdesioneResponse'
-        400:
+        '400':
           description: Se i metadati non sono in formato json corretto
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/DataAdesioneResponse'
-        404:
+        '404':
           description: Se il comune non esiste o ancora non ha aderito.
           content:
             application/json:
@@ -135,6 +135,7 @@ paths:
                  $ref: '#/components/schemas/DataAdesioneResponse'
   /config/decodifica/usecase-multilingua/{version}:
     post:
+      description: Elenco use case multilingua
       tags:
       - Validazione decodifica
       summary: Usecase multilingua
@@ -154,19 +155,19 @@ paths:
               $ref: '#/components/schemas/UsecaseMultilinguaRequest'
         required: true
       responses:
-        "200":
+        '200':
           description: Successo
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/UsecaseMultilinguaResponse'
-        "403":
+        '403':
           description: Non autorizzato
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/UsecaseMultilinguaResponse'
-        "404":
+        '404':
           description: Se il comune non ha aderito
           content:
             application/json:

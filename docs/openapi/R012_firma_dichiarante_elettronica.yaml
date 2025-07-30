@@ -31,19 +31,19 @@ paths:
               schema:
                 $ref: '#/components/schemas/FirmaDichiaranteOnlineInvioEmailRequest'  
       responses:
-        200:
+        '200':
           description: OK
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/FirmaDichiaranteOnlineInvioEmailResponse'
-        400:
+        '400':
          description: Dati non validi
          content:
            application/json:
              schema:
                  $ref: '#/components/schemas/FirmaDichiaranteOnlineInvioEmailResponse'
-        401:
+        '401':
          description: Utente non autorizzato ad utilizzare la risorsa
          content:
            application/json:
@@ -69,25 +69,25 @@ paths:
               schema:
                 $ref: '#/components/schemas/FirmaDichiaranteOnlineAnnullaLinkRequest'        
       responses:
-        200:
+        '200':
           description: OK
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/FirmaDichiaranteOnlineResponse'
-        400:
+        '400':
          description: Dati non validi
          content:
            application/json:
              schema:
                  $ref: '#/components/schemas/FirmaDichiaranteOnlineResponse'
-        401:
+        '401':
          description: Utente non autorizzato ad utilizzare la risorsa
          content:
            application/json:
              schema:
                  $ref: '#/components/schemas/FirmaDichiaranteOnlineResponse'
-        406:
+        '406':
          description: Evento non trovato
          content:
            application/json:
@@ -113,25 +113,25 @@ paths:
               schema:
                 $ref: '#/components/schemas/FirmaDichiaranteOnlinePoolingStatoAttoRequest'       
       responses:
-        200:
+        '200':
           description: OK
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/FirmaDichiaranteOnlinePoolingStatoAttoResponse'
-        400:
+        '400':
          description: Dati non validi
          content:
            application/json:
              schema:
                  $ref: '#/components/schemas/FirmaDichiaranteOnlinePoolingStatoAttoResponse'
-        401:
+        '401':
          description: Utente non autorizzato ad utilizzare la risorsa
          content:
            application/json:
              schema:
                  $ref: '#/components/schemas/FirmaDichiaranteOnlinePoolingStatoAttoResponse'
-        406:
+        '406':
          description: Evento non trovato
          content:
            application/json:

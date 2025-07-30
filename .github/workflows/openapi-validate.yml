@@ -26,7 +26,7 @@ jobs:
         run: npm install -g @stoplight/spectral-cli
 
       - name: Verify Spectral CLI installation
-        run: npm install -g @stoplight/spectral-cli
+        run: spectral --version
 
       - name: Write .spectral.yaml configuration
         run: |
@@ -43,5 +43,5 @@ jobs:
                 function: truthy
           EOF
 
-      - name: Spectral ling model_evento.yaml
-        run: spectral lint docs/openapi/model_evento.yaml
+      - name: Spectral lint Specifiche OpenAPI servizi REST
+        run: spectral lint docs/openapi/*.yaml

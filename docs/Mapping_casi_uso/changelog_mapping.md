@@ -1,3 +1,3615 @@
+#Changelog mappatura casi uso 1.43.0  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 301
+* cittadinanza/Citt_001.csv
+* cittadinanza/Citt_002.csv
+* cittadinanza/Citt_003.csv
+* cittadinanza/Citt_004.csv
+* cittadinanza/Citt_005.csv
+* cittadinanza/Citt_006.csv
+* cittadinanza/Citt_007.csv
+* cittadinanza/Citt_008.csv
+* cittadinanza/Citt_009.csv
+* cittadinanza/Citt_010.csv
+* cittadinanza/Citt_011.csv
+* cittadinanza/Citt_012.csv
+* cittadinanza/Citt_013.csv
+* cittadinanza/Citt_014.csv
+* cittadinanza/Citt_017.csv
+* cittadinanza/Citt_018.csv
+* cittadinanza/Citt_019.csv
+* cittadinanza/Citt_020.csv
+* cittadinanza/Citt_021.csv
+* cittadinanza/Citt_022.csv
+* cittadinanza/Citt_023.csv
+* cittadinanza/Citt_024.csv
+* cittadinanza/Citt_025.csv
+* cittadinanza/Citt_026.csv
+* cittadinanza/Citt_027.csv
+* cittadinanza/Citt_028.csv
+* cittadinanza/Citt_029.csv
+* cittadinanza/Citt_030.csv
+* cittadinanza/Citt_031.csv
+* cittadinanza/Citt_032.csv
+* cittadinanza/Citt_033.csv
+* cittadinanza/Citt_034.csv
+* cittadinanza/Citt_035.csv
+* cittadinanza/Citt_036.csv
+* cittadinanza/Citt_037.csv
+* cittadinanza/Citt_038.csv
+* cittadinanza/Citt_039.csv
+* cittadinanza/Citt_040.csv
+* cittadinanza/Citt_041.csv
+* cittadinanza/Citt_043.csv
+* cittadinanza/Citt_044.csv
+* cittadinanza/Citt_045.csv
+* cittadinanza/Citt_046.csv
+* cittadinanza/Citt_049.csv
+* cittadinanza/Citt_998_3.csv
+* cittadinanza/Citt_999.csv
+* matrimoni/Matr_001.csv
+* matrimoni/Matr_002.csv
+* matrimoni/Matr_003.csv
+* matrimoni/Matr_004.csv
+* matrimoni/Matr_005.csv
+* matrimoni/Matr_007.csv
+* matrimoni/Matr_008.csv
+* matrimoni/Matr_009.csv
+* matrimoni/Matr_010.csv
+* matrimoni/Matr_011.csv
+* matrimoni/Matr_012.csv
+* matrimoni/Matr_013.csv
+* matrimoni/Matr_019.csv
+* matrimoni/Matr_022.csv
+* matrimoni/Matr_998_3.csv
+* matrimoni/Matr_999_1.csv
+* matrimoni/Matr_999_2.csv
+* matrimoni/Matr_Riconc_001.csv
+* matrimoni/Matr_Riconc_999.csv
+* matrimoni/Sep_Div_001.csv
+* matrimoni/Sep_Div_002.csv
+* matrimoni/Sep_Div_003.csv
+* matrimoni/Sep_Div_004.csv
+* matrimoni/Sep_Div_005.csv
+* matrimoni/Sep_Div_006.csv
+* matrimoni/Sep_Div_007.csv
+* matrimoni/Sep_Div_008.csv
+* matrimoni/Sep_Div_999.csv
+* morte/Morte_001.csv
+* morte/Morte_002.csv
+* morte/Morte_003.csv
+* morte/Morte_005.csv
+* morte/Morte_006.csv
+* morte/Morte_007.csv
+* morte/Morte_008.csv
+* morte/Morte_009.csv
+* morte/Morte_010.csv
+* morte/Morte_011.csv
+* morte/Morte_015.csv
+* morte/Morte_998_3.csv
+* morte/Morte_999.csv
+* nascita/Dic_Nasc_001.csv
+* nascita/Dic_Nasc_002.csv
+* nascita/Dic_Nasc_003.csv
+* nascita/Dic_Nasc_004.csv
+* nascita/Dic_Nasc_005.csv
+* nascita/Dic_Nasc_006.csv
+* nascita/Dic_Nasc_007.csv
+* nascita/Dic_Nasc_008.csv
+* nascita/Dic_Nasc_009.csv
+* nascita/Dic_Nasc_010.csv
+* nascita/Dic_Nasc_011.csv
+* nascita/Dic_Nasc_012.csv
+* nascita/Dic_Nasc_013.csv
+* nascita/Dic_Nasc_014.csv
+* nascita/Dic_Nasc_015.csv
+* nascita/Dic_Nasc_016.csv
+* nascita/Dic_Nasc_017.csv
+* nascita/Dic_Nasc_018.csv
+* nascita/Dic_Nasc_019.csv
+* nascita/Dic_Nasc_020.csv
+* nascita/Dic_Nasc_021.csv
+* nascita/Dic_Nasc_022.csv
+* nascita/Dic_Nasc_023.csv
+* nascita/Dic_Nasc_024.csv
+* nascita/Dic_Nasc_025.csv
+* nascita/Dic_Nasc_026.csv
+* nascita/Dic_Nasc_027.csv
+* nascita/Dic_Nasc_028.csv
+* nascita/Dic_Nasc_029.csv
+* nascita/Dic_Nasc_030.csv
+* nascita/Dic_Nasc_031.csv
+* nascita/Dic_Nasc_032.csv
+* nascita/Dic_Nasc_033.csv
+* nascita/Dic_Nasc_034.csv
+* nascita/Dic_Nasc_035.csv
+* nascita/Dic_Nasc_036.csv
+* nascita/Dic_Nasc_037.csv
+* nascita/Dic_Nasc_038.csv
+* nascita/Dic_Nasc_039.csv
+* nascita/Dic_Nasc_040.csv
+* nascita/Dic_Nasc_041.csv
+* nascita/Dic_Nasc_042.csv
+* nascita/Dic_Nasc_043.csv
+* nascita/Dic_Nasc_044.csv
+* nascita/Dic_Nasc_045.csv
+* nascita/Dic_Nasc_046.csv
+* nascita/Dic_Nasc_047.csv
+* nascita/Dic_Nasc_048.csv
+* nascita/Dic_Nasc_049.csv
+* nascita/Dic_Nasc_050.csv
+* nascita/Dic_Nasc_051.csv
+* nascita/Dic_Nasc_052.csv
+* nascita/Dic_Nasc_053.csv
+* nascita/Dic_Nasc_054.csv
+* nascita/Dic_Nasc_055.csv
+* nascita/Dic_Nasc_056.csv
+* nascita/Dic_Nasc_057.csv
+* nascita/Dic_Nasc_058.csv
+* nascita/Dic_Nasc_059.csv
+* nascita/Dic_Nasc_060.csv
+* nascita/Dic_Nasc_061.csv
+* nascita/Dic_Nasc_062.csv
+* nascita/Dic_Nasc_063.csv
+* nascita/Dic_Nasc_064.csv
+* nascita/Dic_Nasc_065.csv
+* nascita/Dic_Nasc_066.csv
+* nascita/Dic_Nasc_067.csv
+* nascita/Dic_Nasc_068.csv
+* nascita/Dic_Nasc_069.csv
+* nascita/Dic_Nasc_070.csv
+* nascita/Dic_Nasc_071.csv
+* nascita/Dic_Nasc_072.csv
+* nascita/Dic_Nasc_073.csv
+* nascita/Dic_Nasc_074.csv
+* nascita/Dic_Nasc_075.csv
+* nascita/Dic_Nasc_076.csv
+* nascita/Dic_Nasc_077.csv
+* nascita/Dic_Nasc_078.csv
+* nascita/Dic_Nasc_079.csv
+* nascita/Dic_Nasc_080.csv
+* nascita/Dic_Nasc_081.csv
+* nascita/Dic_Nasc_082.csv
+* nascita/Dic_Nasc_083.csv
+* nascita/Dic_Nasc_084.csv
+* nascita/Dic_Nasc_085.csv
+* nascita/Dic_Nasc_086.csv
+* nascita/Dic_Nasc_087.csv
+* nascita/Dic_Nasc_088.csv
+* nascita/Dic_Nasc_089.csv
+* nascita/Dic_Nasc_090.csv
+* nascita/Dic_Nasc_091.csv
+* nascita/Dic_Nasc_092.csv
+* nascita/Dic_Nasc_093.csv
+* nascita/Dic_Nasc_094.csv
+* nascita/Dic_Nasc_095.csv
+* nascita/Dic_Nasc_096.csv
+* nascita/Dic_Nasc_097.csv
+* nascita/Dic_Nasc_098.csv
+* nascita/Dic_Nasc_099.csv
+* nascita/Dic_Nasc_100.csv
+* nascita/Dic_Nasc_101.csv
+* nascita/Dic_Nasc_102.csv
+* nascita/Dic_Nasc_103.csv
+* nascita/Dic_Nasc_104.csv
+* nascita/Dic_Nasc_105.csv
+* nascita/Dic_Nasc_106.csv
+* nascita/Dic_Nasc_107.csv
+* nascita/Dic_Nasc_108.csv
+* nascita/Dic_Nasc_109.csv
+* nascita/Dic_Nasc_110.csv
+* nascita/Dic_Nasc_111.csv
+* nascita/Dic_Nasc_112.csv
+* nascita/Dic_Nasc_113.csv
+* nascita/Dic_Nasc_114.csv
+* nascita/Dic_Nasc_115.csv
+* nascita/Dic_Nasc_116.csv
+* nascita/Dic_Nasc_117.csv
+* nascita/Dic_Nasc_121.csv
+* nascita/Dic_Nasc_122.csv
+* nascita/Dic_Nasc_123.csv
+* nascita/Dic_Nasc_124.csv
+* nascita/Dic_Nasc_125.csv
+* nascita/Dic_Nasc_126.csv
+* nascita/Dic_Nasc_127.csv
+* nascita/Dic_Nasc_128.csv
+* nascita/Dic_Nasc_129.csv
+* nascita/Dic_Nasc_130.csv
+* nascita/Dic_Nasc_131.csv
+* nascita/Dic_Nasc_132.csv
+* nascita/Dic_Nasc_133.csv
+* nascita/Dic_Nasc_998_3.csv
+* nascita/Dic_Nasc_999.csv
+* riconoscimenti/Rico_001.csv
+* riconoscimenti/Rico_002.csv
+* riconoscimenti/Rico_003.csv
+* riconoscimenti/Rico_004.csv
+* riconoscimenti/Rico_005.csv
+* riconoscimenti/Rico_006.csv
+* riconoscimenti/Rico_007.csv
+* riconoscimenti/Rico_008.csv
+* riconoscimenti/Rico_009.csv
+* riconoscimenti/Rico_010.csv
+* riconoscimenti/Rico_011.csv
+* riconoscimenti/Rico_012.csv
+* riconoscimenti/Rico_013.csv
+* riconoscimenti/Rico_014.csv
+* riconoscimenti/Rico_015.csv
+* riconoscimenti/Rico_016.csv
+* riconoscimenti/Rico_017.csv
+* riconoscimenti/Rico_018.csv
+* riconoscimenti/Rico_019.csv
+* riconoscimenti/Rico_020.csv
+* riconoscimenti/Rico_999.csv
+* trascrizioni/Trascr_001.csv
+* trascrizioni/Trascr_002.csv
+* trascrizioni/Trascr_003.csv
+* trascrizioni/Trascr_005.csv
+* trascrizioni/Trascr_006.csv
+* trascrizioni/Trascr_007.csv
+* trascrizioni/Trascr_008.csv
+* trascrizioni/Trascr_009.csv
+* trascrizioni/Trascr_010.csv
+* trascrizioni/Trascr_011.csv
+* trascrizioni/Trascr_012.csv
+* trascrizioni/Trascr_013.csv
+* trascrizioni/Trascr_014.csv
+* trascrizioni/Trascr_015.csv
+* trascrizioni/Trascr_016.csv
+* trascrizioni/Trascr_017.csv
+* trascrizioni/Trascr_018.csv
+* trascrizioni/Trascr_019.csv
+* trascrizioni/Trascr_020.csv
+* trascrizioni/Trascr_021.csv
+* trascrizioni/Trascr_022.csv
+* trascrizioni/Trascr_023.csv
+* trascrizioni/Trascr_024.csv
+* trascrizioni/Trascr_025.csv
+* trascrizioni/Trascr_026.csv
+* trascrizioni/Trascr_027.csv
+* trascrizioni/Trascr_028.csv
+* trascrizioni/Trascr_029.csv
+* trascrizioni/Trascr_030.csv
+* trascrizioni/Trascr_031.csv
+* trascrizioni/Trascr_032.csv
+* trascrizioni/Trascr_999.csv
+* trascrizioni/Trascr_Citt_999.csv
+* trascrizioni/Trascr_Matr_001.csv
+* trascrizioni/Trascr_Matr_002.csv
+* trascrizioni/Trascr_Matr_003.csv
+* trascrizioni/Trascr_Matr_004.csv
+* trascrizioni/Trascr_Matr_005.csv
+* trascrizioni/Trascr_Matr_006.csv
+* trascrizioni/Trascr_Matr_999.csv
+* trascrizioni/Trascr_Morte_999.csv
+* trascrizioni/Trascr_UnCiv_001.csv
+* trascrizioni/Trascr_UnCiv_002.csv
+* trascrizioni/Trascr_UnCiv_003.csv
+* trascrizioni/Trascr_UnCiv_004.csv
+* trascrizioni/Trascr_UnCiv_005.csv
+* trascrizioni/Trascr_UnCiv_999.csv
+* unioni_civili/Sciogl_UnCiv_001.csv
+* unioni_civili/Sciogl_UnCiv_002.csv
+* unioni_civili/Sciogl_UnCiv_003.csv
+* unioni_civili/Sciogl_UnCiv_004.csv
+* unioni_civili/Sciogl_UnCiv_005.csv
+* unioni_civili/Sciogl_UnCiv_006.csv
+* unioni_civili/Sciogl_UnCiv_999.csv
+* unioni_civili/UnCiv_001.csv
+* unioni_civili/UnCiv_002.csv
+* unioni_civili/UnCiv_003.csv
+* unioni_civili/UnCiv_004.csv
+* unioni_civili/UnCiv_005.csv
+* unioni_civili/UnCiv_998_3.csv
+* unioni_civili/UnCiv_999.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_001.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:19)
+* Aggiunto 'evento.madre.idFormatodata' (riga:50)
+* Aggiunto 'evento.madre.formatodata' (riga:51)
+* Aggiunto 'evento.padre.idFormatodata' (riga:84)
+* Aggiunto 'evento.padre.formatodata' (riga:85)
+
+### Modifiche per il caso uso cittadinanza/Citt_002.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:17)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:18)
+* Aggiunto 'evento.madre.idFormatodata' (riga:49)
+* Aggiunto 'evento.madre.formatodata' (riga:50)
+* Aggiunto 'evento.padre.idFormatodata' (riga:83)
+* Aggiunto 'evento.padre.formatodata' (riga:84)
+
+### Modifiche per il caso uso cittadinanza/Citt_003.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:19)
+* Aggiunto 'evento.madre.idFormatodata' (riga:50)
+* Aggiunto 'evento.madre.formatodata' (riga:51)
+* Aggiunto 'evento.padre.idFormatodata' (riga:84)
+* Aggiunto 'evento.padre.formatodata' (riga:85)
+
+### Modifiche per il caso uso cittadinanza/Citt_004.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:16)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:17)
+* Aggiunto 'evento.madre.idFormatodata' (riga:61)
+* Aggiunto 'evento.madre.formatodata' (riga:62)
+* Aggiunto 'evento.padre.idFormatodata' (riga:95)
+* Aggiunto 'evento.padre.formatodata' (riga:96)
+
+### Modifiche per il caso uso cittadinanza/Citt_005.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:26)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:27)
+* Aggiunto 'evento.datiEventoCittadinanza.parenteDiretto.idFormatodata' (riga:59)
+* Aggiunto 'evento.datiEventoCittadinanza.parenteDiretto.formatodata' (riga:60)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:100)
+* Aggiunto 'evento.interprete.formatodata' (riga:101)
+
+### Modifiche per il caso uso cittadinanza/Citt_006.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:16)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:17)
+* Presenti modifiche per 'evento.eventoCollegato.idAnsc' (riga:53)
+* Presenti modifiche per 'evento.eventoCollegato.idProvinciaRegistrazione' (riga:54)
+* Presenti modifiche per 'evento.eventoCollegato.siglaProvinciaRegistrazione' (riga:55)
+* Presenti modifiche per 'evento.eventoCollegato.idComuneRegistrazione' (riga:56)
+* Presenti modifiche per 'evento.eventoCollegato.nomeComuneRegistrazione' (riga:57)
+* Presenti modifiche per 'evento.eventoCollegato.idtipocontenuto' (riga:58)
+* Presenti modifiche per 'evento.eventoCollegato.numeroatto' (riga:59)
+* Presenti modifiche per 'evento.eventoCollegato.annoAtto' (riga:60)
+* Presenti modifiche per 'evento.eventoCollegato.dataformazione' (riga:61)
+* Presenti modifiche per 'evento.eventoCollegato.parte' (riga:62)
+* Presenti modifiche per 'evento.eventoCollegato.serie' (riga:63)
+* Presenti modifiche per 'evento.eventoCollegato.volume' (riga:64)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:65)
+
+### Modifiche per il caso uso cittadinanza/Citt_007.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:26)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:27)
+* Aggiunto 'evento.datiEventoCittadinanza.parenteDiretto.idFormatodata' (riga:59)
+* Aggiunto 'evento.datiEventoCittadinanza.parenteDiretto.formatodata' (riga:60)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:111)
+* Aggiunto 'evento.interprete.formatodata' (riga:112)
+
+### Modifiche per il caso uso cittadinanza/Citt_008.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:16)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:17)
+* Presenti modifiche per 'evento.eventoCollegato.idAnsc' (riga:50)
+* Presenti modifiche per 'evento.eventoCollegato.idProvinciaRegistrazione' (riga:51)
+* Presenti modifiche per 'evento.eventoCollegato.siglaProvinciaRegistrazione' (riga:52)
+* Presenti modifiche per 'evento.eventoCollegato.idComuneRegistrazione' (riga:53)
+* Presenti modifiche per 'evento.eventoCollegato.nomeComuneRegistrazione' (riga:54)
+* Presenti modifiche per 'evento.eventoCollegato.idtipocontenuto' (riga:55)
+* Presenti modifiche per 'evento.eventoCollegato.numeroatto' (riga:56)
+* Presenti modifiche per 'evento.eventoCollegato.annoAtto' (riga:57)
+* Presenti modifiche per 'evento.eventoCollegato.dataformazione' (riga:58)
+* Presenti modifiche per 'evento.eventoCollegato.parte' (riga:59)
+* Presenti modifiche per 'evento.eventoCollegato.serie' (riga:60)
+* Presenti modifiche per 'evento.eventoCollegato.volume' (riga:61)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:62)
+
+### Modifiche per il caso uso cittadinanza/Citt_009.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:27)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:28)
+* Aggiunto 'evento.datiEventoCittadinanza.parenteDiretto.idFormatodata' (riga:61)
+* Aggiunto 'evento.datiEventoCittadinanza.parenteDiretto.formatodata' (riga:62)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:102)
+* Aggiunto 'evento.interprete.formatodata' (riga:103)
+
+### Modifiche per il caso uso cittadinanza/Citt_010.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:16)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:17)
+* Presenti modifiche per 'evento.eventoCollegato.idAnsc' (riga:54)
+* Presenti modifiche per 'evento.eventoCollegato.idProvinciaRegistrazione' (riga:55)
+* Presenti modifiche per 'evento.eventoCollegato.siglaProvinciaRegistrazione' (riga:56)
+* Presenti modifiche per 'evento.eventoCollegato.idComuneRegistrazione' (riga:57)
+* Presenti modifiche per 'evento.eventoCollegato.nomeComuneRegistrazione' (riga:58)
+* Presenti modifiche per 'evento.eventoCollegato.idtipocontenuto' (riga:59)
+* Presenti modifiche per 'evento.eventoCollegato.numeroatto' (riga:60)
+* Presenti modifiche per 'evento.eventoCollegato.annoAtto' (riga:61)
+* Presenti modifiche per 'evento.eventoCollegato.dataformazione' (riga:62)
+* Presenti modifiche per 'evento.eventoCollegato.parte' (riga:63)
+* Presenti modifiche per 'evento.eventoCollegato.serie' (riga:64)
+* Presenti modifiche per 'evento.eventoCollegato.volume' (riga:65)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:66)
+
+### Modifiche per il caso uso cittadinanza/Citt_011.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:24)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:25)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:74)
+* Aggiunto 'evento.interprete.formatodata' (riga:75)
+
+### Modifiche per il caso uso cittadinanza/Citt_012.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:16)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:17)
+* Presenti modifiche per 'evento.eventoCollegato.idAnsc' (riga:54)
+* Presenti modifiche per 'evento.eventoCollegato.idProvinciaRegistrazione' (riga:55)
+* Presenti modifiche per 'evento.eventoCollegato.siglaProvinciaRegistrazione' (riga:56)
+* Presenti modifiche per 'evento.eventoCollegato.idComuneRegistrazione' (riga:57)
+* Presenti modifiche per 'evento.eventoCollegato.nomeComuneRegistrazione' (riga:58)
+* Presenti modifiche per 'evento.eventoCollegato.idtipocontenuto' (riga:59)
+* Presenti modifiche per 'evento.eventoCollegato.numeroatto' (riga:60)
+* Presenti modifiche per 'evento.eventoCollegato.annoAtto' (riga:61)
+* Presenti modifiche per 'evento.eventoCollegato.dataformazione' (riga:62)
+* Presenti modifiche per 'evento.eventoCollegato.parte' (riga:63)
+* Presenti modifiche per 'evento.eventoCollegato.serie' (riga:64)
+* Presenti modifiche per 'evento.eventoCollegato.volume' (riga:65)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:66)
+
+### Modifiche per il caso uso cittadinanza/Citt_013.csv : 
+* Aggiunto 'evento.madre.idFormatodata' (riga:20)
+* Aggiunto 'evento.madre.formatodata' (riga:21)
+* Aggiunto 'evento.padre.idFormatodata' (riga:53)
+* Aggiunto 'evento.padre.formatodata' (riga:54)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:132)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:133)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:176)
+* Aggiunto 'evento.interprete.formatodata' (riga:177)
+
+### Modifiche per il caso uso cittadinanza/Citt_014.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:16)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:17)
+* Presenti modifiche per 'evento.eventoCollegato.idAnsc' (riga:54)
+* Presenti modifiche per 'evento.eventoCollegato.idProvinciaRegistrazione' (riga:55)
+* Presenti modifiche per 'evento.eventoCollegato.siglaProvinciaRegistrazione' (riga:56)
+* Presenti modifiche per 'evento.eventoCollegato.idComuneRegistrazione' (riga:57)
+* Presenti modifiche per 'evento.eventoCollegato.nomeComuneRegistrazione' (riga:58)
+* Presenti modifiche per 'evento.eventoCollegato.idtipocontenuto' (riga:59)
+* Presenti modifiche per 'evento.eventoCollegato.numeroatto' (riga:60)
+* Presenti modifiche per 'evento.eventoCollegato.annoAtto' (riga:61)
+* Presenti modifiche per 'evento.eventoCollegato.dataformazione' (riga:62)
+* Presenti modifiche per 'evento.eventoCollegato.parte' (riga:63)
+* Presenti modifiche per 'evento.eventoCollegato.serie' (riga:64)
+* Presenti modifiche per 'evento.eventoCollegato.volume' (riga:65)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:66)
+
+### Modifiche per il caso uso cittadinanza/Citt_017.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:15)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:16)
+
+### Modifiche per il caso uso cittadinanza/Citt_018.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:20)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:21)
+
+### Modifiche per il caso uso cittadinanza/Citt_019.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:16)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:17)
+* Aggiunto 'evento.madre.idFormatodata' (riga:46)
+* Aggiunto 'evento.madre.formatodata' (riga:47)
+* Aggiunto 'evento.padre.idFormatodata' (riga:80)
+* Aggiunto 'evento.padre.formatodata' (riga:81)
+
+### Modifiche per il caso uso cittadinanza/Citt_020.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:19)
+
+### Modifiche per il caso uso cittadinanza/Citt_021.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:27)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:28)
+* Aggiunto 'evento.madre.idFormatodata' (riga:60)
+* Aggiunto 'evento.madre.formatodata' (riga:61)
+* Aggiunto 'evento.padre.idFormatodata' (riga:94)
+* Aggiunto 'evento.padre.formatodata' (riga:95)
+* Presenti modifiche per 'evento.eventoCollegato.idAnsc' (riga:124)
+* Presenti modifiche per 'evento.eventoCollegato.idProvinciaRegistrazione' (riga:125)
+* Presenti modifiche per 'evento.eventoCollegato.siglaProvinciaRegistrazione' (riga:126)
+* Presenti modifiche per 'evento.eventoCollegato.idComuneRegistrazione' (riga:127)
+* Presenti modifiche per 'evento.eventoCollegato.nomeComuneRegistrazione' (riga:128)
+* Presenti modifiche per 'evento.eventoCollegato.idtipocontenuto' (riga:129)
+* Presenti modifiche per 'evento.eventoCollegato.numeroatto' (riga:130)
+* Presenti modifiche per 'evento.eventoCollegato.annoAtto' (riga:131)
+* Presenti modifiche per 'evento.eventoCollegato.dataformazione' (riga:132)
+* Presenti modifiche per 'evento.eventoCollegato.parte' (riga:133)
+* Presenti modifiche per 'evento.eventoCollegato.serie' (riga:134)
+* Presenti modifiche per 'evento.eventoCollegato.volume' (riga:135)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:136)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:141)
+* Aggiunto 'evento.interprete.formatodata' (riga:142)
+
+### Modifiche per il caso uso cittadinanza/Citt_022.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:19)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:20)
+* Aggiunto 'evento.madre.idFormatodata' (riga:53)
+* Aggiunto 'evento.madre.formatodata' (riga:54)
+* Aggiunto 'evento.padre.idFormatodata' (riga:81)
+* Aggiunto 'evento.padre.formatodata' (riga:82)
+* Presenti modifiche per 'evento.eventoCollegato.idAnsc' (riga:105)
+* Presenti modifiche per 'evento.eventoCollegato.idProvinciaRegistrazione' (riga:106)
+* Presenti modifiche per 'evento.eventoCollegato.siglaProvinciaRegistrazione' (riga:107)
+* Presenti modifiche per 'evento.eventoCollegato.idComuneRegistrazione' (riga:108)
+* Presenti modifiche per 'evento.eventoCollegato.nomeComuneRegistrazione' (riga:109)
+* Presenti modifiche per 'evento.eventoCollegato.idtipocontenuto' (riga:110)
+* Presenti modifiche per 'evento.eventoCollegato.numeroatto' (riga:111)
+* Presenti modifiche per 'evento.eventoCollegato.annoAtto' (riga:112)
+* Presenti modifiche per 'evento.eventoCollegato.dataformazione' (riga:113)
+* Presenti modifiche per 'evento.eventoCollegato.parte' (riga:114)
+* Presenti modifiche per 'evento.eventoCollegato.serie' (riga:115)
+* Presenti modifiche per 'evento.eventoCollegato.volume' (riga:116)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:117)
+
+### Modifiche per il caso uso cittadinanza/Citt_023.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:16)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:17)
+* Aggiunto 'evento.madre.idFormatodata' (riga:50)
+* Aggiunto 'evento.madre.formatodata' (riga:51)
+* Aggiunto 'evento.padre.idFormatodata' (riga:84)
+* Aggiunto 'evento.padre.formatodata' (riga:85)
+
+### Modifiche per il caso uso cittadinanza/Citt_024.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:24)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:25)
+* Aggiunto 'evento.madre.idFormatodata' (riga:58)
+* Aggiunto 'evento.madre.formatodata' (riga:59)
+* Aggiunto 'evento.padre.idFormatodata' (riga:92)
+* Aggiunto 'evento.padre.formatodata' (riga:93)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:160)
+* Aggiunto 'evento.interprete.formatodata' (riga:161)
+
+### Modifiche per il caso uso cittadinanza/Citt_025.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:19)
+* Presenti modifiche per 'evento.eventoCollegato.idAnsc' (riga:46)
+* Presenti modifiche per 'evento.eventoCollegato.idProvinciaRegistrazione' (riga:47)
+* Presenti modifiche per 'evento.eventoCollegato.siglaProvinciaRegistrazione' (riga:48)
+* Presenti modifiche per 'evento.eventoCollegato.idComuneRegistrazione' (riga:49)
+* Presenti modifiche per 'evento.eventoCollegato.nomeComuneRegistrazione' (riga:50)
+* Presenti modifiche per 'evento.eventoCollegato.idtipocontenuto' (riga:51)
+* Presenti modifiche per 'evento.eventoCollegato.numeroatto' (riga:52)
+* Presenti modifiche per 'evento.eventoCollegato.annoAtto' (riga:53)
+* Presenti modifiche per 'evento.eventoCollegato.dataformazione' (riga:54)
+* Presenti modifiche per 'evento.eventoCollegato.parte' (riga:55)
+* Presenti modifiche per 'evento.eventoCollegato.serie' (riga:56)
+* Presenti modifiche per 'evento.eventoCollegato.volume' (riga:57)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:58)
+
+### Modifiche per il caso uso cittadinanza/Citt_026.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:16)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:17)
+
+### Modifiche per il caso uso cittadinanza/Citt_027.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:16)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:17)
+
+### Modifiche per il caso uso cittadinanza/Citt_028.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:23)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:24)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:77)
+* Aggiunto 'evento.interprete.formatodata' (riga:78)
+
+### Modifiche per il caso uso cittadinanza/Citt_029.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:19)
+* Presenti modifiche per 'evento.eventoCollegato.idAnsc' (riga:46)
+* Presenti modifiche per 'evento.eventoCollegato.idProvinciaRegistrazione' (riga:47)
+* Presenti modifiche per 'evento.eventoCollegato.siglaProvinciaRegistrazione' (riga:48)
+* Presenti modifiche per 'evento.eventoCollegato.idComuneRegistrazione' (riga:49)
+* Presenti modifiche per 'evento.eventoCollegato.nomeComuneRegistrazione' (riga:50)
+* Presenti modifiche per 'evento.eventoCollegato.idtipocontenuto' (riga:51)
+* Presenti modifiche per 'evento.eventoCollegato.numeroatto' (riga:52)
+* Presenti modifiche per 'evento.eventoCollegato.annoAtto' (riga:53)
+* Presenti modifiche per 'evento.eventoCollegato.dataformazione' (riga:54)
+* Presenti modifiche per 'evento.eventoCollegato.parte' (riga:55)
+* Presenti modifiche per 'evento.eventoCollegato.serie' (riga:56)
+* Presenti modifiche per 'evento.eventoCollegato.volume' (riga:57)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:58)
+
+### Modifiche per il caso uso cittadinanza/Citt_030.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:23)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:24)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:78)
+* Aggiunto 'evento.interprete.formatodata' (riga:79)
+
+### Modifiche per il caso uso cittadinanza/Citt_031.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:19)
+* Presenti modifiche per 'evento.eventoCollegato.idAnsc' (riga:46)
+* Presenti modifiche per 'evento.eventoCollegato.idProvinciaRegistrazione' (riga:47)
+* Presenti modifiche per 'evento.eventoCollegato.siglaProvinciaRegistrazione' (riga:48)
+* Presenti modifiche per 'evento.eventoCollegato.idComuneRegistrazione' (riga:49)
+* Presenti modifiche per 'evento.eventoCollegato.nomeComuneRegistrazione' (riga:50)
+* Presenti modifiche per 'evento.eventoCollegato.idtipocontenuto' (riga:51)
+* Presenti modifiche per 'evento.eventoCollegato.numeroatto' (riga:52)
+* Presenti modifiche per 'evento.eventoCollegato.annoAtto' (riga:53)
+* Presenti modifiche per 'evento.eventoCollegato.dataformazione' (riga:54)
+* Presenti modifiche per 'evento.eventoCollegato.parte' (riga:55)
+* Presenti modifiche per 'evento.eventoCollegato.serie' (riga:56)
+* Presenti modifiche per 'evento.eventoCollegato.volume' (riga:57)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:58)
+
+### Modifiche per il caso uso cittadinanza/Citt_032.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:25)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:26)
+* Presenti modifiche per 'evento.eventoCollegato.idAnsc' (riga:53)
+* Presenti modifiche per 'evento.eventoCollegato.idProvinciaRegistrazione' (riga:54)
+* Presenti modifiche per 'evento.eventoCollegato.siglaProvinciaRegistrazione' (riga:55)
+* Presenti modifiche per 'evento.eventoCollegato.idComuneRegistrazione' (riga:56)
+* Presenti modifiche per 'evento.eventoCollegato.nomeComuneRegistrazione' (riga:57)
+* Presenti modifiche per 'evento.eventoCollegato.idtipocontenuto' (riga:58)
+* Presenti modifiche per 'evento.eventoCollegato.numeroatto' (riga:59)
+* Presenti modifiche per 'evento.eventoCollegato.annoAtto' (riga:60)
+* Presenti modifiche per 'evento.eventoCollegato.dataformazione' (riga:61)
+* Presenti modifiche per 'evento.eventoCollegato.parte' (riga:62)
+* Presenti modifiche per 'evento.eventoCollegato.serie' (riga:63)
+* Presenti modifiche per 'evento.eventoCollegato.volume' (riga:64)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:65)
+
+### Modifiche per il caso uso cittadinanza/Citt_033.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:27)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:28)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:71)
+* Aggiunto 'evento.interprete.formatodata' (riga:72)
+
+### Modifiche per il caso uso cittadinanza/Citt_034.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:19)
+* Presenti modifiche per 'evento.eventoCollegato.idAnsc' (riga:46)
+* Presenti modifiche per 'evento.eventoCollegato.idProvinciaRegistrazione' (riga:47)
+* Presenti modifiche per 'evento.eventoCollegato.siglaProvinciaRegistrazione' (riga:48)
+* Presenti modifiche per 'evento.eventoCollegato.idComuneRegistrazione' (riga:49)
+* Presenti modifiche per 'evento.eventoCollegato.nomeComuneRegistrazione' (riga:50)
+* Presenti modifiche per 'evento.eventoCollegato.idtipocontenuto' (riga:51)
+* Presenti modifiche per 'evento.eventoCollegato.numeroatto' (riga:52)
+* Presenti modifiche per 'evento.eventoCollegato.annoAtto' (riga:53)
+* Presenti modifiche per 'evento.eventoCollegato.dataformazione' (riga:54)
+* Presenti modifiche per 'evento.eventoCollegato.parte' (riga:55)
+* Presenti modifiche per 'evento.eventoCollegato.serie' (riga:56)
+* Presenti modifiche per 'evento.eventoCollegato.volume' (riga:57)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:58)
+
+### Modifiche per il caso uso cittadinanza/Citt_035.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:19)
+
+### Modifiche per il caso uso cittadinanza/Citt_036.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:24)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:25)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:69)
+* Aggiunto 'evento.interprete.formatodata' (riga:70)
+
+### Modifiche per il caso uso cittadinanza/Citt_037.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:19)
+* Presenti modifiche per 'evento.eventoCollegato.idAnsc' (riga:46)
+* Presenti modifiche per 'evento.eventoCollegato.idProvinciaRegistrazione' (riga:47)
+* Presenti modifiche per 'evento.eventoCollegato.siglaProvinciaRegistrazione' (riga:48)
+* Presenti modifiche per 'evento.eventoCollegato.idComuneRegistrazione' (riga:49)
+* Presenti modifiche per 'evento.eventoCollegato.nomeComuneRegistrazione' (riga:50)
+* Presenti modifiche per 'evento.eventoCollegato.idtipocontenuto' (riga:51)
+* Presenti modifiche per 'evento.eventoCollegato.numeroatto' (riga:52)
+* Presenti modifiche per 'evento.eventoCollegato.annoAtto' (riga:53)
+* Presenti modifiche per 'evento.eventoCollegato.dataformazione' (riga:54)
+* Presenti modifiche per 'evento.eventoCollegato.parte' (riga:55)
+* Presenti modifiche per 'evento.eventoCollegato.serie' (riga:56)
+* Presenti modifiche per 'evento.eventoCollegato.volume' (riga:57)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:58)
+
+### Modifiche per il caso uso cittadinanza/Citt_038.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:22)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:23)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:69)
+* Aggiunto 'evento.interprete.formatodata' (riga:70)
+
+### Modifiche per il caso uso cittadinanza/Citt_039.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:19)
+* Presenti modifiche per 'evento.eventoCollegato.idAnsc' (riga:46)
+* Presenti modifiche per 'evento.eventoCollegato.idProvinciaRegistrazione' (riga:47)
+* Presenti modifiche per 'evento.eventoCollegato.siglaProvinciaRegistrazione' (riga:48)
+* Presenti modifiche per 'evento.eventoCollegato.idComuneRegistrazione' (riga:49)
+* Presenti modifiche per 'evento.eventoCollegato.nomeComuneRegistrazione' (riga:50)
+* Presenti modifiche per 'evento.eventoCollegato.idtipocontenuto' (riga:51)
+* Presenti modifiche per 'evento.eventoCollegato.numeroatto' (riga:52)
+* Presenti modifiche per 'evento.eventoCollegato.annoAtto' (riga:53)
+* Presenti modifiche per 'evento.eventoCollegato.dataformazione' (riga:54)
+* Presenti modifiche per 'evento.eventoCollegato.parte' (riga:55)
+* Presenti modifiche per 'evento.eventoCollegato.serie' (riga:56)
+* Presenti modifiche per 'evento.eventoCollegato.volume' (riga:57)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:58)
+
+### Modifiche per il caso uso cittadinanza/Citt_040.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:23)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:24)
+* Aggiunto 'evento.datiEventoCittadinanza.coniuge.idFormatodata' (riga:69)
+* Aggiunto 'evento.datiEventoCittadinanza.coniuge.formatodata' (riga:70)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:97)
+* Aggiunto 'evento.interprete.formatodata' (riga:98)
+
+### Modifiche per il caso uso cittadinanza/Citt_041.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:19)
+* Presenti modifiche per 'evento.eventoCollegato.idAnsc' (riga:46)
+* Presenti modifiche per 'evento.eventoCollegato.idProvinciaRegistrazione' (riga:47)
+* Presenti modifiche per 'evento.eventoCollegato.siglaProvinciaRegistrazione' (riga:48)
+* Presenti modifiche per 'evento.eventoCollegato.idComuneRegistrazione' (riga:49)
+* Presenti modifiche per 'evento.eventoCollegato.nomeComuneRegistrazione' (riga:50)
+* Presenti modifiche per 'evento.eventoCollegato.idtipocontenuto' (riga:51)
+* Presenti modifiche per 'evento.eventoCollegato.numeroatto' (riga:52)
+* Presenti modifiche per 'evento.eventoCollegato.annoAtto' (riga:53)
+* Presenti modifiche per 'evento.eventoCollegato.dataformazione' (riga:54)
+* Presenti modifiche per 'evento.eventoCollegato.parte' (riga:55)
+* Presenti modifiche per 'evento.eventoCollegato.serie' (riga:56)
+* Presenti modifiche per 'evento.eventoCollegato.volume' (riga:57)
+* Presenti modifiche per 'evento.eventoCollegato.tipologia' (riga:58)
+
+### Modifiche per il caso uso cittadinanza/Citt_043.csv : 
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:27)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:28)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:55)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:56)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:86)
+* Aggiunto 'evento.interprete.formatodata' (riga:87)
+
+### Modifiche per il caso uso cittadinanza/Citt_044.csv : 
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:23)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:24)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:51)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:52)
+* Aggiunto 'evento.datiEventoCittadinanza.delegato.idFormatodata' (riga:82)
+* Aggiunto 'evento.datiEventoCittadinanza.delegato.formatodata' (riga:83)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:110)
+* Aggiunto 'evento.interprete.formatodata' (riga:111)
+
+### Modifiche per il caso uso cittadinanza/Citt_045.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:90)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:91)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.idFormatodata' (riga:61)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.formatodata' (riga:62)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:141)
+* Aggiunto 'evento.interprete.formatodata' (riga:142)
+
+### Modifiche per il caso uso cittadinanza/Citt_046.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:81)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:82)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.idFormatodata' (riga:52)
+* Aggiunto 'evento.trascrizioneCittadinanza.intestatarioVecchieGeneralita.formatodata' (riga:53)
+
+### Modifiche per il caso uso cittadinanza/Citt_049.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:16)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:17)
+* Aggiunto 'evento.richiedente.privato.idFormatodata' (riga:58)
+* Aggiunto 'evento.richiedente.privato.formatodata' (riga:59)
+
+### Modifiche per il caso uso cittadinanza/Citt_998_3.csv : 
+* Aggiunto 'evento.datiAnnotazioneModificativa.soggettoCollegato.idFormatodata' (riga:48)
+* Aggiunto 'evento.datiAnnotazioneModificativa.soggettoCollegato.formatodata' (riga:49)
+
+### Modifiche per il caso uso cittadinanza/Citt_999.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:19)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:20)
+
+### Modifiche per il caso uso matrimoni/Matr_001.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idFormatodata' (riga:50)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.formatodata' (riga:51)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:78)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:79)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:110)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:111)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idFormatodata' (riga:142)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.formatodata' (riga:143)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idFormatodata' (riga:170)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.formatodata' (riga:171)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idFormatodata' (riga:198)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.formatodata' (riga:199)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idFormatodata' (riga:226)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.formatodata' (riga:227)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.idFormatodata' (riga:348)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.formatodata' (riga:349)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.idFormatodata' (riga:376)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.formatodata' (riga:377)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.idFormatodata' (riga:404)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.formatodata' (riga:405)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.idFormatodata' (riga:432)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.formatodata' (riga:433)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.idFormatodata' (riga:488)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.formatodata' (riga:489)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.idFormatodata' (riga:551)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.formatodata' (riga:552)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:586)
+* Aggiunto 'evento.interprete.formatodata' (riga:587)
+
+### Modifiche per il caso uso matrimoni/Matr_002.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idFormatodata' (riga:62)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.formatodata' (riga:63)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:90)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:91)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:122)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:123)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idFormatodata' (riga:154)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.formatodata' (riga:155)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idFormatodata' (riga:182)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.formatodata' (riga:183)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idFormatodata' (riga:210)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.formatodata' (riga:211)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idFormatodata' (riga:238)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.formatodata' (riga:239)
+* Aggiunto 'evento.datiEventoMatrimonio.segretarioComunale.idFormatodata' (riga:361)
+* Aggiunto 'evento.datiEventoMatrimonio.segretarioComunale.formatodata' (riga:362)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.idFormatodata' (riga:389)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.formatodata' (riga:390)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.idFormatodata' (riga:417)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.formatodata' (riga:418)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.idFormatodata' (riga:445)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.formatodata' (riga:446)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.idFormatodata' (riga:481)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.formatodata' (riga:482)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.idFormatodata' (riga:545)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.formatodata' (riga:546)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.idFormatodata' (riga:608)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.formatodata' (riga:609)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:643)
+* Aggiunto 'evento.interprete.formatodata' (riga:644)
+
+### Modifiche per il caso uso matrimoni/Matr_003.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idFormatodata' (riga:55)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.formatodata' (riga:56)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:83)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:84)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:117)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:118)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idFormatodata' (riga:151)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.formatodata' (riga:152)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idFormatodata' (riga:179)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.formatodata' (riga:180)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idFormatodata' (riga:207)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.formatodata' (riga:208)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idFormatodata' (riga:235)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.formatodata' (riga:236)
+* Aggiunto 'evento.datiEventoMatrimonio.segretarioComunale.idFormatodata' (riga:316)
+* Aggiunto 'evento.datiEventoMatrimonio.segretarioComunale.formatodata' (riga:317)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.idFormatodata' (riga:344)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.formatodata' (riga:345)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.idFormatodata' (riga:372)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.formatodata' (riga:373)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.idFormatodata' (riga:400)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.formatodata' (riga:401)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.idFormatodata' (riga:428)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.formatodata' (riga:429)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.idFormatodata' (riga:484)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.formatodata' (riga:485)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.idFormatodata' (riga:547)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.formatodata' (riga:548)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:582)
+* Aggiunto 'evento.interprete.formatodata' (riga:583)
+
+### Modifiche per il caso uso matrimoni/Matr_004.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idFormatodata' (riga:47)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.formatodata' (riga:48)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:85)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:86)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:117)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:118)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idFormatodata' (riga:149)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.formatodata' (riga:150)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idFormatodata' (riga:177)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.formatodata' (riga:178)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idFormatodata' (riga:205)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.formatodata' (riga:206)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idFormatodata' (riga:233)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.formatodata' (riga:234)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.idFormatodata' (riga:355)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.formatodata' (riga:356)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.idFormatodata' (riga:383)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.formatodata' (riga:384)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.idFormatodata' (riga:411)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.formatodata' (riga:412)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.idFormatodata' (riga:439)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.formatodata' (riga:440)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.idFormatodata' (riga:495)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.formatodata' (riga:496)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.idFormatodata' (riga:558)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.formatodata' (riga:559)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:593)
+* Aggiunto 'evento.interprete.formatodata' (riga:594)
+
+### Modifiche per il caso uso matrimoni/Matr_005.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idFormatodata' (riga:56)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.formatodata' (riga:57)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:94)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:95)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:126)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:127)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idFormatodata' (riga:158)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.formatodata' (riga:159)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idFormatodata' (riga:186)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.formatodata' (riga:187)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idFormatodata' (riga:214)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.formatodata' (riga:215)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idFormatodata' (riga:242)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.formatodata' (riga:243)
+* Aggiunto 'evento.datiEventoMatrimonio.segretarioComunale.idFormatodata' (riga:365)
+* Aggiunto 'evento.datiEventoMatrimonio.segretarioComunale.formatodata' (riga:366)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.idFormatodata' (riga:393)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.formatodata' (riga:394)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.idFormatodata' (riga:429)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.formatodata' (riga:430)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.idFormatodata' (riga:465)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.formatodata' (riga:466)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.idFormatodata' (riga:493)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.formatodata' (riga:494)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.idFormatodata' (riga:549)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.formatodata' (riga:550)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.idFormatodata' (riga:612)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.formatodata' (riga:613)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:647)
+* Aggiunto 'evento.interprete.formatodata' (riga:648)
+
+### Modifiche per il caso uso matrimoni/Matr_007.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idFormatodata' (riga:55)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.formatodata' (riga:56)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idFormatodata' (riga:84)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.formatodata' (riga:85)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:112)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:113)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:144)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:145)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.idFormatodata' (riga:270)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.formatodata' (riga:271)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.idFormatodata' (riga:298)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.formatodata' (riga:299)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.idFormatodata' (riga:326)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.formatodata' (riga:327)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.idFormatodata' (riga:354)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.formatodata' (riga:355)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.idFormatodata' (riga:410)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.formatodata' (riga:411)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.idFormatodata' (riga:473)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.formatodata' (riga:474)
+
+### Modifiche per il caso uso matrimoni/Matr_008.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idFormatodata' (riga:55)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.formatodata' (riga:56)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idFormatodata' (riga:84)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.formatodata' (riga:85)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:112)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:113)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:144)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:145)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.idFormatodata' (riga:270)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.formatodata' (riga:271)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.idFormatodata' (riga:298)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.formatodata' (riga:299)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.idFormatodata' (riga:326)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.formatodata' (riga:327)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.idFormatodata' (riga:354)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.formatodata' (riga:355)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.idFormatodata' (riga:410)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.formatodata' (riga:411)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.idFormatodata' (riga:473)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.formatodata' (riga:474)
+
+### Modifiche per il caso uso matrimoni/Matr_009.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idFormatodata' (riga:54)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.formatodata' (riga:55)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:82)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:83)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:114)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:115)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idFormatodata' (riga:146)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.formatodata' (riga:147)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idFormatodata' (riga:174)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.formatodata' (riga:175)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idFormatodata' (riga:202)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.formatodata' (riga:203)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idFormatodata' (riga:230)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.formatodata' (riga:231)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.idFormatodata' (riga:379)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.formatodata' (riga:380)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.idFormatodata' (riga:407)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.formatodata' (riga:408)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.idFormatodata' (riga:435)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.formatodata' (riga:436)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.idFormatodata' (riga:463)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.formatodata' (riga:464)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.idFormatodata' (riga:519)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.formatodata' (riga:520)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].idFormatodata' (riga:577)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].formatodata' (riga:578)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.idFormatodata' (riga:654)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.formatodata' (riga:655)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].idFormatodata' (riga:691)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].formatodata' (riga:692)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:719)
+* Aggiunto 'evento.interprete.formatodata' (riga:720)
+
+### Modifiche per il caso uso matrimoni/Matr_010.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idFormatodata' (riga:65)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.formatodata' (riga:66)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:93)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:94)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:125)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:126)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idFormatodata' (riga:157)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.formatodata' (riga:158)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idFormatodata' (riga:185)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.formatodata' (riga:186)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idFormatodata' (riga:213)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.formatodata' (riga:214)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idFormatodata' (riga:241)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.formatodata' (riga:242)
+* Aggiunto 'evento.datiEventoMatrimonio.segretarioComunale.idFormatodata' (riga:391)
+* Aggiunto 'evento.datiEventoMatrimonio.segretarioComunale.formatodata' (riga:392)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.idFormatodata' (riga:419)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.formatodata' (riga:420)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.idFormatodata' (riga:447)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.formatodata' (riga:448)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.idFormatodata' (riga:475)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.formatodata' (riga:476)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.idFormatodata' (riga:511)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.formatodata' (riga:512)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.idFormatodata' (riga:575)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.formatodata' (riga:576)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].idFormatodata' (riga:633)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].formatodata' (riga:634)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.idFormatodata' (riga:710)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.formatodata' (riga:711)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].idFormatodata' (riga:747)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].formatodata' (riga:748)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:775)
+* Aggiunto 'evento.interprete.formatodata' (riga:776)
+
+### Modifiche per il caso uso matrimoni/Matr_011.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idFormatodata' (riga:58)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.formatodata' (riga:59)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:86)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:87)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:120)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:121)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idFormatodata' (riga:154)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.formatodata' (riga:155)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idFormatodata' (riga:182)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.formatodata' (riga:183)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idFormatodata' (riga:210)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.formatodata' (riga:211)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idFormatodata' (riga:238)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.formatodata' (riga:239)
+* Aggiunto 'evento.datiEventoMatrimonio.segretarioComunale.idFormatodata' (riga:346)
+* Aggiunto 'evento.datiEventoMatrimonio.segretarioComunale.formatodata' (riga:347)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.idFormatodata' (riga:374)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.formatodata' (riga:375)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.idFormatodata' (riga:402)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.formatodata' (riga:403)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.idFormatodata' (riga:430)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.formatodata' (riga:431)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.idFormatodata' (riga:458)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.formatodata' (riga:459)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.idFormatodata' (riga:514)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.formatodata' (riga:515)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].idFormatodata' (riga:572)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].formatodata' (riga:573)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.idFormatodata' (riga:649)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.formatodata' (riga:650)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].idFormatodata' (riga:686)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].formatodata' (riga:687)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:714)
+* Aggiunto 'evento.interprete.formatodata' (riga:715)
+
+### Modifiche per il caso uso matrimoni/Matr_012.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idFormatodata' (riga:50)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.formatodata' (riga:51)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:88)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:89)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:120)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:121)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idFormatodata' (riga:152)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.formatodata' (riga:153)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idFormatodata' (riga:180)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.formatodata' (riga:181)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idFormatodata' (riga:208)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.formatodata' (riga:209)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idFormatodata' (riga:236)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.formatodata' (riga:237)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.idFormatodata' (riga:385)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.formatodata' (riga:386)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.idFormatodata' (riga:413)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.formatodata' (riga:414)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.idFormatodata' (riga:441)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.formatodata' (riga:442)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.idFormatodata' (riga:469)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.formatodata' (riga:470)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.idFormatodata' (riga:525)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.formatodata' (riga:526)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].idFormatodata' (riga:583)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].formatodata' (riga:584)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.idFormatodata' (riga:660)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.formatodata' (riga:661)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].idFormatodata' (riga:697)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].formatodata' (riga:698)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:725)
+* Aggiunto 'evento.interprete.formatodata' (riga:726)
+
+### Modifiche per il caso uso matrimoni/Matr_013.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idFormatodata' (riga:58)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.formatodata' (riga:59)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:96)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:97)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:128)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:129)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idFormatodata' (riga:160)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.formatodata' (riga:161)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idFormatodata' (riga:188)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.formatodata' (riga:189)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idFormatodata' (riga:216)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.formatodata' (riga:217)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idFormatodata' (riga:244)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.formatodata' (riga:245)
+* Aggiunto 'evento.datiEventoMatrimonio.segretarioComunale.idFormatodata' (riga:394)
+* Aggiunto 'evento.datiEventoMatrimonio.segretarioComunale.formatodata' (riga:395)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.idFormatodata' (riga:422)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.formatodata' (riga:423)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.idFormatodata' (riga:450)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.formatodata' (riga:451)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.idFormatodata' (riga:478)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.formatodata' (riga:479)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.idFormatodata' (riga:514)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.formatodata' (riga:515)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.idFormatodata' (riga:578)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.formatodata' (riga:579)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].idFormatodata' (riga:636)
+* Aggiunto 'evento.datiEventoMatrimonio.figli[0].formatodata' (riga:637)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.idFormatodata' (riga:713)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.formatodata' (riga:714)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].idFormatodata' (riga:750)
+* Aggiunto 'evento.datiEventoMatrimonio.datiRiconoscimento[0].discendenti[0].formatodata' (riga:751)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:778)
+* Aggiunto 'evento.interprete.formatodata' (riga:779)
+
+### Modifiche per il caso uso matrimoni/Matr_019.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idFormatodata' (riga:42)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.formatodata' (riga:43)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:70)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:71)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:102)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:103)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idFormatodata' (riga:134)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.formatodata' (riga:135)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idFormatodata' (riga:162)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.formatodata' (riga:163)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idFormatodata' (riga:190)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.formatodata' (riga:191)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idFormatodata' (riga:218)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.formatodata' (riga:219)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.idFormatodata' (riga:298)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.formatodata' (riga:299)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.idFormatodata' (riga:326)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.formatodata' (riga:327)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.idFormatodata' (riga:354)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.formatodata' (riga:355)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.idFormatodata' (riga:382)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.formatodata' (riga:383)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.idFormatodata' (riga:438)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.formatodata' (riga:439)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.idFormatodata' (riga:501)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.formatodata' (riga:502)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:550)
+* Aggiunto 'evento.interprete.formatodata' (riga:551)
+
+### Modifiche per il caso uso matrimoni/Matr_022.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.idFormatodata' (riga:48)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteEvento.formatodata' (riga:49)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.idFormatodata' (riga:77)
+* Aggiunto 'evento.datiEventoMatrimonio.officianteTrasmissioneAtto.formatodata' (riga:78)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:105)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:106)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:137)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:138)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.idFormatodata' (riga:221)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposo.formatodata' (riga:222)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.idFormatodata' (riga:249)
+* Aggiunto 'evento.datiEventoMatrimonio.padreSposa.formatodata' (riga:250)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.idFormatodata' (riga:277)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposo.formatodata' (riga:278)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.idFormatodata' (riga:305)
+* Aggiunto 'evento.datiEventoMatrimonio.madreSposa.formatodata' (riga:306)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.idFormatodata' (riga:361)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposo.formatodata' (riga:362)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.idFormatodata' (riga:424)
+* Aggiunto 'evento.datiEventoMatrimonio.assistenteLegaleSposa.formatodata' (riga:425)
+
+### Modifiche per il caso uso matrimoni/Matr_998_3.csv : 
+* Aggiunto 'evento.datiAnnotazioneModificativa.soggettoCollegato.idFormatodata' (riga:48)
+* Aggiunto 'evento.datiAnnotazioneModificativa.soggettoCollegato.formatodata' (riga:49)
+
+### Modifiche per il caso uso matrimoni/Matr_999_1.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:23)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:24)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:55)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:56)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idFormatodata' (riga:87)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.formatodata' (riga:88)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idFormatodata' (riga:115)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.formatodata' (riga:116)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idFormatodata' (riga:143)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.formatodata' (riga:144)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idFormatodata' (riga:171)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.formatodata' (riga:172)
+
+### Modifiche per il caso uso matrimoni/Matr_999_2.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:23)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:24)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:55)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:56)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.idFormatodata' (riga:87)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone1.formatodata' (riga:88)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.idFormatodata' (riga:115)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone2.formatodata' (riga:116)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.idFormatodata' (riga:143)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone3.formatodata' (riga:144)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.idFormatodata' (riga:171)
+* Aggiunto 'evento.datiEventoMatrimonio.testimone4.formatodata' (riga:172)
+
+### Modifiche per il caso uso matrimoni/Matr_Riconc_001.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:31)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:32)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:63)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:64)
+
+### Modifiche per il caso uso matrimoni/Matr_Riconc_999.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:19)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:50)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:51)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_001.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:46)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:47)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:78)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:79)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_002.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:44)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:45)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:76)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:77)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.idFormatodata' (riga:109)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.formatodata' (riga:110)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.idFormatodata' (riga:138)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.formatodata' (riga:139)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_003.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:25)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:26)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:57)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:58)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.idFormatodata' (riga:90)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.formatodata' (riga:91)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.idFormatodata' (riga:119)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.formatodata' (riga:120)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_004.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:56)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:57)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:88)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:89)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_005.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:57)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:58)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:89)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:90)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.idFormatodata' (riga:122)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.formatodata' (riga:123)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.idFormatodata' (riga:153)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.formatodata' (riga:154)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_006.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:17)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:70)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:71)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:102)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:103)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_007.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:34)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:35)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:84)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:85)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:116)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:117)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_008.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:44)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:45)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.idFormatodata' (riga:77)
+* Aggiunto 'evento.separazione.avvocatoConiuge1.formatodata' (riga:78)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:166)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:167)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.idFormatodata' (riga:138)
+* Aggiunto 'evento.separazione.avvocatoConiuge2.formatodata' (riga:139)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_999.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:19)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:50)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:51)
+
+### Modifiche per il caso uso morte/Morte_001.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:33)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:34)
+* Aggiunto 'evento.datiEventoMorte.comparente1.idFormatodata' (riga:61)
+* Aggiunto 'evento.datiEventoMorte.comparente1.formatodata' (riga:62)
+* Aggiunto 'evento.datiEventoMorte.comparente2.idFormatodata' (riga:89)
+* Aggiunto 'evento.datiEventoMorte.comparente2.formatodata' (riga:90)
+* Aggiunto 'evento.coniuge.idFormatodata' (riga:145)
+* Aggiunto 'evento.coniuge.formatodata' (riga:146)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:173)
+* Aggiunto 'evento.interprete.formatodata' (riga:174)
+
+### Modifiche per il caso uso morte/Morte_002.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:31)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:32)
+* Aggiunto 'evento.coniuge.idFormatodata' (riga:87)
+* Aggiunto 'evento.coniuge.formatodata' (riga:88)
+
+### Modifiche per il caso uso morte/Morte_003.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:31)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:32)
+* Aggiunto 'evento.coniuge.idFormatodata' (riga:87)
+* Aggiunto 'evento.coniuge.formatodata' (riga:88)
+
+### Modifiche per il caso uso morte/Morte_005.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:28)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:29)
+* Aggiunto 'evento.coniuge.idFormatodata' (riga:93)
+* Aggiunto 'evento.coniuge.formatodata' (riga:94)
+
+### Modifiche per il caso uso morte/Morte_006.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:30)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:31)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:59)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:60)
+* Aggiunto 'evento.coniuge.idFormatodata' (riga:122)
+* Aggiunto 'evento.coniuge.formatodata' (riga:123)
+
+### Modifiche per il caso uso morte/Morte_007.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:32)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:33)
+* Aggiunto 'evento.coniuge.idFormatodata' (riga:97)
+* Aggiunto 'evento.coniuge.formatodata' (riga:98)
+
+### Modifiche per il caso uso morte/Morte_008.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:40)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:41)
+* Aggiunto 'evento.coniuge.idFormatodata' (riga:96)
+* Aggiunto 'evento.coniuge.formatodata' (riga:97)
+
+### Modifiche per il caso uso morte/Morte_009.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:17)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:18)
+* Aggiunto 'evento.coniuge.idFormatodata' (riga:91)
+* Aggiunto 'evento.coniuge.formatodata' (riga:92)
+
+### Modifiche per il caso uso morte/Morte_010.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:15)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:16)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:44)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:45)
+* Aggiunto 'evento.coniuge.idFormatodata' (riga:118)
+* Aggiunto 'evento.coniuge.formatodata' (riga:119)
+
+### Modifiche per il caso uso morte/Morte_011.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:56)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:57)
+* Aggiunto 'evento.coniuge.idFormatodata' (riga:122)
+* Aggiunto 'evento.coniuge.formatodata' (riga:123)
+
+### Modifiche per il caso uso morte/Morte_015.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:28)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:29)
+* Aggiunto 'evento.coniuge.idFormatodata' (riga:86)
+* Aggiunto 'evento.coniuge.formatodata' (riga:87)
+
+### Modifiche per il caso uso morte/Morte_998_3.csv : 
+* Aggiunto 'evento.datiAnnotazioneModificativa.soggettoCollegato.idFormatodata' (riga:48)
+* Aggiunto 'evento.datiAnnotazioneModificativa.soggettoCollegato.formatodata' (riga:49)
+
+### Modifiche per il caso uso morte/Morte_999.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:29)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:30)
+* Aggiunto 'evento.coniuge.idFormatodata' (riga:85)
+* Aggiunto 'evento.coniuge.formatodata' (riga:86)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_001.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:37)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:38)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:65)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:66)
+* Aggiunto 'evento.madre.idFormatodata' (riga:92)
+* Aggiunto 'evento.madre.formatodata' (riga:93)
+* Aggiunto 'evento.padre.idFormatodata' (riga:125)
+* Aggiunto 'evento.padre.formatodata' (riga:126)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:180)
+* Aggiunto 'evento.interprete.formatodata' (riga:181)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_002.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:38)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:39)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:66)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:67)
+* Aggiunto 'evento.madre.idFormatodata' (riga:93)
+* Aggiunto 'evento.madre.formatodata' (riga:94)
+* Aggiunto 'evento.padre.idFormatodata' (riga:126)
+* Aggiunto 'evento.padre.formatodata' (riga:127)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:181)
+* Aggiunto 'evento.interprete.formatodata' (riga:182)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_003.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:67)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:68)
+* Aggiunto 'evento.madre.idFormatodata' (riga:94)
+* Aggiunto 'evento.madre.formatodata' (riga:95)
+* Aggiunto 'evento.padre.idFormatodata' (riga:127)
+* Aggiunto 'evento.padre.formatodata' (riga:128)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:182)
+* Aggiunto 'evento.interprete.formatodata' (riga:183)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_004.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:37)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:38)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:65)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:66)
+* Aggiunto 'evento.madre.idFormatodata' (riga:92)
+* Aggiunto 'evento.madre.formatodata' (riga:93)
+* Aggiunto 'evento.padre.idFormatodata' (riga:125)
+* Aggiunto 'evento.padre.formatodata' (riga:126)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:180)
+* Aggiunto 'evento.interprete.formatodata' (riga:181)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_005.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:38)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:39)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:66)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:67)
+* Aggiunto 'evento.madre.idFormatodata' (riga:93)
+* Aggiunto 'evento.madre.formatodata' (riga:94)
+* Aggiunto 'evento.padre.idFormatodata' (riga:126)
+* Aggiunto 'evento.padre.formatodata' (riga:127)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:181)
+* Aggiunto 'evento.interprete.formatodata' (riga:182)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_006.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:37)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:38)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:65)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:66)
+* Aggiunto 'evento.madre.idFormatodata' (riga:92)
+* Aggiunto 'evento.madre.formatodata' (riga:93)
+* Aggiunto 'evento.padre.idFormatodata' (riga:125)
+* Aggiunto 'evento.padre.formatodata' (riga:126)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:180)
+* Aggiunto 'evento.interprete.formatodata' (riga:181)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_007.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:67)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:68)
+* Aggiunto 'evento.madre.idFormatodata' (riga:94)
+* Aggiunto 'evento.madre.formatodata' (riga:95)
+* Aggiunto 'evento.padre.idFormatodata' (riga:127)
+* Aggiunto 'evento.padre.formatodata' (riga:128)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:182)
+* Aggiunto 'evento.interprete.formatodata' (riga:183)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_008.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:37)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:38)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:67)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:68)
+* Aggiunto 'evento.madre.idFormatodata' (riga:94)
+* Aggiunto 'evento.madre.formatodata' (riga:95)
+* Aggiunto 'evento.padre.idFormatodata' (riga:127)
+* Aggiunto 'evento.padre.formatodata' (riga:128)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:182)
+* Aggiunto 'evento.interprete.formatodata' (riga:183)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_009.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:69)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:70)
+* Aggiunto 'evento.madre.idFormatodata' (riga:96)
+* Aggiunto 'evento.madre.formatodata' (riga:97)
+* Aggiunto 'evento.padre.idFormatodata' (riga:129)
+* Aggiunto 'evento.padre.formatodata' (riga:130)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:184)
+* Aggiunto 'evento.interprete.formatodata' (riga:185)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_010.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:36)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:37)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:65)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:66)
+* Aggiunto 'evento.madre.idFormatodata' (riga:92)
+* Aggiunto 'evento.madre.formatodata' (riga:93)
+* Aggiunto 'evento.padre.idFormatodata' (riga:125)
+* Aggiunto 'evento.padre.formatodata' (riga:126)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:180)
+* Aggiunto 'evento.interprete.formatodata' (riga:181)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_011.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:38)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:39)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:67)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:68)
+* Aggiunto 'evento.madre.idFormatodata' (riga:94)
+* Aggiunto 'evento.madre.formatodata' (riga:95)
+* Aggiunto 'evento.padre.idFormatodata' (riga:127)
+* Aggiunto 'evento.padre.formatodata' (riga:128)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:182)
+* Aggiunto 'evento.interprete.formatodata' (riga:183)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_012.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:56)
+* Aggiunto 'evento.madre.formatodata' (riga:57)
+* Aggiunto 'evento.padre.idFormatodata' (riga:89)
+* Aggiunto 'evento.padre.formatodata' (riga:90)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:144)
+* Aggiunto 'evento.interprete.formatodata' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_013.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:29)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:30)
+* Aggiunto 'evento.madre.idFormatodata' (riga:57)
+* Aggiunto 'evento.madre.formatodata' (riga:58)
+* Aggiunto 'evento.padre.idFormatodata' (riga:90)
+* Aggiunto 'evento.padre.formatodata' (riga:91)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:145)
+* Aggiunto 'evento.interprete.formatodata' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_014.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:26)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:27)
+* Aggiunto 'evento.madre.idFormatodata' (riga:54)
+* Aggiunto 'evento.madre.formatodata' (riga:55)
+* Aggiunto 'evento.padre.idFormatodata' (riga:87)
+* Aggiunto 'evento.padre.formatodata' (riga:88)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:142)
+* Aggiunto 'evento.interprete.formatodata' (riga:143)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_015.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:26)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:27)
+* Aggiunto 'evento.madre.idFormatodata' (riga:54)
+* Aggiunto 'evento.madre.formatodata' (riga:55)
+* Aggiunto 'evento.padre.idFormatodata' (riga:87)
+* Aggiunto 'evento.padre.formatodata' (riga:88)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:142)
+* Aggiunto 'evento.interprete.formatodata' (riga:143)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_016.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:26)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:27)
+* Aggiunto 'evento.madre.idFormatodata' (riga:54)
+* Aggiunto 'evento.madre.formatodata' (riga:55)
+* Aggiunto 'evento.padre.idFormatodata' (riga:87)
+* Aggiunto 'evento.padre.formatodata' (riga:88)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:142)
+* Aggiunto 'evento.interprete.formatodata' (riga:143)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_017.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:27)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:28)
+* Aggiunto 'evento.madre.idFormatodata' (riga:57)
+* Aggiunto 'evento.madre.formatodata' (riga:58)
+* Aggiunto 'evento.padre.idFormatodata' (riga:90)
+* Aggiunto 'evento.padre.formatodata' (riga:91)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:145)
+* Aggiunto 'evento.interprete.formatodata' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_018.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:25)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:26)
+* Aggiunto 'evento.madre.idFormatodata' (riga:54)
+* Aggiunto 'evento.madre.formatodata' (riga:55)
+* Aggiunto 'evento.padre.idFormatodata' (riga:87)
+* Aggiunto 'evento.padre.formatodata' (riga:88)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:142)
+* Aggiunto 'evento.interprete.formatodata' (riga:143)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_019.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:37)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:38)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:65)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:66)
+* Aggiunto 'evento.padre.idFormatodata' (riga:92)
+* Aggiunto 'evento.padre.formatodata' (riga:93)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:147)
+* Aggiunto 'evento.interprete.formatodata' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_020.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:38)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:39)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:66)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:67)
+* Aggiunto 'evento.madre.idFormatodata' (riga:93)
+* Aggiunto 'evento.madre.formatodata' (riga:94)
+* Aggiunto 'evento.padre.idFormatodata' (riga:126)
+* Aggiunto 'evento.padre.formatodata' (riga:127)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:188)
+* Aggiunto 'evento.interprete.formatodata' (riga:189)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_021.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:67)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:68)
+* Aggiunto 'evento.padre.idFormatodata' (riga:94)
+* Aggiunto 'evento.padre.formatodata' (riga:95)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:149)
+* Aggiunto 'evento.interprete.formatodata' (riga:150)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_022.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:40)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:41)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:68)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:69)
+* Aggiunto 'evento.madre.idFormatodata' (riga:95)
+* Aggiunto 'evento.madre.formatodata' (riga:96)
+* Aggiunto 'evento.padre.idFormatodata' (riga:128)
+* Aggiunto 'evento.padre.formatodata' (riga:129)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:190)
+* Aggiunto 'evento.interprete.formatodata' (riga:191)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_023.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:67)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:68)
+* Aggiunto 'evento.padre.idFormatodata' (riga:94)
+* Aggiunto 'evento.padre.formatodata' (riga:95)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:149)
+* Aggiunto 'evento.interprete.formatodata' (riga:150)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_024.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:37)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:38)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:65)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:66)
+* Aggiunto 'evento.madre.idFormatodata' (riga:92)
+* Aggiunto 'evento.madre.formatodata' (riga:93)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:147)
+* Aggiunto 'evento.interprete.formatodata' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_025.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:38)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:39)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:66)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:67)
+* Aggiunto 'evento.madre.idFormatodata' (riga:93)
+* Aggiunto 'evento.madre.formatodata' (riga:94)
+* Aggiunto 'evento.padre.idFormatodata' (riga:126)
+* Aggiunto 'evento.padre.formatodata' (riga:127)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:188)
+* Aggiunto 'evento.interprete.formatodata' (riga:189)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_026.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:67)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:68)
+* Aggiunto 'evento.madre.idFormatodata' (riga:94)
+* Aggiunto 'evento.madre.formatodata' (riga:95)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:149)
+* Aggiunto 'evento.interprete.formatodata' (riga:150)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_027.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:40)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:41)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:68)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:69)
+* Aggiunto 'evento.madre.idFormatodata' (riga:95)
+* Aggiunto 'evento.madre.formatodata' (riga:96)
+* Aggiunto 'evento.padre.idFormatodata' (riga:128)
+* Aggiunto 'evento.padre.formatodata' (riga:129)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:190)
+* Aggiunto 'evento.interprete.formatodata' (riga:191)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_028.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:67)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:68)
+* Aggiunto 'evento.madre.idFormatodata' (riga:94)
+* Aggiunto 'evento.madre.formatodata' (riga:95)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:149)
+* Aggiunto 'evento.interprete.formatodata' (riga:150)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_029.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:40)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:41)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:68)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:69)
+* Aggiunto 'evento.madre.idFormatodata' (riga:95)
+* Aggiunto 'evento.madre.formatodata' (riga:96)
+* Aggiunto 'evento.padre.idFormatodata' (riga:128)
+* Aggiunto 'evento.padre.formatodata' (riga:129)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:190)
+* Aggiunto 'evento.interprete.formatodata' (riga:191)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_030.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:37)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:38)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:65)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:66)
+* Aggiunto 'evento.madre.idFormatodata' (riga:92)
+* Aggiunto 'evento.madre.formatodata' (riga:93)
+* Aggiunto 'evento.padre.idFormatodata' (riga:125)
+* Aggiunto 'evento.padre.formatodata' (riga:126)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:180)
+* Aggiunto 'evento.interprete.formatodata' (riga:181)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_031.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:67)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:68)
+* Aggiunto 'evento.madre.idFormatodata' (riga:94)
+* Aggiunto 'evento.madre.formatodata' (riga:95)
+* Aggiunto 'evento.padre.idFormatodata' (riga:127)
+* Aggiunto 'evento.padre.formatodata' (riga:128)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:182)
+* Aggiunto 'evento.interprete.formatodata' (riga:183)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_032.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:67)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:68)
+* Aggiunto 'evento.madre.idFormatodata' (riga:94)
+* Aggiunto 'evento.madre.formatodata' (riga:95)
+* Aggiunto 'evento.padre.idFormatodata' (riga:127)
+* Aggiunto 'evento.padre.formatodata' (riga:128)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:182)
+* Aggiunto 'evento.interprete.formatodata' (riga:183)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_033.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:38)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:39)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:68)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:69)
+* Aggiunto 'evento.madre.idFormatodata' (riga:95)
+* Aggiunto 'evento.madre.formatodata' (riga:96)
+* Aggiunto 'evento.padre.idFormatodata' (riga:128)
+* Aggiunto 'evento.padre.formatodata' (riga:129)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:190)
+* Aggiunto 'evento.interprete.formatodata' (riga:191)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_034.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:40)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:41)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:70)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:71)
+* Aggiunto 'evento.madre.idFormatodata' (riga:97)
+* Aggiunto 'evento.madre.formatodata' (riga:98)
+* Aggiunto 'evento.padre.idFormatodata' (riga:130)
+* Aggiunto 'evento.padre.formatodata' (riga:131)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:192)
+* Aggiunto 'evento.interprete.formatodata' (riga:193)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_035.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:40)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:41)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:70)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:71)
+* Aggiunto 'evento.madre.idFormatodata' (riga:97)
+* Aggiunto 'evento.madre.formatodata' (riga:98)
+* Aggiunto 'evento.padre.idFormatodata' (riga:130)
+* Aggiunto 'evento.padre.formatodata' (riga:131)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:192)
+* Aggiunto 'evento.interprete.formatodata' (riga:193)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_036.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:26)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:27)
+* Aggiunto 'evento.padre.idFormatodata' (riga:54)
+* Aggiunto 'evento.padre.formatodata' (riga:55)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:109)
+* Aggiunto 'evento.interprete.formatodata' (riga:110)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_037.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:27)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:28)
+* Aggiunto 'evento.madre.idFormatodata' (riga:55)
+* Aggiunto 'evento.madre.formatodata' (riga:56)
+* Aggiunto 'evento.padre.idFormatodata' (riga:88)
+* Aggiunto 'evento.padre.formatodata' (riga:89)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:150)
+* Aggiunto 'evento.interprete.formatodata' (riga:151)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_038.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.padre.idFormatodata' (riga:56)
+* Aggiunto 'evento.padre.formatodata' (riga:57)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:111)
+* Aggiunto 'evento.interprete.formatodata' (riga:112)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_039.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:29)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:30)
+* Aggiunto 'evento.madre.idFormatodata' (riga:57)
+* Aggiunto 'evento.madre.formatodata' (riga:58)
+* Aggiunto 'evento.padre.idFormatodata' (riga:90)
+* Aggiunto 'evento.padre.formatodata' (riga:91)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:152)
+* Aggiunto 'evento.interprete.formatodata' (riga:153)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_040.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.padre.idFormatodata' (riga:56)
+* Aggiunto 'evento.padre.formatodata' (riga:57)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:111)
+* Aggiunto 'evento.interprete.formatodata' (riga:112)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_041.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:29)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:30)
+* Aggiunto 'evento.madre.idFormatodata' (riga:57)
+* Aggiunto 'evento.madre.formatodata' (riga:58)
+* Aggiunto 'evento.padre.idFormatodata' (riga:90)
+* Aggiunto 'evento.padre.formatodata' (riga:91)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:152)
+* Aggiunto 'evento.interprete.formatodata' (riga:153)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_042.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:26)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:27)
+* Aggiunto 'evento.madre.idFormatodata' (riga:54)
+* Aggiunto 'evento.madre.formatodata' (riga:55)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:109)
+* Aggiunto 'evento.interprete.formatodata' (riga:110)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_043.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:27)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:28)
+* Aggiunto 'evento.madre.idFormatodata' (riga:55)
+* Aggiunto 'evento.madre.formatodata' (riga:56)
+* Aggiunto 'evento.padre.idFormatodata' (riga:88)
+* Aggiunto 'evento.padre.formatodata' (riga:89)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:150)
+* Aggiunto 'evento.interprete.formatodata' (riga:151)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_044.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:56)
+* Aggiunto 'evento.madre.formatodata' (riga:57)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:111)
+* Aggiunto 'evento.interprete.formatodata' (riga:112)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_045.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:29)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:30)
+* Aggiunto 'evento.madre.idFormatodata' (riga:57)
+* Aggiunto 'evento.madre.formatodata' (riga:58)
+* Aggiunto 'evento.padre.idFormatodata' (riga:90)
+* Aggiunto 'evento.padre.formatodata' (riga:91)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:152)
+* Aggiunto 'evento.interprete.formatodata' (riga:153)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_046.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:56)
+* Aggiunto 'evento.madre.formatodata' (riga:57)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:111)
+* Aggiunto 'evento.interprete.formatodata' (riga:112)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_047.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:29)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:30)
+* Aggiunto 'evento.madre.idFormatodata' (riga:57)
+* Aggiunto 'evento.madre.formatodata' (riga:58)
+* Aggiunto 'evento.padre.idFormatodata' (riga:90)
+* Aggiunto 'evento.padre.formatodata' (riga:91)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:152)
+* Aggiunto 'evento.interprete.formatodata' (riga:153)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_048.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:26)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:27)
+* Aggiunto 'evento.madre.idFormatodata' (riga:54)
+* Aggiunto 'evento.madre.formatodata' (riga:55)
+* Aggiunto 'evento.padre.idFormatodata' (riga:87)
+* Aggiunto 'evento.padre.formatodata' (riga:88)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:142)
+* Aggiunto 'evento.interprete.formatodata' (riga:143)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_049.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:56)
+* Aggiunto 'evento.madre.formatodata' (riga:57)
+* Aggiunto 'evento.padre.idFormatodata' (riga:89)
+* Aggiunto 'evento.padre.formatodata' (riga:90)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:144)
+* Aggiunto 'evento.interprete.formatodata' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_050.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:56)
+* Aggiunto 'evento.madre.formatodata' (riga:57)
+* Aggiunto 'evento.padre.idFormatodata' (riga:89)
+* Aggiunto 'evento.padre.formatodata' (riga:90)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:144)
+* Aggiunto 'evento.interprete.formatodata' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_051.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:58)
+* Aggiunto 'evento.madre.formatodata' (riga:59)
+* Aggiunto 'evento.padre.idFormatodata' (riga:91)
+* Aggiunto 'evento.padre.formatodata' (riga:92)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:153)
+* Aggiunto 'evento.interprete.formatodata' (riga:154)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_052.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:58)
+* Aggiunto 'evento.madre.formatodata' (riga:59)
+* Aggiunto 'evento.padre.idFormatodata' (riga:91)
+* Aggiunto 'evento.padre.formatodata' (riga:92)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:153)
+* Aggiunto 'evento.interprete.formatodata' (riga:154)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_053.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:29)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:30)
+* Aggiunto 'evento.madre.idFormatodata' (riga:59)
+* Aggiunto 'evento.madre.formatodata' (riga:60)
+* Aggiunto 'evento.padre.idFormatodata' (riga:92)
+* Aggiunto 'evento.padre.formatodata' (riga:93)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:154)
+* Aggiunto 'evento.interprete.formatodata' (riga:155)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_054.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:37)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:38)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:66)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:67)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:115)
+* Aggiunto 'evento.interprete.formatodata' (riga:116)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_055.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:68)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:69)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:117)
+* Aggiunto 'evento.interprete.formatodata' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_056.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:68)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:69)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:117)
+* Aggiunto 'evento.interprete.formatodata' (riga:118)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_057.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:26)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:27)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:77)
+* Aggiunto 'evento.interprete.formatodata' (riga:78)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_058.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:79)
+* Aggiunto 'evento.interprete.formatodata' (riga:80)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_059.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:79)
+* Aggiunto 'evento.interprete.formatodata' (riga:80)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_060.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:40)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:41)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:68)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:69)
+* Aggiunto 'evento.madre.idFormatodata' (riga:95)
+* Aggiunto 'evento.madre.formatodata' (riga:96)
+* Aggiunto 'evento.padre.idFormatodata' (riga:128)
+* Aggiunto 'evento.padre.formatodata' (riga:129)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:211)
+* Aggiunto 'evento.interprete.formatodata' (riga:212)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_061.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:67)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:68)
+* Aggiunto 'evento.madre.idFormatodata' (riga:94)
+* Aggiunto 'evento.madre.formatodata' (riga:95)
+* Aggiunto 'evento.padre.idFormatodata' (riga:127)
+* Aggiunto 'evento.padre.formatodata' (riga:128)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:196)
+* Aggiunto 'evento.interprete.formatodata' (riga:197)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_062.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:40)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:41)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:68)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:69)
+* Aggiunto 'evento.madre.idFormatodata' (riga:95)
+* Aggiunto 'evento.madre.formatodata' (riga:96)
+* Aggiunto 'evento.padre.idFormatodata' (riga:128)
+* Aggiunto 'evento.padre.formatodata' (riga:129)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:211)
+* Aggiunto 'evento.interprete.formatodata' (riga:212)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_063.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:40)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:41)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:68)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:69)
+* Aggiunto 'evento.madre.idFormatodata' (riga:95)
+* Aggiunto 'evento.madre.formatodata' (riga:96)
+* Aggiunto 'evento.padre.idFormatodata' (riga:128)
+* Aggiunto 'evento.padre.formatodata' (riga:129)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:197)
+* Aggiunto 'evento.interprete.formatodata' (riga:198)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_064.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:41)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:42)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:69)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:70)
+* Aggiunto 'evento.madre.idFormatodata' (riga:96)
+* Aggiunto 'evento.madre.formatodata' (riga:97)
+* Aggiunto 'evento.padre.idFormatodata' (riga:129)
+* Aggiunto 'evento.padre.formatodata' (riga:130)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:198)
+* Aggiunto 'evento.interprete.formatodata' (riga:199)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_065.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:68)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:69)
+* Aggiunto 'evento.madre.idFormatodata' (riga:95)
+* Aggiunto 'evento.madre.formatodata' (riga:96)
+* Aggiunto 'evento.padre.idFormatodata' (riga:128)
+* Aggiunto 'evento.padre.formatodata' (riga:129)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:211)
+* Aggiunto 'evento.interprete.formatodata' (riga:212)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_066.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:68)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:69)
+* Aggiunto 'evento.madre.idFormatodata' (riga:95)
+* Aggiunto 'evento.madre.formatodata' (riga:96)
+* Aggiunto 'evento.padre.idFormatodata' (riga:128)
+* Aggiunto 'evento.padre.formatodata' (riga:129)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:197)
+* Aggiunto 'evento.interprete.formatodata' (riga:198)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_067.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:40)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:41)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:70)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:71)
+* Aggiunto 'evento.madre.idFormatodata' (riga:97)
+* Aggiunto 'evento.madre.formatodata' (riga:98)
+* Aggiunto 'evento.padre.idFormatodata' (riga:130)
+* Aggiunto 'evento.padre.formatodata' (riga:131)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:213)
+* Aggiunto 'evento.interprete.formatodata' (riga:214)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_068.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:40)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:41)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:70)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:71)
+* Aggiunto 'evento.madre.idFormatodata' (riga:97)
+* Aggiunto 'evento.madre.formatodata' (riga:98)
+* Aggiunto 'evento.padre.idFormatodata' (riga:130)
+* Aggiunto 'evento.padre.formatodata' (riga:131)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:206)
+* Aggiunto 'evento.interprete.formatodata' (riga:207)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_069.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:29)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:30)
+* Aggiunto 'evento.madre.idFormatodata' (riga:57)
+* Aggiunto 'evento.madre.formatodata' (riga:58)
+* Aggiunto 'evento.padre.idFormatodata' (riga:90)
+* Aggiunto 'evento.padre.formatodata' (riga:91)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:173)
+* Aggiunto 'evento.interprete.formatodata' (riga:174)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_070.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:30)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:31)
+* Aggiunto 'evento.madre.idFormatodata' (riga:58)
+* Aggiunto 'evento.madre.formatodata' (riga:59)
+* Aggiunto 'evento.padre.idFormatodata' (riga:91)
+* Aggiunto 'evento.padre.formatodata' (riga:92)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:167)
+* Aggiunto 'evento.interprete.formatodata' (riga:168)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_071.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:29)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:30)
+* Aggiunto 'evento.madre.idFormatodata' (riga:57)
+* Aggiunto 'evento.madre.formatodata' (riga:58)
+* Aggiunto 'evento.padre.idFormatodata' (riga:90)
+* Aggiunto 'evento.padre.formatodata' (riga:91)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:173)
+* Aggiunto 'evento.interprete.formatodata' (riga:174)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_072.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:29)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:30)
+* Aggiunto 'evento.madre.idFormatodata' (riga:57)
+* Aggiunto 'evento.madre.formatodata' (riga:58)
+* Aggiunto 'evento.padre.idFormatodata' (riga:90)
+* Aggiunto 'evento.padre.formatodata' (riga:91)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:159)
+* Aggiunto 'evento.interprete.formatodata' (riga:160)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_073.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:30)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:31)
+* Aggiunto 'evento.madre.idFormatodata' (riga:58)
+* Aggiunto 'evento.madre.formatodata' (riga:59)
+* Aggiunto 'evento.padre.idFormatodata' (riga:91)
+* Aggiunto 'evento.padre.formatodata' (riga:92)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:160)
+* Aggiunto 'evento.interprete.formatodata' (riga:161)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_074.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:57)
+* Aggiunto 'evento.madre.formatodata' (riga:58)
+* Aggiunto 'evento.padre.idFormatodata' (riga:90)
+* Aggiunto 'evento.padre.formatodata' (riga:91)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:173)
+* Aggiunto 'evento.interprete.formatodata' (riga:174)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_075.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:57)
+* Aggiunto 'evento.madre.formatodata' (riga:58)
+* Aggiunto 'evento.padre.idFormatodata' (riga:90)
+* Aggiunto 'evento.padre.formatodata' (riga:91)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:159)
+* Aggiunto 'evento.interprete.formatodata' (riga:160)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_076.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:29)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:30)
+* Aggiunto 'evento.madre.idFormatodata' (riga:59)
+* Aggiunto 'evento.madre.formatodata' (riga:60)
+* Aggiunto 'evento.padre.idFormatodata' (riga:92)
+* Aggiunto 'evento.padre.formatodata' (riga:93)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:161)
+* Aggiunto 'evento.interprete.formatodata' (riga:162)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_077.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:41)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:42)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:69)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:70)
+* Aggiunto 'evento.madre.idFormatodata' (riga:96)
+* Aggiunto 'evento.madre.formatodata' (riga:97)
+* Aggiunto 'evento.padre.idFormatodata' (riga:129)
+* Aggiunto 'evento.padre.formatodata' (riga:130)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:184)
+* Aggiunto 'evento.interprete.formatodata' (riga:185)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_078.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:40)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:41)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:68)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:69)
+* Aggiunto 'evento.madre.idFormatodata' (riga:95)
+* Aggiunto 'evento.madre.formatodata' (riga:96)
+* Aggiunto 'evento.padre.idFormatodata' (riga:128)
+* Aggiunto 'evento.padre.formatodata' (riga:129)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:183)
+* Aggiunto 'evento.interprete.formatodata' (riga:184)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_079.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:69)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:70)
+* Aggiunto 'evento.madre.idFormatodata' (riga:96)
+* Aggiunto 'evento.madre.formatodata' (riga:97)
+* Aggiunto 'evento.padre.idFormatodata' (riga:129)
+* Aggiunto 'evento.padre.formatodata' (riga:130)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:184)
+* Aggiunto 'evento.interprete.formatodata' (riga:185)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_080.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:38)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:39)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:67)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:68)
+* Aggiunto 'evento.madre.idFormatodata' (riga:94)
+* Aggiunto 'evento.madre.formatodata' (riga:95)
+* Aggiunto 'evento.padre.idFormatodata' (riga:127)
+* Aggiunto 'evento.padre.formatodata' (riga:128)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:182)
+* Aggiunto 'evento.interprete.formatodata' (riga:183)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_081.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:30)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:31)
+* Aggiunto 'evento.madre.idFormatodata' (riga:58)
+* Aggiunto 'evento.madre.formatodata' (riga:59)
+* Aggiunto 'evento.padre.idFormatodata' (riga:91)
+* Aggiunto 'evento.padre.formatodata' (riga:92)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:146)
+* Aggiunto 'evento.interprete.formatodata' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_082.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:31)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:32)
+* Aggiunto 'evento.madre.idFormatodata' (riga:59)
+* Aggiunto 'evento.madre.formatodata' (riga:60)
+* Aggiunto 'evento.padre.idFormatodata' (riga:92)
+* Aggiunto 'evento.padre.formatodata' (riga:93)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:147)
+* Aggiunto 'evento.interprete.formatodata' (riga:148)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_083.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:58)
+* Aggiunto 'evento.madre.formatodata' (riga:59)
+* Aggiunto 'evento.padre.idFormatodata' (riga:91)
+* Aggiunto 'evento.padre.formatodata' (riga:92)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:146)
+* Aggiunto 'evento.interprete.formatodata' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_084.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:27)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:28)
+* Aggiunto 'evento.madre.idFormatodata' (riga:56)
+* Aggiunto 'evento.madre.formatodata' (riga:57)
+* Aggiunto 'evento.padre.idFormatodata' (riga:89)
+* Aggiunto 'evento.padre.formatodata' (riga:90)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:144)
+* Aggiunto 'evento.interprete.formatodata' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_085.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:56)
+* Aggiunto 'evento.madre.formatodata' (riga:57)
+* Aggiunto 'evento.padre.idFormatodata' (riga:89)
+* Aggiunto 'evento.padre.formatodata' (riga:90)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:144)
+* Aggiunto 'evento.interprete.formatodata' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_086.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:56)
+* Aggiunto 'evento.madre.formatodata' (riga:57)
+* Aggiunto 'evento.padre.idFormatodata' (riga:89)
+* Aggiunto 'evento.padre.formatodata' (riga:90)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:144)
+* Aggiunto 'evento.interprete.formatodata' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_087.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:58)
+* Aggiunto 'evento.madre.formatodata' (riga:59)
+* Aggiunto 'evento.padre.idFormatodata' (riga:91)
+* Aggiunto 'evento.padre.formatodata' (riga:92)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:146)
+* Aggiunto 'evento.interprete.formatodata' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_088.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:27)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:28)
+* Aggiunto 'evento.madre.idFormatodata' (riga:56)
+* Aggiunto 'evento.madre.formatodata' (riga:57)
+* Aggiunto 'evento.padre.idFormatodata' (riga:89)
+* Aggiunto 'evento.padre.formatodata' (riga:90)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:144)
+* Aggiunto 'evento.interprete.formatodata' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_089.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:37)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:38)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:65)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:66)
+* Aggiunto 'evento.madre.idFormatodata' (riga:92)
+* Aggiunto 'evento.madre.formatodata' (riga:93)
+* Aggiunto 'evento.padre.idFormatodata' (riga:125)
+* Aggiunto 'evento.padre.formatodata' (riga:126)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:180)
+* Aggiunto 'evento.interprete.formatodata' (riga:181)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_090.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:67)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:68)
+* Aggiunto 'evento.madre.idFormatodata' (riga:94)
+* Aggiunto 'evento.madre.formatodata' (riga:95)
+* Aggiunto 'evento.padre.idFormatodata' (riga:127)
+* Aggiunto 'evento.padre.formatodata' (riga:128)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:182)
+* Aggiunto 'evento.interprete.formatodata' (riga:183)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_091.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:40)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:41)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:68)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:69)
+* Aggiunto 'evento.madre.idFormatodata' (riga:95)
+* Aggiunto 'evento.madre.formatodata' (riga:96)
+* Aggiunto 'evento.padre.idFormatodata' (riga:128)
+* Aggiunto 'evento.padre.formatodata' (riga:129)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:197)
+* Aggiunto 'evento.interprete.formatodata' (riga:198)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_092.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:29)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:30)
+* Aggiunto 'evento.madre.idFormatodata' (riga:57)
+* Aggiunto 'evento.madre.formatodata' (riga:58)
+* Aggiunto 'evento.padre.idFormatodata' (riga:90)
+* Aggiunto 'evento.padre.formatodata' (riga:91)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:159)
+* Aggiunto 'evento.interprete.formatodata' (riga:160)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_093.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:67)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:68)
+* Aggiunto 'evento.madre.idFormatodata' (riga:94)
+* Aggiunto 'evento.madre.formatodata' (riga:95)
+* Aggiunto 'evento.padre.idFormatodata' (riga:127)
+* Aggiunto 'evento.padre.formatodata' (riga:128)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:182)
+* Aggiunto 'evento.interprete.formatodata' (riga:183)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_094.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:56)
+* Aggiunto 'evento.madre.formatodata' (riga:57)
+* Aggiunto 'evento.padre.idFormatodata' (riga:89)
+* Aggiunto 'evento.padre.formatodata' (riga:90)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:144)
+* Aggiunto 'evento.interprete.formatodata' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_095.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:56)
+* Aggiunto 'evento.madre.formatodata' (riga:57)
+* Aggiunto 'evento.padre.idFormatodata' (riga:89)
+* Aggiunto 'evento.padre.formatodata' (riga:90)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:144)
+* Aggiunto 'evento.interprete.formatodata' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_096.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:37)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:38)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:67)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:68)
+* Aggiunto 'evento.madre.idFormatodata' (riga:94)
+* Aggiunto 'evento.madre.formatodata' (riga:95)
+* Aggiunto 'evento.padre.idFormatodata' (riga:127)
+* Aggiunto 'evento.padre.formatodata' (riga:128)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:182)
+* Aggiunto 'evento.interprete.formatodata' (riga:183)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_097.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:69)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:70)
+* Aggiunto 'evento.madre.idFormatodata' (riga:96)
+* Aggiunto 'evento.madre.formatodata' (riga:97)
+* Aggiunto 'evento.padre.idFormatodata' (riga:129)
+* Aggiunto 'evento.padre.formatodata' (riga:130)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:184)
+* Aggiunto 'evento.interprete.formatodata' (riga:185)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_098.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:58)
+* Aggiunto 'evento.madre.formatodata' (riga:59)
+* Aggiunto 'evento.padre.idFormatodata' (riga:91)
+* Aggiunto 'evento.padre.formatodata' (riga:92)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:146)
+* Aggiunto 'evento.interprete.formatodata' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_099.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:27)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:28)
+* Aggiunto 'evento.madre.idFormatodata' (riga:55)
+* Aggiunto 'evento.madre.formatodata' (riga:56)
+* Aggiunto 'evento.padre.idFormatodata' (riga:88)
+* Aggiunto 'evento.padre.formatodata' (riga:89)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:143)
+* Aggiunto 'evento.interprete.formatodata' (riga:144)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_100.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:67)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:68)
+* Aggiunto 'evento.madre.idFormatodata' (riga:94)
+* Aggiunto 'evento.madre.formatodata' (riga:95)
+* Aggiunto 'evento.padre.idFormatodata' (riga:127)
+* Aggiunto 'evento.padre.formatodata' (riga:128)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:182)
+* Aggiunto 'evento.interprete.formatodata' (riga:183)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_101.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:67)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:68)
+* Aggiunto 'evento.madre.idFormatodata' (riga:94)
+* Aggiunto 'evento.madre.formatodata' (riga:95)
+* Aggiunto 'evento.padre.idFormatodata' (riga:127)
+* Aggiunto 'evento.padre.formatodata' (riga:128)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:182)
+* Aggiunto 'evento.interprete.formatodata' (riga:183)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_102.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:26)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:27)
+* Aggiunto 'evento.madre.idFormatodata' (riga:54)
+* Aggiunto 'evento.madre.formatodata' (riga:55)
+* Aggiunto 'evento.padre.idFormatodata' (riga:87)
+* Aggiunto 'evento.padre.formatodata' (riga:88)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:142)
+* Aggiunto 'evento.interprete.formatodata' (riga:143)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_103.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:56)
+* Aggiunto 'evento.madre.formatodata' (riga:57)
+* Aggiunto 'evento.padre.idFormatodata' (riga:89)
+* Aggiunto 'evento.padre.formatodata' (riga:90)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:144)
+* Aggiunto 'evento.interprete.formatodata' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_104.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:56)
+* Aggiunto 'evento.madre.formatodata' (riga:57)
+* Aggiunto 'evento.padre.idFormatodata' (riga:89)
+* Aggiunto 'evento.padre.formatodata' (riga:90)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:144)
+* Aggiunto 'evento.interprete.formatodata' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_105.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:27)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:28)
+* Aggiunto 'evento.madre.idFormatodata' (riga:57)
+* Aggiunto 'evento.madre.formatodata' (riga:58)
+* Aggiunto 'evento.padre.idFormatodata' (riga:90)
+* Aggiunto 'evento.padre.formatodata' (riga:91)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:152)
+* Aggiunto 'evento.interprete.formatodata' (riga:153)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_106.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:58)
+* Aggiunto 'evento.madre.formatodata' (riga:59)
+* Aggiunto 'evento.padre.idFormatodata' (riga:91)
+* Aggiunto 'evento.padre.formatodata' (riga:92)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:153)
+* Aggiunto 'evento.interprete.formatodata' (riga:154)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_107.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:58)
+* Aggiunto 'evento.madre.formatodata' (riga:59)
+* Aggiunto 'evento.padre.idFormatodata' (riga:91)
+* Aggiunto 'evento.padre.formatodata' (riga:92)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:153)
+* Aggiunto 'evento.interprete.formatodata' (riga:154)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_108.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:40)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:41)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:70)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:71)
+* Aggiunto 'evento.madre.idFormatodata' (riga:97)
+* Aggiunto 'evento.madre.formatodata' (riga:98)
+* Aggiunto 'evento.padre.idFormatodata' (riga:130)
+* Aggiunto 'evento.padre.formatodata' (riga:131)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:213)
+* Aggiunto 'evento.interprete.formatodata' (riga:214)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_109.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:40)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:41)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:70)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:71)
+* Aggiunto 'evento.madre.idFormatodata' (riga:97)
+* Aggiunto 'evento.madre.formatodata' (riga:98)
+* Aggiunto 'evento.padre.idFormatodata' (riga:130)
+* Aggiunto 'evento.padre.formatodata' (riga:131)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:199)
+* Aggiunto 'evento.interprete.formatodata' (riga:200)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_110.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:69)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:70)
+* Aggiunto 'evento.madre.idFormatodata' (riga:96)
+* Aggiunto 'evento.madre.formatodata' (riga:97)
+* Aggiunto 'evento.padre.idFormatodata' (riga:129)
+* Aggiunto 'evento.padre.formatodata' (riga:130)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:184)
+* Aggiunto 'evento.interprete.formatodata' (riga:185)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_111.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:58)
+* Aggiunto 'evento.madre.formatodata' (riga:59)
+* Aggiunto 'evento.padre.idFormatodata' (riga:91)
+* Aggiunto 'evento.padre.formatodata' (riga:92)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:146)
+* Aggiunto 'evento.interprete.formatodata' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_112.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:69)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:70)
+* Aggiunto 'evento.madre.idFormatodata' (riga:96)
+* Aggiunto 'evento.madre.formatodata' (riga:97)
+* Aggiunto 'evento.padre.idFormatodata' (riga:129)
+* Aggiunto 'evento.padre.formatodata' (riga:130)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:191)
+* Aggiunto 'evento.interprete.formatodata' (riga:192)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_113.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:69)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:70)
+* Aggiunto 'evento.madre.idFormatodata' (riga:96)
+* Aggiunto 'evento.madre.formatodata' (riga:97)
+* Aggiunto 'evento.padre.idFormatodata' (riga:129)
+* Aggiunto 'evento.padre.formatodata' (riga:130)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:191)
+* Aggiunto 'evento.interprete.formatodata' (riga:192)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_114.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:37)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:38)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:65)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:66)
+* Aggiunto 'evento.madre.idFormatodata' (riga:92)
+* Aggiunto 'evento.madre.formatodata' (riga:93)
+* Aggiunto 'evento.padre.idFormatodata' (riga:125)
+* Aggiunto 'evento.padre.formatodata' (riga:126)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:180)
+* Aggiunto 'evento.interprete.formatodata' (riga:181)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_115.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:26)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:27)
+* Aggiunto 'evento.madre.idFormatodata' (riga:56)
+* Aggiunto 'evento.madre.formatodata' (riga:57)
+* Aggiunto 'evento.padre.idFormatodata' (riga:89)
+* Aggiunto 'evento.padre.formatodata' (riga:90)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:144)
+* Aggiunto 'evento.interprete.formatodata' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_116.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:38)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:39)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:68)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:69)
+* Aggiunto 'evento.madre.idFormatodata' (riga:95)
+* Aggiunto 'evento.madre.formatodata' (riga:96)
+* Aggiunto 'evento.padre.idFormatodata' (riga:128)
+* Aggiunto 'evento.padre.formatodata' (riga:129)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:190)
+* Aggiunto 'evento.interprete.formatodata' (riga:191)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_117.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:29)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:30)
+* Aggiunto 'evento.madre.idFormatodata' (riga:59)
+* Aggiunto 'evento.madre.formatodata' (riga:60)
+* Aggiunto 'evento.padre.idFormatodata' (riga:92)
+* Aggiunto 'evento.padre.formatodata' (riga:93)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:161)
+* Aggiunto 'evento.interprete.formatodata' (riga:162)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_121.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:37)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:38)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:67)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:68)
+* Aggiunto 'evento.madre.idFormatodata' (riga:94)
+* Aggiunto 'evento.madre.formatodata' (riga:95)
+* Aggiunto 'evento.padre.idFormatodata' (riga:127)
+* Aggiunto 'evento.padre.formatodata' (riga:128)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:182)
+* Aggiunto 'evento.interprete.formatodata' (riga:183)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_122.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:69)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:70)
+* Aggiunto 'evento.madre.idFormatodata' (riga:96)
+* Aggiunto 'evento.madre.formatodata' (riga:97)
+* Aggiunto 'evento.padre.idFormatodata' (riga:129)
+* Aggiunto 'evento.padre.formatodata' (riga:130)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:184)
+* Aggiunto 'evento.interprete.formatodata' (riga:185)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_123.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:69)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:70)
+* Aggiunto 'evento.madre.idFormatodata' (riga:96)
+* Aggiunto 'evento.madre.formatodata' (riga:97)
+* Aggiunto 'evento.padre.idFormatodata' (riga:129)
+* Aggiunto 'evento.padre.formatodata' (riga:130)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:184)
+* Aggiunto 'evento.interprete.formatodata' (riga:185)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_124.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:37)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:38)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:67)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:68)
+* Aggiunto 'evento.madre.idFormatodata' (riga:94)
+* Aggiunto 'evento.madre.formatodata' (riga:95)
+* Aggiunto 'evento.padre.idFormatodata' (riga:127)
+* Aggiunto 'evento.padre.formatodata' (riga:128)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:182)
+* Aggiunto 'evento.interprete.formatodata' (riga:183)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_125.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:69)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:70)
+* Aggiunto 'evento.madre.idFormatodata' (riga:96)
+* Aggiunto 'evento.madre.formatodata' (riga:97)
+* Aggiunto 'evento.padre.idFormatodata' (riga:129)
+* Aggiunto 'evento.padre.formatodata' (riga:130)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:184)
+* Aggiunto 'evento.interprete.formatodata' (riga:185)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_126.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:39)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:69)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:70)
+* Aggiunto 'evento.madre.idFormatodata' (riga:96)
+* Aggiunto 'evento.madre.formatodata' (riga:97)
+* Aggiunto 'evento.padre.idFormatodata' (riga:129)
+* Aggiunto 'evento.padre.formatodata' (riga:130)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:184)
+* Aggiunto 'evento.interprete.formatodata' (riga:185)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_127.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:27)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:28)
+* Aggiunto 'evento.madre.idFormatodata' (riga:57)
+* Aggiunto 'evento.madre.formatodata' (riga:58)
+* Aggiunto 'evento.padre.idFormatodata' (riga:90)
+* Aggiunto 'evento.padre.formatodata' (riga:91)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:145)
+* Aggiunto 'evento.interprete.formatodata' (riga:146)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_128.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:58)
+* Aggiunto 'evento.madre.formatodata' (riga:59)
+* Aggiunto 'evento.padre.idFormatodata' (riga:91)
+* Aggiunto 'evento.padre.formatodata' (riga:92)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:146)
+* Aggiunto 'evento.interprete.formatodata' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_129.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:58)
+* Aggiunto 'evento.madre.formatodata' (riga:59)
+* Aggiunto 'evento.padre.idFormatodata' (riga:91)
+* Aggiunto 'evento.padre.formatodata' (riga:92)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:146)
+* Aggiunto 'evento.interprete.formatodata' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_130.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:26)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:27)
+* Aggiunto 'evento.madre.idFormatodata' (riga:56)
+* Aggiunto 'evento.madre.formatodata' (riga:57)
+* Aggiunto 'evento.padre.idFormatodata' (riga:89)
+* Aggiunto 'evento.padre.formatodata' (riga:90)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:144)
+* Aggiunto 'evento.interprete.formatodata' (riga:145)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_131.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:58)
+* Aggiunto 'evento.madre.formatodata' (riga:59)
+* Aggiunto 'evento.padre.idFormatodata' (riga:91)
+* Aggiunto 'evento.padre.formatodata' (riga:92)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:146)
+* Aggiunto 'evento.interprete.formatodata' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_132.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:28)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:29)
+* Aggiunto 'evento.madre.idFormatodata' (riga:58)
+* Aggiunto 'evento.madre.formatodata' (riga:59)
+* Aggiunto 'evento.padre.idFormatodata' (riga:91)
+* Aggiunto 'evento.padre.formatodata' (riga:92)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:146)
+* Aggiunto 'evento.interprete.formatodata' (riga:147)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_133.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:40)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:41)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:68)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:69)
+* Aggiunto 'evento.madre.idFormatodata' (riga:95)
+* Aggiunto 'evento.madre.formatodata' (riga:96)
+* Aggiunto 'evento.padre.idFormatodata' (riga:128)
+* Aggiunto 'evento.padre.formatodata' (riga:129)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:190)
+* Aggiunto 'evento.interprete.formatodata' (riga:191)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_3.csv : 
+* Aggiunto 'evento.datiAnnotazioneModificativa.soggettoCollegato.idFormatodata' (riga:48)
+* Aggiunto 'evento.datiAnnotazioneModificativa.soggettoCollegato.formatodata' (riga:49)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_999.csv : 
+* Aggiunto 'evento.madre.idFormatodata' (riga:19)
+* Aggiunto 'evento.madre.formatodata' (riga:20)
+* Aggiunto 'evento.padre.idFormatodata' (riga:51)
+* Aggiunto 'evento.padre.formatodata' (riga:52)
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:83)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:84)
+
+### Modifiche per il caso uso riconoscimenti/Rico_001.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:25)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:26)
+* Aggiunto 'evento.madre.idFormatodata' (riga:54)
+* Aggiunto 'evento.madre.formatodata' (riga:55)
+* Aggiunto 'evento.padre.idFormatodata' (riga:87)
+* Aggiunto 'evento.padre.formatodata' (riga:88)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:169)
+* Aggiunto 'evento.interprete.formatodata' (riga:170)
+
+### Modifiche per il caso uso riconoscimenti/Rico_002.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:25)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:26)
+* Aggiunto 'evento.madre.idFormatodata' (riga:53)
+* Aggiunto 'evento.madre.formatodata' (riga:54)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:86)
+* Aggiunto 'evento.interprete.formatodata' (riga:87)
+
+### Modifiche per il caso uso riconoscimenti/Rico_003.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:26)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:27)
+* Aggiunto 'evento.madre.idFormatodata' (riga:54)
+* Aggiunto 'evento.madre.formatodata' (riga:55)
+* Aggiunto 'evento.padre.idFormatodata' (riga:87)
+* Aggiunto 'evento.padre.formatodata' (riga:88)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:127)
+* Aggiunto 'evento.interprete.formatodata' (riga:128)
+
+### Modifiche per il caso uso riconoscimenti/Rico_004.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:25)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:26)
+* Aggiunto 'evento.madre.idFormatodata' (riga:53)
+* Aggiunto 'evento.madre.formatodata' (riga:54)
+* Aggiunto 'evento.padre.idFormatodata' (riga:86)
+* Aggiunto 'evento.padre.formatodata' (riga:87)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:119)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:120)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:204)
+* Aggiunto 'evento.interprete.formatodata' (riga:205)
+
+### Modifiche per il caso uso riconoscimenti/Rico_005.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:18)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:19)
+* Aggiunto 'evento.padre.idFormatodata' (riga:46)
+* Aggiunto 'evento.padre.formatodata' (riga:47)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:80)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:81)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:138)
+* Aggiunto 'evento.interprete.formatodata' (riga:139)
+
+### Modifiche per il caso uso riconoscimenti/Rico_006.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:27)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:28)
+* Aggiunto 'evento.madre.idFormatodata' (riga:55)
+* Aggiunto 'evento.madre.formatodata' (riga:56)
+* Presenti modifiche per 'evento.madre.flagFirmatario' (riga:78)
+* Aggiunto 'evento.padre.idFormatodata' (riga:88)
+* Aggiunto 'evento.padre.formatodata' (riga:89)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:121)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:122)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:194)
+* Aggiunto 'evento.interprete.formatodata' (riga:195)
+
+### Modifiche per il caso uso riconoscimenti/Rico_007.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:25)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:26)
+* Aggiunto 'evento.madre.idFormatodata' (riga:53)
+* Aggiunto 'evento.madre.formatodata' (riga:54)
+* Aggiunto 'evento.padre.idFormatodata' (riga:86)
+* Aggiunto 'evento.padre.formatodata' (riga:87)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:119)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:120)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:204)
+* Aggiunto 'evento.interprete.formatodata' (riga:205)
+
+### Modifiche per il caso uso riconoscimenti/Rico_008.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:24)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:25)
+* Aggiunto 'evento.madre.idFormatodata' (riga:52)
+* Aggiunto 'evento.madre.formatodata' (riga:53)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:85)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:86)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:143)
+* Aggiunto 'evento.interprete.formatodata' (riga:144)
+
+### Modifiche per il caso uso riconoscimenti/Rico_009.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:22)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:23)
+* Aggiunto 'evento.madre.idFormatodata' (riga:50)
+* Aggiunto 'evento.madre.formatodata' (riga:51)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:83)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:84)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:128)
+* Aggiunto 'evento.interprete.formatodata' (riga:129)
+
+### Modifiche per il caso uso riconoscimenti/Rico_010.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:25)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:26)
+* Aggiunto 'evento.madre.idFormatodata' (riga:53)
+* Aggiunto 'evento.madre.formatodata' (riga:54)
+* Aggiunto 'evento.padre.idFormatodata' (riga:86)
+* Aggiunto 'evento.padre.formatodata' (riga:87)
+* Presenti modifiche per 'evento.padre.flagFirmatario' (riga:109)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:119)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:120)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:191)
+* Aggiunto 'evento.interprete.formatodata' (riga:192)
+
+### Modifiche per il caso uso riconoscimenti/Rico_011.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:25)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:26)
+* Aggiunto 'evento.madre.idFormatodata' (riga:53)
+* Aggiunto 'evento.madre.formatodata' (riga:54)
+* Aggiunto 'evento.padre.idFormatodata' (riga:86)
+* Aggiunto 'evento.padre.formatodata' (riga:87)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:119)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:120)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:177)
+* Aggiunto 'evento.interprete.formatodata' (riga:178)
+
+### Modifiche per il caso uso riconoscimenti/Rico_012.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:24)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:25)
+* Aggiunto 'evento.madre.idFormatodata' (riga:52)
+* Aggiunto 'evento.madre.formatodata' (riga:53)
+* Aggiunto 'evento.padre.idFormatodata' (riga:85)
+* Aggiunto 'evento.padre.formatodata' (riga:86)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:118)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:119)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:163)
+* Aggiunto 'evento.interprete.formatodata' (riga:164)
+
+### Modifiche per il caso uso riconoscimenti/Rico_013.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:22)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:23)
+* Aggiunto 'evento.madre.idFormatodata' (riga:50)
+* Aggiunto 'evento.madre.formatodata' (riga:51)
+* Aggiunto 'evento.padre.idFormatodata' (riga:83)
+* Aggiunto 'evento.padre.formatodata' (riga:84)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:116)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:117)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:202)
+* Aggiunto 'evento.interprete.formatodata' (riga:203)
+
+### Modifiche per il caso uso riconoscimenti/Rico_014.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:23)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:24)
+* Aggiunto 'evento.madre.idFormatodata' (riga:51)
+* Aggiunto 'evento.madre.formatodata' (riga:52)
+* Aggiunto 'evento.padre.idFormatodata' (riga:84)
+* Aggiunto 'evento.padre.formatodata' (riga:85)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:117)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:118)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:176)
+* Aggiunto 'evento.interprete.formatodata' (riga:177)
+
+### Modifiche per il caso uso riconoscimenti/Rico_015.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:23)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:24)
+* Aggiunto 'evento.madre.idFormatodata' (riga:51)
+* Aggiunto 'evento.madre.formatodata' (riga:52)
+* Aggiunto 'evento.padre.idFormatodata' (riga:84)
+* Aggiunto 'evento.padre.formatodata' (riga:85)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:117)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:118)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:176)
+* Aggiunto 'evento.interprete.formatodata' (riga:177)
+
+### Modifiche per il caso uso riconoscimenti/Rico_016.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:26)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:27)
+* Aggiunto 'evento.madre.idFormatodata' (riga:54)
+* Aggiunto 'evento.madre.formatodata' (riga:55)
+* Aggiunto 'evento.padre.idFormatodata' (riga:87)
+* Aggiunto 'evento.padre.formatodata' (riga:88)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:127)
+* Aggiunto 'evento.interprete.formatodata' (riga:128)
+
+### Modifiche per il caso uso riconoscimenti/Rico_017.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:25)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:26)
+* Aggiunto 'evento.madre.idFormatodata' (riga:53)
+* Aggiunto 'evento.madre.formatodata' (riga:54)
+* Aggiunto 'evento.padre.idFormatodata' (riga:86)
+* Aggiunto 'evento.padre.formatodata' (riga:87)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:119)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:120)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:177)
+* Aggiunto 'evento.interprete.formatodata' (riga:178)
+
+### Modifiche per il caso uso riconoscimenti/Rico_018.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:30)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:31)
+* Aggiunto 'evento.madre.idFormatodata' (riga:58)
+* Aggiunto 'evento.madre.formatodata' (riga:59)
+* Aggiunto 'evento.padre.idFormatodata' (riga:91)
+* Aggiunto 'evento.padre.formatodata' (riga:92)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:124)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:125)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:169)
+* Aggiunto 'evento.interprete.formatodata' (riga:170)
+
+### Modifiche per il caso uso riconoscimenti/Rico_019.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:24)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:25)
+* Aggiunto 'evento.madre.idFormatodata' (riga:52)
+* Aggiunto 'evento.madre.formatodata' (riga:53)
+* Aggiunto 'evento.padre.idFormatodata' (riga:85)
+* Aggiunto 'evento.padre.formatodata' (riga:86)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:118)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:119)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:204)
+* Aggiunto 'evento.interprete.formatodata' (riga:205)
+
+### Modifiche per il caso uso riconoscimenti/Rico_020.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:22)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:23)
+* Aggiunto 'evento.padre.idFormatodata' (riga:50)
+* Aggiunto 'evento.padre.formatodata' (riga:51)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:83)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:84)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:128)
+* Aggiunto 'evento.interprete.formatodata' (riga:129)
+
+### Modifiche per il caso uso riconoscimenti/Rico_999.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:19)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:20)
+* Aggiunto 'evento.madre.idFormatodata' (riga:47)
+* Aggiunto 'evento.madre.formatodata' (riga:48)
+* Aggiunto 'evento.padre.idFormatodata' (riga:79)
+* Aggiunto 'evento.padre.formatodata' (riga:80)
+
+### Modifiche per il caso uso trascrizioni/Trascr_001.csv : 
+* Aggiunto 'evento.madre.idFormatodata' (riga:15)
+* Aggiunto 'evento.madre.formatodata' (riga:16)
+* Aggiunto 'evento.padre.idFormatodata' (riga:48)
+* Aggiunto 'evento.padre.formatodata' (riga:49)
+
+### Modifiche per il caso uso trascrizioni/Trascr_002.csv : 
+* Aggiunto 'evento.madre.idFormatodata' (riga:28)
+* Aggiunto 'evento.madre.formatodata' (riga:29)
+* Aggiunto 'evento.padre.idFormatodata' (riga:61)
+* Aggiunto 'evento.padre.formatodata' (riga:62)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:94)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:95)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:156)
+* Aggiunto 'evento.interprete.formatodata' (riga:157)
+
+### Modifiche per il caso uso trascrizioni/Trascr_003.csv : 
+* Aggiunto 'evento.madre.idFormatodata' (riga:24)
+* Aggiunto 'evento.madre.formatodata' (riga:25)
+* Aggiunto 'evento.padre.idFormatodata' (riga:57)
+* Aggiunto 'evento.padre.formatodata' (riga:58)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:90)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:91)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:168)
+* Aggiunto 'evento.interprete.formatodata' (riga:169)
+
+### Modifiche per il caso uso trascrizioni/Trascr_005.csv : 
+* Aggiunto 'evento.madre.idFormatodata' (riga:15)
+* Aggiunto 'evento.madre.formatodata' (riga:16)
+* Aggiunto 'evento.padre.idFormatodata' (riga:48)
+* Aggiunto 'evento.padre.formatodata' (riga:49)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:81)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:82)
+
+### Modifiche per il caso uso trascrizioni/Trascr_006.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:15)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:16)
+* Aggiunto 'evento.madre.idFormatodata' (riga:76)
+* Aggiunto 'evento.madre.formatodata' (riga:77)
+* Aggiunto 'evento.padre.idFormatodata' (riga:141)
+* Aggiunto 'evento.padre.formatodata' (riga:142)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:206)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:207)
+
+### Modifiche per il caso uso trascrizioni/Trascr_007.csv : 
+* Aggiunto 'evento.madre.idFormatodata' (riga:15)
+* Aggiunto 'evento.madre.formatodata' (riga:16)
+* Aggiunto 'evento.padre.idFormatodata' (riga:48)
+* Aggiunto 'evento.padre.formatodata' (riga:49)
+
+### Modifiche per il caso uso trascrizioni/Trascr_008.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:14)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:15)
+* Aggiunto 'evento.padre.idFormatodata' (riga:42)
+* Aggiunto 'evento.padre.formatodata' (riga:43)
+* Aggiunto 'evento.madre.idFormatodata' (riga:74)
+* Aggiunto 'evento.madre.formatodata' (riga:75)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:106)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:107)
+
+### Modifiche per il caso uso trascrizioni/Trascr_009.csv : 
+* Aggiunto 'evento.madre.idFormatodata' (riga:14)
+* Aggiunto 'evento.madre.formatodata' (riga:15)
+* Aggiunto 'evento.padre.idFormatodata' (riga:46)
+* Aggiunto 'evento.padre.formatodata' (riga:47)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:78)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:79)
+
+### Modifiche per il caso uso trascrizioni/Trascr_010.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:15)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:16)
+* Aggiunto 'evento.padre.idFormatodata' (riga:43)
+* Aggiunto 'evento.padre.formatodata' (riga:44)
+* Aggiunto 'evento.madre.idFormatodata' (riga:75)
+* Aggiunto 'evento.madre.formatodata' (riga:76)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:107)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:108)
+
+### Modifiche per il caso uso trascrizioni/Trascr_011.csv : 
+* Aggiunto 'evento.padre.idFormatodata' (riga:22)
+* Aggiunto 'evento.padre.formatodata' (riga:23)
+* Aggiunto 'evento.madre.idFormatodata' (riga:54)
+* Aggiunto 'evento.madre.formatodata' (riga:55)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:86)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:87)
+
+### Modifiche per il caso uso trascrizioni/Trascr_012.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:35)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:36)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:64)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:65)
+* Aggiunto 'evento.madre.idFormatodata' (riga:96)
+* Aggiunto 'evento.madre.formatodata' (riga:97)
+* Aggiunto 'evento.padre.idFormatodata' (riga:128)
+* Aggiunto 'evento.padre.formatodata' (riga:129)
+* Aggiunto 'evento.coniuge.idFormatodata' (riga:237)
+* Aggiunto 'evento.coniuge.formatodata' (riga:238)
+
+### Modifiche per il caso uso trascrizioni/Trascr_013.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:14)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:15)
+* Aggiunto 'evento.madre.idFormatodata' (riga:43)
+* Aggiunto 'evento.madre.formatodata' (riga:44)
+* Aggiunto 'evento.padre.idFormatodata' (riga:76)
+* Aggiunto 'evento.padre.formatodata' (riga:77)
+* Aggiunto 'evento.madreBiologica.idFormatodata' (riga:109)
+* Aggiunto 'evento.madreBiologica.formatodata' (riga:110)
+* Aggiunto 'evento.padreBiologico.idFormatodata' (riga:142)
+* Aggiunto 'evento.padreBiologico.formatodata' (riga:143)
+
+### Modifiche per il caso uso trascrizioni/Trascr_014.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:14)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:15)
+* Aggiunto 'evento.madre.idFormatodata' (riga:43)
+* Aggiunto 'evento.madre.formatodata' (riga:44)
+* Aggiunto 'evento.padre.idFormatodata' (riga:76)
+* Aggiunto 'evento.padre.formatodata' (riga:77)
+* Aggiunto 'evento.madreBiologica.idFormatodata' (riga:109)
+* Aggiunto 'evento.madreBiologica.formatodata' (riga:110)
+* Aggiunto 'evento.padreBiologico.idFormatodata' (riga:142)
+* Aggiunto 'evento.padreBiologico.formatodata' (riga:143)
+
+### Modifiche per il caso uso trascrizioni/Trascr_015.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:15)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:16)
+* Aggiunto 'evento.madre.idFormatodata' (riga:44)
+* Aggiunto 'evento.madre.formatodata' (riga:45)
+* Aggiunto 'evento.padre.idFormatodata' (riga:77)
+* Aggiunto 'evento.padre.formatodata' (riga:78)
+
+### Modifiche per il caso uso trascrizioni/Trascr_016.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:14)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:15)
+* Aggiunto 'evento.madre.idFormatodata' (riga:43)
+* Aggiunto 'evento.madre.formatodata' (riga:44)
+* Aggiunto 'evento.padre.idFormatodata' (riga:76)
+* Aggiunto 'evento.padre.formatodata' (riga:77)
+* Aggiunto 'evento.madreBiologica.idFormatodata' (riga:109)
+* Aggiunto 'evento.madreBiologica.formatodata' (riga:110)
+* Aggiunto 'evento.padreBiologico.idFormatodata' (riga:142)
+* Aggiunto 'evento.padreBiologico.formatodata' (riga:143)
+
+### Modifiche per il caso uso trascrizioni/Trascr_017.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:15)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:16)
+* Aggiunto 'evento.madre.idFormatodata' (riga:46)
+* Aggiunto 'evento.madre.formatodata' (riga:47)
+* Aggiunto 'evento.padre.idFormatodata' (riga:79)
+* Aggiunto 'evento.padre.formatodata' (riga:80)
+
+### Modifiche per il caso uso trascrizioni/Trascr_018.csv : 
+* Aggiunto 'evento.padre.idFormatodata' (riga:14)
+* Aggiunto 'evento.padre.formatodata' (riga:15)
+* Aggiunto 'evento.madre.idFormatodata' (riga:46)
+* Aggiunto 'evento.madre.formatodata' (riga:47)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:78)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:79)
+
+### Modifiche per il caso uso trascrizioni/Trascr_019.csv : 
+* Aggiunto 'evento.padre.idFormatodata' (riga:14)
+* Aggiunto 'evento.padre.formatodata' (riga:15)
+* Aggiunto 'evento.madre.idFormatodata' (riga:46)
+* Aggiunto 'evento.madre.formatodata' (riga:47)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:78)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:79)
+
+### Modifiche per il caso uso trascrizioni/Trascr_020.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:15)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:16)
+* Aggiunto 'evento.padre.idFormatodata' (riga:43)
+* Aggiunto 'evento.padre.formatodata' (riga:44)
+* Aggiunto 'evento.madre.idFormatodata' (riga:75)
+* Aggiunto 'evento.madre.formatodata' (riga:76)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:107)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:108)
+
+### Modifiche per il caso uso trascrizioni/Trascr_021.csv : 
+* Aggiunto 'evento.padre.idFormatodata' (riga:15)
+* Aggiunto 'evento.padre.formatodata' (riga:16)
+* Aggiunto 'evento.madre.idFormatodata' (riga:47)
+* Aggiunto 'evento.madre.formatodata' (riga:48)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:79)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:80)
+
+### Modifiche per il caso uso trascrizioni/Trascr_022.csv : 
+* Aggiunto 'evento.madre.idFormatodata' (riga:14)
+* Aggiunto 'evento.madre.formatodata' (riga:15)
+* Aggiunto 'evento.padre.idFormatodata' (riga:46)
+* Aggiunto 'evento.padre.formatodata' (riga:47)
+
+### Modifiche per il caso uso trascrizioni/Trascr_023.csv : 
+* Aggiunto 'evento.madre.idFormatodata' (riga:24)
+* Aggiunto 'evento.madre.formatodata' (riga:25)
+* Aggiunto 'evento.padre.idFormatodata' (riga:57)
+* Aggiunto 'evento.padre.formatodata' (riga:58)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:90)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:91)
+
+### Modifiche per il caso uso trascrizioni/Trascr_024.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:14)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:15)
+* Aggiunto 'evento.madre.idFormatodata' (riga:42)
+* Aggiunto 'evento.madre.formatodata' (riga:43)
+* Aggiunto 'evento.padre.idFormatodata' (riga:74)
+* Aggiunto 'evento.padre.formatodata' (riga:75)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:106)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:107)
+
+### Modifiche per il caso uso trascrizioni/Trascr_025.csv : 
+* Aggiunto 'evento.madre.idFormatodata' (riga:22)
+* Aggiunto 'evento.madre.formatodata' (riga:23)
+* Aggiunto 'evento.padre.idFormatodata' (riga:55)
+* Aggiunto 'evento.padre.formatodata' (riga:56)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:88)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:89)
+
+### Modifiche per il caso uso trascrizioni/Trascr_026.csv : 
+* Aggiunto 'evento.madre.idFormatodata' (riga:19)
+* Aggiunto 'evento.madre.formatodata' (riga:20)
+* Aggiunto 'evento.padre.idFormatodata' (riga:52)
+* Aggiunto 'evento.padre.formatodata' (riga:53)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:85)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:86)
+
+### Modifiche per il caso uso trascrizioni/Trascr_027.csv : 
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:14)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:15)
+* Aggiunto 'evento.madre.idFormatodata' (riga:75)
+* Aggiunto 'evento.madre.formatodata' (riga:76)
+* Aggiunto 'evento.padre.idFormatodata' (riga:140)
+* Aggiunto 'evento.padre.formatodata' (riga:141)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:205)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:206)
+
+### Modifiche per il caso uso trascrizioni/Trascr_028.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:19)
+* Aggiunto 'evento.madre.idFormatodata' (riga:50)
+* Aggiunto 'evento.madre.formatodata' (riga:51)
+* Aggiunto 'evento.padre.idFormatodata' (riga:83)
+* Aggiunto 'evento.padre.formatodata' (riga:84)
+* Aggiunto 'evento.richiedente.privato.idFormatodata' (riga:126)
+* Aggiunto 'evento.richiedente.privato.formatodata' (riga:127)
+
+### Modifiche per il caso uso trascrizioni/Trascr_029.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:19)
+* Aggiunto 'evento.madre.idFormatodata' (riga:50)
+* Aggiunto 'evento.madre.formatodata' (riga:51)
+* Aggiunto 'evento.padre.idFormatodata' (riga:83)
+* Aggiunto 'evento.padre.formatodata' (riga:84)
+* Aggiunto 'evento.richiedente.privato.idFormatodata' (riga:126)
+* Aggiunto 'evento.richiedente.privato.formatodata' (riga:127)
+
+### Modifiche per il caso uso trascrizioni/Trascr_030.csv : 
+* Aggiunto 'evento.padre.idFormatodata' (riga:14)
+* Aggiunto 'evento.padre.formatodata' (riga:15)
+* Aggiunto 'evento.madre.idFormatodata' (riga:46)
+* Aggiunto 'evento.madre.formatodata' (riga:47)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:78)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:79)
+
+### Modifiche per il caso uso trascrizioni/Trascr_031.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:36)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:37)
+* Aggiunto 'evento.coniuge.idFormatodata' (riga:154)
+* Aggiunto 'evento.coniuge.formatodata' (riga:155)
+
+### Modifiche per il caso uso trascrizioni/Trascr_032.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:17)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:18)
+* Aggiunto 'evento.richiedente.privato.idFormatodata' (riga:49)
+* Aggiunto 'evento.richiedente.privato.formatodata' (riga:50)
+
+### Modifiche per il caso uso trascrizioni/Trascr_999.csv : 
+* Aggiunto 'evento.madre.idFormatodata' (riga:18)
+* Aggiunto 'evento.madre.formatodata' (riga:19)
+* Aggiunto 'evento.padre.idFormatodata' (riga:50)
+* Aggiunto 'evento.padre.formatodata' (riga:51)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:82)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:83)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Citt_999.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:19)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_001.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:33)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:34)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:66)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:67)
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:126)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:127)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_002.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:31)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:32)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:64)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:65)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_003.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:33)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:34)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:66)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:67)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_004.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:32)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:33)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:65)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:66)
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:123)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:124)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_005.csv : 
+* Aggiunto 'evento.trascrizioneMatrimonio.officiante.idFormatodata' (riga:26)
+* Aggiunto 'evento.trascrizioneMatrimonio.officiante.formatodata' (riga:27)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:55)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:56)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:88)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:89)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_006.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:33)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:34)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:66)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:67)
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:100)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:101)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_999.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:26)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:27)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:59)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:60)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Morte_999.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:33)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:34)
+* Aggiunto 'evento.datiEventoMorte.comparente1.idFormatodata' (riga:65)
+* Aggiunto 'evento.datiEventoMorte.comparente1.formatodata' (riga:66)
+* Aggiunto 'evento.coniuge.idFormatodata' (riga:134)
+* Aggiunto 'evento.coniuge.formatodata' (riga:135)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_001.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:34)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:35)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:67)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:68)
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:135)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:136)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_002.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:34)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:35)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:67)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:68)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_003.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:33)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:34)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:66)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:67)
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:134)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:135)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_004.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:33)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:34)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:66)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:67)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_005.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:33)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:34)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:66)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:67)
+* Aggiunto 'evento.dichiarante.idFormatodata' (riga:134)
+* Aggiunto 'evento.dichiarante.formatodata' (riga:135)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_999.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:26)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:27)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:59)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:60)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_001.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:20)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:21)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:52)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:53)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:97)
+* Aggiunto 'evento.interprete.formatodata' (riga:98)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_002.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:25)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:26)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:57)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:58)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:102)
+* Aggiunto 'evento.interprete.formatodata' (riga:103)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_003.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:29)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:30)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:61)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:62)
+* Aggiunto 'evento.scioglimentoUnioneCivile.avvocatoConiuge1.idFormatodata' (riga:114)
+* Aggiunto 'evento.scioglimentoUnioneCivile.avvocatoConiuge1.formatodata' (riga:115)
+* Aggiunto 'evento.scioglimentoUnioneCivile.avvocatoConiuge2.idFormatodata' (riga:143)
+* Aggiunto 'evento.scioglimentoUnioneCivile.avvocatoConiuge2.formatodata' (riga:144)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:171)
+* Aggiunto 'evento.interprete.formatodata' (riga:172)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_004.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:13)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:14)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:45)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:46)
+* Aggiunto 'evento.scioglimentoUnioneCivile.avvocatoConiuge1.idFormatodata' (riga:104)
+* Aggiunto 'evento.scioglimentoUnioneCivile.avvocatoConiuge1.formatodata' (riga:105)
+* Aggiunto 'evento.scioglimentoUnioneCivile.avvocatoConiuge2.idFormatodata' (riga:133)
+* Aggiunto 'evento.scioglimentoUnioneCivile.avvocatoConiuge2.formatodata' (riga:134)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:161)
+* Aggiunto 'evento.interprete.formatodata' (riga:162)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_005.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:19)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:50)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:51)
+* Presenti modifiche per 'evento.scioglimentoUnioneCivile.accordoScioglimento.parte' (riga:87)
+* Presenti modifiche per 'evento.scioglimentoUnioneCivile.accordoScioglimento.serie' (riga:88)
+* Presenti modifiche per 'evento.scioglimentoUnioneCivile.accordoScioglimento.volume' (riga:89)
+* Aggiunto 'evento.scioglimentoUnioneCivile.avvocatoConiuge1.idFormatodata' (riga:96)
+* Aggiunto 'evento.scioglimentoUnioneCivile.avvocatoConiuge1.formatodata' (riga:97)
+* Aggiunto 'evento.scioglimentoUnioneCivile.avvocatoConiuge2.idFormatodata' (riga:125)
+* Aggiunto 'evento.scioglimentoUnioneCivile.avvocatoConiuge2.formatodata' (riga:126)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:153)
+* Aggiunto 'evento.interprete.formatodata' (riga:154)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_006.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:19)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:50)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:51)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.idFormatodata' (riga:120)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge1.formatodata' (riga:121)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.idFormatodata' (riga:151)
+* Aggiunto 'evento.negoziazioneAssistita.avvocatoConiuge2.formatodata' (riga:152)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_999.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:18)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:19)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:50)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:51)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_001.csv : 
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idFormatodata' (riga:40)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.formatodata' (riga:41)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:78)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:79)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:110)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:111)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.idFormatodata' (riga:168)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.formatodata' (riga:169)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.idFormatodata' (riga:196)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.formatodata' (riga:197)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.idFormatodata' (riga:224)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.formatodata' (riga:225)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.idFormatodata' (riga:252)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.formatodata' (riga:253)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:307)
+* Aggiunto 'evento.interprete.formatodata' (riga:308)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_002.csv : 
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idFormatodata' (riga:50)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.formatodata' (riga:51)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:88)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:89)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:120)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:121)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.idFormatodata' (riga:152)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.formatodata' (riga:153)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.idFormatodata' (riga:180)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.formatodata' (riga:181)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.idFormatodata' (riga:208)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.formatodata' (riga:209)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.idFormatodata' (riga:236)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.formatodata' (riga:237)
+* Aggiunto 'evento.datiEventoUnioneCivile.segretarioComunale.idFormatodata' (riga:309)
+* Aggiunto 'evento.datiEventoUnioneCivile.segretarioComunale.formatodata' (riga:310)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:353)
+* Aggiunto 'evento.interprete.formatodata' (riga:354)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_003.csv : 
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idFormatodata' (riga:50)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.formatodata' (riga:51)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:88)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:89)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:122)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:123)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.idFormatodata' (riga:156)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.formatodata' (riga:157)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.idFormatodata' (riga:184)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.formatodata' (riga:185)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.idFormatodata' (riga:212)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.formatodata' (riga:213)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.idFormatodata' (riga:240)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.formatodata' (riga:241)
+* Aggiunto 'evento.datiEventoUnioneCivile.segretarioComunale.idFormatodata' (riga:306)
+* Aggiunto 'evento.datiEventoUnioneCivile.segretarioComunale.formatodata' (riga:307)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:334)
+* Aggiunto 'evento.interprete.formatodata' (riga:335)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_004.csv : 
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idFormatodata' (riga:51)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.formatodata' (riga:52)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:89)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:90)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:121)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:122)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.idFormatodata' (riga:179)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.formatodata' (riga:180)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.idFormatodata' (riga:207)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.formatodata' (riga:208)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.idFormatodata' (riga:235)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.formatodata' (riga:236)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.idFormatodata' (riga:263)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.formatodata' (riga:264)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:318)
+* Aggiunto 'evento.interprete.formatodata' (riga:319)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_005.csv : 
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.idFormatodata' (riga:50)
+* Aggiunto 'evento.datiEventoUnioneCivile.officianteEvento.formatodata' (riga:51)
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:98)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:99)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:130)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:131)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.idFormatodata' (riga:162)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.formatodata' (riga:163)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.idFormatodata' (riga:190)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.formatodata' (riga:191)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.idFormatodata' (riga:218)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.formatodata' (riga:219)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.idFormatodata' (riga:246)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.formatodata' (riga:247)
+* Aggiunto 'evento.datiEventoUnioneCivile.segretarioComunale.idFormatodata' (riga:319)
+* Aggiunto 'evento.datiEventoUnioneCivile.segretarioComunale.formatodata' (riga:320)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:363)
+* Aggiunto 'evento.interprete.formatodata' (riga:364)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_3.csv : 
+* Aggiunto 'evento.datiAnnotazioneModificativa.soggettoCollegato.idFormatodata' (riga:48)
+* Aggiunto 'evento.datiAnnotazioneModificativa.soggettoCollegato.formatodata' (riga:49)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_999.csv : 
+* Aggiunto 'evento.intestatari[0].idFormatodata' (riga:23)
+* Aggiunto 'evento.intestatari[0].formatodata' (riga:24)
+* Aggiunto 'evento.intestatari[1].idFormatodata' (riga:55)
+* Aggiunto 'evento.intestatari[1].formatodata' (riga:56)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.idFormatodata' (riga:87)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone1.formatodata' (riga:88)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.idFormatodata' (riga:115)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone2.formatodata' (riga:116)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.idFormatodata' (riga:143)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone3.formatodata' (riga:144)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.idFormatodata' (riga:171)
+* Aggiunto 'evento.datiEventoUnioneCivile.testimone4.formatodata' (riga:172)
+
+
 #Changelog mappatura casi uso 1.42.0  
 
 ## Casi uso aggiunti : 0

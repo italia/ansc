@@ -151,6 +151,7 @@
 "12323100","Riconoscimento: Assenso al riconoscimento da parte del figlio ultraquattordicenne","2022-01-01 00:00:00.0","9999-12-31 00:00:00.0","","1"
 "12421200","Riconoscimento: Consenso paterno al riconoscimento materno del figlio infraquattordicenne","2022-01-01 00:00:00.0","9999-12-31 00:00:00.0","","1"
 "12422200","Riconoscimento: Consenso materno al riconoscimento paterno del figlio infraquattordicenne","2022-01-01 00:00:00.0","9999-12-31 00:00:00.0","","1"
+"12422300","Consenso materno al riconoscimento paterno del nascituro","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","","1"
 "12999999","Caso d'uso di servizio riconoscimenti","2022-01-01 00:00:00.0","9999-12-31 00:00:00.0","","1"
 "1311","Trascrizione di nascita: Trascrizione di atto di nascita avvenuta all'estero su richiesta dell'autorita' diplomatica o consolare","2022-01-01 00:00:00.0","9999-12-31 00:00:00.0","","3"
 "1312","Trascrizione di nascita: Trascrizione di atto di nascita avvenuta all estero su richiesta di chi ha interesse alla trascrizione","2022-01-01 00:00:00.0","9999-12-31 00:00:00.0","","3"

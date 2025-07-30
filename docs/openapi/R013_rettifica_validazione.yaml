@@ -27,19 +27,19 @@ paths:
               schema:
                 $ref: '#/components/schemas/ValidazioneRettificaEventoRequest'
        responses:
-        200:
+        '200':
           description: Successo
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/ValidazioneRettificaEventoResponse'
-        403:
+        '403':
           description: Non autorizzato
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/ValidazioneRettificaEventoResponse'
-        404:
+        '404':
           description: Se i dati dello use case non sono presenti in base dati.
           content:
             application/json:
@@ -66,19 +66,19 @@ paths:
             schema:
               $ref: '#/components/schemas/ValidazioneAnnModificativaEventoRequest'
       responses:
-        200:
+        '200':
           description: OK
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/ValidazioneAnnModificativaEventoResponse'
-        400:
+        '400':
           description: Dati non validi
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/ValidazioneAnnModificativaEventoResponse'
-        403:
+        '403':
           description: Accesso non autorizzato
           content:
             application/json:
@@ -124,10 +124,10 @@ components:
                 
     ValidazioneRettificaEventoRequest:
       description: Richiesta del servizio di rettifica
+      required:
+        - evento
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
-          required:
-            - evento
         - type: object
           properties:
             evento:

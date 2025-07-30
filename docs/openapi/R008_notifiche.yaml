@@ -30,19 +30,19 @@ paths:
               $ref: '#/components/schemas/ConfermaNotificaRequest'
       description: Servizio di conferma notifiche di annotazione/trascrizione.
       responses:
-        200:
+        '200':
           description: Successo
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/ConfermaNotificaResponse'
-        400:
+        '400':
           description: Dati in input non validi
           content: 
             application/json: 
              schema: 
                 $ref: '#/components/schemas/ConfermaNotificaResponse'
-        403:
+        '403':
           description: Non autorizzato
           content: 
             application/json: 
@@ -68,19 +68,19 @@ paths:
               schema:
                 $ref: '#/components/schemas/NotificheRicercaRequest'
        responses:
-        200:
+        '200':
           description: Successo
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/NotificheRicercaResponse'
-        403:
+        '403':
           description: Non autorizzato
           content:
             application/json:
               schema:
                  $ref: '#/components/schemas/NotificheRicercaResponse'
-        400:
+        '400':
           description: Se non arrivano valori validi
           content:
             application/json:
@@ -88,7 +88,9 @@ paths:
                  $ref: '#/components/schemas/NotificheRicercaResponse'
       
   /notifiche/getNotificheByEvento/{version}:
+    description: restituzione notifiche per evento
     post:
+      description: restituzione notifiche per evento
       tags:
       - Consultazione notifiche by Evento
       summary: restituzione notifiche per evento
@@ -114,13 +116,13 @@ paths:
               $ref: '#/components/schemas/GetNotificheByEventoRequest'
         required: true
       responses:
-        "200":
+        '200':
           description: Successo
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/GetNotificheByEventoResponse'
-        "403":
+        '403':
           description: Non autorizzato
           content:
             application/json:
@@ -129,6 +131,7 @@ paths:
 
   /notifiche/ricerca-notifiche-anpr/{version}:
     post:
+      description: notifiche ANPR per id evento o id nazionale
       tags:
         - Consultazione notifiche ANPR by Evento
       summary: restituzione notifiche ANPR per id evento o id nazionale unico assegnato dal sistema
@@ -148,13 +151,13 @@ paths:
               $ref: '#/components/schemas/RicercaNotificheAnprRequest'
         required: true
       responses:
-        "200":
+        '200':
           description: Successo
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/RicercaNotificheAnprResponse'
-        "403":
+        '403':
           description: Non autorizzato
           content:
             application/json:
@@ -181,19 +184,19 @@ paths:
               $ref: '#/components/schemas/RifiutaNotificaCoopRequest'
       description: Servizio di rifiuto delle notifiche di annotazione/trascrizione.
       responses:
-        200:
+        '200':
           description: Successo
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/RifiutaNotificaCoopResponse'
-        400:
+        '400':
           description: Dati in input non validi
           content: 
             application/json: 
              schema: 
                 $ref: '#/components/schemas/RifiutaNotificaCoopResponse'
-        403:
+        '403':
           description: Non autorizzato
           content: 
             application/json: 
@@ -361,15 +364,16 @@ components:
           example: 0
         attoCollegato:
           description: atto a cui si riferisce l'annotazione
-          $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelAttoCollegato'
+          allOf:
+            - $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelAttoCollegato'
         attoPrimario:
           description: atto su cui va apposta l'annotazione
-          $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelAttoCollegato'
+          allOf:
+            - $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelAttoCollegato'
         composizioneAnnotazione:
           description: testo annotazione presente sul pdf
           type: string
-          example: 'Con provvedimento del nomeente in ITALIA in data 24/01/2025 n. ABC1234567890, è stata
-omologata la separazione consensuale fra i coniugi di cui atto di matrimonio controscritto.'
+          example: 'Con provvedimento del nomeente in ITALIA in data 24/01/2025 n. ABC1234567890, è stata omologata la separazione consensuale fra i coniugi di cui atto di matrimonio controscritto.'
         idusecase:
           description: Id use case
           type: string
@@ -473,7 +477,7 @@ omologata la separazione consensuale fra i coniugi di cui atto di matrimonio con
             idEvento:
               description: Identificativo dell'evento
               type: string
-              example: 23525
+              example: '23525'
             idAnsc:
               description: Identificativo nazionale unico assegnato dal sistema
               type: string

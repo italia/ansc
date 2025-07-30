@@ -23,6 +23,58 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.43.0 - 31-07-2025]
+
+### Added
+
+- [versione] Aggiunta versione 100025
+- [feature] Consenso materno al riconoscimento paterno di nascituro, di padre con presenza padre (ID 194)
+- [feature] Remind al comune che non ha gestito le notifiche (ID 193)
+- [feature] Aggiunta la funzionalità per gestione data parziale relativa alla data di nascita nelle trascriziona da estero (ID 174)
+- [feature] Estese le comunicazioni anagrafiche se seguito di nota tecnica (ID 190)
+
+### Changed
+
+- estesa versione 1.37 (id versione 100020) al 31 Dicembre 2025.
+- revisione delle specifiche OpenAPI per compliance con le specifiche.
+
+### Fixed
+
+- [WA]: Prefetture gestione chiavette - rimosso controllo delegato nella gestione ridistribuzione chiavette
+- [WA]: Certificati plurilingue - aggiunte le annotazioni registrate con caso d'uso di servizio <https://github.com/italia/ansc/issues/1562>
+- [SC]: UC Cittadinanza - corretti controlli di validazione su eventoCollegato <https://github.com/italia/ansc/issues/1753>
+- [SC]: R005 corretta consultazione soggetto che in alcune circostanze restituiva gli atti raddoppiati <https://github.com/italia/ansc/issues/1665>
+- [SC] Corretta la estione dei caratteri speciali nella minuta dell'atto trasmessa
+- [Tedesco] Sciogl_UnCiv_005 - aggiunta frase in FORM 121.nonies
+- [SC]: Migliorato servizio verifica Allegati <https://github.com/italia/ansc/issues/1701>
+- [WA]: Corretti errori di generazione anteprima e certificati
+- [WA]: Corretto UC Consenso contestuale da parte della madre in riconoscimento figli infraquattodicenne da parte del padre - introdotto flag firmatario per la madre <https://github.com/italia/ansc/issues/1710>
+- [WA]: Corretta nota tecnica <https://github.com/italia/ansc/issues/1717>
+- Corretta annotazione di rettifica errore materiale (errore 500) <https://github.com/italia/ansc/discussions/1711>
+<https://github.com/italia/ansc/issues/1720>
+- [SC]: R013 Corretta annotazione di rettifica per annullamento di un atto (Errore 500) <https://github.com/italia/ansc/issues/1718>
+- [SC]: [344000] Corretto errore validazione accordo di modifica delle condizioni di separazione o divorzio
+- [SC]: aggiornamento documentazione - reso coerente tracciato json italiano e tedesco <https://github.com/italia/ansc/issues/1636>
+- [SC]: corretta incoerenza modelli italiano e tedesco <https://github.com/italia/ansc/issues/1690>
+- [SC]: aggiornamento documentazione - adeguato modelMatrimonioML <https://github.com/italia/ansc/issues/1769>
+- [WA]: Adeguata annotazione di rettifica in caso di atto redatto anche in tedesco <https://github.com/italia/ansc/issues/1692>
+- [WA]: Tedesco - aggiunta traduzuione per la formula 121-nonies
+
+
+- model_evento.yaml
+
+  - Aggiunto il campo mancante provvedimentoEstinzioneOpposizione in ModelMatrimonioM
+
+  - Corretto il campo luogoCelebrazione in ModelMatrimonioML come $ref: '#/components/schemas/ModelLuogoML' erroneamente indicato come string
+
+  - Aggiunto il campo mancante datiRiconoscimento in ModelMatrimoni
+
+  - Aggiunto il campo idFormatodata in ModelSoggetto per la gestione data di nascita (ID 174)
+
+  - Aggiornato il tipo luogoCelebrazione di ModelMatrimonioML da String a ModelLuogoML: <https://github.com/italia/ansc/issues/1690>
+
+  - deprecata proprietà certificato di tipo ModelEnteEsteroML e aggiunta proprietà enteEstero di tipo ModelEnteEsteroML in ModelAttoEsteroML:  <https://github.com/italia/ansc/issues/1667>
+
 ## [1.42.3 - 28-07-2025]
 
 ### Fixed

@@ -1,0 +1,126 @@
+openapi: 3.0.0
+info:
+  title: Servizi cooperativi per il reminder notifiche
+  version: '1.4.0'
+servers:
+  - url: https://anscservice.anpr.interno.it/services/service/val
+    description: Servizio di produzione
+  - url: https://anscservicepre.anpr.interno.it/services/service/val
+    description: Servizio di preproduzione
+  - url: http://localhost:8083
+    description: Servizio mock locale
+paths:
+  /reminder/ricerca/{version}:
+    post:
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string
+      tags:
+        - reminder
+      description: Servizio che ricerca il reminder in base ai criteri elencati
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CriteriRicercaReminder'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ReminderResponse'
+        '400':
+          description: Dati non validi
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ReminderResponse'
+        '403':
+          description: Accesso non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ReminderResponse'
+
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    CriteriRicercaReminder:
+      description: Criteri di ricerca reminder, è sempre implicito il comune dell'utente
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:
+            dataInizio:
+              description: Data inizio pubblicazione del reminder
+              type: string
+              format: date
+              example: '2022-01-01'
+            dataFine:
+              description: Data fine pubblicazione del reminder
+              type: string
+              format: date
+              example: '2022-02-01'
+            idStato:
+              description: Stato  del reminder (decodifica ANSC_124)
+              type: string
+              format: string
+              example: '1'
+
+    ReminderResponse:
+      description: Risposta per il servizio di elenco delle notifiche
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:
+            listaNotifiche:
+              type: array
+              items:
+                $ref: '#/components/schemas/ReminderDTO'
+
+    ReminderDTO:
+      description: Modello dati per le informazioni relative ai reminder
+      properties:
+        id:
+          description: ID del Reminder
+          type: number
+          example: 1
+        idNotifica:
+          description: ID della Notifica oggetto del reminder
+          type: number
+          example: 23562
+        idComune:
+          description: Identificativo del comune di competenza della notifica
+          type: number
+          example: 545
+        dataIns:
+          description: Data inserimento del Reminder
+          type: string
+          format: date
+          example: '2022-05-31'
+        dataUltimoAgg:
+          description: Data ultimo aggiornamento del Reminder
+          type: string
+          format: date
+          example: '2022-05-31'
+        idStato:
+          description: Stato del Reminder (decodifica ANSC_124)
+          type: number
+          example: 1
+        flagNonLetto:
+          description: Flag identificativo della notifica letta (true = Letta / false = nonLetta)
+          type: boolean
+          example: true

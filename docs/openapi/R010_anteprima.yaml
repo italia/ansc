@@ -27,19 +27,19 @@ paths:
             schema:
               $ref: '#/components/schemas/AnteprimaEventoRequest'
       responses:
-        200:
+        '200':
           description: Atto richiesto dalla ricerca
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/AnteprimaEventoResponse'
-        403:
+        '403':
           description: Non autorizzato
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/AnteprimaEventoResponse'
-        400:
+        '400':
           description: Se l'evento non è compatibile con la richiesta. Ad esempio non è in stato CONFERMATO nella richiesta di presa visione senza watermark
           content:
             application/json:
@@ -62,19 +62,19 @@ paths:
             schema:
               $ref: '#/components/schemas/AnteprimaAttestazioneRequest'
       responses:
-        200:
+        '200':
           description: Pdf in formato Base64 dell'attestazione di conformità
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/AnteprimaAttestazioneResponse'
-        403:
+        '403':
           description: Non autorizzato
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/AnteprimaAttestazioneResponse'
-        400:
+        '400':
           description: Se l'evento non è compatibile con la richiesta. Ad esempio non è in stato CONFERMATO nella richiesta di presa visione senza watermark
           content:
             application/json:
@@ -147,7 +147,7 @@ components:
             idEvento:
               type: string
               description: Id dell'atto
-              example: 3425253
+              example: '3425253'
             allegati:
               description: Allegati all'atto con flagAttConformita
               type: array
@@ -193,7 +193,7 @@ components:
             hasAllegatiDaAttestare:
               type: boolean
               description: Flag se a true eseguire l'attestazione di conformità
-              example: "true"
+              example: true
             allegatoOutput:
               $ref: '#/components/schemas/AnteprimaAttestazioneOutput'
     AnteprimaAttestazioneOutput:
