@@ -1,6 +1,7 @@
 #Changelog mappatura casi uso 1.43.0  
 
-## Casi uso aggiunti : 0
+## Casi uso aggiunti : 1
+* riconoscimenti/Rico_021.csv
 
 ## Casi uso rimossi : 0
 
@@ -3610,7 +3611,7 @@
 * Aggiunto 'evento.datiEventoUnioneCivile.testimone4.formatodata' (riga:172)
 
 
-#Changelog mappatura casi uso 1.42.0  
+#Changelog mappatura casi uso 1.42.0   
 
 ## Casi uso aggiunti : 0
 

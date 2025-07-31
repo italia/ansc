@@ -32,6 +32,7 @@ NOTE:
 - [feature] Remind al comune che non ha gestito le notifiche (ID 193)
 - [feature] Aggiunta la funzionalità per gestione data parziale relativa alla data di nascita nelle trascriziona da estero (ID 174)
 - [feature] Estese le comunicazioni anagrafiche se seguito di nota tecnica (ID 190)
+- [casi d'uso] Aggiunto nuovo caso d'uso 1.2.4.2.2.3.0.0 (Rico_021) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE <https://github.com/italia/ansc/issues/1782>
 
 ### Changed
 
