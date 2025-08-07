@@ -23,6 +23,17 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.43.1 - 07-08-2025]
+
+### Changed
+- [feature] Ripristino funzionalità di compilazione della dichiarazione sostitutiva per i piccoli comuni
+
+### Fixed
+- [WA]: Corretto errore nel processo di distribuzione delle chiavette per la prefettura
+- [WA]: Corretto errore in FirmaRemota
+- [WA]: Gestione errore in caso di mancato recupero codice IPA in dichiarazione adesione <https://github.com/italia/ansc/issues/1780> <https://github.com/italia/ansc/issues/1786>
+- [WA]: Corretto errore nella generazione del pacchetto di firme remote
+
 ## [1.43.0 - 31-07-2025]
 
 ### Added
