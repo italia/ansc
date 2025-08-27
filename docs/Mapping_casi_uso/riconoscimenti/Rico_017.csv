@@ -2,7 +2,7 @@
 "Allegati","Copia integrale dell'atto di nascita del figlio che viene riconosciuto","NO","","","","evento.datiEventoRiconoscimento.attoNascita.idComuneRegistrazione,!=,evento.idComuneRegistrazione"
 "Allegati","Copia integrale dell'atto di nascita del dichiarante","SI","","","",""
 "Allegati","Copia integrale dell'atto di nascita dell'altro genitore","SI","","","",""
-"Allegati","Copia dell'atto di assenso del figlio","SI","","","",""
+"Allegati","Copia dell'atto di assenso del figlio","NO","","","","evento.datiEventoRiconoscimento.assensoFiglio,=,2"
 "Allegati","Autorizzazione del tribunale","NO","","","",""
 "Formula","107","SI","","","",""
 "Formula","194","NO","","","",""

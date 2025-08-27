@@ -74,7 +74,7 @@
 "Madre","Indirizzo di residenza","NO","evento.madre","indirizzoResidenza","","obbligatoria"
 "Madre","flag dichiarante","SI","evento.madre","flagDichiarante","","obbligatoria"
 "Madre","flag comparente","SI","evento.madre","flagComparente","","obbligatoria"
-"Madre","flag firmatario","SI","evento.madre","flagFirmatario","","obbligatoria"
+"Madre","Firmatario","NO","evento.madre","flagFirmatario","","obbligatoria"
 "Madre","Provincia AIRE","NO","evento.madre","idProvinciaAIRE","","obbligatoria"
 "Madre","Provincia AIRE - Descrizione","NO","evento.madre","siglaProvinciaAIRE","","obbligatoria"
 "Madre","Comune AIRE","NO","evento.madre","idComuneAIRE","","obbligatoria"

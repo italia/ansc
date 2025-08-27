@@ -106,7 +106,7 @@
 "Padre","Indirizzo di residenza","NO","evento.padre","indirizzoResidenza","109","opzionale"
 "Padre","flag dichiarante","SI","evento.padre","flagDichiarante","","opzionale"
 "Padre","flag comparente","SI","evento.padre","flagComparente","","opzionale"
-"Padre","flag firmatario","SI","evento.padre","flagFirmatario","","opzionale"
+"Padre","Firmatario","NO","evento.padre","flagFirmatario","109","opzionale"
 "Padre","Provincia AIRE","NO","evento.padre","idProvinciaAIRE","","opzionale"
 "Padre","Provincia AIRE - Descrizione","NO","evento.padre","siglaProvinciaAIRE","109","opzionale"
 "Padre","Comune AIRE","NO","evento.padre","idComuneAIRE","","opzionale"

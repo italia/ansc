@@ -72,7 +72,7 @@
 "Madre","Indirizzo di residenza","NO","evento.madre","indirizzoResidenza","109","obbligatoria"
 "Madre","flag dichiarante","SI","evento.madre","flagDichiarante","","obbligatoria"
 "Madre","flag comparente","SI","evento.madre","flagComparente","","obbligatoria"
-"Madre","flag firmatario","SI","evento.madre","flagFirmatario","","obbligatoria"
+"Madre","Firmatario","NO","evento.madre","flagFirmatario","109","obbligatoria"
 "Madre","Provincia AIRE","NO","evento.madre","idProvinciaAIRE","","obbligatoria"
 "Madre","Provincia AIRE - Descrizione","NO","evento.madre","siglaProvinciaAIRE","109","obbligatoria"
 "Madre","Comune AIRE","NO","evento.madre","idComuneAIRE","","obbligatoria"

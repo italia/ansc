@@ -3317,7 +3317,7 @@ components:
           items:
             $ref: '#/components/schemas/ModelSoggettoML'
         enteDichiarante:
-          $ref: '#/components/schemas/ModelSoggettoML'
+          $ref: '#/components/schemas/ModelEnteEsteroML'
         ufficialeStatoCivile:
           $ref: '#/components/schemas/ModelSoggettoML'
         madre:

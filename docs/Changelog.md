@@ -23,6 +23,27 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.43.2 - 28-08-2025]
+
+### Fixed
+
+- [SC/WA] Eliminazione del controllo di atto anomalo per gli atti di nascita e riconoscimenti omogenitoriali di due mamme
+- [SC/WA]: Caso d'uso riconciliazione matrimonio (codice 350000): correzione della configurazione errata relativa ai certificati emessi, è stata eliminata la possibilità di emettere certificati semplici ed estratti per riassunto ma solo l'estratto intergrale come da normativa  <https://github.com/italia/ansc/issues/1771>
+- [WA] - [3.4.1.0.0.0] Accordo di separazione personale dei coniugi aggiunti gli avvocati come firmatari
+- Completare le casistiche sfuggite: flag firmatario per genitore che presta consenso contestuale
+- Trascrizione attestazione consolare perdita cittadinanza italiana
+- [SC]: Consultazione Soggetti -eliminati gli Atti in stato "CANCELLATO" impropriamente presenti nella lista degli eventi collegati <https://github.com/italia/ansc/issues/1779>
+- Matrimonio : nota tecnica per modifica il flag firmatario su officiante
+- [WA]: L'annotazione proposta per annotare il divorzio sul matrimonio contiene un refuso <https://github.com/italia/ansc/issues/1832>
+- Verifica IDANSC servizio di validazione [SC]: IdAnsc non valido <https://github.com/italia/ansc/issues/1834>
+- [WA]: 'Tipo firma' dichiarante non editabile ticket 05329712 <https://github.com/italia/ansc/issues/1835>
+- [SC]: Problema nella verifica allegato "Copia dell'atto di assenso del figlio" - caso d'uso Rico_017 - codice 12226123 <https://github.com/italia/ansc/issues/1827>
+- [SC]: incongruenze tracciato ML e italiano <https://github.com/italia/ansc/issues/1823>
+- Gestione hash allegati <https://github.com/italia/ansc/issues/1766>
+
+- model_evento.yaml
+  - Corretto il campo enteDichiarante in ModelDatiLingua come $ref: '#/components/schemas/ModelEnteEsteroML' erroneamente indicato come '#/components/schemas/ModelSoggettoML'
+
 ## [1.43.1 - 07-08-2025]
 
 ### Changed
