@@ -1,3 +1,10 @@
+#Changelog mappatura casi uso 1.43.3  
+
+## Casi uso aggiunti : 2
+* trascrizioni/Trascr_035.csv
+* trascrizioni/Trascr_036.csv
+
+
 #Changelog mappatura casi uso 1.43.2  
 
 ## Casi uso aggiunti : 0

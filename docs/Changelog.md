@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.43.3 - 01-09-2025]
+
+### Fixed
+
+- documentazione, mapping mancante per casi d'uso [1.3.3.4] (Trascr_035) e [1.3.3.5] (Trascr_036) <https://github.com/italia/ansc/discussions/1852>
+
 ## [1.43.2 - 28-08-2025]
 
 ### Fixed
