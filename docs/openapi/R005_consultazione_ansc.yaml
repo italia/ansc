@@ -251,7 +251,7 @@ components:
          example: "true"
         flagRettifica:
          type: string
-         description: flag per cercare l'ultima rettifica
+         description: flag per cercare l'ultima rettifica ( utilizzabile solo in presenza di idEvento / IdAnsc )
          example: "true"
         idComuneRegistrazione:
           type: string

@@ -23,6 +23,24 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.43.4 - 17-09-2025]
+
+### Fixed
+
+- [SC/WA] Corretto testo annotazione automatica di nascita, a seguito di un atto di unione civile: nello specifico è stato corretto il luogo di unione civile erroneamente riportato come luogo di rilascio certificazione anziché come luogo di celebrazione <https://github.com/italia/ansc/issues/1822>
+- [SC/WA] Corretto il formato di presentazione degli stati esteri in tutti i certificati del registro morte: nello specifico il formato sarà corrretto da STATO_ESTERO (localitaEsteraNascita) a localitaEsteraNascita(STATO_ESTERO)  <https://github.com/italia/ansc/issues/1872>
+- [SC/WA] Corretta l’anteprima atto in caso di data parziale relativa alla data di nascita nelle trascrizione da estero (ID 174)  <https://github.com/italia/ansc/issues/1862>
+- [SC/WA]: Corretto caso d'uso 12226123 nella verifica allegato "Copia dell'atto di assenso del figlio": corretto il messaggio di errore in caso di invio atto di assenso non necessario per figlio minorenne <https://github.com/italia/ansc/issues/1890>
+- [SC/WA] Corretto il caso d'uso 444000 Conferma dell'accordo di scioglimento dell'unione civile tra persone dello stesso sesso: resa opzionale la data formazione dell'atto di unione civile nella apposita sezione dati <https://github.com/italia/ansc/issues/1869>
+- [R005] Corretto servizio di consultazione per estrarre gli eventi aggiornati: nello specifico è stato migliorato il messaggio di errore in caso venga utilizzato il filtro di ricerca per ottenere eventi rettificati in associazione ai filtri generici  <https://github.com/italia/ansc/discussions/1885>
+- [SC] Corretto errore "Mancata attestazione di conformità degli allegati.": nello specifico è stato corretto il flusso di gestione della conformità degli allegati, per consentire di evitare lo step di firma dell'attestazione di conformità nel caso di allegati già conformi; la gestione della conformità degli allegati è consentita per eventi validati con versioni dalla 100022 compresa e successive; è stato corretto il messaggio restituito dal servizio di anteprima attestazione conformità in caso di eventi validati con versione antecedente alla 100022 <https://github.com/italia/ansc/discussions/1863>
+- [SC/WA] Esteso controllo del codice fiscale in modo che il sistema accetti non solo quello alfanumerico ma anche quello numerico provvisorio
+- Cruscotto per le prefetture per la distribuzione delle chiavette: corretta la consultazione degli utenti che hanno richiesto l'otp su chiavetta
+- Dichiarazione sostituitiva: corretta gestione dei comuni storici
+
+- R005_consultazione_ansc.yaml
+  - Aggiornata la descrizione del campo flagRettifica in "flag per cercare l'ultima rettifica ( utilizzabile solo in presenza di idEvento / IdAnsc )"
+
 ## [1.43.3 - 01-09-2025]
 
 ### Fixed
