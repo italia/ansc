@@ -12,6 +12,7 @@
 "Formazione atto","Ora formazione","SI","evento","ora","","obbligatoria"
 "Formazione atto","Minuti formazione","SI","evento","minuto","","obbligatoria"
 "Accordo di negoziazione assistita","Data formazione documento","SI","evento.negoziazioneAssistita.accordo","dataTrascrizione","","obbligatoria"
+"Accordo di negoziazione assistita","Data stipula accordo","SI","evento.negoziazioneAssistita","dataStipulaAccordo","","obbligatoria"
 "Accordo di negoziazione assistita","Testo da trascrivere","SI","evento.negoziazioneAssistita","testoTrascrizione","","obbligatoria"
 "Atto Nascita Sposo","Provincia registrazione","NO","evento.datiEventoMatrimonio.attoNascitaSposo","idProvinciaRegistrazione","","obbligatoria"
 "Atto Nascita Sposo","Provincia registrazione - Descrizione","NO","evento.datiEventoMatrimonio.attoNascitaSposo","siglaProvinciaRegistrazione","","obbligatoria"

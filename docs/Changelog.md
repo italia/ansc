@@ -23,6 +23,71 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.44.0 - 30-09-2025]
+
+### Added
+
+- [versione] Aggiunta versione 100026
+- [feature] Nuovo caso d'uso 2.2.1.5 Trascrizione di morte su avviso di pubblica autorita' (ID 199)
+- [feature] Nuovo caso d'uso 4.4.4.0.0.0 Conferma dell'accordo di scioglimento dell'unione civile tra persone dello stesso sesso (ID 175) <https://github.com/italia/ansc/issues/1114>
+- [feature] Nuovi caso d'uso per Trascrizione atti prodotti con documentazione fornita dalla struttura sanitaria (ID 144.a DM nascita e morte)
+- [feature] Aggiunto servizio R022 per la consultazione dei documenti provenienti da strutture sanitarie (ID 144.a DM nascita e morte)
+- [feature] Nuovo caso d'uso Annotazione di sentenza proveniente da tribunale italiano: 3.6.5.6.9.9 Acquisizione sentenza di divorzio da tribunale italiano (ID 156) <https://github.com/italia/ansc/issues/1224>
+- [feature] Servizio di auslio per disassociazione annotazioni da atto, disponibile solo da Web App ANSC (ID 202)
+- [feature] Trascrizione Decreto cittadinanza con firma in differita del sindaco o altro delegato: aggiunta la sezione officiante opzionale <https://github.com/italia/ansc/issues/1530> (ID 203)
+- [feature] Nuovo caso d'uso Trascrizione provvedimento straniero cambio sesso e generazione annotazione automatiche (ID 152) <https://github.com/italia/ansc/issues/1133>
+- Aggiornamento al multilinguismo dei nuovi casi d'uso previsti nelle ultime versioni rilasciate: allineamento alla 1.43.0
+- Attestazione conformità multilingua in tedesco
+- Servizi per richiesta certificati per figli minori da sportello al cittadino (step servizi di integrazione ANSC / Sportello al cittadino) (ID 168)
+
+### Mapping
+- [casi d'uso] Aggiunto nuovo caso d'uso 2.2.1.5 (Morte_018) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 199)
+- [casi d'uso] Aggiunto nuovo caso d'uso 1.3.5.6 (Trascr_034) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 152) <https://github.com/italia/ansc/issues/1133>
+- [casi d'uso] Aggiunto nuovo caso d'uso 4.4.7.0.0.0 (Sciogl_UnCiv_007) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 175)
+- [casi d'uso] Aggiunto nuovo caso d'uso 3.6.5.6.9.9 (Matr_023) (ID 156)
+- [casi d'uso] Aggiunto nuovo caso d'uso 1.3.1.8 (Trascr_037) (ID 144.a)
+- [casi d'uso] Aggiunto nuovo caso d'uso 2.1.0.5  (Morte_016) (ID 144.a)
+- [casi d'uso] Aggiunto nuovo caso d'uso 2.1.0.6  (Morte_017) (ID 144.a)
+- [decodifiche], pubblicazione sul repository della tabella ANSC_126, ANSC_127, ANSC_128 e ANSC_129
+
+### Fixed
+
+- [3.4.3.0.0.0] Conferma di accordo di separazione o divorzio: inserita l'opzione avvocato unico per entrambe le parti <https://github.com/italia/ansc/issues/1701> <https://github.com/italia/ansc/issues/1714>
+- [SC]: Trascrizione unione civile: corretto certificato per mostrare il riferimento all'atto originario <https://github.com/italia/ansc/issues/1789>
+- [WA/SC]: 1.1.4.1.1.0.1.0 Dichiarazione fuori del matrimonio nei termini di legge resa dal padre, di bimbo riconosciuto da entrambi i genitori prima della nascita: previsto un secondo allegato opzionale di atto di pre riconoscimento dell'altro genitore <https://github.com/italia/ansc/issues/1791>
+- [SC/WA]: Trascrizione atto di morte all'estero: corretto errore interno di validazione  <https://github.com/italia/ansc/issues/1814>
+- [SC/WA]: 400003 - Attenzione! Il comune non risulta essere valido: migliorato messaggio restituito <https://github.com/italia/ansc/issues/1837>
+- [WA/SC]: Corretto caso d'uso accordo di separazione/divorzio con interprete <https://github.com/italia/ansc/issues/1840>
+- [SC]: Corretto errore validazione atto (usecase 311121 - MATR_009) <https://github.com/italia/ansc/issues/1848>
+- [SC/WA]: Atto di riconoscimento 12221422: aggiunto metadato attoNascitaNonTrascritto per dichiarare l'assenza dell'atto di nascita dell'intestatario <https://github.com/italia/ansc/issues/1797>
+- [SC/WA]: Riconoscimento paterno di figlio infraquattordicenne già riconosciuto dalla madre: reso opazionale l'allegato atto di nascita <https://github.com/italia/ansc/issues/1821>
+- [SC/WA]: Trascrizione del decreto prefettizio o sentenza di cambiamento del nome e cognome su richiesta dell'autorita' pubblica o consolare: aggiunto metadato attoNascitaNonTrascritto per dichiarare l'assenza dell'atto di nascita dell'intestatario <https://github.com/italia/ansc/issues/1825>
+- [SC/WA]: Accordo di negoziazione assistita ex art.: aggiunto metadato data di stipula dell'accordo utilizzato nelle annotazioni automatiche generate <https://github.com/italia/ansc/issues/1902>
+- [SC]: Riconciliazione Soggetti: gestione delle annotazioni automatiche generate da atti di soggetti riconciliati <https://github.com/italia/ansc/issues/1912>
+- Miglioramento documentazione: descritto cosa si intende per atto collegato negli atti di cittadinanza <https://github.com/italia/ansc/issues/1918>
+- Corretto estratto per riassunto unione civile: eliminata duplicazione del comune nella frase finale dell'estratto <https://github.com/italia/ansc/issues/1943>
+- [SC]: 433000 Trascrizione sentenze straniere di unione civile: corretta la presa visione del dichiarante nlla firma digitale <https://github.com/italia/ansc/issues/1901>
+- Aggiornamento documentazione: data evento formato non corretto <https://github.com/italia/ansc/issues/1922>
+- [SC]: Corretto errore Server 500 invio annotazione 14750000 <https://github.com/italia/ansc/issues/1866>
+- Certificati internazionali: consentire inserimento manuale della data decorrenza annotazione <https://github.com/italia/ansc/issues/1798>,<https://github.com/italia/ansc/issues/1916>,<https://github.com/italia/ansc/issues/1923>
+- Controllo di verifica dell'atto collegato nei casi d'uso di cittadinanza e in altri casi d'uso di altri registri <https://github.com/italia/ansc/issues/1918>
+- [WA]: Correzione allegati errati: corretta impossibilità di sostituire il Processo verbale <https://github.com/italia/ansc/issues/1874> <https://github.com/italia/ansc/issues/1935> <https://github.com/italia/ansc/issues/1956>
+- [WA]: Correttive ai cruscotti di monitoraggio per le prefetture
+
+### model_evento.yaml
+
+- Aggiunta proprietà "avvocatoUnico" di tipo boolean in ModelSeparazione
+- Aggiunta proprietà "dataStipulaAccordo" di tipo string e formato date in ModelNegoziazioneAssistita
+- Aggiunta proprietà "attoNascitaNonTrascritto" di tipo boolean in ModelAttoCollegato
+- Aggiornata la description per il campo eventoCollegato in ModelEvento come segue "Per il registro di cittadinanza, per atto collegato si intende quello di nascita.
+- Corretta proprietà "assensoReso": rimossa dalla description "-- DEPRECATO -- Usare assensoAtto
+- Aggiunta proprietà "confermaAccordoScioglimento" di tipo ModelAttoCollegato in ModelScioglimentoUnioneCivile
+- Aggiunta proprietà "avvocatoUnico" di tipo boolean in ModelScioglimentoUnioneCivile
+- Aggiunta proprietà "modificaAccordo" di tipo string in ModelScioglimentoUnioneCivile
+- Aggiunta proprietà "provvedimentoScioglimento" di tipo ModelEnteDichiarante in ModelScioglimentoUnioneCivile
+- Aggiunta proprietà "tipoProvvedimentoScioglimento" di tipo string in ModelScioglimentoUnioneCivile
+- Aggiunta proprietà "tipoProvvedimentoScioglimento" di tipo string in ModelScioglimentoUnioneCivile
+
 ## [1.43.4 - 17-09-2025]
 
 ### Fixed

@@ -1,0 +1,1233 @@
+openapi: 3.0.3
+info:
+  title: Servizio consultazione documenti DMNM da TS
+  version: '1.44.0'
+servers:
+  - url: https://anscservice.anpr.interno.it/services/service/ricerca
+    description: Servizio di produzione
+  - url: https://anscservicepre.anpr.interno.it/services/service/ricerca
+    description: Servizio di preproduzione
+  - url: http://localhost:8088
+    description: Servizio mock locale
+
+tags:
+- name: Consultazione documento DMNM service
+  description: Consultazione documenti DMNM provenienti da TS
+paths:
+  /dmnm/documento/ricerca/{version}:
+    post:
+      tags:
+      - Consultazione documento DMNM service
+      summary: Consultazione documenti dmnm
+      operationId: ricercaDocumento
+      description: Ricerca di tutti i documenti provenienti da TS presnti
+      parameters:
+      - name: version
+        in: path
+        description: La versione del servizio invocato
+        required: true
+        schema:
+          type: string
+      requestBody:
+        description: Filtri per la ricerca dei documenti dmnm
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RicercaDmnmDocumentoRequest'
+        required: true
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RicercaDmnmDocumentoResponse'
+        "400":
+          description: ""
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RicercaDmnmDocumentoResponse'
+        "403":
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RicercaDmnmDocumentoResponse'
+  /dmnm/documento/{version}:
+    post:
+      tags:
+      - Consultazione documento DMNM service
+      summary: Consultazione singolo documento dmnm
+      operationId: getDocumento
+      description: Ricerca di un documento da TS
+      parameters:
+      - name: version
+        in: path
+        description: La versione del servizio invocato
+        required: true
+        schema:
+          type: string
+      requestBody:
+        description: id per la ricerca del documento dmnm
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DettaglioDmnmDocumentoRequest'
+        required: true
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DettaglioDmnmDocumentoResponse'
+        "400":
+          description: ""
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DettaglioDmnmDocumentoResponse'
+        "403":
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DettaglioDmnmDocumentoResponse'
+components:
+  schemas:
+    Anagrafica:
+      type: object
+      properties:
+        cognome:
+          type: string
+        nome:
+          type: string
+        sesso:
+          type: string
+        codiceFiscale:
+          type: string
+        codiceFiscaleNonAssegnato:
+          type: string
+        etaPresunta:
+          type: string
+        dataNascita:
+          type: string
+        oraNascita:
+          type: string
+        codiceFiscaleMadre:
+          type: string
+        codiceFiscaleNonAssegnatoMadre:
+          type: string
+        codiceFiscalePadre:
+          type: string
+        codiceFiscaleNonAssegnatoPadre:
+          type: string
+    AttestazioneNascitaOutput:
+      type: object
+      properties:
+        datiGenerali:
+          $ref: '#/components/schemas/DatiGeneraliNascita'
+        datiAttestazioneNascita:
+          $ref: '#/components/schemas/DatiAttestazioneNascita'
+        numeroRicezione:
+          type: string
+        codMittente:
+          type: string
+    AttoMorte:
+      type: object
+      properties:
+        numero:
+          type: string
+        parte:
+          $ref: '#/components/schemas/ParteAttoMorte'
+        serie:
+          $ref: '#/components/schemas/SerieAttoMorte'
+    AvvisoDecessoOutput:
+      type: object
+      properties:
+        datiGenerali:
+          $ref: '#/components/schemas/DatiGeneraliMorte'
+        datiAvvisoDecesso:
+          $ref: '#/components/schemas/DatiAvvisoDecesso'
+        numeroRicezione:
+          type: string
+        codMittente:
+          type: string
+    CausaMorte:
+      type: object
+      properties:
+        patologiePrincipali:
+          type: array
+          items:
+            $ref: '#/components/schemas/PatologiaTrauma'
+        patologieSecondarie:
+          type: array
+          items:
+            $ref: '#/components/schemas/PatologiaTrauma'
+        eventoTraumatismo:
+          type: string
+        modalitaTraumatismo:
+          $ref: '#/components/schemas/TipoModalitaTraumatismo'
+        incidenteDaTrasporto:
+          $ref: '#/components/schemas/Incidente'
+        dataEvento:
+          $ref: '#/components/schemas/TipoDataEvento'
+        luogoEvento:
+          $ref: '#/components/schemas/TipoLuogoEvento'
+
+    CertificatoNecroscopicoOutput:
+      type: object
+      properties:
+        datiGenerali:
+          $ref: '#/components/schemas/DatiGeneraliMorte'
+        datiCertificatoNecroscopico:
+          $ref: '#/components/schemas/DatiCertificatoNecroscopico'
+        numeroRicezione:
+          type: string
+        codMittente:
+          type: string
+    Cittadinanza:
+      type: object
+      properties:
+        tipoCittadinanza:
+          format: int32
+          type: integer
+        NomeStatoEsteroCittadinanza:
+          type: string
+        CodiceStatoEsteroCittadinanza:
+          type: string
+    CittadinanzaOutput:
+      type: object
+      properties:
+        tipoCittadinanza:
+          format: int32
+          type: integer
+        NomeStatoEsteroCittadinanza:
+          type: string
+        CodiceStatoEsteroCittadinanza:
+          type: string
+    Comune:
+      type: object
+      properties:
+        codiceIstat:
+          type: string
+        descrizione:
+          type: string
+        circoscrizione:
+          type: string
+    CriteriRicercaDmnmDocumento:
+      type: object
+      properties:
+        numeroRicezione:
+          description: Numero ricezione
+          type: number
+          example: 123
+        idTipoDocumento:
+          description: Id del tipo documento decodifica #ANSC_129
+          type: number
+          example: 1
+        idStatoDocumento:
+          description: Id stato documento
+          type: number
+          example: 1
+        dataRicezioneInizio:
+          description: Data ricezione minima di ricerca del docuemnto
+          type: string
+          example: 2014-11-14
+        dataRicezioneFine:
+          description: Data riceazione massima di ricerca del documento
+          type: string
+          example: 2014-12-14
+        nomeIntestatario:
+          description: Nome intestatario documento
+          type: string
+          example: Mario
+        cognomeIntestatario:
+          description: Cognome intestatario documento
+          type: string
+          example: Rossi
+    Date:
+      format: date
+      type: string
+      example: 2022-03-10
+    DatiAttestazioneNascita:
+      type: object
+      properties:
+        anonimato:
+          type: number
+        flagPuerpera:
+          type: number
+        codiceFiscalePuerpera:
+          type: string
+        codiceFiscaleNonAssegnato:
+          type: string
+        cognomePuerpera:
+          type: string
+        nomePuerpera:
+          type: string
+        dataNascitaPuerpera:
+          type: string
+        comuneNascitaPuerpera:
+          $ref: '#/components/schemas/TipoComuneStato'
+        cittadinanzaPuerpera:
+          type: array
+          items:
+            $ref: '#/components/schemas/Cittadinanza'
+        residenzaPuerpera:
+          $ref: '#/components/schemas/TipoResidenza'
+        statoCivilePuerpera:
+          format: int32
+          type: integer
+        genereParto:
+          type: number
+        numeroMaschi:
+          format: int32
+          type: integer
+        numeroFemmine:
+          format: int32
+          type: integer
+        DatiBambino:
+          type: array
+          items:
+            $ref: '#/components/schemas/DatiBambino'
+    DatiAttestazioneNascitaOutput:
+      type: object
+      properties:
+        anonimato:
+          type: number
+        flagPuerpera:
+          type: number
+        codiceFiscalePuerpera:
+          type: string
+        codiceFiscaleNonAssegnato:
+          type: string
+        cognomePuerpera:
+          type: string
+        nomePuerpera:
+          type: string
+        dataNascitaPuerpera:
+          type: string
+        comuneNascitaPuerpera:
+          $ref: '#/components/schemas/TipoComuneStato'
+        cittadinanzaPuerpera:
+          type: array
+          items:
+            $ref: '#/components/schemas/CittadinanzaOutput'
+        residenzaPuerpera:
+          $ref: '#/components/schemas/TipoResidenza'
+        statoCivilePuerpera:
+          format: int32
+          type: integer
+        genereParto:
+          type: number
+        numeroMaschi:
+          format: int32
+          type: integer
+        numeroFemmine:
+          format: int32
+          type: integer
+        datiBambino:
+          type: array
+          items:
+            $ref: '#/components/schemas/DatiBambino'
+    DatiAttoMorte:
+      type: object
+      properties:
+        sesso:
+          type: string
+        codiceFiscale:
+          type: string
+        codiceFiscaleNonAssegnato:
+          type: string
+        attoMorte:
+          $ref: '#/components/schemas/AttoMorte'
+        provincia:
+          $ref: '#/components/schemas/Provincia'
+        comune:
+          $ref: '#/components/schemas/Comune'
+    DatiAvvisoDecesso:
+      type: object
+      properties:
+        codiceFiscaleDefunto:
+          type: string
+        codiceFiscaleNonAssegnato:
+          type: string
+        cognomeDefunto:
+          type: string
+        nomeDefunto:
+          type: string
+        dataNascitaDefunto:
+          type: string
+        comuneNascitaDefunto:
+          $ref: '#/components/schemas/TipoComuneStato'
+        tipoComuneNascita:
+          format: int32
+          type: integer
+        residenzaDefunto:
+          $ref: '#/components/schemas/TipoResidenza'
+        sessoDefunto:
+          type: string
+        statoCivileDefunto:
+          format: int32
+          type: integer
+        cittadinanzaDefunto:
+          type: array
+          items:
+            $ref: '#/components/schemas/Cittadinanza'
+    DatiAvvisoDecessoOutput:
+      type: object
+      properties:
+        codiceFiscaleDefunto:
+          type: string
+        codiceFiscaleNonAssegnato:
+          type: string
+        cognomeDefunto:
+          type: string
+        nomeDefunto:
+          type: string
+        dataNascitaDefunto:
+          type: string
+        comuneNascitaDefunto:
+          $ref: '#/components/schemas/TipoComuneStato'
+        tipoComuneNascita:
+          format: int32
+          type: integer
+        residenzaDefunto:
+          $ref: '#/components/schemas/TipoResidenza'
+        sessoDefunto:
+          type: string
+        statoCivileDefunto:
+          format: int32
+          type: integer
+        cittadinanzaDefunto:
+          type: array
+          items:
+            $ref: '#/components/schemas/CittadinanzaOutput'
+    DatiBambino:
+      type: object
+      properties:
+        ordineNascita:
+          format: int32
+          type: integer
+        dataNascitaBambino:
+          type: string
+        oraNascitaBambino:
+          type: string
+        sessoBambino:
+          type: string
+        vitalita:
+          format: int32
+          type: integer
+    DatiBambinoDichiarazione:
+      type: object
+      properties:
+        ordineNascita:
+          format: int32
+          type: integer
+        cognomeBambino:
+          type: string
+        nomeBambino:
+          type: string
+        filiazione:
+          format: int32
+          type: integer
+        dataNascitaBambino:
+          type: string
+        oraNascitaBambino:
+          type: string
+        sessoBambino:
+          type: string
+        residenzaBambino:
+          $ref: '#/components/schemas/TipoResidenza'
+    DatiCertificatoNecroscopico:
+      type: object
+      properties:
+        codiceFiscaleDefunto:
+          type: string
+        codiceFiscaleNonAssegnato:
+          type: string
+        cognomeDefunto:
+          type: string
+        nomeDefunto:
+          type: string
+        dataNascitaDefunto:
+          type: string
+        sessoDefunto:
+          type: string
+        statoCivileDefunto:
+          format: int32
+          type: integer
+        comuneNascitaDefunto:
+          $ref: '#/components/schemas/TipoComuneStato'
+        tipoComuneNascita:
+          format: int32
+          type: integer
+        residenzaDefunto:
+          $ref: '#/components/schemas/TipoResidenza'
+        cittadinanzaDefunto:
+          type: array
+          items:
+            $ref: '#/components/schemas/Cittadinanza'
+        cittadinanzaNonDisponibile:
+          type: string
+        dataVisita:
+          type: string
+        oraVisita:
+          type: string
+        luogoVisita:
+          type: string
+        impossibileStimareOra:
+          type: string
+        noteImpossibileStimareOra:
+          type: string
+        modalitaRilievo:
+          type: string
+        termineSepoltura:
+          format: int32
+          type: integer
+        DichiarazioneMedicoNecroscopico:
+          type: string
+        flagcremazione:
+          type: number
+    DatiDichiaranteOutput:
+      type: object
+      properties:
+        codiceFiscaleDichiarante:
+          type: string
+        codiceFiscaleNonAssegnato:
+          type: string
+        cognomeDichiarante:
+          type: string
+        nomeDichiarante:
+          type: string
+        dataNascitaDichiarante:
+          type: string
+        sessoDichiarante:
+          type: string
+        comuneNascitaDichiarante:
+          $ref: '#/components/schemas/TipoComuneStato'
+        residenzaDichiarante:
+          $ref: '#/components/schemas/TipoResidenza'
+        QualitaDichiarante:
+          format: int32
+          type: integer
+    DatiDichiarazioneNascitaOutput:
+      type: object
+      properties:
+        datiDichiarante:
+          $ref: '#/components/schemas/DatiDichiaranteOutput'
+        datiMadre:
+          $ref: '#/components/schemas/DatiMadreOutput'
+        datiPadre:
+          $ref: '#/components/schemas/DatiPadreOutput'
+        datiBambino:
+          type: array
+          items:
+            $ref: '#/components/schemas/DatiBambinoDichiarazione'
+    DatiGeneraliMorte:
+      type: object
+      properties:
+        codiceFiscaleSoggetto:
+          type: string
+        codiceFiscaleNonAssegnato:
+          type: string
+        cognomeSoggetto:
+          type: string
+        nomeSoggetto:
+          type: string
+        codiceRegione:
+          type: number
+        codiceASL:
+          type: number
+        codiceStruttura:
+          type: number
+        ruolo:
+          format: int32
+          type: integer
+        codiceFiscaleStruttura:
+          type: string
+        denominazione:
+          type: string
+        luogoDecesso:
+          $ref: '#/components/schemas/LuogoDecesso'
+        comuneDecesso:
+          $ref: '#/components/schemas/TipoComuneDecesso'
+        tipologiaDocumento:
+          $ref: '#/components/schemas/TipologiaDocumento'
+        numeroRicezione:
+          format: int32
+          type: integer
+        dataEmissione:
+          type: string
+        dataDecesso:
+          type: string
+        oraDecesso:
+          type: string
+    DatiGeneraliNascita:
+      type: object
+      properties:
+        codiceFiscaleSoggetto:
+          type: string
+        codiceFiscaleNonAssegnato:
+          type: string
+        cognomeSoggetto:
+          type: string
+        nomeSoggetto:
+          type: string
+        codiceRegione:
+          type: number
+        codiceASL:
+          type: number
+        codiceStruttura:
+          type: number
+        ruolo:
+          format: int32
+          type: integer
+        codiceFiscaleStruttura:
+          type: string
+        denominazione:
+          type: string
+        tipologiaDocumento:
+          $ref: '#/components/schemas/TipologiaDocumento'
+        luogoParto:
+          format: int32
+          type: integer
+        comuneNascita:
+          $ref: '#/components/schemas/TipoComuneStato'
+        indirizzoNascita:
+          type: string
+        comuneDestinazioneAtto:
+          $ref: '#/components/schemas/TipoComuneStato'
+        numeroRicezione:
+          format: int32
+          type: integer
+        dataEmissione:
+          type: string
+    DatiMadreOutput:
+      type: object
+      properties:
+        codiceFiscaleMadre:
+          type: string
+        codiceFiscaleNonAssegnato:
+          type: string
+        cognomeMadre:
+          type: string
+        nomeMadre:
+          type: string
+        dataNascitaMadre:
+          type: string
+        sessoMadre:
+          type: string
+        comuneNascitaMadre:
+          $ref: '#/components/schemas/TipoComuneStato'
+        cittadinanzaMadre:
+          type: array
+          items:
+            $ref: '#/components/schemas/CittadinanzaOutput'
+        residenzaMadre:
+          $ref: '#/components/schemas/TipoResidenza'
+        statoCivileMadre:
+          format: int32
+          type: integer
+    DatiPadreOutput:
+      type: object
+      properties:
+        codiceFiscalePadre:
+          type: string
+        codiceFiscaleNonAssegnato:
+          type: string
+        cognomePadre:
+          type: string
+        nomePadre:
+          type: string
+        dataNascitaPadre:
+          type: string
+        sessoPadre:
+          type: string
+        comuneNascitaPadre:
+          $ref: '#/components/schemas/TipoComuneStato'
+        cittadinanzaPadre:
+          type: array
+          items:
+            $ref: '#/components/schemas/CittadinanzaOutput'
+        residenzaPadre:
+          $ref: '#/components/schemas/TipoResidenza'
+        statoCivilePadre:
+          format: int32
+          type: integer
+    DatiPaginazione:
+      type: object
+      properties:
+        numPagina:
+          format: int32
+          type: integer
+        numRecordPagina:
+          format: int32
+          type: integer
+        numRecordTotali:
+          format: int32
+          type: integer
+    DenunciaMorteEntroPrimoAnnoOutput:
+      type: object
+      properties:
+        datiGenerali:
+          $ref: '#/components/schemas/DatiGeneraliMorte'
+        sezioneMedico:
+          $ref: '#/components/schemas/SezioneMedico'
+        sezioneUfficialeStatoCivile:
+          $ref: '#/components/schemas/SezioneUfficialeStatoCivile'
+        numeroRicezione:
+          type: string
+        codMittente:
+          type: string
+    DenunciaMorteOltrePrimoAnnoOutput:
+      type: object
+      properties:
+        datiGenerali:
+          $ref: '#/components/schemas/DatiGeneraliMorte'
+        sezioneMedico:
+          $ref: '#/components/schemas/SezioneMedico'
+        sezioneUfficialeStatoCivile:
+          $ref: '#/components/schemas/SezioneUfficialeStatoCivile'
+        numeroRicezione:
+          type: string
+        codMittente:
+          type: string
+    DettaglioDmnmDocumentoRequest:
+      description: Richiesta del servizio di ricerca per specifico documento dmnm
+      required:
+      - idDmnmDocumento
+      type: object
+      properties:
+        idDmnmDocumento:
+          description: Id del documento dmnm
+          type: number
+        testataRichiesta:
+          description: Testata di richiesta
+          type: object
+          allOf:
+          - $ref: '#/components/schemas/TestataRichiesta'
+        testata:
+          $ref: '#/components/schemas/TestataRichiesta'
+    DettaglioDmnmDocumentoResponse:
+      description: Ritorno del servizio specializzato per la ricerca del singolo documento
+        dmnm
+      type: object
+      properties:
+        testataRisposta:
+          $ref: '#/components/schemas/TestataRisposta'
+        datiPaginazione:
+          $ref: '#/components/schemas/DatiPaginazione'
+        errors:
+          type: array
+          items:
+            $ref: '#/components/schemas/ServiceMessage'
+        success:
+          type: array
+          items:
+            $ref: '#/components/schemas/ServiceMessage'
+        infos:
+          type: array
+          items:
+            $ref: '#/components/schemas/ServiceMessage'
+        warnings:
+          type: array
+          items:
+            $ref: '#/components/schemas/ServiceMessage'
+        dettaglioDmnmDocumento:
+          description: Dettaglio documento dmnm
+          type: object
+          allOf:
+          - $ref: '#/components/schemas/DmnmDocOutput'
+    DichiarazioneNascitaOutput:
+      type: object
+      properties:
+        datiGenerali:
+          $ref: '#/components/schemas/DatiGeneraliNascita'
+        datiDichiarazioneNascita:
+          $ref: '#/components/schemas/DatiDichiarazioneNascitaOutput'
+        documento:
+          type: string
+        numeroRicezione:
+          type: string
+        codMittente:
+          type: string
+    DmnmDocOutput:
+      type: object
+      properties:
+        denunciaMorteOltrePrimoAnno:
+          $ref: '#/components/schemas/DenunciaMorteOltrePrimoAnnoOutput'
+        denunciaMorteEntroPrimoAnno:
+          $ref: '#/components/schemas/DenunciaMorteEntroPrimoAnnoOutput'
+        attestazioneNascita:
+          $ref: '#/components/schemas/AttestazioneNascitaOutput'
+        dichiarazioneNascita:
+          $ref: '#/components/schemas/DichiarazioneNascitaOutput'
+        avvisoDecesso:
+          $ref: '#/components/schemas/AvvisoDecessoOutput'
+        certificatoNecroscopico:
+          $ref: '#/components/schemas/CertificatoNecroscopicoOutput'
+        rettificaDenunciaMorte:
+          $ref: '#/components/schemas/RettificaDenunciaMorteOutput'
+        rettificaDenunciaMortePrimoAnno:
+          $ref: '#/components/schemas/RettificaDenunciaMortePrimoAnnoOutput'
+        rettificaDenunciaMorteOltrePrimoAnno:
+          $ref: '#/components/schemas/RettificaDenunciaMorteOltrePrimoAnnoOutput'
+        rettificaAttestazioneNascita:
+          $ref: '#/components/schemas/RettificaAttestazioneNascitaOutput'
+        rettificaDichiarazioneNascita:
+          $ref: '#/components/schemas/RettificaDichiarazioneNascitaOutput'
+        rettificaAvvisoDecesso:
+          $ref: '#/components/schemas/RettificaAvvisoDecessoOutput'
+        rettificaCertificatoNecroscopico:
+          $ref: '#/components/schemas/RettificaCertificatoNecroscopico'
+    DmnmDocumentoResponse:
+      description: Dati generali documento DMNM
+      required:
+      - id
+      - soggetto
+      - registro
+      - tipoDocumento
+      - dataRicezione
+      - numeroRicezione
+      - statoDocumento
+      - descrizioneComune
+      type: object
+      properties:
+        id:
+          description: Id documento
+          type: number
+          example: 1
+        soggetto:
+          description: Nome congnome soggetto
+          type: string
+          example: "12"
+        registro:
+          description: Nome registro
+          type: string
+          example: "12"
+        tipoDocumento:
+          description: Tipo documento
+          type: string
+          example: "12"
+        dataRicezione:
+          description: data ricezione documento
+          type: string
+          example: "2014-11-14"
+        numeroRicezione:
+          description: Numero ricezione
+          type: number
+          example: 12
+        statoDocumento:
+          description: "Stato del documento nuovo, rettificato o stampato"
+          type: string
+          example: "12"
+        descrizioneComune:
+          description: Descrizione comune
+          type: string
+          example: "12"
+        idTipoDocumento:
+          description: Id del tipo documento
+          type: number
+          example: 1
+        idStatoDocumento:
+          description: Id stato documento
+          type: number
+          example: 1
+    FirmaRecapitiUfficialeStatoCivile:
+      type: object
+      properties:
+        confermaCorrettezzaDati:
+          type: string
+        telefono:
+          type: string
+        email:
+          type: string
+    Incidente:
+      type: object
+      properties:
+        mezzoTrasporto:
+          format: int32
+          type: integer
+        altroMezzoTrasporto:
+          type: string
+        ruoloVittima:
+          format: int32
+          type: integer
+        altroRuoloVittima:
+          type: string
+        tipoIncidente:
+          format: int32
+          type: integer
+        altroTipoIncidente:
+          type: string
+        oggettoScontro:
+          type: string
+    InformazioniRilevanti:
+      type: object
+      properties:
+        pesoNascita:
+          type: number
+        etaGestionale:
+          type: number
+        parita:
+          type: number
+        anniMadre:
+          type: number
+    LocalDate:
+      format: date
+      type: string
+      example: 2022-03-10
+    LocalDateTime:
+      format: date-time
+      type: string
+      example: 2022-03-10T12:15:50
+    LocalitaNascita:
+      type: object
+      properties:
+        tipoComune:
+          format: int32
+          type: integer
+        altroComune:
+          $ref: '#/components/schemas/Comune'
+        statoEstero:
+          type: string
+    LuogoDecesso:
+      type: object
+      properties:
+        luogoEventoDecesso:
+          format: int32
+          type: integer
+        specificaLuogoDecesso:
+          type: string
+    MotivazioneCertificazione:
+      type: object
+      properties:
+        motivo:
+          format: int32
+          type: integer
+        confermaCausaMorte:
+          format: int32
+          type: integer
+    ParteAttoMorte:
+      enum:
+      - I
+      - II
+      type: string
+    PatologiaTrauma:
+      type: object
+      properties:
+        patologia:
+          type: string
+        tempoPatologia:
+          type: string
+    Professione:
+      type: object
+      properties:
+        tipoProfessione:
+          format: int32
+          type: integer
+        statoEstero:
+          type: string
+    Provincia:
+      type: object
+      properties:
+        sigla:
+          type: string
+        codiceIstatProvincia:
+          type: string
+    RettificaAttestazioneNascitaOutput:
+      type: object
+      properties:
+        datiGenerali:
+          $ref: '#/components/schemas/DatiGeneraliNascita'
+        datiAttestazioneNascita:
+          $ref: '#/components/schemas/DatiAttestazioneNascitaOutput'
+        numeroRicezione:
+          type: string
+        codMittente:
+          type: string
+    RettificaAvvisoDecessoOutput:
+      type: object
+      properties:
+        datiGenerali:
+          $ref: '#/components/schemas/DatiGeneraliMorte'
+        datiAvvisoDecesso:
+          $ref: '#/components/schemas/DatiAvvisoDecessoOutput'
+        numeroRicezione:
+          type: string
+        codMittente:
+          type: string
+    RettificaCertificatoNecroscopico:
+      type: object
+      properties:
+        DatiGenerali:
+          $ref: '#/components/schemas/DatiGeneraliMorte'
+        DatiCertificatoNecroscopico:
+          $ref: '#/components/schemas/DatiCertificatoNecroscopico'
+        numeroRicezione:
+          type: string
+        codMittente:
+          type: string
+    RettificaDenunciaMorteOltrePrimoAnnoOutput:
+      type: object
+      properties:
+        datiGenerali:
+          $ref: '#/components/schemas/DatiGeneraliMorte'
+        sezioneMedico:
+          $ref: '#/components/schemas/SezioneMedico'
+        numeroRicezione:
+          type: string
+        codMittente:
+          type: string
+    RettificaDenunciaMorteOutput:
+      type: object
+      properties:
+        datiGenerali:
+          $ref: '#/components/schemas/DatiGeneraliMorte'
+        sezioneMedico:
+          $ref: '#/components/schemas/SezioneMedico'
+        numeroRicezione:
+          type: string
+        codMittente:
+          type: string
+    RettificaDenunciaMortePrimoAnnoOutput:
+      type: object
+      properties:
+        datiGenerali:
+          $ref: '#/components/schemas/DatiGeneraliMorte'
+        sezioneMedico:
+          $ref: '#/components/schemas/SezioneMedico'
+        numeroRicezione:
+          type: string
+        codMittente:
+          type: string
+    RettificaDichiarazioneNascitaOutput:
+      type: object
+      properties:
+        datiGenerali:
+          $ref: '#/components/schemas/DatiGeneraliNascita'
+        datiDichiarazioneNascita:
+          $ref: '#/components/schemas/DatiDichiarazioneNascitaOutput'
+        documento:
+          type: string
+        numeroRicezione:
+          type: string
+        codMittente:
+          type: string
+    RicercaDmnmDocumentoRequest:
+      description: Richiesta del servizio di ricerca per documenti dmnm
+      required:
+      - criteriRicerca
+      type: object
+      properties:
+        criteriRicerca:
+          description: Criteri di ricerca del documento
+          type: object
+          allOf:
+          - $ref: '#/components/schemas/CriteriRicercaDmnmDocumento'
+        testataRichiesta:
+          description: Testata di richiesta
+          type: object
+          allOf:
+          - $ref: '#/components/schemas/TestataRichiesta'
+        datiPaginazione:
+          $ref: '#/components/schemas/DatiPaginazione'
+        testata:
+          $ref: '#/components/schemas/TestataRichiesta'
+    RicercaDmnmDocumentoResponse:
+      description: Ritorno del servizio specializzato per la ricerca documenti dmnm
+      type: object
+      properties:
+        testataRisposta:
+          $ref: '#/components/schemas/TestataRisposta'
+        errors:
+          type: array
+          items:
+            $ref: '#/components/schemas/ServiceMessage'
+        success:
+          type: array
+          items:
+            $ref: '#/components/schemas/ServiceMessage'
+        infos:
+          type: array
+          items:
+            $ref: '#/components/schemas/ServiceMessage'
+        warnings:
+          type: array
+          items:
+            $ref: '#/components/schemas/ServiceMessage'
+        dmnmDocumentoList:
+          description: Modello dell'evento
+          type: array
+          items:
+            $ref: '#/components/schemas/DmnmDocumentoResponse'
+        datiPaginazione:
+          $ref: '#/components/schemas/DatiPaginazione'
+    SerieAttoMorte:
+      enum:
+      - B
+      - C
+      type: string
+    ServiceMessage:
+      type: object
+      properties:
+        code:
+          type: string
+        severity:
+          type: string
+        text:
+          type: string
+    SezioneMedico:
+      type: object
+      properties:
+        anagrafica:
+          $ref: '#/components/schemas/Anagrafica'
+        motivazioneCertificazione:
+          $ref: '#/components/schemas/MotivazioneCertificazione'
+        riscontroDiagnostico:
+          format: int32
+          type: integer
+        statoGravidanza:
+          format: int32
+          type: integer
+        informazioniRilevantiNascita:
+          $ref: '#/components/schemas/InformazioniRilevanti'
+        causaMortePrincipale:
+          $ref: '#/components/schemas/CausaMorte'
+        dataRedazione:
+          type: string
+        confermaCorrettezzaDati:
+          type: string
+        telefonoMedico:
+          type: string
+    SezioneUfficialeStatoCivile:
+      type: object
+      properties:
+        datiAttoMorte:
+          $ref: '#/components/schemas/DatiAttoMorte'
+        dataMorte:
+          type: string
+        dataNascita:
+          type: string
+        localitaNascita:
+          $ref: '#/components/schemas/LocalitaNascita'
+        etaCompiuta:
+          format: int32
+          type: integer
+        statoCivile:
+          format: int32
+          type: integer
+        annoNascitaPartner:
+          type: string
+        annoUnioneMatrimonio:
+          type: string
+        residenza:
+          $ref: '#/components/schemas/TipoResidenza'
+        istruzione:
+          type: string
+        professione:
+          $ref: '#/components/schemas/Professione'
+        cittadinanza:
+          type: array
+          items:
+            $ref: '#/components/schemas/Cittadinanza'
+        firmaRecapitiUfficialeStatoCivile:
+          $ref: '#/components/schemas/FirmaRecapitiUfficialeStatoCivile'
+    TestataRichiesta:
+      type: object
+      properties:
+        idComune:
+          format: int32
+          type: integer
+        idOperazioneComune:
+          type: string
+        dataOraRichiesta:
+          type: string
+        nomeApplicativo:
+          type: string
+        versioneApplicativo:
+          type: string
+        fornitoreApplicativo:
+          type: string
+    TestataRisposta:
+      type: object
+      properties:
+        idComune:
+          format: int32
+          type: integer
+        idOperazioneComune:
+          type: string
+        idOperazione:
+          type: string
+        idEsito:
+          format: int32
+          type: integer
+    TipoComuneDecesso:
+      type: object
+      properties:
+        nomeComuneDecesso:
+          type: string
+        codiceIstatComuneDecesso:
+          type: string
+        siglaProvinciaDecesso:
+          $ref: '#/components/schemas/Provincia'
+        codiceASLComuneDecesso:
+          type: number
+    TipoComuneStato:
+      type: object
+      properties:
+        nomeComune:
+          type: string
+        siglaProvinciaIstat:
+          $ref: '#/components/schemas/Provincia'
+        codIstatComume:
+          type: string
+        codStatoEstero:
+          type: string
+        nomeStatoEstero:
+          type: string
+    TipoDataEvento:
+      type: object
+      properties:
+        data:
+          type: string
+        ora:
+          type: string
+    TipoLuogoEvento:
+      type: object
+      properties:
+        luogoEvento:
+          format: int32
+          type: integer
+        altroLuogo:
+          type: string
+        tipoStrada:
+          format: int32
+          type: integer
+    TipoModalitaTraumatismo:
+      type: object
+      properties:
+        modalita:
+          format: int32
+          type: integer
+        infortunioLavoro:
+          format: int32
+          type: integer
+    TipoResidenza:
+      type: object
+      properties:
+        comune:
+          $ref: '#/components/schemas/TipoComuneStato'
+        indirizzo:
+          type: string
+    TipologiaDocumento:
+      enum:
+      - '1'
+      - '2'
+      - '3'
+      - '4'
+      - '5'
+      - '6'
+      type: string

@@ -196,6 +196,10 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/ModelAllegatoRif'
+        numeroRicezione:
+          type: string
+          description: Numero ricezione documentazione da TS
+          example: "12"
         intestatari:
           description: Intestatari dell'atto (uno o più in base al registro), in caso di intestatari di un matrimonio nel primo elemento va inserito lo sposo (elemento con indice 0) e nel secondo elemento (elemento con indice 1) va inserita la sposa
           type: array
@@ -284,7 +288,9 @@ components:
         tribunale: # Eventuale atto del tribunale
           $ref: '#/components/schemas/ModelAttoCollegato'
         eventoCollegato: # Eventuale evento collegato
-          $ref: '#/components/schemas/ModelAttoCollegato'
+          allOf:
+            - $ref: '#/components/schemas/ModelAttoCollegato'
+          description: Per il registro di cittadinanza, per atto collegato si intende quello di nascita.
         datiAnnotazione:
           description: Dati delle annotazioni contestuali
           type: array
@@ -417,7 +423,7 @@ components:
           example: 'tribunale'
         idtipocontenuto:
           type: string
-          description: Tipologia di evento (decodifica ANSC_02)
+          description: Tipologia di evento (decodifica ANSC_127)
           example: '1'
         redattoNellaCasaComunale:
           type: boolean
@@ -491,6 +497,10 @@ components:
           type: string
           description:  (Decodifica ANSC_67)
           example: '1'
+        attoNascitaNonTrascritto:
+          type: boolean
+          description: Indica se l'atto è stato trascritto
+          example: true
     ModelSoggettoML:
       properties:
         indirizzoResidenza:
@@ -597,7 +607,6 @@ components:
           type: string
           description: Indica a chi è stato reso il consenso
           example:  'Ufficiale di polizia'
-
     ModelAttoCollegatoML:
       properties:
         ente:
@@ -1043,6 +1052,14 @@ components:
         datiAssegnoMantenimento:
           type: string
           description: Nel caso esista l'assegno di mantenimento o divorzile
+        modificaAccordo:
+          type: string
+          description: Testo libero per modifica accordo (formula 121-septies.1)
+          example: "Modifica"
+        provvedimentoScioglimento: # Se esiste, provvedimento di scioglimento
+          $ref: '#/components/schemas/ModelEnteDichiaranteML'
+        confermaAccordoScioglimento: # Conferma dell'accordo di scioglimento
+          $ref: '#/components/schemas/ModelAttoCollegatoML'
     ModelAnnotazioneModificativaML:
       properties:
         attoIntestatario:
@@ -1772,8 +1789,7 @@ components:
           example: "Rossi"
         assensoReso:
           type: string
-          deprecated: true
-          description: Indica a chi è stato reso il consenso -- DEPRECATO -- Usare assensoAtto
+          description: Indica a chi è stato reso il consenso
           example: "Ufficiale di polizia"
         assensoAtto:
           $ref: '#/components/schemas/ModelAttoCollegato'
@@ -1955,7 +1971,7 @@ components:
               example: "Rossi"
             sceltaCognome:
               type: string
-              description: Tipo scelta cognome (decodifica ANSC_39)
+              description: Tipo scelta cognome (decodifica ANSC_39. Valori ammessi per Trascr_003 [11,12], per (Trascr_012,Trascr_031,Trascr_035,Trascr_036) [6,7,8,9,10], per (Trascr_002,Trascr_023,Trascr_025,Trascr_026) [1,2,3]
               example: "1"
             nuovoCognome:
               type: string
@@ -3041,6 +3057,10 @@ components:
         tipoSeparazioneDivorzio:
           type: string
           description: Discriminante tra separazione o divorzio (decodifica ANSC_106)
+        avvocatoUnico:
+          type: boolean
+          description: L'avvocato rappresenta entrambe le parti
+          example: true
 
     ModelNegoziazioneAssistita:
       properties:
@@ -3132,6 +3152,11 @@ components:
           type: string
           description: Tipo provvedimento (decodifica ANSC_99)
           example: "1"
+        dataStipulaAccordo:
+          type: string
+          format: date
+          description: Data di in cui è stato redatto l'atto dell'accordo davanti all'avvocato.
+          example: '2002-07-03'
     ModelScioglimentoUnioneCivile:
       properties:
         attoUnioneCivile:
@@ -3234,6 +3259,22 @@ components:
           type: string
           description: Officiante che ha celebrato l'unione civile.
           example: 'Gianni Rossi Sindaco'
+        modificaAccordo:
+          type: string
+          description: Testo libero per modifica accordo (formula 121-septies.1)
+          example: "Modifica"
+        tipoProvvedimentoScioglimento:
+          type: string
+          description: Provvedimento di scioglimento (decodifica ANSC_126)
+          example: '1'
+        provvedimentoScioglimento: # Se esiste, provvedimento di scioglimento
+          $ref: '#/components/schemas/ModelEnteDichiarante'
+        avvocatoUnico:
+          type: boolean
+          description: L'avvocato rappresenta entrambe le parti
+          example: true
+        confermaAccordoScioglimento: # Conferma dell'accordo di scioglimento
+          $ref: '#/components/schemas/ModelAttoCollegato'
     ModelDatiEventoMorte:
       properties:
         numeroComparenti:

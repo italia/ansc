@@ -452,8 +452,8 @@ components:
         dataEvento:
           type: string
           format: date
-          description: Data evento.
-          example: '2024-12-04'
+          description: Data evento. [YYYY-MM-DDTHH:mm:ss]
+          example: '2025-07-15'
         luogoEvento:
           $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelLuogo'
         nomeCongiunto:
