@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.44.1 - 01-10-2025]
+
+### Fixed
+
+- [SC]: Errore interno in servizio di pooling di controllo sulla presa visione <https://github.com/italia/ansc/issues/1965>
+
 ## [1.44.0 - 30-09-2025]
 
 ### Added
