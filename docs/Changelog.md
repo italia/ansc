@@ -23,6 +23,11 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.44.2 - 06-10-2025]
+
+### Fixed
+- [SC] R013 eliminato il controllo bloccante su identifitivo eventoModificato in fase di rettifica <https://github.com/italia/ansc/issues/1985>
+
 ## [1.44.1 - 01-10-2025]
 
 ### Fixed
