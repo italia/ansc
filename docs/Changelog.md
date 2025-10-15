@@ -23,6 +23,27 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.45.0 - 15-10-2025]
+
+### Added
+- R023: aggiunto servzio di validazione e caricamento documeti DMNM per decreto nascita/morte parte b (ID 144)
+- R007: aggiunto servzio di firma documenti DMNM per decreto nascita/morte parte b (ID 144)
+- [WA]: aggiunto servizio di caricamento e firma documneti DMNM per decreto nascita/morte parte b (ID 144)
+- [WA]: esteso servizio di disassocizione annotazioni per atti che hanno subito più rettifiche (ID 202) <https://github.com/italia/ansc/issues/2013>
+- [WA]: prefetture: gestione consultazione parziale per profili non completi
+- [WA]: Revisione processo di verificazione prefetture
+- decodifiche: aggiunte decodifiche 131 e 132 per gestione dei documento provenienti dalle strutture sanitarie come previsto dal DM Nascita e Morte (ID 144 decreto nascita/morte parte b)
+
+### Fixed
+- [SC]: R002 Corretto errore di impaginazione delle annotazioni negli estratti di matrimonio <https://github.com/italia/ansc/issues/1962>
+- [WA]: Corretto errore cancellazione evento in bozza <https://github.com/italia/ansc/issues/1958>
+- [SC]: R009 riconoscimento paterno di maggiorenne, reso opzionale allegato di riconoscimento dell'altro genitore <https://github.com/italia/ansc/issues/1984>
+- [SC]: Corretto servizio invio email per la firma elettronica del dichiarante <https://github.com/italia/ansc/issues/1993>
+
+- model_evento.yaml
+  - Modificata descrizione campo sceltaCognome in ModelTrascrizioneNascita in: Tipo scelta cognome (decodifica ANSC_39. Valori ammessi per Trascr_003 [11,12], per (Trascr_012,Trascr_031,Trascr_035,Trascr_036) [6,7,8,9,10], per (Trascr_002,Trascr_023,Trascr_025,Trascr_026) [1,2,3]
+  - Modificata descrizione campo tipoAdozione in ModelTrascrizioneNascita in: Tipo adozione (decodifica ANSC_116. Valori ammessi per Trascr_028 e Trascr_029 [0,1])
+
 ## [1.44.2 - 06-10-2025]
 
 ### Fixed

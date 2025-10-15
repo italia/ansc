@@ -2003,7 +2003,7 @@ components:
               example: true
             tipoAdozione:
               type: string
-              description: Tipo adozione (decodifica ANSC_116)
+              description: Tipo adozione (decodifica ANSC_116. Valori ammessi per Trascr_028 e Trascr_029 [0,1])
               example: "0"
             attoMatrimonio:
               $ref: '#/components/schemas/ModelAttoCollegato'

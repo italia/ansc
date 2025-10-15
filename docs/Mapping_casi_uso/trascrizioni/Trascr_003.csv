@@ -1,6 +1,6 @@
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
 "Allegati","Copia integrale dell'atto di nascita del figlio che viene riconosciuto","SI","","","",""
-"Allegati","Copia dell'atto di riconoscimento effettuato dell'altro genitore","SI","","","",""
+"Allegati","Copia dell'atto di riconoscimento effettuato dell'altro genitore","NO","","","",""
 "Allegati","Copia dell'atto di riconoscimento","NO","","","",""
 "Allegati","Sentenza del Tribunale che autorizza al riconoscimento senza il consenso dell'altro genitore","NO","","","",""
 "Formula","114-sexies","SI","","","",""

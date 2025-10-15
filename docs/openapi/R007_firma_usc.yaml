@@ -80,6 +80,47 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/FirmaAttestazioneResponse'
+  '/dmnm/firma_usc/{version}':
+    post:
+      description: Firma remota Ufficiale Stato Civile del documento DMNM parte B
+      tags:
+      - Firma DMNM document service
+      summary: restituzione Firma
+      operationId: getFirma
+      parameters:
+      - name: version
+        in: path
+        description: Versione del servizio
+        required: true
+        schema:
+          type: string
+      requestBody:
+        description: Id TipoFirma assegnato dal sistema
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/FirmaDmnmRequest'
+        required: true
+      responses:
+        "200":
+          description: Successo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FirmaResponse'
+        "400":
+          description: Se non arriva un evento valido
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FirmaResponse'
+        "403":
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FirmaResponse'
+
 components:
   schemas:
     FirmaInput:
@@ -121,6 +162,30 @@ components:
           properties:         
             firmaInput:
                 $ref: '#/components/schemas/FirmaInput'
+    FirmaDmnmInput:
+      required:
+      - idDmnmDocumento
+      - parametriFirma
+      type: object
+      properties:
+        idDmnmDocumento:
+          description: Id univoco dell'evento
+          type: string
+        parametriFirma:
+          description: Parametri della firma
+          type: object
+          allOf:
+          - $ref: '#/components/schemas/ParametriFirma'
+    FirmaDmnmRequest:
+      description: Richiesta del servizio specializzato per la configurazione della
+        firma
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          properties:         
+            firmaInput:
+                $ref: '#/components/schemas/FirmaDmnmInput'
+               
     FirmaResponse:
       description: Risposta del servizio per la firma dell' Ufficiale di Stato Civile
       allOf:
