@@ -1,4 +1,5 @@
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
+"Allegati","Allegato generico","NO","","","",""
 "Formula","999.3.2","SI","","","",""
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Si puo' ignorare la sezione per"
 "Formazione atto","Numero comunale","SI","evento","numeroatto","","obbligatoria"

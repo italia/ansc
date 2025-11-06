@@ -1,7 +1,7 @@
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
 "Allegati","Ricevuta pagamento contributo di 250,00","SI","","","",""
 "Allegati","Copia integrale dell'atto di nascita dell'interessato","NO","","","",""
-"Allegati","Documentazione attestante la residenza in Italia","SI","","","",""
+"Allegati","Documentazione attestante la residenza in Italia","NO","","","",""
 "Allegati","Allegato generico","NO","","","",""
 "Formula","80","SI","","","",""
 "Formula","194","NO","","","",""

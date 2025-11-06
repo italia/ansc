@@ -23,6 +23,24 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.46.0 - 06-11-2025]
+
+### Added
+- [versione] Aggiunta versione 100027
+
+### Fixed
+- [SC]: Implementato controllo bloccante relativo a decodifiche non consentite nei vari casi d'uso <https://github.com/italia/ansc/issues/1925>
+- [WA]: Riconciliazione soggetto per id: resi editabili i campi stato di nascita, provincia di nascita, comune di nascita se pregressi e non censiti <https://github.com/italia/ansc/issues/1968>
+- [SC]: Corretta anteprima scioglimento Unione Civile (cdu 343000) <https://github.com/italia/ansc/issues/2022>
+- [SC]: Annotazioni rettificative o nota tecnica: rigenerazione notifiche a seguito di rettifica del comune AIRE di iscrizione del soggetto
+- [SC]: Gestione data parziale in anteprima atto <https://github.com/italia/ansc/issues/2049> <https://github.com/italia/ansc/issues/2058>
+- [SC/WA]: Trascrizioni di adozioni (UC 1353, 1354, 1381, 1382): resa opzionale la sentenza come allegato 
+- [SC]: Corretto problema con estratti con maternità e paternità in caso di genitori con solo il nome valorizzato <https://github.com/italia/ansc/issues/2076>
+- [WA]: Corretta nota tecnica in caso di rettifica matrimonio <https://github.com/italia/ansc/issues/2078>
+- [WA]: Testo dell'atto di matrimonio con Rito civile con Delega di altro comune fuori dalla casa comunale <https://github.com/italia/ansc/issues/2056>
+- [SC]: Cittadinanza caso d'uso 51103: reso opzionale l'allegato relativo all'attestazione di residenza <https://github.com/italia/ansc/issues/2090>
+- [SC]: Corretta la consultazione eventi per soggetto
+
 ## [1.45.0 - 15-10-2025]
 
 ### Added

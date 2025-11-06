@@ -1,4 +1,5 @@
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
+"Allegati","Allegato generico","NO","","","",""
 "Formula","123.1","NO","","","",""
 "Formula","124","NO","","","",""
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Si puo' ignorare la sezione per"

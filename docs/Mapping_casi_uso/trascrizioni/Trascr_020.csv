@@ -1,5 +1,5 @@
 "Sezione","Campo","Obbligatorio","Binding Object","Binding Field","Note obbligatorieta' formule","Condizioni obbligatorieta'"
-"Allegati","Decreto del Tribunale","SI","","","",""
+"Allegati","Decreto del Tribunale","NO","","","",""
 "Allegati","Richiesta di trascrizione","NO","","","",""
 "Allegati","Sentenza straniera","NO","","","",""
 "Formula","192.7","SI","","","",""
