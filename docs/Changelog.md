@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.46.1 - 11-11-2025]
+
+### Fixed
+
+- [WA]: Corretto errore controllo email/telefono per la richiesta firma remota
+
 ## [1.46.0 - 06-11-2025]
 
 ### Added
