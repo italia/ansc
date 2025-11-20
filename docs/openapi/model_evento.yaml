@@ -3039,7 +3039,7 @@ components:
           example: '2002-07-02'
         tipoProvvedimentoSeparazione:
           type: string
-          description: Provvedimento di separazione (decodifica ANSC_104)
+          description: Provvedimento di separazione (decodifica ANSC_104. Valori ammessi per Matr_Riconc_001 [1,2,3])
           example: '1'
         luogoEventoMatrimonio:
           $ref: '#/components/schemas/ModelLuogo'

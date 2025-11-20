@@ -23,6 +23,35 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.46.2 - 20-11-2025]
+
+### Fixed
+
+- [SC/WA] UC 5.2.1.5.3 Trascrizione del decreto per matrimonio-unione civile-naturalizzazione-presentazione cittadino: reso opzionale l'atto di nascita del cittadino <https://github.com/italia/ansc/issues/2071> <https://github.com/italia/ansc/issues/2160>
+- [SC/WA] UC 5.2.9.9.9 Caso d'uso di servizio (trascrizioni di cittadinanza): reso opzionale atto di nascita del soggetto <https://github.com/italia/ansc/issues/1980>
+- [SC/WA] Riconciliazione soggetti: corretto errore in caso di soggetti associati ad atti annullati <https://github.com/italia/ansc/issues/2116>
+- [SC/WA] Corretto errore bloccante per emissione certificati internazionali <https://github.com/italia/ansc/issues/2081>
+- [SC/WA] Corretto errore bloccante per emissione certificati in lingua tedesca <https://github.com/italia/ansc/issues/2205>
+- [SC/WA] Trascrizione di matrimonio estere da San Marino: è stato reso opzionale il consolato
+- [SC] R013 rettifiche: controllo warning sulla sezione eventoModificato relativamente all'id non necessario
+- [SC/WA] UC 3.4.4.0.0.0 Modifica condizioni separazione/divorzio: distinta la separazione dal divorzio <https://github.com/italia/ansc/issues/2032>
+- [SC] Estratti / certificati: corretto stato nascita 
+- [SC]: UC Cittadinanza Straniero nato in Italia che vi abbia risieduto legalmente senza interruzioni fino alla maggiore eta' UC Figlio minore di chi ha acquista la cittadinanza italiana: corretta minuta annotazione in merito agli estremi dell'atto originale <https://github.com/italia/ansc/issues/2147>
+- [SC]: Caso d'uso 347000 (separazione): eliminata generazione annotazione su atto di nascita in caso di separazione e omologa seprazione <https://github.com/italia/ansc/issues/2115>
+- [SC] UC 1.3.4.2 Trascrizione della sentenza di adozione di minore in casi particolari emessa dal tribunale dei minori: corretta verifica sull'età delll'intestatario effettuata rispetto alla data della sentenza e non dell'atto
+- [WA]: Servizio di annullamento atto per inefficacia: eliminazione annotazioni automatiche generate da atti secondari resi inefficaci
+- [SC]: Atti nascita o matrimonio articolo 19: eliminate generazioni automatiche notifiche <https://github.com/italia/ansc/issues/2192>
+- [WA] Matrimonio in imminente pericolo di vita: resa editabile la scelta del firmatario per i coniugi
+- [SC/WA]: 1.3.5.1 Trascrizione provvedimento straniero di adozione legittima di minore: reso obbligatorio almeno uno dei genitori
+- Revisione notifiche per casi d'uso di separazione
+- [SC/WA]: Caso d'uso 5.1.1.0.6 Prestazione di giuramento a seguito di decreto (abile): reso opzionale l'allegato decreto con marca da bollo <https://github.com/italia/ansc/issues/2141>
+- [SC/WA]: Atto di Morte in luogo pubblico: resa editabile la scelta del firmatario come comparente <https://github.com/italia/ansc/issues/2159>
+- [decodifiche] Modificato nome decodifica ANSC_104 da dec_provvedimento_separazioni a dec_provvedimento_separazioni_divorzio
+- [decodifiche] Aggiunto valore in decodifica ANSC_104 dec_provvedimento_separazioni_divorzio '4' - "Accordo che ha determinato il divorzio"
+
+### model_evento.yaml
+- Modificata descrizione campo tipoProvvedimentoSeparazione in ModelSeparazione come segue:Provvedimento di separazione (decodifica ANSC_104 Valori ammessi per Matr_Riconc_001 [1,2,3])
+
 ## [1.46.1 - 11-11-2025]
 
 ### Fixed

@@ -1,3 +1,53 @@
+#Changelog mappatura casi uso 1.46.2  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 2
+* cittadinanza/Citt_043.csv
+* matrimoni/Sep_Div_004.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_043.csv : 
+* Presenti modifiche per 'Allegati Decreto notificato con marca da bollo da € 16' (riga:3)
+* Rimosso 'Allegati Documento d’identità'
+
+### Modifiche per il caso uso matrimoni/Sep_Div_004.csv : 
+* Presenti modifiche per 'evento.separazione.tipoSeparazioneDivorzio' (riga:45)
+* Presenti modifiche per 'evento.separazione.tipoAccordo' (riga:46)
+* Presenti modifiche per 'evento.separazione.parteInGiudizioPendente' (riga:47)
+* Presenti modifiche per 'evento.separazione.autoritaGiudiziaria' (riga:48)
+* Presenti modifiche per 'evento.separazione.dataConfermaAccordo' (riga:49)
+* Presenti modifiche per 'evento.separazione.modificaAccordo' (riga:51)
+* Presenti modifiche per 'evento.separazione.datiAssegnoMantenimento' (riga:50)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.idAnsc' (riga:216)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.idProvinciaRegistrazione' (riga:217)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.siglaProvinciaRegistrazione' (riga:218)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.idComuneRegistrazione' (riga:219)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.nomeComuneRegistrazione' (riga:220)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.idtipocontenuto' (riga:221)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.numeroatto' (riga:222)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.annoAtto' (riga:223)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.dataformazione' (riga:224)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.parte' (riga:225)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.serie' (riga:226)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.volume' (riga:227)
+* Presenti modifiche per 'evento.separazione.accordoSeparazione.tipologia' (riga:228)
+* Presenti modifiche per 'evento.separazione.confermaAccordoSeparazione.idAnsc' (riga:242)
+* Presenti modifiche per 'evento.separazione.confermaAccordoSeparazione.idProvinciaRegistrazione' (riga:243)
+* Presenti modifiche per 'evento.separazione.confermaAccordoSeparazione.siglaProvinciaRegistrazione' (riga:244)
+* Presenti modifiche per 'evento.separazione.confermaAccordoSeparazione.idComuneRegistrazione' (riga:245)
+* Presenti modifiche per 'evento.separazione.confermaAccordoSeparazione.nomeComuneRegistrazione' (riga:246)
+* Presenti modifiche per 'evento.separazione.confermaAccordoSeparazione.idtipocontenuto' (riga:247)
+* Presenti modifiche per 'evento.separazione.confermaAccordoSeparazione.numeroatto' (riga:248)
+* Presenti modifiche per 'evento.separazione.confermaAccordoSeparazione.annoAtto' (riga:249)
+* Presenti modifiche per 'evento.separazione.confermaAccordoSeparazione.dataformazione' (riga:250)
+* Presenti modifiche per 'evento.separazione.confermaAccordoSeparazione.parte' (riga:251)
+* Presenti modifiche per 'evento.separazione.confermaAccordoSeparazione.serie' (riga:252)
+* Presenti modifiche per 'evento.separazione.confermaAccordoSeparazione.volume' (riga:253)
+* Presenti modifiche per 'evento.separazione.confermaAccordoSeparazione.tipologia' (riga:254)
+
+
 #Changelog mappatura casi uso 1.44.0  
 
 ## Casi uso aggiunti : 7

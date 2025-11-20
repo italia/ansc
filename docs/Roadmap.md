@@ -20,4 +20,3 @@ Le date e la composizione degli interventi potrebbero subire variazioni.
 
 ## [29-12-2025]
 - Estensione dei cruscotti di conservazione in merito alla richiesta di esibisione di un atto (ID 158)
-- Identificazione comune a seguito di accorpamento/scissione (ID 204)
