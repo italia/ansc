@@ -3,20 +3,26 @@
 Questo documento descrive le principali attività che verranno rilasciata nelle future versioni del software di ANSC.
 Le date e la composizione degli interventi potrebbero subire variazioni.
 
-​
+## [16-12-2025]
 
-## [27-11-2025]
+- ID 195 nuovi caso d’uso di cittadinanza previsti dalla circolare ministeriale circolare n. 59/2025
+    * Dichiarazione di volontà d’acquisto della cittadinanza italiana di minore legge n. art. 4 legge 91/1992 (ordinaria)
+    * Dichiarazione di volontà d’acquisto della cittadinanza italiana di minore art.1-ter legge n.74/2025 (transitoria valida solo fino al 31 maggio 2026
+    * Esito di accertamento per articolo 4 comma 1-bis
+    * trascrizione della nascita a seguito di acquisto cittadinanza per beneficio di legge (articolo 4 comma 1-bis)
+- ID 198 Acquisto di cittadinanza iure sanguinis per decreto di autorità giudiziaria o amministrativa  
+- ID 205 Trascrizioni di sentenza straniera di scioglimento unione civile (issue #1900) 
+- ID 213 Trascrizione di nascita resa alla direzione sanitaria con pre riconoscimento (issue #1803)
+- ID 186.b Gestione assenso successivo figlio infra quattordicenne o maggiorenne nei riconoscimenti
+- ID 191 Verifica corrispondenza tra USC in sessione e firma dell'atto
+- ID 201 Notifica automatica al comune primario (che detiene atto di nascita) a seguito di annotazione per errore materiale/modificativa effettuata su evento secondario
+- ID 158.a Invio in conservazione atti rettificati/annullati
 
-- Acquisto di cittadinanza per decreto di autorità giudiziaria o amministrativa (ID 198)
-- Nuovi casi d'uso cittadinanza: formula 79 in ottemperanza alla circolare 59/2025 (ID 195)
-- Completamento gestione assenso postumo figlio infra quattordicenne o maggiorenne nei riconoscimenti (ID 186.b)
-- Verifica corrispondenza tra USC in sessione e firma dell'atto (ID 191)
-- Provvedimento estero/sentenza di scioglimento di unione civile (ID 200) <https://github.com/italia/ansc/issues/1709>
-- Servizi al cittadino: emissione certificati/estratti di stato civile per soggetti maggiorenni
-- Servizi per richiesta certificati per figli minori da sportello al cittadino (step servizi cooperativi) (ID 168)
-- Apertura in produzione del servizio di conservazione sostituitva degli atti di stato civile
-- Annotazione automatica su atto di nascita a seguito di annotazione per errore materiale effettuata su evento secondario (ID 201)
-- Nuovi casi d'uso di cittadinanza: formula 85 in ottemperanza alla circolare 59/2025 (ID 196)
 
-## [29-12-2025]
-- Estensione dei cruscotti di conservazione in merito alla richiesta di esibisione di un atto (ID 158)
+## [22-12-2025]
+
+- ID 196 Cittadinanza (formula 85 nuova circolare)
+    * dichiarazione resa da cittadino italiano che, avendo perduto la cittadinanza italiana, intende riacquistarla  articolo 17 legge 91/92
+    * Esito di accertamento riacquisto cittadinanza per articolo 17    
+- ID 158 Revisione cruscotto monitoraggio conservazione
+- ID204 Identificazione comune a seguito di accorpamento/scissione

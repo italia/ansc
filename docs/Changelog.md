@@ -23,6 +23,37 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.46.3 - 04-12-2025]
+
+### Fixed
+
+- [SC/WA] Corrette trascrizioni nascite estere: resi opzionali comune e provincia per i soggetti collegati (madre , padre ecc) in caso di stato ITALIA <https://github.com/italia/ansc/issues/2038>
+- [WA] Corretto servizio di gestione data decorrenza anagrafica nel caso in cui la data decorrenza è maggiore rispetto alla data evento <https://github.com/italia/ansc/issues/2184> <https://github.com/italia/ansc/issues/2063>
+- [SC] Corretta documentazione per certificati internazionali <https://github.com/italia/ansc/issues/1922>
+- [SC] R010 Anteprima estratto integrale dopo nota tecnica: allineato comportamento tra gestionale e webapp <https://github.com/italia/ansc/issues/2131>
+- [SC/WA] Notifiche di Annotazione: corretta gestione carattere apostrofo <https://github.com/italia/ansc/issues/2142>
+- [SC] Corretta gestione carattere UTF "-" nel numero atto ANSC della copia integrale <https://github.com/italia/ansc/issues/2144>
+- [SC/WA] Trascrizione di provvedimento straniero di cambio sesso: aggiunta possibilità di indicare consolato
+- [SC/WA] Separazione/Divorzio art.12 tra stranieri (UC 341000 / 342000 / 34400): reso l'allegato atto di matrimonio opzionale <https://github.com/italia/ansc/issues/2201>
+- [WA] UC 52153 Trascrizione del decreto per matrimonio-unione civile-naturalizzazione-presentazione cittadino ricevuto per posta: resa editabile possibilità di rendere firmatario o meno il cittadino <https://github.com/italia/ansc/issues/2255>
+- [SC/WA] Caso uso 347000 trascrizione di evento divorzio avvenuta all'estero: corretta gestione della data di nascita parziale <https://github.com/italia/ansc/issues/2246>
+- [SC] UC di cittadinanza:corretto errore 'Dati in ingresso non corretti' <https://github.com/italia/ansc/issues/2259>
+- [SC/WA] Riconoscimento paterno di figlio infraquattordicenne gia' riconosciuto dalla madre: corretta annotazione generata incompleta in assenza del tipo dichiarante <https://github.com/italia/ansc/issues/2272>
+- [SC/WA] Annotazione a seguito di adozione per maggiorenne (con modifica del cognome/nome): corretta la gestione sugli estratti per riassunto in cui non compariva
+- [SC/WA] 350000 Dichiarazione di riconciliazione: reso opzionale allegato atto di matrimonio
+- [SC/WA] Notifiche da ANSC a seguito di nota tecnica/annotazione modificativa: inserito controllo sull'adesione o meno del comune di competenza
+- Completamento annullamento annotazioni automatiche generate da atti resi inefficaci
+- [WA/SC] Corretta certificazione a seguito di correzione annotazione <https://github.com/italia/ansc/issues/2206>
+- [SC] UC 1399 Caso uso servizio nascita: corretta la gestione della certificabilità da servizi cooperativi <https://github.com/italia/ansc/issues/2129>
+- [WA] Corretto servizio di disassociazione annotazione nel caso in cui l'annotazione ha subito una correzione <https://github.com/italia/ansc/issues/2268>
+- [SC] R012: corretto problema nell'invio della mail per la firma elettronica del dichiarante <https://github.com/italia/ansc/issues/1993>
+- [SC/WA] Trascrizione matrimonio: inserrito controllo bloccato per evitare duplicazione atto di matrimonio in ansc <https://github.com/italia/ansc/issues/1928>
+- [SC/WA] Attestazione di Conformità: corretto elenco dei documenti attestati <https://github.com/italia/ansc/issues/2287>
+- [WA/SC] Corretto "errore interno" in atto di nascita gemnelli <https://github.com/italia/ansc/issues/2312>
+- [SC] Notifiche ANPR di un atto di matrimonio: aggiunta la data di validità dell'atto trasmessa ad ANPR (ossia la data firma) <https://github.com/italia/ansc/issues/2158>
+- [SC] Corrette notifiche in ANPR in caso di presenza di caratteri diacritici nel nome del soggetto <https://github.com/italia/ansc/issues/2256>
+- [SC] Notifiche ANPR - Caso d'uso 347000 Trascrizione provvedimenti esteri in materia matrimoniale: aggiunte infomrazioni nella sezione tipoTrascrizione (dataPubblicazioneSentenza e dataDecorrenzaSentenza) <https://github.com/italia/ansc/issues/2219>
+
 ## [1.46.2 - 20-11-2025]
 
 ### Fixed

@@ -1,3 +1,26 @@
+#Changelog mappatura casi uso 1.46.3  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 1
+* trascrizioni/Trascr_034.csv
+
+### Modifiche per il caso uso trascrizioni/Trascr_034.csv : 
+* Presenti modifiche per 'evento.trascrizioneNascita.autoritaMittente.nomeEnte' (riga:91)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.nazioneEnte' (riga:92)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.nomeNazioneEnte' (riga:93)
+* Presenti modifiche per 'evento.trascrizioneNascita.autoritaMittente.idProvinciaEnte' (riga:94)
+* Presenti modifiche per 'evento.trascrizioneNascita.autoritaMittente.siglaProvinciaEnte' (riga:95)
+* Presenti modifiche per 'evento.trascrizioneNascita.autoritaMittente.idComuneEnte' (riga:96)
+* Presenti modifiche per 'evento.trascrizioneNascita.autoritaMittente.nomeComuneEnte' (riga:97)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.idAnagraficaConsolato' (riga:98)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.nomeAnagraficaConsolato' (riga:99)
+* Presenti modifiche per 'evento.trascrizioneNascita.autoritaMittente.dataTrascrizione' (riga:100)
+* Presenti modifiche per 'evento.trascrizioneNascita.autoritaMittente.estremiDocumento' (riga:101)
+
+
 #Changelog mappatura casi uso 1.46.2  
 
 ## Casi uso aggiunti : 0
