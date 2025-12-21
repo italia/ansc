@@ -1908,6 +1908,12 @@ components:
           $ref: '#/components/schemas/ModelAttoEstero'
         attoEstero: # Eventuale atto proveniente dall'estero
           $ref: '#/components/schemas/ModelAttoEstero'
+        estremiDichiarazione:
+          $ref: '#/components/schemas/ModelAttoCollegato'
+        eventoCollegato:
+          $ref: '#/components/schemas/ModelAttoCollegato'
+        estremiAccertamento:
+          $ref: '#/components/schemas/ModelAttoCollegato'
     ModelAttoEstero:
       properties:
         enteEstero:
@@ -1919,7 +1925,7 @@ components:
           properties:
             tipoRichiedente:
               type: string
-              description: Id del tipo richiedente (decodifica ANSC_64), per usecase 1334 e 1335 (decodifica ANSC_123)
+              description: Id del tipo richiedente (decodifica ANSC_64), per usecase 1334 e 1335 (decodifica ANSC_123), per usecase 1317 (decodifica ANSC_134)
               example: "1"
             tipoLuogoNascita:
               type: string
@@ -2196,11 +2202,11 @@ components:
           example: true
         nomeDatoreLavoro:
           type: string
-          description: Nome del datoredi lavoro
+          description: Nome del datore di lavoro
           example: "Comune di Roma"
         tipoEventoCittadinanza:
           type: string
-          description: Tipo Evento Cittadinanza  (decodifica ANSC_84)
+          description: Tipo Evento Cittadinanza (decodifica ANSC_84)
           example: '1'
         protocollo:
           type: string
@@ -2215,6 +2221,24 @@ components:
           type: string
           description: Officiante (decodifica ANSC_121)
           example: '1'
+        tipoDichiarante:
+          type: string
+          description: ID del tipo dichiarante (decodifica ANSC_130)
+          example: '1'
+        tipoAccertamentoFiliazione:
+          type: string
+          description: Tipologia di atto per accertamento nascita del minore (decodifica ANSC_133)
+          example: '1'
+        dataAttoDiNascita:
+          type: string
+          format: date
+          description: Data dell'atto di nascita del minore
+          example: '2022-06-24'
+        dataDecorrenzaDichiarazione:
+          type: string
+          format: date
+          description: Data decorrenza della dichiarazione
+          example: '2022-06-24'
 
     ModelTrascrizioneCittadinanza:
       allOf:
@@ -2360,7 +2384,24 @@ components:
               example: "Comandante"
             officiante: # Chi ha officiato il matrimonio da trascrivere
               $ref: '#/components/schemas/ModelSoggetto'
-
+            tipoModificaUnioneCivile:
+              type: string
+              description: Tipo di modifica al matrimonio (decodifica ANSC_128)
+              example: "1"
+            ricevutaDaPrivatoCittadino:
+              type: boolean
+              description: Indica se la notifica è arrivata da un privato cittadino oppure dall'autorità giudiziaria
+              example: true
+            dataPubblicazioneSentenza:
+              type: string
+              format: date
+              description: Data di pubblicazione della sentenza
+              example: "2022-04-22"
+            dataDecorrenzaSentenza:
+              type: string
+              format: date
+              description: Data di decorrenza della sentenza
+              example: "2022-04-22"
     ModelLuogo:
       properties:
         idComune:

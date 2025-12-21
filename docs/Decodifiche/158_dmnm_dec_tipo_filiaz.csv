@@ -1,0 +1,6 @@
+"ID","DESCRIZIONE","DATAINIZIOVALIDITA","DATAFINEVALIDITA","ORDINAMENTO"
+"1","(Legittima)","2025-12-02 20:23:20.0","9999-12-31 00:00:00.0","1"
+"2","(Naturale riconosiuto solo dalla madre)","2025-12-02 20:23:20.0","9999-12-31 00:00:00.0","2"
+"3","(Naturale riconosiuto solo dal padre)","2025-12-02 20:23:20.0","9999-12-31 00:00:00.0","3"
+"4","(Da entrambi i genitori)","2025-12-02 20:23:21.0","9999-12-31 00:00:00.0","4"
+"5","(Naturale non riconosciuta e di filiazione ignota)","2025-12-02 20:23:21.0","9999-12-31 00:00:00.0","5"

@@ -415,6 +415,19 @@ components:
           description: Flag notifica condivisa
           type: number
           example: 0
+        nomeusc:
+          description: Nome USC che approva la notifica
+          type: number
+          example: 0
+        cognomeusc:
+          description: Cognome USC che approva la notifica
+          type: number
+          example: 0
+        codicefiscaleusc:
+          description: Codice fiscale USC che approva la notifica
+          type: number
+          example: 0
+
     NotificheRicercaRequest:
       description: Ritorno del servizio specializzato per la configurazione dei pannelli
       allOf:

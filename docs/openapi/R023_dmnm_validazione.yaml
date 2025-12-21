@@ -155,6 +155,7 @@ components:
         tipoCittadinanza:
           format: int32
           type: integer
+          description: classifica la cittadinanaza (decodifica ANSC_165)
         NomeStatoEsteroCittadinanza:
           type: string
         CodiceStatoEsteroCittadinanza:
@@ -198,9 +199,11 @@ components:
         statoCivilePuerpera:
           format: int32
           type: integer
+          description: stato civile puerpera (decodifica ANSC_168)
         genereParto:
           format: double
           type: number
+          description: indica se parto plurimo o meno (decodifica ANSC_166)
         numeroMaschi:
           format: int32
           type: integer
@@ -244,6 +247,7 @@ components:
         tipoComuneNascita:
           format: int32
           type: integer
+          description: specifica se stesso comune o altro rispetto al comune morte (decodifica ANSC_141)
         residenzaDefunto:
           $ref: '#/components/schemas/TipoResidenza'
         sessoDefunto:
@@ -251,6 +255,7 @@ components:
         statoCivileDefunto:
           format: int32
           type: integer
+          description: stato civile defunto (decodifica ANSC_168)
         cittadinanzaDefunto:
           type: array
           items:
@@ -270,6 +275,7 @@ components:
         vitalita:
           format: int32
           type: integer
+          description: indica lo stato se vivo o morto alla nascita (decodifica ANSC_142)
     DatiBambinoDichiarazione:
       type: object
       properties:
@@ -283,6 +289,7 @@ components:
         filiazione:
           format: int32
           type: integer
+          description: indica se nato nel matrimonio (decodifica ANSC_143)
         dataNascitaBambino:
           type: string
         oraNascitaBambino:
@@ -309,11 +316,13 @@ components:
         statoCivileDefunto:
           format: int32
           type: integer
+          description: stato civile defunto (decodifica ANSC_168)
         comuneNascitaDefunto:
           $ref: '#/components/schemas/TipoComuneStato'
         tipoComuneNascita:
           format: int32
           type: integer
+          description: specifica se stesso comune o altro rispetto al comune morte (decodifica ANSC_141)
         residenzaDefunto:
           $ref: '#/components/schemas/TipoResidenza'
         cittadinanzaDefunto:
@@ -364,6 +373,7 @@ components:
         QualitaDichiarante:
           format: int32
           type: integer
+          description: identifica il ruolo del dichiarante (decodifica ANSC_144)
     DatiDichiarazioneNascita:
       type: object
       properties:
@@ -400,6 +410,7 @@ components:
         ruolo:
           format: int32
           type: integer
+          description: ruolo del dichiarante parto (decodifica ANSC_170)
         codiceFiscaleStruttura:
           type: string
         denominazione:
@@ -451,6 +462,7 @@ components:
         luogoParto:
           format: int32
           type: integer
+          description: luogo dove avvenuto il parto (decodifica ANSC_145)
         comuneNascita:
           $ref: '#/components/schemas/TipoComuneStato'
         indirizzoNascita:
@@ -488,6 +500,7 @@ components:
         statoCivileMadre:
           format: int32
           type: integer
+          description: stato civile madre (decodifica ANSC_168)
     DatiPadre:
       type: object
       properties:
@@ -514,6 +527,7 @@ components:
         statoCivilePadre:
           format: int32
           type: integer
+          description: stato civile padre (decodifica ANSC_168)
     DatiPaginazione:
       type: object
       properties:
@@ -617,16 +631,19 @@ components:
         mezzoTrasporto:
           format: int32
           type: integer
+          description: mezzo di trasporto coinvolto in un incidente (decodifica ANSC_146) 
         altroMezzoTrasporto:
           type: string
         ruoloVittima:
           format: int32
           type: integer
+          description: indica funzione svolta dalla vittima nell'incidente (decodifica ANSC_147)
         altroRuoloVittima:
           type: string
         tipoIncidente:
           format: int32
           type: integer
+          description: indica tipo di incidente (decodifica ANSC_148)
         altroTipoIncidente:
           type: string
         oggettoScontro:
@@ -680,6 +697,7 @@ components:
         luogoEventoDecesso:
           format: int32
           type: integer
+          description: luogo dove avvenuto il decesso (decodifica ANSC_150)
         specificaLuogoDecesso:
           type: string
     ModelLuogo:
@@ -742,9 +760,11 @@ components:
         motivo:
           format: int32
           type: integer
+          description: motivazione certificazione (decodifica ANSC_152)
         confermaCausaMorte:
           format: int32
           type: integer
+          description: conferma (decodifica ANSC_153)
     ParteAttoMorte:
       enum:
       - I
@@ -763,6 +783,7 @@ components:
         tipoProfessione:
           format: int32
           type: integer
+          description: tipo di professione esercitata (decodifica ANSC_151)
         statoEstero:
           type: string
     Provincia:
@@ -801,6 +822,7 @@ components:
         statoGravidanza:
           format: int32
           type: integer
+          description: classifica se in stato interessante (decodifica ANSC_153)
         informazioniRilevantiNascita:
           $ref: '#/components/schemas/InformazioniRilevanti'
         causaMortePrincipale:
@@ -828,6 +850,7 @@ components:
         statoCivile:
           format: int32
           type: integer
+          description: stato civile (decodifica ANSC_168)
         annoNascitaPartner:
           type: string
         annoUnioneMatrimonio:
@@ -867,6 +890,7 @@ components:
         statoCivile:
           format: int32
           type: integer
+          description: stato civile defunto (decodifica ANSC_168)
         annoNascitaPartner:
           type: string
         annoUnioneMatrimonio:
@@ -876,15 +900,19 @@ components:
         livelloIstruzione:
           format: int32
           type: integer
+          description: classifica il livello istruzione (decodifica ANSC_155)
         condizioneProfessionale:
           format: int32
           type: integer
+          description: classifica la condizione lavorativa (decodifica ANSC_156)
         tipologiaProfessionale:
           format: int32
           type: integer
+          description: classifica la tipologia lavorativa (decodifica ANSC_157)
         posizioneProfessionale:
           format: int32
           type: integer
+          description: posizione lavorativa (decodifica ANSC_162)
         cittadinanza:
           type: array
           items:
@@ -900,9 +928,11 @@ components:
         genereParto:
           format: int32
           type: integer
+          description: classifica genere parto (decodifica ANSC_166)
         filiazione:
           format: int32
           type: integer
+          description: classifica filiazione parto (decodifica ANSC_158)
         dataNascitaMadre:
           type: string
         residenzaMadre:
@@ -910,27 +940,35 @@ components:
         livelloIstruzioneMadre:
           format: int32
           type: integer
+          description: classifica livello istruzuione (decodifica ANSC_155)
         livelloIstruzionePadre:
           format: int32
           type: integer
+          description: classifica livello istruzuione (decodifica ANSC_155)
         condizioneProfessionalePadre:
           format: int32
           type: integer
+          description: classifica la condizione lavorativa (decodifica ANSC_156)
         condizioneProfessionaleMadre:
           format: int32
           type: integer
+          description: classifica la condizione lavorativa (decodifica ANSC_156)
         tipologiaProfessionalePadre:
           format: int32
           type: integer
+          description: classifica la tipologia lavorativa (decodifica ANSC_159)
         tipologiaProfessionaleMadre:
           format: int32
           type: integer
+          description: classifica la tipologia lavorativa (decodifica ANSC_159)
         posizioneProfessionaleMadre:
           format: int32
           type: integer
+          description: posizione lavorativa (decodifica ANSC_157)
         posizioneProfessionalePadre:
           format: int32
           type: integer
+          description: posizione lavorativa (decodifica ANSC_157)
         cittadinanzaPadre:
           type: array
           items:
@@ -1052,6 +1090,7 @@ components:
         luogoEvento:
           format: int32
           type: integer
+          description: indiga il luogo dove avvenuto l'evento (decodifica ANSC_149)
         altroLuogo:
           type: string
         tipoStrada:
@@ -1082,6 +1121,7 @@ components:
       - 5.0
       - 6.0
       type: string
+      description: tipologia del documento (decodifica ANSC_129)
     ValidazioneDmnmRequest:
       description: Dati del doc inviato
       required:

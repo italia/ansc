@@ -1,3 +1,161 @@
+#Changelog mappatura casi uso 1.47.0  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 8
+* riconoscimenti/Rico_004.csv
+* riconoscimenti/Rico_005.csv
+* riconoscimenti/Rico_007.csv
+* riconoscimenti/Rico_008.csv
+* riconoscimenti/Rico_011.csv
+* riconoscimenti/Rico_017.csv
+* riconoscimenti/Rico_019.csv
+* trascrizioni/Trascr_022.csv
+
+### Modifiche per il caso uso riconoscimenti/Rico_004.csv : 
+* Aggiunto 'Allegati Copia dell'atto di dichiarazione/assenso del figlio' (riga:3)
+* Rimosso 'Allegati Copia dell'atto di assenso del figlio'
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoReso' (riga:187)
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idAnsc'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.nomeComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idtipocontenuto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.numeroatto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.annoAtto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.dataformazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.parte'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.serie'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.volume'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.tipologia'
+
+### Modifiche per il caso uso riconoscimenti/Rico_005.csv : 
+* Aggiunto 'Allegati Copia dell'atto di dichiarazione/assenso del figlio' (riga:3)
+* Rimosso 'Allegati Copia dell'atto di assenso del figlio'
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoReso' (riga:121)
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idAnsc'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.nomeComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idtipocontenuto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.numeroatto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.annoAtto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.dataformazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.parte'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.serie'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.volume'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.tipologia'
+
+### Modifiche per il caso uso riconoscimenti/Rico_007.csv : 
+* Aggiunto 'Allegati Copia dell'atto di dichiarazione/assenso del figlio' (riga:5)
+* Rimosso 'Allegati Copia dell'atto di assenso del figlio'
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoReso' (riga:187)
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idAnsc'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.nomeComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idtipocontenuto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.numeroatto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.annoAtto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.dataformazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.parte'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.serie'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.volume'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.tipologia'
+
+### Modifiche per il caso uso riconoscimenti/Rico_008.csv : 
+* Aggiunto 'Allegati Copia dell'atto di dichiarazione/assenso del figlio' (riga:4)
+* Rimosso 'Allegati Copia dell'atto di assenso del figlio'
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoReso' (riga:126)
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idAnsc'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.nomeComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idtipocontenuto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.numeroatto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.annoAtto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.dataformazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.parte'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.serie'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.volume'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.tipologia'
+
+### Modifiche per il caso uso riconoscimenti/Rico_011.csv : 
+* Aggiunto 'Allegati Copia dell'atto di dichiarazione/assenso del figlio' (riga:5)
+* Rimosso 'Allegati Copia dell'atto di assenso del figlio'
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoReso' (riga:160)
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idAnsc'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.nomeComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idtipocontenuto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.numeroatto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.annoAtto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.dataformazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.parte'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.serie'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.volume'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.tipologia'
+
+### Modifiche per il caso uso riconoscimenti/Rico_017.csv : 
+* Aggiunto 'Allegati Copia dell'atto di dichiarazione/assenso del figlio' (riga:5)
+* Rimosso 'Allegati Copia dell'atto di assenso del figlio'
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoReso' (riga:160)
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idAnsc'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.nomeComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idtipocontenuto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.numeroatto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.annoAtto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.dataformazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.parte'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.serie'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.volume'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.tipologia'
+
+### Modifiche per il caso uso riconoscimenti/Rico_019.csv : 
+* Aggiunto 'Allegati Copia dell'atto di dichiarazione/assenso del figlio' (riga:3)
+* Rimosso 'Allegati Copia dell'atto di assenso del figlio'
+* Aggiunto 'evento.datiEventoRiconoscimento.assensoReso' (riga:188)
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idAnsc'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.siglaProvinciaRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.nomeComuneRegistrazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.idtipocontenuto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.numeroatto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.annoAtto'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.dataformazione'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.parte'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.serie'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.volume'
+* Rimosso 'evento.datiEventoRiconoscimento.assensoAtto.tipologia'
+
+### Modifiche per il caso uso trascrizioni/Trascr_022.csv : 
+* Aggiunto 'evento.riconoscimento.atto.idAnsc' (riga:105)
+* Aggiunto 'evento.riconoscimento.atto.idProvinciaRegistrazione' (riga:106)
+* Aggiunto 'evento.riconoscimento.atto.siglaProvinciaRegistrazione' (riga:107)
+* Aggiunto 'evento.riconoscimento.atto.idComuneRegistrazione' (riga:108)
+* Aggiunto 'evento.riconoscimento.atto.nomeComuneRegistrazione' (riga:109)
+* Aggiunto 'evento.riconoscimento.atto.idtipocontenuto' (riga:110)
+* Aggiunto 'evento.riconoscimento.atto.numeroatto' (riga:111)
+* Aggiunto 'evento.riconoscimento.atto.annoAtto' (riga:112)
+* Aggiunto 'evento.riconoscimento.atto.dataformazione' (riga:113)
+* Aggiunto 'evento.riconoscimento.atto.parte' (riga:114)
+* Aggiunto 'evento.riconoscimento.atto.serie' (riga:115)
+* Aggiunto 'evento.riconoscimento.atto.volume' (riga:116)
+* Aggiunto 'evento.riconoscimento.atto.tipologia' (riga:117)
+
+
 #Changelog mappatura casi uso 1.46.3  
 
 ## Casi uso aggiunti : 0

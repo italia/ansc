@@ -23,6 +23,70 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.47.0 - 22-12-2025]
+
+### Added
+
+
+- [versione] Aggiunta versione 100028
+- [feature] ID 195 nuovi caso d’uso di cittadinanza previsti dalla circolare ministeriale circolare n. 59/2025
+    * Dichiarazione di volontà d’acquisto della cittadinanza italiana di minore legge n. art. 4 legge 91/1992 (ordinaria)
+    * Dichiarazione di volontà d’acquisto della cittadinanza italiana di minore art.1-ter legge n.74/2025 (transitoria valida solo fino al 31 maggio 2026
+    * Esito di accertamento per articolo 4 comma 1-bis
+    * trascrizione della nascita a seguito di acquisto cittadinanza per beneficio di legge (articolo 4 comma 1-bis)
+- [feature] ID 198 Provvedimenti amministrativi di competenza dell'Autorità consolare di riconoscimento della cittadinanza italiana jure sanguinis <https://github.com/italia/ansc/issues/2323>
+- [feature] ID 205 Trascrizioni di sentenza straniera di scioglimento unione civile <https://github.com/italia/ansc/issues/1900>
+- [feature] ID 213 Trascrizione di nascita resa alla direzione sanitaria con pre riconoscimento <https://github.com/italia/ansc/issues/1803>
+- [feature] ID 186.b Gestione assenso successivo figlio infra quattordicenne o maggiorenne nei riconoscimenti
+- [feature] ID 191 Verifica corrispondenza tra USC in sessione e firma dell'atto
+- [feature] ID 201 Notifica automatica al comune primario (che detiene atto di nascita) a seguito di annotazione per errore materiale/modificativa effettuata su evento secondario
+- [feature] ID 158.a Invio in conservazione di atti rettificati/annullati
+- [feature] Nuovo UC (2.2.1.5) Dichiarazione di morte su avviso di pubblica autorita'
+
+- [decodifiche] Aggiunto valore in decodifica ANSC_9 dec_tipo_allegato 118 - "Provvedimento di riconoscimento della sentenza straniera" (ID 205)
+- [decodifiche] Aggiunto valore in decodifica ANSC_9 dec_tipo_allegato 119 - "Certificato di cittadinanza straniera o Riconoscimento dello status di apolide del minore" (ID 195)
+- [decodifiche] Aggiunto valore in decodifica ANSC_9 dec_tipo_allegato 120 - "Provvedimento di adozione" (ID 195)
+- [decodifiche] Aggiunto valore in decodifica ANSC_9 dec_tipo_allegato 121 - "Documentazione comprovante la qualità di tutore" (ID 195)
+- [decodifiche] Aggiunto valore in decodifica ANSC_9 dec_tipo_allegato 122 - "Documentazione comprovante la condizione di unico genitore del minore" (ID 195)
+- [decodifiche] Aggiunto valore in decodifica ANSC_9 dec_tipo_allegato 123 - "Ricevuta del pagamento" (ID 195)
+- [decodifiche] Aggiunto valore in decodifica ANSC_121 dec_officiante_cittadinanza 5 - "Ufficiale dello stato civile"
+- [casi d'uso] Aggiunto nuovo caso d'uso 5.2.1.5.5 (Citt_050) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 198)
+
+### Fixed
+- [WA/SC] Evoluzione del riconoscimento di figlio maggiorenne con assenso prestato davanti ad altro ufficiale <https://github.com/italia/ansc/issues/1945>
+- [WA]: Corretta trascrizione di provvedimento straniero di cambio sesso <https://github.com/italia/ansc/issues/2199>
+- 2.2.1.5 Trascrizione di morte su avviso di pubblica autorita': non è una trascrizione ma una dichiarazione
+- [WA/SC] Atti di cittadinanza (giuramenti e decreti): aggiunto come Officiante Ufficiale di stato civile delegato <https://github.com/italia/ansc/issues/2324>
+- [SC]: Corretto servizio R010v per anteprima Provvedimento  di rifiuto <https://github.com/italia/ansc/issues/2317>
+- [WA] Corretto servizio di annullamento atto per inefficacia <https://github.com/italia/ansc/issues/2378> <https://github.com/italia/ansc/issues/2382> <https://github.com/italia/ansc/issues/2388>
+- [WA] Corretta nota tecnic: campi Provincia e Comune di morte non presenti durante correzione con nota tecnica <https://github.com/italia/ansc/issues/2402>
+
+### Mapping
+- [casi d'uso] Aggiunto nuovo caso d'uso 5.2.1.5.5 (Citt_050) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 198)
+- [casi d'uso] Aggiunto nuovo caso d'uso 5.1.1.1.1 (Citt_051) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 195)
+- [casi d'uso] Aggiunto nuovo caso d'uso 5.1.1.1.2 (Citt_052) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 195)
+- [casi d'uso] Aggiunto nuovo caso d'uso 5.2.1.5.6 (Citt_053) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 195)
+- [casi d'uso] Aggiunto nuovo caso d'uso 1.3.1.7 (Trascr_038) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 195)
+- [casi d'uso] Aggiunto nuovo caso d'uso 4.4.8.0.0.0 (Sciogl_UnCiv_008) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 205)
+- [casi d'uso] Aggiunto nuovo caso d'uso 2.1.0.7 (Morte_019) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [decodifiche] Pubblicazione tabella ANSC_130, ANSC_133 e ANSC_134 (ID 195)
+- [decodifiche] Pubblicazione tabella ANSC_128 (ID 205)
+
+### model_evento.yaml
+- Aggiunta proprietà "estremiDichiarazione" di tipo ModelAttoCollegato in ModelTrascrizione (ID 195)
+- Aggiunta proprietà "eventoCollegato" di tipo ModelAttoCollegato in ModelTrascrizione (ID 195)
+- Aggiunta proprietà "estremiAccertamento" di tipo ModelAttoCollegato in ModelTrascrizione (ID 195)
+- Aggiornata la description per il campo "tipoRichiedente" in ModelTrascrizioneNascita come segue "Id del tipo richiedente (decodifica ANSC_64), per usecase 1334 e 1335 (decodifica ANSC_123), per usecase 1317 (decodifica ANSC_134)"
+- Aggiunta proprietà "tipoDichiarante" di tipo string in ModelDatiEventoCittadinanza (ID 195)
+- Aggiunta proprietà "tipoAccertamentoFiliazione" di tipo string in ModelDatiEventoCittadinanza (ID 195)
+- Aggiunta proprietà "dataAttoDiNascita" di tipo string e format date in ModelDatiEventoCittadinanza (ID 195)
+- Aggiunta proprietà "dataDecorrenzaDichiarazione" di tipo string e format date in ModelDatiEventoCittadinanza (ID 195)
+- Aggiunta proprietà "tipoModificaUnioneCivile" di tipo string in ModelTrascrizioneUnioneCivile (ID 205)
+- Aggiunta proprietà "ricevutaDaPrivatoCittadino" di tipo boolean in ModelTrascrizioneUnioneCivile (ID 205)
+- Aggiunta proprietà "dataPubblicazioneSentenza" di tipo string e format date in ModelTrascrizioneUnioneCivile (ID 205)
+- Aggiunta proprietà "dataDecorrenzaSentenza" di tipo string e format date in ModelTrascrizioneUnioneCivile (ID 205)
+
+
 ## [1.46.3 - 04-12-2025]
 
 ### Fixed

@@ -1,0 +1,5 @@
+"ID","DESCRIZIONE","DATAINIZIOVALIDITA","DATAFINEVALIDITA","ORDINAMENTO"
+"1","Ospedale","2024-10-30 00:00:00.0","9999-12-31 00:00:00.0","1"
+"2","Casa di cura/clinica","2024-10-30 00:00:00.0","9999-12-31 00:00:00.0","2"
+"3","In casa","2024-10-30 00:00:00.0","9999-12-31 00:00:00.0","3"
+"4","Luogo occasionale/fortuito (es. auto, taxi, luogo pubblico, ecc.)","2024-10-30 00:00:00.0","9999-12-31 00:00:00.0","4"

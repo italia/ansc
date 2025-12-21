@@ -1,0 +1,6 @@
+"ID","DESCRIZIONE","DATAINIZIOVALIDITA","DATAFINEVALIDITA","ORDINAMENTO"
+"1","Nessuna gravidanza","2024-10-30 00:00:00.0","9999-12-31 00:00:00.0","1"
+"2","Morte in gravidanza","2024-10-30 00:00:00.0","9999-12-31 00:00:00.0","2"
+"3","Morte entro 42 giorni dall'esito della gravidanza","2024-10-30 00:00:00.0","9999-12-31 00:00:00.0","3"
+"4","Morte tra 43 giorni e 1 anno dall'esito della gravidanza","2024-10-30 00:00:00.0","9999-12-31 00:00:00.0","4"
+"5","Informazione sconosciuta","2024-10-30 00:00:00.0","9999-12-31 00:00:00.0","5"
