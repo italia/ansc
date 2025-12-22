@@ -23,6 +23,33 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.48.0 - 22-12-2025]
+
+### Added
+
+- [versione] Aggiunta versione 100029
+- [feature] ID 196 Cittadinanza (formula 85 nuova circolare)
+    * dichiarazione resa da cittadino italiano che, avendo perduto la cittadinanza italiana, intende riacquistarla  articolo 17 legge 91/92
+    * Esito di accertamento riacquisto cittadinanza per articolo 17    
+- [feature] ID 158 Revisione cruscotto monitoraggio conservazione
+- [feature] ID 204 Identificazione comune a seguito di accorpamento o cambio denominazione
+- [decodifiche] Aggiunto decodifica ANSC_135 dec_motivo_perdita_cittadinanza (ID 196)
+
+
+### Fixed
+- [WA/SC] Separazioni e divorzi: reso facoltativo atto nascita degli sposi e corrette notifiche <https://github.com/italia/ansc/issues/2223> <https://github.com/italia/ansc/issues/2365>
+- [SC]: Corretto errore firma annotazione <https://github.com/italia/ansc/issues/2095>
+- [WA/SC]: Corretto errore 'L'atto associato è legato ad un altro intestatario' <https://github.com/italia/ansc/issues/1991>
+- [WA/SC]: Corretta l'annotazione di adozione di minore nel caso in cui nell'atto di nascita non siano presenti i genitori
+
+### Mapping
+- [casi d'uso] Aggiunto nuovo caso d'uso 5.1.3.0.7 (Citt_042) ed aggiunta la decodifica ANSC_135 dec_motivo_perdita_cittadinanza (ID 196)
+
+### model_evento.yaml
+- Aggiunta proprietà "idMotivoPerditaCittadinanzaNonMatrimonio" di tipo string (decodifica ANSC_135) in ModelDatiEventoCittadinanza (ID 196)
+- Aggiunta proprietà "dataPerditaCittadinanza"  di tipo string e format date in ModelDatiEventoCittadinanza (ID 196)
+
+
 ## [1.47.0 - 22-12-2025]
 
 ### Added

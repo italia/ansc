@@ -648,6 +648,11 @@ components:
           type: string
           description: Motivo perdita cittadinanza italiana
           example:  'Testo libero'
+        dataPerditaCittadinanza:
+          type: string
+          format: date
+          description: Data perdita cittadinanza italiana
+          example: '2022-07-02'
     ModelAscendenteML:
       $ref: '#/components/schemas/ModelSoggettoML'
     ModelDatiEventoMorteML:
@@ -2112,7 +2117,7 @@ components:
           example: "3"
         idMotivoPerditaCittadinanza:
           type: string
-          description: ID del motivo perdita cittadinanza italiana (ANSC_62)
+          description: ID del motivo perdita cittadinanza italiana per matrimonio(ANSC_62)
           example: '1'
         motivoPerditaCittadinanza:
           type: string
@@ -2238,6 +2243,15 @@ components:
           type: string
           format: date
           description: Data decorrenza della dichiarazione
+          example: '2022-06-24'
+        idMotivoPerditaCittadinanzaNonMatrimonio:
+          type: string
+          description: ID del motivo perdita di cittadinanza  (decodifica ANSC_135) (Citt_042)
+          example: '1'
+        dataPerditaCittadinanza:
+          type: string
+          format: date
+          description: Data perdita cittadinanza
           example: '2022-06-24'
 
     ModelTrascrizioneCittadinanza:

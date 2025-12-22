@@ -1,3 +1,101 @@
+#Changelog mappatura casi uso 1.48.0  
+
+## Casi uso aggiunti : 8
+* cittadinanza/Citt_042.csv
+* cittadinanza/Citt_050.csv
+* cittadinanza/Citt_051.csv
+* cittadinanza/Citt_052.csv
+* cittadinanza/Citt_053.csv
+* morte/Trascr_038.csv
+* morte/Sciogl_UnCiv_08.csv
+* morte/Morte_019.csv
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 3
+* matrimoni/Sep_Div_003.csv
+* matrimoni/Sep_Div_006.csv
+* matrimoni/Sep_Div_007.csv
+
+### Modifiche per il caso uso matrimoni/Sep_Div_003.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.idProvinciaRegistrazione' (riga:8)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.siglaProvinciaRegistrazione' (riga:9)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.idComuneRegistrazione' (riga:10)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.nomeComuneRegistrazione' (riga:11)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.idtipocontenuto' (riga:12)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.numeroatto' (riga:13)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.annoAtto' (riga:14)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.dataformazione' (riga:15)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.parte' (riga:16)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.serie' (riga:17)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:18)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.tipologia' (riga:19)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.idProvinciaRegistrazione' (riga:20)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.siglaProvinciaRegistrazione' (riga:21)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.idComuneRegistrazione' (riga:22)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.nomeComuneRegistrazione' (riga:23)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.idtipocontenuto' (riga:24)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.numeroatto' (riga:25)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.annoAtto' (riga:26)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.dataformazione' (riga:27)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.parte' (riga:28)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.serie' (riga:29)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:30)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.tipologia' (riga:31)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_006.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.idProvinciaRegistrazione' (riga:12)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.siglaProvinciaRegistrazione' (riga:13)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.idComuneRegistrazione' (riga:14)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.nomeComuneRegistrazione' (riga:15)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.idtipocontenuto' (riga:16)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.numeroatto' (riga:17)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.annoAtto' (riga:18)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.dataformazione' (riga:19)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.parte' (riga:20)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.serie' (riga:21)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:22)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.tipologia' (riga:23)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.idProvinciaRegistrazione' (riga:24)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.siglaProvinciaRegistrazione' (riga:25)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.idComuneRegistrazione' (riga:26)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.nomeComuneRegistrazione' (riga:27)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.idtipocontenuto' (riga:28)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.numeroatto' (riga:29)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.annoAtto' (riga:30)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.dataformazione' (riga:31)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.parte' (riga:32)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.serie' (riga:33)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:34)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.tipologia' (riga:35)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_007.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.idProvinciaRegistrazione' (riga:16)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.siglaProvinciaRegistrazione' (riga:17)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.idComuneRegistrazione' (riga:18)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.nomeComuneRegistrazione' (riga:19)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.idtipocontenuto' (riga:20)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.numeroatto' (riga:21)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.annoAtto' (riga:22)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.dataformazione' (riga:23)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.parte' (riga:24)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.serie' (riga:25)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.volume' (riga:26)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposo.tipologia' (riga:27)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.idProvinciaRegistrazione' (riga:28)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.siglaProvinciaRegistrazione' (riga:29)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.idComuneRegistrazione' (riga:30)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.nomeComuneRegistrazione' (riga:31)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.idtipocontenuto' (riga:32)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.numeroatto' (riga:33)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.annoAtto' (riga:34)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.dataformazione' (riga:35)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.parte' (riga:36)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.serie' (riga:37)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.volume' (riga:38)
+* Aggiunto 'evento.datiEventoMatrimonio.attoNascitaSposa.tipologia' (riga:39)
+
+
 #Changelog mappatura casi uso 1.47.0  
 
 ## Casi uso aggiunti : 0
