@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.48.2 - 02-01-2026]
+
+### Fixed
+
+- [SC]:[webapp]: Verbale chiusura registri 2025 (corretto l'anno di produzione dal 2025 al 2026) <https://github.com/italia/ansc/issues/2471> <https://github.com/italia/ansc/issues/2476>
+
 ## [1.48.1 - 23-12-2025]
 
 ### Fixed
