@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.48.3 - 05-01-2026]
+
+### Fixed
+
+- [SC]: retrocompatibilità non mantenuta <https://github.com/italia/ansc/issues/2482>
+
 ## [1.48.2 - 02-01-2026]
 
 ### Fixed
