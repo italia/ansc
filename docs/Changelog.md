@@ -23,6 +23,26 @@ NOTE:
 
 ## [Unreleased]
 
+##  [1.48.4 - 13-01-2026]
+
+### Changed
+
+- Intervallo massimo per firmare l'atto innalzato da 14 giorni a un anno. <https://github.com/italia/ansc/issues/2536>
+
+### Fixed
+
+- [WA] Corretto servizio annullamento atto per inefficacia in caso di soggetto intestatario collegato anche ad altri eventi
+- [SC] Corretto servizio di estrazione tabella decodifica 128 <https://github.com/italia/ansc/issues/2128>
+- [WA] UC Trascrizione atto di nascita resa alla direzione sanitaria: corretta generazione automatica della minuta dell'atto <https://github.com/italia/ansc/issues/1983>
+- [SC] R013 Corretta TestataRisposta: idEsito mancante <https://github.com/italia/ansc/issues/2340>
+- [WA] Corretto servizio Certificati emissibili per caso d'uso di servizio <https://github.com/italia/ansc/issues/2444>
+- [WA] Consultazione atti: corretti filtri ricerca <https://github.com/italia/ansc/issues/2523>
+- [SC] R008: corretto errore 500 nello scarico delle notifiche <https://github.com/italia/ansc/issues/2457>
+- [WA] Rimosso controllo bloccante La data di formazione presenta un anno diverso da quello corrente <https://github.com/italia/ansc/issues/2484>
+- [WA] Integrazione campo "tipo separazione" per caso uso 342000 <https://github.com/italia/ansc/issues/2438>
+- [WA] Corrette anomalie su indice annuale e verbale chiusura registri
+- [WA] Corretti certificati di nascita e morte in tedesco
+
 ## [1.48.3 - 05-01-2026]
 
 ### Fixed

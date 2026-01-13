@@ -230,7 +230,7 @@ components:
           example: 1
         idStatoDocumento:
           type: number
-          description: Id dello stato documento decodifica ANSC_135
+          description: Id dello stato documento decodifica ANSC_131
           example: 1
         dataRicezioneInizio:
           description: Data ricezione minima di ricerca del docuemnto
