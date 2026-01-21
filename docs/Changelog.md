@@ -23,6 +23,14 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.48.5 - 21-01-2026]
+
+### Fixed
+
+- [WA] Accesso prefettura: corretta anomalia in consultazione
+- [Documentazione] aggiornamento decodifica 135  <https://github.com/italia/ansc/issues/2620>
+- [Documentazione]: corretto idtipocontenuto nella documentazione 3_dec_use_case  <https://github.com/italia/ansc/issues/2588>
+
 ##  [1.48.4 - 13-01-2026]
 
 ### Changed
