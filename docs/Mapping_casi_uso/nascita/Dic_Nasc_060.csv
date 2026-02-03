@@ -2,7 +2,7 @@
 "Allegati","Attestazione di nascita","NO","","","","evento.datiDiNascita.tipoAccertamento,=,1"
 "Allegati","Constatazione di avvenuto parto","NO","","","","evento.datiDiNascita.tipoAccertamento,=,2"
 "Allegati","Dichiarazione di nascita sostitutiva resa da dichiarante","NO","","","","evento.datiDiNascita.tipoAccertamento,=,3"
-"Allegati","Atto di pre-riconoscimento","SI","","","",""
+"Allegati","Atto di pre-riconoscimento","NO","","","",""
 "Allegati","Atto di pre-riconoscimento dell'altro genitore","NO","","","",""
 "Allegati","Autorizzazione del tribunale","NO","","","",""
 "Formula","10","SI","","","",""

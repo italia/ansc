@@ -11,7 +11,7 @@
 "Dati generali","Stato","SI","evento.separazione.luogoEventoMatrimonio","idStato","","obbligatoria"
 "Dati generali","Stato descrizione","NO","evento.separazione.luogoEventoMatrimonio","nomeStato","121-septies","obbligatoria"
 "Dati generali","Provincia","NO","evento.separazione.luogoEventoMatrimonio","idProvincia","","obbligatoria"
-"Dati generali","Provincia - Descrizione","NO","evento.separazione.luogoEventoMatrimonio","siglaProvincia","","obbligatoria"
+"Dati generali","Provincia - Descrizione","NO","evento.separazione.luogoEventoMatrimonio","siglaProvincia","121-septies","obbligatoria"
 "Dati generali","Comune","NO","evento.separazione.luogoEventoMatrimonio","idComune","","obbligatoria"
 "Dati generali","Comune - Descrizione","NO","evento.separazione.luogoEventoMatrimonio","nomeComune","121-septies","obbligatoria"
 "Dati generali","Località estera","NO","evento.separazione.luogoEventoMatrimonio","comuneEstero","121-septies","obbligatoria"

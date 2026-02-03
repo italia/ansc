@@ -23,6 +23,42 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.48.6 - 03-02-2026]
+
+### Fixed 
+
+- Casi d'uso di servizio: inserita possibilità di rendere l'atto secretato
+- [SC] Deprecati i campi operatore, operatoreCognome, operatoreNome in relazione all'operatore che ha redatto l'atto. (Indipendentemente dal valore inviato, vengono usati i dati dell'ufficiale autenticato)
+- [SC/WA] UC Cittadinanza Sentenza per l'adozione di minore in casi particolari art. 44 l. 184/1983 o adozione nazionale art 25 l. 184/1983 e art. 35 comma 4  (52142): corretto errore di validazione nel caso in cui l'intestatario risulta maggiorenne all'atto della trascrizione ma minorenne alla data di decorrenza dell'atto <https://github.com/italia/ansc/issues/2319>
+- [SC/WA] Corretto errore in annotazione modificativa su atto di matrimonio precedentemente rettificato <https://github.com/italia/ansc/issues/2089>
+- [SC] dati ingresso non corretti - riapertura <https://github.com/italia/ansc/issues/2363>
+- [SC/WA] UC 2213: corretta annotazione automatica a seguito di atto di morte con data morte presunta
+- Formula 140 - annotazione sull'atto di nascita
+- UC 52142 - Trascrizione: Adozione di minore in casi particolari art. 44 l. 184/1983 o adozione nazionale art 25 l. 184/1983 e art. 35 comma 4
+- [WA] Corretta certificazione in caso di riconsocimento paterno <https://github.com/italia/ansc/issues/2452>
+- [SC] Usecase 342000: corretto errore "Dati in ingresso non corretti" nella generazione dell'anteprima <https://github.com/italia/ansc/issues/2416>
+- [SC] Errore conferma notifiche <https://github.com/italia/ansc/issues/2499>
+- [SC] Corretta notifica di annotazione a seguito di trascrizione del giuramento prestato all'estero <https://github.com/italia/ansc/issues/2359>
+- Controllo USC in sessione e firma
+- [SC] UC Accordo di separazione personale dei coniugi: Corretto errore di anteprima evento  <https://github.com/italia/ansc/issues/2485>
+- [WA] Annullamento atto per inefficacia: corretto errore " Non è stato possibile recuperare il soggetto attivo" <https://github.com/italia/ansc/issues/2511> <https://github.com/italia/ansc/issues/2548>
+- [SC] UC TRASCR_035 (1334): corretta documentazione <https://github.com/italia/ansc/issues/2554>
+- [SC/WA] UC Trascrizione del decreto prefettizio o sentenza di cambiamento del nome e cognome (1331): reso opzionale l'atto di nascita
+- [SC] Corretto problema su firma analogica <https://github.com/italia/ansc/issues/2436>
+- [SC] UC 51105 (Citt_017): corretto errore validazione <https://github.com/italia/ansc/issues/2596>
+- richiesta di dato inesistente <https://github.com/italia/ansc/issues/2633>
+- [SC] Corretto servizio di consultazione annotazioni relative ad un atto <https://github.com/italia/ansc/issues/2148> <https://github.com/italia/ansc/issues/2328>
+- Corretto errore di mancata generazione notifiche ANSC per comuni di residenza in seguito a evento di divorzio <https://github.com/italia/ansc/issues/2644>
+- [SC] Caso d'uso 3.6.5.6.9.9: corretto errore 'Operazione non consentita per lo use case richiesto' <https://github.com/italia/ansc/issues/2574>
+- [WA] Estensione servizio di disassociazione annotazione: consentitto di disassociare anche le note tecniche
+- Certificato internazionale: corretto errore "Soggetto non trovato" <https://github.com/italia/ansc/issues/2307>
+- [SC] Servizio R008: informazioni anagrafiche dell'Ufficiale di stato civile che redige l'atto recuperate dalla sessione utente e corretta documentazione <https://github.com/italia/ansc/issues/2629>  <https://github.com/italia/ansc/issues/2711>
+- [SC/WA] Controllo duplicazione atto per atti di morte e nascita
+- [SC] Corretto servizio di ricerca soggetto in caso di adozione <https://github.com/italia/ansc/issues/2586>
+- [SC/WA] UC "Provvedimento di cittadinanza jure sanguinis" (52155): aggiunto allegato 116 mancante <https://github.com/italia/ansc/issues/2478>
+- [WA] Nota tecnica: corretta ricerca atto di nascita tramite codice fiscale <https://github.com/italia/ansc/issues/2591>
+- [WA] Accesso prefettura: corretta anomalia in consultazione 
+
 ## [1.48.5 - 21-01-2026]
 
 ### Fixed

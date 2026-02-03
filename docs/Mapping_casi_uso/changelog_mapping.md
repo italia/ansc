@@ -1,3 +1,288 @@
+#Changelog mappatura casi uso 1.48.6  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 35
+* cittadinanza/Citt_021.csv
+* cittadinanza/Citt_024.csv
+* cittadinanza/Citt_998_1.csv
+* cittadinanza/Citt_998_2.csv
+* cittadinanza/Citt_998_4.csv
+* cittadinanza/Citt_999.csv
+* matrimoni/Matr_998_1.csv
+* matrimoni/Matr_998_2.csv
+* matrimoni/Matr_998_4.csv
+* matrimoni/Matr_999_1.csv
+* matrimoni/Matr_999_2.csv
+* matrimoni/Matr_Riconc_999.csv
+* matrimoni/Sep_Div_999.csv
+* morte/Morte_998_1.csv
+* morte/Morte_998_2.csv
+* morte/Morte_998_4.csv
+* morte/Morte_999.csv
+* nascita/Dic_Nasc_998_1.csv
+* nascita/Dic_Nasc_998_2.csv
+* nascita/Dic_Nasc_998_5.csv
+* nascita/Dic_Nasc_999.csv
+* riconoscimenti/Rico_999.csv
+* trascrizioni/Trascr_012.csv
+* trascrizioni/Trascr_035.csv
+* trascrizioni/Trascr_999.csv
+* trascrizioni/Trascr_Citt_999.csv
+* trascrizioni/Trascr_Matr_999.csv
+* trascrizioni/Trascr_Morte_999.csv
+* trascrizioni/Trascr_UnCiv_999.csv
+* unioni_civili/Sciogl_UnCiv_999.csv
+* unioni_civili/UnCiv_998_1.csv
+* unioni_civili/UnCiv_998_2.csv
+* unioni_civili/UnCiv_998_4.csv
+* unioni_civili/UnCiv_998_5.csv
+* unioni_civili/UnCiv_999.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_021.csv : 
+* Aggiunto 'evento.datiEventoCittadinanza.officiante' (riga:20)
+* Aggiunto 'evento.ufficialeStatoCivile.cognome' (riga:21)
+* Aggiunto 'evento.ufficialeStatoCivile.nome' (riga:22)
+* Aggiunto 'evento.ufficialeStatoCivile.idANPR' (riga:23)
+* Aggiunto 'evento.ufficialeStatoCivile.sesso' (riga:24)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:25)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:26)
+* Aggiunto 'evento.ufficialeStatoCivile.dataNascita' (riga:27)
+* Aggiunto 'evento.ufficialeStatoCivile.idStatoNascita' (riga:28)
+* Aggiunto 'evento.ufficialeStatoCivile.nomeStatoNascita' (riga:29)
+* Aggiunto 'evento.ufficialeStatoCivile.idProvinciaNascita' (riga:30)
+* Aggiunto 'evento.ufficialeStatoCivile.siglaProvinciaNascita' (riga:31)
+* Aggiunto 'evento.ufficialeStatoCivile.idComuneNascita' (riga:32)
+* Aggiunto 'evento.ufficialeStatoCivile.nomeComuneNascita' (riga:33)
+* Aggiunto 'evento.ufficialeStatoCivile.localitaEsteraNascita' (riga:34)
+* Aggiunto 'evento.ufficialeStatoCivile.idNazionalita' (riga:35)
+* Aggiunto 'evento.ufficialeStatoCivile.nazionalita' (riga:36)
+* Aggiunto 'evento.ufficialeStatoCivile.flagIrreperibile' (riga:37)
+* Aggiunto 'evento.ufficialeStatoCivile.idStatoResidenza' (riga:38)
+* Aggiunto 'evento.ufficialeStatoCivile.nomeStatoResidenza' (riga:39)
+* Aggiunto 'evento.ufficialeStatoCivile.idProvinciaResidenza' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.siglaProvinciaResidenza' (riga:41)
+* Aggiunto 'evento.ufficialeStatoCivile.idComuneResidenza' (riga:42)
+* Aggiunto 'evento.ufficialeStatoCivile.nomeComuneResidenza' (riga:43)
+* Aggiunto 'evento.ufficialeStatoCivile.indirizzoResidenza' (riga:44)
+* Aggiunto 'evento.ufficialeStatoCivile.flagDichiarante' (riga:45)
+* Aggiunto 'evento.ufficialeStatoCivile.flagComparente' (riga:46)
+* Aggiunto 'evento.ufficialeStatoCivile.flagFirmatario' (riga:47)
+
+### Modifiche per il caso uso cittadinanza/Citt_024.csv : 
+* Aggiunto 'evento.datiEventoCittadinanza.officiante' (riga:18)
+* Aggiunto 'evento.ufficialeStatoCivile.cognome' (riga:19)
+* Aggiunto 'evento.ufficialeStatoCivile.nome' (riga:20)
+* Aggiunto 'evento.ufficialeStatoCivile.idANPR' (riga:21)
+* Aggiunto 'evento.ufficialeStatoCivile.sesso' (riga:22)
+* Aggiunto 'evento.ufficialeStatoCivile.idFormatodata' (riga:23)
+* Aggiunto 'evento.ufficialeStatoCivile.formatodata' (riga:24)
+* Aggiunto 'evento.ufficialeStatoCivile.dataNascita' (riga:25)
+* Aggiunto 'evento.ufficialeStatoCivile.idStatoNascita' (riga:26)
+* Aggiunto 'evento.ufficialeStatoCivile.nomeStatoNascita' (riga:27)
+* Aggiunto 'evento.ufficialeStatoCivile.idProvinciaNascita' (riga:28)
+* Aggiunto 'evento.ufficialeStatoCivile.siglaProvinciaNascita' (riga:29)
+* Aggiunto 'evento.ufficialeStatoCivile.idComuneNascita' (riga:30)
+* Aggiunto 'evento.ufficialeStatoCivile.nomeComuneNascita' (riga:31)
+* Aggiunto 'evento.ufficialeStatoCivile.localitaEsteraNascita' (riga:32)
+* Aggiunto 'evento.ufficialeStatoCivile.idNazionalita' (riga:33)
+* Aggiunto 'evento.ufficialeStatoCivile.nazionalita' (riga:34)
+* Aggiunto 'evento.ufficialeStatoCivile.flagIrreperibile' (riga:35)
+* Aggiunto 'evento.ufficialeStatoCivile.idStatoResidenza' (riga:36)
+* Aggiunto 'evento.ufficialeStatoCivile.nomeStatoResidenza' (riga:37)
+* Aggiunto 'evento.ufficialeStatoCivile.idProvinciaResidenza' (riga:38)
+* Aggiunto 'evento.ufficialeStatoCivile.siglaProvinciaResidenza' (riga:39)
+* Aggiunto 'evento.ufficialeStatoCivile.idComuneResidenza' (riga:40)
+* Aggiunto 'evento.ufficialeStatoCivile.nomeComuneResidenza' (riga:41)
+* Aggiunto 'evento.ufficialeStatoCivile.indirizzoResidenza' (riga:42)
+* Aggiunto 'evento.ufficialeStatoCivile.flagDichiarante' (riga:43)
+* Aggiunto 'evento.ufficialeStatoCivile.flagComparente' (riga:44)
+* Aggiunto 'evento.ufficialeStatoCivile.flagFirmatario' (riga:45)
+
+### Modifiche per il caso uso cittadinanza/Citt_998_1.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso cittadinanza/Citt_998_2.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso cittadinanza/Citt_998_4.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:14)
+
+### Modifiche per il caso uso cittadinanza/Citt_999.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso matrimoni/Matr_998_1.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso matrimoni/Matr_998_2.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso matrimoni/Matr_998_4.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:14)
+
+### Modifiche per il caso uso matrimoni/Matr_999_1.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso matrimoni/Matr_999_2.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso matrimoni/Matr_Riconc_999.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_999.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso morte/Morte_998_1.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso morte/Morte_998_2.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso morte/Morte_998_4.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:14)
+
+### Modifiche per il caso uso morte/Morte_999.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_1.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_2.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_5.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:14)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_999.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:16)
+
+### Modifiche per il caso uso riconoscimenti/Rico_999.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso trascrizioni/Trascr_012.csv : 
+* Presenti modifiche per 'Formula 192.3' (riga:4)
+* Aggiunto 'Formula 193.1' (riga:5)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.attoNascita.idAnsc' (riga:167)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.attoNascita.idProvinciaRegistrazione' (riga:168)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.attoNascita.siglaProvinciaRegistrazione' (riga:169)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.attoNascita.idComuneRegistrazione' (riga:170)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.attoNascita.nomeComuneRegistrazione' (riga:171)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.attoNascita.idtipocontenuto' (riga:172)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.attoNascita.numeroatto' (riga:173)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.attoNascita.annoAtto' (riga:174)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.attoNascita.dataformazione' (riga:175)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.attoNascita.parte' (riga:176)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.attoNascita.serie' (riga:177)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.attoNascita.volume' (riga:178)
+* Presenti modifiche per 'evento.datiEventoRiconoscimento.attoNascita.tipologia' (riga:179)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.nomeEnte' (riga:262)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.idProvinciaEnte' (riga:263)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.siglaProvinciaEnte' (riga:264)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.idComuneEnte' (riga:265)
+* Aggiunto 'evento.trascrizioneNascita.autoritaMittente.nomeComuneEnte' (riga:266)
+
+### Modifiche per il caso uso trascrizioni/Trascr_035.csv : 
+* Rimosso 'evento.madre.cognome'
+* Rimosso 'evento.madre.nome'
+* Rimosso 'evento.madre.idANPR'
+* Rimosso 'evento.madre.sesso'
+* Rimosso 'evento.madre.idFormatodata'
+* Rimosso 'evento.madre.formatodata'
+* Rimosso 'evento.madre.dataNascita'
+* Rimosso 'evento.madre.idStatoNascita'
+* Rimosso 'evento.madre.nomeStatoNascita'
+* Rimosso 'evento.madre.idProvinciaNascita'
+* Rimosso 'evento.madre.siglaProvinciaNascita'
+* Rimosso 'evento.madre.idComuneNascita'
+* Rimosso 'evento.madre.nomeComuneNascita'
+* Rimosso 'evento.madre.localitaEsteraNascita'
+* Rimosso 'evento.madre.idNazionalita'
+* Rimosso 'evento.madre.nazionalita'
+* Rimosso 'evento.madre.tipoImpedimento'
+* Rimosso 'evento.madre.flagIrreperibile'
+* Rimosso 'evento.madre.idStatoResidenza'
+* Rimosso 'evento.madre.nomeStatoResidenza'
+* Rimosso 'evento.madre.idProvinciaResidenza'
+* Rimosso 'evento.madre.siglaProvinciaResidenza'
+* Rimosso 'evento.madre.idComuneResidenza'
+* Rimosso 'evento.madre.nomeComuneResidenza'
+* Rimosso 'evento.madre.indirizzoResidenza'
+* Rimosso 'evento.madre.flagDichiarante'
+* Rimosso 'evento.madre.flagComparente'
+* Rimosso 'evento.madre.flagFirmatario'
+* Rimosso 'evento.madre.idProvinciaAIRE'
+* Rimosso 'evento.madre.siglaProvinciaAIRE'
+* Rimosso 'evento.madre.idComuneAIRE'
+* Rimosso 'evento.madre.nomeComuneAIRE'
+* Rimosso 'evento.padre.cognome'
+* Rimosso 'evento.padre.nome'
+* Rimosso 'evento.padre.idANPR'
+* Rimosso 'evento.padre.sesso'
+* Rimosso 'evento.padre.idFormatodata'
+* Rimosso 'evento.padre.formatodata'
+* Rimosso 'evento.padre.dataNascita'
+* Rimosso 'evento.padre.idStatoNascita'
+* Rimosso 'evento.padre.nomeStatoNascita'
+* Rimosso 'evento.padre.idProvinciaNascita'
+* Rimosso 'evento.padre.siglaProvinciaNascita'
+* Rimosso 'evento.padre.idComuneNascita'
+* Rimosso 'evento.padre.nomeComuneNascita'
+* Rimosso 'evento.padre.localitaEsteraNascita'
+* Rimosso 'evento.padre.idNazionalita'
+* Rimosso 'evento.padre.nazionalita'
+* Rimosso 'evento.padre.tipoImpedimento'
+* Rimosso 'evento.padre.flagIrreperibile'
+* Rimosso 'evento.padre.idStatoResidenza'
+* Rimosso 'evento.padre.nomeStatoResidenza'
+* Rimosso 'evento.padre.idProvinciaResidenza'
+* Rimosso 'evento.padre.siglaProvinciaResidenza'
+* Rimosso 'evento.padre.idComuneResidenza'
+* Rimosso 'evento.padre.nomeComuneResidenza'
+* Rimosso 'evento.padre.indirizzoResidenza'
+* Rimosso 'evento.padre.flagDichiarante'
+* Rimosso 'evento.padre.flagComparente'
+* Rimosso 'evento.padre.flagFirmatario'
+* Rimosso 'evento.padre.idProvinciaAIRE'
+* Rimosso 'evento.padre.siglaProvinciaAIRE'
+* Rimosso 'evento.padre.idComuneAIRE'
+* Rimosso 'evento.padre.nomeComuneAIRE'
+
+### Modifiche per il caso uso trascrizioni/Trascr_999.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Citt_999.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_999.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Morte_999.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:30)
+
+### Modifiche per il caso uso trascrizioni/Trascr_UnCiv_999.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso unioni_civili/Sciogl_UnCiv_999.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_1.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_2.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_4.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:14)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_5.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:14)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_999.csv : 
+* Aggiunto 'evento.flagsecretato' (riga:15)
+
+
 #Changelog mappatura casi uso 1.48.0  
 
 ## Casi uso aggiunti : 8

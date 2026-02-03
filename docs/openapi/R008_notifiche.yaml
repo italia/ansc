@@ -417,16 +417,16 @@ components:
           example: 0
         nomeusc:
           description: Nome USC che approva la notifica
-          type: number
-          example: 0
+          type: string
+          example: "Marco"
         cognomeusc:
           description: Cognome USC che approva la notifica
-          type: number
-          example: 0
+          type: string
+          example: "Rossi"
         codicefiscaleusc:
           description: Codice fiscale USC che approva la notifica
-          type: number
-          example: 0
+          type: string
+          example: "RSSMRC80A01F023R"
 
     NotificheRicercaRequest:
       description: Ritorno del servizio specializzato per la configurazione dei pannelli

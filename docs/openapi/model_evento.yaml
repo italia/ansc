@@ -78,7 +78,8 @@ components:
           example: '11'
         operatore:
           type: string
-          description: Codice fiscale dell'operatore che ha redatto l'atto.
+          deprecated: true
+          description: -- DEPRECATO -- Codice fiscale dell'operatore che ha redatto l'atto. (Indipendentemente dal valore inviato, vengono usati i dati dell'ufficiale autenticato)
           example: 'ABCDEF99A11H501A'
         ruoloOperatore:
           type: string
@@ -86,11 +87,13 @@ components:
           example: "1"
         operatoreNome:
           type: string
-          description: Nome dell'operatore che ha redatto l'atto.
+          deprecated: true
+          description: -- DEPRECATO -- Nome dell'operatore che ha redatto l'atto. (Indipendentemente dal valore inviato, vengono usati i dati dell'ufficiale autenticato)
           example: 'MARIO'
         operatoreCognome:
           type: string
-          description: Cognome dell'operatore che ha redatto l'atto.
+          deprecated: true
+          description: -- DEPRECATO -- Cognome dell'operatore che ha redatto l'atto. (Indipendentemente dal valore inviato, vengono usati i dati dell'ufficiale autenticato)
           example: 'ROSSI'
         redattoNellaCasaComunale:
           type: boolean

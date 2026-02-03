@@ -11,7 +11,7 @@
 "Dati generali","Stato","NO","evento.scioglimentoUnioneCivile.luogoEventoUnioneCivile","idStato","","obbligatoria"
 "Dati generali","Stato descrizione","NO","evento.scioglimentoUnioneCivile.luogoEventoUnioneCivile","nomeStato","121-septies.1","obbligatoria"
 "Dati generali","Provincia","NO","evento.scioglimentoUnioneCivile.luogoEventoUnioneCivile","idProvincia","","obbligatoria"
-"Dati generali","Provincia - Descrizione","NO","evento.scioglimentoUnioneCivile.luogoEventoUnioneCivile","siglaProvincia","","obbligatoria"
+"Dati generali","Provincia - Descrizione","NO","evento.scioglimentoUnioneCivile.luogoEventoUnioneCivile","siglaProvincia","121-septies.1","obbligatoria"
 "Dati generali","Comune","NO","evento.scioglimentoUnioneCivile.luogoEventoUnioneCivile","idComune","","obbligatoria"
 "Dati generali","Comune - Descrizione","NO","evento.scioglimentoUnioneCivile.luogoEventoUnioneCivile","nomeComune","121-septies.1","obbligatoria"
 "Dati generali","Località estera","NO","evento.scioglimentoUnioneCivile.luogoEventoUnioneCivile","comuneEstero","121-septies.1","obbligatoria"
