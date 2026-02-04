@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.48.7 - 04-02-2026]
+
+### Fixed 
+
+- [SC]: Non risulta corrispondenza tra utente in sessione e firmatario dell'atto <https://github.com/italia/ansc/issues/2743> <https://github.com/italia/ansc/issues/2745> <https://github.com/italia/ansc/issues/2747> 
+
 ## [1.48.6 - 03-02-2026]
 
 ### Fixed 
