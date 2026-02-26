@@ -23,6 +23,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.48.8 - 26-02-2026]
+
+### Fixed
+
+- [SC]: tabella 135 doppia (rimosse tabelle obsolete) <https://github.com/italia/ansc/issues/2898>
+
 ## [1.48.7 - 04-02-2026]
 
 ### Fixed 
