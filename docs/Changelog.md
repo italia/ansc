@@ -23,6 +23,64 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.49.0 - 03-03-2026]
+
+### Added
+
+- [versione] Aggiunta versione 100030
+- [feature] ID 323 Dichiarazioni di cittadinanza: firma in differita del sindaco <https://github.com/italia/ansc/issues/2379> 
+- [feature] ID 324 Cittadinanza in corso di definizione <https://github.com/italia/ansc/issues/2408>
+- [feature] ID 325 Provvedimento straniero adozione di minorenne
+- [feature] ID 322 (ex 207 )Trascrizione provvedimento del Tribunale cognome minore riconosciuto art. 262 
+- [feature] ID 333 Riconoscimento materno di maggiorenne già riconosciuto dal padre <https://github.com/italia/ansc/issues/2649>
+- [feature] ID 335 Riacquisto cittadinanza italiana art.17 L.91/1992 da Consolato <https://github.com/italia/ansc/issues/2731>
+- [feature] ID 336 Evoluzione caso d'uso esito di accertamento per articolo 4 comma 1-bis per la gestione del consolato
+- [feature] ID 337 Evoluzione negoziazione assistita in caso di accordo di scioglimento e cessazione effetti civili per generazione notifiche anagrafiche
+- [feature] ID 338 Evoluzione Trascrizioni di sentenza straniera di scioglimento unione civile per gestione di richiesta da privato
+- [feature] ID 310 Unione civile - Trascrizione di scioglimento di unione civile pronunciato all'estero <https://github.com/italia/ansc/issues/2164>
+- [feature] ID 341 Estratti da sportello con firma remota USC obbligatoria <https://github.com/italia/ansc/discussions/2832>
+- [casi d'uso] Aggiunto nuovo caso d'uso 1.2.2.2.2.4.0.1 (Rico_022) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 333)
+- [casi d'uso] Aggiunto nuovo caso d'uso 5.2.3.3.2 (Citt_055) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 335)
+- [casi d'uso] Aggiunto nuovo caso d'uso 1.3.6.8 (Trascr_039) ed aggiunta la decodifica ANSC_171
+
+
+
+### Fixed
+
+- [SC] Corretto errore notifiche in caso di comune aire pregresso <https://github.com/italia/ansc/issues/2748>
+- [SC] Corretto invio notifica anagrafica al comune di residneza in caso di errore materiale <https://github.com/italia/ansc/issues/2672>
+- [SC/WA] Certificati con menzione paternità e maternità a seguito di adozione casi particolari e maggiorenni: corretta visualizzazione genitori biologici
+- [SC/WA] Corretto errore in annotazione modificativa in caso di atto già rettificato <https://github.com/italia/ansc/issues/2089>
+- [SC/WA] Corretto caso d'uso conferma di separazione in caso di atto di separazione analogico <https://github.com/italia/ansc/issues/2777>
+- [SC] Eliminata notifica per atti secretati <https://github.com/italia/ansc/issues/2771>
+- [SC/WA] Caso d'uso [1.3.1.7] legge (articolo 4 comma 1-bis): consentito di indicare Ente estero <https://github.com/italia/ansc/issues/2733>
+- [SC] Servizio R010: corretta testataRisposta inserendo idEsito mancate <https://github.com/italia/ansc/issues/2765>
+- [SC] Usecase 2107: notifica ANPR corretto idTipoNotifica errato <https://github.com/italia/ansc/issues/2820>
+- [SC/WA] Corretto estratto per copia integrale atto di morte <https://github.com/italia/ansc/issues/2465>
+- [WA] Corretto errore in emissione certificati in caso di annotazioni non approvate <https://github.com/italia/ansc/issues/2677>
+- [DOC] Corretta documentazione Citt_045 atto di nascita <https://github.com/italia/ansc/issues/2810>
+- [SC] Casi d'uso di Riconoscimento: gestito come default flag premorto (valore di default =false)
+- [SC/WA] Caso d'uso 52156 accertamento proveneiente dal Consolato: consentito inserimento del consolato <https://github.com/italia/ansc/issues/2746>
+- [WA] Certificati internazionali: gestione date parziali
+- [WA] Eliminazione atto in bozza: disattivazione soggetto in caso lo stesso soggetto sia collegato ad un altro atto <https://github.com/italia/ansc/issues/2905> <https://github.com/italia/ansc/issues/2809> <https://github.com/italia/ansc/issues/2733>
+- [SC] Rigenerazione delle annotazioni su atto principale a seguito di rettifica dell'atto secondario tramite nota tecnica o articolo 98  <https://github.com/italia/ansc/issues/2772> <https://github.com/italia/ansc/issues/2800>
+- [SC/WA] Coirretta annotazione modificativa in caso di correzione stato di nascita <https://github.com/italia/ansc/issues/2793>3- [SC/WA] Correzione consultazione atto a seguito di correzione allegato <https://github.com/italia/ansc/issues/2776>
+- [WA] Corretto certificato internazionale in caso di sate di nascita parziali <https://github.com/italia/ansc/issues/2740>
+- [WA] Certificazione: corretta gestioone nazionalità <https://github.com/italia/ansc/issues/2767>
+- [SC/WA] Corretta certificazione per atto di morte in caso di mancanza minuto morte <https://github.com/italia/ansc/issues/2769>
+- [SC/WA] Corretto errore interno in emissione certificati <https://github.com/italia/ansc/issues/2681>
+- [WA]  Certificati internazionali: eliminato controllo di uguaglianza tra cognome dopo il matrimonio e cognome prima del matrimonio <https://github.com/italia/ansc/issues/2759>
+- [SC] caso uso 448000: corretta non coerenza tra idUseCase e idTipoContenuto <https://github.com/italia/ansc/issues/2657>>- [WA] Generazione verbale chiusura registri anche con zero atti)- [WA] Corretta lista documenti in verbale di verificazione annuale)- [WA] Adesione: corretta gestione errore codice IPA
+
+### Changed
+
+- [decodifiche] Modificato valore in decodifica ANSC_12 dec_tipo_consenso '4' - "Sentenza del tribunale dopo rifiuto consenso" (anzichè "Sentenza del tribunale dopo rifiuto consenso materno" ID 333)
+- [decodifiche] Aggiunta decodifica ANSC_136 dec_tipo_sentenza_adozione (ID 325)
+- [decodifiche] Modificato valore in decodifica ANSC_134 '4' - "Altro" anzichè "Tutore"
+- [model_evento.yaml]
+  - Aggiunto example ai campi datiAssegnoMantenimento
+  - Modifica descrizione al campo idTipoRichiedente in ModelRichiedente 'tipo di richiedente decodifica ANSC_117, per usecase 1351 decodifica ANSC_134'
+
 ## [1.48.8 - 26-02-2026]
 
 ### Fixed

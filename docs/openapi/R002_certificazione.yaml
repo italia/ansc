@@ -1,10 +1,10 @@
 openapi: 3.0.0
 info:
   title: Servizi cooperativi per la certificazione.
-  version: '1.4.0'  
+  version: '1.49.0'
 servers:
   - url: https://anscservice.anpr.interno.it/services/service/certificazione
-    description: Servizio di produzione      
+    description: Servizio di produzione
   - url: https://anscservicepre.anpr.interno.it/services/service/certificazione
     description: Servizio di preproduzione
   - url: http://localhost:8092
@@ -21,31 +21,31 @@ paths:
           schema:
             type: string
       requestBody:
-               required: true
-               content:
-                  application/json:
-                    schema:
-                      $ref: '#/components/schemas/CertificatoRequest'
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CertificatoRequest'
       responses:
         '200':
           description: Successo
           content:
             application/json:
               schema:
-                 $ref: '#/components/schemas/CertificatoResponse'
+                $ref: '#/components/schemas/CertificatoResponse'
         '403':
           description: Non autorizzato
           content:
             application/json:
               schema:
-                 $ref: '#/components/schemas/CertificatoResponse'
+                $ref: '#/components/schemas/CertificatoResponse'
 
         '404':
           description: Non trovato
           content:
             application/json:
               schema:
-                 $ref: '#/components/schemas/CertificatoResponse'
+                $ref: '#/components/schemas/CertificatoResponse'
 components:
   schemas:
     CertificatoRequest:
@@ -53,10 +53,10 @@ components:
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
         - type: object
-          properties:         
+          properties:
             idAnsc:
               type: string
-              description: Id Nazionale univoco assegnato dal sistema.    
+              description: Id Nazionale univoco assegnato dal sistema.
               example: "2022-2780-26095-040007"
             idEvento:
               type: string
@@ -76,7 +76,7 @@ components:
               description: soggetto intestatario
             idTipoCertificato:
               type: string
-              description: Id univoco del tipo certificato (1 - Certificato Semplice . 2 - Estratto per riassunto . 3 Estratto integrale)
+              description: Id univoco del tipo certificato (1 - Certificato Semplice . 2 - Estratto per riassunto . 3 Estratto integrale), per gli estratti (valori 2 e 3) è necessario fornire i parametri di firma.
               example: "1"
             idTipoEvento:
               type: string
@@ -93,8 +93,8 @@ components:
             codiciLingueCertificato:
               type: array
               items:
-               type: string
-               description: Codici lingue aggiuntive in cui il certificato verrà prodotto
+                type: string
+                description: Codici lingue aggiuntive in cui il certificato verrà prodotto
             idTipoUso:
               type: string
               description: Id del tipo uso (codificato ANSC_113)
@@ -103,12 +103,16 @@ components:
               type: boolean
               description: Indica se il certificato estratto per copia integrale deve essere semplificato ossia senza metadati
               example: true
+            parametriFirma:
+              description: Obbligatori solo per l'emissione degli estratti (idTipoCertificato 2 e 3), non vanno invece inviati per i certificati semplici (idTipoCertificato 1)
+              allOf:
+                - $ref: '#/components/schemas/ParametriFirma'
     CertificatoResponse:
       description: Ritorno del servizio specializzato per il certificato
       allOf:
         - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
         - type: object
-          properties:         
+          properties:
             contenuto:
               type: string
               description: File in formato base64
@@ -117,7 +121,7 @@ components:
               type: string
               description: Nome del file
               example: Nome.pdf
-            tipoFile: 
+            tipoFile:
               type: string
               description: Tipo del file (codificato ANSC_10)
               example: '3'
@@ -145,4 +149,26 @@ components:
               format: date
               description: Data fine validità.
               example: '2025-12-30'
-
+    ParametriFirma:
+      properties:
+        idTipoFirma:
+          type: string
+          description: Identificativo tipo firma (codificato ANSC_28), da notare che i parametri di input obbligatori potrebbero cambiare nel tempo a seconda del fornitre del servizio di firma remota
+          example: "1"
+        idModalitaInput:
+          type: string
+          description: Modalita' invio input, '1' - In chiaro, '2' - base64, il valore di default se non impostato e' '1', il valore '1' non sara' accettato in produzione
+          example: "2"
+        inputFirma1:
+          type: string
+          description: "Primo input per la firma (es. TestUser) \
+            NOTA: Il nome utente va inserito per intero, se ad esempio è presente un dominio : TestUser@miodominio"
+          example: "VGVzdFVzZXI="
+        inputFirma2:
+          type: string
+          description: Secondo input per la firma (es. TestPassword)
+          example: "VGVzdFBhc3N3b3Jk"
+        inputFirma3:
+          type: string
+          description: Terzo input per la firma (es. TestOtp)
+          example: "VGVzdE90cA=="

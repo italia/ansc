@@ -170,7 +170,7 @@
 "Atto Consenso","Serie","NO","evento.consensoMadre.atto","serie","109","evento.consensoMadre.tipoConsenso,!=,2"
 "Atto Consenso","Volume","NO","evento.consensoMadre.atto","volume","109","evento.consensoMadre.tipoConsenso,!=,2"
 "Atto Consenso","Tipo registro","SI","evento.consensoMadre.atto","tipologia","","evento.consensoMadre.tipoConsenso,!=,2"
-"Atto Consenso","Presentazione documenti","NO","evento.consensoMadre","datiProdotti","","evento.consensoMadre.tipoConsenso,!=,2"
+"Atto Consenso","Presentazione documenti","NO","evento.consensoMadre","datiProdotti","109","evento.consensoMadre.tipoConsenso,!=,2"
 "Atto Consenso Madre","Data formazione documento","NO","evento.consensoMadre.altroUfficiale","dataTrascrizione","109","evento.consensoMadre.tipoConsenso,!=,3"
 "Atto Consenso Madre","Estremi documento","NO","evento.consensoMadre.altroUfficiale","estremiDocumento","109","evento.consensoMadre.tipoConsenso,!=,3"
 "Atto Consenso Madre","Nome ente","NO","evento.consensoMadre.altroUfficiale","nomeEnte","109","evento.consensoMadre.tipoConsenso,!=,3"

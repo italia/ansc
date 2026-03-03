@@ -366,7 +366,7 @@ components:
       properties:
         idTipoRichiedente:
           type: number
-          description: tipo di richiedente (1 - privato, 2 - ente pubblico) (decodifica ANSC_117)
+          description: tipo di richiedente decodifica ANSC_117, per usecase 1351 decodifica ANSC_134
         privato:
           $ref: '#/components/schemas/ModelSoggetto'
         entePubblico:
@@ -992,6 +992,7 @@ components:
         datiAssegnoMantenimento:
           type: string
           description: Nel caso esista l'assegno di mantenimento o divorzile
+          example: "di concordare l'assegno di mantenimento/divorzile di xxxx €"
     ModelNegoziazioneAssistitaML:
       properties:
         avvocatoConiuge1:
@@ -1055,6 +1056,7 @@ components:
         datiAssegnoMantenimento:
           type: string
           description: Nel caso esista l'assegno di mantenimento o divorzile
+          example: "di concordare l'assegno di mantenimento/divorzile di xxxx €"
         modificaAccordo:
           type: string
           description: Testo libero per modifica accordo (formula 121-septies.1)
@@ -1928,7 +1930,7 @@ components:
           properties:
             tipoRichiedente:
               type: string
-              description: Id del tipo richiedente (decodifica ANSC_64), per usecase 1334 e 1335 (decodifica ANSC_123), per usecase 1317 (decodifica ANSC_134)
+              description: Id del tipo richiedente (decodifica ANSC_64), per usecase 1334 e 1335 (decodifica ANSC_123), per usecase 1317 (decodifica ANSC_134), per usecase 1368 (decodifica ANSC_171)
               example: "1"
             tipoLuogoNascita:
               type: string
@@ -3107,6 +3109,7 @@ components:
         datiAssegnoMantenimento:
           type: string
           description: Nel caso esista l'assegno di mantenimento o divorzile
+          example: "di concordare l'assegno di mantenimento/divorzile di xxxx €"
         tipoSeparazioneDivorzio:
           type: string
           description: Discriminante tra separazione o divorzio (decodifica ANSC_106)
@@ -3301,6 +3304,7 @@ components:
         datiAssegnoMantenimento:
           type: string
           description: Nel caso esista l'assegno di mantenimento o divorzile
+          example: "di concordare l'assegno di mantenimento/divorzile di xxxx €"
         dataEventoUnioneCivile:
           type: string
           format: date
