@@ -19,7 +19,6 @@ I nuovi dati vanno sempre inseriti in testa in modo che le prime righe siano rel
 
 NOTE:
 ~~- Per verificare le differenze tra~~ due versioni di questo repository, è possibile usare anche gli strumenti di comparazione messi a disposizione da git, in particolare l'interfaccia web di github, ad esempio [Questa è la comparazione tra il tag v1.19.0 e il tag v1.20.0](https://github.com/italia/ansc/compare/v1.19.0...v1.20.0) 
-- Inoltre per 
 
 ## [Unreleased]
 
