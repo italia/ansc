@@ -22,6 +22,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.49.1 - 05-03-2026]
+
+### Fixed
+
+- [WA] Corretto processo di applicazione della firma remota su estratti per riassunto e copie integrarli
+
 ## [1.49.0 - 03-03-2026]
 
 ### Added
