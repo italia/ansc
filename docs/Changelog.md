@@ -22,6 +22,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.49.2 - 17-03-2026]
+
+### Changed
+
+- Aggiornamento Certification Authority (CA) necessario per la comunicazione con il sistema di PADigitale
+
 ## [1.49.1 - 05-03-2026]
 
 ### Fixed
