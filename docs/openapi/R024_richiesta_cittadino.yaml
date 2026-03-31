@@ -1,0 +1,1671 @@
+---
+openapi: 3.1.0
+components:
+  schemas:
+    AggiornaRichiestaRequest:
+      type: object
+      required:
+        - idRichiesta
+        - idNuovoStato
+      description: Aggiorna richiesta cittadino input
+      properties:
+        testataRichiesta:
+          $ref: "#/components/schemas/TestataRichiesta"
+        datiPaginazione:
+          $ref: "#/components/schemas/DatiPaginazione"
+        idRichiesta:
+          type: integer
+          format: int64
+          examples:
+            - 1000
+          description: Id della richiesta da aggiornare
+        idNuovoStato:
+          type: integer
+          format: int64
+          examples:
+            - 6
+          description: Id del nuovo stato della richiesta. (decodifica ANSC_177)
+        idEstratto:
+          type: integer
+          format: int64
+          examples:
+            - 6432432
+          description: Id dell'estratto (obbligatorio per lo stato accolta - 5)
+        noteUsc:
+          type: string
+          examples:
+            - La richiesta viene accolta.
+          description: Eventuali note dell' ufficiale di stato civile.
+    AggiornaRichiestaResponse:
+      type: object
+      required:
+        - idRichiesta
+        - idNuovoStato
+      description: Aggiorna richiesta cittadino output
+      properties:
+        errors:
+          type: array
+          examples:
+            - - code: "500001"
+                severity: E
+                text: sample error
+          items:
+            $ref: "#/components/schemas/ServiceMessage"
+          description: Error messages list
+        warnings:
+          type: array
+          examples:
+            - - code: "401001"
+                severity: E
+                text: sample warning
+          items:
+            $ref: "#/components/schemas/ServiceMessage"
+          description: Warning messages list
+        infos:
+          type: array
+          examples:
+            - - code: "100001"
+                severity: E
+                text: sample info
+          items:
+            $ref: "#/components/schemas/ServiceMessage"
+          description: Info messages list
+        success:
+          type: array
+          examples:
+            - - code: "200001"
+                severity: S
+                text: sample success
+          items:
+            $ref: "#/components/schemas/ServiceMessage"
+          description: Success messages list
+        testataRisposta:
+          $ref: "#/components/schemas/TestataRisposta"
+        datiPaginazione:
+          $ref: "#/components/schemas/DatiPaginazione"
+        idRichiesta:
+          type: integer
+          format: int64
+          examples:
+            - 1000
+          description: Id della richiesta da aggiornare
+        idNuovoStato:
+          type: integer
+          format: int64
+          examples:
+            - 6
+          description: Id del nuovo stato della richiesta. (decodifica ANSC_177)
+        dataStato:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2022-03-10T12:15:50
+          description: Data dello stato.
+    AnscRequest:
+      type: object
+      description: Richiesta ANSC da specializzare
+      properties:
+        testataRichiesta:
+          $ref: "#/components/schemas/TestataRichiesta"
+        datiPaginazione:
+          $ref: "#/components/schemas/DatiPaginazione"
+    AnscResponse:
+      type: object
+      description: Risposta ANSC da specializzare
+      properties:
+        errors:
+          type: array
+          examples:
+            - - code: "500001"
+                severity: E
+                text: sample error
+          items:
+            $ref: "#/components/schemas/ServiceMessage"
+          description: Error messages list
+        warnings:
+          type: array
+          examples:
+            - - code: "401001"
+                severity: E
+                text: sample warning
+          items:
+            $ref: "#/components/schemas/ServiceMessage"
+          description: Warning messages list
+        infos:
+          type: array
+          examples:
+            - - code: "100001"
+                severity: E
+                text: sample info
+          items:
+            $ref: "#/components/schemas/ServiceMessage"
+          description: Info messages list
+        success:
+          type: array
+          examples:
+            - - code: "200001"
+                severity: S
+                text: sample success
+          items:
+            $ref: "#/components/schemas/ServiceMessage"
+          description: Success messages list
+        testataRisposta:
+          $ref: "#/components/schemas/TestataRisposta"
+        datiPaginazione:
+          $ref: "#/components/schemas/DatiPaginazione"
+    CharArrayDataHandler:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            type: string
+            format: char
+    DatiPaginazione:
+      type: object
+      description: Dati paginazione
+      properties:
+        numPagina:
+          type: integer
+          format: int32
+          description: Numero pagina
+        numRecordPagina:
+          type: integer
+          format: int32
+          description: Numero record della pagina
+        numRecordTotali:
+          type: integer
+          format: int32
+          description: Numero dei record totali
+    DettaglioRichiestaDTO:
+      type: object
+      description: Dettaglio di una richiesta del cittadino
+      properties:
+        wrapped:
+          $ref: "#/components/schemas/ModelCittRichiesta"
+          type: object
+          writeOnly: true
+        tipouso:
+          $ref: "#/components/schemas/ModelDecTipoUso"
+        stato:
+          $ref: "#/components/schemas/ModelDecCittStatoRichiesta"
+        tipo:
+          $ref: "#/components/schemas/ModelDecCittTipoRichiesta"
+        storicoStati:
+          type: array
+          items:
+            $ref: "#/components/schemas/ModelCittRichiestaStato"
+        id:
+          type: number
+          examples:
+            - 1000
+          description: Id della richiesta
+        idevento:
+          type: number
+          examples:
+            - 576119
+          description: Id evento legato alla richiesta
+        idansc:
+          type: string
+          examples:
+            - 2023-576119-4323432-999999
+          description: Id ANSC dell'evento legato alla richiesta
+        idutenterichiedente:
+          type: string
+          examples:
+            - BH49216W2
+          description: Identificativo dell'utente che ha effettuato la richiesta
+        idcomune:
+          type: number
+          examples:
+            - 1000000
+          description: Id comune legato richiesta
+        idsoggettoanpr:
+          type: number
+          examples:
+            - 1001
+          description: Id soggetto ANPR che ha effettuato la richiesta
+        idsoggettoansc:
+          type: number
+          examples:
+            - 1002
+          description: Id soggetto ANSC che ha effettuato la richiesta
+        idstato:
+          type: number
+          description: Id dello stato corrente della richiesta
+        idtipo:
+          type: number
+          enum:
+            - 2
+            - 3
+          examples:
+            - 2
+          description: "Id tipo della richiesta, 2 - Estratto per riassunto, 3 - Estratto\
+            \ integrale"
+        idcertificato:
+          type: number
+          examples:
+            - 453454354
+          description: Id certificato/estratto legato alla richiesta (quando emesso)
+        idtipouso:
+          type: number
+          examples:
+            - 3
+          description: Id tipo uso certificato (Fare riferimento tabella 113)
+        flagpaternitamaternita:
+          type: number
+          examples:
+            - 1
+          description: Vale 1 se va inserita la menzione di paternità e maternità
+        flagvalidoestero:
+          type: number
+          examples:
+            - 1
+          description: Vale 1 se il certificato deve essere valido per l'estero
+        datains:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2024-11-14T15:26:19
+          description: Data inserimento della richiesta
+        dataultimoagg:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2024-11-14T15:26:19
+          description: Data ultima modifica della richiesta
+        idtipocontatto:
+          type: number
+          enum:
+            - 1
+            - 2
+          examples:
+            - 1
+          description: "Id tipologia contatto, 1 - Email, 2 - Domicilio digitale"
+        contatto:
+          type: string
+          examples:
+            - test@test.it
+          description: Il contatto del cittadino
+        idanpr:
+          type: string
+          examples:
+            - BH49216W2
+          description: Identificativo Unico Nazionale ANPR
+        codicefiscale:
+          type: string
+          examples:
+            - CRUPRR27M28Z110A
+          description: Codice fiscale
+        cognome:
+          type: string
+          examples:
+            - CURIE
+          description: Cognome del soggetto (non inviare se non presente)
+        nome:
+          type: string
+          examples:
+            - PIERRE
+          description: Nome del soggetto (non inviare se non presente)
+        sesso:
+          type: string
+          enum:
+            - M
+            - F
+            - "N"
+          examples:
+            - M
+          description: Sesso del soggetto
+        datanascita:
+          $ref: "#/components/schemas/LocalDate"
+          type: string
+          examples:
+            - 1927-11-17
+          description: Data di nascita del soggetto
+        idcomunenascita:
+          type: number
+          examples:
+            - 2780
+          description: Id comune di nascita del soggetto
+        nomecomunenascita:
+          type: string
+          examples:
+            - CESENA
+          description: Nome del comune di nascita del soggetto
+        siglaprovincianascita:
+          type: string
+          examples:
+            - FC
+          description: Sigla della comune di nascita del soggetto
+        idstatonascita:
+          type: string
+          examples:
+            - "61"
+          description: Id dello stato di nascita del soggetto
+        nomestatonascita:
+          type: string
+          examples:
+            - FRANCIA
+          description: Nome dello stato di nascita del soggetto
+        luogonascitaeccezionale:
+          type: string
+          examples:
+            - OSPEDALE
+          description: Luogo di nascita eccezionale del soggetto
+        motivorichiesta:
+          $ref: "#/components/schemas/CharArrayDataHandler"
+          type: object
+          examples:
+            - Vorrei richiedere un estratto per...
+          description: Motivo della richiesta
+        idtipoevento:
+          type: number
+          enum:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+          examples:
+            - 1
+          description: Tipologia evento
+        intestatariodiversodarichiedente:
+          type: number
+          examples:
+            - 1
+          description: 1 se il richiedente è diverso dall'intestatario
+        intestatariominore:
+          type: number
+          examples:
+            - 1
+          description: 1 se l'intestatario è un minore
+        richiedentediversoidsoggettoanpr:
+          type: number
+          examples:
+            - 133323223
+          description: "Se INTESTATARIODIVERSODARICHIEDENTE = 1, idsoggettoanpr del\
+            \ richiedete"
+        richiedentediversodescrizione:
+          type: string
+          examples:
+            - MADRE
+          description: "Se INTESTATARIODIVERSODARICHIEDENTE = 1, idsoggettoanpr del\
+            \ richiedete"
+        richiedentediversodenominazione:
+          type: string
+          examples:
+            - MARIE CURIE
+          description: "Se INTESTATARIODIVERSODARICHIEDENTE = 1, idsoggettoanpr del\
+            \ richiedete"
+        richiedentediversoddatanascita:
+          $ref: "#/components/schemas/LocalDate"
+          type: string
+          examples:
+            - 1927-11-17
+          description: "Se INTESTATARIODIVERSODARICHIEDENTE = 1, data di nascita del\
+            \ richiedete"
+        richiedentediversoidnazionale:
+          type: string
+          examples:
+            - MARIE CURIE
+          description: "Se INTESTATARIODIVERSODARICHIEDENTE = 1, id nazionale del\
+            \ richiedete"
+        luogoNascita:
+          type: string
+          examples:
+            - CESENA (FC)
+          description: "Campo contenente l'informazione del luogo di nascita, calcolata\
+            \ in base al valore del comune nascita, stato nascita e luogo eccezionale"
+    DettaglioRichiestaEstrattoDTO:
+      type: object
+      description: Dettaglio di una richiesta di estratti
+      properties:
+        idRichiesta:
+          type: integer
+          format: int64
+          examples:
+            - 1000
+          description: Id della richiesta
+        idComune:
+          type: integer
+          format: int64
+          examples:
+            - 580
+          description: Id comune destinatario della richiesta (coincide con il comune
+            di registrazione dell'evento per cui si richiede l'estratto) (decodifica
+            ANPR_03)
+        idStato:
+          type: integer
+          format: int64
+          examples:
+            - 6
+          description: Id stato corrente della richiesta (decodifica ANPR_02)
+        idTipo:
+          type: integer
+          format: int64
+          examples:
+            - 2
+            - 3
+          description: "Id tipo richiesta, 2 - Estratto per riassunto, 3 - Estratto\
+            \ integrale (decodifica ANSC_178)"
+        dataCreazione:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2022-03-10T12:15:50
+          description: Data creazione richiesta
+        dataUltimoAggiornamento:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2022-03-10T12:15:50
+          description: Data ultimo aggiornamento richiesta
+        idEstratto:
+          type: integer
+          format: int64
+          examples:
+            - 665545434
+          description: L'id dell'estratto (una volta emesso)
+        idTipoUso:
+          type: integer
+          format: int64
+          examples:
+            - 1
+          description: Id tipo uso del certificato (al momento è previsto che sia
+            sempre '1')
+        idTipoContatto:
+          type: integer
+          format: int64
+          examples:
+            - 1
+            - 2
+          description: "Id tipologia contatto, 1 - Email, 2 - Domicilio digitale"
+        contatto:
+          type: string
+          examples:
+            - test@test.it
+          description: "Il contatto dell'utente, in base al tipo."
+        flagPaternitaMaternita:
+          type: boolean
+          examples:
+            - false
+            - true
+          description: "Vale 'true' se va prevista la menzione di maternità e paternità\
+            , 'false' altrimenti"
+        idEvento:
+          type: integer
+          format: int64
+          examples:
+            - 576119
+          description: Id evento legato alla richiesta
+        idAnsc:
+          type: string
+          examples:
+            - 2023-576119-4323432-999999
+          description: Id ANSC dell'evento legato alla richiesta
+        idTipoEvento:
+          type: integer
+          format: int64
+          enum:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+          examples:
+            - 1
+          description: Id tipo evento (decodifica ANSC_01)
+        richiedenteDiversoDaIntestatario:
+          type: boolean
+          examples:
+            - false
+            - true
+          description: "Vale 'true' se il richiedente non coincide con l'intestatario,\
+            \ 'false' altrimenti"
+        intestatarioMinore:
+          type: boolean
+          examples:
+            - false
+            - true
+          description: "Vale 'true' se il richiedente non coincide con l'intestatario,\
+            \ 'false' altrimenti"
+        intestatario:
+          $ref: "#/components/schemas/IntestatarioEstrattoDTO"
+          type: object
+          description: Dati dell'intestatario
+        richiedente:
+          $ref: "#/components/schemas/RichiedenteEstrattoDTO"
+          type: object
+          description: Dati del richiedente (presente solo se diverso dall'intestatario)
+    DettaglioRichiestaRequest:
+      type: object
+      required:
+        - idRichiesta
+      description: Dettaglio richiesta cittadino input
+      properties:
+        testataRichiesta:
+          $ref: "#/components/schemas/TestataRichiesta"
+        datiPaginazione:
+          $ref: "#/components/schemas/DatiPaginazione"
+        idRichiesta:
+          type: integer
+          format: int64
+          examples:
+            - 1000
+          description: Id della richiesta da restituire
+        includiRiepilogoPdf:
+          type: boolean
+          examples:
+            - false
+            - true
+          description: Se vale 'true' verrà restituito anche il riepilogo in formato
+            PDF
+          default: false
+    DettaglioRichiestaResponse:
+      type: object
+      description: Dettaglio richiesta cittadino output
+      properties:
+        errors:
+          type: array
+          examples:
+            - - code: "500001"
+                severity: E
+                text: sample error
+          items:
+            $ref: "#/components/schemas/ServiceMessage"
+          description: Error messages list
+        warnings:
+          type: array
+          examples:
+            - - code: "401001"
+                severity: E
+                text: sample warning
+          items:
+            $ref: "#/components/schemas/ServiceMessage"
+          description: Warning messages list
+        infos:
+          type: array
+          examples:
+            - - code: "100001"
+                severity: E
+                text: sample info
+          items:
+            $ref: "#/components/schemas/ServiceMessage"
+          description: Info messages list
+        success:
+          type: array
+          examples:
+            - - code: "200001"
+                severity: S
+                text: sample success
+          items:
+            $ref: "#/components/schemas/ServiceMessage"
+          description: Success messages list
+        testataRisposta:
+          $ref: "#/components/schemas/TestataRisposta"
+        datiPaginazione:
+          $ref: "#/components/schemas/DatiPaginazione"
+        dettaglioRichiestaEstratto:
+          $ref: "#/components/schemas/DettaglioRichiestaEstrattoDTO"
+          type: object
+          description: Il dettaglio della richiesta estratto
+        storicoStati:
+          type: array
+          items:
+            $ref: "#/components/schemas/StatoRichiestaDTO"
+          description: Elenco degli stati della richiesta
+        riepilogoPdfBase64:
+          type: string
+          description: "Il base64 del riepilogo PDF della richiesta, presente solo\
+            \ se 'includiRiepilogoPdf' vale 'true' nella richiesta"
+    DettaglioRichiestaStatoDTO:
+      type: object
+      description: Stato di una richiesta
+      properties:
+        wrapped:
+          $ref: "#/components/schemas/ModelCittRichiestaStato"
+          type: object
+          writeOnly: true
+        stato:
+          $ref: "#/components/schemas/ModelDecCittStatoRichiesta"
+        id:
+          type: number
+          examples:
+            - 1675
+          description: Id della stato richiesta
+        idrichiesta:
+          type: number
+          examples:
+            - 1000
+          description: Identificativo della richiesta
+        idstato:
+          type: number
+          enum:
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 11
+            - 12
+          examples:
+            - Id dello stato
+          description: Id dello stato corrente della richiesta
+        datains:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2024-11-14T15:26:19
+          description: Data inserimento della richiesta
+        dataultimoagg:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2024-11-14T15:26:19
+          description: Data ultima modifica della richiesta
+        noteCittadino:
+          type: string
+          examples:
+            - Ho bisogno di un estratto integrale da presentare alla banca.
+          description: Eventuali note del cittadino
+        noteUsc:
+          type: string
+          examples:
+            - Necessario fornire motivo della richiesta.
+          description: Eventuali note USC
+        username:
+          type: string
+          examples:
+            - "Ufficiale di stato civile che ha gestito questo stato, se è uno stato\
+            \ gestito dal cittadino questo campo sarà vuoto."
+          description: "Ufficiale di stato civile che ha gestito questo stato, se\
+            \ è uno stato gestito dal cittadino questo campo sarà vuoto."
+    ElencoRichiesteRequest:
+      type: object
+      required:
+        - dataDa
+        - dataA
+      description: Elenco richieste cittadino input
+      properties:
+        testataRichiesta:
+          $ref: "#/components/schemas/TestataRichiesta"
+        datiPaginazione:
+          $ref: "#/components/schemas/DatiPaginazione"
+        dataDa:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2026-03-02T00:00:00
+          description: Data da cui far partire la ricerca. (max 1 settimana tra dataDa
+            e data a
+        dataA:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2026-03-05T00:00:00
+          description: Data a cui far arrivare la ricerca. (max 1 settimana tra dataDa
+            e data a)
+        idTipo:
+          type: integer
+          format: int64
+          examples:
+            - 2
+            - 3
+          description: Filtra per il tipo di richiesta. (se non impostato tutte).
+            (decodifica ANSC_178)
+        idStato:
+          type: integer
+          format: int64
+          examples:
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 11
+            - 12
+          description: Filtra per lo stato delle richieste. (se non impostato tutti).
+            (decodifica ANSC_177)
+    ElencoRichiesteResponse:
+      type: object
+      description: Elenco richieste cittadino output
+      properties:
+        errors:
+          type: array
+          examples:
+            - - code: "500001"
+                severity: E
+                text: sample error
+          items:
+            $ref: "#/components/schemas/ServiceMessage"
+          description: Error messages list
+        warnings:
+          type: array
+          examples:
+            - - code: "401001"
+                severity: E
+                text: sample warning
+          items:
+            $ref: "#/components/schemas/ServiceMessage"
+          description: Warning messages list
+        infos:
+          type: array
+          examples:
+            - - code: "100001"
+                severity: E
+                text: sample info
+          items:
+            $ref: "#/components/schemas/ServiceMessage"
+          description: Info messages list
+        success:
+          type: array
+          examples:
+            - - code: "200001"
+                severity: S
+                text: sample success
+          items:
+            $ref: "#/components/schemas/ServiceMessage"
+          description: Success messages list
+        testataRisposta:
+          $ref: "#/components/schemas/TestataRisposta"
+        datiPaginazione:
+          $ref: "#/components/schemas/DatiPaginazione"
+        elencoRichieste:
+          type: array
+          items:
+            $ref: "#/components/schemas/DettaglioRichiestaEstrattoDTO"
+          description: Elenco richieste trovate
+    IntestatarioEstrattoDTO:
+      type: object
+      description: Dati dell'intestatario dell'estratto
+      properties:
+        identificativoUnicoNazionale:
+          type: string
+          examples:
+            - BH49216W2
+          description: Identificativo unico nazionale (ID ANPR)
+        idSoggettoANPR:
+          type: integer
+          format: int64
+          examples:
+            - 34434344
+          description: Id soggetto ANPR
+        idSoggettoANSC:
+          type: integer
+          format: int64
+          examples:
+            - 67834434
+          description: Id soggetto ANSC
+        codiceFiscale:
+          type: string
+          examples:
+            - AAABBB80A01H501T
+          description: Codice fiscale soggetto
+        cognome:
+          type: string
+          examples:
+            - ROSSI
+          description: Cognome soggetto
+        nome:
+          type: string
+          examples:
+            - MARIO
+          description: Nome soggetto
+        sesso:
+          type: string
+          examples:
+            - F
+            - M
+          description: Sesso soggetto
+        dataNascita:
+          $ref: "#/components/schemas/LocalDate"
+          type: string
+          examples:
+            - 1980-01-01
+          description: Data nascita soggetto
+        idComuneNascita:
+          type: integer
+          format: int64
+          examples:
+            - 2780
+          description: Id comune nascita soggetto. (decodifica ANPR_03)
+        nomeComuneNascita:
+          type: string
+          examples:
+            - CESENA
+          description: Nome comune nascita soggetto
+        siglaProvinciaNascita:
+          type: string
+          examples:
+            - FC
+          description: Sigla provincia nascita soggetto
+        nomeStatoNascita:
+          type: string
+          examples:
+            - "90"
+          description: Id stato nascita soggetto
+        idStatoNascita:
+          type: string
+          examples:
+            - ITALIA
+          description: Nome stato nascita soggetto. (decodifica ANPR_02)
+    LocalDate:
+      type: string
+      format: date
+    LocalDateTime:
+      type: string
+      format: date-time
+    MPSchemaCittRichiesta:
+      type: object
+      description: Id della richiesta
+      properties:
+        wrapped:
+          $ref: "#/components/schemas/ModelCittRichiesta"
+        tipouso:
+          $ref: "#/components/schemas/ModelDecTipoUso"
+        stato:
+          $ref: "#/components/schemas/ModelDecCittStatoRichiesta"
+        tipo:
+          $ref: "#/components/schemas/ModelDecCittTipoRichiesta"
+        storicoStati:
+          type: array
+          items:
+            $ref: "#/components/schemas/ModelCittRichiestaStato"
+        id:
+          type: number
+          examples:
+            - 1000
+          description: Id della richiesta
+        idevento:
+          type: number
+          examples:
+            - 576119
+          description: Id evento legato alla richiesta
+        idansc:
+          type: string
+          examples:
+            - 2023-576119-4323432-999999
+          description: Id ANSC dell'evento legato alla richiesta
+        idutenterichiedente:
+          type: string
+          examples:
+            - BH49216W2
+          description: Identificativo dell'utente che ha effettuato la richiesta
+        idcomune:
+          type: number
+          examples:
+            - 1000000
+          description: Id comune legato richiesta
+        idsoggettoanpr:
+          type: number
+          examples:
+            - 1001
+          description: Id soggetto ANPR che ha effettuato la richiesta
+        idsoggettoansc:
+          type: number
+          examples:
+            - 1002
+          description: Id soggetto ANSC che ha effettuato la richiesta
+        idstato:
+          type: number
+          description: Id dello stato corrente della richiesta
+        idtipo:
+          type: number
+          enum:
+            - 2
+            - 3
+          examples:
+            - 2
+          description: "Id tipo della richiesta, 2 - Estratto per riassunto, 3 - Estratto\
+            \ integrale"
+        idcertificato:
+          type: number
+          examples:
+            - 453454354
+          description: Id certificato/estratto legato alla richiesta (quando emesso)
+        idtipouso:
+          type: number
+          examples:
+            - 3
+          description: Id tipo uso certificato (Fare riferimento tabella 113)
+        flagpaternitamaternita:
+          type: number
+          examples:
+            - 1
+          description: Vale 1 se va inserita la menzione di paternità e maternità
+        flagvalidoestero:
+          type: number
+          examples:
+            - 1
+          description: Vale 1 se il certificato deve essere valido per l'estero
+        datains:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2024-11-14T15:26:19
+          description: Data inserimento della richiesta
+        dataultimoagg:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2024-11-14T15:26:19
+          description: Data ultima modifica della richiesta
+        idtipocontatto:
+          type: number
+          enum:
+            - 1
+            - 2
+          examples:
+            - 1
+          description: "Id tipologia contatto, 1 - Email, 2 - Domicilio digitale"
+        contatto:
+          type: string
+          examples:
+            - test@test.it
+          description: Il contatto del cittadino
+        idanpr:
+          type: string
+          examples:
+            - BH49216W2
+          description: Identificativo Unico Nazionale ANPR
+        codicefiscale:
+          type: string
+          examples:
+            - CRUPRR27M28Z110A
+          description: Codice fiscale
+        cognome:
+          type: string
+          examples:
+            - CURIE
+          description: Cognome del soggetto (non inviare se non presente)
+        nome:
+          type: string
+          examples:
+            - PIERRE
+          description: Nome del soggetto (non inviare se non presente)
+        sesso:
+          type: string
+          enum:
+            - M
+            - F
+            - "N"
+          examples:
+            - M
+          description: Sesso del soggetto
+        datanascita:
+          $ref: "#/components/schemas/LocalDate"
+          type: string
+          examples:
+            - 1927-11-17
+          description: Data di nascita del soggetto
+        idcomunenascita:
+          type: number
+          examples:
+            - 2780
+          description: Id comune di nascita del soggetto
+        nomecomunenascita:
+          type: string
+          examples:
+            - CESENA
+          description: Nome del comune di nascita del soggetto
+        siglaprovincianascita:
+          type: string
+          examples:
+            - FC
+          description: Sigla della comune di nascita del soggetto
+        idstatonascita:
+          type: string
+          examples:
+            - "61"
+          description: Id dello stato di nascita del soggetto
+        nomestatonascita:
+          type: string
+          examples:
+            - FRANCIA
+          description: Nome dello stato di nascita del soggetto
+        luogonascitaeccezionale:
+          type: string
+          examples:
+            - OSPEDALE
+          description: Luogo di nascita eccezionale del soggetto
+        motivorichiesta:
+          $ref: "#/components/schemas/CharArrayDataHandler"
+          type: object
+          examples:
+            - Vorrei richiedere un estratto per...
+          description: Motivo della richiesta
+        idtipoevento:
+          type: number
+          enum:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+          examples:
+            - 1
+          description: Tipologia evento
+        intestatariodiversodarichiedente:
+          type: number
+          examples:
+            - 1
+          description: 1 se il richiedente è diverso dall'intestatario
+        intestatariominore:
+          type: number
+          examples:
+            - 1
+          description: 1 se l'intestatario è un minore
+        richiedentediversoidsoggettoanpr:
+          type: number
+          examples:
+            - 133323223
+          description: "Se INTESTATARIODIVERSODARICHIEDENTE = 1, idsoggettoanpr del\
+            \ richiedete"
+        richiedentediversodescrizione:
+          type: string
+          examples:
+            - MADRE
+          description: "Se INTESTATARIODIVERSODARICHIEDENTE = 1, idsoggettoanpr del\
+            \ richiedete"
+        richiedentediversodenominazione:
+          type: string
+          examples:
+            - MARIE CURIE
+          description: "Se INTESTATARIODIVERSODARICHIEDENTE = 1, idsoggettoanpr del\
+            \ richiedete"
+        richiedentediversoddatanascita:
+          $ref: "#/components/schemas/LocalDate"
+          type: string
+          examples:
+            - 1927-11-17
+          description: "Se INTESTATARIODIVERSODARICHIEDENTE = 1, data di nascita del\
+            \ richiedete"
+        richiedentediversoidnazionale:
+          type: string
+          examples:
+            - MARIE CURIE
+          description: "Se INTESTATARIODIVERSODARICHIEDENTE = 1, id nazionale del\
+            \ richiedete"
+    MPSchemaCittRichiestaStato:
+      type: object
+      description: Id del record
+      properties:
+        wrapped:
+          $ref: "#/components/schemas/ModelCittRichiestaStato"
+        stato:
+          $ref: "#/components/schemas/ModelDecCittStatoRichiesta"
+        id:
+          type: number
+          examples:
+            - 1675
+          description: Id della stato richiesta
+        idrichiesta:
+          type: number
+          examples:
+            - 1000
+          description: Identificativo della richiesta
+        idstato:
+          type: number
+          enum:
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 11
+            - 12
+          examples:
+            - Id dello stato
+          description: Id dello stato corrente della richiesta
+        datains:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2024-11-14T15:26:19
+          description: Data inserimento della richiesta
+        dataultimoagg:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2024-11-14T15:26:19
+          description: Data ultima modifica della richiesta
+        noteCittadino:
+          type: string
+          examples:
+            - Ho bisogno di un estratto integrale da presentare alla banca.
+          description: Eventuali note del cittadino
+        noteUsc:
+          type: string
+          examples:
+            - Necessario fornire motivo della richiesta.
+          description: Eventuali note USC
+        username:
+          type: string
+          examples:
+            - "Ufficiale di stato civile che ha gestito questo stato, se è uno stato\
+            \ gestito dal cittadino questo campo sarà vuoto."
+          description: "Ufficiale di stato civile che ha gestito questo stato, se\
+            \ è uno stato gestito dal cittadino questo campo sarà vuoto."
+    MPSchemaDecCittStatoRichiesta:
+      type: object
+      description: Tabella decodifica stato della richiesta
+      properties:
+        wrapped:
+          $ref: "#/components/schemas/ModelDecCittStatoRichiesta"
+        id:
+          type: number
+          description: Id dello stato richiesta
+        descrizione:
+          type: string
+          description: Descrizione dello stato richiesta
+        datainiziovalidita:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2022-03-10T12:15:50
+          description: Data inizio validita dello stato richiesta
+        datafinevalidita:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2022-03-10T12:15:50
+          description: Data fine validita dello stato richiesta
+        ordinamento:
+          type: number
+          description: Ordine dello stato richiesta
+    MPSchemaDecCittTipoRichiesta:
+      type: object
+      description: Tabella decodifica tipo della richiesta
+      properties:
+        wrapped:
+          $ref: "#/components/schemas/ModelDecCittTipoRichiesta"
+        id:
+          type: number
+          description: Id del tipo richiesta
+        descrizione:
+          type: string
+          description: Descrizione del tipo richiesta
+        datainiziovalidita:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2022-03-10T12:15:50
+          description: Data inizio validita del tipo richiesta
+        datafinevalidita:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2022-03-10T12:15:50
+          description: Data fine validita del tipo richiesta
+        ordinamento:
+          type: number
+          description: Ordine del tipo richiesta
+    MPSchemaDecTipoUso:
+      type: object
+      description: "Tabella decodifica tipo uso, 113"
+      properties:
+        wrapped:
+          $ref: "#/components/schemas/ModelDecTipoUso"
+        id:
+          type: number
+          description: Id del tipo uso
+        descrizione:
+          type: string
+          description: Descrizione del tipo uso
+        datainiziovalidita:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2022-03-10T12:15:50
+          description: Data inizio validita dello del tipo uso
+        datafinevalidita:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2022-03-10T12:15:50
+          description: Data fine validita del tipo uso
+        ordinamento:
+          type: number
+          description: Ordine del tipo uso
+    ModelCittRichiesta:
+      type: object
+      properties:
+        tipouso:
+          $ref: "#/components/schemas/ModelDecTipoUso"
+        stato:
+          $ref: "#/components/schemas/ModelDecCittStatoRichiesta"
+        tipo:
+          $ref: "#/components/schemas/ModelDecCittTipoRichiesta"
+        storicoStati:
+          type: array
+          items:
+            $ref: "#/components/schemas/ModelCittRichiestaStato"
+        id:
+          type: number
+        idevento:
+          type: number
+        idansc:
+          type: string
+        idutenterichiedente:
+          type: string
+        idcomune:
+          type: number
+        idsoggettoanpr:
+          type: number
+        idsoggettoansc:
+          type: number
+        idstato:
+          type: number
+        idtipo:
+          type: number
+        idcertificato:
+          type: number
+        idtipouso:
+          type: number
+        flagpaternitamaternita:
+          type: number
+        flagvalidoestero:
+          type: number
+        datains:
+          $ref: "#/components/schemas/LocalDateTime"
+        dataultimoagg:
+          $ref: "#/components/schemas/LocalDateTime"
+        idtipocontatto:
+          type: number
+        contatto:
+          type: string
+        idanpr:
+          type: string
+        codicefiscale:
+          type: string
+        cognome:
+          type: string
+        nome:
+          type: string
+        sesso:
+          type: string
+        datanascita:
+          $ref: "#/components/schemas/LocalDate"
+        idcomunenascita:
+          type: number
+        nomecomunenascita:
+          type: string
+        siglaprovincianascita:
+          type: string
+        idstatonascita:
+          type: string
+        nomestatonascita:
+          type: string
+        luogonascitaeccezionale:
+          type: string
+        motivorichiesta:
+          $ref: "#/components/schemas/CharArrayDataHandler"
+        idtipoevento:
+          type: number
+        intestatariodiversodarichiedente:
+          type: number
+        intestatariominore:
+          type: number
+        richiedentediversoidsoggettoanpr:
+          type: number
+        richiedentediversodescrizione:
+          type: string
+        richiedentediversodenominazione:
+          type: string
+        richiedentediversoddatanascita:
+          $ref: "#/components/schemas/LocalDate"
+        richiedentediversoidnazionale:
+          type: string
+    ModelCittRichiestaStato:
+      type: object
+      properties:
+        stato:
+          $ref: "#/components/schemas/ModelDecCittStatoRichiesta"
+        id:
+          type: number
+        idrichiesta:
+          type: number
+        idstato:
+          type: number
+        datains:
+          $ref: "#/components/schemas/LocalDateTime"
+        dataultimoagg:
+          $ref: "#/components/schemas/LocalDateTime"
+        noteCittadino:
+          type: string
+        noteUsc:
+          type: string
+        username:
+          type: string
+    ModelDecCittStatoRichiesta:
+      type: object
+      properties:
+        id:
+          type: number
+        descrizione:
+          type: string
+        datainiziovalidita:
+          $ref: "#/components/schemas/LocalDateTime"
+        datafinevalidita:
+          $ref: "#/components/schemas/LocalDateTime"
+        ordinamento:
+          type: number
+    ModelDecCittTipoRichiesta:
+      type: object
+      properties:
+        id:
+          type: number
+        descrizione:
+          type: string
+        datainiziovalidita:
+          $ref: "#/components/schemas/LocalDateTime"
+        datafinevalidita:
+          $ref: "#/components/schemas/LocalDateTime"
+        ordinamento:
+          type: number
+    ModelDecTipoUso:
+      type: object
+      properties:
+        id:
+          type: number
+        descrizione:
+          type: string
+        datainiziovalidita:
+          $ref: "#/components/schemas/LocalDateTime"
+        datafinevalidita:
+          $ref: "#/components/schemas/LocalDateTime"
+        ordinamento:
+          type: number
+    RichiedenteEstrattoDTO:
+      type: object
+      properties:
+        identificativoUnicoNazionale:
+          type: string
+          examples:
+            - BH49216W2
+          description: Identificativo unico nazionale (ID ANPR)
+        idSoggettoANPR:
+          type: integer
+          format: int64
+          examples:
+            - 34434344
+          description: Id soggetto ANPR
+        descrizione:
+          type: string
+          examples:
+            - Genitore
+          description: Descrizione
+        denominazione:
+          type: string
+          examples:
+            - Mario Rossi
+          description: Denominazione
+        dataNascita:
+          $ref: "#/components/schemas/LocalDate"
+          type: string
+          examples:
+            - 1980-01-01
+          description: Data nascita soggetto
+    ServiceMessage:
+      type: object
+      properties:
+        code:
+          type: string
+          examples:
+            - "401001"
+          description: Message identifier
+        severity:
+          type: string
+          examples:
+            - E
+          description: "Message severity, E = Error, W = Warning, I = Info, S = Success"
+        text:
+          type: string
+          examples:
+            - User not authorized to access the resource.
+          description: Message test
+    StatoRichiestaDTO:
+      type: object
+      description: Stato di una richiesta
+      properties:
+        idStato:
+          type: integer
+          format: int64
+          examples:
+            - 2
+          description: Id dello stato. (decodifica ANSC_177)
+        dataStato:
+          $ref: "#/components/schemas/LocalDateTime"
+          type: string
+          examples:
+            - 2022-03-10T12:15:50
+          description: Data di cambiamento dello stato.
+        noteCittadino:
+          type: string
+          examples:
+            - Devo consegnare un estratto...
+          description: Note fornite dal cittadino
+        noteUsc:
+          type: string
+          examples:
+            - Richiesta accolta...
+          description: Note fornite dall'ufficiale di stato civile
+    TestataRichiesta:
+      type: object
+      properties:
+        idComune:
+          type: integer
+          format: int32
+          examples:
+            - 2780
+          description: "Identificativo del comune (come da archivio comuni, ANPR_03)"
+        idOperazioneComune:
+          type: string
+          examples:
+            - APP2022032210000
+          description: Identificativo dell'operazione scelto dal comune
+        dataOraRichiesta:
+          type: string
+          examples:
+            - 2021-03-16T18:38:01.942Z
+          description: Data e ora della richiesta
+        nomeApplicativo:
+          type: string
+          examples:
+            - Applicativo Demografico
+          description: Nome del gestionale comunale
+        versioneApplicativo:
+          type: string
+          examples:
+            - 1.0.0
+          description: Versione del gestionale comunale
+        fornitoreApplicativo:
+          type: string
+          examples:
+            - Nome fornitore
+          description: Fornitore del gestionale comunale
+    TestataRisposta:
+      type: object
+      description: Testata della risposta
+      properties:
+        idComune:
+          type: integer
+          format: int32
+          examples:
+            - 2780
+          description: "Identificativo del comune (come da archivio comuni, ANPR_03)"
+        idOperazioneComune:
+          type: string
+          examples:
+            - APP2022032210000
+          description: Identificativo dell'operazione scelto dal comune
+        idOperazione:
+          type: string
+          examples:
+            - 2021-03-16T18:38:01.942Z
+          description: Data e ora della richiesta
+        idEsito:
+          type: integer
+          format: int32
+          examples:
+            - 0
+          description: "Esito dell'operazione, 0 = successo"
+info:
+  contact:
+    email: mttfranci@sogei.it
+    name: Matteo Franci
+    url: https://github.com/italia/ansc/
+  title: R024_richiesta_cittadino.yaml
+  version: 1.50.0
+tags:
+  - name: elenco
+    description: Elenco richieste cittadini
+  - name: dettaglio
+    description: Dettaglio richiesta cittadino
+  - name: aggiorna
+    description: Aggiorna stato richiesta cittadino
+servers:
+  - url: http://localhost:8094
+    description: Servizio mock locale
+  - url: https://anscservicepre.anpr.interno.it/services/service/citt
+    description: Servizio di pre produzione
+  - url: https://anscservice.anpr.interno.it/services/service/citt
+    description: 'Servizio di produzione '
+paths:
+  /gestione-richieste/aggiorna/{version}:
+    post:
+      summary: Aggiorna lo stato della richiesta del cittadino
+      operationId: aggiorna-richiesta
+      description: Aggiorna lo stato della richiesta del cittadino
+      tags:
+        - aggiorna
+      parameters:
+        - name: version
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AggiornaRichiestaRequest"
+        required: true
+      responses:
+        "200":
+          description: Eventi trovati per il soggetto
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AggiornaRichiestaRequest"
+        "400":
+          description: Richiesta formalmente errata
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AggiornaRichiestaRequest"
+        "404":
+          description: Dati non trovati
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AggiornaRichiestaRequest"
+        "500":
+          description: Errore imprevisto
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AggiornaRichiestaRequest"
+  /gestione-richieste/dettaglio/{version}:
+    post:
+      summary: Restituisce il dettaglio di una richiesta del cittadino
+      operationId: dettaglio-richiesta
+      description: Restituisce il dettaglio di una richiesta del cittadino
+      tags:
+        - dettaglio
+      parameters:
+        - name: version
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/DettaglioRichiestaRequest"
+        required: true
+      responses:
+        "200":
+          description: Eventi trovati per il soggetto
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DettaglioRichiestaRequest"
+        "400":
+          description: Richiesta formalmente errata
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DettaglioRichiestaRequest"
+        "404":
+          description: Dati non trovati
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DettaglioRichiestaRequest"
+        "500":
+          description: Errore imprevisto
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DettaglioRichiestaRequest"
+  /gestione-richieste/elenco/{version}:
+    post:
+      summary: Restituisce l'elenco delle richieste di un comune per i criteri di
+        ricerca
+      operationId: elenco-richieste
+      description: Restituisce l'elenco delle richieste di un comune per i criteri di
+        ricerca
+      tags:
+        - elenco
+      parameters:
+        - name: version
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ElencoRichiesteRequest"
+        required: true
+      responses:
+        "200":
+          description: Eventi trovati per il soggetto
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ElencoRichiesteRequest"
+        "400":
+          description: Richiesta formalmente errata
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ElencoRichiesteRequest"
+        "404":
+          description: Dati non trovati
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ElencoRichiesteRequest"
+        "500":
+          description: Errore imprevisto
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ElencoRichiesteRequest"

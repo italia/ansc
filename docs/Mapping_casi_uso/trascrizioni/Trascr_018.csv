@@ -136,6 +136,8 @@
 "Madre","Provincia AIRE - Descrizione","NO","evento.madre","siglaProvinciaAIRE","192.14","evento.richiedente.idTipoRichiedente,=,2"
 "Madre","Comune AIRE","NO","evento.madre","idComuneAIRE","","evento.richiedente.idTipoRichiedente,=,2"
 "Madre","Comune AIRE - Descrizione","NO","evento.madre","nomeComuneAIRE","192.14","evento.richiedente.idTipoRichiedente,=,2"
+"Riassunto","Nuovo nome","NO","evento.trascrizioneNascita","nuovoNome","","evento.richiedente.idTipoRichiedente,=,5"
+"Riassunto","Nuovo cognome","SI","evento.trascrizioneNascita","nuovoCognome","","evento.richiedente.idTipoRichiedente,=,5"
 "Riassunto","Tipo richiesta","NO","evento.trascrizioneNascita","tipoDichiarazione","","evento.richiedente.idTipoRichiedente,=,5"
 "Riassunto","Data richiesta trascrizione","SI","evento.trascrizioneNascita","dataComunicazione","","evento.richiedente.idTipoRichiedente,=,5"
 "Riassunto","Riassunto","SI","evento.trascrizioneNascita","testoLibero","","evento.richiedente.idTipoRichiedente,=,5"

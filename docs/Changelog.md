@@ -22,6 +22,78 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.50.0 - 31-03-2026]
+
+### Added
+
+- [versione] Aggiunta versione 100031
+- [feature]	[WA] Estratti da portale al cittadino: firma remota USC (Azure 167273) (ID 340)
+- [feature] [SC] R024 Servizi cooperativi per la gestione delle pratiche di richiesta estratti dal cittadino (ID 317)
+- [feature] [WA] Gestione degli avvisi in caso di formazione atti adozione ed emissione estratti di atti contenenti annotazioni di adozione (ID 345)
+- [feature] Nuovo caso d'uso di cittadinanaza: Attestazione acquisto cittadinanza con esito negativo (ID 306)
+- [feature] Sdoppiati casi d'uso di cittadinanza: Attestazione Sindacale di Acquisto cittadinanza in seguito ad adozione di minore e Attestazione di acquisto cittadinanza in seguito ad adozione in casi particolari di minorenne o maggiorenne (ID 319)
+- [feature] Nuovo caso d'uso di cittadinanza: Acquisto della cittadinanza ai sensi dell'art 9 (ID 308) <https://github.com/italia/ansc/issues/2108>
+- [feature] Revisione casi d’uso di decesso: aggiunta data di rinvenimento cadavere (ID 309)
+- [feature] Trascrizione atti di matrimonio esteri con indicazione della sola età degli sposi  (ID 315) <https://github.com/italia/ansc/issues/2278>
+- [feature] Revisione casi d'uso cittadinanza: modifica titoli
+- [feature] Gestione data presunta di morte negli estratti internazionali: mostrata la data di morte presunta nella data di morte (ID 339)
+- [casi d'uso] Aggiunto nuovo caso d'uso 5.2.1.5.7 (Citt_054) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 306)
+- [casi d'uso] Aggiunto nuovo caso d'uso 5.2.1.4.4 (Citt_056) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 319)
+- [casi d'uso] Aggiunto nuovo caso d'uso 5.2.1.1.5 (Citt_057) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [casi d'uso] Aggiunto nuovo caso d'uso 5.2.7.1.1 (Citt_058) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (Revisione casi d'uso cittadinanza)
+- [casi d'uso] Aggiunto nuovo caso d'uso 5.2.7.1.2 (Citt_059) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (Revisione casi d'uso cittadinanza)
+- [decodifiche] Aggiunto valore in decodifica ANSC_9 dec_tipo_allegato 124 - "Verbale di giuramento pervenuto da consolato" (ID 308)
+- [decodifiche] Aggiunto valore in decodifica ANSC_9 dec_tipo_allegato 125 - "Certificato di cittadinanza per nascita del genitore"
+- [decodifiche] Aggiunto valore in decodifica ANSC_51 dec_assistenza_minori 0 - "Nessuna"
+- [decodifiche] Aggiunta decodifica ANSC_172 per il formatodata nei casi in cui è possibile esprimere la sola età e non data di nascita (Trasrizione Matrimonio estero)
+
+### Changed
+
+- Aggiornata decodifica del caso d'uso 5.2.1.1.2 (Citt_006) come segue "Accertamento positivo: straniero o apolide, del quale il padre o la madre o uno dei ascendenti in linea retta di secondo grado sono stati cittadini per nascita: acquisto mediante prestazione del servizio militare per lo Stato italiano"
+- Aggiornata decodifica del caso d'uso 5.2.1.1.4 (Citt_008) come segue "Accertamento positivo: straniero o dell'apolide, del quale il padre o la madre o uno degli ascendenti in linea retta di secondo grado sono stati cittadini per nascita: acquisto assunzione di pubblico impiego alle dipendenze dello Stato"
+- Aggiornata decodifica del caso d'uso 5.2.1.2.1 (Citt_010) come segue "Accertamento positivo: straniero o dall'apolide, del quale il padre o la madre o uno degli ascendenti in linea retta di secondo grado sono stati cittadini per nascita, il quale, al raggiungimento della maggiore eta', risiede legalmente da almeno due anni nel territorio della Repubblica"
+- Aggiornata decodifica del caso d'uso 5.2.1.2.2 (Citt_012) come segue "Accertamento positivo: straniero nato in Italia che vi abbia risieduto legalmente senza interruzioni fino alla maggiore eta'"
+- Aggiornata decodifica del caso d'uso 5.2.1.2.3 (Citt_014) come segue "Accertamento positivo: straniero riconosciuto durante la maggiore eta' da cittadino italiano"
+- Aggiornata decodifica del caso d'uso 5.2.1.1.1 (Citt_001) come segue "Attestazione di acquisto alla nascita per iure soli: figlio di genitori che non trasmettono la cittadinanza italiana"
+- Aggiornata decodifica del caso d'uso 5.2.1.4.1 (Citt_002) come segue "Attestazione di figlio minore riconosciuto da cittadino italiano"
+- Aggiornata decodifica del caso d'uso 5.2.1.4.2 (Citt_003) come segue "Attestazione di adozione legittimante di minore in casi particolari art. 44 l. 184/1983 o adozione nazionale art 25 l. 184/1983 e art. 35 comma 4"
+- Aggiornata decodifica del caso d'uso 5.2.1.4.3 (Citt_004) come segue "Attestazione di figlio minore di chi ha acquistato la cittadinanza italiana"
+
+### Fixed
+
+- [WA] Corretto errore in ricerca per soggetto con filtro Codice fiscale <https://github.com/italia/ansc/issues/2493>
+- [SC] Revisione controllo età intesttario in dichiarazione di nascita resa da minorenne: controllo bloccante dai 16 anni in su <https://github.com/italia/ansc/issues/2775>
+- [SC] Corretto problema in matrimonio con presenza del curatore/tutore <https://github.com/italia/ansc/issues/2770>
+- [SC/WA] Citt_044 Prestazione di giuramento a seguito di decreto (con impedimenti): aggiunta tutore/familiare  <https://github.com/italia/ansc/discussions/2238>
+- [WA/SC] Revisione controllo bloccante su inserimento atto di matrimonio duplicato: eliminato controllo in caso il precedente atto di matrimonio è per art 19 <https://github.com/italia/ansc/issues/2782>
+- [WA/SC] Revisione titolo caso d'uso 1361 in Formazione atto nascita su autorizzazione tribunale (art. 32 e art 95)
+- [WA/SC] Dichiarazioni di acquisto cittadinanza art. 4 co. 2 di persone senza alcun documento: eliminata sezione documento riconoscimento <https://github.com/italia/ansc/issues/2871>
+- [SC/WA]: Trascrizione atto di nascita dall'estero su richiesta del Tribunale: eliminato controllo bloccante che obbliga necessariamente ad inserire uno stato estero <https://github.com/italia/ansc/issues/2902>
+- [SC]: Aggiornata documentazione datiAnnotazioneSentenza non presente in model_evento.yaml <https://github.com/italia/ansc/issues/2923>
+- [WA/SC]: Correzione annotazione di scioglimento di matrimonio per atto di nascita <https://github.com/italia/ansc/issues/2930>
+- [SC/WA] Corretto servizio riconciliazione soggetti in caso di presenza idanpr <https://github.com/italia/ansc/issues/2938>
+- [WA/SC] Corrette anomalie sulle annotazioni automatiche rigenerate in seguito a più rettifiche sull' atto sorgente <https://github.com/italia/ansc/issues/2924>
+- [SC/WA] Aggiunto campo idTipoSentenza nella classe ModelAdozioneMinoriInternazionale <https://github.com/italia/ansc/issues/2987>
+- [SC/WA] Richiesta Trascrizione-Acquisto di cittadinanza jure sanguinis per decreto di autorita' giudiziaria o amministrativa ricevuta da un consolato: indicazione enete estero <https://github.com/italia/ansc/issues/2842>
+- [WA/SC] Provvedimento estero di cambio sesso (caso d'uso 1.3.5.6): eliminata sezione autorità mittente <https://github.com/italia/ansc/issues/2788>
+- [SC/WA] Caso d'uso 52821 (Citt_049): "Allegato aggiuntivo" non censito <https://github.com/italia/ansc/issues/2840>
+- [SC/WA] Corretto caso d'uso 1.3.3.1 per Modifica/Aggiunta Nome <https://github.com/italia/ansc/issues/2882>
+- [SC] Corretta TestataRisposta idEsito mancante per R013 <https://github.com/italia/ansc/issues/2696>
+- [SC/WA] Annotazione per errore materiale art98: aggiunto controllo su comune nascita/residenza <https://github.com/italia/ansc/issues/2880>
+- [WA/SC] Corretto Errore in annotazioni per Comuni che hanno mutato la denominazione <https://github.com/italia/ansc/issues/2983>
+- [WA] Corretta anomalia in disassocia annotazione "richiesta fallita cod errore 500" <https://github.com/italia/ansc/issues/2976>
+- [SC/WA] Revisione caso uso 448000: idUseCase e idTipoContenuto non coerenti <https://github.com/italia/ansc/issues/2657>
+
+
+### model_evento.yaml
+- Aggiunto ModelDatiAnnotazioneSentenza
+- Aggiunta proprietà "datiAnnotazioneSentenza" di tipo ModelDatiAnnotazioneSentenza in ModelEvento
+- Aggiunta proprietà "attoNascitaSposo" di tipo ModelAttoCollegato in ModelDatiAnnotazioneSentenza
+- Aggiunta proprietà "attoNascitaSposa" di tipo ModelAttoCollegato in ModelDatiAnnotazioneSentenza
+- Aggiunta proprietà "idTipoSentenza" di tipo String in ModelAdozioneMinoriInternazionale
+- Aggiunta proprietà "dataRinvenimentoCadavere" di tipo String e format date in ModelDatiDiMorte
+- Aggiunta proprietà "eventoCollegatoCittadinanza" di tipo ModelAttoCollegato in ModelEvento
+
 ## [1.49.2 - 17-03-2026]
 
 ### Changed

@@ -294,6 +294,10 @@ components:
           allOf:
             - $ref: '#/components/schemas/ModelAttoCollegato'
           description: Per il registro di cittadinanza, per atto collegato si intende quello di nascita.
+        eventoCollegatoCittadinanza:
+          allOf:
+            - $ref: '#/components/schemas/ModelAttoCollegato'
+          description: Atto collegato di cittadinanza.
         datiAnnotazione:
           description: Dati delle annotazioni contestuali
           type: array
@@ -361,7 +365,8 @@ components:
           example: true
         eventoPrimario:
           $ref: '#/components/schemas/ModelAttoCollegato'
-
+        datiAnnotazioneSentenza:
+          $ref: '#/components/schemas/ModelDatiAnnotazioneSentenza'
     ModelRichiedente:
       properties:
         idTipoRichiedente:
@@ -504,6 +509,12 @@ components:
           type: boolean
           description: Indica se l'atto è stato trascritto
           example: true
+    ModelDatiAnnotazioneSentenza:
+      properties:
+        attoNascitaSposo:
+          $ref: '#/components/schemas/ModelAttoCollegato'
+        attoNascitaSposa:
+          $ref: '#/components/schemas/ModelAttoCollegato'
     ModelSoggettoML:
       properties:
         indirizzoResidenza:
@@ -1224,7 +1235,7 @@ components:
           example: 'femmina'
         idFormatodata:
           type: string
-          description: formato data secondo decodifica ANSC_125
+          description: formato data secondo decodifica ANSC_125, per trascrizione matrimonio estero ANSC_172
           example: '1'
         formatodata:
           type: string
@@ -1359,6 +1370,10 @@ components:
           type: string
           description: Residenza al momento dell'evento originario
           example: ANPR (RM)
+        anni:
+          type: string
+          description: Età espessa in anni, numerico, per matrimonio da estero
+          example: "30"
 
     ModelEnteDichiarante:
       properties:
@@ -1724,6 +1739,11 @@ components:
           type: string
           description: Comune Estero
           example: 'Londra'
+        dataRinvenimentoCadavere:
+          type: string
+          format: date
+          description: Data rinvenimento cadavere
+          example: '2022-03-31'
 
     ModelVariazioni:
       #DEPRECATO da rimuovere il modello#
@@ -3589,6 +3609,10 @@ components:
           type: string
           description: vecchio  cognome  Intestatario - presente sull'atto di adozione cartaceo
           example: 'Rossi'
+        idTipoSentenza:
+          type: string
+          description: Tipologia sentenza (ANSC_136)
+          example: '1'
     ModelAdozioneMultiIntestatario:
       description: Model annotazione modificativa rettifica per figlio a seguito cambio generalita genitori
       properties:

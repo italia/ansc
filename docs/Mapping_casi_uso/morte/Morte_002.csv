@@ -15,6 +15,7 @@
 "Dati decesso","Data presunta inizio","NO","evento.datiDiMorte","dataPresuntaMorteDa","","obbligatoria"
 "Dati decesso","Data presunta fine","NO","evento.datiDiMorte","dataPresuntaMorteA","","obbligatoria"
 "Dati decesso","Note data e ora presunta","NO","evento.datiDiMorte","testoDataPresuntaMorte","","obbligatoria"
+"Dati decesso","Data rinvenimento cadavere","NO","evento.datiDiMorte","dataRinvenimentoCadavere","","obbligatoria"
 "Dati decesso","Luogo","NO","evento.datiDiMorte","luogoMorte","","obbligatoria"
 "Dati decesso","Stato","NO","evento.datiDiMorte","idStatoMorte","","obbligatoria"
 "Dati decesso","Stato - Descrizione","NO","evento.datiDiMorte","nomeStatoMorte","","obbligatoria"
