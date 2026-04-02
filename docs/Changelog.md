@@ -22,6 +22,14 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.50.1 - 02-04-2026]
+
+### Changed
+
+- [R009] Gestione retrocompatibilità per controlli di congruenza versione 1.50.0, molti controlli sono stati rimossi in attesa di essere documentati, rimangono, ma bloccanti solo se si indica idVersion 100031 <https://github.com/italia/ansc/discussions/3121> : 
+  - Verifica di congruenza per i luoghi (es. idComune con nomeComune, idProvincia ecc)
+  - Verifica assenza intestatario per i casi d'uso che non lo prevedono
+
 ## [1.50.0 - 31-03-2026]
 
 ### Added
