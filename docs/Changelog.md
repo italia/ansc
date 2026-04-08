@@ -22,6 +22,13 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.50.2 - 08-04-2026]
+
+### Fixed
+
+- [WA/SC]  Corrette annotazioni automatiche generate a seguito di atti di cittadinanza: gestita retrocompatibilità relativamente ai nuovi dati di accertamento aggiunti con la versione 1.50.0 (data accertamento e estremi accertamento)
+- [SC/WA]: Aggiornamento documentazione e configurazione dei casi d'uso di cittadinanza 52121, 52122, 52123 relativamente alle sezioni Autorità Mittente e Dati Accertamento <https://github.com/italia/ansc/discussions/3127>
+
 ## [1.50.1 - 02-04-2026]
 
 ### Changed
