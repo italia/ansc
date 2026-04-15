@@ -22,6 +22,16 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.50.3 - 15-04-2026]
+
+### Fixed
+
+- [WA]  Servizi di ausilio, gestione degli allegati errati: corretto errore in validazione 'Il campo evento.eventoCollegato.idtipocontenuto nella sezione Atto nascita intestatario non corrisponde al pattern xxx' <https://github.com/italia/ansc/discussions/2944>
+- [SC]: Annotazione automatica di adozione di maggiorenne su atto di nascita: corretti dati relativi ai genitori <https://github.com/italia/ansc/discussions/3063>
+- [SC]: Corretto controllo sugli allegati obbligatori come da documentazione <https://github.com/italia/ansc/discussions/3125> <https://github.com/italia/ansc/discussions/3174>
+- [WA] UC 1.4.9.5.0.0.0.0 Corretta annotazione per adozione internazionale di minore
+- [SC/WA] Corretto estratto per copia integrale in tedesco in merito alla sezione dei genitori
+
 ## [1.50.2 - 08-04-2026]
 
 ### Fixed
