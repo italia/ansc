@@ -22,6 +22,12 @@ NOTE:
 
 ## [Unreleased]
 
+# [1.50.4 - 15-04-2026]
+
+### Fixed
+
+- [DOCUMENTAZIONE] rimozione decodifica 131 errata 131_dmnm_dec_stato_ansc
+
 ## [1.50.3 - 15-04-2026]
 
 ### Fixed
