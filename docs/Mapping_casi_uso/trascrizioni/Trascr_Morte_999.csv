@@ -94,7 +94,7 @@
 "Atto collegato","Provincia registrazione - Descrizione","SI","evento.eventoCollegato","siglaProvinciaRegistrazione","","opzionale"
 "Atto collegato","Comune registrazione","SI","evento.eventoCollegato","idComuneRegistrazione","","opzionale"
 "Atto collegato","Comune registrazione - Descrizione","SI","evento.eventoCollegato","nomeComuneRegistrazione","","opzionale"
-"Atto collegato","Tipo evento","SI","evento.eventoCollegato","idtipocontenuto","","opzionale"
+"Atto collegato","Tipo evento","NO","evento.eventoCollegato","idtipocontenuto","","opzionale"
 "Atto collegato","Numero Comunale","SI","evento.eventoCollegato","numeroatto","","opzionale"
 "Atto collegato","Anno atto","SI","evento.eventoCollegato","annoAtto","","opzionale"
 "Atto collegato","Data atto","NO","evento.eventoCollegato","dataformazione","","opzionale"

@@ -85,7 +85,7 @@
 "Accordo scioglimento","Provincia registrazione - Descrizione","SI","evento.scioglimentoUnioneCivile.accordoScioglimento","siglaProvinciaRegistrazione","","obbligatoria"
 "Accordo scioglimento","Comune registrazione","SI","evento.scioglimentoUnioneCivile.accordoScioglimento","idComuneRegistrazione","","obbligatoria"
 "Accordo scioglimento","Comune registrazione - Descrizione","SI","evento.scioglimentoUnioneCivile.accordoScioglimento","nomeComuneRegistrazione","","obbligatoria"
-"Accordo scioglimento","Tipo evento","SI","evento.scioglimentoUnioneCivile.accordoScioglimento","idtipocontenuto","","obbligatoria"
+"Accordo scioglimento","Tipo evento","NO","evento.scioglimentoUnioneCivile.accordoScioglimento","idtipocontenuto","","obbligatoria"
 "Accordo scioglimento","Numero Comunale","SI","evento.scioglimentoUnioneCivile.accordoScioglimento","numeroatto","","obbligatoria"
 "Accordo scioglimento","Anno atto","SI","evento.scioglimentoUnioneCivile.accordoScioglimento","annoAtto","","obbligatoria"
 "Accordo scioglimento","Data atto","SI","evento.scioglimentoUnioneCivile.accordoScioglimento","dataformazione","","obbligatoria"

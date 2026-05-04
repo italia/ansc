@@ -328,7 +328,7 @@
 "Atto Consenso","Provincia registrazione - Descrizione","SI","evento.datiEventoMatrimonio.consensoRiconoscimento.atto","siglaProvinciaRegistrazione","","evento.datiEventoMatrimonio.consensoRiconoscimento.tipoConsenso,!=,2"
 "Atto Consenso","Comune registrazione","SI","evento.datiEventoMatrimonio.consensoRiconoscimento.atto","idComuneRegistrazione","","evento.datiEventoMatrimonio.consensoRiconoscimento.tipoConsenso,!=,2"
 "Atto Consenso","Comune registrazione - Descrizione","SI","evento.datiEventoMatrimonio.consensoRiconoscimento.atto","nomeComuneRegistrazione","","evento.datiEventoMatrimonio.consensoRiconoscimento.tipoConsenso,!=,2"
-"Atto Consenso","Tipo evento","SI","evento.datiEventoMatrimonio.consensoRiconoscimento.atto","idtipocontenuto","","evento.datiEventoMatrimonio.consensoRiconoscimento.tipoConsenso,!=,2"
+"Atto Consenso","Tipo evento","NO","evento.datiEventoMatrimonio.consensoRiconoscimento.atto","idtipocontenuto","","evento.datiEventoMatrimonio.consensoRiconoscimento.tipoConsenso,!=,2"
 "Atto Consenso","Numero Comunale","SI","evento.datiEventoMatrimonio.consensoRiconoscimento.atto","numeroatto","","evento.datiEventoMatrimonio.consensoRiconoscimento.tipoConsenso,!=,2"
 "Atto Consenso","Anno atto","SI","evento.datiEventoMatrimonio.consensoRiconoscimento.atto","annoAtto","","evento.datiEventoMatrimonio.consensoRiconoscimento.tipoConsenso,!=,2"
 "Atto Consenso","Data atto","SI","evento.datiEventoMatrimonio.consensoRiconoscimento.atto","dataformazione","","evento.datiEventoMatrimonio.consensoRiconoscimento.tipoConsenso,!=,2"

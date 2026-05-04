@@ -12,7 +12,7 @@ servers:
 paths:
   /consultazione/ansc/evento/{version}:
     post:
-      description: Ricerca tramite dati evento 
+      description: Ricerca tramite dati evento (non accessibile con permesso SCCPA)
       parameters:
         - name: version
           in: path
@@ -45,7 +45,42 @@ paths:
            application/json:
              schema:
                  $ref: '#/components/schemas/ConsultazioneANSCResponse'
-                 
+  /consultazione/ansc/evento/sintetico/{version}:
+    post:
+      description: Ricerca tramite dati evento (accessibile con permesso SCCPA)
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ConsultazioneANSCEventoSinteticoRequest'
+      responses:
+        '200':
+          description: Atto richiesto dalla ricerca
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConsultazioneSinteticaANSCResponse'
+        '403':
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConsultazioneSinteticaANSCResponse'
+        '400':
+          description: Se non arriva una firma valida (deve essere diversa da null)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConsultazioneSinteticaANSCResponse'
+
   /consultazione/ansc/evento/note/tecniche/{version}:
     post:
       description: Ricerca di tutte le note tecniche afferenti all'evento passato in input 
@@ -159,6 +194,41 @@ paths:
            application/json:
              schema:
                  $ref: '#/components/schemas/ConsultazioneANSCResponse'
+  /consultazione/ansc/soggetto/sintetico/{version}:
+    post:
+      description: Ricerca eventi sitetici tramite dati soggetto (accessibile con permesso SCCPA)
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ConsultazioneANSCSoggettoRequest'
+      responses:
+        '200':
+          description: Atto richiesto dalla ricerca
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConsultazioneSinteticaANSCResponse'
+        '403':
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConsultazioneSinteticaANSCResponse'
+        '400':
+          description: Se non arriva una firma valida (deve essere diversa da null)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConsultazioneSinteticaANSCResponse'
   /consultazione/ansc/intestatario/{version}:
     post:
       description: Ricerca intestatario tramite dati anagrafici (restituisce sia soggetti già presenti in ANSC, che in ANPR, nel secondo caso, la property id non viene impostata)
@@ -257,12 +327,6 @@ components:
           type: string
           description: identificativo del comune di registrazione
           example: "178"
-    CriteriRicercaNotaTecnica:
-      properties:
-        idAnsc:
-          type: string
-          description: Id Nazionale univoco assegnato dal sistema.
-          example: "2022-9423-26624-040007"        
     CriteriRicercaSoggetto:
       properties:
         idAnpr:
@@ -327,7 +391,17 @@ components:
             - criteriRicercaEvento
           properties:
             criteriRicercaEvento:
-                $ref: '#/components/schemas/CriteriRicercaEvento'    
+                $ref: '#/components/schemas/CriteriRicercaEvento'
+    ConsultazioneANSCEventoSinteticoRequest:
+      description: Richiesta del servizio di ricerca per evento
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscRequest'
+        - type: object
+          required:
+            - criteriRicercaEvento
+          properties:
+            criteriRicercaEvento:
+              $ref: '#/components/schemas/CriteriRicercaEventoSintetico'
     ConsultazioneANSCEventoNoteTecnicheRequest:
       description: Richiesta del servizio di consultazione per le note tecniche afferenti all'evento passato in input 
       allOf:
@@ -359,6 +433,133 @@ components:
               type: array
               items:
                 $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelEvento'
+    ConsultazioneSinteticaANSCResponse:
+      description: Ritorno del servizio specializzato per la consultazione ANSC
+      allOf:
+        - $ref: 'https://italia.github.io/ansc/docs/openapi/base_servizi.yaml#/components/schemas/AnscResponse'
+        - type: object
+          properties:
+            modelEventoDTO:
+              description: Elenco degli eventi trovati (con dati sintetici)
+              type: array
+              items:
+                $ref: '#/components/schemas/ModelEventoRidotto'
+    ModelEventoRidotto:
+      properties:
+        id:
+          type: string
+          description: Id univoco assegnato dal sistema. (per uso interno)
+          example: '12'
+        idAnsc:
+          type: string
+          description: Id Nazionale univoco assegnato dal sistema.
+          example: '2022-9423-26624-040007'
+        idTipoEvento:
+          type: string
+          description: Id del tipo evento. (decodifica ANSC_01)
+          example: "5"
+        idtipocontenuto:
+          description: Tipologia di evento (Atto, annotazione, trascrizione) (decodifica ANSC_02)
+          type: string
+          example: '1'
+        idUsecase:
+          type: string
+          description: Id del caso d'uso cui si riferisce l'evento. (decodifica ANSC_03)
+          example: "1170"
+        descrizioneCasoUso:
+          type: string
+          description: Descrizione del caso d'uso cui si riferisce l'evento.
+          example: 'Morte su dichiarazione del cittadino'
+        stato:
+          type: string
+          description: Stato attuale dell'atto. (decodifica ANSC_11)
+          example: "BOZZA"
+        flagsecretato:
+          type: string
+          description: Indica se l'atto e' secretato o meno (1 secretato - 0 non secretato) (campo gestito dal sistema)
+          example: "0"
+        idVersion:
+          type: string
+          description: Id della versione utilizzato per la creazione dell'evento (decodifica ANSC_100)
+          example: "1"
+        # Dati di redazione dell'evento (sempre presenti)
+        dataformazione:
+          type: string
+          format: date
+          description: Data formazione dell'atto.
+          example: '2020-01-23'
+        annoAtto:
+          type: string
+          description: Anno dell'atto.
+          example: '2020'
+        meseAtto:
+          type: string
+          description: Mese dell'atto.
+          example: '1'
+        giornoAtto:
+          type: string
+          description: Giorno dell'atto.
+          example: '23'
+        ora:
+          type: string
+          description: Ora formazione atto.
+          example: '1'
+        minuto:
+          type: string
+          description: Minuto formazione atto.
+          example: '11'
+        idComuneRegistrazione:
+          type: string
+          description: ID del comune presso il quale e' stata resa la dichiarazione.
+          example: '2780'
+        nomeComuneRegistrazione:
+          type: string
+          description: Nome del comune presso il quale e' stata resa la dichiarazione.
+          example: 'CESENA'
+        idProvinciaRegistrazione:
+          type: string
+          description: ID della provincia del comune presso il quale e' stata resa la dichiarazione.
+          example: '123'
+        siglaProvinciaRegistrazione:
+          type: string
+          description: Sigla della provincia del comune presso il quale e' stata resa la dichiarazione.
+          example: 'FC'
+        dataDecorrenza:
+          type: string
+          format: date
+          description: Data decorrenza atto
+          example: '2022-03-22'
+        oraDecorrenza:
+          type: string
+          description: Ora decorrenza atto
+          example: '12'
+        minutoDecorrenza:
+          type: string
+          description: Minuto decorrenza atto
+          example: '30'
+        numeroatto:
+          type: string
+          description: Numero dell'atto assegnato dal comune.
+          maxLength: 5
+          example: '9423'
+        intestatari:
+          description: Intestatari dell'atto (uno o più in base al registro), in caso di intestatari di un matrimonio nel primo elemento va inserito lo sposo (elemento con indice 0) e nel secondo elemento (elemento con indice 1) va inserita la sposa
+          type: array
+          items:
+            $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelSoggetto'
+        datiLingua:
+          description: Dati delle lingue addizionali
+          type: array
+          items:
+            $ref: 'https://italia.github.io/ansc/docs/openapi/model_evento.yaml#/components/schemas/ModelDatiLingua'
+        flagCertificatoSemplice:
+          type: boolean
+          description: Indica se il caso d'uso di servizio è abilitato ad emettere il certificato semplice (true=ABILITATO, false=NON ABILITATO)
+          example: true
+        flagEstrattoPerRiassunto:
+          type: boolean
+          description: Indica se il caso d'uso di servizio è abilitato ad emettere l'estratto per riassunto (true=ABILITATO, false=NON ABILITATO)
+          example: true
     ConsultazioneANSCSoggettoResponse:
       description: Ritorno del servizio per la consultazione intestatari ANSC, quando revision è 2000000, 2000002, o 2000003
       allOf:
@@ -488,3 +689,39 @@ components:
           format: bigdecimal
           description: ID della nazionalità
           example: 1
+    CriteriRicercaEventoSintetico:
+      properties:
+        idAnsc:
+          type: string
+          description: Id Nazionale univoco assegnato dal sistema.
+          example: "2022-9423-26624-040007"
+        idComunale:
+          type: string
+          description: Numero Comunale dell'Atto (codificato ANPR_03)
+          example: "178"
+        idEvento:
+          type: string
+          description: Id Evento.
+          example: "26624"
+        idTipoEvento:
+          type: string
+          description: Identificativo del tipo di evento (codificato ANSC_01)
+          example: '2'
+        idTipoContenuto:
+          type: string
+          description: Identificativo del tipo di contenuto (codificato ANSC_02)
+          example: '3'
+        dataDa:
+          type: string
+          format: date
+          description: Data minima di ricerca dell'evento
+          example: "2014-11-14"
+        dataA:
+          type: string
+          format: date
+          description: Data massima di ricerca dell'evento
+          example: "2014-12-17"
+        idComuneRegistrazione:
+          type: string
+          description: identificativo del comune di registrazione
+          example: "178"

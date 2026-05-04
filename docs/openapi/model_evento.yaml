@@ -367,6 +367,10 @@ components:
           $ref: '#/components/schemas/ModelAttoCollegato'
         datiAnnotazioneSentenza:
           $ref: '#/components/schemas/ModelDatiAnnotazioneSentenza'
+        flagOmogenitoriale:
+          type: string
+          description: Indica se si tratta di coppia omogenitoriale - maschile o femminile (true, false) - Il flag omogenoitoriale può essere utilizzato solo per i casi d'uso di adozione per il momento; in tutti gli altri verrà trattato come defaul=false
+          example: "true"
     ModelRichiedente:
       properties:
         idTipoRichiedente:
@@ -509,6 +513,10 @@ components:
           type: boolean
           description: Indica se l'atto è stato trascritto
           example: true
+        flagOmogenitoriale:
+          type: string
+          description: valid per adozione indica se si tratta di coppia omogenitoriale(true=si, false = no)
+          example: "true"
     ModelDatiAnnotazioneSentenza:
       properties:
         attoNascitaSposo:
@@ -3588,6 +3596,15 @@ components:
           format: date
           description: data annotazione di riferimento
           example: '2020-01-23'
+        genitori:
+          description: Genitori
+          type: array
+          items:
+            $ref: '#/components/schemas/ModelSoggetto'
+        etaFiglio:
+          type: number
+          description: Fascia età figlio 1-Minorenne|2-Maggiorenne (ANSC_173)
+          example: 1
     ModelAdozioneMinoriInternazionale:
       description: Model annotazione modificativa rettifica per figlio a seguito cambio generalita genitori
       properties:

@@ -12,7 +12,43 @@ servers:
 paths:
   /certificato/{version}:
     post:
-      description: Servizio di richiesta certificato
+      description: Servizio di richiesta certificato (non accessibile con permesso SCCSE)
+      parameters:
+        - name: version
+          in: path
+          required: true
+          description: La versione del servizio invocato
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CertificatoRequest'
+      responses:
+        '200':
+          description: Successo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CertificatoResponse'
+        '403':
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CertificatoResponse'
+
+        '404':
+          description: Non trovato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CertificatoResponse'
+  /certificato-semplice/{version}:
+    post:
+      description: Servizio di richiesta certificato semplice (accesibile anche con permesso SCCSE)
       parameters:
         - name: version
           in: path

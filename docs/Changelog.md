@@ -22,6 +22,54 @@ NOTE:
 
 ## [Unreleased]
 
+
+## [1.51.0 - 04-05-2026]
+
+### Added
+
+- [versione] Aggiunta versione 100032
+- [feature]	[SC/WA] Gestione profilazione di consultazione limitata al solo scopo di emettere la certificazione (Richiesta da Torino) (ID 314)
+- [feature]	[SC/WA] Annotazione per riconoscimento che non richiede trascrizione (ID 326)
+- [feature] Trascrizione atto di morte pervenuto da comune estero di decesso (issue #2208) (ID 313)
+- [feature] Annotazione per adozione (ID 342)
+- [feature] Estesi i casi di adozione alle coppie omogenitoriali (ID 304)
+- [casi d'uso] Aggiunto nuovo caso d'uso 1.4.8.8.0.0.0.0 (Dic_Nasc_998_9) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 326)
+- [casi d'uso] Aggiunto nuovo caso d'uso 2.2.1.6 (Morte_020) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE (ID 313)
+- [decodifiche] Aggiunta decodifica ANSC_173 (DEC_ETA_FIGLIO per discriminare la fascia d'età figlio 1-Minorenne|2-Maggiorenne ) (ID 326)
+- [decodifiche] Aggiunto valore in decodifica ANSC_9 dec_tipo_allegato 126 - "Nota di trasmissione da parte di altro comune"
+
+### model_evento.yaml
+- Aggiunta proprietà "flagOmogenitoriale" di tipo string in ModelEvento: Indica se si tratta di coppia omogenitoriale - maschile o femminile ("true", "false") - Il flag omogenoitoriale può essere utilizzato solo per i casi d'uso di adozione per il momento; in tutti gli altri verrà trattato come defaul=false
+- Aggiunta proprietà "genitori" di tipo array di ModelSoggetto in ModelAnnotazioneModificativa (ID 326)
+- Aggiunta proprietà "etaFiglio" di tipo number in ModelAnnotazioneModificativa espresso dalla decodifica (ANSC_173) (ID 326)
+
+- [R005_consultazione_ansc.yaml]
+  - Definiti nuovi servizi per la gestione profilazione di consultazione limitata (ID 314):
+  - /consultazione/ansc/evento/sintetico/{version}
+  - /consultazione/ansc/soggetto/sintetico/{version}
+  - Aggiunto permesso: SCCPA – Consultazione parziale
+- [R002_certificazione.yaml]
+  - Definiti nuovi servizi per la gestione profilazione di consultazione limitata (ID 314):
+  - /certificato-semplice/{version}
+  - Aggiunto permesso: SCCSE – Emissione certificati semplici
+  
+### Fixed
+
+- [SC] Atto matrimonio su delega - gestione dati atto nascita sposa mancanti in anteprima <https://github.com/italia/ansc/issues/3069>
+- [SC/WA] Estratto per copia integrale tedesco
+- [SC] Aggiornamento mapping casi d'uso di cittadinanza con sezioni in conflitto <https://github.com/italia/ansc/issues/3127>
+- [SC/WA] Corretto atto di nascita in caso di adozione e in caso di dati dei genitori biologici non presenti
+- [WA] Corretto servizio di disassociazione annotazione in modo da rendere inefficaci anche le annotazioni automatiche rigenerate <https://github.com/italia/ansc/issues/2854> 
+- [SC/WA] Corretto certificato internazionale per recupero annotazioni <https://github.com/italia/ansc/issues/3210>
+- [WA] Corretta gestione annotazioni non associate ad atto digitale <https://github.com/italia/ansc/issues/2602>
+- [SC] Corretto  servizio R008_NOTIFICHE per errore dati restituiti in ricerca <https://github.com/italia/ansc/issues/2694>
+- [WA] Firma obbligatoria senza possibilità di inserire impedimento firma, accordo e conferma separazione <https://github.com/italia/ansc/issues/2739>
+- [WA] Corretta notifica di tipo annotazione generata a seguito atto cittadinanza <https://github.com/italia/ansc/issues/3065>
+- [WA] Corretta gestione annotazione di divorzio su atto di matrimonio in presenza di più matrimoni per lo stesso soggetto <https://github.com/italia/ansc/issues/3090>
+- [SC] Corretta documentazione per caso uso 347000 idUseCase e idTipoContenuto non coerenti <https://github.com/italia/ansc/issues/3286>
+- [decodifiche] Aggiornato valore IDTIPOCONTENUTO a 3 sulla decodifica ANSC_03 DEC_USE_CASE per i casi d'uso 346000 e 347000.
+
+
 # [1.50.4 - 15-04-2026]
 
 ### Fixed
