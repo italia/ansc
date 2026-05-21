@@ -22,6 +22,31 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.51.2 - 21-05-2026]
+
+### Fixed
+
+- Trascrizione matrimonio tedesco
+- Trascrizione matrimonio e rilascio certificato
+- [SC]: I dati del soggetto intestatario con idANSC... inseriti non sono conformi ai dati anagrafici registrati <https://github.com/italia/ansc/issues/3275>
+- Trascrizioni sentenze casi particolari e maggiorenni
+- Morte presunta: eliminare frase dai certificati ed estratti 'come da documentazione medica'
+- "Certificato multilingue matrimonio
+- (Gestire il caso in cui sia presente solo l'età e non la data di nascita degli intestatari )"
+- Fix form 132 e derivate per testo tedesco mancante
+- descrizioni casi d'uso 1381 e 1382 in 3_dec_use_case.xlsx non coincidenti con quelli su webapp <https://github.com/italia/ansc/issues/3360>
+- UC 52115 Modifica titolo in Acquisto automatico di cittadina straniera residente che si sposa con cittadino italiano fino al 27 aprile 1983
+- Gestione accesso prefetture
+- ottimizzazione flusso RdC e servizio rdc-admin per conservazione
+- correzione errore sula generazione indiceAnnuale (segnalazione 170519)
+- [SC]: Certificazione Copia Integrale e Anteprima Atto  <https://github.com/italia/ansc/issues/3282>
+
+
+## [1.51.1 - 14-05-2026]
+
+### Changed
+
+- Ottimizzazioni al servizio di verifica allegati per aumentare le performance <https://github.com/italia/ansc/discussions/3387>
 
 ## [1.51.0 - 04-05-2026]
 
