@@ -845,6 +845,14 @@ components:
           example:  ''
         soggettoImpedimentoGenerico:
           $ref: '#/components/schemas/ModelImpedimentoML'
+        appartenenzaCognomeComune:
+          type: string
+          description: scelta del cognome comune tra gli uniti civilmente (dec ANSC_175)
+          example:  '1'
+        posizioneCognomeComune:
+          type: string
+          description: modo di comporre il cognome comune  (dec ANSC_176)
+          example:  '1'
     ModelRiconoscimentoML:
       properties:
         autorizzazione:
@@ -1382,6 +1390,11 @@ components:
           type: string
           description: Età espessa in anni, numerico, per matrimonio da estero
           example: "30"
+        dataValidita:
+          type: string
+          format: date
+          description: Data Di Validità (Utilizzato solo nel caso d'uso 52821 Trascrizione atti multipli cittadinanza. Per i soggetti privi di Data Validità sarà utilizzata, ai fini dell’invio in anagrafica, la Data Validità dell’evento, ove presente.)
+          example: '2020-01-01'
 
     ModelEnteDichiarante:
       properties:
@@ -2345,6 +2358,10 @@ components:
               type: boolean
               description: Indica se il documento sia stato o meno ricevuto a mezzo posta
               example: true
+            estremiDichiarazioneConsolare:
+              type: string
+              description: Estremi relativi alla dichiarazione consolare
+              example: "1"
             intestatarioVecchieGeneralita: # Vecchie generalità dell'intestatario
               $ref: '#/components/schemas/ModelSoggetto'
 
@@ -2412,6 +2429,10 @@ components:
               format: date
               description: Data di decorrenza della sentenza
               example: "2022-04-22"
+            tipoProcedimento:
+              type: string
+              description: Tipo procedimento (decodifica ANSC_174)
+              example: "1"
     ModelTrascrizioneUnioneCivile:
       allOf:
         - $ref: '#/components/schemas/ModelTrascrizione'
@@ -2983,7 +3004,7 @@ components:
       properties:
         tipo:
           type: string
-          description: Tipo di regime patrimoniale (decodifica ANSC_49)
+          description: Tipo di regime patrimoniale (decodifica ANSC_49) (per caso d'uso 52821 deve usata la decodifica ANSC_181)
           example: "1"
         attoNotarile:
           type: boolean
@@ -3008,7 +3029,7 @@ components:
           example: "2002-06-30"
         legge:
           type: string
-          description: Numero della legga cui gli sposi si avvalgono per definire il regime patrimoniale
+          description: Numero della legga cui gli sposi si avvalgono per definire il regime patrimoniale (per caso d'uso 52821 deve usata la decodifica ANSC_182)
           example: "64/2001"
         assistenzaMinori:
           description: lista contenente i dati degli assistenti dei minori (0=Sposo,1=Sposa)
@@ -3016,6 +3037,31 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/ModelAssistenzaMinori'
+        idTipoConvenzioneMatr:
+          type: string
+          description: Tipo convenzione matrimoniale (decodifica ANSC_179)
+          example: "1"
+        tipoAttoNotarile:
+          type: string
+          description: Tipo convenzione matrimoniale con Atto notarile (decodifica ANSC_180)
+          example: "1"
+        nazioneLegge:
+          type: string
+          description: Nazionalità della legge che si vuole applicare (dove almeno uno dei coniugi è residente)
+          example: "britannica"
+        idTipoMutamentoConvenzioneMatr:
+          type: string
+          description: Tipo mutazione convenzione matrimoniale (decodifica ANSC_183)
+          example: "1"
+        dataProvvedimento:
+          type: string
+          format: date
+          description: Data provvedimento di omologazione/mutazione
+          example: "2002-06-30"
+        omologazione:
+          type: boolean
+          description: Nel caso di omologazione oppure mutamento tramite autorizzazione del giudice
+          example: true
     ModelRiconciliazione:
       properties:
         luogoEventoMatrimonio: # Luogo celebrazione

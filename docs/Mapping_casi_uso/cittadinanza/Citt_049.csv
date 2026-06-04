@@ -69,6 +69,7 @@
 "Lista Intestatari","Provincia AIRE - Descrizione","NO","evento.intestatari[0]","siglaProvinciaAIRE","","obbligatoria"
 "Lista Intestatari","Comune AIRE","NO","evento.intestatari[0]","idComuneAIRE","","obbligatoria"
 "Lista Intestatari","Comune AIRE - Descrizione","NO","evento.intestatari[0]","nomeComuneAIRE","","obbligatoria"
+"Lista Intestatari","Data validità","NO","evento.intestatari[0]","dataValidita","","obbligatoria"
 "Atto collegato di Cittadinanza","Id atto","NO","evento.eventoCollegatoCittadinanza","idAnsc","","opzionale"
 "Atto collegato di Cittadinanza","Provincia registrazione","NO","evento.eventoCollegatoCittadinanza","idProvinciaRegistrazione","","opzionale"
 "Atto collegato di Cittadinanza","Provincia registrazione - Descrizione","NO","evento.eventoCollegatoCittadinanza","siglaProvinciaRegistrazione","","opzionale"

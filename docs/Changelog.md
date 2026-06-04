@@ -22,6 +22,62 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.52.0 - 04-06-2026]
+
+### Added
+
+- [versione] Aggiunta versione 100033
+- [feature]	[SC/WA] Atti multipli : gestione data validità anagrafica per ogni intestatario (ID 344)
+- [feature]	[SC/WA] Annotazione di convenzioni matrimoniali <https://github.com/italia/ansc/issues/2410> (ID 334)
+- [feature] Modifiche di alcune formule (ID 346)
+- [feature] Adeguamento caso d'uso 1.3.8.2: Trascrizione atti multipli di adozione di maggiorenne o casi particolari
+- [feature] Gestione interprete / soggetto intervenuto in casi particolari (es. ADS) <https://github.com/italia/ansc/issues/3212>
+- [decodifiche] Aggiunto decodifica ANSC_179 DEC_TIPO_ANN_CONVENZIONE_MATRIMONIALE (ID 334)
+- [decodifiche] Aggiunto decodifica ANSC_180 DEC_TIPO_REGIME_PATRIMONIALE_ATTO_NOTARILE (ID 334)
+- [decodifiche] Aggiunto decodifica ANSC_181 DEC_TIPO_REGIME_PATRIMONIALE_ATTO_MATRIMONIO (ID 334) 
+- [decodifiche] Aggiunto decodifica ANSC_182 DEC_NUMERO_LEGGE (ID 334)   
+- [decodifiche] Aggiunto decodifica ANSC_183 DEC_MUTAMENTO_CONVENZIONE_MATRIMONIALE (ID 334)
+- [decodifiche] Aggiunto decodifica ANSC_175 (DEC_SCELTA_COGNOME_COMUNE)
+- [decodifiche] Aggiunto decodifica ANSC_176 (DEC_POSIZIONE_COGNOME_COMUNE)
+- [casi d'uso] Aggiunto nuovo caso d'uso 5.2.1.5.8: Trascrizione esito accertamento da Consolato (ID 307): Citt_060
+- [casi d'uso] Aggiunto nuovo caso d'uso 4.6.1.0.0.0 Scelta cognome comune (ID312): UnCiv_009
+- [casi d'uso] Aggiunto nuovo caso d'uso 4.3.8.1.0.0 Unione Civile tra persone dello stesso sesso (art. 134-bis, comma 2) (ID311): Trascr_UnCiv_006
+- [casi d'uso] Aggiunto nuovo caso d'uso 3.6.4.0.0.0 Annotazione di convenzioni matrimoniali: Matr_999_3
+- [casi d'uso] Abilitazione ML UC: 2.2.1.6 e 5.2.1.5.8
+
+### model_evento.yaml
+- Aggiunta proprietà "idTipoConvenzioneMatr" di tipo string in ModelRegimePatrimoniale (ID 334): Tipo convenzione matrimoniale espresso dalla decodifica (ANSC_179)
+- Aggiunta proprietà "tipoAttoNotarile" di tipo string in ModelRegimePatrimoniale (ID 334): Tipo convenzione matrimoniale con Atto notarile espresso dalla decodifica (ANSC_180)
+- Aggiunta proprietà "nazioneLegge" di tipo string in ModelRegimePatrimoniale (ID 334): Nazionalità della legge che si vuole applicare (dove almeno uno dei coniugi è residente)
+- Aggiunta proprietà "idTipoMutamentoConvenzioneMatr" di tipo string in ModelRegimePatrimoniale (ID 334): Tipo mutazione convenzione matrimoniale espresso dalla decodifica (ANSC_183)
+- Aggiunta proprietà "dataProvvedimento" di tipo string e format date in ModelRegimePatrimoniale (ID 334): Data provvedimento di omologazione/mutazione
+- Aggiunta proprietà "omologazione" di tipo boolean in ModelRegimePatrimoniale (ID 334): Nel caso di omologazione oppure mutamento tramite autorizzazione del giudice
+- Aggiunta proprietà "tipoProcedimento" di tipo string in ModelTrascrizioneSeparazione (ANSC_174)
+- Aggiunta proprietà "estremiDichiarazioneConsolare" in ModelTrascrizioneCittadinanza
+- Aggiunta proprietà "appartenenzaCognomeComune" in ModelUnioneCivileML
+- Aggiunta proprietà "posizioneCognomeComune" in ModelUnioneCivileML
+
+[R014_evento_validita.yaml]
+- Modificato servizio per l'inserimento data validità dell’evento firmato (ID 344):
+- /evento/data-validita/{version}
+- in particolare è stato aggiunto "intestatari" (un array di ModelSoggetto) nel payload del servizio
+
+### Fixed
+- Ottimizzazione servizio di verifica allegati
+- Conservazione: gestione pdv in errore 
+- Certificati plurilingua in caso di soggetto con due nomi separati da virgola
+- Certificato plurilingue nascita (in caso di annotazioni con descrizione troppo lunga)
+- Gestione annotazione generata a seguito di disconoscimento
+- Esito di accertamento per art. 4 comma 1-bis: aggiunto ulteriore dato opzionale 'estremi dichiarazione consolare'
+- [WA] Caso d'uso di morte [2.1.0.4] Decesso relativo a cadavere rinvenuto non identificato: adeguata formula utilizzata
+- [WA] Disabilitazione servizio di annullamento per inefficacia e alert in validazione
+- [WA] Disabilitazione servizio di correzione annotazione
+- Predisposizione annotazioni mancanti a seguito di Trascrizione della convenzione di negoziazione assistita
+- Corretto errore su idComuneAIRE ed idDenominazione
+- Corretto errore consultazione prefetture
+- Trascrizione matrimonio dall'estero: corretta gestione intestatari
+
+
 ## [1.51.2 - 21-05-2026]
 
 ### Fixed
