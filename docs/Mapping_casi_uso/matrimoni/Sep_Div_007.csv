@@ -165,3 +165,5 @@
 "Moglie","Provincia AIRE - Descrizione","NO","evento.intestatari[1]","siglaProvinciaAIRE","","obbligatoria"
 "Moglie","Comune AIRE","NO","evento.intestatari[1]","idComuneAIRE","","obbligatoria"
 "Moglie","Comune AIRE - Descrizione","NO","evento.intestatari[1]","nomeComuneAIRE","","obbligatoria"
+"Dettagli evento","Ricevuta da privato cittadino","SI","evento.trascrizioneSeparazione","ricevutaDaPrivatoCittadino","","obbligatoria"
+"Dettagli evento","Tipo procedimento","NO","evento.trascrizioneSeparazione","tipoProcedimento","","obbligatoria"

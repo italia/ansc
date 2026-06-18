@@ -1,3 +1,18 @@
+#Changelog mappatura casi uso 1.52.1
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 1
+* matrimoni/Sep_Div_007.csv
+
+### Modifiche per il caso uso matrimoni/Sep_Div_007.csv : 
+* Aggiunto 'evento.trascrizioneSeparazione.ricevutaDaPrivatoCittadino' (riga:168)
+* Aggiunto 'evento.trascrizioneSeparazione.tipoProcedimento' (riga:169)
+
+
+
 #Changelog mappatura casi uso 1.52.0  
 
 ## Casi uso aggiunti : 4

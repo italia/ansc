@@ -22,6 +22,26 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.52.1 - 18-06-2026]
+
+### Changed
+
+- [R024] aggiunto campo lingueAggiuntive allo schema DettaglioRichiestaEstrattoDTO, contenente l'Elenco delle lingue addizionali richieste dal cittadino (sara' possibile valorizzarlo solo per gli eventi formati in più lingue)
+
+### Fixed
+
+- [WA/SC] 347000 Trascrizione provvedimenti esteri in materia matrimoniale: corretto caso d'uso per divorzio non derivante da sentenza ma da Atto Pubblico, aggiunto discrimine tra sentenza e provvedimento <https://github.com/italia/ansc/issues/2993>
+- [WA/SC] 52155 Provvedimenti amministrativi di competenza dell'autorita' consolare di riconoscimento della cittadinanza italiana jure sanguinis: modificata descrizione caso d'uso
+- [SC] corretto errore validazione per caso d'uso CITT_014 <https://github.com/italia/ansc/issues/3491>
+- [WA] Corretto errore firma <https://github.com/italia/ansc/issues/3016>
+- [WA] Aggiornata navigazione menù Unioni Civili/Trascrizioni/atri Casi 
+- [WA] Aggiornato caso d'uso 461000 per gestire anche la sostituizione del cognome comune oltre alla aggiunta cognome
+- [decodifiche] Aggiornata descrizione caso d'uso 5.2.1.5.5 (Citt_050) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE 
+- [decodifiche] Aggiornata decodifica DEC_POSIZIONE_COGNOME_COMUNE (ANSC_176) con nuovo valore
+- [SC] aggiunto servizio stampa relativo ai documenti derivanti dalle strtture sanitarie (DMNM)
+- [WA] Corretto rilascio certificazioni Errore 500 <https://github.com/italia/ansc/issues/3071>
+- [WA] Certificato internazionale restituisce "Richiesta fallita error 500 <https://github.com/italia/ansc/issues/3019>
+
 ## [1.52.0 - 04-06-2026]
 
 ### Added

@@ -94,6 +94,47 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/DettaglioDmnmDocumentoResponse'
+  /dmnm/documento/stampa/{version}:
+    post:
+      tags:
+      - anteprima documento DMNM service
+      summary: stampa documento dmnm
+      operationId: stampaDocumento
+      description: Anteprima di doc ricevuto da TS
+      parameters:
+      - name: version
+        in: path
+        description: La versione del servizio invocato
+        required: true
+        schema:
+          type: string
+      requestBody:
+        description: parametri per documento da presentare
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StampaDmnmDocumentoRequest'
+        required: true
+      responses:
+        "200":
+          description: ""
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StampaDmnmDocumentoResponse'
+        "400":
+          description: ""
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StampaDmnmDocumentoResponse'
+        "403":
+          description: Non autorizzato
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StampaDmnmDocumentoResponse'
+
 components:
   schemas:
     Anagrafica:
@@ -1161,6 +1202,73 @@ components:
             $ref: '#/components/schemas/Cittadinanza'
         firmaRecapitiUfficialeStatoCivile:
           $ref: '#/components/schemas/FirmaRecapitiUfficialeStatoCivile'
+
+    StampaDmnmDocumentoNascita:
+      type: object
+      properties:
+        ordineNascita:
+          format: int32
+          type: integer
+    StampaDmnmDocumentoRequest:
+      description: Richiesta stampa documento DMNM
+      type: object
+      properties:
+        testataRichiesta:
+          $ref: '#/components/schemas/TestataRichiesta'
+        datiPaginazione:
+          $ref: '#/components/schemas/DatiPaginazione'
+        id:
+          description: Id del documento
+          type: number
+          example: 1
+        codLingua:
+          description: "Per i comuni multilingua, parametro opzionale default IT"
+          type: string
+          example: IT
+        idTipoDocumento:
+          format: int32
+          description: Id del tipo documento
+          type: integer
+          example: 1
+        documentoNascita:
+          description: "Struttura per gestire la richiesta di stampa, attestato di\
+            \ nascita o dichiarazione di nascita, di un bambino specifico in caso\
+            \ di parto semplice o plurimo"
+          type: object
+          allOf:
+          - $ref: '#/components/schemas/StampaDmnmDocumentoNascita'
+    StampaDmnmDocumentoResponse:
+      description: Dati dell'evento restituito dal servizio
+      type: object
+      properties:
+        testataRisposta:
+          $ref: '#/components/schemas/TestataRisposta'
+        datiPaginazione:
+          $ref: '#/components/schemas/DatiPaginazione'
+        errors:
+          type: array
+          items:
+            $ref: '#/components/schemas/ServiceMessage'
+        success:
+          type: array
+          items:
+            $ref: '#/components/schemas/ServiceMessage'
+        infos:
+          type: array
+          items:
+            $ref: '#/components/schemas/ServiceMessage'
+        warnings:
+          type: array
+          items:
+            $ref: '#/components/schemas/ServiceMessage'
+        contenuto:
+          description: Il file in formato base64
+          type: string
+          example: QU5TQw==
+        nomeFile:
+          description: Nome del file
+          type: string
+          example: nome_del_file.pdf          
     TestataRichiesta:
       type: object
       properties:

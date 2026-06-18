@@ -537,6 +537,14 @@ components:
           $ref: "#/components/schemas/RichiedenteEstrattoDTO"
           type: object
           description: Dati del richiedente (presente solo se diverso dall'intestatario)
+        lingueAggiuntive:
+          type: array
+          items:
+            type: string
+          description: Elenco delle lingue addizionali richieste dal cittadino (solo
+            per eventi multilingue)
+          examples:
+            - - DE
     DettaglioRichiestaRequest:
       type: object
       required:
