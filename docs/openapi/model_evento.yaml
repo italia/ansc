@@ -208,6 +208,15 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/ModelSoggetto'
+        attiCollegati:
+          description: Atti collegati attualmente utilizzati per inserire gli atti di nascita nel caso d'uso 1.3.3.3 (Trascr_032) Trascrizione decreto prefettizio cambio cognome multi intestatari. L'array 'attiCollegati' deve avere la stessa cardinalità dell'array 'intestatari' ( in mancanza di dati inserire l'atto collegato con i campi vuoti). Inoltre, deve essere rispettata la corrispondenza 1 a 1 con gli intestatari (all'intestatario i-esimo deve corrispondere l'atto collegato i-esimo)
+          type: array
+          items:
+            $ref: '#/components/schemas/ModelAttoCollegato'
+        flagScartoDigitale:
+          type: number
+          description: Indica se l'atto di morte e' scartato digitalmente dopo 10 anni (1 scartato digitalmente - 0 NON scartato digitalmente) (campo gestito dal sistema). Il valore di default e' 0
+          example: 1
         variazioni:
           description: -- DEPRECATO -- lista delle variazioni effettuate sull'atto.
           type: array
@@ -318,6 +327,10 @@ components:
           type: string
           description: Composizione completa dell'atto
           example: "L'anno 2020 addì 8 del mese di 1 alle ore 12 e minuti 1 nel(1) la Casa Comunale avanti a me CESENA ANSC Ufficiale dello Stato Civile del Comune di CESENA (2) Per delega avuta\ne' comparsa cognomeMadre nomeMadre nata in ROMA lì 1977-11-12 (3) residente in ROCCA CANTERANO\n"
+        rettificaAnnotazioneComposizioneCompleta:
+          type: string
+          description: testo relativo ad art.98 rettifica annotazione, usato in annotazione rettifica R017 
+          example: "Ai sensi dell'art. 98, c. 1 del D.P.R. n. 396/2000 dove scritta X da interdersi Y "
         flagAnnotazioneNonCertificabile:
           type: boolean
           description: Indica se l'annotazione è certificabile o meno (true=NON CERTIFICABILE, false=CERTIFICABILE)
@@ -517,6 +530,10 @@ components:
           type: string
           description: valid per adozione indica se si tratta di coppia omogenitoriale(true=si, false = no)
           example: "true"
+        idAnscSoggetto:
+          type: string
+          description: Identificativo ANSC dell'intestatario corrispondente all'atto collegato.
+          example: ''
     ModelDatiAnnotazioneSentenza:
       properties:
         attoNascitaSposo:
@@ -2788,6 +2805,14 @@ components:
           type: string
           description: Officiante (decodifica ANSC_46)
           example: '01'
+        idFormatoDataEvento:
+          type: string
+          description: identifica il formato della data evento.
+          example: '1'
+        formatoDataEvento:
+          type: string
+          description: valore esplicito acceduto tramite decodifica del formato data evento.
+          example: 'Completa'
         officianteEvento: # Chi ha officiato unione civile
           $ref: '#/components/schemas/ModelSoggetto'
         cognomeOfficiante:
@@ -3090,6 +3115,14 @@ components:
           format: date
           description: Data celebrazione del matrimonio
           example: '2022-07-02'
+        idFormatoDataEventoMatrimonio:
+          type: string
+          description: identifica il formato della data evento.
+          example: '1'
+        formatoDataEventoMatrimonio:
+          type: string
+          description: valore esplicito acceduto tramite decodifica del formato data evento.
+          example: 'Completa'
     ModelAssistenzaMinori:
       #DEPRECATO da rimuovere il modello#
       properties:
@@ -3166,6 +3199,14 @@ components:
           format: date
           description: Data nella quale viene effettuato il matrimonio
           example: '2002-07-02'
+        idFormatoDataEventoMatrimonio:
+          type: string
+          description: identifica il formato della data evento.
+          example: '1'
+        formatoDataEventoMatrimonio:
+          type: string
+          description: valore esplicito acceduto tramite decodifica del formato data evento.
+          example: 'Completa'
         tipoProvvedimentoSeparazione:
           type: string
           description: Provvedimento di separazione (decodifica ANSC_104. Valori ammessi per Matr_Riconc_001 [1,2,3])

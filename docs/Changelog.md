@@ -22,6 +22,74 @@ NOTE:
 
 ## [Unreleased]
 
+
+## [1.53.0 - 30-06-2026]
+
+### Changed
+
+- [R024] aggiunto campo lingueAggiuntive allo schema DettaglioRichiestaEstrattoDTO, contenente l'Elenco delle lingue addizionali richieste dal cittadino (sara' possibile valorizzarlo solo per gli eventi formati in più lingue)
+
+### Added
+
+- [versione] Aggiunta versione 100034
+- [feature]	[SC/WA] ID 327 Gestione annotazione di correzione per errore materiale (art.98) riferita ad altra annotazione
+- [feature]	[WA] ID 303 Recupero dal sistema di conservazione degli atti di morte
+- [feature]	[SC/WA] ID 347 Trascrizione del decreto prefettizio di cambio cognome/nome multi intestatario
+- [feature]	[SC/WA] ID 343 Trascrizione matrimonio dall'estero: gestione data di celebrazione parziale
+- Gestione anagrafiche differenti afferenti allo stesso soggetto: impatti su rettifica soggetto intestatari di più atti / riconciliazione anagrafiche differenti / notifiche
+- [WA/SC] servizio di annullamento riconciliazione soggetti
+
+### model_evento.yaml
+- Aggiunta proprietà "attiCollegati" array di ModelAttoCollegato (ID 347): Atti collegati attualmente utilizzati per inserire gli atti di nascita nel caso d'uso 1.3.3.3 (Trascr_032) Trascrizione decreto prefettizio cambio cognome multi intestatari. L'array 'attiCollegati' deve avere la stessa cardinalità dell'array 'intestatari' ( in mancanza di dati inserire l'atto collegato con i campi vuoti). Inoltre, deve essere rispettata la corrispondenza 1 a 1 con gli intestatari (all'intestatario i-esimo deve corrispondere l'atto collegato i-esimo)
+- Aggiunta proprietà "idAnscSoggetto" di tipo string in ModelAttoCollegato (ID 347): Identificativo ANSC dell'intestatario corrispondente all'atto collegato.
+- Aggiunta proprietà "flagScartoDigitale" di tipo number (ID 303): Indica se l'atto di morte è scartato digitalmente dopo 10 anni (1 scartato digitalmente - 0 NON scartato digitalmente) (campo gestito dal sistema). Il valore di default è 0
+- Aggiunta proprietà "idFormatoDataEvento" di tipo String in ModelMatrimonio (ID 343).
+- Aggiunta proprietà "formatoDataEvento" di tipo String in ModelMatrimonio (ID 343).
+- Aggiunta proprietà "idFormatoDataEventoMatrimonio" di tipo String in ModelRiconciliazione (ID 343).
+- Aggiunta proprietà "formatoDataEventoMatrimonio" di tipo String in ModelRiconciliazione (ID 343).
+- Aggiunta proprietà "idFormatoDataEventoMatrimonio" di tipo String in ModelSeparazione (ID 343).
+- Aggiunta proprietà "formatoDataEventoMatrimonio" di tipo String in ModelSeparazione (ID 343).
+- Aggiunta proprietà "annotazioneRettificaComposizioneCompleta" di tipo String in ModelEventoDTO (ID 327) presente in annotazione-rettifica (R017).
+
+- [R005_consultazione_ansc.yaml]
+  - Modificati i servizi per gestire il nuovo campo "flagScartoDigitale" (ID 303):
+    -/consultazione/ansc/evento/1
+    -/consultazione/ansc/evento/sintetico/1
+    -/consultazione/ansc/soggetto/1
+    -/consultazione/ansc/soggetto/sintetico/1
+  
+- [R002_certificazione.yaml]
+  - Modificati i servizi per gestire il nuovo campo "flagScartoDigitale" (ID 303):
+    -/certificato/1
+    -/certificato-internazionale/preview/1
+    -/certificato-internazionale/create/1
+  
+- [R010_anteprima.yaml]
+  - Modificato il servizio per gestire il nuovo campo "flagScartoDigitale" (ID 303):
+    -/anteprima/evento/1
+
+### Changed
+
+- [WA/SC] Annotazione per adozione maggiorenni e casi particolari: Estendere il caso d'uso [1.4.9.7.0.0.0.0] 'Annotazione per adozione di maggiorenne o casi particolari multi intestatario' in modo che possa essere utilizzato anche in caso di un solo intestatario
+- [WA/SC] aggiornato servizio correzione annotazione in accordo ad art.98 (id327)
+- [WA/SC] aggiornato generazione annotazione automatica a seguito di rettifica in accordo art.98. (id327)
+- [WA/SC] gestione modifica soggetto intestatario in nota tecnica con duplicazione e riconciliazione automatica
+
+### Fixed
+
+- [WA/SC] Corretta anamalia su annotazione di adozione di maggiorenne su atto di nascita <https://github.com/italia/ansc/issues/2973>
+- [WA/SC] Annotazione contestuale - Certificato internazionale <https://github.com/italia/ansc/issues/3397>
+- [WA/SC] Corretto certificato internazionale per comprendere l'intero nome  del soggetto <https://github.com/italia/ansc/issues/3541>
+- [SC] Mancata generazione notifica per manifestazione volontà di scioglimento unione civile <https://github.com/italia/ansc/issues/3297>
+- [SC] Corretto errore validazione caso UC CITT_014 <https://github.com/italia/ansc/issues/3491>
+- [WA] Corretto caso d'uso 1.3.6.1 - Trascrizione/formazione atto di nascita (su autorizzazione del tribunale) <https://github.com/italia/ansc/issues/3429>
+- [WA] Corretto flusso di gestione di annotazione automatica di Atto Annullato  <https://github.com/italia/ansc/issues/3493>
+- [WA] Corretto errore 500 in Accettazione notifica <https://github.com/italia/ansc/issues/3542>
+- [SC] Notifica con siglaProvinciaRegistrazione non conforme <https://github.com/italia/ansc/issues/3540>
+- [SC] Corretto errore 500 approvazione annotazione automatica <https://github.com/italia/ansc/issues/3536>
+- [WA] Corretto errore 500 servizio disassocia annotazione <https://github.com/italia/ansc/issues/3142>
+
+
 ## [1.52.1 - 18-06-2026]
 
 ### Changed

@@ -7,6 +7,8 @@
 "Formazione atto","Data formazione","SI","evento","dataformazione","","obbligatoria"
 "Formazione atto","Ora formazione","SI","evento","ora","","obbligatoria"
 "Formazione atto","Minuti formazione","SI","evento","minuto","","obbligatoria"
+"Dati generali","Formato Data Evento Matrimonio","NO","evento.separazione","idFormatoDataEventoMatrimonio","","obbligatoria"
+"Dati generali","Formato Data Evento Matrimonio - Descrizione","NO","evento.separazione","formatoDataEventoMatrimonio","","obbligatoria"
 "Dati generali","Data Evento Matrimonio","SI","evento.separazione","dataEventoMatrimonio","","obbligatoria"
 "Dati generali","Stato","SI","evento.separazione.luogoEventoMatrimonio","idStato","","obbligatoria"
 "Dati generali","Stato descrizione","NO","evento.separazione.luogoEventoMatrimonio","nomeStato","121-septies","obbligatoria"

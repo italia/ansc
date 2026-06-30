@@ -1,3 +1,94 @@
+#Changelog mappatura casi uso 1.53.0  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 12
+* matrimoni/Matr_Riconc_001.csv
+* matrimoni/Sep_Div_001.csv
+* matrimoni/Sep_Div_002.csv
+* matrimoni/Sep_Div_004.csv
+* trascrizioni/Trascr_001.csv
+* trascrizioni/Trascr_032.csv
+* trascrizioni/Trascr_Matr_001.csv
+* trascrizioni/Trascr_Matr_002.csv
+* trascrizioni/Trascr_Matr_003.csv
+* trascrizioni/Trascr_Matr_004.csv
+* trascrizioni/Trascr_Matr_005.csv
+* trascrizioni/Trascr_Matr_006.csv
+
+### Modifiche per il caso uso matrimoni/Matr_Riconc_001.csv : 
+* Aggiunto 'evento.riconciliazione.idFormatoDataEventoMatrimonio' (riga:18)
+* Aggiunto 'evento.riconciliazione.formatoDataEventoMatrimonio' (riga:19)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_001.csv : 
+* Aggiunto 'evento.separazione.idFormatoDataEventoMatrimonio' (riga:12)
+* Aggiunto 'evento.separazione.formatoDataEventoMatrimonio' (riga:13)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_002.csv : 
+* Aggiunto 'evento.separazione.idFormatoDataEventoMatrimonio' (riga:12)
+* Aggiunto 'evento.separazione.formatoDataEventoMatrimonio' (riga:13)
+
+### Modifiche per il caso uso matrimoni/Sep_Div_004.csv : 
+* Aggiunto 'evento.separazione.idFormatoDataEventoMatrimonio' (riga:10)
+* Aggiunto 'evento.separazione.formatoDataEventoMatrimonio' (riga:11)
+
+### Modifiche per il caso uso trascrizioni/Trascr_001.csv : 
+* Aggiunto 'evento.intestatari[0].localitaEsteraNascita' (riga:96)
+
+### Modifiche per il caso uso trascrizioni/Trascr_032.csv : 
+* Aggiunto 'evento.attiCollegati[0].idAnsc' (riga:45)
+* Aggiunto 'evento.attiCollegati[0].idProvinciaRegistrazione' (riga:46)
+* Aggiunto 'evento.attiCollegati[0].siglaProvinciaRegistrazione' (riga:47)
+* Aggiunto 'evento.attiCollegati[0].idComuneRegistrazione' (riga:48)
+* Aggiunto 'evento.attiCollegati[0].nomeComuneRegistrazione' (riga:49)
+* Aggiunto 'evento.attiCollegati[0].idtipocontenuto' (riga:50)
+* Aggiunto 'evento.attiCollegati[0].numeroatto' (riga:51)
+* Aggiunto 'evento.attiCollegati[0].annoAtto' (riga:52)
+* Aggiunto 'evento.attiCollegati[0].dataformazione' (riga:53)
+* Aggiunto 'evento.attiCollegati[0].parte' (riga:54)
+* Aggiunto 'evento.attiCollegati[0].serie' (riga:55)
+* Aggiunto 'evento.attiCollegati[0].volume' (riga:56)
+* Aggiunto 'evento.attiCollegati[0].tipologia' (riga:57)
+* Aggiunto 'evento.attiCollegati[0].idAnscSoggetto' (riga:58)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.dataTrascrizione' (riga:59)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.estremiDocumento' (riga:60)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.nomeEnte' (riga:61)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.nazioneEnte' (riga:62)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.nomeNazioneEnte' (riga:63)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.idProvinciaEnte' (riga:64)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.siglaProvinciaEnte' (riga:65)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.idComuneEnte' (riga:66)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.nomeComuneEnte' (riga:67)
+* Aggiunto 'evento.trascrizioneNascita.atto.enteEstero.comuneEstero' (riga:68)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_001.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.idFormatoDataEvento' (riga:18)
+* Aggiunto 'evento.datiEventoMatrimonio.formatoDataEvento' (riga:19)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_002.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.idFormatoDataEvento' (riga:17)
+* Aggiunto 'evento.datiEventoMatrimonio.formatoDataEvento' (riga:18)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_003.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.idFormatoDataEvento' (riga:18)
+* Aggiunto 'evento.datiEventoMatrimonio.formatoDataEvento' (riga:19)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_004.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.idFormatoDataEvento' (riga:17)
+* Aggiunto 'evento.datiEventoMatrimonio.formatoDataEvento' (riga:18)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_005.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.idFormatoDataEvento' (riga:11)
+* Aggiunto 'evento.datiEventoMatrimonio.formatoDataEvento' (riga:12)
+
+### Modifiche per il caso uso trascrizioni/Trascr_Matr_006.csv : 
+* Aggiunto 'evento.datiEventoMatrimonio.idFormatoDataEvento' (riga:18)
+* Aggiunto 'evento.datiEventoMatrimonio.formatoDataEvento' (riga:19)
+
+
+
 #Changelog mappatura casi uso 1.52.1
 
 ## Casi uso aggiunti : 0

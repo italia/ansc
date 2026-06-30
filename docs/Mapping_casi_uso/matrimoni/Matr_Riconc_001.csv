@@ -15,6 +15,8 @@
 "Formazione atto","Data formazione","SI","evento","dataformazione","","obbligatoria"
 "Formazione atto","Ora formazione","SI","evento","ora","","obbligatoria"
 "Formazione atto","Minuti formazione","SI","evento","minuto","","obbligatoria"
+"Luogo celebrazione","Formato Data Evento Matrimonio","NO","evento.riconciliazione","idFormatoDataEventoMatrimonio","","obbligatoria"
+"Luogo celebrazione","Formato Data Evento Matrimonio - Descrizione","NO","evento.riconciliazione","formatoDataEventoMatrimonio","","obbligatoria"
 "Luogo celebrazione","Data celebrazione","SI","evento.riconciliazione","dataEventoMatrimonio","","obbligatoria"
 "Luogo celebrazione","Stato","SI","evento.riconciliazione.luogoEventoMatrimonio","idStato","","obbligatoria"
 "Luogo celebrazione","Stato descrizione","NO","evento.riconciliazione.luogoEventoMatrimonio","nomeStato","121-bis","obbligatoria"
