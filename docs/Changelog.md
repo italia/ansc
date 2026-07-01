@@ -28,6 +28,7 @@ NOTE:
 ### Changed
 
 - [R024] aggiunto campo lingueAggiuntive allo schema DettaglioRichiestaEstrattoDTO, contenente l'Elenco delle lingue addizionali richieste dal cittadino (sara' possibile valorizzarlo solo per gli eventi formati in più lingue)
+- [R024] la operazione di /elenco restituisce un http status 200 invece di 404 in caso di ricerche che non producono risultati. <https://github.com/italia/ansc/issues/3379>
 
 ### Added
 
