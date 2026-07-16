@@ -1,3 +1,90 @@
+#Changelog mappatura casi uso 1.53.1  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 2
+* cittadinanza/Citt_050.csv
+* nascita/Dic_Nasc_998_4.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_050.csv : 
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.idProvinciaEnte' (riga:116)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.siglaProvinciaEnte' (riga:117)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.idComuneEnte' (riga:118)
+* Aggiunto 'evento.trascrizioneCittadinanza.atto.enteEstero.nomeComuneEnte' (riga:119)
+* Presenti modifiche per 'evento.trascrizioneCittadinanza.atto.enteEstero.idAnagraficaConsolato' (riga:121)
+* Presenti modifiche per 'evento.trascrizioneCittadinanza.atto.enteEstero.nomeAnagraficaConsolato' (riga:122)
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_4.csv : 
+* Aggiunto 'evento.madre.cognome' (riga:64)
+* Aggiunto 'evento.madre.nome' (riga:65)
+* Aggiunto 'evento.madre.idANPR' (riga:66)
+* Aggiunto 'evento.madre.sesso' (riga:67)
+* Aggiunto 'evento.madre.idFormatodata' (riga:68)
+* Aggiunto 'evento.madre.formatodata' (riga:69)
+* Aggiunto 'evento.madre.dataNascita' (riga:70)
+* Aggiunto 'evento.madre.idStatoNascita' (riga:71)
+* Aggiunto 'evento.madre.nomeStatoNascita' (riga:72)
+* Aggiunto 'evento.madre.idProvinciaNascita' (riga:73)
+* Aggiunto 'evento.madre.siglaProvinciaNascita' (riga:74)
+* Aggiunto 'evento.madre.idComuneNascita' (riga:75)
+* Aggiunto 'evento.madre.nomeComuneNascita' (riga:76)
+* Aggiunto 'evento.madre.localitaEsteraNascita' (riga:77)
+* Aggiunto 'evento.madre.idNazionalita' (riga:78)
+* Aggiunto 'evento.madre.nazionalita' (riga:79)
+* Aggiunto 'evento.madre.tipoImpedimento' (riga:80)
+* Aggiunto 'evento.madre.flagIrreperibile' (riga:81)
+* Aggiunto 'evento.madre.idStatoResidenza' (riga:82)
+* Aggiunto 'evento.madre.nomeStatoResidenza' (riga:83)
+* Aggiunto 'evento.madre.idProvinciaResidenza' (riga:84)
+* Aggiunto 'evento.madre.siglaProvinciaResidenza' (riga:85)
+* Aggiunto 'evento.madre.idComuneResidenza' (riga:86)
+* Aggiunto 'evento.madre.nomeComuneResidenza' (riga:87)
+* Aggiunto 'evento.madre.indirizzoResidenza' (riga:88)
+* Aggiunto 'evento.madre.flagDichiarante' (riga:89)
+* Aggiunto 'evento.madre.flagComparente' (riga:90)
+* Aggiunto 'evento.madre.flagFirmatario' (riga:91)
+* Aggiunto 'evento.madre.idProvinciaAIRE' (riga:92)
+* Aggiunto 'evento.madre.siglaProvinciaAIRE' (riga:93)
+* Aggiunto 'evento.madre.idComuneAIRE' (riga:94)
+* Aggiunto 'evento.madre.nomeComuneAIRE' (riga:95)
+* Aggiunto 'evento.madre.flagTrasmissioneResidenzaEstera' (riga:96)
+* Aggiunto 'evento.padre.cognome' (riga:97)
+* Aggiunto 'evento.padre.nome' (riga:98)
+* Aggiunto 'evento.padre.idANPR' (riga:99)
+* Aggiunto 'evento.padre.sesso' (riga:100)
+* Aggiunto 'evento.padre.idFormatodata' (riga:101)
+* Aggiunto 'evento.padre.formatodata' (riga:102)
+* Aggiunto 'evento.padre.dataNascita' (riga:103)
+* Aggiunto 'evento.padre.idStatoNascita' (riga:104)
+* Aggiunto 'evento.padre.nomeStatoNascita' (riga:105)
+* Aggiunto 'evento.padre.idProvinciaNascita' (riga:106)
+* Aggiunto 'evento.padre.siglaProvinciaNascita' (riga:107)
+* Aggiunto 'evento.padre.idComuneNascita' (riga:108)
+* Aggiunto 'evento.padre.nomeComuneNascita' (riga:109)
+* Aggiunto 'evento.padre.localitaEsteraNascita' (riga:110)
+* Aggiunto 'evento.padre.idNazionalita' (riga:111)
+* Aggiunto 'evento.padre.nazionalita' (riga:112)
+* Aggiunto 'evento.padre.tipoImpedimento' (riga:113)
+* Aggiunto 'evento.padre.flagIrreperibile' (riga:114)
+* Aggiunto 'evento.padre.idStatoResidenza' (riga:115)
+* Aggiunto 'evento.padre.nomeStatoResidenza' (riga:116)
+* Aggiunto 'evento.padre.idProvinciaResidenza' (riga:117)
+* Aggiunto 'evento.padre.siglaProvinciaResidenza' (riga:118)
+* Aggiunto 'evento.padre.idComuneResidenza' (riga:119)
+* Aggiunto 'evento.padre.nomeComuneResidenza' (riga:120)
+* Aggiunto 'evento.padre.indirizzoResidenza' (riga:121)
+* Aggiunto 'evento.padre.flagDichiarante' (riga:122)
+* Aggiunto 'evento.padre.flagComparente' (riga:123)
+* Aggiunto 'evento.padre.flagFirmatario' (riga:124)
+* Aggiunto 'evento.padre.idProvinciaAIRE' (riga:125)
+* Aggiunto 'evento.padre.siglaProvinciaAIRE' (riga:126)
+* Aggiunto 'evento.padre.idComuneAIRE' (riga:127)
+* Aggiunto 'evento.padre.nomeComuneAIRE' (riga:128)
+* Aggiunto 'evento.padre.flagTrasmissioneResidenzaEstera' (riga:129)
+
+
 #Changelog mappatura casi uso 1.53.0  
 
 ## Casi uso aggiunti : 0

@@ -1101,6 +1101,10 @@ components:
           type: string
           description: Nel caso esista l'assegno di mantenimento o divorzile
           example: "di concordare l'assegno di mantenimento/divorzile di xxxx €"
+        officianteEventoUnioneCivile:
+          type: string
+          description: Officiante che ha celebrato l'unione civile.
+          example: 'Gianni Rossi Sindaco'
         modificaAccordo:
           type: string
           description: Testo libero per modifica accordo (formula 121-septies.1)

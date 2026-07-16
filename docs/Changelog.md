@@ -22,6 +22,33 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.53.1 - 16-07-2026]
+
+### Changed
+
+- [decodifiche] Aggiornata descrizione caso d'uso 5.1.1.1.2 (Citt_052) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [decodifiche] Aggiornata descrizione caso d'uso 5.2.1.5.6 (Citt_053) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
+- [R024] Estensione da 7 a 14 giorni dell'intervallo massimo di ricerca delle richieste cittadino da web app.
+
+### Fixed
+
+- [1.3.4.2] Trascrizione della sentenza di adozione di minore in casi particolari emessa dal tribunale dei minori: reso controllo sull'età non bloccante
+- Corretti problemi visualizzazione anteprima dell'atto
+- [1.4.9.5.0.0.0.0] Annotazione per adozione internazionale di minore: in caso di atto cartaceo consentito inserimento dei genitori
+- [1.3.5.2] Trascrizione del provvedimento straniero di adozione di minore riconosciuto valido dal tribunale dei minori (convenzione aja 29.5.1993):controllo sulla maggiore età effettuato rispetto alla data formazione del documento
+- [5.2.1.5.6] Esito di accertamento per articolo 4 comma 1-bis: modificata descrizione del caso d'uso
+- [SC]: Corretto problema con officianteEventoUnioneCivile in multilinguismo <https://github.com/italia/ansc/issues/3590>
+- [5.1.1.1.2] Dichiarazione di volonta' d'acquisto della cittadinanza italiana di minore art.1-ter legge n.74/2025 (transitoria): aumentati i termini fino al 31/05/2029 <https://github.com/italia/ansc/issues/3647>
+- [SC]: Corretto errore per comune inserito non valido <https://github.com/italia/ansc/issues/3627>
+- [5.2.1.5.5] Riconoscimento di cittadinanza jure sanguinis per decreto di autorita' giudiziaria: estesa la sezione autorità mittente per selezionare anche stato Italia <https://github.com/italia/ansc/issues/3610>
+- [WA] scelta regime patrimoniale: resa editabile la sezione <https://github.com/italia/ansc/issues/3621> 
+- [WA] Nota tecnica: gestione annotazioni contestuali limitatamente alla certificabilità
+- [WA] Corretta pagina di emissione del certificato internazionale  <https://github.com/italia/ansc/issues/3638>
+- [WA] Corretto errore 500 in provvedimento di rifiuto <https://github.com/italia/ansc/issues/3301>
+
+### model_evento.yaml
+- Aggiunta proprietà "officianteEventoUnioneCivile" di tipo String in ModelScioglimentoUnioneCivileML.
+
 
 ## [1.53.0 - 30-06-2026]
 
