@@ -28,7 +28,7 @@ NOTE:
 
 - [decodifiche] Aggiornata descrizione caso d'uso 5.1.1.1.2 (Citt_052) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
 - [decodifiche] Aggiornata descrizione caso d'uso 5.2.1.5.6 (Citt_053) ed aggiornata la decodifica ANSC_03 DEC_USE_CASE
-- [R024] Estensione da 7 a 14 giorni dell'intervallo massimo di ricerca delle richieste cittadino da web app.
+- [WA] Estensione da 7 a 14 giorni dell'intervallo massimo di ricerca delle richieste cittadino da web app.
 
 ### Fixed
 
