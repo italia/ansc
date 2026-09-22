@@ -1,3 +1,100 @@
+#Changelog mappatura casi uso 1.53.4  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 12
+* cittadinanza/Citt_998_1.csv
+* cittadinanza/Citt_998_2.csv
+* matrimoni/Matr_998_1.csv
+* matrimoni/Matr_998_2.csv
+* matrimoni/Matr_999_3.csv
+* morte/Morte_998_1.csv
+* morte/Morte_998_2.csv
+* nascita/Dic_Nasc_998_1.csv
+* nascita/Dic_Nasc_998_2.csv
+* trascrizioni/Trascr_023.csv
+* unioni_civili/UnCiv_998_1.csv
+* unioni_civili/UnCiv_998_2.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_998_1.csv : 
+* Rimosso 'evento.flagsecretato'
+
+### Modifiche per il caso uso cittadinanza/Citt_998_2.csv : 
+* Rimosso 'evento.flagsecretato'
+
+### Modifiche per il caso uso matrimoni/Matr_998_1.csv : 
+* Rimosso 'evento.flagsecretato'
+
+### Modifiche per il caso uso matrimoni/Matr_998_2.csv : 
+* Rimosso 'evento.flagsecretato'
+
+### Modifiche per il caso uso matrimoni/Matr_999_3.csv : 
+* Presenti modifiche per 'evento.intestatari[0].dataNascita' (riga:45)
+* Presenti modifiche per 'evento.intestatari[0].idStatoNascita' (riga:46)
+* Presenti modifiche per 'evento.intestatari[0].nomeStatoNascita' (riga:47)
+* Presenti modifiche per 'evento.intestatari[0].idNazionalita' (riga:53)
+* Presenti modifiche per 'evento.intestatari[0].nazionalita' (riga:54)
+* Aggiunto 'evento.intestatari[0].anni' (riga:67)
+* Aggiunto 'evento.intestatari[0].residenzaOriginaria' (riga:72)
+* Presenti modifiche per 'evento.intestatari[1].dataNascita' (riga:79)
+* Presenti modifiche per 'evento.intestatari[1].idStatoNascita' (riga:80)
+* Presenti modifiche per 'evento.intestatari[1].nomeStatoNascita' (riga:81)
+* Presenti modifiche per 'evento.intestatari[1].idNazionalita' (riga:87)
+* Presenti modifiche per 'evento.intestatari[1].nazionalita' (riga:88)
+* Aggiunto 'evento.intestatari[1].anni' (riga:101)
+* Aggiunto 'evento.intestatari[1].residenzaOriginaria' (riga:106)
+
+### Modifiche per il caso uso morte/Morte_998_1.csv : 
+* Rimosso 'evento.flagsecretato'
+
+### Modifiche per il caso uso morte/Morte_998_2.csv : 
+* Rimosso 'evento.flagsecretato'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_1.csv : 
+* Rimosso 'evento.flagsecretato'
+
+### Modifiche per il caso uso nascita/Dic_Nasc_998_2.csv : 
+* Rimosso 'evento.flagsecretato'
+
+### Modifiche per il caso uso trascrizioni/Trascr_023.csv : 
+* Aggiunto 'evento.interprete.cognome' (riga:170)
+* Aggiunto 'evento.interprete.nome' (riga:171)
+* Aggiunto 'evento.interprete.idANPR' (riga:172)
+* Aggiunto 'evento.interprete.sesso' (riga:173)
+* Aggiunto 'evento.interprete.idFormatodata' (riga:174)
+* Aggiunto 'evento.interprete.formatodata' (riga:175)
+* Aggiunto 'evento.interprete.dataNascita' (riga:176)
+* Aggiunto 'evento.interprete.idStatoNascita' (riga:177)
+* Aggiunto 'evento.interprete.nomeStatoNascita' (riga:178)
+* Aggiunto 'evento.interprete.idProvinciaNascita' (riga:179)
+* Aggiunto 'evento.interprete.siglaProvinciaNascita' (riga:180)
+* Aggiunto 'evento.interprete.idComuneNascita' (riga:181)
+* Aggiunto 'evento.interprete.nomeComuneNascita' (riga:182)
+* Aggiunto 'evento.interprete.localitaEsteraNascita' (riga:183)
+* Aggiunto 'evento.interprete.idNazionalita' (riga:184)
+* Aggiunto 'evento.interprete.nazionalita' (riga:185)
+* Aggiunto 'evento.interprete.tipoImpedimento' (riga:186)
+* Aggiunto 'evento.interprete.flagIrreperibile' (riga:187)
+* Aggiunto 'evento.interprete.idStatoResidenza' (riga:188)
+* Aggiunto 'evento.interprete.nomeStatoResidenza' (riga:189)
+* Aggiunto 'evento.interprete.idProvinciaResidenza' (riga:190)
+* Aggiunto 'evento.interprete.siglaProvinciaResidenza' (riga:191)
+* Aggiunto 'evento.interprete.idComuneResidenza' (riga:192)
+* Aggiunto 'evento.interprete.nomeComuneResidenza' (riga:193)
+* Aggiunto 'evento.interprete.indirizzoResidenza' (riga:194)
+* Aggiunto 'evento.interprete.flagDichiarante' (riga:195)
+* Aggiunto 'evento.interprete.flagComparente' (riga:196)
+* Aggiunto 'evento.interprete.flagFirmatario' (riga:197)
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_1.csv : 
+* Rimosso 'evento.flagsecretato'
+
+### Modifiche per il caso uso unioni_civili/UnCiv_998_2.csv : 
+* Rimosso 'evento.flagsecretato'
+
+
 #Changelog mappatura casi uso 1.53.3  
 
 ## Casi uso aggiunti : 0

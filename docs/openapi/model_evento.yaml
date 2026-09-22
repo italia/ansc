@@ -528,6 +528,7 @@ components:
           example: true
         flagOmogenitoriale:
           type: string
+          deprecated: true
           description: valid per adozione indica se si tratta di coppia omogenitoriale(true=si, false = no)
           example: "true"
         idAnscSoggetto:
@@ -688,7 +689,8 @@ components:
           description: Motivo perdita cittadinanza italiana
           example:  'Testo libero'
     ModelAscendenteML:
-      $ref: '#/components/schemas/ModelSoggettoML'
+      allOf:
+        - $ref: '#/components/schemas/ModelSoggettoML'
     ModelDatiEventoMorteML:
       properties:
         comparente1:
@@ -767,6 +769,7 @@ components:
           $ref: '#/components/schemas/ModelImpedimentoML'
         soggettoImpedimento:
           type: string
+          deprecated: true
           description: soggetto con impedimento
           example:  ''
         padreSposo:
@@ -823,7 +826,7 @@ components:
           $ref: '#/components/schemas/ModelSoggettoML'
         testimone4:
           $ref: '#/components/schemas/ModelSoggettoML'
-        segretarioComunaleML:
+        segretarioComunale:
           $ref: '#/components/schemas/ModelSoggettoML'
         provvedimentoRigettoOpposizione:
           $ref: '#/components/schemas/ModelEnteDichiaranteML'
@@ -864,10 +867,12 @@ components:
           $ref: '#/components/schemas/ModelImpedimentoML'
         appartenenzaCognomeComune:
           type: string
+          deprecated: true
           description: scelta del cognome comune tra gli uniti civilmente (dec ANSC_175)
           example:  '1'
         posizioneCognomeComune:
           type: string
+          deprecated: true
           description: modo di comporre il cognome comune  (dec ANSC_176)
           example:  '1'
     ModelRiconoscimentoML:
@@ -1235,9 +1240,6 @@ components:
           $ref: '#/components/schemas/ModelSoggettoML'
         entePubblico:
           $ref: '#/components/schemas/ModelEnteEsteroML'
-
-
-
     ModelSoggetto:
       properties:
         id:
@@ -1418,7 +1420,10 @@ components:
           format: date
           description: Data Di Validità (Utilizzato solo nel caso d'uso 52821 Trascrizione atti multipli cittadinanza. Per i soggetti privi di Data Validità sarà utilizzata, ai fini dell’invio in anagrafica, la Data Validità dell’evento, ove presente.)
           example: '2020-01-01'
-
+        idSoggetto:
+          type: string
+          description: identificativo dell'anagrafica del soggetto
+          example: '1234'
     ModelEnteDichiarante:
       properties:
         tipologiaTrascrizione:
@@ -1788,7 +1793,6 @@ components:
           format: date
           description: Data rinvenimento cadavere
           example: '2022-03-31'
-
     ModelVariazioni:
       #DEPRECATO da rimuovere il modello#
       properties:
@@ -2169,7 +2173,7 @@ components:
           example: 'Ukraina'
         altraCittadinanzaRiacquistata:
           type: boolean
-          description: Altra Cittadinanza Riacuistata
+          description: Altra Cittadinanza Riacquistata
           example: true
         tipoImpiego:
           type: string
@@ -2317,7 +2321,6 @@ components:
           format: date
           description: Data perdita cittadinanza
           example: '2022-06-24'
-
     ModelTrascrizioneCittadinanza:
       allOf:
         - $ref: '#/components/schemas/ModelTrascrizione'
@@ -2387,7 +2390,10 @@ components:
               example: "1"
             intestatarioVecchieGeneralita: # Vecchie generalità dell'intestatario
               $ref: '#/components/schemas/ModelSoggetto'
-
+            altraCittadinanzaRiacquistata:
+              type: boolean
+              description: Altra Cittadinanza Riacquistata
+              example: true
     ModelTrascrizioneMorte:
       allOf:
         - $ref: '#/components/schemas/ModelTrascrizione'
@@ -2412,6 +2418,8 @@ components:
               $ref: '#/components/schemas/ModelAttoCollegato'
             attoUnioneCivile:
               $ref: '#/components/schemas/ModelAttoCollegato'
+            sentenzaMortePresunta:
+              $ref: '#/components/schemas/ModelEnteDichiarante'
 
     ModelTrascrizioneMatrimonio:
       allOf:
@@ -2798,6 +2806,14 @@ components:
           $ref: '#/components/schemas/ModelEnteEstero'
         attoEstero: # Atto estero
           $ref: '#/components/schemas/ModelEnteEstero'
+        idFormatoDataEvento:
+          type: string
+          description: identifica il formato della data evento.
+          example: '1'
+        formatoDataEvento:
+          type: string
+          description: valore esplicito acceduto tramite decodifica del formato data evento.
+          example: 'Completa'
     ModelUnioneCivile:
       properties:
         luogoCelebrazione:
@@ -2821,10 +2837,12 @@ components:
           example: '01'
         idFormatoDataEvento:
           type: string
+          deprecated: true
           description: identifica il formato della data evento.
           example: '1'
         formatoDataEvento:
           type: string
+          deprecated: true
           description: valore esplicito acceduto tramite decodifica del formato data evento.
           example: 'Completa'
         officianteEvento: # Chi ha officiato unione civile
@@ -2970,6 +2988,14 @@ components:
           example: "0"
         soggettoImpedimentoGenerico: # Eventuale motivo di impedimento
           $ref: '#/components/schemas/ModelImpedimento'
+        appartenenzaCognomeComune:
+          type: string
+          description: scelta del cognome comune tra gli uniti civilmente (dec ANSC_175)
+          example: '1'
+        posizioneCognomeComune:
+          type: string
+          description: modo di comporre il cognome comune  (dec ANSC_176)
+          example: '1'
     ModelCertificatoUnioneCivile:
       properties:
         idProvinciaCertificatoCostituzione:
@@ -3150,6 +3176,10 @@ components:
           items:
             $ref: '#/components/schemas/ModelSoggetto'
         procura: # Provvedimento di nomina del tutore/procuratore speciale
+          allOf:
+            - $ref: '#/components/schemas/ModelEnteDichiarante'
+          deprecated: true
+        nominaAssistenteLegale:
           $ref: '#/components/schemas/ModelEnteDichiarante'
     ModelSeparazione:
       properties:
@@ -3565,7 +3595,6 @@ components:
           $ref: '#/components/schemas/ModelDatiDichiaranteML'
         datiDiNascita:
           $ref: '#/components/schemas/ModelDatiDiNascitaML'
-
         datiDiMorte:
           $ref: '#/components/schemas/ModelDatiDiMorteML'
         datiRinvenuto:
@@ -3634,7 +3663,13 @@ components:
             $ref: '#/components/schemas/ModelDatiAnnotazioneML'
         datiRifiuto:
           $ref: '#/components/schemas/ModelRifiutoML'
-
+        attiCollegati:
+          description: Atti collegati attualmente utilizzati per inserire gli atti di nascita nel caso d'uso 1.3.3.3 (Trascr_032) Trascrizione decreto prefettizio cambio cognome multi intestatari. L'array 'attiCollegati' deve avere la stessa cardinalità dell'array 'intestatari' ( in mancanza di dati inserire l'atto collegato con i campi vuoti). Inoltre, deve essere rispettata la corrispondenza 1 a 1 con gli intestatari (all'intestatario i-esimo deve corrispondere l'atto collegato i-esimo)
+          type: array
+          items:
+            $ref: '#/components/schemas/ModelAttoCollegatoML'
+        datiAdozioneMinoriInternazionale:
+          $ref: '#/components/schemas/ModelAdozioneMinoriInternazionaleML'
     ModelAnnotazioneModificativa:
       description: Model annotazione modificativa rettifica per figlio a seguito cambio generalita genitori
       properties:
@@ -3733,16 +3768,20 @@ components:
           example: '1'
     ModelAdozioneMultiIntestatario:
       description: Model annotazione modificativa rettifica per figlio a seguito cambio generalita genitori
+      allOf:
+        - $ref: '#/components/schemas/ModelAdozioneMinoriInternazionale'
+        - type: object
       properties:
-        attoNascita:
-          $ref: '#/components/schemas/ModelAttoCollegato'
-        attoAdozione:
-          $ref: '#/components/schemas/ModelAttoCollegato'
-        tipologia:
-          type: string
-          description: Tipo dati adozione (ANSC_108)
-          example: '1'
         formula:
           type: string
           description: Tipo formula (ANSC_119 per i casi d'uso secretati e ANSC_120 per i casi d'uso non secretati)
           example: '1'
+    ModelAdozioneMinoriInternazionaleML:
+      description: Model annotazione modificativa rettifica per figlio a seguito cambio generalita genitori
+      properties:
+        attoNascita:
+          $ref: '#/components/schemas/ModelAttoCollegatoML'
+        attoAdozione:
+          $ref: '#/components/schemas/ModelAttoCollegatoML'
+        autoritaMittente: # Nella formula 122-bis.2 l'autorità mittente è quella che invia comunicazione al Comune di trascrizione dell'atto di adozione cartaceo
+          $ref: '#/components/schemas/ModelEnteDichiaranteML'

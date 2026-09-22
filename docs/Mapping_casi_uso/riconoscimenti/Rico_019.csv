@@ -139,7 +139,7 @@
 "Figlio","Indirizzo di residenza","NO","evento.intestatari[0]","indirizzoResidenza","109","obbligatoria"
 "Figlio","flag dichiarante","SI","evento.intestatari[0]","flagDichiarante","","obbligatoria"
 "Figlio","flag comparente","SI","evento.intestatari[0]","flagComparente","","obbligatoria"
-"Figlio","flag firmatario","SI","evento.intestatari[0]","flagFirmatario","","obbligatoria"
+"Figlio","Firmatario","NO","evento.intestatari[0]","flagFirmatario","109","obbligatoria"
 "Figlio","Provincia AIRE","NO","evento.intestatari[0]","idProvinciaAIRE","","obbligatoria"
 "Figlio","Provincia AIRE - Descrizione","NO","evento.intestatari[0]","siglaProvinciaAIRE","109","obbligatoria"
 "Figlio","Comune AIRE","NO","evento.intestatari[0]","idComuneAIRE","","obbligatoria"

@@ -22,6 +22,47 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.53.4 - 22-09-2026]
+
+### Fixed
+
+- [SC] verifica coerenza documentazione e modelevento
+- [WA] 364000 Annotazione di convenzioni matrimoniali: corretto errore in formato data nascita non completo < https://github.com/italia/ansc/issues/3539> <https://github.com/italia/ansc/issues/3320>
+- Casi d'uso di servizio di tipo annotazione: corretta gestione certitifabilità
+- Certificati estratti in tedesco
+- Riconoscimento di figlio maggiorenne con assenso prestato contestualmente e con eventuale scelta del cognome
+- Disattivazione caso d'uso [2.2.1.6] Trascrizione atto di morte pervenuto da comune estero di decesso
+- Certificato internazionale di nascita
+- [WA] Impossibile inserire nuovi allegati su atto di stato civile in presenza di correzioni per errore materiale   <https://github.com/italia/ansc/issues/3831>
+- Errore selezione comune di nascita, in inserimento nuovo soggetto <https://github.com/italia/ansc/issues/3829>
+- [WA] Estratto plurilingue: gestita lista di enunciazioni numerosa <https://github.com/italia/ansc/issues/3823>
+- Gestione annotazione matrimonio in lingua tedesca
+- Gestione sezione interprete a fronte della selezione del flag ausilio interprete: revisione dei casi d'uso <https://github.com/italia/ansc/issues/3858>
+- [WA] Nota tecnica di decreto cambio nome: corretta rigenerazione annotazioni  <https://github.com/italia/ansc/issues/3781>
+- [SC] Richiesta certificato internazionale: aggiunto profilo per emissione certificati "SCCER"; <https://github.com/italia/ansc/issues/3461>
+- [WA] Annotazione per adozione non legittimante: corretto errore di firma remota <https://github.com/italia/ansc/issues/3766>
+- [SC] R005 Aggiunto il dato idsoggettoanpr in Consultazione intestatario <https://github.com/italia/ansc/issues/3865>
+- [WA] Nota tecnica: gestione annotazione coontestuale <https://github.com/italia/ansc/issues/3849>
+- Corretto errore consultazione prefetture
+
+### model_evento.yaml
+
+- Indicata proprietà "flagOmogenitoriale" di tipo string in ModelAttoCollegato come deprecata.
+- Corretto riferimento in ModelAscendenteML.
+- Indicata proprietà "soggettoImpedimento" di tipo string in ModelMatrimonioML come deprecata.
+- Corretto errore nel nome della proprietà segretarioComunaleML in segretarioComunale nel ModelUnioneCivileML.
+- Indicate proprietà "appartenenzaCognomeComune" e "posizioneCognomeComune" di tipo string in ModelUnioneCivileML come deprecate.
+- Aggiunta proprietà "idSoggetto" di tipo string in ModelSoggetto.
+- Coretto errore nella description del campo altraCittadinanzaRiacquistata in ModelDatiEventoCittadinanza.
+- Aggiunta proprietà "altraCittadinanzaRiacquistata" di tipo boolean in ModelTrascrizioneCittadinanza.
+- Aggiunta proprietà "sentenzaMortePresunta" di tipo ModelEnteDichiarante in ModelTrascrizioneMorte.
+- Aggiunte proprietà "idFormatoDataEvento" e "formatoDataEvento" di tipo string in ModelMatrimonio.
+- Indicate proprietà "idFormatoDataEvento" e "formatoDataEvento" di tipo string in ModelUnioneCivile deprecate.
+- Aggiunte proprietà "appartenenzaCognomeComune" e "posizioneCognomeComune" di tipo string in ModelUnioneCivile.
+- Indicata proprietà "procura" di tipo ModelEnteDichiarante in ModelAssistenzaMinori come deprecata.a
+- Aggiunta proprietà mancante "ModelAdozioneMinoriInternazionaleML" con properties: attoNascita, attoAdozione, autoritaMittente.
+- Modificata la nomeclatura dei foglio contenuti nel descrittore del model evento in formato xlsx Tracciato-Evento.xlsx (ora viene aggiunto l'indice prima del nome del foglio)
+
 ## [1.53.3 - 31-08-2026]
 
 ### Fixed
