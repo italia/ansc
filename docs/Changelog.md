@@ -22,6 +22,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.53.5 - 02-10-2026]
+
+### Fixed
+
+- flusso di generazione notifiche di discordanza anagrafica <https://github.com/italia/ansc/issues/3946>
+
 ## [1.53.4 - 22-09-2026]
 
 ### Fixed
