@@ -1,3 +1,45 @@
+#Changelog mappatura casi uso 1.53.6  
+
+## Casi uso aggiunti : 0
+
+## Casi uso rimossi : 0
+
+## Casi uso modificati : 2
+* cittadinanza/Citt_044.csv
+* cittadinanza/Citt_050.csv
+
+### Modifiche per il caso uso cittadinanza/Citt_044.csv : 
+* Rimosso 'Allegati Esito accertamento di cittadinanza'
+
+### Modifiche per il caso uso cittadinanza/Citt_050.csv : 
+* Aggiunto 'Formula 193-bis.4' (riga:4)
+* Presenti modifiche per 'Formula 193.22' (riga:5)
+* Presenti modifiche per 'evento.richiedente.privato.cognome' (riga:70)
+* Presenti modifiche per 'evento.richiedente.privato.sesso' (riga:73)
+* Presenti modifiche per 'evento.richiedente.privato.formatodata' (riga:75)
+* Presenti modifiche per 'evento.richiedente.privato.dataNascita' (riga:76)
+* Presenti modifiche per 'evento.richiedente.privato.nomeStatoNascita' (riga:78)
+* Presenti modifiche per 'evento.richiedente.privato.siglaProvinciaNascita' (riga:80)
+* Presenti modifiche per 'evento.richiedente.privato.nomeComuneNascita' (riga:82)
+* Presenti modifiche per 'evento.richiedente.privato.localitaEsteraNascita' (riga:83)
+* Presenti modifiche per 'evento.richiedente.privato.nazionalita' (riga:85)
+* Presenti modifiche per 'evento.richiedente.privato.tipoImpedimento' (riga:86)
+* Presenti modifiche per 'evento.richiedente.privato.flagIrreperibile' (riga:87)
+* Presenti modifiche per 'evento.richiedente.privato.nomeStatoResidenza' (riga:89)
+* Presenti modifiche per 'evento.richiedente.privato.siglaProvinciaResidenza' (riga:91)
+* Presenti modifiche per 'evento.richiedente.privato.nomeComuneResidenza' (riga:93)
+* Presenti modifiche per 'evento.richiedente.privato.indirizzoResidenza' (riga:94)
+* Presenti modifiche per 'evento.richiedente.privato.flagDichiarante' (riga:95)
+* Presenti modifiche per 'evento.richiedente.privato.flagComparente' (riga:96)
+* Presenti modifiche per 'evento.richiedente.privato.flagFirmatario' (riga:97)
+* Presenti modifiche per 'evento.richiedente.privato.siglaProvinciaAIRE' (riga:99)
+* Presenti modifiche per 'evento.richiedente.privato.nomeComuneAIRE' (riga:101)
+* Presenti modifiche per 'evento.richiedente.entePubblico.siglaProvinciaEnte' (riga:106)
+* Presenti modifiche per 'evento.richiedente.entePubblico.nomeComuneEnte' (riga:108)
+* Presenti modifiche per 'evento.richiedente.entePubblico.nomeAnagraficaConsolato' (riga:110)
+* Presenti modifiche per 'evento.richiedente.entePubblico.comuneEstero' (riga:111)
+
+
 #Changelog mappatura casi uso 1.53.4  
 
 ## Casi uso aggiunti : 0

@@ -2,7 +2,7 @@
 "Allegati","Copia integrale dell'atto di nascita intestatario","SI","","","",""
 "Allegati","Certificato di cittadinanza straniera o Riconoscimento dello status di apolide del minore","SI","","","",""
 "Allegati","Copia integrale dell'atto di nascita del dichiarante","SI","","","",""
-"Allegati","Copia integrale dell'atto di nascita dell'altro genitore","NO","","","","evento.datiEventoCittadinanza.tipoDichiarante,=,3"
+"Allegati","Copia integrale dell'atto di nascita dell'altro genitore","NO","","","",""
 "Allegati","Provvedimento di adozione","NO","","","",""
 "Allegati","Copia dell'atto di riconoscimento","NO","","","",""
 "Allegati","Documentazione comprovante la qualità di tutore","NO","","","",""

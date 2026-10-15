@@ -162,6 +162,10 @@ components:
           properties:         
             firmaInput:
                 $ref: '#/components/schemas/FirmaInput'
+            forcingCode:
+              type: string
+              description: codice di forzatura
+              example: 'XXXXX_1234'
     FirmaDmnmInput:
       required:
       - idDmnmDocumento
@@ -185,7 +189,6 @@ components:
           properties:         
             firmaInput:
                 $ref: '#/components/schemas/FirmaDmnmInput'
-               
     FirmaResponse:
       description: Risposta del servizio per la firma dell' Ufficiale di Stato Civile
       allOf:
@@ -196,6 +199,10 @@ components:
               type: integer
               description: Esito della firma
               example: 0
+            forcingCode:
+              type: string
+              description: codice di forzatura
+              example: 'XXXXX_1234'
     FirmaAttestazioneRequest:
       description: Richiesta del servizio per la firma dell'attestazione di conformita'
       allOf:

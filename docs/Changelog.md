@@ -22,6 +22,31 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.53.6 - 15-10-2026]
+
+### Fixed
+
+- [WA] UC 5.2.1.5.5 Riconoscimento di cittadinanza jure sanguinis per decreto di autorita' giudiziaria: corretta gestione firmatario in caso di richiesta scritta/varbale; corretta composizione generata automaticamente dalla Web App 
+- Corretti estratti in lingua tedesca
+- [SC/WA] Aggiornamento Descrizione usecase e aggiunta tipo allegato per UC 1333 per la gestione di un provvedimento da prefettura o tribunale
+- Corretto cruscotto monitoraggio conservazione
+- [WA/SC] Riconciliazione intestatario: corretta anomalia nei casi d'uso di adozione <https://github.com/italia/ansc/issues/3900>
+- [WA] Certificato internazionale: gestione etichette molto lunghe <https://github.com/italia/ansc/issues/3895>
+- [WA/SC] Corretto certificato nascita con menzione paternità/maternità a seguito di adozione non legittimante <https://github.com/italia/ansc/issues/3766>
+- [SC] Corretta formula applicata per annotazione di cittadinanza su atto di nascita <https://github.com/italia/ansc/issues/3909>
+- [WA] Corretta minuta dell'atto nei casi d'uso 1312 e 331000: eliminata menzione e (ove prevista) alla legalizzazione <https://github.com/italia/ansc/issues/3920>
+- [SC] Corretta anteprima per presa visione in merito ai firmatari elettronici / cartacei <https://github.com/italia/ansc/issues/3940>
+- [SC] R007 Aggiornata documentazione in merito al forcingCode<https://github.com/italia/ansc/issues/3931>
+- [SC] Corretta consultazione evento a seguito di riconciliazione soggetto intesttario <https://github.com/italia/ansc/issues/3953>
+- [WA/SC] Prestazione di giuramento a seguito di decreto (con impedimenti): eliminato allegato obbligatorio esito dell'accertamento <https://github.com/italia/ansc/issues/3883>
+- [WA/SC] Dichiarazione di volontà per acquisto cittadinanza: reso opzionale l'allegato atto di nascita dell'altro genitore <https://github.com/italia/ansc/issues/3021>
+- [SC] Corretta incongruenza tra nome/cognome operatore e codice fiscale operatore <https://github.com/italia/ansc/issues/3951>
+- [WA] raggiungibilità pagina privacy e note legali.
+
+### [R007_firma_usc.yaml]
+
+- Aggiunta proprietà mancante forcingCode in FirmaRequest e FirmaResponse
+
 ## [1.53.5 - 02-10-2026]
 
 ### Fixed
