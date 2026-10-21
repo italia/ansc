@@ -22,6 +22,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.53.7 - 21-10-2026]
+
+### Fixed
+ 
+- [SC/WA] Correzione anteprima annotazione automatiche <https://github.com/italia/ansc/issues/3999>
+
 ## [1.53.6 - 15-10-2026]
 
 ### Fixed
