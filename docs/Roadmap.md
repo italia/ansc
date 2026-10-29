@@ -3,7 +3,7 @@
 Questo documento descrive le principali attività che verranno rilasciata nelle future versioni del software di ANSC.
 Le date e la composizione degli interventi potrebbero subire variazioni.
 
-## [1.54.0 - 29-10-2026]
+## [1.54.0 - XX-11-2026]
 
 - ID 348 Matrimonio concordatario prima della conclusioni delle pubblicazioni
 - ID 349 Revisione annotazione adozione
