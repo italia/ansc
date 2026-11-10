@@ -1,3 +1,5 @@
 "ID","DESCRIZIONE","DATAINIZIOVALIDITA","DATAFINEVALIDITA","ORDINAMENTO"
-"1","Sentenza straniera immediatamente riconosciuta","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","1"
-"2","Convalida come affidamento pre adottivo","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","2"
+"1","Adozione legittimante ex art. 25 legge n. 184/1983","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","1"
+"2","Adozione legittimante ex art. 35 legge n. 184/1983","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","2"
+"3","Adozione legittimante ex art. 36 legge n. 184/1983","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","3"
+"4","Trascrizione di provvedimento straniero di adozione immediatamente riconosciuto dall'Ufficiale dello stato civile ai sensi degli artt. 64 e seguenti della legge n. 218/1995","2000-01-01 00:00:00.0","9999-12-31 00:00:00.0","4"

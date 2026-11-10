@@ -22,6 +22,48 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.54.0 - 10-11-2026]
+
+### Added
+
+- [versione] Aggiunta versione 100035
+- [feature] ID 348 Matrimonio prima della conclusioni delle pubblicazioni: evoluzione casi d'uso matrimonio
+- [feature] ID 352 Trascrizione art. 19 matrimonio tra due persone dello stesso sesso (nuovo caso d'uso 3.3.8.0.0.0 Trascr_Matr_007)
+- [feature] ID 349 Revisione annotazione adozione: gestione diverse tipologie di sentenze
+- [feature] ID 356 Aggiornamento riconciliazione: gestione nomi con la virgola
+- [feature] ID 355 Revisione del flusso di conferma notifiche indipendentemente dalla rettifica dell'atto che le ha generate
+- [feature] ID 350 Gestione tastierino diacritici su Web App ANSC (<https://github.com/italia/ansc/issues/1278>, <https://github.com/italia/ansc/issues/1288>)
+
+- [decodifiche] Aggiornata decodifica DEC_TIPO_FORMULA_NON_SECRETATO (ANSC_119) per ID 349
+- [decodifiche] Aggiornata decodifica DEC_TIPO_FORMULA_SECRETATO (ANSC_120) per ID 349
+- [decodifiche] Aggiornata decodifica DEC_TIPO_SENTENZA_ADOZIONE (ANSC_136) per ID 349
+- [decodifiche] Aggiornata decodifica DEC_DATI_ADOZIONE_MINORE_INTERNAZIONALE (ANSC_108) per ID 349
+
+### model_evento.yaml
+
+- Aggiunta proprietà "senzaPubblicazioni" di tipo boolean in ModelMatrimonio (ID 348).
+- Aggiunta proprietà "pubblicazioniInCorso" di tipo boolean in ModelMatrimonio (ID 348).
+- Aggiunta proprietà "opposizioneInCorso" di tipo boolean in ModelMatrimonio (ID 348).
+- Aggiunta proprietà "dataInizioAffissioneMatrimonio" di tipo string e format date in ModelMatrimonio (ID 348).
+- Aggiunta proprietà "dataFineAffissioneMatrimonio" di tipo string e format date in ModelMatrimonio (ID 348).
+- Aggiunta proprietà "dataNotificaOpposizione" di tipo string e format date in ModelMatrimonio (ID 348).
+- Aggiunta proprietà "descrizioneOpposizione" di tipo string in ModelMatrimonio (ID 348).
+
+### Fixed
+
+- [SC/WA] Corretto caso d'uso [3.4.7.0.0.0] Trascrizione provvedimenti esteri in materia matrimoniale: aggiunta gestione sola età degli sposi
+- [SC/WA] corretta minuta dell'annotazione automatica derivante da un divorzio
+ <https://github.com/italia/ansc/issues/3890>
+ - [WA/SC] Aggiunta sezione allegati nel caso d'uso "Esito di accertamento per articolo 4 comma 1-bis e art. 1.1 ter da consolato" <https://github.com/italia/ansc/issues/3888>
+ - [WA/SC] Trascrizione Sentenza Straniera cambio di sesso: corretta la configurazione della certificazione posssibile in modo da emettere il solo estratto integrale <https://github.com/italia/ansc/issues/3816>
+ - [SC/WA] Corretta l'annotazione automatica a seguito di nota tecnica  <https://github.com/italia/ansc/issues/3957>
+ - [SC/WA] 1.3.5.2 Trascrizione del provvedimento straniero di adozione di minore riconosciuto valido dal tribunale dei minori (convenzione aja 29.5.1993): corretta annotazione automatica generata
+ - [SC] Corretta anteprima atto in presenza di annotazioni automatiche <https://github.com/italia/ansc/issues/3999> e <https://github.com/italia/ansc/issues/4000>
+ - [WA] UC  [3.6.4.0.0.0] Annotazione di convenzioni matrimoniali: resa editabile la residenza degli sposi per poterla modificare <https://github.com/italia/ansc/issues/3998>
+ - [SC] Corretto errore in caso d'uso di cambio cognome a seguito di riconoscimento paterno per  soggetto maggiorenne in caso di scelta di aggiungere il cognome paterno a quello materno <https://github.com/italia/ansc/issues/4027>
+ - [Documentazione] Corretta documentazione nel changelog della versione '1.53.0': la voce relativa all'aggiunta del campo "rettificaAnnotazioneComposizioneCompleta" era stata indicata erroneamente come "annotazioneRettificaComposizioneCompleta" <https://github.com/italia/ansc/issues/4029>
+ - [WA] Cruscotto monitoraggio conservazione (Correzioni sulla gestione degli errori per RdV)
+
 ## [1.53.7 - 21-10-2026]
 
 ### Fixed

@@ -2814,6 +2814,37 @@ components:
           type: string
           description: valore esplicito acceduto tramite decodifica del formato data evento.
           example: 'Completa'
+        senzaPubblicazioni:
+          type: boolean
+          description: Se il matrimonio prevede omissione della pubblicazione
+          example: false
+        pubblicazioniInCorso:
+          type: boolean
+          description: se le pubblicazioni sono ancora in corso
+          example: false
+        opposizioneInCorso:
+          type: boolean
+          description: Se ci sono opposizioni in corso
+          example: false
+        dataInizioAffissioneMatrimonio:
+          type: string
+          format: date
+          description: Data inizio affissione del matrimonio
+          example: '2022-04-30'
+        dataFineAffissioneMatrimonio:
+          type: string
+          format: date
+          description: Data fine affissione del matrimonio
+          example: '2022-04-30'
+        dataNotificaOpposizione:
+          type: string
+          format: date
+          description: Data notifica opposizione
+          example: '2022-04-30'
+        descrizioneOpposizione:
+          type: string
+          description: Descrizione opposizione
+          example: 'opposizione'
     ModelUnioneCivile:
       properties:
         luogoCelebrazione:
