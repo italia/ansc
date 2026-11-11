@@ -22,6 +22,12 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.54.1 - 12-11-2026]
+
+### Added
+
+- R001, documentata lunghezza minima (1) e massima (256) per il campo hash.
+
 ## [1.54.0 - 10-11-2026]
 
 ### Added

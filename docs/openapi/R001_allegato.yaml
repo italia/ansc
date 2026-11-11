@@ -191,9 +191,11 @@ components:
           description: Tipo dell'allegato (codificato ANSC_9)
           example: "1"
         hash:
-          description: "Hash del file calcolato dal sistema (nota: definire l'algoritmo, per es: SHA1)"
+          description: "Hash dell'allegato calcolato dal sistema."
           type: string
-          example: "21d305c42509"
+          minLength: 1
+          maxLength: 256
+          example: "3df79d34abbca99308e79cb94461c1893582604d68329a41fd4bec1885e6adb4"
         codice:
           type: string
           description: codice
