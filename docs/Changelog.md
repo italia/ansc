@@ -22,6 +22,18 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.54.2 - 17-11-2026]
+
+### Fixed
+
+- [WA] Caso d'uso cittadinanza 52711: corretta composizione automatica <https://github.com/italia/ansc/issues/4056> <https://github.com/italia/ansc/issues/4058>
+- [SC] Atto di cittadinanza a seguito di riconoscimento di minorenne, nel frattempo diventato maggiorenne: corretto controllo sull'età da desumere dalla sentenza <https://github.com/italia/ansc/issues/3922>
+- [SC/WA] Corrette annotazioni di adozione non legittimante o maggiorenni pre renderle visibili anche sugli estratti per riassunto; aggiunto controllo che l'atto di adozione sia non legittimante 
+- [WA] Annotazione per adozione di maggiorenne o casi particolari multi intestatario: corretto controllo relativo all'atto di adozione <https://github.com/italia/ansc/issues/4084> <https://github.com/italia/ansc/issues/4120>
+- [SC] Correttto errrore servizio di certificazione per evitare di certificare un atto annullato   <https://github.com/italia/ansc/issues/4091>
+- [WA/SC] Certificati internazionali, enunciazioni matrimonio: corretto errore 'Soggetto non trovato tra i coniugi' <https://github.com/italia/ansc/issues/4051>
+- [WA] Corretta nota tecnica per consentire di modificare la data di conferma accordo di separazione anche come data precedente <https://github.com/italia/ansc/issues/4126>
+
 ## [1.54.1 - 12-11-2026]
 
 ### Added
