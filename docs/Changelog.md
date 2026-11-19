@@ -22,6 +22,13 @@ NOTE:
 
 ## [Unreleased]
 
+## [1.54.3 - 19-11-2026]
+
+### Fixed
+
+- [documentazione] ID 352 Trascrizione art. 19 matrimonio tra due persone dello stesso sesso (nuovo caso d'uso 3.3.8.0.0.0 Trascr_Matr_007) <https://github.com/italia/ansc/issues/4134> <https://github.com/italia/ansc/issues/4149>
+
+
 ## [1.54.2 - 17-11-2026]
 
 ### Fixed
